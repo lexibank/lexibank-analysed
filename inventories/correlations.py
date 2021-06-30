@@ -90,10 +90,17 @@ features = {
         "1A": "ConsonantSize",
         "2A": "VowelQualitySize",
         "3A": "CVRatio",
+        "4A": "PlosiveFricativeVoicing",
         "5A": "PlosiveVoicingGaps",
         "6A": "UvularConsonants",
+        "7A": "GlottalizedConsonants",
+        "8A": "HasLaterals",
+        #"9A": "HasEngma",
         "10A": "HasNasalVowels",
-        "7A": "GlottalizedConsonants"
+        "11A": "HasRoundedVowels",
+        #"12A": "SyllableComplexity",
+        "18A": "LacksCommonConsonants",
+        "19A": "HasUncommonConsonants",
         }
 
 for f, fid in features.items():
