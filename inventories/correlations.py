@@ -58,7 +58,7 @@ for gcode in progressbar(phoibledata):
                 by_gcode[gcode]["phoible"] = {lid: language}
 
 ## get the datasets
-lexicore = Wordlist.from_datasets(datasets_by_id(
+lexicore = Wordlist(datasets=datasets_by_id(
     *[x.strip() for x in open("datasets.txt").readlines()],
     path="data/*/cldf/cldf-metadata.json"))
 for language in lexicore.languages:
