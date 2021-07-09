@@ -1,0 +1,3 @@
+include LICENSE
+graft lexibankstudy
+global-exclude *.py[co]

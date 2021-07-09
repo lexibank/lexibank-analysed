@@ -1,0 +1,108 @@
+Organization	Dataset	EDICTOR	Todo	ClicsCore	LexiCore	CogCore	ProtoCore	Other	CLTS	CLTSVersion	CLDFBench	Conceptlist	CheckPhonotactics	CheckedAuthors	License	Version	Warnings	CheckedBy	DoubleCheckBy
+lexibank	aaleykusunda				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	
+lexibank	abrahammonpa				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
+lexibank	allenbai			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
+lexibank	asjp		profile needs fixes					x		2.1.0	x	x	x	x	CC-BY-4.0			Christoph	
+lexibank	backstromnorthernpakistan		make public		x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	bantubvd			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0			Mattis	
+lexibank	bdpa				x	x			100	2.1.0	x		x	x	CC-BY-4.0		-	Mattis	
+lexibank	beidasinitic	x		x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v4.0	-	Mattis	
+lexibank	birchallchapacuran				x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+sequencecomparison	blustaustronesian				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	bodtkhobwa			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
+lexibank	bowernpny			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v3.0	dups in ortho profile	Mattis	
+lexibank	bowerntasmanian							x			x	x			CC-BY-4.0		-	Christoph	
+lexibank	cals				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
+lexibank	carvalhopurus				x	x	x		100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	castrosui			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
+lexibank	castroyi			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	castrozhuang			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	chaconarawakan				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	
+lexibank	chaconbaniwa				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	
+lexibank	chaconcolumbian				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	
+lexibank	chacontukanoan				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Christoph	Mattis
+lexibank	chenhmongmien	x		x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.1.0	-	Mattis	
+lexibank	chindialectsurvey			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	chingelong				x				100	2.1.0	x	x	x	x	CC-BY-4.0		-		
+lexibank	clarkkimmun				x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+clics	clics1-cldf		refine mapping for bookkeeping glottolog languages	x						 	x	x		x	CC-BY-4.0	v1.1	bookkeeping glottolog languages	Mattis	
+lexibank	constenlachibchan	x		 	x	x			100	2.1.0	x				CC-BY-4.0	v0.1		Mattis	
+lexibank	davletshinaztecan			x	x	x	x		100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	deepadungpalaung	x		x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	diacl			x							x	x			CC-BY-4.0	v2.0	-	Mattis	
+lexibank	dravlex			 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	dunnaslian				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+sequencecomparison	dunnielex				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	duonglachi				x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	dyenindoeuropean							x			x	x		x	CC-BY-4.0		-	Christoph	
+lexibank	felekesemitic				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	galuciotupi				x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	
+digling	gaotb				x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	gerarditupi			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	
+lexibank	halenepal			x	x				100		x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
+lexibank	hantganbangime			x	x				100		x		x	x	CC-BY-4.0		-	Mattis	
+sequencecomparison	hattorijaponic			 	x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	hillburmish		pending																
+sequencecomparison	houchinese			 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	hsiuhmongmien			x	x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	hubercolumbian			x	x				100		x	x	x	x	CC-BY-4.0	v3.0	-	Mattis	
+lexibank	huntergatherer			x							x	x		x	CC-BY-4.0		Form column needs additional cleaning	Christoph	
+intercontinental-dictionary-series	ids		some errors should be checked (see code warnings)	x							x	x		x	CC-BY-4.0	v4.0	some mismatchd forms	Mattis	
+lexibank	ivanisuansu				x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	johanssonsoundsymbolic			x	x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	joophonosemantic			 	x				100	2.1.0	x	x	x	x	CC-BY-4.0			Mattis	
+sequencecomparison	kesslersignificance			 	x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	kleinewillinghoeferbikwinjen				x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	kraftchadic			x	x				100		x	x	x	x	CC-BY-4.0	v3.0	-	Christoph	
+lexibank	leejaponic			 	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	leeainu				x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	bremerberta				x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	leekoreanic				x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	lieberherrkhobwa			 	x	x			100		x	x	x	x	CC-BY-4.0	v0.1.2	-	Mattis	
+intercontinental-dictionary-series	lindseyende			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+sequencecomparison	listsamplesize			x	x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	liusinitic		make public		x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	lundgrenomagoa				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	mannburmish			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	marrisonnaga			x	x	 	 		100	2.1.0	x	x	x	x	CC-BY-4.0		warning for concepts	Mattis	
+lexibank	mcelhanonhuon				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	mitterhoferbena			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
+lexibank	naganorgyalrongic			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	nagarajakhasian				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	northeuralex			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0				
+lexibank	peirosaustroasiatic				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	pharaocoracholaztecan				x	x	x		100	2.1.0	x	x	x	x	CC-BY-4.0		-	Christoph	Mattis
+lexibank	polyglottaafricana			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	ratcliffearabic				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	Christoph
+lexibank	robinsonap			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	saenkoromance			 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	sagartst			 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	satterthwaitetb			x							x	x		x	CC-BY-4.0				
+lexibank	savelyevturkic				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Christoph	
+digling	servamalagasy				x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	sidwellbahnaric				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	simsrma				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	sohartmannchin			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	starostinhmongmien		check profile, compare with other HM data			x				2.1.0					CC-BY-4.0		-	Christoph	
+sequencecomparison	starostinpie			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	suntb			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	syrjaenenuralic				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	tls			x							x	x		x	CC-BY-4.0		-	Mattis	Christoph
+lexibank	tppsr							x	100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	transnewguineaorg		concepticon 2.5 integration has problems	x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+tupian-language-resources	tuled	x	concepticon 2.5	x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+intercontinental-dictionary-series	visserkalamang			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	walworthpolynesian				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	wangbai			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	wangbcd							x			x	x		x	CC-BY-4.0			Christoph	
+lexibank	wanghmongmien							x	100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	wichmannmixezoquean				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Christoph	Mattis
+lexibank	wold			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0			Christoph	
+lexibank	yanglalo			x	x	x	x		100	2.1.0	x	x	x	x	CC-BY-4.0		-	Christoph	Mattis
+lexibank	yangyi		make public	x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+intercontinental-dictionary-series	yuchinese			x	x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	zgraggenmadang			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	zhaobai				x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+sequencecomparison	zhivlovobugrian			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	zhoubizic	x	concepticon 2.6	x	x	(x)	(x)		100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	logos			x							x	x		x	CC-BY-4.0		-	Mattis	
