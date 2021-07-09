@@ -35,5 +35,5 @@ python commands/plot_lexicore.py lexicore.json
 Create plot of a feature:
 
 ```
-python commands/plot_phoneme_feature.py lexicore.json SyllableComplexity
+python commands/plot_discrete_pfeature.py lexicore.json SyllableComplexity
 ```
