@@ -17,23 +17,23 @@ pip install -e ./
 Download the data (git):
 
 ```
-python commands/download.py
+lexibank download --destination=datasets
 ```
 
 Assemble phoneme features in file lexicore.json:
 
 ```
-python commands/inventory.py
+lexibank inventory
 ```
 
 Create plot of data in lexicore:
 
 ```
-python commands/plot_lexicore.py lexicore.json
+lexibank plot_lexicore --lexicore=lexicore.json
 ```
 
 Create plot of a feature:
 
 ```
-python commands/plot_phoneme_feature.py lexicore.json SyllableComplexity
+lexibank plot_discrete_pfeature --filename=plots/HasLaterals.pdf --feature=HasLaterals --colormap=SequentialOrRd3 --lexicore=lexicore.json
 ```
