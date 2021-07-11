@@ -12,11 +12,15 @@ setup(
     keywords='',
     license='MIT',
     url='https://github.com/lexibank/lexibank-study',
-    packages=find_packages(where='./'),
-    package_dir={'lexibank': ''},
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,
-    entry_points={},
+    entry_points={
+        "console_scripts": [
+            "lexibank=lexibank.__main__:main",
+            ],
+        },
     platforms='any',
     python_requires='>=3.5',
         install_requires=[
@@ -28,7 +32,7 @@ setup(
         'csvw>=1.6',
         'pycldf',
         'uritemplate',
-        'lingpy>=2.6.5',
+        'lingpy>=2.6.8',
         'pyclts>=3.1'
     ],
     extras_require={

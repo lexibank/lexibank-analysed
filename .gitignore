@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
-lexibank/datasets/*
+BAK/*
+datasets/*
 inventories/data/*
 __pycache__/
 *.py[cod]

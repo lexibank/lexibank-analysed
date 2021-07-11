@@ -46,18 +46,48 @@ RIVERS = NaturalEarthFeature('physical', 'rivers_lake_centerlines', '50m',
                              edgecolor=COLORS['water'],
                              facecolor='none')
 
-
+"""
+Colormaps from ColorBrewer2.org
+"""
 CMAP = {
-        1: "#a6cee3",
-        2: "#1f78b4",
-        3: "#b2df8a",
-        4: "#33a02c",
-        5: "#fb9a99",
-        6: "#e31a1c",
-        7: "#fdbf6f",
-        8: "#ff7f00",
-        9: "#cab2d6",
-        10: "#6a3d9a",
-        11: "#ffff99",
-        12: "#b15928",
+        "base": {
+            1: "#a6cee3",
+            2: "#1f78b4",
+            3: "#b2df8a",
+            4: "#33a02c",
+            5: "#fb9a99",
+            6: "#e31a1c",
+            7: "#fdbf6f",
+            8: "#ff7f00",
+            9: "#cab2d6",
+            10: "#6a3d9a",
+            11: "#ffff99",
+            12: "#b15928"
+        },
+        "SequentialOrRd3": {
+            1: "#fee8c8",
+            2: "#fdbb84",
+            3: "#e34a33"
+            },
+        "SequentialOrRd4": {
+            1: "#fef0d9",
+            2: "#fdcc8a",
+            3: "#fc8d59",
+            4: "#d7301f"
+            },
+        "SequentialOrRd5": {
+            1: "#fef0d9",
+            2: "#fdcc8a",
+            3: "#fc8d59",
+            4: "#e34a33",
+            5: "#b30000",
+            },
+        "SequentialOrRd6": {
+            1: "#fef0d9",
+            2: "#fdd49e",
+            3: "#fdbb84",
+            4: "#fc8d59",
+            5: "#e34a33",
+            6: "#b30000"
+            },
 }
