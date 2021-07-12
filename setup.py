@@ -26,7 +26,7 @@ setup(
         install_requires=[
         'pylexibank',
         'attrs>=18.2',
-        'cldfbench>=1.2.3',
+        'cldfbench[excel]>=1.2.3',
         'clldutils>=3.5',
         'cldfcatalog>=1.3',
         'csvw>=1.6',
@@ -34,6 +34,9 @@ setup(
         'uritemplate',
         'lingpy>=2.6.8',
         'pyclts>=3.1'
+        'cartopy',
+        'pillow',
+        'matplotlib'
     ],
     extras_require={
         'dev': ['flake8', 'wheel', 'twine'],
