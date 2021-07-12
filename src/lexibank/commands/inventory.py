@@ -7,8 +7,17 @@ from cltoolkit.features.collection import feature_data, FeatureCollection
 import lexibank
 
 
+def register(parser):
+    parser.add_argument(
+        "--datadir",
+        help="destination of your datasets",
+        action="store",
+        default="datasets"
+        )
+
+
 def run(args):
-    lexicore = Wordlist(datasets=lexibank.lexicore_data())
+    lexicore = Wordlist(datasets=lexibank.lexicore_data(args.datadir))
     fc = FeatureCollection.from_data(feature_data())
     data = {}
     warnings = {}

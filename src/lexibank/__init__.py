@@ -7,23 +7,23 @@ __version__ = "0.1.0.dev0"
 
 pkg_path = Path(__file__).parent
 
-def lexicore_data(datasets):
+def lexicore_data(datadir):
     """
     Load all datasets currently defined as lexicore datasets.
     """
     with open(pkg_path.joinpath("data", "lexicore.txt")) as f:
         datasets = [row.strip() for row in f.readlines()]
-    return [Dataset.from_metadata(pkg_path.joinpath(datasets, ds, "cldf",
+    return [Dataset.from_metadata(Path(datadir, ds, "cldf",
         "cldf-metadata.json")) for ds in datasets]
 
 
-def clics_data(datasets):
+def clics_data(datadir):
     """
     Load all datasets currently defined as CLICS datasets.
     """
     with open(pkg_path.joinpath("data", "clics.txt")) as f:
         datasets = [row.strip() for row in f.readlines()]
-    return [Dataset.from_metadata(pkg_path.joinpath(datasets, ds, "cldf",
+    return [Dataset.from_metadata(Path(datadir, ds, "cldf",
         "cldf-metadata.json")) for ds in datasets]
 
 
@@ -31,4 +31,4 @@ class LexiBank(API):
 
     def __init__(self, repos=None, datasets=None):
         API.__init__(self, repos)
-        self.datasets = datasets
+        self.datadir = datasets
