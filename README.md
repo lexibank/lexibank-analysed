@@ -22,13 +22,25 @@ lexibank download --destination=datasets
 Assemble phoneme features in file lexicore.json:
 
 ```
-lexibank inventory
+lexibank inventory --datadir=datasets
+```
+
+Assemble lexical features in file clics.json:
+
+```
+lexibank lexicon --datadir=datasets
 ```
 
 Create plot of data in lexicore:
 
 ```
-lexibank plot_lexicore --lexicore=lexicore.json
+lexibank plot_collection --datafile=lexicore.json --filename=plots/lexicore-data.pdf
+```
+
+Create plot of data in clics:
+
+```
+lexibank plot_collection --datafile=clics.json --filename=plots/clics-data.pdf
 ```
 
 Create plot of a feature:

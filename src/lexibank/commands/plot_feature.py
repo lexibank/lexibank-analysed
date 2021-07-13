@@ -13,6 +13,8 @@ import numpy as np
 import json
 from matplotlib import cm
 
+from cltoolkit.features.collection import FeatureCollection, feature_data
+
 from lexibank.cartopy import (
         LAND, OCEAN, COASTLINE, BORDERS, LAKES, RIVERS, CMAP)
 from lexibank import pkg_path
@@ -58,10 +60,31 @@ def register(parser):
         action="store",
         default="base"
         )
+    parser.add_argument(
+        "--dpi",
+        help="DPI for the plot",
+        action="store",
+        type=int,
+        default=900
+        )
 
 
 def run(args):
     data = json.load(open(args.datafile))
+
+    # get feature collection and feature data
+    fc = FeatureCollection.from_data(feature_data())
+    
+    # check if feature exists
+    features = list(data.values())[0]["features"]
+    if not args.feature in features:
+        raise ValueError("feature not available in data")
+    elif not args.feature in [f.id for f in fc.features]:
+        raise ValueError("feature not described in cltoolkit")
+
+    # retrieve feature data
+    feature = fc.features[args.feature]
+
     fig = plt.figure(figsize=[20, 10])
     ax = fig.add_subplot(1, 1, 1, projection=ccrs.PlateCarree())
     
@@ -72,8 +95,9 @@ def run(args):
     ax.add_feature(BORDERS, linestyle=':')
     ax.add_feature(LAKES, alpha=0.5)
     ax.add_feature(RIVERS)
-    
-    if args.continuous:
+
+    # check for continuous features
+    if feature.type in ["float", "integer"]:
         colormap = getattr(cm, args.colormap, cm.jet)
 
         # assemble values to get them arranged
@@ -114,12 +138,16 @@ def run(args):
                 [str(round(targets[0], 2)), str(round((targets[5]+targets[6])/2, 2)),
                     str(round(targets[-1], 2))]
                 )
-    else:
+    
+    elif feature.type == "categorical":
+        
+        # get dictionary of feature categories for the legend
+        categories = {int(k): v for k, v in feature.categories.items()}
         colormap = CMAP.get(args.colormap, CMAP["base"])
         values = set()
         for language in sorted(data.values(), key=lambda x: x["features"]["concepts"]):
             value = language["features"][args.feature]
-            color = CMAP[args.colormap][value]
+            color = colormap[value]
             values.add(value)
             try:
                 ax.plot(
@@ -134,8 +162,35 @@ def run(args):
                 args.log.warning(language.dataset, language.name)
         
         for v in values:
-            plt.plot(-100, -100, "o", markersize=10, color=CMAP[args.colormap][v], label=str(v))
+            plt.plot(
+                    -100, -100, "o", markersize=10,
+                    color=colormap[v], label=categories[v])
+        plt.legend(loc=4)
+    elif feature.type == "bool":
+        colormap = CMAP.get(
+                "bool", 
+                {True: "crimson", False: "CornFlowerBlue", None: "0.5"}
+                )
+        categories = {{"true": True, "false": False, "null": None}[k]: v for k, v in feature.categories.items()}
+        for language in sorted(data.values(), key=lambda x: x["features"]["concepts"]):
+            value = language["features"][args.feature]
+            color = colormap[value]
+            try:
+                ax.plot(
+                        language["longitude"],
+                        language["latitude"],
+                        marker="o",
+                        color=color,
+                        zorder=10,
+                        markersize=args.markersize
+                        )
+            except TypeError:
+                args.log.warning(language.dataset, language.name)
+        for v in [True, False, None]:
+            plt.plot(
+                    -100, -100, "o", markersize=10,
+                    color=colormap[v], label=categories[v])
         plt.legend(loc=4)
 
-    plt.savefig(args.filename, dpi=900)
+    plt.savefig(args.filename, dpi=args.dpi)
 

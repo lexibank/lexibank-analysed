@@ -20,14 +20,20 @@ from sys import argv
 
 def register(parser):
     parser.add_argument(
-        '--lexicore',
+        '--datafile',
         help='location of lexicore dataset file',
         action='store',
         default="lexicore.json"
     )
+    parser.add_argument(
+        '--filename',
+        help="name for the file to store",
+        action="store",
+        default="plot.pdf"
+        )
 
 def run(args):
-    data = json.load(open(args.lexicore))
+    data = json.load(open(args.datafile))
     fig = plt.figure(figsize=[20, 10])
     ax = fig.add_subplot(1, 1, 1, projection=ccrs.PlateCarree())
     
@@ -75,6 +81,6 @@ def run(args):
     
     
     plt.legend(loc=4)
-    plt.savefig(pkg_path.parent.joinpath("plots", "lexicore.pdf").as_posix(), dpi=900)
+    plt.savefig(args.filename, dpi=900)
 
 
