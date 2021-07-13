@@ -21,14 +21,18 @@ def run(args):
             data += [row]
 
     for row in data:
-        args.log.info("Downloading {0}".format(row["Dataset"]))
-        try:
-            Repo.clone_from(
-                    "https://github.com/{0}/{1}.git".format(
-                        row["Organization"],
-                        row["Dataset"]
-                        ),
-                    Path(args.destination, row["Dataset"]).as_posix()
-                    )
-        except GitCommandError:
-            args.log.info("... dataset already exists.")
+        args.log.info("Checking {0}".format(row["Dataset"]))
+        if row["LexiCore"].strip() or row["ClicsCore"].strip():
+            args.log.info("... cloning {0}".format(row["Dataset"]))
+            try:
+                Repo.clone_from(
+                        "https://github.com/{0}/{1}.git".format(
+                            row["Organization"],
+                            row["Dataset"]
+                            ),
+                        Path(args.destination, row["Dataset"]).as_posix()
+                        )
+            except GitCommandError:
+                args.log.info("... dataset already exists.")
+        else:
+            args.log.info("... skipping dataset.")
