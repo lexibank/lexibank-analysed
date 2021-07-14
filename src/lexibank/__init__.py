@@ -11,8 +11,8 @@ def lexicore_data(datadir):
     """
     Load all datasets currently defined as lexicore datasets.
     """
-    with open(pkg_path.joinpath("data", "lexicore.txt")) as f:
-        datasets = [row.strip() for row in f.readlines()]
+    with open(pkg_path.joinpath("data", "lexicore_test.txt")) as f:
+        datasets = [row for row in (row.strip() for row in f) if row]
     return [Dataset.from_metadata(Path(datadir, ds, "cldf",
         "cldf-metadata.json")) for ds in datasets]
 
