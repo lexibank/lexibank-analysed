@@ -32,7 +32,10 @@ def run(args):
                             ),
                         Path(args.destination, row["Dataset"]).as_posix()
                         )
-            except GitCommandError:
-                args.log.info("... dataset already exists.")
+            except GitCommandError as e:
+                if 'already exists and is not an empty directory' in str(e):
+                    args.log.info("... dataset already exists.")
+                else:
+                    args.log.error("... download failed\n{}".format(str(e)))
         else:
             args.log.info("... skipping dataset.")
