@@ -9,11 +9,6 @@ import json
 def register(parser):
     add_format(parser, default='pipe')
     parser.add_argument(
-        '--columns',
-        help='list information on columns',
-        action='store_true'
-    )
-    parser.add_argument(
         '--datafile',
         help="the file storing the feature data",
         action="store",
@@ -51,6 +46,9 @@ def run(args):
                     '{0[0]}-{0[1]}: {0[2]}'.format(fvals[-1])
                     ])
     else:
-        with Table(args, "Feature", "Description") as table:
-            for feature in features:
-                table.append([feature, fc.features[feature].name])
+        with Table(args, "Number", "Feature", "Description", "Type", "Note") as table:
+            for i, feature in enumerate(sorted(features)):
+                table.append([
+                    i+1, feature, fc.features[feature].name,
+                    fc.features[feature].type,
+                    fc.features[feature].note])

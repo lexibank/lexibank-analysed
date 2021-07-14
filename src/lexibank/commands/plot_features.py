@@ -120,6 +120,17 @@ def run(args):
             colorA = colormapA[valueA]
             valueB = language["features"][args.featureB]
             colorB = colormapB[valueB]
+            
+            if valueA and valueB:
+                zorder = 60
+            elif valueA or valueB:
+                zorder = 50
+            elif valueA is not None and valueB is not None:
+                zorder = 40
+            elif valueA is not None or valueB is not None:
+                zorder = 30
+            else:
+                zorder = 20
         
             try:
                     wedgeAB = Wedge(
@@ -129,7 +140,7 @@ def run(args):
                         360,
                         facecolor="white",
                         transform=data_crs,
-                        zorder=50,
+                        zorder=zorder-5,
                         edgecolor="black",
                         alpha=0.75
                     )
@@ -140,7 +151,7 @@ def run(args):
                         270,
                         facecolor=colorA, 
                         transform=data_crs,
-                        zorder=50,
+                        zorder=zorder,
                         edgecolor="black",
                     )
                     wedgeB = Wedge(
@@ -150,7 +161,7 @@ def run(args):
                         90,
                         facecolor=colorB,
                         transform=data_crs,
-                        zorder=50,
+                        zorder=zorder,
                         edgecolor="black",
                     )
                     ax.add_patch(wedgeAB)

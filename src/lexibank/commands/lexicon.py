@@ -26,7 +26,8 @@ def run(args):
         if language.name == None or language.name == "None":
             warnings[language.id] = language
         else:
-            args.log.info(language.name, fc.features["HandAndArm"](language))
+            args.log.info("{0}: {1}".format(language.name,
+                fc.features["ArmAndHand"](language)))
             if language.latitude and len(language.concepts) >= 250:
                 data[language.id] = {
                         "name": language.name,

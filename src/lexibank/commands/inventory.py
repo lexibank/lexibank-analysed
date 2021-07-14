@@ -25,7 +25,8 @@ def run(args):
         if language.name == None or language.name == "None":
             warnings[language.id] = language
         else:
-            args.log.info(language.name, fc.features["SyllableStructure"](language))
+            args.log.info("{0}-{1}".format(language.name,
+                fc.features["SyllableStructure"](language)))
             if language.latitude and len(language.bipa_forms) >= 80:
                 data[language.id] = {
                         "name": language.name,
