@@ -5,6 +5,7 @@ from cltoolkit import Wordlist
 import json
 from cltoolkit.features.collection import feature_data, FeatureCollection
 import lexibank
+from pyclts import CLTS
 
 
 def register(parser):
@@ -17,7 +18,10 @@ def register(parser):
 
 
 def run(args):
-    lexicore = Wordlist(datasets=lexibank.lexicore_data(args.datadir))
+    lexicore = Wordlist(
+            datasets=lexibank.lexicore_data(args.datadir),
+            ts=args.clts.bipa
+            )
     fc = FeatureCollection.from_data(feature_data())
     data = {}
     warnings = {}

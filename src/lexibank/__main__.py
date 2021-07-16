@@ -1,5 +1,5 @@
 """
-Main command line interface to the pynorare package.
+Main command line interface to the lexibank package.
 """
 import sys
 import pathlib
@@ -20,7 +20,7 @@ def main(args=None, catch_all=False, parsed_args=None):
     except KeyError:  # pragma: no cover
         repos = pathlib.Path('.')
 
-    parser, subparsers = get_parser_and_subparsers('norare')
+    parser, subparsers = get_parser_and_subparsers('lexibank')
     parser.add_argument(
         '--clts',
         help="clone of clts",
