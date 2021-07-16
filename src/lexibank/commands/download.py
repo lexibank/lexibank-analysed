@@ -22,21 +22,20 @@ def run(args):
 
     for row in data:
         args.log.info("Checking {0}".format(row["Dataset"]))
-        if row["LexiCore"].strip() or row["ClicsCore"].strip():
-            dest = Path(args.destination, row["Dataset"])
-            if dest.exists():
-                args.log.info("... dataset already exists.")
-            else:
-                args.log.info("... cloning {0}".format(row["Dataset"]))
-                try:
-                    Repo.clone_from(
-                            "https://github.com/{0}/{1}.git".format(
-                                row["Organization"],
-                                row["Dataset"]
-                                ),
-                            dest.as_posix()
-                            )
-                except GitCommandError as e:
-                    args.log.error("... download failed\n{}".format(str(e)))
-        else:
+        dest = Path(args.destination, row["Dataset"])
+        if not row["LexiCore"].strip() and not row["ClicsCore"].strip():
             args.log.info("... skipping dataset.")
+        elif dest.exists():
+            args.log.info("... dataset already exists.")
+        else:
+            args.log.info("... cloning {0}".format(row["Dataset"]))
+            try:
+                Repo.clone_from(
+                        "https://github.com/{0}/{1}.git".format(
+                            row["Organization"],
+                            row["Dataset"]
+                            ),
+                        dest.as_posix()
+                        )
+            except GitCommandError as e:
+                args.log.error("... download failed\n{}".format(str(e)))
