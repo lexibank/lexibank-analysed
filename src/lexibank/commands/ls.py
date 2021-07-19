@@ -23,7 +23,7 @@ def run(args):
 
     datasets = lexibank.lexibank_data()
     
-    stats = {
+    stats = OrderedDict({
             "LexiCore": {
                 "datasets": 0,
                 "glottocodes": defaultdict(list),
@@ -51,13 +51,20 @@ def run(args):
                 "doculects": 0,
                 "words": 0,
                 "concepts": defaultdict(list),
+                },
+            "Total": {
+                "datasets": 0,
+                "glottocodes": defaultdict(list),
+                "doculects": 0,
+                "words": 0,
+                "concepts": defaultdict(list),
                 }
-            }
+            })
     
     for row in datasets:
         args.log.info("analyzing {0}".format(row["Dataset"]))
         wl = None
-        for key in stats:
+        for key in ["LexiCore", "CogCore", "ClicsCore", "ProtoCore"]:
             if row[key].strip() == "x":
                 wl = wl or Wordlist(datasets=[Dataset.from_metadata(
                     Path(args.datadir, row["Dataset"], "cldf",
@@ -70,6 +77,16 @@ def run(args):
                         stats[key]["glottocodes"][language.glottocode] += [language]
                         for concept in language.concepts:
                             stats[key]["concepts"][concept.id] += [concept]
+        if row["LexiCore"].strip() == "x" or row["ClicsCore"].strip("") == "x":
+            stats["Total"]["datasets"] += 1
+            stats[key]["doculects"] += len(wl.languages)
+            stats[key]["words"] += len(wl.forms)
+            for language in wl.languages:
+                if language.glottocode:
+                    stats["Total"]["glottocodes"][language.glottocode] += [language]
+                    for concept in language.concepts:
+                        stats["Total"]["concepts"][concept.id] += [concept]
+
     table = []
     with Table(args, "Collection", "Glottocodes", "Doculects", "Concepts",
             "Word Forms") as table:
