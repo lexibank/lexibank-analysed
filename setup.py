@@ -36,7 +36,8 @@ setup(
         'pyclts>=3.1',
         'cartopy',
         'pillow',
-        'matplotlib'
+        'matplotlib',
+        'scipy',
     ],
     extras_require={
         'dev': ['flake8', 'wheel', 'twine'],

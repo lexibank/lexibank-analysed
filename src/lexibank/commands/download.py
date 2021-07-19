@@ -22,7 +22,12 @@ def run(args):
 
     for row in data:
         args.log.info("Checking {0}".format(row["Dataset"]))
-        if row["LexiCore"].strip() or row["ClicsCore"].strip():
+        dest = Path(args.destination, row["Dataset"])
+        if not row["LexiCore"].strip() and not row["ClicsCore"].strip():
+            args.log.info("... skipping dataset.")
+        elif dest.exists():
+            args.log.info("... dataset already exists.")
+        else:
             args.log.info("... cloning {0}".format(row["Dataset"]))
             try:
                 Repo.clone_from(
@@ -30,9 +35,7 @@ def run(args):
                             row["Organization"],
                             row["Dataset"]
                             ),
-                        Path(args.destination, row["Dataset"]).as_posix()
+                        dest.as_posix()
                         )
-            except GitCommandError:
-                args.log.info("... dataset already exists.")
-        else:
-            args.log.info("... skipping dataset.")
+            except GitCommandError as e:
+                args.log.error("... download failed\n{}".format(str(e)))
