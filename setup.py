@@ -17,13 +17,14 @@ setup(
     include_package_data=True,
     zip_safe=False,
     entry_points={
-        "console_scripts": [
-            "lexibank=lexibank.__main__:main",
-            ],
-        },
+        'cldfbench.commands': [
+            'lexibank-study=lexibank.commands',
+        ],
+    },
     platforms='any',
     python_requires='>=3.5',
         install_requires=[
+            'cltoolkit',
         'pylexibank',
         'attrs>=18.2',
         'cldfbench[excel]>=1.2.3',

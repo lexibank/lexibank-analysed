@@ -1,25 +1,16 @@
 """
 Plot Continuous Phonological Features to a Map.
 """
-from cartopy import *
-import cartopy.io.img_tiles as cimgt
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
-import matplotlib.pyplot as plt
-
-import cartopy.feature as cfeature
-from cartopy.feature import NaturalEarthFeature
-import numpy as np
 import json
+
+import cartopy.crs as ccrs
+import matplotlib.pyplot as plt
 from matplotlib import cm
+import numpy as np
 
 from cltoolkit.features.collection import FeatureCollection, feature_data
 
-from lexibank.cartopy import (
-        LAND, OCEAN, COASTLINE, BORDERS, LAKES, RIVERS, CMAP)
-from lexibank import pkg_path
-import numpy as np
-
+from lexibank.cartopy import LAND, OCEAN, COASTLINE, BORDERS, LAKES, RIVERS, CMAP
 
 
 def register(parser):
@@ -53,20 +44,20 @@ def register(parser):
         type=float,
         action="store",
         default=8.0
-        )
+    )
     parser.add_argument(
         "--colormap",
         help="select a colormap to be used",
         action="store",
         default="base"
-        )
+    )
     parser.add_argument(
         "--dpi",
         help="DPI for the plot",
         action="store",
         type=int,
         default=900
-        )
+    )
 
 
 def run(args):
@@ -87,7 +78,7 @@ def run(args):
 
     fig = plt.figure(figsize=[20, 10])
     ax = fig.add_subplot(1, 1, 1, projection=ccrs.PlateCarree())
-    
+
     ax.coastlines(resolution='50m')
     ax.add_feature(LAND)
     ax.add_feature(OCEAN)
@@ -119,28 +110,29 @@ def run(args):
             color = colormap(conv[value])
             try:
                 ax.plot(
-                        language["longitude"],
-                        language["latitude"],
-                        marker="o",
-                        color=color,
-                        zorder=10,
-                        markersize=args.markersize
-                        )
+                    language["longitude"],
+                    language["latitude"],
+                    marker="o",
+                    color=color,
+                    zorder=10,
+                    markersize=args.markersize
+                )
             except TypeError:
-                args.log.warning("Skipping {0} / {1}".format(language.dataset,
-                    language.name))
+                args.log.warning("Skipping {0} / {1}".format(language.dataset, language.name))
         
-        cbar = plt.colorbar(cm.ScalarMappable(norm=None, cmap=colormap), ax=ax,
-                orientation="horizontal", shrink=0.4,
-                ticks=[0, 0.5, 1]
-                )
-        cbar.ax.set_xticklabels(
-                [str(round(targets[0], 2)), str(round((targets[5]+targets[6])/2, 2)),
-                    str(round(targets[-1], 2))]
-                )
-    
+        cbar = plt.colorbar(
+            cm.ScalarMappable(norm=None, cmap=colormap),
+            ax=ax,
+            orientation="horizontal",
+            shrink=0.4,
+            ticks=[0, 0.5, 1]
+        )
+        cbar.ax.set_xticklabels([
+            str(round(targets[0], 2)),
+            str(round((targets[5]+targets[6])/2, 2)),
+            str(round(targets[-1], 2))])
+
     elif feature.type == "categorical":
-        
         # get dictionary of feature categories for the legend
         categories = {int(k): v for k, v in feature.categories.items()}
         colormap = CMAP.get(args.colormap, CMAP["base"])
@@ -151,46 +143,39 @@ def run(args):
             values.add(value)
             try:
                 ax.plot(
-                        language["longitude"],
-                        language["latitude"],
-                        marker="o",
-                        color=color,
-                        zorder=10,
-                        markersize=args.markersize
-                        )
+                    language["longitude"],
+                    language["latitude"],
+                    marker="o",
+                    color=color,
+                    zorder=10,
+                    markersize=args.markersize
+                )
             except TypeError:
                 args.log.warning(language.dataset, language.name)
         
         for v in values:
-            plt.plot(
-                    -100, -100, "o", markersize=10,
-                    color=colormap[v], label=categories[v])
+            plt.plot(-100, -100, "o", markersize=10, color=colormap[v], label=categories[v])
         plt.legend(loc=4)
     elif feature.type == "bool":
-        colormap = CMAP.get(
-                "bool", 
-                {True: "crimson", False: "CornFlowerBlue", None: "0.5"}
-                )
+        colormap = CMAP.get("bool", {True: "crimson", False: "CornFlowerBlue", None: "0.5"})
         categories = {{"true": True, "false": False, "null": None}[k]: v for k, v in feature.categories.items()}
         for language in sorted(data.values(), key=lambda x: x["features"]["concepts"]):
             value = language["features"][args.feature]
             color = colormap[value]
             try:
                 ax.plot(
-                        language["longitude"],
-                        language["latitude"],
-                        marker="o",
-                        color=color,
-                        zorder=10,
-                        markersize=args.markersize
-                        )
+                    language["longitude"],
+                    language["latitude"],
+                    marker="o",
+                    color=color,
+                    zorder=10,
+                    markersize=args.markersize
+                )
             except TypeError:
                 args.log.warning(language.dataset, language.name)
         for v in [True, False, None]:
-            plt.plot(
-                    -100, -100, "o", markersize=10,
-                    color=colormap[v], label=categories[v])
+            plt.plot(-100, -100, "o", markersize=10, color=colormap[v], label=categories[v])
         plt.legend(loc=4)
 
     plt.savefig(args.filename, dpi=args.dpi)
-
+    args.log.info('output saved to {}'.format(args.filename))

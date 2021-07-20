@@ -1,24 +1,17 @@
 """
 Plot the endangerment information status data to a Map.
 """
-from cartopy import *
-import cartopy.io.img_tiles as cimgt
+import json
+
 import cartopy.crs as ccrs
-import cartopy.feature as cfeature
 import matplotlib.pyplot as plt
 from matplotlib.patches import Wedge
 from matplotlib import cm
 
-import cartopy.feature as cfeature
-from cartopy.feature import NaturalEarthFeature
-import numpy as np
-import json
+from pyglottolog import Glottolog
 
 from lexibank.cartopy import *
-from lexibank import pkg_path
 
-from sys import argv
-from pyglottolog import Glottolog
 
 
 def register(parser):
@@ -152,5 +145,3 @@ def run(args):
                 )
     
     plt.savefig(args.filename, dpi=900)
-
-
