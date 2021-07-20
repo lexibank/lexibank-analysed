@@ -39,7 +39,7 @@ def run(args):
         with Table(args, "Feature", "Description", "Minimum", "Maximum") as table:
             for feature in features:
                 # get outliers
-                fvals = sorted(features[feature], key=lambda x: x[2])
+                fvals = sorted(features[feature], key=lambda x: x[2] or 0)
                 table.append([
                     feature, fc.features[feature].name,
                     '{0[0]}-{0[1]}: {0[2]}'.format(fvals[0]),
