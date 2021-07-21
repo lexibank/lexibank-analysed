@@ -1,28 +1,19 @@
 """
 Download the lexibank data.
 """
-from lexibank import pkg_path
-from pathlib import Path
 from git import Repo, GitCommandError
-from csvw.dsv import UnicodeDictReader
+
+from lexibank import lexibank_data, add_datadir
+
 
 def register(parser):
-    parser.add_argument(
-        '--destination',
-        help='destination of the data',
-        action='store',
-        default="datasets"
-    )
+    add_datadir(parser)
+
 
 def run(args):
-    with UnicodeDictReader(pkg_path.joinpath("data", "lexibank.tsv"), delimiter="\t") as reader:
-        data = []
-        for row in reader:
-            data += [row]
-
-    for row in data:
+    for row in lexibank_data():
         args.log.info("Checking {0}".format(row["Dataset"]))
-        dest = Path(args.destination, row["Dataset"])
+        dest = args.datadir / row["Dataset"]
         if not row["LexiCore"].strip() and not row["ClicsCore"].strip():
             args.log.info("... skipping dataset.")
         elif dest.exists():
@@ -31,11 +22,8 @@ def run(args):
             args.log.info("... cloning {0}".format(row["Dataset"]))
             try:
                 Repo.clone_from(
-                        "https://github.com/{0}/{1}.git".format(
-                            row["Organization"],
-                            row["Dataset"]
-                            ),
-                        dest.as_posix()
-                        )
+                    "https://github.com/{0}/{1}.git".format(row["Organization"], row["Dataset"]),
+                    str(dest),
+                )
             except GitCommandError as e:
                 args.log.error("... download failed\n{}".format(str(e)))

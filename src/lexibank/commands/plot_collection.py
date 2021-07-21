@@ -1,21 +1,12 @@
 """
 Plot the LexiCore data to a Map.
 """
-from cartopy import *
-import cartopy.io.img_tiles as cimgt
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
-import matplotlib.pyplot as plt
-
-import cartopy.feature as cfeature
-from cartopy.feature import NaturalEarthFeature
-import numpy as np
 import json
 
-from lexibank.cartopy import *
-from lexibank import pkg_path
+import cartopy.crs as ccrs
+import matplotlib.pyplot as plt
 
-from sys import argv
+from lexibank.cartopy import *
 
 
 def register(parser):
@@ -30,7 +21,8 @@ def register(parser):
         help="name for the file to store",
         action="store",
         default="plot.pdf"
-        )
+    )
+
 
 def run(args):
     data = json.load(open(args.datafile))
@@ -78,9 +70,6 @@ def run(args):
     plt.plot(-100, -100, "o", markersize=10, color="CornFlowerBlue", label="> 500 concepts")
     plt.plot(-100, -100, "o", markersize=10, color="Purple", label="> 200 concepts")
     plt.plot(-100, -100, "o", markersize=10, color="Red", label="> 100 concepts")
-    
-    
+
     plt.legend(loc=4)
     plt.savefig(args.filename, dpi=900)
-
-

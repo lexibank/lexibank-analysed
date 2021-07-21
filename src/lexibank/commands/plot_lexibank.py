@@ -1,23 +1,14 @@
 """
 Plot the Lexibank data to a Map.
 """
-from cartopy import *
-import cartopy.io.img_tiles as cimgt
+import json
+
 import cartopy.crs as ccrs
-import cartopy.feature as cfeature
 import matplotlib.pyplot as plt
 from matplotlib.patches import Wedge
 from matplotlib import cm
 
-import cartopy.feature as cfeature
-from cartopy.feature import NaturalEarthFeature
-import numpy as np
-import json
-
 from lexibank.cartopy import *
-from lexibank import pkg_path
-
-from sys import argv
 
 
 def register(parser):

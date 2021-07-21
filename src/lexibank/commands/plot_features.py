@@ -1,25 +1,14 @@
 """
 Plot Two Features to a Map.
 """
-from cartopy import *
-import cartopy.io.img_tiles as cimgt
+import json
+
 import cartopy.crs as ccrs
-import cartopy.feature as cfeature
 import matplotlib.pyplot as plt
 from matplotlib.patches import Wedge
-
-from cartopy.feature import NaturalEarthFeature
-import numpy as np
-import json
-from matplotlib import cm
-
 from cltoolkit.features.collection import FeatureCollection, feature_data
 
-from lexibank.cartopy import (
-        LAND, OCEAN, COASTLINE, BORDERS, LAKES, RIVERS, CMAP)
-from lexibank import pkg_path
-import numpy as np
-
+from lexibank.cartopy import LAND, OCEAN, COASTLINE, BORDERS, LAKES, RIVERS
 
 
 def register(parser):
@@ -53,27 +42,26 @@ def register(parser):
         type=float,
         action="store",
         default=8.0
-        )
+    )
     parser.add_argument(
         "--colormapA",
         help="select the first colormap to be used",
         action="store",
         default="base"
-        )
+    )
     parser.add_argument(
         "--colormapB",
         help="select the second colormap to be used",
         action="store",
         default="base"
-        )
-
+    )
     parser.add_argument(
         "--dpi",
         help="DPI for the plot",
         action="store",
         type=int,
         default=900
-        )
+    )
 
 
 def run(args):
@@ -81,7 +69,7 @@ def run(args):
 
     # get feature collection and feature data
     fc = FeatureCollection.from_data(feature_data())
-    
+
     # check if feature exists
     features = list(data.values())[0]["features"]
     if not args.featureA in features or not args.featureB in features:
@@ -96,7 +84,7 @@ def run(args):
 
     fig = plt.figure(figsize=[20, 10])
     ax = fig.add_subplot(1, 1, 1, projection=ccrs.PlateCarree())
-    
+
     ax.coastlines(resolution='50m')
     ax.add_feature(LAND)
     ax.add_feature(OCEAN)
@@ -105,7 +93,7 @@ def run(args):
     ax.add_feature(LAKES, alpha=0.5)
     ax.add_feature(RIVERS)
     data_crs = ccrs.PlateCarree()
-    
+
     if featureA.type == "bool" and featureB.type == "bool":
         colormapA = {True: "crimson", False: "white", None: "0.5"}
         colormapB = {True: "cornflowerblue", False: "white", None: "0.5"}
@@ -120,7 +108,7 @@ def run(args):
             colorA = colormapA[valueA]
             valueB = language["features"][args.featureB]
             colorB = colormapB[valueB]
-            
+
             if valueA and valueB:
                 zorder = 60
             elif valueA or valueB:
@@ -131,55 +119,50 @@ def run(args):
                 zorder = 30
             else:
                 zorder = 20
-        
+
             try:
-                    wedgeAB = Wedge(
-                        [language["longitude"], language["latitude"]],
-                        args.markersize,
-                        0, 
-                        360,
+                wedgeAB = Wedge(
+                    [language["longitude"], language["latitude"]],
+                    args.markersize,
+                    0,
+                    360,
                         facecolor="white",
                         transform=data_crs,
                         zorder=zorder-5,
                         edgecolor="black",
                         alpha=0.75
-                    )
-                    wedgeA = Wedge(
-                        [language["longitude"], language["latitude"]],
-                        args.markersize,
-                        90,
-                        270,
-                        facecolor=colorA, 
-                        transform=data_crs,
-                        zorder=zorder,
-                        edgecolor="black",
-                    )
-                    wedgeB = Wedge(
-                        [language["longitude"], language["latitude"]],
-                        args.markersize,
-                        270,
-                        90,
-                        facecolor=colorB,
-                        transform=data_crs,
-                        zorder=zorder,
-                        edgecolor="black",
-                    )
-                    ax.add_patch(wedgeAB)
-                    ax.add_patch(wedgeA)
-                    ax.add_patch(wedgeB)
-
+                )
+                wedgeA = Wedge(
+                    [language["longitude"], language["latitude"]],
+                    args.markersize,
+                    90,
+                    270,
+                    facecolor=colorA,
+                    transform=data_crs,
+                    zorder=zorder,
+                    edgecolor="black",
+                )
+                wedgeB = Wedge(
+                    [language["longitude"], language["latitude"]],
+                    args.markersize,
+                    270,
+                    90,
+                    facecolor=colorB,
+                    transform=data_crs,
+                    zorder=zorder,
+                    edgecolor="black",
+                )
+                ax.add_patch(wedgeAB)
+                ax.add_patch(wedgeA)
+                ax.add_patch(wedgeB)
             except TypeError:
                 args.log.warning(language.dataset, language.name)
         for v in [True, None]:
-            plt.plot(
-                    -100, -100, "o", markersize=10,
-                    color=colormapA[v], label=categoriesA[v])
-        plt.plot(
-                -100, -100, "o", markersize=10,
-                color=colormapB[True], label=categoriesB[True])
+            plt.plot(-100, -100, "o", markersize=10, color=colormapA[v], label=categoriesA[v])
+        plt.plot(-100, -100, "o", markersize=10, color=colormapB[True], label=categoriesB[True])
         plt.legend(loc=4)
     else:
         raise ValueError("only available for boolean features so far")
 
     plt.savefig(args.filename, dpi=args.dpi)
-
+    args.log.info('output saved to {}'.format(args.filename))

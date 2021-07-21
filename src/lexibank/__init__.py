@@ -1,42 +1,45 @@
-from pathlib import Path
-from cltoolkit.util import datasets_by_id
+import pathlib
+import functools
+
 from pycldf import Dataset
 from clldutils.apilib import API
-from csvw.dsv import UnicodeDictReader
+from clldutils.path import readlines
+from clldutils.misc import nfilter
+from clldutils.clilib import PathType
+from csvw.dsv import reader
 
 __version__ = "0.1.0.dev0"
 
-pkg_path = Path(__file__).parent
-
-def lexicore_data(datadir):
-    """
-    Load all datasets currently defined as lexicore datasets.
-    """
-    with open(pkg_path.joinpath("data", "lexicore.txt")) as f:
-        datasets = [row for row in (row.strip() for row in f) if row]
-    return [Dataset.from_metadata(Path(datadir, ds, "cldf",
-        "cldf-metadata.json")) for ds in datasets]
+pkg_path = pathlib.Path(__file__).parent
 
 
-def clics_data(datadir):
+def add_datadir(parser):
+    parser.add_argument(
+        '--datadir',
+        help='directory where the datasets are located',
+        type=PathType(type='dir'),
+        default=pathlib.Path("datasets"),
+    )
+
+
+def _data(set_, datadir):
     """
-    Load all datasets currently defined as CLICS datasets.
+    Load all datasets from a defined group of datasets.
     """
-    with open(pkg_path.joinpath("data", "clics.txt")) as f:
-        datasets = [row.strip() for row in f.readlines()]
-    return [Dataset.from_metadata(Path(datadir, ds, "cldf",
-        "cldf-metadata.json")) for ds in datasets]
+    return [
+        Dataset.from_metadata(pathlib.Path(datadir, ds, "cldf", "cldf-metadata.json"))
+        for ds in nfilter(readlines(pkg_path / 'data' / '{}.txt'.format(set_), strip=True))]
+
+
+lexicore_data = functools.partial(_data, 'lexicore')
+clics_data = functools.partial(_data, 'clics')
+
 
 def lexibank_data():
-    with UnicodeDictReader(pkg_path.joinpath("data", "lexibank.tsv"), delimiter="\t") as reader:
-        data = []
-        for row in reader:
-            data += [row]
-    return data
+    return list(reader(pkg_path.joinpath("data", "lexibank.tsv"), delimiter="\t", dicts=True))
 
 
 class LexiBank(API):
-
     def __init__(self, repos=None, datasets=None):
         API.__init__(self, repos)
         self.datadir = datasets

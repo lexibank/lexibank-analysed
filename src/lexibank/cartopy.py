@@ -6,11 +6,6 @@ COLORS = {'land': np.array((240, 240, 220)) / 256.,
           'land_alt1': np.array((220, 220, 220)) / 256.,
           'water': np.array((152, 183, 226)) / 256.}
 
-
-LAND = NaturalEarthFeature('physical', 'land', '50m',
-                           edgecolor='face',
-                           facecolor=COLORS['land'], zorder=-1)
-
 BORDERS = NaturalEarthFeature('cultural', 'admin_0_boundary_lines_land',
                               '50m', edgecolor='black', facecolor='none')
 """Small scale (1:110m) country boundaries."""
