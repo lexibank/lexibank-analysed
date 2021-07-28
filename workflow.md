@@ -16,309 +16,219 @@ The original datafile itself will be curated on the [nextcloud server of the MPI
 
 ## 2 Lexibank Workflow
 
-We provide code with this repository, which you can use to:
+This repository contains a `cldfbench` package, bundling
 
-1. download the data in the most recent lexibank collection (lexicore and clicscore)
-2. compute various phonological and lexical features from the data
-3. plot the features to a map in order to inspect them
+- code
+  - to download the lexibank dataset,
+  - to compute phonological and lexical features from this data and
+  - plot features on a map for inspection and exploration.
+- The computed structural data as CLDF StructureDataset.
 
-The workflow uses a commandline interface written in Python which requires several dependencies to be installed. The basic workflow consists of the following steps:
-
-**1 Install the Code and Dependencies**
-
-```
-$ git clone https://github.com/lexibank/lexibank-study
-$ cd lexibank-study
-$ pip install -e .
-```
-**2 Download the data collections**
-
-The data collections will be downloaded by reading the most recent selection of lexibank datasets from the file `src/lexibank/data/lexibank.tsv` and then downloading the relevant datasets to a folder which you specify with the kewyord `destination`. We will call the folder `datasets` in the following.
-
-```
-$ cldfbench lexibank-study.download --datadir=datasets
-```
-
-**3 Compute phonological features**
-
-The computation of phonological features (inspired by those features typically listed in datasets like the [World Atlast of Language Structures](https://wals.info) is carried out with the help of the phonological feature inference methods provided by the [cltoolkits](https://github.com/cldf/cltoolkit) package, which offers facilitated (high-level) access to CLDF datasets (specifically lexical datasets). Having downloaded the data packages, you can run the following code to compute the current 18 phonological features from the `lexicore` data. Since the target of phonological features is `lexicore` data (data defined in the `lexicore` collection of lexibank), the command will create a file called `lexicore.json`, in which the major information on phonological features is stored.
-
-```
-$ cldfbench lexibank-study.inventory --datadir=datasets
-```
+The workflow consists of a sequence of calls to `cldfbench` subcommands,
+which in turn call the code described above.
 
 
-**4 Compute lexical features**
+1. Install the package (including Dependencies)
+   ```shell
+   $ git clone https://github.com/lexibank/lexibank-analysed
+   $ cd lexibank-analysed
+   $ pip install -e .
+   ```
 
-Lexical features (dedicated colexifications and partial colexifications) can be computed with the help of the command:
+2. Download the data collections
 
-```
-$ cldfbench lexibank-study.lexicon --datadir=datasets
-```
+   The data collections will be downloaded by reading the most recent selection of 
+   lexibank datasets from the file `src/lexibank/data/lexibank.tsv` and then downloading the relevant datasets to a folder which you specify with the kewyord `destination`. We will call the folder `datasets` in the following.
 
-This command will create a file `clics.json`, in which the lexical feature data is stored. As an example for the structure of the data in the `clics.json` file (which is analogous to the data in the `lexicore.json` file), consider the following excerpt:
+   ```shell
+   $ cldfbench download cldfbench_lexibank_analysed.py
+   ```
 
-```
-{
-  "chenhmongmien-EasternLuobuohe": {
-    "name": "Luobuohe, Eastern",
-    "glottocode": "luop1235",
-    "dataset": "chenhmongmien",
-    "latitude": 26.63966,
-    "longitude": 107.913354,
-    "subgroup": "Hmongic",
-    "family": "Hmong-Mien",
-    "features": {
-      "concepts": 792,
-      "forms": 891,
-      "senses": 880,
-      "LegAndFoot": false,
-      "ArmAndHand": null,
-      "FingerAndHand": false,
-      "GreenAndBlue": false,
-      "RedAndYellow": false,
-      "FootAndToe": null,
-      "EyeInTear": false,
-      "WaterInTear": false,
-      "TreeInBark": null,
-      "SkinInBark": null
-    }
-  }
-}
-```
+3. Compute phonological and lexical features and phoneme inventories
 
-The information in both data files is later used to compute correlations and to plot data onto geographic maps.
+   The analysis results of `lexibank-analysed` are stored in three CLDF StructureDatasets.
 
-**5 Check for available features**
+   - Phonological features (inspired by those features typically listed in datasets like the 
+     [World Atlast of Language Structures](https://wals.info) are computed with the help of the phonological feature inference methods provided by the [cltoolkits](https://github.com/cldf/cltoolkit) package, which offers facilitated (high-level) access to CLDF datasets (specifically lexical datasets). Having downloaded the data packages, you can run the following code to compute the current 18 phonological features from the `lexicore` data. Since the target of phonological features is `lexicore` data (data defined in the `lexicore` collection of lexibank), the command will create a file called `lexicore.json`, in which the major information on phonological features is stored.
+   - Lexical features (dedicated colexifications and partial colexifications) are computed as well.
+   - Phoneme inventories including frequencies are derived.
 
-To check for features that are available for a given data file, just type:
+   These datasets are created running
+   ```shell
+   $ cldfbench makecldf cldfbench_lexibank_analysed.py 
+   ```
 
-```
-$ cldfbench lexibank-study.features --datafile=clics.json
-```
-
-This will produce the following table:
-
-| Number | Feature | Description | Type | Note |
-|---------:|:---------------------------------|:--------------------------------------------------|:-------|:---------------------------------|
-| 1 | ArmAndHand | arm and hand distinguished or not | bool | same as: WALS 129A, APICS 112 |
-| 2 | BarkAndSkin | bark and skin distinguished or not | bool | |
-| 3 | BowInElbow | bow partially colexified in elbow | bool | |
-| 4 | CommonSubstringInBoyAndGirl | boy and girl are partially colexified or not | bool | |
-| 5 | CommonSubstringInElbowAndKnee | elbow and knee are partially colexified or not | bool | |
-| 6 | CommonSubstringInFearAndSurprise | fear and surprise are partially colexified or not | bool | |
-| 7 | CommonSubstringInManAndWoman | man and woman are partially colexified or not | bool | |
-| 8 | CornerInElbow | corner partially colexified in elbow | bool | |
-| 9 | ElbowAndKnee | elbow and knee colexified or not | bool | |
-| 10 | EyeInTear | eye partially colexified in tear | bool | similar to: APICS 111 |
-| 11 | FearAndSurprise | fear and surprise colexified or not | bool | |
-| 12 | FingerAndHand | finger andhand distinguished or not | bool | same as: WALS 130A |
-| 13 | FingerAndToe | finger and toe colexified or not | bool | similar to: APICS 113 |
-| 14 | FootInToe | foot partially colexified in toe | bool | |
-| 15 | GreenAndBlue | green and blue colexified or not | bool | similar to: APICS 116, WALS 134A |
-| 16 | HairAndFeather | hair and feather colexified or not | bool | similar to: APICS 114 |
-| 17 | HandInFinger | hand partially colexified in finger | bool | |
-| 18 | HearAndSmell | hear and smell colexified or not | bool | similar to: APICS 115 |
-| 19 | LegAndFoot | has the same word form for foot and leg | bool | |
-| 20 | MouthInLip | mouth partially colexified in lip | bool | |
-| 21 | RedAndYellow | red and yellow colexified or not | bool | similar to: WALS 135A |
-| 22 | SeeAndKnow | see and know colexified or not | bool | |
-| 23 | SeeAndUnderstand | see and understand colexified or not | bool | |
-| 24 | SkinInBark | skin partially colexified in bark | bool | |
-| 25 | SkinInLip | skin partially colexified in lip | bool | |
-| 26 | ThreeInEight | three partially colexified in eight | bool | |
-| 27 | ThreeInThirteen | three partially colexified in thirteen | bool | |
-| 28 | ToeAndFoot | toe and foot colexified or not | bool | |
-| 29 | TreeInBark | tree partially colexified in bark | bool | |
-| 30 | WaterInTear | water partially colexified in tear | bool | similar to: APICS 111 |
+4. Make sure valid CLDF data has been created:
+   ```shell
+   pytest
+   ```
 
 
-And another table will be produced if you specify the data file to `lexicore.json`:
+## 3 Data exploration
 
-```
-$ cldfbench lexibank-study.features --datafile=lexicore.json
+To check for available features, you can inspect the CLDF ParameterTable of the respective
+CLDF datasets:
+```shell
+$ csvcut -c ID,Name cldf/phonology-features.csv | column -n -s"," -t
+ID                         Name
+concepts                   Number of concepts
+forms                      Number of forms
+bipa_forms                 Number of BIPA conforming forms
+senses                     Number of senses
+ConsonantQualitySize       consonant quality size
+VowelQualitySize           vowel quality size
+VowelSize                  vowel size
+ConsonantSize              consonant size
+CVRatio                    consonant and vowel ratio
+CVQualityRatio             consonant and vowel ratio (by quality)
+CVSoundRatio               consonant and vowel ratio (including diphthongs and clusters)
+HasNasalVowels             has nasal vowels or not
+HasRoundedVowels           has rounded vowels or not
+VelarNasal                 has the velar nasal (engma)
+PlosiveVoicingGaps         voicing and gaps in plosives
+LacksCommonConsonants      gaps in plosives
+HasUncommonConsonants      has uncommon consonants
+PlosiveFricativeVoicing    voicing in plosives and fricatives
+UvularConsonants           presence of uvular consonants
+GlottalizedConsonants      presence of glottalized consonants
+HasLaterals                presence of lateral consonants
+SyllableStructure          complexity of the syllable structure
+FirstPersonWithM           fist person starts with an m-sound
+FirstPersonWithN           fist person starts with an n-sound
+SecondPersonWithT          second person starts with a t-sound
+SecondPersonWithM          second person starts with an m-sound
+SecondPersonWithN          second person starts with an n-sound
+MotherWithM                mother starts with m-sound
+WindWithF                  wind starts with f-sound
+HasPrenasalizedConsonants  inventory has pre-nasalized consonants
+HasLabiodentalFricatives   inventory has labio-dental fricatives or affricates
+FatherWithP                father starts with p-sound
+SyllableOnset              complexity of the syllable onset
+SyllableOffset             complexity of the syllable offset
 ```
 
-| Number | Feature | Description | Type | Note |
-|---------:|:--------------------------|:--------------------------------------------------------------|:------------|:------------------------------------------------------------------------------------|
-| 1 | CVQualityRatio | consonant and vowel ratio (by quality) | float | |
-| 2 | CVRatio | consonant and vowel ratio | float | |
-| 3 | CVSoundRatio | consonant and vowel ratio (including diphthongs and clusters) | float | |
-| 4 | ConsonantQualitySize | consonant quality size | integer | |
-| 5 | ConsonantSize | consonant size | integer | |
-| 6 | FatherWithP | father starts with p-sound | bool | see also: MotherWithM |
-| 7 | FirstPersonWithM | fist person starts with an m-sound | bool | similar to: WALS 136B |
-| 8 | FirstPersonWithN | fist person starts with an n-sound | bool | see also: FirstPersonWithM, SecondPersonWithT, SecondPersonWithN, SecondPersonWithM |
-| 9 | GlottalizedConsonants | presence of glottalized consonants | categorical | same as: WALS 7A |
-| 10 | HasLabiodentalFricatives | inventory has labio-dental fricatives or affricates | bool | |
-| 11 | HasLaterals | presence of lateral consonants | categorical | same as: WALS 8A |
-| 12 | HasNasalVowels | has nasal vowels or not | bool | same as: WALS 10A |
-| 13 | HasPrenasalizedConsonants | inventory has pre-nasalized consonants | bool | |
-| 14 | HasRoundedVowels | has rounded vowels or not | categorical | same as: WALS 11A |
-| 15 | HasUncommonConsonants | has uncommon consonants | categorical | same as: WALS 19A |
-| 16 | LacksCommonConsonants | gaps in plosives | categorical | same as: WALS 18A |
-| 17 | MotherWithM | mother starts with m-sound | bool | see also: FatherWithP |
-| 18 | PlosiveFricativeVoicing | voicing in plosives and fricatives | categorical | same as: WALS 4A |
-| 19 | PlosiveVoicingGaps | voicing and gaps in plosives | categorical | same as: WALS 5A |
-| 20 | SecondPersonWithM | second person starts with an m-sound | bool | see also: FirstPersonWithM, FirstPersonWithN, SecondPersonWithT, SecondPersonWithN |
-| 21 | SecondPersonWithN | second person starts with an n-sound | bool | see also: FirstPersonWithM, FirstPersonWithN, SecondPersonWithT, SecondPersonWithM |
-| 22 | SecondPersonWithT | second person starts with a t-sound | bool | see also: FirstPersonWithM, FirstPersonWithN, SecondPersonWithN, SecondPersonWithM |
-| 23 | SyllableOffset | complexity of the syllable offset | categorical | same as: APICS 118 |
-| 24 | SyllableOnset | complexity of the syllable onset | categorical | same as: APICS 118 |
-| 25 | SyllableStructure | complexity of the syllable structure | categorical | same as: WALS 12A |
-| 26 | UvularConsonants | presence of uvular consonants | categorical | same as: WALS 6A |
-| 27 | VelarNasal | has the velar nasal (engma) | categorical | same as: WALS 9A |
-| 28 | VowelQualitySize | vowel quality size | integer | |
-| 29 | VowelSize | vowel size | integer | |
-| 30 | WindWithF | wind starts with f-sound | bool | |
-
-
-You can also use the feature code to search for outliers:
-
-```
-$ cldfbench lexibank-study.features --datafile=lexicore.json --outliers
+```shell
+$ csvcut -c ID,Name cldf/lexicon-features.csv | column -n -s"," -t
+ID                                Name
+concepts                          Number of concepts
+forms                             Number of forms
+senses                            Number of senses
+LegAndFoot                        has the same word form for foot and leg
+ArmAndHand                        arm and hand distinguished or not
+BarkAndSkin                       bark and skin distinguished or not
+FingerAndHand                     finger andhand distinguished or not
+GreenAndBlue                      green and blue colexified or not
+RedAndYellow                      red and yellow colexified or not
+ToeAndFoot                        toe and foot colexified or not
+SeeAndKnow                        see and know colexified or not
+SeeAndUnderstand                  see and understand colexified or not
+ElbowAndKnee                      elbow and knee colexified or not
+FearAndSurprise                   fear and surprise colexified or not
+CommonSubstringInElbowAndKnee     elbow and knee are partially colexified or not
+CommonSubstringInManAndWoman      man and woman are partially colexified or not
+CommonSubstringInFearAndSurprise  fear and surprise are partially colexified or not
+CommonSubstringInBoyAndGirl       boy and girl are partially colexified or not
+EyeInTear                         eye partially colexified in tear
+BowInElbow                        bow partially colexified in elbow
+CornerInElbow                     corner partially colexified in elbow
+WaterInTear                       water partially colexified in tear
+TreeInBark                        tree partially colexified in bark
+SkinInBark                        skin partially colexified in bark
+MouthInLip                        mouth partially colexified in lip
+SkinInLip                         skin partially colexified in lip
+HandInFinger                      hand partially colexified in finger
+FootInToe                         foot partially colexified in toe
+ThreeInEight                      three partially colexified in eight
+ThreeInThirteen                   three partially colexified in thirteen
+FingerAndToe                      finger and toe colexified or not
+HairAndFeather                    hair and feather colexified or not
+HearAndSmell                      hear and smell colexified or not
 ```
 
-| Feature | Description | Minimum | Maximum |
-|:--------------------------|:--------------------------------------------------------------|:----------------------------------------------------|:--------------------------------------------------|
-| ConsonantQualitySize | consonant quality size | johanssonsoundsymbolic-Rotokas: 7 | chenhmongmien-Chuanqiandian, Northeast Yunnan: 98 |
-| VowelQualitySize | vowel quality size | johanssonsoundsymbolic-Adyghe: 2 | yangyi-CE-Yong'an: 44 |
-| VowelSize | vowel size | blustaustronesian-Hanunoo: 3 | yangyi-CE-Yong'an: 44 |
-| ConsonantSize | consonant size | johanssonsoundsymbolic-Rotokas: 7 | chenhmongmien-Chuanqiandian, Northeast Yunnan: 99 |
-| CVRatio | consonant and vowel ratio | johanssonsoundsymbolic-Waorani: 0.47058823529411764 | northeuralex-Adyghe: 17.0 |
-| CVQualityRatio | consonant and vowel ratio (by quality) | johanssonsoundsymbolic-Waorani: 0.8 | johanssonsoundsymbolic-Adyghe: 23.5 |
-| CVSoundRatio | consonant and vowel ratio (including diphthongs and clusters) | johanssonsoundsymbolic-Waorani: 0.47058823529411764 | northeuralex-Adyghe: 17.0 |
-| HasNasalVowels | has nasal vowels or not | allenbai-Eryuan: False | yangyi-Lawu: True |
-| HasRoundedVowels | has rounded vowels or not | backstromnorthernpakistan-Rondu Balti: 1 | yangyi-Azhe: 4 |
-| VelarNasal | has the velar nasal (engma) | allenbai-Eryuan: 1 | wold-Wichí: 3 |
-| PlosiveVoicingGaps | voicing and gaps in plosives | blustaustronesian-Tetum: 1 | yangyi-Toloza: 5 |
-| LacksCommonConsonants | gaps in plosives | allenbai-Eryuan: 1 | johanssonsoundsymbolic-Waorani: 6 |
-| HasUncommonConsonants | has uncommon consonants | allenbai-Eryuan: 1 | wold-Tarifiyt Berber: 7 |
-| PlosiveFricativeVoicing | voicing in plosives and fricatives | beidasinitic-Guangzhou: 1 | yangyi-Toloza: 4 |
-| UvularConsonants | presence of uvular consonants | allenbai-Eryuan: 1 | yangyi-S. Muji: 4 |
-| GlottalizedConsonants | presence of glottalized consonants | allenbai-Eryuan: 1 | wold-Hausa: 8 |
-| HasLaterals | presence of lateral consonants | birchallchapacuran-Cojubim: 1 | yangyi-Toloza: 6 |
-| SyllableStructure | complexity of the syllable structure | carvalhopurus-Apurinã: 1 | yangyi-Toloza: 3 |
-| FirstPersonWithM | fist person starts with an m-sound | allenbai-Eryuan: False | wold-Saramaccan: True |
-| FirstPersonWithN | fist person starts with an n-sound | allenbai-Eryuan: False | wold-Wichí: True |
-| SecondPersonWithT | second person starts with a t-sound | allenbai-Eryuan: False | wold-Thai: True |
-| SecondPersonWithM | second person starts with an m-sound | allenbai-Eryuan: False | wold-Ceq Wong: True |
-| SecondPersonWithN | second person starts with an n-sound | backstromnorthernpakistan-Rondu Balti: False | yangyi-Toloza: True |
-| MotherWithM | mother starts with m-sound | allenbai-Eryuan: False | yangyi-Toloza: True |
-| WindWithF | wind starts with f-sound | allenbai-Eryuan: False | wold-Saramaccan: True |
-| HasPrenasalizedConsonants | inventory has pre-nasalized consonants | allenbai-Eryuan: False | yangyi-Hlepho: True |
-| HasLabiodentalFricatives | inventory has labio-dental fricatives or affricates | backstromnorthernpakistan-Shigar Balti: False | yangyi-Toloza: True |
-| FatherWithP | father starts with p-sound | allenbai-Eryuan: False | yangyi-Toloza: True |
-| SyllableOnset | complexity of the syllable onset | birchallchapacuran-Cojubim: 1 | yangyi-Toloza: 3 |
-| SyllableOffset | complexity of the syllable offset | allenbai-Jianchuan: 1 | yangyi-Hlepho: 4 |
+You can also easily inspect the data for outliers:
+```shell
+$ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvstat -c Value
+  4. "Value"
 
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         55
+	Smallest value:        7
+	Largest value:         98
+	Sum:                   24.148
+	Mean:                  27,072
+	Median:                26
+	StDev:                 10,078
+	Most common values:    27 (53x)
+	                       23 (38x)
+	                       29 (38x)
+	                       24 (37x)
+	                       22 (36x)
 
-**6 Plot one feature onto a map**
+Row count: 892
 
-When plotting a feature on to a map, 
-you need to pass two major types of information: which data file to use (`clics.json` or `lexicore.json`), and which feature to plot.
-
-Features are computed with `cltoolkit`, and major information can accordingly be found in the `cltoolkit` package, in the file [src/cltoolkit/features/features.json](https://github.com/cldf/cltoolkit/blob/main/src/cltoolkit/features/features.json). A feature is describe by a couple of characteristics as shown below:
-
-```json
-  {
-    "id": "ConsonantQualitySize",
-    "name": "consonant quality size",
-    "type": "integer",
-    "target": "inventory",
-    "module": "cltoolkit.features.phonology",
-    "function": "consonant_quality_size",
-    "note": ""
-  }
+$ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvgrep -c Value -r"^7|98$" | csvcut -c Language_ID,Value
+Language_ID,Value
+chenhmongmien-NortheastYunnanChuanqiandian,98
+johanssonsoundsymbolic-Rotokas,7
 ```
 
-Important aspects are the `id`, since we use the same identifier in our lexibank package, and the `type`, which is defined as an `integer` in this example. The type has an influence on the way in which the feature will be plotted to a map. If it is set to `integer` or `float`, this means that we deal with "continuous" feature variables which we plot with the help of typical colormaps, as they are provided by [matplotlib.cm](https://matplotlib.org/stable/tutorials/colors/colormaps.html). 
 
-To plot a continuous feature, you can therefore simply type:
+## 4 Data visualization
 
+Visual exploration of the data can be done with `cldfviz`, a `cldfbench` plugin to visualize
+CLDF datasets.
+
+We can plot continuous variables on a map, e.g. `ConsonnantQualitySize`:
+```shell
+cldfbench cldfviz.map cldf/phonology-metadata.json --parameters ConsonantQualitySize --colormaps plasma --pacific-centered
 ```
-$ cldfbench lexibank-study.plot_feature --feature=ConsonantQualitySize --colormap=plasma --filename=plots/ConsonantQualitySize.jpg --dpi=300 --datafile=lexicore.json
+A screenshot of the resulting [leaflet map](https://leafletjs.com/) is shown below. (To plot printable
+maps, install `cldfviz` with `cartopy` support and choose a different output format using the
+`--format` option.)
+
+![consonant quality size](plots/ConsonantQualitySize.jpg)
+
+Map plots for categorical variables like `VelarNasal` are supported as well.
+This feature is equivalent to [feature 9A from WALS](https://wals.info/feature/9A).
+
+We can inspect the values:
+```shell
+$ csvgrep -c Parameter_ID -m "VelarNasal" cldf/phonology-codes.csv | csvcut -c ID,Name | column -s, -t -n
+ID            Name
+VelarNasal-1  velar nasal occurs in syllable-initial position
+VelarNasal-2  velar nasal occurs but not in syllable-initial position
+VelarNasal-3  velar nasal is missing
 ```
-
-As a result, you can find the following plot in the folder `plots`:
-
-![image](https://raw.githubusercontent.com/lexibank/lexibank-study/main/plots/ConsonantQualitySize.jpg)
-
-In addition, we also find features like the following in `cltoolkit`:
-
-```json
-  {
-    "id": "HasRoundedVowels",
-    "name": "has rounded vowels or not",
-    "type": "categorical",
-    "target": "inventory",
-    "module": "cltoolkit.features.phonology",
-    "function": "has_rounded_vowels",
-    "note": "WALS 11A",
-    "categories": {
-      "1": "no high and no mid vowels",
-      "2": "high and mid vowels",
-      "3": "high and no mid vowels",
-      "4": "mid and no high vowels"
-    }
-  }
-```
-
-This feature, which is equivalent with the feature 11A from [WALS](https://wals.info), is given the type `categorical`, which means that we provide a list of `categories` which give concrete explanations for each aspect. If the feature value is `1`, for example, this means that we do not find high and mid vowels in the language (according to our automatic analysis), `2` says there are "high and mid vowels", etc. 
-
-Plotting this feature can be done in the same way, but you can no longer use the continuous colormaps provided by matplotlib. Instead, we offer some predefined colormap schemas in [src/lexibank/caropy.py#L52-L101](https://github.com/lexibank/lexibank-study/blob/f997ce806c03a388d509e0d9ad31c515db3504a5/src/lexibank/cartopy.py#L52-L101). 
-
-Since we need exactly four values to plot our data, we therefore select the colormap `SequentialOrRd4`:
-
-
-```
-$ cldfbench lexibank-study.plot_feature --feature=HasRoundedVowels --colormap=SequentialOrRd4 --filename=plots/HasRoundedVowels.jpg --dpi=300 --datafile=lexicore.json
+and plot it on a map:
+```shell
+cldfbench cldfviz.map cldf/phonology-metadata.json --parameters VelarNasal --colormaps tol --pacific-centered
 ```
 
-![image](https://github.com/lexibank/lexibank-study/blob/main/plots/HasRoundedVowels.jpg?raw=true)
+![Velar Nasal](plots/VelarNasal.jpg)
 
 
-As a final type of feature, consider the following one:
+As a final type of feature, consider `SkinInBark`.
+This feature is a so-called partial colexification, which means that the word expressing "skin" recurs in part in the 
+word expressing "bark" in the language variety in question, while not being identical with it.
 
-```json
-  {
-    "id": "SkinInBark",
-    "name": "skin partially colexified in bark",
-    "type": "bool",
-    "target": "inventory",
-    "module": "cltoolkit.features.lexicon",
-    "function": "has_skin_in_bark",
-    "note": "",
-    "categories": {
-      "true": "skin partially colexified in bark",
-      "false": "skin not partially colexified in bark",
-      "null": "missing data"
-    }
-  }
-```
-
-The feature `SkinInBark` is a so-called partial colexification, which means that the word expressing "skin" recurs in part in the word expressing "bark" in the language variety in question, while not being identical with it.
-
-This feature is given the type `bool`, since it has two major outcomes, true and false, and -- as a third case -- `None`, when data are missing (there is no word for "skin" or for "bark" in our data). 
-We can plot the feature in the same way in which we plotted the data before, but we pass the `clics.json` data as our datafile this time, and we use the standard colormap (+++integration of boolean colormaps is pending+++). 
+This feature has two major values, `true` and `false`, and -- as a third case -- `None`, when data are missing (there 
+is no word for "skin" or for "bark" in our data). 
+We can plot the feature in the same way in which we plotted the data before
 
 ```
-$ cldfbench lexibank-study.plot_feature --feature=SkinInBark --filename=plots/SkinInBark.jpg --dpi=300 --datafile=clics.json
+cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters SkinInBark --pacific-centered
 ```
 
-![image](https://github.com/lexibank/lexibank-study/blob/main/plots/SkinInBark.jpg?raw=true)
+![Skin in Bark](plots/SkinInBark.jpg)
 
-
-
-**7 Plot two features onto a map**
 
 You can also plot two features at the same time onto a map +++ but for now only logical features +++. In order to do so, just select those features which you think are useful to be inspected synchronously, and type:
 
 ```
-$ cldfbench lexibank-study.plot_features --featureA=ArmAndHand --featureB=LegAndFoot --markersize=2 --dpi=300 --filename=plots/ArmAndHand-LegAndFoot.jpg --datafile=clics.json
+cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters ArmAndHand,LegAndFoot --pacific-centered --base-layer Esri_WorldImagery --markersize 15
 ```
 
 The resulting plot offers a new account on the data by combining feature information for two features. 
 
-
-![image](https://github.com/lexibank/lexibank-study/blob/main/plots/ArmAndHand-LegAndFoot.jpg?raw=true)
+![ArmAndHand-LegAndFoot](plots/ArmAndHand-LegAndFoot.jpg)

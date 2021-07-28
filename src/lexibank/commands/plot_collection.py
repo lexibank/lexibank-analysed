@@ -27,7 +27,7 @@ def register(parser):
 def run(args):
     data = json.load(open(args.datafile))
     fig = plt.figure(figsize=[20, 10])
-    ax = fig.add_subplot(1, 1, 1, projection=ccrs.PlateCarree())
+    ax = fig.add_subplot(1, 1, 1, projection=ccrs.PlateCarree(central_longitude=154))
     
     ax.coastlines(resolution='50m')
     #ax.stock_img(resolution='50m')
