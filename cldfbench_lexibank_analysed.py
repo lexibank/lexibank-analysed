@@ -10,7 +10,7 @@ from cldfbench import Dataset as BaseDataset
 from clldutils.misc import nfilter
 from clldutils.path import readlines
 from cltoolkit import Wordlist
-from cltoolkit.features import FeatureCollection, feature_data
+from cltoolkit.features import FEATURES
 from pyclts import CLTS
 from git import Repo, GitCommandError
 from tqdm import tqdm
@@ -19,6 +19,7 @@ from csvw.metadata import Link
 CLTS_2_1 = (
     "https://zenodo.org/record/4705149/files/cldf-clts/clts-v2.1.0.zip?download=1",
     'cldf-clts-clts-04f04e3')
+_loaded = {}
 
 
 class Dataset(BaseDataset):
@@ -73,25 +74,37 @@ class Dataset(BaseDataset):
         with self.raw_dir.temp_download(CLTS_2_1[0], 'ds.zip', log=args.log) as zipp:
             zipfile.ZipFile(str(zipp)).extractall(self.raw_dir)
 
-    def load_data(self, set_):
+    def load_data(self, set_=None):
         """
         Load all datasets from a defined group of datasets.
         """
-        return [
-            pycldf.Dataset.from_metadata(self.raw_dir / ds / "cldf" / "cldf-metadata.json")
-            for ds in nfilter(readlines(self.etc_dir / '{}.txt'.format(set_), strip=True))]
+        ds_specs = collections.OrderedDict([
+            (r['Dataset'], r)
+            for r in self.etc_dir.read_csv('lexibank.tsv', delimiter='\t', dicts=True)])
+        if set_:
+            dss = nfilter(readlines(self.etc_dir / '{}.txt'.format(set_), strip=True))
+        else:
+            dss = list(ds_specs.keys())
+
+        res = []
+        for ds in dss:
+            if ds not in _loaded:
+                _loaded[ds] = (
+                    pycldf.Dataset.from_metadata(self.raw_dir / ds / "cldf" / "cldf-metadata.json"),
+                    ds_specs[ds])
+            res.append(_loaded[ds][0])
+        return res
 
     def cmd_makecldf(self, args):
         languages = collections.OrderedDict()
-        fc = FeatureCollection.from_data(feature_data())
 
         def _add_features(writer, features):
             for feature in features:
                 writer.objects['ParameterTable'].append(dict(
                     ID=feature.id,
                     Name=feature.name,
-                    Description=textwrap.dedent(
-                        feature.function.__doc__ if not feature.function.__doc__.strip().startswith('partial') else ''),
+                    Description=feature.doc,
+                    Feature_Spec=feature.to_json(),
                 ))
                 if feature.categories:
                     for k, v in feature.categories.items():
@@ -123,16 +136,14 @@ class Dataset(BaseDataset):
                 ))
             for feature in features:
                 v = feature(language)
-                cid = str(v).lower()
-                cid = "null" if cid == "none" else cid
                 if feature.categories:
-                    assert cid in feature.categories, '{}: "{}"'.format(feature.id, cid)
+                    assert v in feature.categories, '{}: "{}"'.format(feature.id, v)
                 writer.objects['ValueTable'].append(dict(
                     ID='{}-{}'.format(language.id, feature.id),
                     Language_ID=language.id,
                     Parameter_ID=feature.id,
                     Value=v,
-                    Code_ID='{}-{}'.format(feature.id, cid) if feature.categories else None,
+                    Code_ID='{}-{}'.format(feature.id, v) if feature.categories else None,
                 ))
 
         def _add_languages(writer, wordlist, condition, features, attr_features):
@@ -148,8 +159,12 @@ class Dataset(BaseDataset):
             # FIXME: work around cldfbench bug (can't rename core table of a module!):
             writer.cldf['ValueTable'].url = Link('phonology-values.csv')
             writer.cldf.add_component('LanguageTable', 'Dataset', 'Subgroup', 'Family')
+            writer.cldf.add_columns(
+                'ParameterTable',
+                {"name": "Feature_Spec", "datatype": "json"},
+            )
 
-            features = [f for f in fc.features if f.module.endswith("phonology")]
+            features = [f for f in FEATURES if f.function.__module__.endswith("phonology")]
 
             for fid, fname, fdesc in [
                 ('concepts', 'Number of concepts', 'Number of senses linked to Concepticon'),
@@ -176,7 +191,11 @@ class Dataset(BaseDataset):
             # FIXME: work around cldfbench bug (can't rename core table of a module!):
             writer.cldf['ValueTable'].url = Link('lexicon-values.csv')
             writer.cldf.add_component('LanguageTable', 'Dataset', 'Subgroup', 'Family')
-            features = [f for f in fc.features if f.module.endswith("lexicon")]
+            writer.cldf.add_columns(
+                'ParameterTable',
+                {"name": "Feature_Spec", "datatype": "json"},
+            )
+            features = [f for f in FEATURES if f.function.__module__.endswith("lexicon")]
 
             for fid, fname, fdesc in [
                 ('concepts', 'Number of concepts', 'Number of senses linked to Concepticon'),

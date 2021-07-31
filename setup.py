@@ -13,17 +13,16 @@ setup(
     license='MIT',
     url='https://github.com/lexibank/lexibank-analysed',
     py_modules=['cldfbench_lexibank_analysed'],
-    #packages=find_packages(where='src'),
-    #package_dir={'': 'src'},
+    packages=find_packages(where='.'),
     include_package_data=True,
     zip_safe=False,
     entry_points={
         'cldfbench.dataset': [
             'lexibank-analysed=cldfbench_lexibank_analysed:Dataset',
         ],
-        #'cldfbench.commands': [
-        #    'lexibank-analysed=lexibank.commands',
-        #],
+        'cldfbench.commands': [
+            'lexibank-analysed=lexibank_analysed_commands',
+        ],
     },
     platforms='any',
     python_requires='>=3.6',
