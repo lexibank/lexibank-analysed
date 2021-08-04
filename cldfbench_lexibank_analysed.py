@@ -118,7 +118,7 @@ class Dataset(BaseDataset):
                 try:
                     download_from_doi(row['Zenodo'], outdir=tmp_dir)
                 except TooManyRequests as e:
-                    args.log.error('Hit Zenodo's rate limit.  Aborting...')
+                    args.log.error("Hit Zenodo's rate limit.  Aborting...")
                     return
 
                 for subdir in tmp_dir.iterdir():
