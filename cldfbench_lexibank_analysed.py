@@ -7,6 +7,7 @@ import re
 import textwrap
 import urllib.request
 import zipfile
+import xml.etree.ElementTree as ET
 
 from bs4 import BeautifulSoup as bs
 import requests
@@ -65,6 +66,35 @@ def download_from_doi(doi, outdir=pathlib.Path('.')):
     return outdir
 
 
+def parse_zenodo_info(oai_pmh_xml):
+    res = collections.OrderedDict()
+
+    RECORD_TAG = '{http://www.openarchives.org/OAI/2.0/oai_dc/}dc'
+    ID_TAG = '{http://purl.org/dc/elements/1.1/}identifier'
+    REL_TAG = '{http://purl.org/dc/elements/1.1/}relation'
+    for record in oai_pmh_xml.iter(RECORD_TAG):
+        for id_ in record.iter(ID_TAG):
+            if id_.text.startswith('10.5281/zenodo.'):
+                doi = id_.text
+                break
+        else:
+            continue
+
+        for rel in record.iter(REL_TAG):
+            match = re.fullmatch(
+                r'url:https://github\.com/([^/]+)/([^/]+)/tree/([^/]+)',
+                rel.text)
+            if match:
+                gh_orga, gh_repo, gh_tag = match.groups()
+                break
+        else:
+            continue
+
+        res[doi] = {'orga': gh_orga, 'repo': gh_repo, 'tag': gh_tag}
+
+    return res
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "lexibank-analysed"
@@ -97,47 +127,55 @@ class Dataset(BaseDataset):
         }
 
     def cmd_download(self, args):
-        for row in self.etc_dir.read_csv('lexibank.tsv', delimiter='\t', dicts=True):
-            args.log.info("Checking {}".format(row["Dataset"]))
-            dest = self.raw_dir / row["Dataset"]
-            if not row["LexiCore"].strip() and not row["ClicsCore"].strip():
-                args.log.info("... skipping dataset.")
-            elif dest.exists():
-                args.log.info("... dataset already exists.")
-            elif row.get('Zenodo'):
-                args.log.info("... downloading {0} from Zenodo".format(row["Dataset"]))
+        OAI_PMH_URL = 'https://zenodo.org/oai2d?verb=ListRecords&set=user-lexibank&metadataPrefix=oai_dc'
+        github_info = parse_zenodo_info(
+            ET.fromstring(requests.get(OAI_PMH_URL).text))
 
-                # FIXME There Must Be a Better Way™ to deal with the different path names
-                #   (git repo name vs. folder name inside zip archive)
-                tmp_dir = self.etc_dir / 'tmp'
-                if tmp_dir.exists():
-                    args.log.warning('etc/tmp exists')
-                else:
-                    tmp_dir.mkdir()
+        def get_ghinfo(row):
+            return (
+                github_info.get(row.get('Zenodo'))
+                or {'orga': row['Organization'], 'repo': row['Dataset']})
+        datasets = collections.OrderedDict(
+            (row['Dataset'], get_ghinfo(row))
+            for row in self.etc_dir.read_csv('lexibank.tsv', delimiter='\t', dicts=True)
+            if row['LexiCore'].strip() or row['ClicsCore'].strip())
 
-                try:
-                    download_from_doi(row['Zenodo'], outdir=tmp_dir)
-                except TooManyRequests as e:
-                    args.log.error("Hit Zenodo's rate limit.  Aborting...")
-                    return
+        for dataset, ghinfo in datasets.items():
+            args.log.info("Checking {}".format(dataset))
+            dest = self.raw_dir / dataset
 
-                for subdir in tmp_dir.iterdir():
-                    if row['Dataset'] in subdir.name:
-                        subdir.rename(dest)
-                        break
-                try:
-                    tmp_dir.rmdir()
-                except OSError as e:
-                    args.log.error(str(e))
+            # download data
+            if dest.exists():
+                args.log.info("... dataset already exists.  pulling changes.")
+                for remote in Repo(str(dest)).remotes:
+                    remote.fetch()
             else:
-                args.log.info("... cloning {}".format(row["Dataset"]))
+                args.log.info("... cloning {}".format(dataset))
                 try:
                     Repo.clone_from(
-                        "https://github.com/{}/{}.git".format(row["Organization"], row["Dataset"]),
-                        str(dest),
-                    )
+                        "https://github.com/{}/{}.git".format(ghinfo['orga'], ghinfo['repo']),
+                        str(dest))
                 except GitCommandError as e:
                     args.log.error("... download failed\n{}".format(str(e)))
+                    continue
+
+            # check out release (fall back to master branch)
+            repo = Repo(str(dest))
+            if 'tag' in ghinfo:
+                args.log.info('... checking out tag {}'.format(ghinfo['tag']))
+                repo.git.checkout(ghinfo['tag'])
+            else:
+                args.log.info('... checking out master')
+                try:
+                    branch = repo.branches.main
+                    branch.checkout()
+                except AttributeError:
+                    try:
+                        branch = repo.branches.master
+                        branch.checkout()
+                    except AttributeError:
+                        args.log.error('found neither main nor master branch')
+                repo.git.merge()
 
         with self.raw_dir.temp_download(CLTS_2_1[0], 'ds.zip', log=args.log) as zipp:
             zipfile.ZipFile(str(zipp)).extractall(self.raw_dir)
