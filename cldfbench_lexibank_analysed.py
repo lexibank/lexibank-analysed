@@ -1,8 +1,15 @@
-import itertools
-import pathlib
-import zipfile
-import textwrap
 import collections
+import io
+import itertools
+import json
+import pathlib
+import re
+import textwrap
+import urllib.request
+import zipfile
+
+from bs4 import BeautifulSoup as bs
+import requests
 
 import pycldf
 from cldfbench import CLDFSpec
@@ -20,6 +27,42 @@ CLTS_2_1 = (
     "https://zenodo.org/record/4705149/files/cldf-clts/clts-v2.1.0.zip?download=1",
     'cldf-clts-clts-04f04e3')
 _loaded = {}
+
+
+class TooManyRequests(IOError):
+    pass
+
+
+def download_from_doi(doi, outdir=pathlib.Path('.')):
+    res = requests.get('https://doi.org/{0}'.format(doi))
+    assert re.search('zenodo.org/record/[0-9]+$', res.url)
+    res = requests.get(res.url + '/export/json')
+    soup = bs(res.text, 'html.parser')
+    try:
+        res = json.loads(soup.find('pre').text)
+    except:
+        # FIXME we need to deal with this..
+        if 'Too many requests' in str(soup):
+            raise TooManyRequests("Hit Zenodo's rate limit.")
+        else:
+            raise ValueError('Unexpected download error')
+    assert any(kw.lower().startswith('cldf') for kw in res['metadata']['keywords'])
+    for f in res['files']:
+        if f['type'] == 'zip':
+            r = requests.get(f['links']['self'], stream=True)
+            z = zipfile.ZipFile(io.BytesIO(r.content))
+            z.extractall(str(outdir))
+        elif f['type'] == 'gz':
+            # what about a tar in there?
+            raise NotImplementedError()
+        elif f['type'] == 'gz':
+            raise NotImplementedError()
+        else:
+            urllib.request.urlretrieve(
+                f['links']['self'],
+                outdir / f['links']['self'].split('/')[-1],
+            )
+    return outdir
 
 
 class Dataset(BaseDataset):
@@ -61,6 +104,31 @@ class Dataset(BaseDataset):
                 args.log.info("... skipping dataset.")
             elif dest.exists():
                 args.log.info("... dataset already exists.")
+            elif row.get('Zenodo'):
+                args.log.info("... downloading {0} from Zenodo".format(row["Dataset"]))
+
+                # FIXME There Must Be a Better Way™ to deal with the different path names
+                #   (git repo name vs. folder name inside zip archive)
+                tmp_dir = self.etc_dir / 'tmp'
+                if tmp_dir.exists():
+                    args.log.warning('etc/tmp exists')
+                else:
+                    tmp_dir.mkdir()
+
+                try:
+                    download_from_doi(row['Zenodo'], outdir=tmp_dir)
+                except TooManyRequests as e:
+                    args.log.error('Hit Zenodo's rate limit.  Aborting...')
+                    return
+
+                for subdir in tmp_dir.iterdir():
+                    if row['Dataset'] in subdir.name:
+                        subdir.rename(dest)
+                        break
+                try:
+                    tmp_dir.rmdir()
+                except OSError as e:
+                    args.log.error(str(e))
             else:
                 args.log.info("... cloning {}".format(row["Dataset"]))
                 try:
