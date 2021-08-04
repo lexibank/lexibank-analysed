@@ -34,6 +34,7 @@ class TooManyRequests(IOError):
     pass
 
 
+# FIXME this should be removed if we don't end up using it
 def download_from_doi(doi, outdir=pathlib.Path('.')):
     res = requests.get('https://doi.org/{0}'.format(doi))
     assert re.search('zenodo.org/record/[0-9]+$', res.url)
