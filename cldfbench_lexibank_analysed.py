@@ -36,67 +36,25 @@ ID_TAG = '{http://purl.org/dc/elements/1.1/}identifier'
 REL_TAG = '{http://purl.org/dc/elements/1.1/}relation'
 
 
-class TooManyRequests(IOError):
-    pass
+def parse_oai_record(record):
+    for id_ in record.iter(ID_TAG):
+        if id_.text.startswith('10.5281/zenodo.'):
+            doi = id_.text
+            break
+    else:
+        return None
 
+    for rel in record.iter(REL_TAG):
+        match = re.fullmatch(
+            r'url:https://github\.com/([^/]+)/([^/]+)/tree/([^/]+)',
+            rel.text)
+        if match:
+            gh_orga, gh_repo, gh_tag = match.groups()
+            break
+    else:
+        return None
 
-# FIXME this should be removed if we don't end up using it
-def download_from_doi(doi, outdir=pathlib.Path('.')):
-    res = requests.get('https://doi.org/{0}'.format(doi))
-    assert re.search('zenodo.org/record/[0-9]+$', res.url)
-    res = requests.get(res.url + '/export/json')
-    soup = bs(res.text, 'html.parser')
-    try:
-        res = json.loads(soup.find('pre').text)
-    except:
-        # FIXME we need to deal with this..
-        if 'Too many requests' in str(soup):
-            raise TooManyRequests("Hit Zenodo's rate limit.")
-        else:
-            raise ValueError('Unexpected download error')
-    assert any(kw.lower().startswith('cldf') for kw in res['metadata']['keywords'])
-    for f in res['files']:
-        if f['type'] == 'zip':
-            r = requests.get(f['links']['self'], stream=True)
-            z = zipfile.ZipFile(io.BytesIO(r.content))
-            z.extractall(str(outdir))
-        elif f['type'] == 'gz':
-            # what about a tar in there?
-            raise NotImplementedError()
-        elif f['type'] == 'gz':
-            raise NotImplementedError()
-        else:
-            urllib.request.urlretrieve(
-                f['links']['self'],
-                outdir / f['links']['self'].split('/')[-1],
-            )
-    return outdir
-
-
-def parse_zenodo_info(records):
-    res = collections.OrderedDict()
-
-    for record in records:
-        for id_ in record.iter(ID_TAG):
-            if id_.text.startswith('10.5281/zenodo.'):
-                doi = id_.text
-                break
-        else:
-            continue
-
-        for rel in record.iter(REL_TAG):
-            match = re.fullmatch(
-                r'url:https://github\.com/([^/]+)/([^/]+)/tree/([^/]+)',
-                rel.text)
-            if match:
-                gh_orga, gh_repo, gh_tag = match.groups()
-                break
-        else:
-            continue
-
-        res[doi] = {'orga': gh_orga, 'repo': gh_repo, 'tag': gh_tag}
-
-    return res
+    return doi, {'orga': gh_orga, 'repo': gh_repo, 'tag': gh_tag}
 
 
 class Dataset(BaseDataset):
@@ -131,11 +89,16 @@ class Dataset(BaseDataset):
         }
 
     def cmd_download(self, args):
-        records = []
+        github_info = collections.OrderedDict()
+
         next_url = OAI_PMH_URL
         while next_url:
             response = ET.fromstring(requests.get(next_url).text)
-            records.extend(list(response.iter(RECORD_TAG)))
+            github_info.update(
+                filter(
+                    None,
+                    map(parse_oai_record, response.iter(RECORD_TAG))))
+
             token_list = response.findall(
                 './{http://www.openarchives.org/OAI/2.0/}ListRecords'
                 '/{http://www.openarchives.org/OAI/2.0/}resumptionToken')
@@ -143,8 +106,6 @@ class Dataset(BaseDataset):
                 next_url = RESUME_URL.format(token_list[0].text)
             else:
                 next_url = ''
-
-        github_info = parse_zenodo_info(records)
 
         def get_ghinfo(row):
             return (
