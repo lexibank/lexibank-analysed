@@ -1,15 +1,10 @@
 import collections
-import io
 import itertools
-import json
 import pathlib
 import re
-import textwrap
-import urllib.request
 import zipfile
 import xml.etree.ElementTree as ET
 
-from bs4 import BeautifulSoup as bs
 import requests
 
 import pycldf
