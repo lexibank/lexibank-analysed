@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='lexibank',
+    name='lexibank_analysed',
     version='0.1.0.dev0',
     description='',
     author='',
@@ -11,20 +11,23 @@ setup(
     long_description_content_type='text/markdown',
     keywords='',
     license='MIT',
-    url='https://github.com/lexibank/lexibank-study',
-    packages=find_packages(where='src'),
-    package_dir={'': 'src'},
+    url='https://github.com/lexibank/lexibank-analysed',
+    py_modules=['cldfbench_lexibank_analysed'],
+    packages=find_packages(where='.'),
     include_package_data=True,
     zip_safe=False,
     entry_points={
+        'cldfbench.dataset': [
+            'lexibank-analysed=cldfbench_lexibank_analysed:Dataset',
+        ],
         'cldfbench.commands': [
-            'lexibank-study=lexibank.commands',
+            'lexibank-analysed=lexibank_analysed_commands',
         ],
     },
     platforms='any',
-    python_requires='>=3.5',
-        install_requires=[
-            'cltoolkit',
+    python_requires='>=3.6',
+    install_requires=[
+        'cltoolkit',
         'pylexibank',
         'attrs>=18.2',
         'cldfbench[excel]>=1.2.3',
@@ -46,6 +49,7 @@ setup(
             'pytest>=6',
             'pytest-mock',
             'pytest-cov',
+            'pytest-cldf',
             'coverage',
         ],
     },

@@ -1,0 +1,893 @@
+ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Dataset,Subgroup,Family
+allenbai-Eryuan,Eryuan,,26.538056,99.910000,eryu1239,,allenbai,Bai,Sino-Tibetan
+allenbai-Heqing,Heqing,,26.0991374,99.9416161,heqi1238,,allenbai,Bai,Sino-Tibetan
+allenbai-Jianchuan,Jianchuan,,26.5536208,100.1396921,jian1239,,allenbai,Bai,Sino-Tibetan
+allenbai-Lanping,Lanping,,26.5158555,99.2581092,lanp1241,,allenbai,Bai,Sino-Tibetan
+allenbai-Luobenzhuo,Luobenzhuo,,26.4240223,98.8862088,nuji1238,,allenbai,Bai,Sino-Tibetan
+allenbai-Qiliqiao,Qiliqiao,,25.6553283,100.1709288,qili1234,,allenbai,Bai,Sino-Tibetan
+allenbai-Xiangyun,Xiangyun,,25.5313657,100.4478932,xian1250,,allenbai,Bai,Sino-Tibetan
+allenbai-Yunlong,Yunlong,,25.9223745,99.0352884,yunl1238,,allenbai,Bai,Sino-Tibetan
+allenbai-Zhoucheng,Zhoucheng,,25.8958633,100.0987848,zhou1234,,allenbai,Bai,Sino-Tibetan
+backstromnorthernpakistan-RonduBalti,Rondu Balti,,35.468685,75.358422,balt1258,,backstromnorthernpakistan,,Sino-Tibetan
+backstromnorthernpakistan-ShigarBalti,Shigar Balti,,35.422616,75.737108,balt1258,,backstromnorthernpakistan,,Sino-Tibetan
+backstromnorthernpakistan-SkarduBalti,Skardu Balti,,35.289137,75.607395,balt1258,,backstromnorthernpakistan,,Sino-Tibetan
+backstromnorthernpakistan-KhapaluBalti,Khapalu Balti,,35.163409,76.342552,balt1258,,backstromnorthernpakistan,,Sino-Tibetan
+backstromnorthernpakistan-KharmangBalti,Kharmang Balti,,34.968679,76.213849,balt1258,,backstromnorthernpakistan,,Sino-Tibetan
+backstromnorthernpakistan-ChorbatBalti,Chorbat Balti,,34.979586,72.680387,balt1258,,backstromnorthernpakistan,,Sino-Tibetan
+backstromnorthernpakistan-Hussainabad,Hussainabad,,36.6865546,74.8234606,hunz1248,,backstromnorthernpakistan,,Burushaski
+backstromnorthernpakistan-Murtazabad,Murtazabad,,36.2821952,74.5889064,hunz1248,,backstromnorthernpakistan,,Burushaski
+backstromnorthernpakistan-Haiderabad,Haiderabad,,36.2969008,74.5985662,hunz1248,,backstromnorthernpakistan,,Burushaski
+backstromnorthernpakistan-Ganish,Ganish,,36.312159,74.6626353,hunz1248,,backstromnorthernpakistan,,Burushaski
+backstromnorthernpakistan-NazimabadUpperSust,Nazimabad (Upper Sust) ,,36.6717915,74.8337469,hunz1248,,backstromnorthernpakistan,,Burushaski
+backstromnorthernpakistan-UyumNagar,Uyum Nagar,,36.1528358,74.8461621,naga1398,,backstromnorthernpakistan,,Burushaski
+backstromnorthernpakistan-Hoper,Hoper,,36.1528358,74.8461621,naga1398,,backstromnorthernpakistan,,Burushaski
+backstromnorthernpakistan-YasinCenter,Yasin Center,,36.4092359,73.0214217,yasi1237,,backstromnorthernpakistan,,Burushaski
+backstromnorthernpakistan-Shimshal,Shimshal,,36.435521,75.325492,,,backstromnorthernpakistan,,Indo-European
+backstromnorthernpakistan-Chapursan,Chapursan ,,36.494474,74.294484,,,backstromnorthernpakistan,,Indo-European
+backstromnorthernpakistan-Gupis,Gupis,,36.227407,73.442007,,,backstromnorthernpakistan,,Indo-European
+backstromnorthernpakistan-Gahorabad,Gahorabad,,36.098361,73.975326,,,backstromnorthernpakistan,,Indo-European
+backstromnorthernpakistan-DashkinAstor,Dashkin (Astor),,35.476599,74.774062,,,backstromnorthernpakistan,,Indo-European
+backstromnorthernpakistan-KachuraJel,Kachura (Jel),,35.439487,75.449668,,,backstromnorthernpakistan,,Indo-European
+backstromnorthernpakistan-Gultari,Gultari,,34.660371,75.539611,,,backstromnorthernpakistan,,Indo-European
+backstromnorthernpakistan-Dras,Dras,,34.4478362,75.5947267,dras1242,,backstromnorthernpakistan,,Indo-European
+bantubvd-1,Kinyamwezi F22,,-5.08559,32.94452,nyam1276,,bantubvd,,Atlantic-Congo
+bantubvd-2,Bukusu E.31c,,0.68043,34.7719,buku1249,,bantubvd,,Atlantic-Congo
+bantubvd-3,Koyo C.24,,-0.69688,15.7508,koyo1242,,bantubvd,,Atlantic-Congo
+bantubvd-4,Bemba M.42,,-10.6122,29.2993,bemb1257,,bantubvd,,Atlantic-Congo
+bantubvd-5,Basaa A.43a,,3.80765,10.4213,basa1284,,bantubvd,,Atlantic-Congo
+bantubvd-6,Asu G.22,,-4.17978,37.8323,asut1235,,bantubvd,,Atlantic-Congo
+bantubvd-7,Rumanyo (Gciriku) K.38,,-18.1681,20.6678,diri1252,,bantubvd,,Atlantic-Congo
+bantubvd-8,Lega D.25,,-3.83196,27.1424,lega1249,,bantubvd,,Atlantic-Congo
+bantubvd-9,Tswana S.30,,-24.368,24.7587,tswa1253,,bantubvd,,Atlantic-Congo
+bantubvd-10,Yao P.21,,-13.6119,35.2387,yaoo1241,,bantubvd,,Atlantic-Congo
+beidasinitic-Beijing,Beijing,,39.9385466,116.1172766,beij1234,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Changsha,Changsha,,28.85032,112.943344,chan1326,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Chaozhou,Chaozhou,,23.666667,116.633333,chao1238,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Chengdu,Chengdu,,30.605768,103.970947,chen1267,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Fuzhou,Fuzhou,,26.08904,119.294243,fuzh1239,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Guangzhou,Guangzhou,,23.1253503,112.9476548,guan1279,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Hefei,Hefei,,31.873593,117.223663,hefe1234,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Jinan,Jinan,,36.690777,116.997299,jina1245,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Kunming,Kunming,,25.049711,102.72274,kunm1234,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Meixian,Meixian,,24.3522958,115.8903375,yuet1238,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Nanchang,Nanchang,,28.706609,115.857468,nanc1254,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Shenyang,Shenyang,,41.8049906,123.1563167,shen1252,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Suzhou,Suzhou,,31.3280439,120.364116,suzh1234,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Wenzhou,Wenzhou,,28.005496,120.701179,ouji1238,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-XiAn,Xi_an,,34.228154,108.960571,xian1253,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Xiamen,Xiamen,,24.49421,118.08918,xiam1236,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Yangjiang,Yangjiang,,21.7895612,111.966667,yang1307,,beidasinitic,Sinitic,Sino-Tibetan
+beidasinitic-Yangzhou,Yangzhou,,32.4171449,119.209227,yang1306,,beidasinitic,Sinitic,Sino-Tibetan
+birchallchapacuran-cojubim,Cojubim,,-11.75,-64.0,kuyu1236,,birchallchapacuran,,Chapacuran
+birchallchapacuran-jaru,Jarú,,-10.25,-62.0,yaru1257,,birchallchapacuran,,Chapacuran
+birchallchapacuran-orowin,Oro Win,,-10.737,-64.0299,orow1243,,birchallchapacuran,,Chapacuran
+birchallchapacuran-tapakura,Tapakura,,-14.8,-62.2,chap1269,,birchallchapacuran,,Chapacuran
+birchallchapacuran-tora,Torá,,-6.19532,-61.7416,tora1263,,birchallchapacuran,,Chapacuran
+birchallchapacuran-wanyam,Wanyam,,-12.1,-63.1,wany1246,,birchallchapacuran,,Chapacuran
+birchallchapacuran-wari,Wari',,-10.69948,-64.56152,wari1268,,birchallchapacuran,,Chapacuran
+blustaustronesian-maloh,Maloh,,1.3156,112.63,emba1238,,blustaustronesian,,Austronesian
+blustaustronesian-iban,Iban,,2.09041,112.934,iban1264,,blustaustronesian,,Austronesian
+blustaustronesian-wuna,Wuna,,-5.40419,122.541,muna1247,,blustaustronesian,,Austronesian
+blustaustronesian-baree,Bare'e,,-1.62663,121.268,pamo1252,,blustaustronesian,,Austronesian
+blustaustronesian-tetum,Tetum,,-8.58405,125.583,tetu1246,,blustaustronesian,,Austronesian
+blustaustronesian-merinamalagasy,Merina_Malagasy,,-19.5907,47.1211,plat1254,,blustaustronesian,,Austronesian
+blustaustronesian-moken,Moken,,10.1474,98.6765,moke1242,,blustaustronesian,,Austronesian
+blustaustronesian-thao,Thao,,23.8333,120.93,thao1240,,blustaustronesian,,Austronesian
+blustaustronesian-nias,Nias,,0.90691,97.4961,nias1242,,blustaustronesian,,Austronesian
+blustaustronesian-hanunoo,Hanunoo,,12.4159,121.221,hanu1241,,blustaustronesian,,Austronesian
+blustaustronesian-singhi,Singhi,,1.54467,109.985,baub1235,,blustaustronesian,,Austronesian
+blustaustronesian-palauan,Palauan,,7.34138,134.476678,pala1344,,blustaustronesian,,Austronesian
+blustaustronesian-tunjung,Tunjung,,-0.29048,115.883,tunj1244,,blustaustronesian,,Austronesian
+blustaustronesian-berawanlongterawan,Berawan_Long_Terawan,,3.9815,114.528,west2564,,blustaustronesian,,Austronesian
+blustaustronesian-centralamis,Central Amis,,23.0917,121.348,amis1246,,blustaustronesian,,Austronesian
+blustaustronesian-tsou,Tsou,,23.216,120.787,tsou1248,,blustaustronesian,,Austronesian
+blustaustronesian-banoni,Banoni,,-6.23061,155.128,bann1247,,blustaustronesian,,Austronesian
+blustaustronesian-chamorro,Chamorro,,13.438011,144.74474,cham1312,,blustaustronesian,,Austronesian
+blustaustronesian-banggi,Banggi,,7.29249,117.174,bong1289,,blustaustronesian,,Austronesian
+blustaustronesian-mailu,Mailu,,-10.3657,149.521,mail1248,,blustaustronesian,,Mailuan
+bodtkhobwa-Duhumbi,Duhumbi,,27.42,92.23,chug1252,,bodtkhobwa,Western Kho-Bwa,Sino-Tibetan
+bodtkhobwa-Jerigaon,Jerigaon,,27.340629,92.486595,jeri1243,,bodtkhobwa,Western Kho-Bwa,Sino-Tibetan
+bodtkhobwa-Khispi,Khispi,,27.37,92.23,lish1235,,bodtkhobwa,Western Kho-Bwa,Sino-Tibetan
+bodtkhobwa-Khoina,Khoina,,27.334981,92.52994,khoi1253,,bodtkhobwa,Western Kho-Bwa,Sino-Tibetan
+bodtkhobwa-Khoitam,Khoitam,,27.327487,92.439455,khoi1252,,bodtkhobwa,Western Kho-Bwa,Sino-Tibetan
+bodtkhobwa-Rahung,Rahung,,27.310778,92.395028,rahu1234,,bodtkhobwa,Western Kho-Bwa,Sino-Tibetan
+bodtkhobwa-Rupa,Rupa,,27.203065,92.398757,rupa1234,,bodtkhobwa,Western Kho-Bwa,Sino-Tibetan
+bodtkhobwa-Shergaon,Shergaon,,27.105018,92.272133,sher1261,,bodtkhobwa,Western Kho-Bwa,Sino-Tibetan
+carvalhopurus-Yine,Yine,,-11.1086,-73.3087,yine1238,,carvalhopurus,,Arawakan
+carvalhopurus-Apurina,Apurinã,,-8.21692,-66.7714,apur1254,,carvalhopurus,,Arawakan
+carvalhopurus-Inapari,Iñapari,,-12.46525,-69.30827,inap1242,,carvalhopurus,,Arawakan
+castrosui-ShuigenCentralSandong,Sandong,,25.724479,107.92172,sand1270,,castrosui,Sui,Tai-Kadai
+castrosui-ZhongheCentralSandong,Zhonghe,,25.817612,107.904898,sand1270,,castrosui,Sui,Tai-Kadai
+castrosui-TangzhouWesternSandong,Tangzhou,,25.775037,107.87072,sand1270,,castrosui,Sui,Tai-Kadai
+castrosui-TingpaiWesternSandong,Tingpai,,25.3756,107.5416,sand1270,,castrosui,Sui,Tai-Kadai
+castrosui-AntangWesternSandong,Antang,,25.935942,108.113772,sand1270,,castrosui,Sui,Tai-Kadai
+castrosui-DujiangEasternSandong,Dujiang,,26.009139,108.260898,sand1270,,castrosui,Sui,Tai-Kadai
+castrosui-SanjiangEasternSandong,Sanjiang,,26.009139,108.260898,sand1270,,castrosui,Sui,Tai-Kadai
+castrosui-RenliEasternSandong,Renli,,26.116584,108.435839,sand1270,,castrosui,Sui,Tai-Kadai
+castrosui-JiuqianSouthernSandong,Jiuqian,,25.615405,108.030525,sand1270,,castrosui,Sui,Tai-Kadai
+castrosui-ShuiyaoSouthernSandong,Shuiyao,,25.413123,107.969761,sand1270,,castrosui,Sui,Tai-Kadai
+castrosui-JiarongSouthernSandong,Jiarong,,25.493343,108.183955,sand1270,,castrosui,Sui,Tai-Kadai
+castrosui-ShuiweiSouthernSandong,Shuiwei,,25.710491,108.211043,sand1270,,castrosui,Sui,Tai-Kadai
+castrosui-Pandong,Pandong,,26.06349,107.693696,pand1262,,castrosui,Sui,Tai-Kadai
+castrosui-JiaoliPandong,Jiaoli,,26.059013,107.8486,pand1262,,castrosui,Sui,Tai-Kadai
+castrosui-TangnianYangAn,Tangnian,,25.58369,107.801479,anya1244,,castrosui,Sui,Tai-Kadai
+castrosui-BanliangYangAn,Banliang,,25.776111,107.870727,anya1244,,castrosui,Sui,Tai-Kadai
+chenhmongmien-EasternLuobuohe,"Luobuohe, Eastern",,26.63966,107.913354,luop1235,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-WesternLuobuohe,"Luobuohe, Western",,26.854607,107.226676,luop1235,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-Chuanqiandian,Chuanqiandian,,27.51846,105.421028,chua1248,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-CentralGuizhouChuanqiandian,"Chuanqiandian, Central Guizhou",,26.231562,106.861969,nort2749,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-SouthernGuizhouChuanqiandian,"Chuanqiandian, Southern Guizhou",,25.586343,106.323467,cent1394,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-NortheastYunnanChuanqiandian,"Chuanqiandian, Northeast Yunnan",,27.096059,103.698607,larg1235,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-WesternXiangxi,"Xiangxi, West",,28.33212,109.422366,west2430,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-EasternXiangxi,"Xiangxi, East",,28.124036,109.890473,east2371,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-NorthernQiandong,"Qiandong, North",,26.68993,108.401145,nort2747,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-EasternQiandong,"Qiandong, East",,27.78098,110.499463,east2370,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-SouthernQiandong,"Qiandong, South",,25.520166,108.779365,sout2754,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-WesternQiandong,"Qiandong, West",,26.43106,107.68758,,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-WesternBaheng,"Baheng, West",,25.74971,109.286281,pahn1237,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-EasternBaheng,"Baheng, East",,27.11733,111.02615,pahn1237,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-Dongnu,Dongnu,,24.201523,107.957327,dong1287,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-Nunu,Nunu,,24.232341,107.194266,nunu1247,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-Numao,Numao,,25.447767,108.064732,numa1251,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-Bana,Bana,,26.265147,110.096902,pana1310,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-Younuo,Younuo,,25.730893,110.115975,youn1235,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-She,She,,26.264261,110.096988,shee1238,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-Jiongnai,Jiongnai,,24.071002,110.105752,jion1236,,chenhmongmien,Hmongic,Hmong-Mien
+chenhmongmien-Mien,Mien,,24.172823,110.054488,iumi1238,,chenhmongmien,Mienic,Hmong-Mien
+chenhmongmien-KimMun,Kim Mun,,18.955781,109.86012,kimm1245,,chenhmongmien,Mienic,Hmong-Mien
+chenhmongmien-BiaoMin,Biao Min,,25.82286,111.29622,biao1254,,chenhmongmien,Mienic,Hmong-Mien
+chenhmongmien-ZaoMin,Zao Min,,24.612303,112.266749,dzao1238,,chenhmongmien,Mienic,Hmong-Mien
+chingelong-Xifang,Xifang Hlai,,19.30,109.24,hlai1239,,chingelong,Northern Hlai,Tai-Kadai
+chingelong-Baisha,Baisha Hlai,,18.9885359,109.2515665,hlai1239,,chingelong,Northern Hlai,Tai-Kadai
+chingelong-Yuanmen,Yuanmen Hlai,,19.11,109.54,hlai1239,,chingelong,Northern Hlai,Tai-Kadai
+chingelong-Heitu,Heitu Hlai,,19.51,108.94,hlai1239,,chingelong,Southern Hlai,Tai-Kadai
+chingelong-Baoding,Baoding Hlai,,18.77,110.45,hlai1239,,chingelong,Central Hlai,Tai-Kadai
+chingelong-Zhongsha,Zhongsha Hlai,,18.8010694,108.7668462,hlai1239,,chingelong,Central Hlai,Tai-Kadai
+chingelong-Tongzha,Tongzha Hlai,,18.88,109.67,hlai1239,,chingelong,Central Hlai,Tai-Kadai
+chingelong-Qiandui,Quiandui Hlai,,18.91,110.04,hlai1239,,chingelong,Central Hlai,Tai-Kadai
+chingelong-Baocheng,Baocheng Hlai,,18.64,109.70,hlai1239,,chingelong,Central Hlai,Tai-Kadai
+chingelong-Gelong,Gelong,,19.10,108.65,,,chingelong,,
+davletshinaztecan-ClassicalNahuatl,Classical Nahuatl,,19.72,-96.97,clas1250,,davletshinaztecan,,Uto-Aztecan
+davletshinaztecan-JalupaNahuat,Jalupa Nahuat,,17.9371,-93.5688,taba1265,,davletshinaztecan,,Uto-Aztecan
+davletshinaztecan-MecayapanNahuat,Mecayapan Nahuat,,18.2,-94.7547,isth1242,,davletshinaztecan,,Uto-Aztecan
+davletshinaztecan-NorthPueblaNahuatl,North Puebla Nahuatl,,20.1356,-97.9814,nort2957,,davletshinaztecan,,Uto-Aztecan
+davletshinaztecan-PajapanNahuat,Pajapán Nahuat,,18.2513,-94.6647,isth1241,,davletshinaztecan,,Uto-Aztecan
+davletshinaztecan-Pipil,Pipil,,13.8931,-89.443,pipi1250,,davletshinaztecan,,Uto-Aztecan
+davletshinaztecan-TetelcingoNahuatl,Tetelcingo Nahuatl,,18.8854,-98.893,tete1251,,davletshinaztecan,,Uto-Aztecan
+deepadungpalaung-ChuDongGua,Chu Dong Gua,,24.330889,98.393125,,,deepadungpalaung,Palaung,Austro-Asiatic
+deepadungpalaung-MengDan,Meng Dan,,24.296522,98.379886,khan1274,,deepadungpalaung,Palaung,Austroasiatic
+deepadungpalaung-NanSang,Nan Sang,,24.019728,97.819736,ruma1248,,deepadungpalaung,Palaung,Austroasiatic
+deepadungpalaung-GuangKa,Guang Ka,,24.065714,97.796281,ruma1248,,deepadungpalaung,Palaung,Austroasiatic
+deepadungpalaung-MangBang,Mang Bang,,24.416392,98.399078,ruma1248,,deepadungpalaung,Palaung,Austroasiatic
+deepadungpalaung-ChaYeQing,Cha Ye Qing,,24.305717,98.463661,,,deepadungpalaung,Palaung,Austro-Asiatic
+deepadungpalaung-XiangZhaiTang,Xiang Zhai Tang,,24.323819,98.556639,ruma1248,,deepadungpalaung,Palaung,Austroasiatic
+deepadungpalaung-NamHsan,Namhsan,,22.965064,97.163239,,,deepadungpalaung,Palaung,Austro-Asiatic
+deepadungpalaung-KhunHawt,Khun Hawt,,22.965064,97.163239,,,deepadungpalaung,Palaung,Austro-Asiatic
+deepadungpalaung-HtanHsan,Htan Hsan,,22.675133,97.289942,,,deepadungpalaung,Palaung,Austro-Asiatic
+deepadungpalaung-PangKham,Pangkham,,22.672097,97.161167,,,deepadungpalaung,Palaung,Austro-Asiatic
+deepadungpalaung-ManLoi,Man Loi,,22.636019,97.139264,,,deepadungpalaung,Palaung,Austro-Asiatic
+deepadungpalaung-NyaungGone,Nyaung Gone,,20.635025,96.545772,,,deepadungpalaung,Palaung,Austro-Asiatic
+deepadungpalaung-BanPaw,Ban Paw,,21.311225,99.557550,,,deepadungpalaung,Palaung,Austro-Asiatic
+deepadungpalaung-NoeLae,Noe Lae,,19.941803,99.044742,,,deepadungpalaung,Palaung,Austro-Asiatic
+deepadungpalaung-PongNuea,Pong Nuea,,20.321525,99.866817,,,deepadungpalaung,Palaung,Austro-Asiatic
+dravlex-Badga,Badga,,11.3094,76.5974,bada1257,,dravlex,,Dravidian
+dravlex-Betta_Kurumba,Betta_Kurumba,,11.6385,76.6064,bett1235,,dravlex,,Dravidian
+dravlex-Brahui,Brahui,,29.04,66.56,brah1256,,dravlex,,Dravidian
+dravlex-Gondi,Gondi,,18.1632,81.3842,nort2702,,dravlex,,Dravidian
+dravlex-Kannada,Kannada,,13.5878,76.1198,nucl1305,,dravlex,,Dravidian
+dravlex-Kodava,Kodava,,12.2443,75.9161,koda1255,,dravlex,,Dravidian
+dravlex-Kolami,Kolami,,20.1022,78.4934,nort2699,,dravlex,,Dravidian
+dravlex-Kota,Kota,,11.4978,76.9387,kota1263,,dravlex,,Dravidian
+dravlex-Koya,Koya,,17.6772,81.2096,koya1251,,dravlex,,Dravidian
+dravlex-Kurukh,Kurukh,,24.4644,86.4657,kuru1302,,dravlex,,Dravidian
+dravlex-Malayalam,Malayalam,,9.59208,76.7651,mala1464,,dravlex,,Dravidian
+dravlex-Malto,Malto,,24.8124,87.6432,saur1249,,dravlex,,Dravidian
+dravlex-Tamil,Tamil,,10.520219,78.825989,tami1289,,dravlex,,Dravidian
+dravlex-Telugu,Telugu,,16.4529,78.7024,telu1262,,dravlex,,Dravidian
+dravlex-Toda,Toda,,11.4184,77.0168,toda1252,,dravlex,,Dravidian
+dravlex-Tulu,Tulu,,12.8114,75.2651,tulu1258,,dravlex,,Dravidian
+dravlex-Yeruva,Yeruva,,12.3231,75.6265,ravu1237,,dravlex,,Dravidian
+felekesemitic-Amharic,Amharic,,11.708182,39.543456,amha1245,,felekesemitic,,Afro-Asiatic
+felekesemitic-Argobba,Argobba,,10.6596,39.756,argo1244,,felekesemitic,,Afro-Asiatic
+felekesemitic-Geez,Ge'ez,,10.1342,40.6821,geez1241,,felekesemitic,,Afro-Asiatic
+felekesemitic-Harari,Harari,,9.30485,42.1332,hara1271,,felekesemitic,,Afro-Asiatic
+felekesemitic-Kistane,Kistane,,8.33561,38.4763,kist1241,,felekesemitic,,Afro-Asiatic
+felekesemitic-Mesqan,Mesqan,,8.10617,38.3386,mesq1240,,felekesemitic,,Afro-Asiatic
+felekesemitic-Silte,Silt'e,,7.77004,38.1449,silt1240,,felekesemitic,,Afro-Asiatic
+felekesemitic-Tigre,Tigre,,17.3494,38.2233,tigr1270,,felekesemitic,,Afro-Asiatic
+felekesemitic-Tigrigna,Tigrigna,,15.3359,38.9266,tigr1271,,felekesemitic,,Afro-Asiatic
+felekesemitic-Wolane,Wolane,,8.23,38.14,wola1253,,felekesemitic,,Afro-Asiatic
+felekesemitic-Zway,Zway,,8.01148,38.8258,zayy1238,,felekesemitic,,Afro-Asiatic
+johanssonsoundsymbolic-Abun,Abun,,-0.57073,132.416,abun1252,,johanssonsoundsymbolic,,Abun
+johanssonsoundsymbolic-Achumawi,Achumawi,,41.0979,-121.191,achu1247,,johanssonsoundsymbolic,,Palaihnihan
+johanssonsoundsymbolic-Adyghe,Adyghe,,44.0,39.33,adyg1241,,johanssonsoundsymbolic,,Abkhaz-Adyge
+johanssonsoundsymbolic-Aguaruna,Aguaruna,,-5.30044,-77.9218,agua1253,,johanssonsoundsymbolic,,Jivaroan
+johanssonsoundsymbolic-Ahtena,Ahtena,,61.7068,-144.889,ahte1237,,johanssonsoundsymbolic,,Athapaskan-Eyak-Tlingit
+johanssonsoundsymbolic-Ainu,Ainu,,43.633654,142.46167,ainu1240,,johanssonsoundsymbolic,,Ainu (Japan)
+johanssonsoundsymbolic-Alabama,Alabama,,30.76738,-94.62848,alab1237,,johanssonsoundsymbolic,,Muskogean
+johanssonsoundsymbolic-Alawa,Alawa,,-15.5458,134.282,alaw1244,,johanssonsoundsymbolic,,Mangarrayi-Maran
+johanssonsoundsymbolic-Allentiac,Allentiac,,-33.480938,-68.096924,alle1238,,johanssonsoundsymbolic,,Huarpean
+johanssonsoundsymbolic-Alsea,Alsea,,44.408,-123.94,alse1251,,johanssonsoundsymbolic,,Alsea
+johanssonsoundsymbolic-Amarakaeri,Amarakaeri,,-12.4931,-70.5533,amar1274,,johanssonsoundsymbolic,,Harakmbut
+johanssonsoundsymbolic-Ambulas,Ambulas,,-3.7801,143.059,ambu1247,,johanssonsoundsymbolic,,Ndu
+johanssonsoundsymbolic-Andaqui,Andaqui,,2.74999,-76.0,anda1286,,johanssonsoundsymbolic,,Andaqui
+johanssonsoundsymbolic-Arabela,Arabela,,-1.96126,-75.0612,arab1268,,johanssonsoundsymbolic,,Zaparoan
+johanssonsoundsymbolic-Arapaho,Arapaho,,43.3879,-108.81,arap1274,,johanssonsoundsymbolic,,Algic
+johanssonsoundsymbolic-Atakapa,Atakapa,,30.9121,-93.0827,atak1252,,johanssonsoundsymbolic,,Atakapa
+johanssonsoundsymbolic-Awtuw,Awtuw,,-3.53129,141.928,awtu1239,,johanssonsoundsymbolic,,Sepik
+johanssonsoundsymbolic-Aymara,Aymara,,-17.0,-68.5,cent2142,,johanssonsoundsymbolic,,Aymara
+johanssonsoundsymbolic-Ayoreo,Ayoreo,,-19.220055,-60.217495,ayor1240,,johanssonsoundsymbolic,,Zamucoan
+johanssonsoundsymbolic-Bangime,Bangime,,14.8116,-3.77092,bang1363,,johanssonsoundsymbolic,,Bangime
+johanssonsoundsymbolic-Bambassi,Bambassi,,9.82554,34.6522,bamb1262,,johanssonsoundsymbolic,,Mao
+johanssonsoundsymbolic-Bamu,Bamu,,-7.93818,143.545,bamu1257,,johanssonsoundsymbolic,,Kiwaian
+johanssonsoundsymbolic-BankanTeyDogon,Bankan Tey Dogon,,15.06,-2.92,bank1259,,johanssonsoundsymbolic,,Dogon
+johanssonsoundsymbolic-Bari,Bari,,9.08497,-72.9353,bari1297,,johanssonsoundsymbolic,,Chibchan
+johanssonsoundsymbolic-Baruya,Baruya,,-6.89261,145.818,baru1267,,johanssonsoundsymbolic,,Angan
+johanssonsoundsymbolic-Basque,Basque,,43.2787,-1.31622,basq1248,,johanssonsoundsymbolic,,Basque
+johanssonsoundsymbolic-Berik,Berik,,-2.26904,138.866,beri1254,,johanssonsoundsymbolic,,Tor-Orya
+johanssonsoundsymbolic-Berta,Berta,,10.6474,34.7042,bert1248,,johanssonsoundsymbolic,,Berta
+johanssonsoundsymbolic-Bezhta,Bezhta,,42.1206,46.0332,bezh1248,,johanssonsoundsymbolic,,Nakh-Daghestanian
+johanssonsoundsymbolic-Bororo,Bororo,,-16.6029,-55.2004,boro1282,,johanssonsoundsymbolic,,Bororoan
+johanssonsoundsymbolic-Burushaski,Burushaski,,36.2161,74.8236,buru1296,,johanssonsoundsymbolic,,Burushaski
+johanssonsoundsymbolic-CandoshiShapra,Candoshi-Shapra,,-4.23835,-76.9347,cand1248,,johanssonsoundsymbolic,,Candoshi-Shapra
+johanssonsoundsymbolic-Cavinena,Cavineña,,-13.3544,-66.6277,cavi1250,,johanssonsoundsymbolic,,Tacanan
+johanssonsoundsymbolic-Cayuvava,Cayuvava,,-13.2482,-65.4822,cayu1262,,johanssonsoundsymbolic,,Cayubaba
+johanssonsoundsymbolic-Chachi,Chachi,,0.71489,-79.0508,chac1249,,johanssonsoundsymbolic,,Barbacoan
+johanssonsoundsymbolic-Chatino,Chatino,,16.08,-97.3069,zaca1242,,johanssonsoundsymbolic,,Otomanguean
+johanssonsoundsymbolic-Chayahuita,Chayahuita,,-5.63764,-76.8252,chay1248,,johanssonsoundsymbolic,,Cahuapanan
+johanssonsoundsymbolic-Chinook,Chinook,,45.1729,-119.166,chin1286,,johanssonsoundsymbolic,,Chinookan
+johanssonsoundsymbolic-Chipaya,Chipaya,,-18.73951,-67.89633,chip1262,,johanssonsoundsymbolic,,Uru-Chipaya
+johanssonsoundsymbolic-Cofan,Cofán,,0.276675,-77.0643,cofa1242,,johanssonsoundsymbolic,,Cofán
+johanssonsoundsymbolic-Coos,Coos,,43.4413,-124.16,coos1249,,johanssonsoundsymbolic,,Coosan
+johanssonsoundsymbolic-Copainalazoque,Copainalá Zoque,,17.2157,-93.3183,copa1236,,johanssonsoundsymbolic,,Mixe-Zoque
+johanssonsoundsymbolic-Cuitlatec,Cuitlatec,,18.1,-100.5,cuit1236,,johanssonsoundsymbolic,,Cuitlatec
+johanssonsoundsymbolic-Dadibi,Dadibi,,-6.65765,144.511,dadi1250,,johanssonsoundsymbolic,,Teberan
+johanssonsoundsymbolic-Daga,Daga,,-9.9747,149.263,daga1275,,johanssonsoundsymbolic,,Dagan
+johanssonsoundsymbolic-Deraindonesia,Dera (Indonesia),,-3.52309,140.947,dera1245,,johanssonsoundsymbolic,,Senagi
+johanssonsoundsymbolic-Dime,Dime,,6.20951,36.3329,dime1235,,johanssonsoundsymbolic,,South Omotic
+johanssonsoundsymbolic-Djeoromitxi,Djeoromitxi,,-12.038,-64.6694,djeo1235,,johanssonsoundsymbolic,,Nuclear-Macro-Je
+johanssonsoundsymbolic-Djingili,Djingili,,-17.165,133.659,djin1251,,johanssonsoundsymbolic,,Mirndi
+johanssonsoundsymbolic-DoromuKoki,Doromu-Koki,,-9.56687,147.986,doro1266,,johanssonsoundsymbolic,,Manubaran
+johanssonsoundsymbolic-Enapaworomaipu,E'napa Woromaipu,,6.95035,-65.8483,enap1235,,johanssonsoundsymbolic,,Cariban
+johanssonsoundsymbolic-Esselen,Esselen,,36.5473,-121.867,esse1238,,johanssonsoundsymbolic,,Esselen
+johanssonsoundsymbolic-Estonian,Estonian,,58.55,25.82,esto1258,,johanssonsoundsymbolic,,Uralic
+johanssonsoundsymbolic-Fasu,Fasu,,-6.62687,143.284,fasu1242,,johanssonsoundsymbolic,,Fasu
+johanssonsoundsymbolic-Fur,Fur,,12.0455,23.6401,furr1244,,johanssonsoundsymbolic,,Furan
+johanssonsoundsymbolic-Gaam,Gaam,,11.4674,33.9797,gaam1241,,johanssonsoundsymbolic,,Eastern Jebel
+johanssonsoundsymbolic-Gagadu,Gagadu,,-12.5176,132.643,gaga1251,,johanssonsoundsymbolic,,Gagadu
+johanssonsoundsymbolic-Garrwa,Garrwa,,-17.4504,137.72014,gara1269,,johanssonsoundsymbolic,,Garrwan
+johanssonsoundsymbolic-Georgian,Georgian,,41.850397,43.78613,nucl1302,,johanssonsoundsymbolic,,Kartvelian
+johanssonsoundsymbolic-Gooniyandi,Gooniyandi,,-18.4073,126.351,goon1238,,johanssonsoundsymbolic,,Bunaban
+johanssonsoundsymbolic-Grasskoiari,Grass Koiari,,-9.51218,147.437,gras1249,,johanssonsoundsymbolic,,Koiarian
+johanssonsoundsymbolic-GreatAndamanese,Great Andamanese,,11.67,92.74,mixe1288,,johanssonsoundsymbolic,,Great Andamanese
+johanssonsoundsymbolic-Guahibo,Guahibo,,5.81736,-68.9839,guah1255,,johanssonsoundsymbolic,,Guahibo
+johanssonsoundsymbolic-Guarani,Guaraní,,-25.60551,-57.08816,para1311,,johanssonsoundsymbolic,,Tupian
+johanssonsoundsymbolic-Guhusamane,Guhu-Samane,,-7.99922,147.228,guhu1244,,johanssonsoundsymbolic,,Nuclear Trans New Guinea
+johanssonsoundsymbolic-Gumuz,Gumuz,,11.05,35.93,gumu1244,,johanssonsoundsymbolic,,Gumuz
+johanssonsoundsymbolic-Gununakune,Gününa Küne,,-42.223,-68.666,puel1244,,johanssonsoundsymbolic,,Puelche
+johanssonsoundsymbolic-Hadza,Hadza,,-3.83115,35.0458,hadz1240,,johanssonsoundsymbolic,,Hadza
+johanssonsoundsymbolic-Haidanorthern,Haida (Northern),,54.004532,-132.079257,nort2938,,johanssonsoundsymbolic,,Haida
+johanssonsoundsymbolic-Halkomelem,Halkomelem,,49.250402,-122.443668,halk1245,,johanssonsoundsymbolic,,Salishan
+johanssonsoundsymbolic-Hatam,Hatam,,-1.13531,134.037,hata1243,,johanssonsoundsymbolic,,Hatam-Mansim
+johanssonsoundsymbolic-HighlandOaxacaChontal,Highland Oaxaca Chontal,,16.1849,-95.7301,high1242,,johanssonsoundsymbolic,,Tequistlatecan
+johanssonsoundsymbolic-Hruso,Hruso,,27.27,92.63,hrus1242,,johanssonsoundsymbolic,,Hruso
+johanssonsoundsymbolic-Huave,Huave,,16.2129,-95.0077,sanm1287,,johanssonsoundsymbolic,,Huavean
+johanssonsoundsymbolic-Hupde,Hupdë,,0.58622,-69.8359,hupd1244,,johanssonsoundsymbolic,,Nadahup
+johanssonsoundsymbolic-ImbaburaQuechua,Imbabura Quechua,,0.31776,-78.3729,imba1240,,johanssonsoundsymbolic,,Quechuan
+johanssonsoundsymbolic-Ineseno,Ineseño,,34.6169,-120.08,ines1240,,johanssonsoundsymbolic,,Chumashan
+johanssonsoundsymbolic-Itelmen,Itelmen,,56.046173,156.30704,itel1242,,johanssonsoundsymbolic,,Chukotko-Kamchatkan
+johanssonsoundsymbolic-Itonama,Itonama,,-12.80431,-64.35748,iton1250,,johanssonsoundsymbolic,,Itonama
+johanssonsoundsymbolic-Jamamadi,Jamamadí,,-7.62223,-66.5662,jama1261,,johanssonsoundsymbolic,,Arawan
+johanssonsoundsymbolic-Japanese,Japanese,,35.0,135.0,nucl1643,,johanssonsoundsymbolic,,Japonic
+johanssonsoundsymbolic-Jarawa,Jarawa,,11.6089,92.658,jara1245,,johanssonsoundsymbolic,,Jarawa-Onge
+johanssonsoundsymbolic-Juhoan,Ju'hoan,,-19.688,20.7673,juho1239,,johanssonsoundsymbolic,,Kxa
+johanssonsoundsymbolic-Kaingang,Kaingang,,-27.7671,-52.5394,kain1272,,johanssonsoundsymbolic,,Nuclear-Macro-Je
+johanssonsoundsymbolic-Kaluli,Kaluli,,-6.45932,142.788,kalu1248,,johanssonsoundsymbolic,,Bosavi
+johanssonsoundsymbolic-Kamasau,Kamasau,,-3.8503,143.842,kama1367,,johanssonsoundsymbolic,,Nuclear Torricelli
+johanssonsoundsymbolic-Kamula,Kamula,,-7.28798,142.639,kamu1260,,johanssonsoundsymbolic,,Kamula
+johanssonsoundsymbolic-Kanoe,Kanoê,,-12.1789,-64.5812,kano1245,,johanssonsoundsymbolic,,Kanoê
+johanssonsoundsymbolic-Kanuri,Kanuri,,11.8,13.13,cent2050,,johanssonsoundsymbolic,,Saharan
+johanssonsoundsymbolic-Karaja,Karajá,,-11.1881,-50.3492,kara1500,,johanssonsoundsymbolic,,Nuclear-Macro-Je
+johanssonsoundsymbolic-Karas,Karas,,-3.47037,132.678,kara1499,,johanssonsoundsymbolic,,West Bomberai
+johanssonsoundsymbolic-Karok,Karok,,41.8228,-123.315,karo1304,,johanssonsoundsymbolic,,Karok
+johanssonsoundsymbolic-Katcha,Katcha,,10.8423,29.4914,katc1249,,johanssonsoundsymbolic,,Kadugli-Krongo
+johanssonsoundsymbolic-Kayardild,Kayardild,,-17.0695,139.489,kaya1319,,johanssonsoundsymbolic,,Tangkic
+johanssonsoundsymbolic-Kekchi,Kekchí,,15.3788,-89.2452,kekc1242,,johanssonsoundsymbolic,,Mayan
+johanssonsoundsymbolic-Ket,Ket,,63.7551,87.5466,kett1243,,johanssonsoundsymbolic,,Yeniseian
+johanssonsoundsymbolic-Kiowa,Kiowa,,34.9403,-98.9042,kiow1266,,johanssonsoundsymbolic,,Kiowa-Tanoan
+johanssonsoundsymbolic-Kitja,Kitja,,-17.5758,127.392,kitj1240,,johanssonsoundsymbolic,,Jarrakan
+johanssonsoundsymbolic-Klamath,Klamath,,42.5861,-121.704,klam1254,,johanssonsoundsymbolic,,Klamath-Modoc
+johanssonsoundsymbolic-Korean,Korean,,37.5,128.0,kore1280,,johanssonsoundsymbolic,,Koreanic
+johanssonsoundsymbolic-Krenak,Krenak,,-18.9988,-41.2299,kren1239,,johanssonsoundsymbolic,,Nuclear-Macro-Je
+johanssonsoundsymbolic-Kunimaipa,Kunimaipa,,-8.09371,146.908,kuni1267,,johanssonsoundsymbolic,,Goilalan
+johanssonsoundsymbolic-Kunza,Kunza,,-23.0,-69.0,kunz1244,,johanssonsoundsymbolic,,Kunza
+johanssonsoundsymbolic-Kuot,Kuot,,-3.06952,151.537,kuot1243,,johanssonsoundsymbolic,,Kuot
+johanssonsoundsymbolic-Kwakiutl,Kwakiutl,,50.9269,-127.308,kwak1269,,johanssonsoundsymbolic,,Wakashan
+johanssonsoundsymbolic-Kwaza,Kwaza,,-11.6667,-61.1833,kwaz1243,,johanssonsoundsymbolic,,Kwaza
+johanssonsoundsymbolic-Lakota,Lakota,,46.3699,-103.95,lako1247,,johanssonsoundsymbolic,,Siouan
+johanssonsoundsymbolic-Lavukaleve,Lavukaleve,,-9.05569,159.119,lavu1241,,johanssonsoundsymbolic,,Lavukaleve
+johanssonsoundsymbolic-Lencasalvador,Lenca-Salvador,,13.9278,-88.0422,lenc1244,,johanssonsoundsymbolic,,Lencan
+johanssonsoundsymbolic-Limilngan,Limilngan,,-12.4294,131.845,nucl1327,,johanssonsoundsymbolic,,Limilngan
+johanssonsoundsymbolic-Lule,Lule,,-25.221839,-61.887818,lule1238,,johanssonsoundsymbolic,,Lule
+johanssonsoundsymbolic-Maasai,Maasai,,-3.1419,36.4573,masa1300,,johanssonsoundsymbolic,,Nilotic
+johanssonsoundsymbolic-Mailu,Mailu,,-10.3657,149.521,mail1248,,johanssonsoundsymbolic,,Mailuan
+johanssonsoundsymbolic-Mairasi,Mairasi,,-3.4511,134.071,nucl1594,,johanssonsoundsymbolic,,Mairasi
+johanssonsoundsymbolic-Mali,Mali,,-4.71826,152.214,mali1284,,johanssonsoundsymbolic,,Baining
+johanssonsoundsymbolic-Manange,Manange,,28.6416,84.0515,mana1288,,johanssonsoundsymbolic,,Sino-Tibetan
+johanssonsoundsymbolic-Mandinka,Mandinka,,12.8165233333,-15.6539466667,mand1436,,johanssonsoundsymbolic,,Mande
+johanssonsoundsymbolic-Mapudungun,Mapudungun,,-38.7392,-71.277,mapu1245,,johanssonsoundsymbolic,,Araucanian
+johanssonsoundsymbolic-Maranunggu,Maranunggu,,-13.6754,130.12,mara1386,,johanssonsoundsymbolic,,Western Daly
+johanssonsoundsymbolic-Marind,Marind,,-8.15651,140.009,nucl1622,,johanssonsoundsymbolic,,Anim
+johanssonsoundsymbolic-Maung,Maung,,-11.66,133.376,maun1240,,johanssonsoundsymbolic,,Iwaidjan Proper
+johanssonsoundsymbolic-Maxakali,Maxakalí,,-16.9402,-40.7891,maxa1247,,johanssonsoundsymbolic,,Nuclear-Macro-Je
+johanssonsoundsymbolic-Maybrat,Maybrat,,-1.3679,132.591,maib1239,,johanssonsoundsymbolic,,Maybrat
+johanssonsoundsymbolic-Meriam,Meriam,,-9.59575,143.773,meri1244,,johanssonsoundsymbolic,,Eastern Trans-Fly
+johanssonsoundsymbolic-Miskito,Miskito,,15.1576,-84.2942,misk1235,,johanssonsoundsymbolic,,Misumalpan
+johanssonsoundsymbolic-Mocovi,Mocoví,,-28.097,-60.4145,moco1246,,johanssonsoundsymbolic,,Guaicuruan
+johanssonsoundsymbolic-Mojave,Mojave,,34.8866,-114.599,moha1256,,johanssonsoundsymbolic,,Cochimi-Yuman
+johanssonsoundsymbolic-Mongolian,Mongolian,,48.324,106.289,halh1238,,johanssonsoundsymbolic,,Mongolic
+johanssonsoundsymbolic-Moro,Moro,,10.9194,30.2138,moro1285,,johanssonsoundsymbolic,,Heiban
+johanssonsoundsymbolic-Moseten,Mosetén,,-14.64448,-67.83756,mose1249,,johanssonsoundsymbolic,,Mosetén-Chimané
+johanssonsoundsymbolic-Moskona,Moskona,,-1.62201,133.145,mosk1236,,johanssonsoundsymbolic,,East Bird's Head
+johanssonsoundsymbolic-Movima,Movima,,-13.8115,-65.6348,movi1243,,johanssonsoundsymbolic,,Movima
+johanssonsoundsymbolic-Muinane,Muinane,,-0.8652,-72.4249,muin1242,,johanssonsoundsymbolic,,Boran
+johanssonsoundsymbolic-Muniche,Muniche,,-5.7441796,-76.426712,muni1258,,johanssonsoundsymbolic,,Muniche
+johanssonsoundsymbolic-MurrinhPatha,Murrinh-Patha,,-14.74852,129.70152,murr1258,,johanssonsoundsymbolic,,Southern Daly
+johanssonsoundsymbolic-Muruihuitoto,Murui Huitoto,,-1.13669,-73.8331,muru1274,,johanssonsoundsymbolic,,Huitotoan
+johanssonsoundsymbolic-Nakara,Nakara,,-12.07653,134.32729,naka1260,,johanssonsoundsymbolic,,Maningrida
+johanssonsoundsymbolic-Nama,Nama,,-25.0747,17.9767,nama1264,,johanssonsoundsymbolic,,Khoe-Kwadi
+johanssonsoundsymbolic-Nara,Nara,,15.3251,37.499,nara1262,,johanssonsoundsymbolic,,Nara
+johanssonsoundsymbolic-Natchez,Natchez,,31.75,-91.33,natc1249,,johanssonsoundsymbolic,,Natchez
+johanssonsoundsymbolic-Nezperce,Nez Perce,,46.3073,-116.408,nezp1238,,johanssonsoundsymbolic,,Sahaptian
+johanssonsoundsymbolic-Ngarinyin,Ngarinyin,,-16.4006,126.433,ngar1284,,johanssonsoundsymbolic,,Worrorran
+johanssonsoundsymbolic-Ngarluma,Ngarluma,,-20.9235,117.203,ngar1287,,johanssonsoundsymbolic,,Pama-Nyungan
+johanssonsoundsymbolic-Nimboran,Nimboran,,-2.5803,140.179,nucl1633,,johanssonsoundsymbolic,,Nimboran
+johanssonsoundsymbolic-Ninam,Ninam,,4.03894,-62.7801,nina1238,,johanssonsoundsymbolic,,Yanomam
+johanssonsoundsymbolic-Nisenan,Nisenan,,38.047,-120.393,nise1244,,johanssonsoundsymbolic,,Maiduan
+johanssonsoundsymbolic-Nivacle,Nivaclé,,-22.8557,-61.7606,niva1238,,johanssonsoundsymbolic,,Matacoan
+johanssonsoundsymbolic-Nivkh,Nivkh,,52.59,140.681,gily1242,,johanssonsoundsymbolic,,Nivkh
+johanssonsoundsymbolic-NorthAlaskanInupiatun,North Alaskan Inupiatun,,69.582,-143.77,nort2943,,johanssonsoundsymbolic,,Eskimo-Aleut
+johanssonsoundsymbolic-NorthernEmbera,Northern Emberá,,7.12761,-77.574,nort2972,,johanssonsoundsymbolic,,Chocoan
+johanssonsoundsymbolic-NorthernSierraMiwok,Northern Sierra Miwok,,38.4179,-120.588,nort2968,,johanssonsoundsymbolic,,Miwok-Costanoan
+johanssonsoundsymbolic-Nunggubuyu,Nunggubuyu,,-14.2623,135.753,nung1290,,johanssonsoundsymbolic,,Gunwinyguan
+johanssonsoundsymbolic-Odoodee,Odoodee,,-6.59222,142.486,odoo1238,,johanssonsoundsymbolic,,East Strickland
+johanssonsoundsymbolic-Oneida,Oneida,,43.438742,-75.708106,onei1249,,johanssonsoundsymbolic,,Iroquoian
+johanssonsoundsymbolic-Ongota,Ongota,,5.29807,37.025,bira1253,,johanssonsoundsymbolic,,Ongota
+johanssonsoundsymbolic-Oroqen,Oroqen,,50.6319,125.017,oroq1238,,johanssonsoundsymbolic,,Tungusic
+johanssonsoundsymbolic-Paez,Páez,,2.61516,-76.31254,paez1247,,johanssonsoundsymbolic,,Páez
+johanssonsoundsymbolic-PanoanKatukina,Panoan Katukína,,-7.97456,-71.56151,pano1254,,johanssonsoundsymbolic,,Panoan
+johanssonsoundsymbolic-Pawnee,Pawnee,,36.2862,-96.8937,pawn1254,,johanssonsoundsymbolic,,Caddoan
+johanssonsoundsymbolic-PeleAta,Pele-Ata,,-5.58045,151.05,pele1245,,johanssonsoundsymbolic,,Pele-Ata
+johanssonsoundsymbolic-Piraha,Pirahã,,-6.77713,-61.8167,pira1253,,johanssonsoundsymbolic,,Pirahã
+johanssonsoundsymbolic-Puinave,Puinave,,3.92974,-67.6886,puin1248,,johanssonsoundsymbolic,,Puinave
+johanssonsoundsymbolic-Pume,Pumé,,7.10677,-67.5996,pume1238,,johanssonsoundsymbolic,,Pumé
+johanssonsoundsymbolic-Purepecha,Purepecha,,19.2467,-101.631,pure1242,,johanssonsoundsymbolic,,Tarascan
+johanssonsoundsymbolic-Qawasqar,Qawasqar,,-49.303195,-74.707536,qawa1238,,johanssonsoundsymbolic,,Kawesqar
+johanssonsoundsymbolic-Quileute,Quileute,,47.9106,-124.603,quil1240,,johanssonsoundsymbolic,,Chimakuan
+johanssonsoundsymbolic-Rikbaktsa,Rikbaktsa,,-11.1887,-58.1942,rikb1245,,johanssonsoundsymbolic,,Nuclear-Macro-Je
+johanssonsoundsymbolic-Rotokas,Rotokas,,-5.94339,155.154,roto1249,,johanssonsoundsymbolic,,North Bougainville
+johanssonsoundsymbolic-Rumu,Rumu,,-7.17149,144.179,rumu1243,,johanssonsoundsymbolic,,Turama-Kikori
+johanssonsoundsymbolic-RungaKibet,Runga-Kibet,,9.7154,20.9945,rung1258,,johanssonsoundsymbolic,,Maban
+johanssonsoundsymbolic-Sahu,Sahu,,1.00742,127.493,sahu1245,,johanssonsoundsymbolic,,North Halmahera
+johanssonsoundsymbolic-Saliba,Saliba,,5.30115,-69.3843,sali1298,,johanssonsoundsymbolic,,Saliban
+johanssonsoundsymbolic-Salinan,Salinan,,37.6646,-121.718,sali1253,,johanssonsoundsymbolic,,Salinan
+johanssonsoundsymbolic-Sanapanaangaite,Sanapaná (Angaité),,-22.11454,-58.90698,sana1281,,johanssonsoundsymbolic,,Lengua-Mascoy
+johanssonsoundsymbolic-Sandawe,Sandawe,,-5.26918,35.4808,sand1273,,johanssonsoundsymbolic,,Sandawe
+johanssonsoundsymbolic-SaraKabaNaa,Sara Kaba Naa,,9.39388,19.2566,sara1321,,johanssonsoundsymbolic,,Central Sudanic
+johanssonsoundsymbolic-Savosavo,Savosavo,,-9.12853,159.814,savo1255,,johanssonsoundsymbolic,,Savosavo
+johanssonsoundsymbolic-Seediq,Seediq,,23.9032,121.358,taro1264,,johanssonsoundsymbolic,,Austronesian
+johanssonsoundsymbolic-Sentani,Sentani,,-2.6013,140.512,nucl1632,,johanssonsoundsymbolic,,Sentani
+johanssonsoundsymbolic-Seri,Seri,,28.9877,-112.384,seri1257,,johanssonsoundsymbolic,,Seri
+johanssonsoundsymbolic-Shakacho,Shakacho,,7.27424,35.3922,shek1244,,johanssonsoundsymbolic,,Ta-Ne-Omotic
+johanssonsoundsymbolic-Shasta,Shasta,,41.7587,-122.738,shas1239,,johanssonsoundsymbolic,,Shastan
+johanssonsoundsymbolic-Shatt,Shatt,,10.8525,29.7687,shat1244,,johanssonsoundsymbolic,,Daju
+johanssonsoundsymbolic-Sheko,Sheko,,7.05022,35.2826,shek1245,,johanssonsoundsymbolic,,Dizoid
+johanssonsoundsymbolic-ShomPeng,Shom Peng,,7.02099,93.8064,shom1245,,johanssonsoundsymbolic,,Shom Peng
+johanssonsoundsymbolic-Soo,Soo,,2.58367,34.7595,sooo1256,,johanssonsoundsymbolic,,Kuliak
+johanssonsoundsymbolic-Southeastijo,Southeast Ijo,,4.44235,6.32192,sout2774,,johanssonsoundsymbolic,,Ijoid
+johanssonsoundsymbolic-SouthernNambikuara,Southern Nambikuára,,-14.3707,-59.5187,sout2994,,johanssonsoundsymbolic,,Nambiquaran
+johanssonsoundsymbolic-SouthernPomo,Southern Pomo,,38.7643,-122.545,sout2984,,johanssonsoundsymbolic,,Pomoan
+johanssonsoundsymbolic-Suabo,Suabo,,-2.07971,132.157,suab1238,,johanssonsoundsymbolic,,Inanwatan
+johanssonsoundsymbolic-Sulka,Sulka,,-5.03471,151.891,sulk1246,,johanssonsoundsymbolic,,Sulka
+johanssonsoundsymbolic-Sumerian,Sumerian,,31.3,45.6667,sume1241,,johanssonsoundsymbolic,,Sumerian
+johanssonsoundsymbolic-Suri,Suri,,6.03205,35.0823,suri1267,,johanssonsoundsymbolic,,Surmic
+johanssonsoundsymbolic-Swahili,Swahili,,-8.25605,37.624,swah1253,,johanssonsoundsymbolic,,Atlantic-Congo
+johanssonsoundsymbolic-Swedish,Swedish,,59.800634,17.389526,swed1254,,johanssonsoundsymbolic,,Indo-European
+johanssonsoundsymbolic-Taa,Taa,,-24.20022,20.79583,huaa1248,,johanssonsoundsymbolic,,Tuu
+johanssonsoundsymbolic-Takelma,Takelma,,42.423,-123.452,take1257,,johanssonsoundsymbolic,,Takelma
+johanssonsoundsymbolic-Tamil,Tamil,,10.520219,78.825989,tami1289,,johanssonsoundsymbolic,,Dravidian
+johanssonsoundsymbolic-Tarifit,Tarifit,,34.916974,-3.430616,tari1263,,johanssonsoundsymbolic,,Afro-Asiatic
+johanssonsoundsymbolic-Taushiro,Taushiro,,-3.22497,-75.5603,taus1253,,johanssonsoundsymbolic,,Taushiro
+johanssonsoundsymbolic-Tehuelche,Tehuelche,,-47.5796,-68.3235,tehu1242,,johanssonsoundsymbolic,,Chonan
+johanssonsoundsymbolic-Teiwa,Teiwa,,-8.37662,124.174,teiw1235,,johanssonsoundsymbolic,,Timor-Alor-Pantar
+johanssonsoundsymbolic-Terei,Terei,,-6.70051,155.745,tere1278,,johanssonsoundsymbolic,,South Bougainville
+johanssonsoundsymbolic-ThaiDialectKorat,Thai (Dialect Korat),,14.192,100.671,thai1261,,johanssonsoundsymbolic,,Tai-Kadai
+johanssonsoundsymbolic-Tima,Tima,,11.7176,29.1632,tima1241,,johanssonsoundsymbolic,,Katla-Tima
+johanssonsoundsymbolic-Timucua,Timucua,,30.3027,-82.3132,timu1245,,johanssonsoundsymbolic,,Timucua
+johanssonsoundsymbolic-Tiwi,Tiwi,,-11.6308,130.949,tiwi1244,,johanssonsoundsymbolic,,Tiwi
+johanssonsoundsymbolic-Toaripi,Toaripi,,-8.07231,146.206,toar1246,,johanssonsoundsymbolic,,Nuclear Eleman
+johanssonsoundsymbolic-Tol,Tol,,14.6686,-87.0372,toll1241,,johanssonsoundsymbolic,,Jicaquean
+johanssonsoundsymbolic-Trumai,Trumai,,-11.8119,-53.5717,trum1247,,johanssonsoundsymbolic,,Trumai
+johanssonsoundsymbolic-Tsimshian,Tsimshian,,52.59103,-128.544545,nucl1649,,johanssonsoundsymbolic,,Tsimshian
+johanssonsoundsymbolic-Tunica,Tunica,,30.9888,-92.5403,tuni1252,,johanssonsoundsymbolic,,Tunica
+johanssonsoundsymbolic-Turkish,Turkish,,39.8667,32.8667,nucl1301,,johanssonsoundsymbolic,,Turkic
+johanssonsoundsymbolic-Tuyuca,Tuyuca,,0.39441,-70.043515,tuyu1244,,johanssonsoundsymbolic,,Tucanoan
+johanssonsoundsymbolic-Uduk,Uduk,,9.16012,34.2293,uduk1239,,johanssonsoundsymbolic,,Koman
+johanssonsoundsymbolic-Uncunwee,Uncunwee,,11.6432,29.8122,ghul1238,,johanssonsoundsymbolic,,Nubian
+johanssonsoundsymbolic-Urarina,Urarina,,-4.44006,-75.4211,urar1246,,johanssonsoundsymbolic,,Urarina
+johanssonsoundsymbolic-Wageman,Wageman,,-13.8627,131.893,wage1238,,johanssonsoundsymbolic,,Wageman
+johanssonsoundsymbolic-Waorani,Waorani,,-1.12312,-76.683,waor1240,,johanssonsoundsymbolic,,Waorani
+johanssonsoundsymbolic-Wappo,Wappo,,38.25,-122.5,wapp1239,,johanssonsoundsymbolic,,Yuki-Wappo
+johanssonsoundsymbolic-Warao,Warao,,7.50851,-59.3528,wara1303,,johanssonsoundsymbolic,,Warao
+johanssonsoundsymbolic-Warapu,Warapu,,-3.07263,142.012,wara1302,,johanssonsoundsymbolic,,Sko
+johanssonsoundsymbolic-Warembori,Warembori,,-1.65941,137.566,ware1253,,johanssonsoundsymbolic,,Austronesian (Malayo-Polynesian: Central-Eastern Malayo-Polynesian: Eastern Malayo-Polynesian: South Halmahera-West New Guinea)
+johanssonsoundsymbolic-Wari,Wari',,-10.69948,-64.56152,wari1268,,johanssonsoundsymbolic,,Chapacuran
+johanssonsoundsymbolic-Waris,Waris,,-3.139,140.931,wari1266,,johanssonsoundsymbolic,,Border
+johanssonsoundsymbolic-Washo,Washo,,38.8184,-119.64,wash1253,,johanssonsoundsymbolic,,Washo
+johanssonsoundsymbolic-Wayuu,Wayuu,,11.395566,-72.199791,wayu1243,,johanssonsoundsymbolic,,Arawakan
+johanssonsoundsymbolic-WhiteHmong,White Hmong,,21.5461,103.164,hmon1333,,johanssonsoundsymbolic,,Hmong-Mien
+johanssonsoundsymbolic-Vietnamese,Vietnamese,,20.681188,105.774071,viet1252,,johanssonsoundsymbolic,,Austroasiatic
+johanssonsoundsymbolic-Wintu,Wintu,,39.7176,-122.445,wint1259,,johanssonsoundsymbolic,,Wintuan
+johanssonsoundsymbolic-Xicotepecdejuareztotonac,Xicotepec de Juárez Totonac,,20.6532,-97.7463,xico1235,,johanssonsoundsymbolic,,Totonacan
+johanssonsoundsymbolic-Yagua,Yagua,,-3.42913,-72.2186,yagu1244,,johanssonsoundsymbolic,,Peba-Yagua
+johanssonsoundsymbolic-Yamana,Yámana,,-55.2748,-68.2648,yama1264,,johanssonsoundsymbolic,,Yámana
+johanssonsoundsymbolic-Yana,Yana,,39.2769,-121.608,yana1271,,johanssonsoundsymbolic,,Yana
+johanssonsoundsymbolic-Yangman,Yangman,,-14.4964,132.52,yang1288,,johanssonsoundsymbolic,,Yangmanic
+johanssonsoundsymbolic-Yaqui,Yaqui,,29.9446,-110.681,yaqu1251,,johanssonsoundsymbolic,,Uto-Aztecan
+johanssonsoundsymbolic-Yareba,Yareba,,-9.50651,148.605,yare1248,,johanssonsoundsymbolic,,Yareban
+johanssonsoundsymbolic-Yawa,Yawa,,-1.77196,136.263,nucl1454,,johanssonsoundsymbolic,,Yawa
+johanssonsoundsymbolic-Yele,Yele,,-11.3796,154.127,yele1255,,johanssonsoundsymbolic,,Yele
+johanssonsoundsymbolic-Yimas,Yimas,,-4.71731,143.572,yima1243,,johanssonsoundsymbolic,,Lower Sepik-Ramu
+johanssonsoundsymbolic-Yukaghir,Yukaghir,,64.218,154.375,sout2750,,johanssonsoundsymbolic,,Yukaghir
+johanssonsoundsymbolic-Yuracare,Yuracaré,,-16.7479,-65.1224,yura1255,,johanssonsoundsymbolic,,Yuracaré
+johanssonsoundsymbolic-Yuwana,Yuwana,,5.63879,-65.4267,yuwa1244,,johanssonsoundsymbolic,,Yuwana
+johanssonsoundsymbolic-Zarma,Zarma,,12.8554,2.41173,zarm1239,,johanssonsoundsymbolic,,Songhay
+johanssonsoundsymbolic-Zuni,Zuni,,35.0056,-108.782,zuni1245,,johanssonsoundsymbolic,,Zuni
+kesslersignificance-Albanian,Albanian,,42.317,21.3837,gheg1238,,kesslersignificance,,Indo-European
+kesslersignificance-Latin,Latin,,41.9026,12.4502,lati1261,,kesslersignificance,,Indo-European
+kesslersignificance-German,German,,48.649,12.4676,stan1295,,kesslersignificance,,Indo-European
+kesslersignificance-English,English,,53.0,-1.0,stan1293,,kesslersignificance,,Indo-European
+kesslersignificance-Navajo,Navajo,,36.33,-109.38,nava1243,,kesslersignificance,,Athabaskan-Eyak-Tlingit
+kesslersignificance-French,French,,48.0,2.0,stan1290,,kesslersignificance,,Indo-European
+kesslersignificance-Hawaiian,Hawaiian,,19.6297,-155.43,hawa1245,,kesslersignificance,,Austronesian
+kraftchadic-Angas,Angas,,9.32042,9.46146,ngas1240,,kraftchadic,,Afro-Asiatic
+kraftchadic-Ankwe,Ankwe,,8.74455,9.72453,goem1240,,kraftchadic,,Afro-Asiatic
+kraftchadic-Bacama,Bacama,,9.53072,12.0416,baca1246,,kraftchadic,,Afro-Asiatic
+kraftchadic-Bade,Bade,,12.789,10.6557,bade1248,,kraftchadic,,Afro-Asiatic
+kraftchadic-Banana,Banana,,10.0606,15.4748,masa1322,,kraftchadic,,Afro-Asiatic
+kraftchadic-Bananamouseye,Banana (Mouseye),,9.81612,15.4115,muse1242,,kraftchadic,,Afro-Asiatic
+kraftchadic-Boka,Boka,,10.188,12.936,boga1251,,kraftchadic,,Afro-Asiatic
+kraftchadic-Bolewa,Bole(wa),,11.4839,11.2322,nucl1695,,kraftchadic,,Afro-Asiatic
+kraftchadic-Buli,Buli,,10.0258,9.53362,polc1243,,kraftchadic,,Afro-Asiatic
+kraftchadic-Bura,Bura,,10.4822,12.3007,bura1292,,kraftchadic,,Afro-Asiatic
+kraftchadic-Burma,Burma,,9.49679,10.11454,bogh1241,,kraftchadic,,Afro-Asiatic
+kraftchadic-Cibak,Cibak,,10.8977,12.902,ciba1236,,kraftchadic,,Afro-Asiatic
+kraftchadic-Cip,Cip,,9.20477,9.33752,mish1244,,kraftchadic,,Afro-Asiatic
+kraftchadic-Daba,Daba,,10.3521,13.6318,nucl1683,,kraftchadic,,Afro-Asiatic
+kraftchadic-Dera,Dera,,10.072,12.0256,dera1248,,kraftchadic,,Afro-Asiatic
+kraftchadic-Dira,Dira,,11.1701,9.32363,diri1259,,kraftchadic,,Afro-Asiatic
+kraftchadic-Dwot,Dwot,,9.9325,9.51838,dass1243,,kraftchadic,,Afro-Asiatic
+kraftchadic-Faligili,Fali Gili,,10.3535,13.6131,bana1305,,kraftchadic,,Afro-Asiatic
+kraftchadic-Falijilbu,Fali Jilbu,,10.4689,13.5233,zizi1238,,kraftchadic,,Afro-Asiatic
+kraftchadic-Falikiria,Fali Kiria,,10.48,13.36,kiry1234,,kraftchadic,,Afro-Asiatic
+kraftchadic-Falimucella,Fali Mucella,,10.2138,13.403,gude1246,,kraftchadic,,Afro-Asiatic
+kraftchadic-Faliwagira,Fali Ɓwagira,,10.5419,13.4087,fali1285,,kraftchadic,,Afro-Asiatic
+kraftchadic-Gaanda,Ga?anda,,10.2955,12.6479,gaan1243,,kraftchadic,,Afro-Asiatic
+kraftchadic-Gava,Gava,,11.1057,13.7893,gudu1252,,kraftchadic,,Afro-Asiatic
+kraftchadic-Geji,Geji,,10.3478,9.64965,geji1246,,kraftchadic,,Afro-Asiatic
+kraftchadic-Gera,Gera,,10.4331,10.12,gera1246,,kraftchadic,,Afro-Asiatic
+kraftchadic-Gude,Gude,,10.2138,13.403,gude1246,,kraftchadic,,Afro-Asiatic
+kraftchadic-Gudu,Gudu,,10.1206,12.5359,gudu1250,,kraftchadic,,Afro-Asiatic
+kraftchadic-Gabin,Gábin,,10.2955,12.6479,gaan1243,,kraftchadic,,Afro-Asiatic
+kraftchadic-Glvda,Gələvda,,11.1334,13.8652,glav1244,,kraftchadic,,Afro-Asiatic
+kraftchadic-Hausa,Hausa,,11.1513,8.7804,haus1257,,kraftchadic,,Afro-Asiatic
+kraftchadic-Higibaza,Higi Baza,,10.646,13.5136,kamw1239,,kraftchadic,,Afro-Asiatic
+kraftchadic-Higifutu,Higi Futu,,10.646,13.5136,kamw1239,,kraftchadic,,Afro-Asiatic
+kraftchadic-Higighye,Higi Ghye,,10.4814,13.526,hyaa1239,,kraftchadic,,Afro-Asiatic
+kraftchadic-Higikamale,Higi Kamale,,10.677,13.569,psik1239,,kraftchadic,,Afro-Asiatic
+kraftchadic-Higinkafa,Higi Nkafa,,10.646,13.5136,kamw1239,,kraftchadic,,Afro-Asiatic
+kraftchadic-Hildi,Hildi,,10.53854,12.99521,marg1266,,kraftchadic,,Afro-Asiatic
+kraftchadic-Hwona,Hwona,,10.3633,12.7683,hwan1240,,kraftchadic,,Afro-Asiatic
+kraftchadic-Jaku,Jaku,,10.4847,9.59527,labi1245,,kraftchadic,,Atlantic-Congo
+kraftchadic-Jari,Jari,,11.6839,-2.48569,daga1272,,kraftchadic,,Atlantic-Congo
+kraftchadic-Karekare,Karekare,,12.5176,10.8732,kare1348,,kraftchadic,,Afro-Asiatic
+kraftchadic-Kilba,Kilba,,10.3544,13.139,huba1236,,kraftchadic,,Afro-Asiatic
+kraftchadic-Lame,Lame,,10.7229,8.78768,lame1257,,kraftchadic,,Atlantic-Congo
+kraftchadic-Lamepeve,Lame (Peve),,9.16111,14.441,peve1243,,kraftchadic,,Afro-Asiatic
+kraftchadic-Mandara,Mandara,,11.3169,13.8996,wand1278,,kraftchadic,,Afro-Asiatic
+kraftchadic-Margi,Margi,,10.93854,13.0521,marg1265,,kraftchadic,,Afro-Asiatic
+kraftchadic-Massa,Massa,,10.0606,15.4748,masa1322,,kraftchadic,,Afro-Asiatic
+kraftchadic-Matakam,Matakam,,10.943,13.8181,mafa1239,,kraftchadic,,Afro-Asiatic
+kraftchadic-Mismezime,Misme (Zime),,9.28888,15.7018,mesm1239,,kraftchadic,,Afro-Asiatic
+kraftchadic-Miya,Miya,,10.9234,9.71505,miya1266,,kraftchadic,,Afro-Asiatic
+kraftchadic-Mwulyen,Mwulyen,,9.68091,12.677,bata1314,,kraftchadic,,Afro-Asiatic
+kraftchadic-Nakatsa,Nakatsa,,11.1319,13.8187,cine1238,,kraftchadic,,Afro-Asiatic
+kraftchadic-Ngamo,Ngamo,,12.0048,11.2108,ngam1282,,kraftchadic,,Afro-Asiatic
+kraftchadic-Ngizim,Ngizim,,12.1051,11.0178,ngiz1242,,kraftchadic,,Afro-Asiatic
+kraftchadic-Ngwaxi,Ngwaxi,,10.6058,12.9234,nggw1242,,kraftchadic,,Afro-Asiatic
+kraftchadic-Njanye,Njanye,,10.0666,13.3343,nzan1240,,kraftchadic,,Afro-Asiatic
+kraftchadic-Pero,Pero,,9.62092,11.044,pero1241,,kraftchadic,,Afro-Asiatic
+kraftchadic-Piimdi,Piðimdi,,11.0376,11.80953,tera1251,,kraftchadic,,Afro-Asiatic
+kraftchadic-Plci,Pəlci,,10.0258,9.53362,polc1243,,kraftchadic,,Afro-Asiatic
+kraftchadic-Seya,Seya,,9.69441,9.71748,saya1246,,kraftchadic,,Afro-Asiatic
+kraftchadic-Sura,Sura,,9.47205,8.96522,mwag1236,,kraftchadic,,Afro-Asiatic
+kraftchadic-Tangale,Tangale,,9.75444,11.3228,nucl1696,,kraftchadic,,Afro-Asiatic
+kraftchadic-Wamdiu,Wamdiu,,10.53854,12.99521,marg1266,,kraftchadic,,Afro-Asiatic
+kraftchadic-Westmargi,West Margi,,10.83854,12.99521,puta1243,,kraftchadic,,Afro-Asiatic
+kraftchadic-Yingilum,Yingilum,,9.9249,13.6567,nort2770,,kraftchadic,,Atlantic-Congo
+kraftchadic-Zvana,Zə̀ɣvana,,11.05751,13.77847,dghw1239,,kraftchadic,,Afro-Asiatic
+mannburmish-Achang,Achang,,24.25,97.8333,acha1249,,mannburmish,Burmish,Sino-Tibetan
+mannburmish-Bela,Bela,,24.45,98.6,pela1242,,mannburmish,Burmish,Sino-Tibetan
+mannburmish-Lashi,Lashi,,24.45,98.6,lash1243,,mannburmish,Burmish,Sino-Tibetan
+mannburmish-Maru,Maru,,24.45,98.6,maru1249,,mannburmish,Burmish,Sino-Tibetan
+mannburmish-Phon,Phon,,25.3248194,97.3544031,hpon1238,,mannburmish,Burmish,Sino-Tibetan
+mannburmish-WrittenBurmese,Written_Burmese,,21.16,94.90,oldb1235,,mannburmish,Burmish,Sino-Tibetan
+mannburmish-Zaiwa,Zaiwa,,24.45,98.6,zaiw1241,,mannburmish,Burmish,Sino-Tibetan
+marrisonnaga-Chang,Chang,,26.2667,94.0833,chan1313,,marrisonnaga,Konyak,Sino-Tibetan
+marrisonnaga-Chokri,Chokri,,25.6833,94.2667,chok1243,,marrisonnaga,Angami,Sino-Tibetan
+marrisonnaga-ChungliAo,Ao Chungli,,26.3167,94.5167,aona1235,,marrisonnaga,Ao,Sino-Tibetan
+marrisonnaga-Dimasa,Dimasa,,25.42,93.18,dima1251,,marrisonnaga,Boro,Sino-Tibetan
+marrisonnaga-Jingpho,Jingpho,,25.461826,97.329866,jing1260,,marrisonnaga,Kachin,Sino-Tibetan
+marrisonnaga-Kezhama,Kezhama,,25.5167,94.2,khez1235,,marrisonnaga,Angami,Sino-Tibetan
+marrisonnaga-Khoirao,Khoirao,,25.2167,94.0333,than1255,,marrisonnaga,Zemeic,Sino-Tibetan
+marrisonnaga-KhonomaAngami,Angami Khonoma,,25.65,94.0333,khon1248,,marrisonnaga,Angami,Sino-Tibetan
+marrisonnaga-KohimaAngami,Angami Kohima,,25.55,94.1333,anga1288,,marrisonnaga,Angami,Sino-Tibetan
+marrisonnaga-Konyak,Konyak,,26.55,95.05,kony1246,,marrisonnaga,Konyak,Sino-Tibetan
+marrisonnaga-Liangmai,Liangmai,,25.3667,93.6333,lian1251,,marrisonnaga,Zemeic,Sino-Tibetan
+marrisonnaga-Lotha,Lotha,,26.1,94.2667,loth1237,,marrisonnaga,Lotha,Sino-Tibetan
+marrisonnaga-Lushai,Lushai,,22.60535,92.629457,lush1249,,marrisonnaga,Kuki Chin-Central,Sino-Tibetan
+marrisonnaga-Manipuri,Manipuri,,24.44,93.34,mani1292,,marrisonnaga,Other Tibeto-Burman,Sino-Tibetan
+marrisonnaga-Mao,Mao,,25.4667,94.1167,maon1238,,marrisonnaga,Angami,Sino-Tibetan
+marrisonnaga-Maram,Maram,,25.4333,94.15,mara1379,,marrisonnaga,Zemeic,Sino-Tibetan
+marrisonnaga-Maring,Maring,,24.05,94.0333,mari1416,,marrisonnaga,Maringic,Sino-Tibetan
+marrisonnaga-Meluri,Meluri,,25.0667,94.6333,poch1243,,marrisonnaga,Pochuri,Sino-Tibetan
+marrisonnaga-Mikir,Mikir,,25.735084,93.050494,karb1241,,marrisonnaga,Other Tibeto-Burman,Sino-Tibetan
+marrisonnaga-MongsenAo,Ao Mongsen,,26.4167,94.4,mong1332,,marrisonnaga,Ao,Sino-Tibetan
+marrisonnaga-Mzieme,Mzieme,,25.5167,93.75,mzie1235,,marrisonnaga,Zemeic,Sino-Tibetan
+marrisonnaga-Nocte,Nocte,,27.1167,95.4833,noct1238,,marrisonnaga,Nocte,Sino-Tibetan
+marrisonnaga-Nruanghmei,Nruanghmei,,25.0,93.05,rong1266,,marrisonnaga,Zemeic,Sino-Tibetan
+marrisonnaga-Ntenyi,Ntenyi,,25.9833,94.0333,nort2725,,marrisonnaga,Rengma,Sino-Tibetan
+marrisonnaga-Phom,Phom,,26.6167,94.05,phom1236,,marrisonnaga,Konyak,Sino-Tibetan
+marrisonnaga-Puiron,Puiron,,25.1,93.79,rong1266,,marrisonnaga,Zemeic,Sino-Tibetan
+marrisonnaga-Rengma,Rengma,,25.0667,94.6333,sout2732,,marrisonnaga,Rengma,Sino-Tibetan
+marrisonnaga-Sangtam,Sangtam,,25.0667,94.8667,sang1321,,marrisonnaga,Sangtam,Sino-Tibetan
+marrisonnaga-Sema,Sema,,25.85,94.2667,sumi1235,,marrisonnaga,Angami,Sino-Tibetan
+marrisonnaga-Tangkhul,Tangkhul,,25.1167,94.3667,sino1246,,marrisonnaga,Tangkhulic,Sino-Tibetan
+marrisonnaga-Wancho,Wancho,,26.9667,95.8167,wanc1238,,marrisonnaga,Konyak,Sino-Tibetan
+marrisonnaga-WrittenBurmese,Burmese (Written),,21.624974,97.126742,oldb1235,,marrisonnaga,Burmese,Sino-Tibetan
+marrisonnaga-WrittenTibetan,Tibetan (Written),,30.027852,91.158704,clas1254,,marrisonnaga,Tibetan,Sino-Tibetan
+marrisonnaga-Yimchungru,Yimchungrü,,25.7167,94.9167,yimc1241,,marrisonnaga,Yimchingric,Sino-Tibetan
+marrisonnaga-Zeme,Zeme,,25.1833,93.2,zeme1240,,marrisonnaga,Zemeic,Sino-Tibetan
+northeuralex-fin,Finnish,,61.00,24.45,finn1318,,northeuralex,,Uralic
+northeuralex-krl,North Karelian,,65.17,30.87,kare1335,,northeuralex,,Uralic
+northeuralex-olo,Olonets Karelian,,61.00,33.00,livv1243,,northeuralex,,Uralic
+northeuralex-vep,Veps,,60.34,34.79,veps1250,,northeuralex,,Uralic
+northeuralex-ekk,Estonian,,59.25,24.75,esto1258,,northeuralex,,Uralic
+northeuralex-liv,Livonian,,57.57,22.03,livv1244,,northeuralex,,Uralic
+northeuralex-sma,Southern Sami,,64.25,12.60,sout2674,,northeuralex,,Uralic
+northeuralex-smj,Lule Sami,,67.28,17.81,lule1254,,northeuralex,,Uralic
+northeuralex-sme,Northern Sami,,68.72,22.11,nort2671,,northeuralex,,Uralic
+northeuralex-smn,Inari Sami,,69.42,27.87,inar1241,,northeuralex,,Uralic
+northeuralex-sms,Skolt Sami,,68.83,29.72,skol1241,,northeuralex,,Uralic
+northeuralex-sjd,Kildin Sami,,68.22,35.83,kild1236,,northeuralex,,Uralic
+northeuralex-mrj,Hill Mari,,56.33,46.33,west2392,,northeuralex,,Uralic
+northeuralex-mhr,Meadow Mari,,57.00,49.50,east2328,,northeuralex,,Uralic
+northeuralex-mdf,Moksha,,54.19,42.67,moks1248,,northeuralex,,Uralic
+northeuralex-myv,Erzya,,53.00,45.50,erzy1239,,northeuralex,,Uralic
+northeuralex-udm,Udmurt,,56.13,52.64,udmu1245,,northeuralex,,Uralic
+northeuralex-koi,Komi-Permyak,,59.66,54.80,komi1269,,northeuralex,,Uralic
+northeuralex-kpv,Komi-Zyrian,,64.05,54.95,komi1268,,northeuralex,,Uralic
+northeuralex-hun,Hungarian,,46.91,19.66,hung1274,,northeuralex,,Uralic
+northeuralex-kca,Northern Khanty,,62.43,66.12,khan1273,,northeuralex,,Uralic
+northeuralex-mns,Northern Mansi,,64.41,61.34,mans1258,,northeuralex,,Uralic
+northeuralex-sel,Northern Selkup,,59.94,82.30,selk1253,,northeuralex,,Uralic
+northeuralex-yrk,Tundra Nenets,,66.18,71.02,nene1249,,northeuralex,,Uralic
+northeuralex-enf,Forest Enets,,69.98,88.21,fore1265,,northeuralex,,Uralic
+northeuralex-nio,Nganasan,,73.14,86.21,ngan1291,,northeuralex,,Uralic
+northeuralex-ben,Bengali,,24.00,90.00,beng1280,,northeuralex,,Indo-European
+northeuralex-hin,Hindi,,27.20,78.00,hind1269,,northeuralex,,Indo-European
+northeuralex-pbu,Northern Pashto,,32.10,67.20,nort2646,,northeuralex,,Indo-European
+northeuralex-pes,Western Farsi,,28.66,55.16,west2369,,northeuralex,,Indo-European
+northeuralex-kmr,Northern Kurdish,,37.00,43.00,nort2641,,northeuralex,,Indo-European
+northeuralex-oss,Ossetian,,43.18,44.23,osse1243,,northeuralex,,Indo-European
+northeuralex-hye,Armenian,,40.00,45.00,nucl1235,,northeuralex,,Indo-European
+northeuralex-ell,Modern Greek,,38.00,23.75,mode1248,,northeuralex,,Indo-European
+northeuralex-sqi,Standard Albanian,,41.33,19.85,alba1267,,northeuralex,,Indo-European
+northeuralex-bul,Bulgarian,,42.70,23.80,bulg1262,,northeuralex,,Indo-European
+northeuralex-hrv,Croatian,,45.20,16.83,croa1245,,northeuralex,,Indo-European
+northeuralex-slv,Slovene,,46.25,14.78,slov1268,,northeuralex,,Indo-European
+northeuralex-slk,Slovak,,48.55,18.78,slov1269,,northeuralex,,Indo-European
+northeuralex-ces,Czech,,49.87,15.10,czec1258,,northeuralex,,Indo-European
+northeuralex-pol,Polish,,51.84,18.63,poli1260,,northeuralex,,Indo-European
+northeuralex-ukr,Ukrainian,,50.25,28.65,ukra1253,,northeuralex,,Indo-European
+northeuralex-bel,Belarusian,,53.23,25.60,bela1254,,northeuralex,,Indo-European
+northeuralex-rus,Russian,,57.60,39.80,russ1263,,northeuralex,,Indo-European
+northeuralex-lit,Lithuanian,,55.14,23.96,lith1251,,northeuralex,,Indo-European
+northeuralex-lav,Latvian,,56.83,24.31,latv1249,,northeuralex,,Indo-European
+northeuralex-isl,Icelandic,,63.48,-19.02,icel1247,,northeuralex,,Indo-European
+northeuralex-nor,Norwegian (Bokmål),,59.92,10.71,norw1258,,northeuralex,,Indo-European
+northeuralex-swe,Swedish,,59.80,17.39,swed1254,,northeuralex,,Indo-European
+northeuralex-dan,Danish,,55.60,12.50,dani1285,,northeuralex,,Indo-European
+northeuralex-deu,German,,52.27,10.50,stan1295,,northeuralex,,Indo-European
+northeuralex-nld,Dutch,,52.00,5.00,dutc1256,,northeuralex,,Indo-European
+northeuralex-eng,English,,53.00,-1.00,stan1293,,northeuralex,,Indo-European
+northeuralex-gle,Irish,,53.22,-7.62,iris1253,,northeuralex,,Indo-European
+northeuralex-cym,Welsh,,52.00,-4.00,wels1247,,northeuralex,,Indo-European
+northeuralex-bre,Breton,,48.25,-3.79,bret1244,,northeuralex,,Indo-European
+northeuralex-lat,Latin,,41.90,12.45,lati1261,,northeuralex,,Indo-European
+northeuralex-fra,French,,48.00,2.00,stan1290,,northeuralex,,Indo-European
+northeuralex-cat,Catalan,,41.45,1.57,stan1289,,northeuralex,,Indo-European
+northeuralex-spa,Spanish,,42.25,-3.70,stan1288,,northeuralex,,Indo-European
+northeuralex-por,Portuguese,,39.91,-8.10,port1283,,northeuralex,,Indo-European
+northeuralex-ita,Italian,,43.05,12.65,ital1282,,northeuralex,,Indo-European
+northeuralex-ron,Romanian,,46.39,24.23,roma1327,,northeuralex,,Indo-European
+northeuralex-tur,Turkish,,39.87,32.87,nucl1301,,northeuralex,,Turkic
+northeuralex-azj,North Azerbaijani,,40.40,49.60,nort2697,,northeuralex,,Turkic
+northeuralex-uzn,Northern Uzbek,,39.65,67.00,nort2690,,northeuralex,,Turkic
+northeuralex-kaz,Kazakh,,49.80,73.15,kaza1248,,northeuralex,,Turkic
+northeuralex-bak,Bashkir,,53.60,56.56,bash1264,,northeuralex,,Turkic
+northeuralex-tat,Tatar,,55.00,50.00,tata1255,,northeuralex,,Turkic
+northeuralex-sah,Sakha,,62.00,130.00,yaku1245,,northeuralex,,Turkic
+northeuralex-chv,Chuvash,,55.49,47.16,chuv1255,,northeuralex,,Turkic
+northeuralex-khk,Khalkha Mongolian,,48.32,106.29,halh1238,,northeuralex,,Mongolic
+northeuralex-bua,Buryat,,51.83,107.60,buri1258,,northeuralex,,Mongolic
+northeuralex-xal,Kalmyk,,46.57,45.32,kalm1243,,northeuralex,,Mongolic
+northeuralex-evn,Evenki,,65.75,105.30,even1259,,northeuralex,,Tungusic
+northeuralex-mnc,Manchu,,47.31,126.56,manc1252,,northeuralex,,Tungusic
+northeuralex-gld,Nanai,,48.43,134.80,nana1257,,northeuralex,,Tungusic
+northeuralex-ket,Ket,,63.76,87.55,kett1243,,northeuralex,,Yeniseian
+northeuralex-ykg,Northern Yukaghir,,69.00,155.00,nort2745,,northeuralex,,Yukaghir
+northeuralex-yux,Southern Yukaghir,,65.75,150.83,sout2750,,northeuralex,,Yukaghir
+northeuralex-itl,Itelmen,,56.78,156.91,itel1242,,northeuralex,,Chukotko-Kamchatkan
+northeuralex-ckt,Chukchi,,68.64,170.04,chuk1273,,northeuralex,,Chukotko-Kamchatkan
+northeuralex-niv,Nivkh,,52.59,140.68,gily1242,,northeuralex,,Nivkh
+northeuralex-ain,Hokkaido Ainu,,43.63,142.46,ainu1240,,northeuralex,,Ainu
+northeuralex-kor,Korean,,37.50,128.00,kore1280,,northeuralex,,Koreanic
+northeuralex-jpn,Japanese,,35.00,135.00,nucl1643,,northeuralex,,Japonic
+northeuralex-ale,Aleut,,52.12,-174.29,aleu1260,,northeuralex,,Eskimo-Aleut
+northeuralex-ess,Central Siberian Yupik,,63.43,-170.27,cent2128,,northeuralex,,Eskimo-Aleut
+northeuralex-kal,Kalaallisut,,69.38,-52.86,kala1399,,northeuralex,,Eskimo-Aleut
+northeuralex-kan,Kannada,,13.59,76.12,nucl1305,,northeuralex,,Dravidian
+northeuralex-mal,Malayalam,,9.59,76.77,mala1464,,northeuralex,,Dravidian
+northeuralex-tam,Tamil,,10.52,78.83,tami1289,,northeuralex,,Dravidian
+northeuralex-tel,Telugu,,16.45,78.70,telu1262,,northeuralex,,Dravidian
+northeuralex-bsk,Burushaski,,36.22,74.82,buru1296,,northeuralex,,Burushaski
+northeuralex-kat,Georgian,,41.85,43.79,nucl1302,,northeuralex,,Kartvelian
+northeuralex-eus,Basque,,43.28,-1.32,basq1248,,northeuralex,,Basque
+northeuralex-abk,Abkhaz,,43.06,41.16,abkh1244,,northeuralex,,Abkhaz-Adyge
+northeuralex-ady,Adyghe,,44.65,40.00,adyg1241,,northeuralex,,Abkhaz-Adyge
+northeuralex-ava,Avar,,41.70,46.56,avar1256,,northeuralex,,Nakh-Daghestanian
+northeuralex-ddo,Tsez,,42.26,45.81,dido1241,,northeuralex,,Nakh-Daghestanian
+northeuralex-lbe,Lak,,42.13,47.08,lakk1252,,northeuralex,,Nakh-Daghestanian
+northeuralex-lez,Lezgian,,41.52,47.90,lezg1247,,northeuralex,,Nakh-Daghestanian
+northeuralex-dar,Dargwa,,42.43,47.44,darg1241,,northeuralex,,Nakh-Daghestanian
+northeuralex-che,Chechen,,43.50,45.50,chec1245,,northeuralex,,Nakh-Daghestanian
+northeuralex-arb,Standard Arabic,,27.96,43.85,stan1318,,northeuralex,,Afro-Asiatic
+northeuralex-heb,Modern Hebrew,,31.11,35.02,hebr1245,,northeuralex,,Afro-Asiatic
+northeuralex-cmn,Mandarin Chinese,,40.02,116.23,mand1415,,northeuralex,,Sino-Tibetan
+sagartst-Achang,Burmish_Achang,,24.466605,97.89503,acha1249,,sagartst,Burmish,Sino-Tibetan
+sagartst-Atsi,Burmish_Atsi,,24.193367,97.806689,zaiw1241,,sagartst,Burmish,Sino-Tibetan
+sagartst-Bahing,Kiranti_Bahing,,27.309472,86.430334,bahi1252,,sagartst,Kiranti,Sino-Tibetan
+sagartst-Bantawa,Kiranti_Bantawa,,27.117894,87.049995,bant1281,,sagartst,Kiranti,Sino-Tibetan
+sagartst-Beijing,Sinitic_Beijing,,39.909056,116.397422,beij1235,,sagartst,Sinitic,Sino-Tibetan
+sagartst-Bokar,Tani_Bokar,,27.554547,93.15717,boka1249,,sagartst,Tani,Sino-Tibetan
+sagartst-Bola,Burmish_Bola,,24.405004,98.234243,pela1242,,sagartst,Burmish,Sino-Tibetan
+sagartst-Bunan,TibetoKinauri_Bunan,,32.554766,77.076283,gahr1239,,sagartst,Tibeto-Kinauri,Sino-Tibetan
+sagartst-Byangsi,TibetoKinauri_Byangsi,,29.583838,80.22309,byan1241,,sagartst,Tibeto-Kinauri,Sino-Tibetan
+sagartst-Chaozhou,Sinitic_Chaozhou,,23.657699,116.622317,chao1238,,sagartst,Sinitic,Sino-Tibetan
+sagartst-Chepang,Chepang_Chepang,,27.785164,84.908801,chep1245,,sagartst,Chepang,Sino-Tibetan
+sagartst-Daofu,rGyalrong_Daofu,,30.975281,101.123742,horp1240,,sagartst,rGyalrong,Sino-Tibetan
+sagartst-DarangTaraon,Deng_Darang_Taraon,,28.657986,97.469136,diga1241,,sagartst,Deng,Sino-Tibetan
+sagartst-Dulong,Nungic_Dulong,,27.749017,98.691868,drun1238,,sagartst,Nungic,Sino-Tibetan
+sagartst-Garo,Garo_Garo,,25.504744,90.333226,garo1247,,sagartst,Garo,Sino-Tibetan
+sagartst-Guangzhou,Sinitic_Guangzhou,,23.131111,113.258099,guan1279,,sagartst,Sinitic,Sino-Tibetan
+sagartst-Hakha,Chin_Hakha,,22.870089,92.820021,haka1240,,sagartst,Chin,Sino-Tibetan
+sagartst-Hayu,Kiranti_Hayu,,27.302102,86.099009,wayu1241,,sagartst,Kiranti,Sino-Tibetan
+sagartst-Japhug,rGyalrong_Japhug,,32.207076,101.957636,japh1234,,sagartst,rGyalrong,Sino-Tibetan
+sagartst-Jieyang,Sinitic_Jieyang,,23.551122,116.373013,chao1239,,sagartst,Sinitic,Sino-Tibetan
+sagartst-Jingpho,Jingpho_Jingpho,,25.461826,97.329866,jing1260,,sagartst,Jingpho,Sino-Tibetan
+sagartst-Khaling,Kiranti_Khaling,,27.390595,87.510016,khal1275,,sagartst,Kiranti,Sino-Tibetan
+sagartst-Kulung,Kiranti_Kulung,,27.690037,86.910944,kulu1253,,sagartst,Kiranti,Sino-Tibetan
+sagartst-Lashi,Burmish_Lashi,,24.111512,98.311333,lash1243,,sagartst,Burmish,Sino-Tibetan
+sagartst-Limbu,Kiranti_Limbu,,27.272065,87.889909,limb1266,,sagartst,Kiranti,Sino-Tibetan
+sagartst-Lisu,Loloish_Lisu,,25.950046,98.848486,lisu1250,,sagartst,Loloish,Sino-Tibetan
+sagartst-Longgang,Sinitic_Longgang,,22.725545,114.243825,hakk1236,,sagartst,Sinitic,Sino-Tibetan
+sagartst-Lushai,Mizo_Lushai,,22.60535,92.629457,lush1249,,sagartst,Mizo,Sino-Tibetan
+sagartst-Maru,Burmish_Maru,,24.939981,99.83,maru1249,,sagartst,Burmish,Sino-Tibetan
+sagartst-Mikir,Karbi,,25.735084,93.050494,karb1241,,sagartst,Mikir,Sino-Tibetan
+sagartst-MotuoMenba,Bodic_Tshangla,,29.325414,95.340883,tsha1245,,sagartst,Bodic,Sino-Tibetan
+sagartst-OldBurmese,Burmish_Old_Burmese,,21.624974,97.126742,oldb1235,,sagartst,Burmish,Sino-Tibetan
+sagartst-OldChinese,Sinitic_Old_Chinese,,34.101745,108.777868,oldc1244,,sagartst,Sinitic,Sino-Tibetan
+sagartst-OldTibetan,Tibetan_Old_Tibetan,,30.027852,91.158704,clas1254,,sagartst,Tibetan,Sino-Tibetan
+sagartst-Rabha,Rabha,,25.820135,91.170064,rabh1238,,sagartst,Koch,Sino-Tibetan
+sagartst-Rangoon,Burmish_Rangoon,,16.874207,96.190785,nucl1310,,sagartst,Burmish,Sino-Tibetan
+sagartst-Rongpo,Tibeto_Kinauri_Rongpo,,30.530044,79.569987,rong1264,,sagartst,Tibeto-Kinauri,Sino-Tibetan
+sagartst-Tangut,Tangut,,38.477453,106.285383,tang1334,,sagartst,Tangut,Sino-Tibetan
+sagartst-Thulung,Kiranti_Thulung,,27.534944,87.609608,thul1246,,sagartst,Kiranti,Sino-Tibetan
+sagartst-Alike,Tibetan_Alike,,38.318508,92.839938,amdo1237,,sagartst,Tibetan,Sino-Tibetan
+sagartst-Batang,Tibetan_Batang,,30.00795,99.111944,kham1282,,sagartst,Tibetan,Sino-Tibetan
+sagartst-Lhasa,Tibetan_Lhasa,,29.653441,91.171493,utsa1239,,sagartst,Tibetan,Sino-Tibetan
+sagartst-Xiahe,Tibetan_Xiahe,,35.210549,102.524979,amdo1237,,sagartst,Tibetan,Sino-Tibetan
+sagartst-Ukhrul,Naga_Ukhrul,,25.092617,94.37045,ukhr1238,,sagartst,Naga,Sino-Tibetan
+sagartst-WobziKhroskyabs,Khroskyabs_Wobzi,,31.62758,101.427999,eree1240,,sagartst,rGyalrong,Sino-Tibetan
+sagartst-Xiandao,Burmish_Xiandao,,24.494153,97.753173,xian1249,,sagartst,Burmish,Sino-Tibetan
+sagartst-Xingning,Sinitic_Xingning,,24.13674,115.732382,hakk1236,,sagartst,Sinitic,Sino-Tibetan
+sagartst-Yidu,Deng_Yidu,,29.448172,95.650179,idum1241,,sagartst,Deng,Sino-Tibetan
+sagartst-Zhaba,Qiangic_Zhaba,,30.538892,101.058397,zhab1238,,sagartst,Qiangic,Sino-Tibetan
+sagartst-MaerkangrGyalrong,rGyalrong_Maerkang,,31.868614,102.295293,situ1238,,sagartst,rGyalrong,Sino-Tibetan
+sidwellbahnaric-bahnarpleiku,BahnarPleiku,,14.0476,108.471,bahn1262,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-bahnarkontum,BahnarKontum,,14.0476,108.471,bahn1262,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-rengao,Rengao,,14.6066,107.859,reng1252,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-mel,Mel,,12.6313,107.301,cent1992,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-stieng,Stieng,,11.9777,106.798,bulo1242,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-brao,Brao,,14.5994,107.008,lave1249,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-jrulaven,JruLaven,,15.2726,106.322,lave1248,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-tampuan,Tampuan,,13.56447,107.24544,tamp1251,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-cheng,Cheng,,15.0392,107.147,jeng1241,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-sapuan,Sapuan,,15.3692,106.843,sapu1248,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-jeh,Jeh,,15.2351,107.753,jehh1245,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-sre,Sre,,11.6444,108.057,koho1244,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-alak,Alak,,15.5565,106.597,alak1253,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-bunong,Bunong,,12.6313,107.301,cent1992,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-bahnargolar,BahnarGolar,,14.0476,108.471,bahn1262,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-sedang,Sedang,,14.7793,108.027,seda1262,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-ramam,Ramam,,14.34,107.447,roma1331,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-mnongrlm,MnongRlm,,12.3939,108.354,east2333,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-cua,Cua,,15.1688,108.431,cuaa1241,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-halang,Halang,,14.7862,107.457,hala1252,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-chrau,Chrau,,10.8021,107.293,chra1242,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-nyaheun,Nyaheun,,15.1034,106.543,nyah1249,,sidwellbahnaric,,Austroasiatic
+sidwellbahnaric-khaonh,Khaonh,,12.6313,107.301,cent1992,,sidwellbahnaric,,Austroasiatic
+suntb-Achang,Achang (Longchuan),,24.466605,97.89503,acha1249,,suntb,Burmish,Sino-Tibetan
+suntb-Atsi,Atsi [Zaiwa],,24.17,98.36,zaiw1241,,suntb,Burmish,Sino-Tibetan
+suntb-RangoonBurmese,Burmese (Spoken Rangoon),,16.867489,96.191442,mand1476,,suntb,Burmish,Sino-Tibetan
+suntb-Trung,Trung [Dulong],,27.749017,98.691868,drun1238,,suntb,Nungic,Sino-Tibetan
+suntb-MileYi,Yi (Mile),,27.16,105.61,axiy1235,,suntb,Nesu,Sino-Tibetan
+suntb-MojiangYi,Yi (Mojiang),,24.41,103.43,sout2723,,suntb,Nesu,Sino-Tibetan
+suntb-NanhuaYi,Yi (Nanhua),,23.43,101.69,nanh1240,,suntb,Nesu,Sino-Tibetan
+suntb-NanjianYi,Yi (Nanjian),,25.19,101.27,xish1235,,suntb,Nesu,Sino-Tibetan
+suntb-XideYi,Yi (Xide),,25.04,100.51,yish1238,,suntb,Nesu,Sino-Tibetan
+suntb-MaerkangrGyalrong,rGyalrong,,28.33,102.42,maer1238,,suntb,Nesu,Sino-Tibetan
+walworthpolynesian-Anuta,Anuta_253,,-11.61,169.85,anut1237,,walworthpolynesian,,Austronesian
+walworthpolynesian-AustralA,Austral_1213,,-23.3843,-149.462,aust1304,,walworthpolynesian,,Austronesian
+walworthpolynesian-AustralB,Austral_128,,-23.3843,-149.462,aust1304,,walworthpolynesian,,Austronesian
+walworthpolynesian-EastFutuna,EastFutuna_210,,-14.278717,-178.137222,east2447,,walworthpolynesian,,Austronesian
+walworthpolynesian-Emae,Emae_1030,,-17.052,168.399,emae1237,,walworthpolynesian,,Austronesian
+walworthpolynesian-FutunaAniwa,FutunaAniwa_156,,-19.5303,170.215,futu1245,,walworthpolynesian,,Austronesian
+walworthpolynesian-Hawaiian,Hawaiian_52,,19.6297,-155.43,hawa1245,,walworthpolynesian,,Austronesian
+walworthpolynesian-Kapingamarangi,Kapingamarangi_217,,1.039166,154.797223,kapi1249,,walworthpolynesian,,Austronesian
+walworthpolynesian-Luangiua,Luangiua_238,,-5.49029,159.701,onto1237,,walworthpolynesian,,Austronesian
+walworthpolynesian-Mangareva,Mangareva_239,,-23.1095,-134.97,mang1401,,walworthpolynesian,,Austronesian
+walworthpolynesian-Maori,Maori_85,,-38.2881,176.541,maor1246,,walworthpolynesian,,Austronesian
+walworthpolynesian-MeleFila,Mele-Fila_1163,,-17.6841,168.275,mele1250,,walworthpolynesian,,Austronesian
+walworthpolynesian-Niuean,Niuean_247,,-19.06,-169.86,niue1239,,walworthpolynesian,,Austronesian
+walworthpolynesian-NorthMarquesan,NorthMarquesan_38,,-8.89412,-140.108,nort2845,,walworthpolynesian,,Austronesian
+walworthpolynesian-Nukuria,Nukuria_1212,,-3.40038,154.731,nuku1259,,walworthpolynesian,,Austronesian
+walworthpolynesian-Penrhyn,Penrhyn_235,,-9.082238,-157.922908,penr1237,,walworthpolynesian,,Austronesian
+walworthpolynesian-Pukapuka,Pukapuka_152,,-10.91,-165.83,puka1242,,walworthpolynesian,,Austronesian
+walworthpolynesian-RakahangaManihiki,RakahangaManihiki_589,,-10.03,-161.09,raka1237,,walworthpolynesian,,Austronesian
+walworthpolynesian-Rapanui,Rapanui_264,,-27.113,-109.342,rapa1244,,walworthpolynesian,,Austronesian
+walworthpolynesian-Rarotongan,Rarotongan_58,,-21.23,-159.78,raro1241,,walworthpolynesian,,Austronesian
+walworthpolynesian-RennellBellona,RennellBellona_206,,-11.6237,160.265,renn1242,,walworthpolynesian,,Austronesian
+walworthpolynesian-Samoan,Samoan_118,,-13.92,-171.83,samo1305,,walworthpolynesian,,Austronesian
+walworthpolynesian-Sikaiana,Sikaiana_243,,-8.378194,162.72952,sika1261,,walworthpolynesian,,Austronesian
+walworthpolynesian-Tahitian,Tahitian_173,,-17.6485,-149.45,tahi1242,,walworthpolynesian,,Austronesian
+walworthpolynesian-Tikopia,Tikopia_155,,-12.2766,168.822,tiko1237,,walworthpolynesian,,Austronesian
+walworthpolynesian-TongatongaIslands,TongaTongaIslands_136,,-21.17,-175.25,tong1325,,walworthpolynesian,,Austronesian
+walworthpolynesian-Tuamotuan,Tuamotuan_246,,-16.17259,-146.321755,tuam1242,,walworthpolynesian,,Austronesian
+walworthpolynesian-Tuvalu,Tuvalu_753,,-8.520813,179.198088,tuva1244,,walworthpolynesian,,Austronesian
+walworthpolynesian-VaeakauTaumako,VaeakauTaumako_375,,-10.173335,166.247188,pile1238,,walworthpolynesian,,Austronesian
+walworthpolynesian-Wallisian,Wallisian_258,,-13.2903,-176.207,wall1257,,walworthpolynesian,,Austronesian
+wold-Swahili,Swahili,,-6.5,39,swah1253,,wold,,Atlantic-Congo
+wold-Iraqw,Iraqw,,-4,35.5,iraq1241,,wold,,Afro-Asiatic
+wold-Gawwada,Gawwada,,5.5,37.25,gaww1239,,wold,,Afro-Asiatic
+wold-Hausa,Hausa,,12,7,haus1257,,wold,,Afro-Asiatic
+wold-Kanuri,Kanuri,,12,13,cent2050,,wold,,Saharan
+wold-TarifiytBerber,Tarifiyt Berber,,34.5,-4,tari1263,,wold,,Afro-Asiatic
+wold-SeychellesCreole,Seychelles Creole,,-4.75,55.5,sese1246,,wold,,Indo-European
+wold-Romanian,Romanian,,46,25,roma1327,,wold,,Indo-European
+wold-SeliceRomani,Selice Romani,,48.091,17.9609,west2376,,wold,,Indo-European
+wold-LowerSorbian,Lower Sorbian,,51.75,14.3333,lowe1385,,wold,,Indo-European
+wold-OldHighGerman,Old High German,,50.55,9.68333,oldh1241,,wold,,Indo-European
+wold-Dutch,Dutch,,52.5,6,dutc1256,,wold,,Indo-European
+wold-English,English,,52,0,stan1293,,wold,,Indo-European
+wold-KildinSaami,Kildin Saami,,67,37,kild1236,,wold,,Uralic
+wold-Bezhta,Bezhta,,42.0833,46.1667,bezh1248,,wold,,Nakh-Daghestanian
+wold-Archi,Archi,,42,46.8333,arch1244,,wold,,Nakh-Daghestanian
+wold-Manange,Manange,,28,84.25,mana1288,,wold,,Sino-Tibetan
+wold-Ket,Ket,,64,87,kett1243,,wold,,Yeniseian
+wold-Sakha,Sakha,,62,130,yaku1245,,wold,,Turkic
+wold-Oroqen,Oroqen,,51.2829,126.111,oroq1238,,wold,,Tungusic
+wold-Japanese,Japanese,,37,140,nucl1643,,wold,,Japonic
+wold-MandarinChinese,Mandarin Chinese,,34,110,mand1415,,wold,,Sino-Tibetan
+wold-Thai,Thai,,16,101,thai1261,,wold,,Tai-Kadai
+wold-Vietnamese,Vietnamese,,10.5,106.5,viet1252,,wold,,Austroasiatic
+wold-WhiteHmong,White Hmong,,26,105,hmon1333,,wold,,Hmong-Mien
+wold-CeqWong,Ceq Wong,,3.8807,102.456,chew1245,,wold,,Austroasiatic
+wold-Malagasy,Malagasy,,-20,47,plat1254,,wold,,Austronesian
+wold-Takia,Takia,,-4.66667,146,taki1248,,wold,,Austronesian
+wold-Hawaiian,Hawaiian,,19.5833,-155.5,hawa1245,,wold,,Austronesian
+wold-Gurindji,Gurindji,,-17.6667,130.667,guri1247,,wold,,Pama-Nyungan
+wold-Yaqui,Yaqui,,27.5,-110.25,yaqu1251,,wold,,Uto-Aztecan
+wold-ZinacantanTzotzil,Zinacantán Tzotzil,,16.8333,-92.8333,tzot1259,,wold,,Mayan
+wold-Qeqchi,Q'eqchi',,16,-89.8333,kekc1242,,wold,,Mayan
+wold-Otomi,Otomi,,20.1667,-98.8333,mezq1235,,wold,,Otomanguean
+wold-Saramaccan,Saramaccan,,4.5,-55.5,sara1340,,wold,,Indo-European
+wold-ImbaburaQuechua,Imbabura Quechua,,0.333333,-78,imba1240,,wold,,Quechuan
+wold-Kalina,Kali'na,,5.5,-56,gali1262,,wold,,Cariban
+wold-Hup,Hup,,0.166667,-69.25,hupd1244,,wold,,Naduhup
+wold-Wichi,Wichí,,-22.5,-62.5833,wich1264,,wold,,Matacoan
+wold-Mapudungun,Mapudungun,,-38,-72,mapu1245,,wold,,Araucanian
+yanglalo-Qingyun,Qingyun,,24.8709,100.711,xish1235,,yanglalo,Lalo,Sino-Tibetan
+yanglalo-Shuizhuping,Shuizhuping,,24.73,98.9,west1506,,yanglalo,Lalo,Sino-Tibetan
+yanglalo-Diaocao,Diaocao,,25.435,100.178,dong1286,,yanglalo,Lalo,Sino-Tibetan
+yanglalo-Xuzhang,Xuzhang,,25.344026,99.112244,xuzh1234,,yanglalo,Lalo,Sino-Tibetan
+yanglalo-Mangdi,Mangdi,,23.5,99.33,sout3210,,yanglalo,Lalo,Sino-Tibetan
+yanglalo-Yijiacun,Yijiacun,,23.475,99.865,ekaa1234,,yanglalo,Lalo,Sino-Tibetan
+yanglalo-Yangliu,Yangliu,,25.22482,99.046326,yang1304,,yanglalo,Lalo,Sino-Tibetan
+yangyi-HaniLongwei,Hani-Longwei,,23.28989,102.258828,hani1248,,yangyi,Yi,Sino-Tibetan
+yangyi-HaniQiepu,Hani-Qiepu,,23.17492035,102.323801,hani1248,,yangyi,Yi,Sino-Tibetan
+yangyi-HaniLuchun,Hani- Lvchun,,22.9971543,102.4112667,hani1248,,yangyi,Yi,Sino-Tibetan
+yangyi-Haoni,Haoni,,23.44336047,101.7461037,honi1244,,yangyi,Yi,Sino-Tibetan
+yangyi-LahuNa,Black Lahu,,22.21900429,99.70134153,naaa1244,,yangyi,Yi,Sino-Tibetan
+yangyi-Ghomozo,Ghomozo,,26.07588114,99.91832807,,,yangyi,Yi,Sino-Tibetan
+yangyi-Kuansi,Kuansi,,26.33305556,100.25,kuan1249,,yangyi,Yi,Sino-Tibetan
+yangyi-Lavu,Lavu,,26.67867748,100.7497253,talu1238,,yangyi,Yi,Sino-Tibetan
+yangyi-Talu,Taliu,,26.55219217,100.8467043,talu1238,,yangyi,Yi,Sino-Tibetan
+yangyi-Xuzhang,Xuzhang,,25.3277808,98.9970677185,xuzh1234,,yangyi,Yi,Sino-Tibetan
+yangyi-WShanglizhuo,W-Shanglizhuo,,25.5235701,98.9783729985,west1506,,yangyi,Yi,Sino-Tibetan
+yangyi-Yangliu,Yangliu,,25.1877608,98.9957997747,yang1304,,yangyi,Yi,Sino-Tibetan
+yangyi-CLeba,C-Leba,,25.0689002,99.7199450062,xish1235,,yangyi,Yi,Sino-Tibetan
+yangyi-CEYongan,CE-Yong'an,,25.470251,100.2688649899,dong1286,,yangyi,Yi,Sino-Tibetan
+yangyi-EDiaocao,E-Diaocao,,25.538453,100.255308,,,yangyi,Yi,Sino-Tibetan
+yangyi-EHoushan,E-Houshan,,25.3751828,100.4392542886,,,yangyi,Yi,Sino-Tibetan
+yangyi-ETaoshu,E-Taoshu,,25.568387,100.0581570205,,,yangyi,Yi,Sino-Tibetan
+yangyi-Eka,Eka,,23.4771337,99.9422299604,ekaa1234,,yangyi,Yi,Sino-Tibetan
+yangyi-SMangdi,S-Mangdi,,23.46902517,99.3155123394,sout3210,,yangyi,Yi,Sino-Tibetan
+yangyi-CQingsheng,C-Qingsheng,,24.76262417,100.6381824686,xish1235,,yangyi,Yi,Sino-Tibetan
+yangyi-SEGaoping,SE-Gaoping,,25.28618833,100.4230602638,,,yangyi,Yi,Sino-Tibetan
+yangyi-CChajiang,C-Chajiang,,24.72213,100.1408171056,xish1235,,yangyi,Yi,Sino-Tibetan
+yangyi-CQingyun,C-Qingyun,,25.28985136,100.04557626,xish1235,,yangyi,Yi,Sino-Tibetan
+yangyi-CLongjie,C-Longjie,,25.2061973,100.0334557739,xish1235,,yangyi,Yi,Sino-Tibetan
+yangyi-WYilu,W-Yilu,,25.2908485,99.6396402988,west1506,,yangyi,Yi,Sino-Tibetan
+yangyi-WShuizhuping,W-Shuizhuping,,25.384463,99.843653328,west1506,,yangyi,Yi,Sino-Tibetan
+yangyi-WDutian,W-Dutian,,25.5134482,99.8301212214,west1506,,yangyi,Yi,Sino-Tibetan
+yangyi-CWachang,C-Wachang,,25.41664,99.9661329659,xish1235,,yangyi,Yi,Sino-Tibetan
+yangyi-Lisu,Lisu,,26.75196842,98.88478072,nort3298,,yangyi,Yi,Sino-Tibetan
+yangyi-CLolo,C Lolo,,25.22012656,100.9674095,nanh1240,,yangyi,Yi,Sino-Tibetan
+yangyi-ELolo,E Lolo,,24.70512501,101.92075,shua1253,,yangyi,Yi,Sino-Tibetan
+yangyi-JingguLimi,Jinggu Limi,,23.41161589,100.3939263,limi1243,,yangyi,Yi,Sino-Tibetan
+yangyi-Limi,Limi,,24.2046473,99.70780531,limi1243,,yangyi,Yi,Sino-Tibetan
+yangyi-Lipo,Lipo,,25.967744,101.469582,lipo1242,,yangyi,Yi,Sino-Tibetan
+yangyi-Maang,Maang,,23.51355699,106.0052758,maan1239,,yangyi,Yi,Sino-Tibetan
+yangyi-Mondzi,Mondzi,,23.39918383,105.2343413,mond1267,,yangyi,Yi,Sino-Tibetan
+yangyi-Alo,Alo,,25.937203,102.1064952,aluo1235,,yangyi,Yi,Sino-Tibetan
+yangyi-KopoGepo,Kopo (Gepo),,25.51563431,102.4630191,gepo1234,,yangyi,Yi,Sino-Tibetan
+yangyi-Naso,Naso,,26.89835528,102.9271427,wume1235,,yangyi,Yi,Sino-Tibetan
+yangyi-Nasu,Nasu,,25.52497193,102.4030928,luqu1238,,yangyi,Yi,Sino-Tibetan
+yangyi-LuowuNisu,Luowu Nisu,,24.55990379,101.7955965,luqu1238,,yangyi,Yi,Sino-Tibetan
+yangyi-Nipu,Nipu,,27.00771251,106.033544,wusa1235,,yangyi,Yi,Sino-Tibetan
+yangyi-Nersu,Nersu,,27.141233,104.020331,wein1239,,yangyi,Yi,Sino-Tibetan
+yangyi-Nise,Nise,,24.68802092,103.6001565,,,yangyi,Yi,Sino-Tibetan
+yangyi-LaowuNisu,Laowu Nisu,,25.74329166,99.57814539,farn1234,,yangyi,Yi,Sino-Tibetan
+yangyi-Noso,Noso,,25.71000184,104.4715351,,,yangyi,Yi,Sino-Tibetan
+yangyi-Narsu,Narsu (NW Nisu),,24.25746171,102.0476517,esha1238,,yangyi,Yi,Sino-Tibetan
+yangyi-LopeAwuChen2010,Lope (Awu),,24.25668563,103.6428899,,,yangyi,Yi,Sino-Tibetan
+yangyi-LopeAwuYYFC1983,Lope (Awu)2,,24.25668563,103.6428899,,,yangyi,Yi,Sino-Tibetan
+yangyi-NNisu,N Nisu,,24.13820926,101.6461907,xinp1238,,yangyi,Yi,Sino-Tibetan
+yangyi-SNisu,S Nisu,,23.32715901,102.326438,sout2723,,yangyi,Yi,Sino-Tibetan
+yangyi-Lidim,Lidim (Tianba),,28.96606783,102.7717472,,,yangyi,Yi,Sino-Tibetan
+yangyi-NosuXide,Nosu (Senza),,28.30672651,102.4125175,yish1238,,yangyi,Yi,Sino-Tibetan
+yangyi-Sodi,Sodi,,26.65502606,102.2446829,huil1243,,yangyi,Yi,Sino-Tibetan
+yangyi-Yino,Yino,,28.32864,103.1321792,yinu1238,,yangyi,Yi,Sino-Tibetan
+yangyi-Axi,Axi,,24.441446,103.268645,axiy1235,,yangyi,Yi,Sino-Tibetan
+yangyi-Azhe,Azhe,,24.32964102,103.119097,azhe1235,,yangyi,Yi,Sino-Tibetan
+yangyi-Sani,Sani,,24.77179693,103.290785,sani1269,,yangyi,Yi,Sino-Tibetan
+yangyi-AzhaazaPelkey2011,Azha,,23.54166649,104.1861823,azha1235,,yangyi,Yi,Sino-Tibetan
+yangyi-SanniSanie,Sanni (Sanie),,25.04887917,102.6362707,sani1265,,yangyi,Yi,Sino-Tibetan
+yangyi-Pholaypg,Up: Phola,,23.456381,102.286862,phol1237,,yangyi,Yi,Sino-Tibetan
+yangyi-Phuzaypz,Phuza,,23.253698,103.332621,phuz1235,,yangyi,Yi,Sino-Tibetan
+yangyi-SouthernMujiymc,S. Muji,,22.895906,103.222074,sout2722,,yangyi,Yi,Sino-Tibetan
+yangyi-HlephoPhowayhl,Hlepho,,23.33390151,103.7217585,hlep1236,,yangyi,Yi,Sino-Tibetan
+yangyi-LawuXinpingShuitangJiuha,Lawu,,24.1338571,101.4986393,lawu1238,,yangyi,Yi,Sino-Tibetan
+yangyi-Toloza,Toloza,,26.62042438,100.0342986,tang1372,,yangyi,Yi,Sino-Tibetan
