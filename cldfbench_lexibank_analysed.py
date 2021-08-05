@@ -136,6 +136,7 @@ class Dataset(BaseDataset):
                 args.log.info('... checking out tag {}'.format(ghinfo['tag']))
                 repo.git.checkout(ghinfo['tag'])
             else:
+                args.log.warning('... could not determine tag to check out')
                 args.log.info('... checking out master')
                 try:
                     branch = repo.branches.main
