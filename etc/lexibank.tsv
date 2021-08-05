@@ -1,108 +1,108 @@
 Organization	Dataset	Zenodo	EDICTOR	Todo	ClicsCore	LexiCore	CogCore	ProtoCore	Other	CLTS	CLTSVersion	CLDFBench	Conceptlist	CheckPhonotactics	CheckedAuthors	License	Version	Warnings	CheckedBy	DoubleCheckBy
-lexibank	aaleykusunda					x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	
-lexibank	abrahammonpa					x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
-lexibank	allenbai				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
+lexibank	aaleykusunda	10.5281/zenodo.5115947				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	Johannes
+lexibank	abrahammonpa	10.5281/zenodo.5115885				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v3.0	-	Mattis	Johannes
+lexibank	allenbai	10.5281/zenodo.5115649			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v4.0	-	Mattis	Christoph
 lexibank	asjp			profile needs fixes					x		2.1.0	x	x	x	x	CC-BY-4.0			Christoph	
-lexibank	backstromnorthernpakistan			make public		x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	bantubvd				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0			Mattis	
-lexibank	bdpa					x	x			100	2.1.0	x		x	x	CC-BY-4.0		-	Mattis	
-lexibank	beidasinitic		x		x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v4.0	-	Mattis	
-lexibank	birchallchapacuran					x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-sequencecomparison	blustaustronesian					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	bodtkhobwa				x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
-lexibank	bowernpny				x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v3.0	dups in ortho profile	Mattis	
+lexibank	backstromnorthernpakistan	10.5281/zenodo.5116054				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	bantubvd	10.5281/zenodo.5115982			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v4.0		Mattis	Johannes
+lexibank	bdpa	10.5281/zenodo.5116087				x	x			100	2.1.0	x		x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	beidasinitic	10.5281/zenodo.5119295	x		x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v5.0.1	-	Mattis	Christoph
+lexibank	birchallchapacuran	10.5281/zenodo.5119306				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	Christoph
+sequencecomparison	blustaustronesian	10.5281/zenodo.5137392				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	bodtkhobwa	10.5281/zenodo.5119330			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v3.0.1	-	Mattis	Christoph
+lexibank	bowernpny	10.5281/zenodo.5119341			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v4.0.1	dups in ortho profile	Mattis	Christoph
 lexibank	bowerntasmanian								x			x	x			CC-BY-4.0		-	Christoph	
-lexibank	cals					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
-lexibank	carvalhopurus					x	x	x		100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	castrosui				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
-lexibank	castroyi				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	castrozhuang				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	chaconarawakan					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	
-lexibank	chaconbaniwa					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	
-lexibank	chaconcolumbian					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	
-lexibank	chacontukanoan					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Christoph	Mattis
-lexibank	chenhmongmien		x		x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.1.0	-	Mattis	
-lexibank	chindialectsurvey				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-digling	chingelong					x				100	2.1.0	x	x	x	x	CC-BY-4.0		-		
-lexibank	clarkkimmun			check for sounds and profile		x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-clics	clics1-cldf			refine mapping for bookkeeping glottolog languages	x						 	x	x		x	CC-BY-4.0	v1.1	bookkeeping glottolog languages	Mattis	
-lexibank	constenlachibchan		x		 	x	x			100	2.1.0	x				CC-BY-4.0	v0.1		Mattis	
-lexibank	davletshinaztecan				x	x	x	x		100		x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	deepadungpalaung		x		x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	diacl				x							x	x			CC-BY-4.0	v2.0	-	Mattis	
-lexibank	dravlex				 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	dunnaslian					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-sequencecomparison	dunnielex					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	duonglachi					x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	cals	10.5281/zenodo.5121189				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	Christoph
+lexibank	carvalhopurus	10.5281/zenodo.5121195				x	x	x		100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	Christoph
+lexibank	castrosui	10.5281/zenodo.5121213			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v3.0.1	-	Mattis	Christoph
+lexibank	castroyi	10.5281/zenodo.5121214			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	Christoph
+lexibank	castrozhuang	10.5281/zenodo.5121215			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	Christoph
+lexibank	chaconarawakan	10.5281/zenodo.5118556				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	Johannes
+lexibank	chaconbaniwa	10.5281/zenodo.5118605				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	Johannes
+lexibank	chaconcolumbian	10.5281/zenodo.5118763				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	Johannes
+lexibank	chacontukanoan	10.5281/zenodo.5118723				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Christoph	Mattis, Johannes
+lexibank	chenhmongmien	10.5281/zenodo.5118744	x		x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v3.0	-	Mattis	Johannes
+lexibank	chindialectsurvey	10.5281/zenodo.5121280			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+digling	chingelong	10.5281/zenodo.5121324				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-		Johannes
+lexibank	clarkkimmun	10.5281/zenodo.5121482		check for sounds and profile		x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+clics	clics1-cldf	10.5281/zenodo.5121530		refine mapping for bookkeeping glottolog languages	x						2.1.0	x	x		x	CC-BY-4.0	v2.0	bookkeeping glottolog languages	Mattis	Johannes
+lexibank	constenlachibchan	10.5281/zenodo.5121347	x		 	x	x			100	2.1.0	x				CC-BY-4.0	v1.0		Mattis	Johannes
+lexibank	davletshinaztecan	10.5281/zenodo.5121382			x	x	x	x		100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	deepadungpalaung	10.5281/zenodo.5121402	x		x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	diacl	10.5281/zenodo.5121561			x						2.1.0	x	x			CC-BY-4.0	v3.0	-	Mattis	Johannes
+lexibank	dravlex	10.5281/zenodo.5121580			 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	dunnaslian	10.5281/zenodo.5121613				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+sequencecomparison	dunnielex	10.5281/zenodo.5121651				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	duonglachi	10.5281/zenodo.5121663				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
 lexibank	dyenindoeuropean								x			x	x		x	CC-BY-4.0		-	Christoph	
-lexibank	felekesemitic					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	galuciotupi					x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	
-digling	gaotb					x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	gerarditupi				x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	
-lexibank	halenepal				x	x				100		x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
-lexibank	hantganbangime				x	x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
-sequencecomparison	hattorijaponic				 	x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	felekesemitic	10.5281/zenodo.5126691				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	galuciotupi	10.5281/zenodo.5121724				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+digling	gaotb	10.5281/zenodo.5121776				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	gerarditupi	10.5281/zenodo.5127906			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	Johannes
+lexibank	halenepal	10.5281/zenodo.5121540			x	x				100		x	x	x	x	CC-BY-4.0	v3.0	-	Mattis	Christoph
+lexibank	hantganbangime	10.5281/zenodo.5126441			x	x				100		x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+sequencecomparison	hattorijaponic	10.5281/zenodo.5126845			 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
 lexibank	hillburmish			pending																
-sequencecomparison	houchinese				 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	hsiuhmongmien			check for sounds (profile okay but not complete	x	x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	hubercolumbian				x	x				100		x	x	x	x	CC-BY-4.0	v3.0	-	Mattis	
-lexibank	huntergatherer				x							x	x		x	CC-BY-4.0		Form column needs additional cleaning	Christoph	
-intercontinental-dictionary-series	ids			some errors should be checked (see code warnings)	x							x	x		x	CC-BY-4.0	v4.0	some mismatchd forms	Mattis	
-lexibank	ivanisuansu					x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	johanssonsoundsymbolic				x	x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	joophonosemantic				 	x				100	2.1.0	x	x	x	x	CC-BY-4.0			Mattis	
-sequencecomparison	kesslersignificance				 	x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	kleinewillinghoeferbikwinjen					x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	kraftchadic				x	x				100		x	x	x	x	CC-BY-4.0	v3.0	-	Christoph	
-lexibank	leejaponic				 	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	leeainu					x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	bremerberta					x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	leekoreanic					x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	lieberherrkhobwa				 	x	x			100		x	x	x	x	CC-BY-4.0	v0.1.2	-	Mattis	
-intercontinental-dictionary-series	lindseyende				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-sequencecomparison	listsamplesize				x	x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	liusinitic					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	lundgrenomagoa					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	mannburmish				x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	marrisonnaga				x	x	 	 		100	2.1.0	x	x	x	x	CC-BY-4.0		warning for concepts	Mattis	
-lexibank	mcelhanonhuon					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	mitterhoferbena				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	
-lexibank	naganorgyalrongic				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	nagarajakhasian					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	northeuralex				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0				
-lexibank	peirosaustroasiatic					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	pharaocoracholaztecan					x	x	x		100	2.1.0	x	x	x	x	CC-BY-4.0		-	Christoph	Mattis
-lexibank	polyglottaafricana				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	ratcliffearabic					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	Christoph
-lexibank	robinsonap				x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	saenkoromance				 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	sagartst				 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	satterthwaitetb				x							x	x		x	CC-BY-4.0				
-lexibank	savelyevturkic					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Christoph	
-digling	servamalagasy					x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	sidwellbahnaric					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	simsrma					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	sohartmannchin				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+sequencecomparison	houchinese	10.5281/zenodo.5126858			 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	hsiuhmongmien	10.5281/zenodo.5126451		check for sounds (profile okay but not complete	x	x				100		x	x	x	x	CC-BY-4.0		-	Mattis	Christoph
+lexibank	hubercolumbian	10.5281/zenodo.5121219			x	x				100		x	x	x	x	CC-BY-4.0	v4.0.1	-	Mattis	Christoph
+lexibank	huntergatherer	10.5281/zenodo.5126741			x							x	x		x	CC-BY-4.0	v1.0	-	Christoph	Christoph
+intercontinental-dictionary-series	ids	10.5281/zenodo.5126899		some errors should be checked (see code warnings)	x							x	x		x	CC-BY-4.0	v4.1	some mismatchd forms	Mattis	Johannes
+lexibank	ivanisuansu	10.5281/zenodo.5126966				x				100		x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	johanssonsoundsymbolic	10.5281/zenodo.5127131			x	x				100		x	x	x	x	CC-BY-4.0		-	Mattis	Johannes
+lexibank	joophonosemantic	10.5281/zenodo.5137230			 	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.1		Mattis	Johannes
+sequencecomparison	kesslersignificance	10.5281/zenodo.5127775			 	x	x			100		x	x	x	x	CC-BY-4.0		-	Mattis	Johannes
+lexibank	kleinewillinghoeferbikwinjen	10.5281/zenodo.5127404				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	kraftchadic	10.5281/zenodo.5121222			x	x				100		x	x	x	x	CC-BY-4.0	v4.0.1	-	Christoph	Christoph
+lexibank	leejaponic	10.5281/zenodo.5126801			 	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	leeainu	10.5281/zenodo.5126890				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	bremerberta	10.5281/zenodo.5126757				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	leekoreanic	10.5281/zenodo.5126904				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	lieberherrkhobwa	10.5281/zenodo.5127687			 	x	x			100		x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph, Johannes
+intercontinental-dictionary-series	lindseyende	10.5281/zenodo.5127829			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	Johannes
+sequencecomparison	listsamplesize	10.5281/zenodo.5128050			x	x	x			100		x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	liusinitic	10.5281/zenodo.5131413				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	lundgrenomagoa	10.5281/zenodo.5128097				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	mannburmish	10.5281/zenodo.5131419			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	marrisonnaga	10.5281/zenodo.5121317			x	x	 	 		100	2.1.0	x	x	x	x	CC-BY-4.0	v3.0	-	Mattis	Christoph
+lexibank	mcelhanonhuon	10.5281/zenodo.5127348				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	mitterhoferbena	10.5281/zenodo.5121327			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v3.0	-	Mattis	Christoph
+lexibank	naganorgyalrongic	10.5281/zenodo.5126458			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v3.0	-	Mattis	Christoph
+lexibank	nagarajakhasian	10.5281/zenodo.5131421				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	northeuralex	10.5281/zenodo.5121268			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v4.0		Christoph	Christoph
+lexibank	peirosaustroasiatic	10.5281/zenodo.5127536				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	pharaocoracholaztecan	10.5281/zenodo.5136882				x	x	x		100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Christoph	Mattis, Christoph
+lexibank	polyglottaafricana	10.5281/zenodo.5136890			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	ratcliffearabic	10.5281/zenodo.5136898				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0.1	-	Mattis	Christoph
+lexibank	robinsonap	10.5281/zenodo.5121340			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v4.0	-	Mattis	Christoph
+lexibank	saenkoromance	10.5281/zenodo.5136900			 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	sagartst	10.5281/zenodo.5121409			 	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	Christoph
+lexibank	satterthwaitetb	10.5281/zenodo.5136997			x							x	x		x	CC-BY-4.0	v4.0			Johannes
+lexibank	savelyevturkic	10.5281/zenodo.5137274				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Christoph	Johannes
+digling	servamalagasy	10.5281/zenodo.5137040				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	sidwellbahnaric	10.5281/zenodo.5137055				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	simsrma	10.5281/zenodo.5137078				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	sohartmannchin	10.5281/zenodo.5121813			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v3.0	-	Mattis	Christoph
 lexibank	starostinhmongmien			check profile, compare with other HM data							2.1.0					CC-BY-4.0		-	Christoph	
-sequencecomparison	starostinpie				x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	suntb				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	syrjaenenuralic					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	tls				x							x	x		x	CC-BY-4.0		-	Mattis	Christoph
+sequencecomparison	starostinpie	10.5281/zenodo.5137281			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	suntb	10.5281/zenodo.5121515			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v4.0	-	Mattis	Christoph
+lexibank	syrjaenenuralic	10.5281/zenodo.5137236				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Johannes
+lexibank	tls	10.5281/zenodo.5121819			x							x	x		x	CC-BY-4.0	v4.0	-	Mattis	Christoph
 lexibank	tppsr								x	100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	transnewguineaorg			concepticon 2.5 integration has problems	x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
+lexibank	transnewguineaorg	10.5281/zenodo.5141620			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v3.0	-	Mattis	Mattis, Johannes
 tupian-language-resources	tuled		x	concepticon 2.5	x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-intercontinental-dictionary-series	visserkalamang				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	walworthpolynesian					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	wangbai				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	wangbcd								x			x	x		x	CC-BY-4.0			Christoph	
+intercontinental-dictionary-series	visserkalamang	10.5281/zenodo.5139559			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	Johannes
+lexibank	walworthpolynesian	10.5281/zenodo.5126932				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	wangbai	10.5281/zenodo.5137407			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	wangbcd	10.5281/zenodo.5136930							x			x	x		x	CC-BY-4.0	v1.0		Christoph	Christoph
 lexibank	wanghmongmien								x	100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	wichmannmixezoquean					x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Christoph	Mattis
-lexibank	wold				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0			Christoph	
-lexibank	yanglalo				x	x	x	x		100	2.1.0	x	x	x	x	CC-BY-4.0		-	Christoph	Mattis
-lexibank	yangyi			check for one language as outlier (in vowels)	x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-intercontinental-dictionary-series	yuchinese				x	x				100		x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	zgraggenmadang				x	x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	zhaobai					x				100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-sequencecomparison	zhivlovobugrian				x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	zhoubizic		x	concepticon 2.6	x	x	(x)	(x)		100	2.1.0	x	x	x	x	CC-BY-4.0		-	Mattis	
-lexibank	logos				x							x	x		x	CC-BY-4.0		-	Mattis	
+lexibank	wichmannmixezoquean	10.5281/zenodo.5126948				x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Christoph	Mattis, Christoph
+lexibank	wold	10.5281/zenodo.5139859			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v4.0		Christoph	Christoph
+lexibank	yanglalo	10.5281/zenodo.5121829			x	x	x	x		100	2.1.0	x	x	x	x	CC-BY-4.0	v3.0	-	Christoph	Mattis, Christoph
+lexibank	yangyi	10.5281/zenodo.5136924		check for one language as outlier (in vowels)	x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+intercontinental-dictionary-series	yuchinese	10.5281/zenodo.5139881			x	x				100		x	x	x	x	CC-BY-4.0	v2.0	-	Mattis	Christoph
+lexibank	zgraggenmadang	10.5281/zenodo.5121535			x	x				100	2.1.0	x	x	x	x	CC-BY-4.0	v4.0	-	Mattis	Christoph
+lexibank	zhaobai	10.5281/zenodo.5136947				x				100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+sequencecomparison	zhivlovobugrian	10.5281/zenodo.5137439			x	x	x			100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	zhoubizic	10.5281/zenodo.5140129	x	concepticon 2.6	x	x	(x)	(x)		100	2.1.0	x	x	x	x	CC-BY-4.0	v1.0	-	Mattis	Christoph
+lexibank	logos	10.5281/zenodo.5141379			x							x	x		x	CC-BY-4.0	v4.0	-	Mattis	Johannes
