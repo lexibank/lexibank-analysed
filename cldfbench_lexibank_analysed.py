@@ -29,6 +29,12 @@ CLTS_2_1 = (
     'cldf-clts-clts-04f04e3')
 _loaded = {}
 
+OAI_PMH_URL = 'https://zenodo.org/oai2d?verb=ListRecords&set=user-lexibank&metadataPrefix=oai_dc'
+RESUME_URL = 'https://zenodo.org/oai2d?verb=ListRecords&resumptionToken={}'
+RECORD_TAG = '{http://www.openarchives.org/OAI/2.0/oai_dc/}dc'
+ID_TAG = '{http://purl.org/dc/elements/1.1/}identifier'
+REL_TAG = '{http://purl.org/dc/elements/1.1/}relation'
+
 
 class TooManyRequests(IOError):
     pass
@@ -67,13 +73,10 @@ def download_from_doi(doi, outdir=pathlib.Path('.')):
     return outdir
 
 
-def parse_zenodo_info(oai_pmh_xml):
+def parse_zenodo_info(records):
     res = collections.OrderedDict()
 
-    RECORD_TAG = '{http://www.openarchives.org/OAI/2.0/oai_dc/}dc'
-    ID_TAG = '{http://purl.org/dc/elements/1.1/}identifier'
-    REL_TAG = '{http://purl.org/dc/elements/1.1/}relation'
-    for record in oai_pmh_xml.iter(RECORD_TAG):
+    for record in records:
         for id_ in record.iter(ID_TAG):
             if id_.text.startswith('10.5281/zenodo.'):
                 doi = id_.text
@@ -128,9 +131,20 @@ class Dataset(BaseDataset):
         }
 
     def cmd_download(self, args):
-        OAI_PMH_URL = 'https://zenodo.org/oai2d?verb=ListRecords&set=user-lexibank&metadataPrefix=oai_dc'
-        github_info = parse_zenodo_info(
-            ET.fromstring(requests.get(OAI_PMH_URL).text))
+        records = []
+        next_url = OAI_PMH_URL
+        while next_url:
+            response = ET.fromstring(requests.get(next_url).text)
+            records.extend(list(response.iter(RECORD_TAG)))
+            token_list = response.findall(
+                './{http://www.openarchives.org/OAI/2.0/}ListRecords'
+                '/{http://www.openarchives.org/OAI/2.0/}resumptionToken')
+            if token_list:
+                next_url = RESUME_URL.format(token_list[0].text)
+            else:
+                next_url = ''
+
+        github_info = parse_zenodo_info(records)
 
         def get_ghinfo(row):
             return (
