@@ -224,7 +224,7 @@ CLDF datasets.
 Let's first look at the distribution of languages in LexiCore and ClicsCore
 on a map:
 ```shell
-cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties Incollections,Forms,Concepts --language-properties-colormaps tol,plasma,viridis  --markersize 15
+cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties Incollections,Forms,Concepts --language-properties-colormaps tol,plasma,viridis  --markersize 15 --pacific-centered
 ```
 ![doculects](plots/doculects.jpg)
 
