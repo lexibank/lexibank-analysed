@@ -2729,6 +2729,7 @@ yangyi-Limi,Limi,,24.2046473,99.70780531,limi1243,,yangyi,969,843,LexiCoreClicsC
 yangyi-Lipo,Lipo,,25.967744,101.469582,lipo1242,,yangyi,286,263,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-Maang,Maang,,23.51355699,106.0052758,maan1239,,yangyi,231,224,LexiCore,Yi,Sino-Tibetan
 yangyi-Mondzi,Mondzi,,23.39918383,105.2343413,mond1267,,yangyi,232,226,LexiCore,Yi,Sino-Tibetan
+yangyi-Mongi,Mongi,,23.39918383,105.2343413,mond1267,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-Alo,Alo,,25.937203,102.1064952,aluo1235,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-KopoGepo,Kopo (Gepo),,25.51563431,102.4630191,gepo1234,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-Naso,Naso,,26.89835528,102.9271427,wume1235,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
@@ -2740,13 +2741,17 @@ yangyi-Nise,Nise,,24.68802092,103.6001565,,,yangyi,699,645,LexiCoreClicsCore,Yi,
 yangyi-LaowuNisu,Laowu Nisu,,25.74329166,99.57814539,farn1234,,yangyi,698,636,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-Noso,Noso,,25.71000184,104.4715351,,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-Narsu,Narsu (NW Nisu),,24.25746171,102.0476517,esha1238,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
+yangyi-Neshu,Neshu,,24.13820926,101.6461907,xinp1238,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
+yangyi-Nesu,Nesu,,22.623138,101.90012074,xinp1238,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-LopeAwuChen2010,Lope (Awu),,24.25668563,103.6428899,,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-LopeAwuYYFC1983,Lope (Awu)2,,24.25668563,103.6428899,,,yangyi,238,230,LexiCore,Yi,Sino-Tibetan
 yangyi-NNisu,N Nisu,,24.13820926,101.6461907,xinp1238,,yangyi,718,659,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-SNisu,S Nisu,,23.32715901,102.326438,sout2723,,yangyi,368,353,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-Lidim,Lidim (Tianba),,28.96606783,102.7717472,,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
+yangyi-NuosuHuangDai1992,Nuosu (Huang and Dai),,28.30672651,102.4125175,yish1238,,yangyi,766,699,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-NosuXide,Nosu (Senza),,28.30672651,102.4125175,yish1238,,yangyi,238,230,LexiCore,Yi,Sino-Tibetan
 yangyi-Sodi,Sodi,,26.65502606,102.2446829,huil1243,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
+yangyi-Senza,Senza,,28.30672651,102.4125175,yish1238,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-Yino,Yino,,28.32864,103.1321792,yinu1238,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-Axi,Axi,,24.441446,103.268645,axiy1235,,yangyi,238,230,LexiCore,Yi,Sino-Tibetan
 yangyi-Azhe,Azhe,,24.32964102,103.119097,azhe1235,,yangyi,238,230,LexiCore,Yi,Sino-Tibetan
@@ -2757,6 +2762,7 @@ yangyi-Pholaypg,Up: Phola,,23.456381,102.286862,phol1237,,yangyi,698,632,LexiCor
 yangyi-Phuzaypz,Phuza,,23.253698,103.332621,phuz1235,,yangyi,705,638,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-SouthernMujiymc,S. Muji,,22.895906,103.222074,sout2722,,yangyi,710,642,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-HlephoPhowayhl,Hlepho,,23.33390151,103.7217585,hlep1236,,yangyi,707,640,LexiCoreClicsCore,Yi,Sino-Tibetan
+yangyi-Kazhuo,Kazhuo,,24.1478565,102.6653471,kats1235,,yangyi,708,648,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-LawuXinpingShuitangJiuha,Lawu,,24.1338571,101.4986393,lawu1238,,yangyi,828,731,LexiCoreClicsCore,Yi,Sino-Tibetan
 yangyi-Toloza,Toloza,,26.62042438,100.0342986,tang1372,,yangyi,699,645,LexiCoreClicsCore,Yi,Sino-Tibetan
 yuchinese-mand1415,Mandarin Chinese,,40.0209,116.228,mand1415,,yuchinese,1423,1305,LexiCoreClicsCore,,Sino-Tibetan

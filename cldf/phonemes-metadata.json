@@ -5,16 +5,18 @@
             "@language": "en"
         }
     ],
+    "dc:bibliographicCitation": "List, Johann-Mattis; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph; Englisch, Johannes; and Russell D. Gray (2021): Lexibank: A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2400 language varieties",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
+    "dc:identifier": "https://lexibank.clld.org",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
-    "dc:title": "CLDF dataset derived from Sagart et al.'s \"Sino-Tibetan Database of Lexical Cognates\" from 2019",
+    "dc:title": "Lexibank Analysed",
     "dcat:accessURL": "https://github.com/lexibank/lexibank-analysed",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/lexibank-analysed",
-            "dc:created": "f02ddb4"
+            "dc:created": "82e4fc9"
         },
         {
             "rdf:type": "prov:Entity",
@@ -308,7 +310,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/yangyi",
-            "dc:created": "v1.0"
+            "dc:created": "v1.1"
         },
         {
             "rdf:type": "prov:Entity",
@@ -635,7 +637,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 108273,
+            "dc:extent": 108563,
             "tableSchema": {
                 "columns": [
                     {
@@ -725,7 +727,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 1669,
+            "dc:extent": 1673,
             "tableSchema": {
                 "columns": [
                     {
@@ -762,7 +764,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 3624,
+            "dc:extent": 3630,
             "tableSchema": {
                 "columns": [
                     {
