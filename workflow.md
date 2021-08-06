@@ -17,7 +17,9 @@ The lexibank collection consists of mainly two types of datasets:
 
 The decision about which datasets are assigned to which collection is currently carried out by the board of lexibank editors, who estimate how well each of the datasets qualifies for the inclusion in either or both collections. The decisions are available in the form of a spreadsheet, shared along with this repository (see [etc/lexibank.tsv](etc/lexibank.tsv)).
 
-The authoritative spreadsheet itself is curated on the [nextcloud server of MPI-EVA](https://share.eva.mpg.de/index.php/s/dqmqQn567P4PKie). For now, however, we experience problems with the nextcloud server and therefore edit the spreadsheet on [GoogleSheets](https://docs.google.com/spreadsheets/d/1x8c_fuWkUYpDKedn2mNkKFxpwtHCFAOBUeRT8Mihy3M/edit?usp=sharing). 
+The authoritative spreadsheet itself is curated on the [nextcloud server of MPI-EVA](https://share.eva.mpg.de/index.php/s/dqmqQn567P4PKie). 
+For now, however, we experience problems with the nextcloud server and therefore edit the spreadsheet on 
+[GoogleSheets](https://docs.google.com/spreadsheets/d/1x8c_fuWkUYpDKedn2mNkKFxpwtHCFAOBUeRT8Mihy3M/edit?usp=sharing). 
 
 
 ## 2 Lexibank Workflow

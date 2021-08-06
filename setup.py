@@ -27,6 +27,7 @@ setup(
     platforms='any',
     python_requires='>=3.6',
     install_requires=[
+        'collabutils[googlesheets]',
         'cldfbench>=1.7.2',
         'cltoolkit>=0.1.1',
         'cldfviz>=0.3.0',

@@ -10,12 +10,13 @@ import requests
 import pycldf
 from cldfbench import CLDFSpec
 from cldfbench import Dataset as BaseDataset
-from clldutils.misc import lazyproperty
 from cltoolkit import Wordlist
 from cltoolkit.features import FEATURES
 from pyclts import CLTS
 from git import Repo, GitCommandError
 from tqdm import tqdm
+from csvw.dsv import reader, UnicodeWriter
+from collabutils.googlesheets import Spreadsheet
 
 COLLECTIONS = {
     'LexiCore': (
@@ -100,7 +101,7 @@ class Dataset(BaseDataset):
                 dir=self.cldf_dir, module="StructureDataset"),
         }
 
-    @lazyproperty
+    @property
     def dataset_meta(self):
         res = collections.OrderedDict()
         for row in self.etc_dir.read_csv('lexibank.tsv', delimiter='\t', dicts=True):
@@ -112,6 +113,11 @@ class Dataset(BaseDataset):
         return res
 
     def cmd_download(self, args):
+        Spreadsheet('1x8c_fuWkUYpDKedn2mNkKFxpwtHCFAOBUeRT8Mihy3M').fetch_sheets(
+            {'datasets': 'lexibank.tsv'}, self.etc_dir)
+        rows = list(reader(self.etc_dir / 'lexibank.tsv'))
+        with UnicodeWriter(self.etc_dir / 'lexibank.tsv', delimiter='\t') as w:
+            w.writerows(rows)
         github_info = collections.OrderedDict()
 
         next_url = OAI_PMH_URL
