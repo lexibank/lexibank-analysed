@@ -29,7 +29,7 @@ setup(
     install_requires=[
         'cldfbench>=1.7.2',
         'cltoolkit>=0.1.1',
-        'cldfviz',
+        'cldfviz>=0.3.0',
         'pylexibank',
         'attrs>=18.2',
         'clldutils>=3.5',
