@@ -14,7 +14,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/lexibank-analysed",
-            "dc:created": "44d1cc9"
+            "dc:created": "f02ddb4"
         },
         {
             "rdf:type": "prov:Entity",
@@ -470,7 +470,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/simsrma",
-            "dc:created": "v1.0"
+            "dc:created": "v1.1"
         },
         {
             "rdf:type": "prov:Entity",
@@ -635,7 +635,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 112602,
+            "dc:extent": 108273,
             "tableSchema": {
                 "columns": [
                     {
@@ -725,7 +725,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 1812,
+            "dc:extent": 1669,
             "tableSchema": {
                 "columns": [
                     {
@@ -762,7 +762,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 3696,
+            "dc:extent": 3624,
             "tableSchema": {
                 "columns": [
                     {
@@ -830,6 +830,19 @@
                         "name": "Dataset"
                     },
                     {
+                        "dc:description": "Number of forms",
+                        "datatype": "integer",
+                        "name": "Forms"
+                    },
+                    {
+                        "dc:description": "Number of concepts",
+                        "datatype": "integer",
+                        "name": "Concepts"
+                    },
+                    {
+                        "name": "Incollections"
+                    },
+                    {
                         "datatype": "string",
                         "name": "Subgroup"
                     },
@@ -881,7 +894,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
-            "dc:extent": 99,
+            "dc:extent": 98,
             "tableSchema": {
                 "columns": [
                     {

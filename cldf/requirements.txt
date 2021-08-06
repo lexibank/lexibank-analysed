@@ -6,9 +6,9 @@ cffi==1.14.5
 chardet==4.0.0
 cldfbench==1.7.2
 cldfcatalog==1.3.0
-cldfviz==0.2.0
+-e git+https://github.com/cldf/cldfviz.git@8e7b310db655e599e029e5ee6ffe7192a9000f14#egg=cldfviz
 clldutils==3.9.0
--e git+https://github.com/cldf/cltoolkit/@a10534b8a07cd2df439bad2df8974f5659eb194b#egg=cltoolkit
+cltoolkit==0.1.1
 colorama==0.4.4
 colorlog==4.8.0
 csvw==1.11.0

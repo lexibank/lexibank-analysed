@@ -28,7 +28,7 @@ setup(
     python_requires='>=3.6',
     install_requires=[
         'cldfbench>=1.7.2',
-        'cltoolkit',
+        'cltoolkit>=0.1.1',
         'cldfviz',
         'pylexibank',
         'attrs>=18.2',

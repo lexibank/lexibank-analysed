@@ -15,9 +15,9 @@ The lexibank collection consists of mainly two types of datasets:
    overlap with the `ClicsCore` collection, is called `LexiCore` and can be used to compute various phonological 
    features for language varieties.
 
-The decision about which datasets are assigned to which collection is currently carried out by the board of lexibank editors, who estimate how well each of the datasets qualifies for the inclusion in either or both collections. The decisions are available in the form of a spreadsheet, shared along with this repository (see [src/lexibank/data/lexibank.tsv](https://github.com/lexibank/lexibank-study/blob/main/src/lexibank/data/lexibank.tsv)).
+The decision about which datasets are assigned to which collection is currently carried out by the board of lexibank editors, who estimate how well each of the datasets qualifies for the inclusion in either or both collections. The decisions are available in the form of a spreadsheet, shared along with this repository (see [etc/lexibank.tsv](etc/lexibank.tsv)).
 
-The original datafile itself will be curated on the [nextcloud server of the MPI-EVA](https://share.eva.mpg.de/index.php/s/dqmqQn567P4PKie). For now, however, we experience problems with the nextcloud server and therefore edit the spreadsheet on [GoogleSheets](https://docs.google.com/spreadsheets/d/1x8c_fuWkUYpDKedn2mNkKFxpwtHCFAOBUeRT8Mihy3M/edit?usp=sharing). 
+The authoritative spreadsheet itself is curated on the [nextcloud server of MPI-EVA](https://share.eva.mpg.de/index.php/s/dqmqQn567P4PKie). For now, however, we experience problems with the nextcloud server and therefore edit the spreadsheet on [GoogleSheets](https://docs.google.com/spreadsheets/d/1x8c_fuWkUYpDKedn2mNkKFxpwtHCFAOBUeRT8Mihy3M/edit?usp=sharing). 
 
 
 ## 2 Lexibank Workflow
@@ -83,15 +83,15 @@ forms in each collection:
 ```shell
 $ csvcut -c ID,Glottocodes,Concepts,Forms cldf/collections.csv | csvformat -T
 ID	Glottocodes	Concepts	Forms
-LexiCore	2407	3065	1164149
-ClicsCore	2512	3088	1952425
-CogCore	861	1696	288178
+LexiCore	2390	3058	1142038
+ClicsCore	2492	3083	1930314
+CogCore	844	1677	266067
 ProtoCore	28	951	10890
 ```
 or list how many source datasets are aggregated in each of these collections:
 ```shell
 $ csvgrep -c Collection_IDs -m Lexi cldf/contributions.csv | csvstat --count
-Row count: 92
+Row count: 91
 ```
 
 `contributions.csv` also lists numbers of doculects and senses. Datasets with a low ratio between
@@ -193,25 +193,26 @@ $ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | cs
 
 	Type of data:          Number
 	Contains null values:  False
-	Unique values:         55
+	Unique values:         58
 	Smallest value:        7
-	Largest value:         98
-	Sum:                   24.148
-	Mean:                  27,072
-	Median:                26
-	StDev:                 10,078
-	Most common values:    27 (53x)
-	                       23 (38x)
-	                       29 (38x)
-	                       24 (37x)
-	                       22 (36x)
+	Largest value:         107
+	Sum:                   69.898
+	Mean:                  23,718
+	Median:                23
+	StDev:                 8,287
+	Most common values:    23 (211x)
+	                       21 (194x)
+	                       22 (190x)
+	                       20 (165x)
+	                       24 (155x)
 
-Row count: 892
+Row count: 2947
 
-$ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvgrep -c Value -r"^7|98$" | csvcut -c Language_ID,Value
+$ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvgrep -c Value -r"^(7|98)$" | csvcut -c Language_ID,Value
 Language_ID,Value
 chenhmongmien-NortheastYunnanChuanqiandian,98
 johanssonsoundsymbolic-Rotokas,7
+transnewguineaorg-keoru-ahia,7
 ```
 
 
@@ -220,7 +221,14 @@ johanssonsoundsymbolic-Rotokas,7
 Visual exploration of the data can be done with `cldfviz`, a `cldfbench` plugin to visualize
 CLDF datasets.
 
-We can plot continuous variables on a map, e.g. `ConsonnantQualitySize`:
+Let's first look at the distribution of languages in LexiCore and ClicsCore
+on a map:
+```shell
+cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties Incollections,Forms,Concepts --language-properties-colormaps tol,plasma,viridis  --markersize 15
+```
+![doculects](plots/doculects.jpg)
+
+We can plot continuous variables on a map, e.g. `ConsonantQualitySize`:
 ```shell
 cldfbench cldfviz.map cldf/phonology-metadata.json --parameters ConsonantQualitySize --colormaps plasma --pacific-centered
 ```

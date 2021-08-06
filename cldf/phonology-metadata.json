@@ -14,7 +14,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/lexibank-analysed",
-            "dc:created": "44d1cc9"
+            "dc:created": "f02ddb4"
         },
         {
             "rdf:type": "prov:Entity",
@@ -470,7 +470,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/simsrma",
-            "dc:created": "v1.0"
+            "dc:created": "v1.1"
         },
         {
             "rdf:type": "prov:Entity",
@@ -635,7 +635,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 100198,
+            "dc:extent": 97750,
             "tableSchema": {
                 "columns": [
                     {
@@ -827,7 +827,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 2947,
+            "dc:extent": 2875,
             "tableSchema": {
                 "columns": [
                     {
@@ -893,6 +893,19 @@
                     {
                         "propertyUrl": "http://cldf.clld.org//v1.0/terms.rdf#contributionReference",
                         "name": "Dataset"
+                    },
+                    {
+                        "dc:description": "Number of forms",
+                        "datatype": "integer",
+                        "name": "Forms"
+                    },
+                    {
+                        "dc:description": "Number of concepts",
+                        "datatype": "integer",
+                        "name": "Concepts"
+                    },
+                    {
+                        "name": "Incollections"
                     },
                     {
                         "datatype": "string",

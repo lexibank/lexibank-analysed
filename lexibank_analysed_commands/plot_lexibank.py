@@ -43,6 +43,12 @@ def register(parser):
         default="jet"
         )
 
+#
+# variable "type": in lexicore, in clicscore, in both
+# variable "forms"
+# variable "concepts"
+#
+
 
 def run(args):
     dataA = json.load(open(args.lexicore))

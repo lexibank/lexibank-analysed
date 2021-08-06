@@ -104,6 +104,8 @@ class Dataset(BaseDataset):
     def dataset_meta(self):
         res = collections.OrderedDict()
         for row in self.etc_dir.read_csv('lexibank.tsv', delimiter='\t', dicts=True):
+            if not row['Zenodo'].strip():
+                continue
             row['collections'] = set(key for key in COLLECTIONS if row[key].strip() == 'x')
             if any(coll in row['collections'] for coll in ['LexiCore', 'ClicsCore']):
                 res[row['Dataset']] = row
@@ -201,6 +203,9 @@ class Dataset(BaseDataset):
                 'name': 'Dataset',
                 'propertyUrl': 'http://cldf.clld.org//v1.0/terms.rdf#contributionReference',
             },
+            {'name': 'Forms', 'datatype': 'integer', 'dc:description': 'Number of forms'},
+            {'name': 'Concepts', 'datatype': 'integer', 'dc:description': 'Number of concepts'},
+            {'name': 'Incollections'},
             'Subgroup',
             'Family')
         t = writer.cldf.add_table(
@@ -282,17 +287,24 @@ class Dataset(BaseDataset):
                             Name=v,
                         ))
 
-        def _add_language(writer, language, features, attr_features):
-            l = {
-                "ID": language.id,
-                "Name": language.name,
-                "Glottocode": language.glottocode,
-                "Dataset": language.dataset,
-                "Latitude": language.latitude,
-                "Longitude": language.longitude,
-                "Subgroup": language.subgroup,
-                "Family": language.family,
-            }
+        def _add_language(writer, language, features, attr_features, collection=''):
+            l = languages.get(language.id)
+            if not l:
+                l = {
+                    "ID": language.id,
+                    "Name": language.name,
+                    "Glottocode": language.glottocode,
+                    "Dataset": language.dataset,
+                    "Latitude": language.latitude,
+                    "Longitude": language.longitude,
+                    "Subgroup": language.subgroup,
+                    "Family": language.family,
+                    "Forms": len(language.forms_with_sounds or []),
+                    "Concepts": len(language.concepts),
+                    "Incollections": collection,
+                }
+            else:
+                l['Incollections'] = l['Incollections'] + collection
             languages[language.id] = l
             writer.objects['LanguageTable'].append(l)
             for attr in attr_features:
@@ -314,13 +326,13 @@ class Dataset(BaseDataset):
                     Code_ID='{}-{}'.format(feature.id, v) if feature.categories else None,
                 ))
 
-        def _add_languages(writer, wordlist, condition, features, attr_features):
+        def _add_languages(writer, wordlist, condition, features, attr_features, collection=''):
             for language in tqdm(wordlist.languages, desc='computing features'):
                 if language.name == None or language.name == "None":
                     args.log.warning('{0.dataset}: {0.id}: {0.name}'.format(language))
                     continue
                 if language.latitude and condition(language):
-                    _add_language(writer, language, features, attr_features)
+                    _add_language(writer, language, features, attr_features, collection=collection)
                     yield language
 
         with self.cldf_writer(args, cldf_spec='phonology') as writer:
@@ -349,6 +361,7 @@ class Dataset(BaseDataset):
                 lambda l: len(l.forms_with_sounds) >= 80,
                 features,
                 ['concepts', 'forms', 'forms_with_sounds', 'senses'],
+                collection='LexiCore',
             ):
                 for sound in language.sound_inventory.segments:
                     sounds[(sound.obj.name.replace(' ', '_'), sound.obj.s)][language.id] = len(sound.occurrences)
@@ -374,7 +387,9 @@ class Dataset(BaseDataset):
                 Wordlist(datasets=self._datasets('ClicsCore')),
                 lambda l: len(l.concepts) >= 250,
                 features,
-                ['concepts', 'forms', 'senses']))
+                ['concepts', 'forms', 'senses'],
+                collection='ClicsCore',
+            ))
 
         with self.cldf_writer(args, cldf_spec='phonemes', clean=False) as writer:
             writer.cldf.add_columns('ParameterTable', 'cltsReference')
