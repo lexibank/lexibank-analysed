@@ -1,51 +1,172 @@
 ID,Name,Description,Feature_Spec
 concepts,Number of concepts,Number of senses linked to Concepticon,
 forms,Number of forms,,
-bipa_forms,Number of BIPA conforming forms,,
+forms_with_sounds,Number of BIPA conforming forms,,
 senses,Number of senses,,
-ConsonantQualitySize,consonant quality size,Number of items of type consonants_by_quality in the inventory.,"{""id"": ""ConsonantQualitySize"", ""name"": ""consonant quality size"", ""function"": {""class"": ""cltoolkit.features.phonology.InventoryQuery"", ""args"": [""consonants_by_quality""]}, ""type"": {""class"": ""type""}, ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-VowelQualitySize,vowel quality size,Number of items of type vowels_by_quality in the inventory.,"{""id"": ""VowelQualitySize"", ""name"": ""vowel quality size"", ""function"": {""class"": ""cltoolkit.features.phonology.InventoryQuery"", ""args"": [""vowels_by_quality""]}, ""type"": {""class"": ""type""}, ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-VowelSize,vowel size,Number of items of type vowels in the inventory.,"{""id"": ""VowelSize"", ""name"": ""vowel size"", ""function"": {""class"": ""cltoolkit.features.phonology.InventoryQuery"", ""args"": [""vowels""]}, ""type"": {""class"": ""type""}, ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-ConsonantSize,consonant size,Number of items of type consonants in the inventory.,"{""id"": ""ConsonantSize"", ""name"": ""consonant size"", ""function"": {""class"": ""cltoolkit.features.phonology.InventoryQuery"", ""args"": [""consonants""]}, ""type"": {""class"": ""type""}, ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-CVRatio,consonant and vowel ratio,Ratio between consonants and vowels in the inventory,"{""id"": ""CVRatio"", ""name"": ""consonant and vowel ratio"", ""function"": {""class"": ""cltoolkit.features.phonology.Ratio"", ""args"": [""consonants"", ""vowels""]}, ""type"": {""class"": ""type""}, ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-CVQualityRatio,consonant and vowel ratio (by quality),Ratio between consonants_by_quality and vowels_by_quality in the inventory,"{""id"": ""CVQualityRatio"", ""name"": ""consonant and vowel ratio (by quality)"", ""function"": {""class"": ""cltoolkit.features.phonology.Ratio"", ""args"": [""consonants_by_quality"", ""vowels_by_quality""]}, ""type"": {""class"": ""type""}, ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-CVSoundRatio,consonant and vowel ratio (including diphthongs and clusters),Ratio between consonant_sounds and vowel_sounds in the inventory,"{""id"": ""CVSoundRatio"", ""name"": ""consonant and vowel ratio (including diphthongs and clusters)"", ""function"": {""class"": ""cltoolkit.features.phonology.Ratio"", ""args"": [""consonant_sounds"", ""vowel_sounds""]}, ""type"": {""class"": ""type""}, ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-HasNasalVowels,has nasal vowels or not,Does the inventory contain at least one nasalized vowels.,"{""id"": ""HasNasalVowels"", ""name"": ""has nasal vowels or not"", ""function"": {""class"": ""cltoolkit.features.phonology.HasSoundsWithFeature"", ""args"": [""vowels"", [[""nasalized""]]]}, ""type"": {""class"": ""type""}, ""note"": ""same as: WALS 10A"", ""categories"": {""true"": ""has nasalized vowels"", ""false"": ""does not have nasalized vowels""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-HasRoundedVowels,has rounded vowels or not,"WALS Feature 11A, check for front rounded vowels.","{""id"": ""HasRoundedVowels"", ""name"": ""has rounded vowels or not"", ""function"": {""class"": ""cltoolkit.features.phonology.HasRoundedVowels""}, ""type"": null, ""note"": ""same as: WALS 11A"", ""categories"": {""1"": ""no high and no mid vowels"", ""2"": ""high and mid vowels"", ""3"": ""high and no mid vowels"", ""4"": ""mid and no high vowels""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-VelarNasal,has the velar nasal (engma),,"{""id"": ""VelarNasal"", ""name"": ""has the velar nasal (engma)"", ""function"": {""class"": ""cltoolkit.features.phonology.HasEngma""}, ""type"": null, ""note"": ""same as: WALS 9A"", ""categories"": {""1"": ""velar nasal occurs in syllable-initial position"", ""2"": ""velar nasal occurs but not in syllable-initial position"", ""3"": ""velar nasal is missing""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-PlosiveVoicingGaps,voicing and gaps in plosives,"WALS Feature 5A, presence of certain sounds.","{""id"": ""PlosiveVoicingGaps"", ""name"": ""voicing and gaps in plosives"", ""function"": {""class"": ""cltoolkit.features.phonology.HasPtk""}, ""type"": null, ""note"": ""same as: WALS 5A"", ""categories"": {""1"": ""no p and no g in the inventory"", ""2"": ""no g in the inventory"", ""3"": ""no p in the inventory"", ""4"": ""has less than 6 values of [p t t\u032a k b d d\u032a g]"", ""5"": ""has at least 6 values of [p t t\u032a k b d d\u032a g]""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-LacksCommonConsonants,gaps in plosives,,"{""id"": ""LacksCommonConsonants"", ""name"": ""gaps in plosives"", ""function"": {""class"": ""cltoolkit.features.phonology.LacksCommonConsonants""}, ""type"": null, ""note"": ""same as: WALS 18A"", ""categories"": {""1"": ""bilabials and fricatives and nasals occur"", ""2"": ""bilabials do not occur, fricatives and nasals occur"", ""3"": ""fricatives do not occur, bilabials and nasals occur"", ""4"": ""nasals do not occur, bilabials and fricatives occur"", ""5"": ""bilabials and nasals do not occur, fricatives occur"", ""6"": ""all other cases""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+ConsonantQualitySize,consonant quality size,Number of items of type consonants_by_quality in the inventory.,"{""id"": ""ConsonantQualitySize"", ""name"": ""consonant quality size"", ""function"": {""class"": ""cltoolkit.features.phonology.InventoryQuery"", ""args"": [""consonants_by_quality""]}, ""type"": ""int"", ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+VowelQualitySize,vowel quality size,Number of items of type vowels_by_quality in the inventory.,"{""id"": ""VowelQualitySize"", ""name"": ""vowel quality size"", ""function"": {""class"": ""cltoolkit.features.phonology.InventoryQuery"", ""args"": [""vowels_by_quality""]}, ""type"": ""int"", ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+VowelSize,vowel size,Number of items of type vowels in the inventory.,"{""id"": ""VowelSize"", ""name"": ""vowel size"", ""function"": {""class"": ""cltoolkit.features.phonology.InventoryQuery"", ""args"": [""vowels""]}, ""type"": ""int"", ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+ConsonantSize,consonant size,Number of items of type consonants in the inventory.,"{""id"": ""ConsonantSize"", ""name"": ""consonant size"", ""function"": {""class"": ""cltoolkit.features.phonology.InventoryQuery"", ""args"": [""consonants""]}, ""type"": ""int"", ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+CVRatio,consonant and vowel ratio,Ratio between consonants and vowels in the inventory,"{""id"": ""CVRatio"", ""name"": ""consonant and vowel ratio"", ""function"": {""class"": ""cltoolkit.features.phonology.Ratio"", ""args"": [""consonants"", ""vowels""]}, ""type"": ""float"", ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+CVQualityRatio,consonant and vowel ratio (by quality),Ratio between consonants_by_quality and vowels_by_quality in the inventory,"{""id"": ""CVQualityRatio"", ""name"": ""consonant and vowel ratio (by quality)"", ""function"": {""class"": ""cltoolkit.features.phonology.Ratio"", ""args"": [""consonants_by_quality"", ""vowels_by_quality""]}, ""type"": ""float"", ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+CVSoundRatio,consonant and vowel ratio (including diphthongs and clusters),Ratio between consonant_sounds and vowel_sounds in the inventory,"{""id"": ""CVSoundRatio"", ""name"": ""consonant and vowel ratio (including diphthongs and clusters)"", ""function"": {""class"": ""cltoolkit.features.phonology.Ratio"", ""args"": [""consonant_sounds"", ""vowel_sounds""]}, ""type"": ""float"", ""note"": null, ""categories"": null, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+HasNasalVowels,has nasal vowels or not,"Does the inventory contain at least one nasalized vowels.
+
+.. code-block:: python
+
+    prenasalized_consonants = phonology.HasSoundsWithFeature(""consonants"", [[""pre-nasalized""]])","{""id"": ""HasNasalVowels"", ""name"": ""has nasal vowels or not"", ""function"": {""class"": ""cltoolkit.features.phonology.HasSoundsWithFeature"", ""args"": [""vowels"", [[""nasalized""]]]}, ""type"": ""bool"", ""note"": ""same as: WALS 10A"", ""categories"": {""true"": ""has nasalized vowels"", ""false"": ""does not have nasalized vowels""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+HasRoundedVowels,has rounded vowels or not,"WALS Feature 11A, check for front rounded vowels.","{""id"": ""HasRoundedVowels"", ""name"": ""has rounded vowels or not"", ""function"": {""class"": ""cltoolkit.features.phonology.HasRoundedVowels""}, ""type"": ""None"", ""note"": ""same as: WALS 11A"", ""categories"": {""1"": ""no high and no mid vowels"", ""2"": ""high and mid vowels"", ""3"": ""high and no mid vowels"", ""4"": ""mid and no high vowels""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+VelarNasal,has the velar nasal (engma),"
+.. seealso:: `WALS 9A - The Velar Nasal <https://wals.info/feature/9A>`_
+","{""id"": ""VelarNasal"", ""name"": ""has the velar nasal (engma)"", ""function"": {""class"": ""cltoolkit.features.phonology.HasEngma""}, ""type"": ""None"", ""note"": ""same as: WALS 9A"", ""categories"": {""1"": ""velar nasal occurs in syllable-initial position"", ""2"": ""velar nasal occurs but not in syllable-initial position"", ""3"": ""velar nasal is missing""}, ""requires"": [""cltoolkit.features.reqs.inventory_with_occurrences""]}"
+PlosiveVoicingGaps,voicing and gaps in plosives,"WALS Feature 5A, presence of certain sounds.","{""id"": ""PlosiveVoicingGaps"", ""name"": ""voicing and gaps in plosives"", ""function"": {""class"": ""cltoolkit.features.phonology.HasPtk""}, ""type"": ""None"", ""note"": ""same as: WALS 5A"", ""categories"": {""1"": ""no p and no g in the inventory"", ""2"": ""no g in the inventory"", ""3"": ""no p in the inventory"", ""4"": ""has less than 6 values of [p t t\u032a k b d d\u032a g]"", ""5"": ""has at least 6 values of [p t t\u032a k b d d\u032a g]""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+LacksCommonConsonants,gaps in plosives,"
+.. seealso:: `WALS 18A - Absence of Common Consonants <https://wals.info/feature/18A>`_
+","{""id"": ""LacksCommonConsonants"", ""name"": ""gaps in plosives"", ""function"": {""class"": ""cltoolkit.features.phonology.LacksCommonConsonants""}, ""type"": ""None"", ""note"": ""same as: WALS 18A"", ""categories"": {""1"": ""bilabials and fricatives and nasals occur"", ""2"": ""bilabials do not occur, fricatives and nasals occur"", ""3"": ""fricatives do not occur, bilabials and nasals occur"", ""4"": ""nasals do not occur, bilabials and fricatives occur"", ""5"": ""bilabials and nasals do not occur, fricatives occur"", ""6"": ""all other cases""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
 HasUncommonConsonants,has uncommon consonants,"
-WALS Feature 19A, check for presence of uncommon consonants.
-","{""id"": ""HasUncommonConsonants"", ""name"": ""has uncommon consonants"", ""function"": {""class"": ""cltoolkit.features.phonology.HasUncommonConsonants""}, ""type"": null, ""note"": ""same as: WALS 19A"", ""categories"": {""1"": ""no clicsk and no dental fricatives and no labiovelars and no pharyngeals"", ""2"": ""clicks and pharyngeals and dental fricatives"", ""3"": ""pharyngeals and dental fricatives"", ""4"": ""dentral fricatives"", ""5"": ""pharyngeals"", ""6"": ""labiovelars"", ""7"": ""clicks""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+.. seealso:: `WALS 19A - Presence of Uncommon Consonants <https://wals.info/feature/19A>`_
+","{""id"": ""HasUncommonConsonants"", ""name"": ""has uncommon consonants"", ""function"": {""class"": ""cltoolkit.features.phonology.HasUncommonConsonants""}, ""type"": ""None"", ""note"": ""same as: WALS 19A"", ""categories"": {""1"": ""no clicsk and no dental fricatives and no labiovelars and no pharyngeals"", ""2"": ""clicks and pharyngeals and dental fricatives"", ""3"": ""pharyngeals and dental fricatives"", ""4"": ""dentral fricatives"", ""5"": ""pharyngeals"", ""6"": ""labiovelars"", ""7"": ""clicks""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
 PlosiveFricativeVoicing,voicing in plosives and fricatives,"
-WALS Feature 4A, check for voiced and unvoiced sounds
-","{""id"": ""PlosiveFricativeVoicing"", ""name"": ""voicing in plosives and fricatives"", ""function"": {""class"": ""cltoolkit.features.phonology.PlosiveFricativeVoicing""}, ""type"": null, ""note"": ""same as: WALS 4A"", ""categories"": {""1"": ""no voicing contrast"", ""2"": ""in plosives alone"", ""3"": ""in fricatives alone"", ""4"": ""in both plosives and fricatives""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+.. seealso:: `WALS 4A - Voicing in Plosives and Fricatives <https://wals.info/feature/4A>`_
+","{""id"": ""PlosiveFricativeVoicing"", ""name"": ""voicing in plosives and fricatives"", ""function"": {""class"": ""cltoolkit.features.phonology.PlosiveFricativeVoicing""}, ""type"": ""None"", ""note"": ""same as: WALS 4A"", ""categories"": {""1"": ""no voicing contrast"", ""2"": ""in plosives alone"", ""3"": ""in fricatives alone"", ""4"": ""in both plosives and fricatives""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
 UvularConsonants,presence of uvular consonants,"
-WALS Feature 6A, check for uvular sounds.
-","{""id"": ""UvularConsonants"", ""name"": ""presence of uvular consonants"", ""function"": {""class"": ""cltoolkit.features.phonology.HasUvular""}, ""type"": null, ""note"": ""same as: WALS 6A"", ""categories"": {""1"": ""no uvulars"", ""2"": ""has one uvular and this one is a stop"", ""3"": ""has one uvular and this one is no stop"", ""4"": ""has uvulars""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+.. seealso:: `WALS 6A - Uvular Consonants <https://wals.info/feature/6A>`_
+","{""id"": ""UvularConsonants"", ""name"": ""presence of uvular consonants"", ""function"": {""class"": ""cltoolkit.features.phonology.HasUvular""}, ""type"": ""None"", ""note"": ""same as: WALS 6A"", ""categories"": {""1"": ""no uvulars"", ""2"": ""has one uvular and this one is a stop"", ""3"": ""has one uvular and this one is no stop"", ""4"": ""has uvulars""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
 GlottalizedConsonants,presence of glottalized consonants,"
-WALS Feature 7A, check for glottalized or implosive consonants.
-","{""id"": ""GlottalizedConsonants"", ""name"": ""presence of glottalized consonants"", ""function"": {""class"": ""cltoolkit.features.phonology.HasGlottalized""}, ""type"": null, ""note"": ""same as: WALS 7A"", ""categories"": {""1"": ""no ejectives, no implosives"", ""2"": ""has ejective stops or affricates, but no implosives"", ""3"": ""has implosive stops or affricates but no ejectives"", ""4"": ""has ejectives resonants"", ""5"": ""has ejectives and implosives but no ejective resonants"", ""6"": ""has ejectives and ejective resonants, but no implosives"", ""7"": ""has implosives and ejective resonants but no ejective stops"", ""8"": ""has implosvies, ejective resonants, and ejective stops""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+.. seealso:: `WALS 7A - Glottalized Consonants <https://wals.info/feature/7A>`_
+","{""id"": ""GlottalizedConsonants"", ""name"": ""presence of glottalized consonants"", ""function"": {""class"": ""cltoolkit.features.phonology.HasGlottalized""}, ""type"": ""None"", ""note"": ""same as: WALS 7A"", ""categories"": {""1"": ""no ejectives, no implosives"", ""2"": ""has ejective stops or affricates, but no implosives"", ""3"": ""has implosive stops or affricates but no ejectives"", ""4"": ""has ejectives resonants"", ""5"": ""has ejectives and implosives but no ejective resonants"", ""6"": ""has ejectives and ejective resonants, but no implosives"", ""7"": ""has implosives and ejective resonants but no ejective stops"", ""8"": ""has implosvies, ejective resonants, and ejective stops""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
 HasLaterals,presence of lateral consonants,"
-WALS Feature 8A, check for lateral sounds.
-","{""id"": ""HasLaterals"", ""name"": ""presence of lateral consonants"", ""function"": {""class"": ""cltoolkit.features.phonology.HasLaterals""}, ""type"": null, ""note"": ""same as: WALS 8A"", ""categories"": {""1"": ""no laterals"", ""2"": ""only lateral [l]"", ""3"": ""has laterals, but no stops in laterals and no [l]"", ""4"": ""has laterals, including [l] and stops"", ""5"": ""has laterals, inlcuding stops, but no [l]"", ""6"": ""has laterals, but no stops and no [l]""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+.. seealso:: `WALS 8A - Lateral Consonants <https://wals.info/feature/8A>`_
+","{""id"": ""HasLaterals"", ""name"": ""presence of lateral consonants"", ""function"": {""class"": ""cltoolkit.features.phonology.HasLaterals""}, ""type"": ""None"", ""note"": ""same as: WALS 8A"", ""categories"": {""1"": ""no laterals"", ""2"": ""only lateral [l]"", ""3"": ""has laterals, but no stops in laterals and no [l]"", ""4"": ""has laterals, including [l] and stops"", ""5"": ""has laterals, inlcuding stops, but no [l]"", ""6"": ""has laterals, but no stops and no [l]""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
 SyllableStructure,complexity of the syllable structure,"
-WALS Feature 12A, check for syllable complexity.
-","{""id"": ""SyllableStructure"", ""name"": ""complexity of the syllable structure"", ""function"": {""class"": ""cltoolkit.features.phonology.SyllableStructure""}, ""type"": null, ""note"": ""same as: WALS 12A"", ""categories"": {""1"": ""simple syllable structure (only CV attested)"", ""2"": ""moderately complex syllable structure (C(C)VC attested)"", ""3"": ""complex syllable structure""}, ""requires"": [""cltoolkit.features.reqs.segments""]}"
-FirstPersonWithM,fist person starts with an m-sound,Check if a language has a form for first_person starting with [m].,"{""id"": ""FirstPersonWithM"", ""name"": ""fist person starts with an m-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""I""], [[""bilabial"", ""nasal""], [""labio-dental"", ""nasal""]]], ""kwargs"": {""concept_label"": ""first_person"", ""sound_label"": ""[m]""}}, ""type"": {""class"": ""type""}, ""note"": ""similar to: WALS 136B"", ""categories"": {""true"": ""first_person starts with [m] or similar"", ""false"": ""first_person starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.segments""]}"
-FirstPersonWithN,fist person starts with an n-sound,Check if a language has a form for first person starting with [n].,"{""id"": ""FirstPersonWithN"", ""name"": ""fist person starts with an n-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""I""], [[""dental"", ""nasal""], [""retroflex"", ""nasal""], [""alveolar"", ""nasal""], [""alveolo-palatal"", ""nasal""], [""retroflex"", ""nasal""]]], ""kwargs"": {""concept_label"": ""first person"", ""sound_label"": ""[n]""}}, ""type"": {""class"": ""type""}, ""note"": ""see also: FirstPersonWithM, SecondPersonWithT, SecondPersonWithN, SecondPersonWithM"", ""categories"": {""true"": ""first person starts with [n] or similar"", ""false"": ""first person starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.segments""]}"
-SecondPersonWithT,second person starts with a t-sound,Check if a language has a form for second person starting with [t].,"{""id"": ""SecondPersonWithT"", ""name"": ""second person starts with a t-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""THOU"", ""THEE (OBLIQUE CASE OF YOU)""], [[""dental"", ""fricative""], [""dental"", ""affricate""], [""dental"", ""stop""], [""alveolar"", ""fricative""], [""alveolar"", ""affricate""], [""alveolar"", ""stop""], [""palatal"", ""fricative""], [""palatal"", ""affricate""], [""palatal"", ""stop""], [""alveolo-palatal"", ""fricative""], [""alveolo-palatal"", ""affricate""], [""alveolo-palatal"", ""stop""], [""retroflex"", ""fricative""], [""retroflex"", ""affricate""], [""retroflex"", ""stop""]]], ""kwargs"": {""concept_label"": ""second person"", ""sound_label"": ""[t]""}}, ""type"": {""class"": ""type""}, ""note"": ""see also: FirstPersonWithM, FirstPersonWithN, SecondPersonWithN, SecondPersonWithM"", ""categories"": {""true"": ""second person starts with [t] or similar"", ""false"": ""second person starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.segments""]}"
-SecondPersonWithM,second person starts with an m-sound,Check if a language has a form for second person starting with [m].,"{""id"": ""SecondPersonWithM"", ""name"": ""second person starts with an m-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""THOU"", ""THEE (OBLIQUE CASE OF YOU)""], [[""bilabial"", ""nasal""], [""labio-dental"", ""nasal""]]], ""kwargs"": {""concept_label"": ""second person"", ""sound_label"": ""[m]""}}, ""type"": {""class"": ""type""}, ""note"": ""see also: FirstPersonWithM, FirstPersonWithN, SecondPersonWithT, SecondPersonWithN"", ""categories"": {""true"": ""second person starts with [m] or similar"", ""false"": ""second person starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.segments""]}"
-SecondPersonWithN,second person starts with an n-sound,Check if a language has a form for second person starting with [n].,"{""id"": ""SecondPersonWithN"", ""name"": ""second person starts with an n-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""THOU"", ""THEE (OBLIQUE CASE OF YOU)""], [[""dental"", ""nasal""], [""retroflex"", ""nasal""], [""palatal"", ""nasal""], [""alveolo-palatal"", ""nasal""], [""alveolar"", ""nasal""]]], ""kwargs"": {""concept_label"": ""second person"", ""sound_label"": ""[n]""}}, ""type"": {""class"": ""type""}, ""note"": ""see also: FirstPersonWithM, FirstPersonWithN, SecondPersonWithT, SecondPersonWithM"", ""categories"": {""true"": ""second person starts with [n] or similar"", ""false"": ""second person starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.segments""]}"
-MotherWithM,mother starts with m-sound,Check if a language has a form for MOTHER starting with [m].,"{""id"": ""MotherWithM"", ""name"": ""mother starts with m-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""MOTHER""], [[""bilabial"", ""nasal""]]], ""kwargs"": {""concept_label"": null, ""sound_label"": ""[m]""}}, ""type"": {""class"": ""type""}, ""note"": ""see also: FatherWithP"", ""categories"": {""true"": ""MOTHER starts with [m] or similar"", ""false"": ""MOTHER starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.segments""]}"
-WindWithF,wind starts with f-sound,Check if a language has a form for WIND starting with [f].,"{""id"": ""WindWithF"", ""name"": ""wind starts with f-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""WIND""], [[""labio-dental"", ""fricative""], [""labio-dental"", ""affricate""]]], ""kwargs"": {""concept_label"": null, ""sound_label"": ""[f]""}}, ""type"": {""class"": ""type""}, ""note"": null, ""categories"": {""true"": ""WIND starts with [f] or similar"", ""false"": ""WIND starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.segments""]}"
-HasPrenasalizedConsonants,inventory has pre-nasalized consonants,Does the inventory contain at least one pre-nasalized consonants.,"{""id"": ""HasPrenasalizedConsonants"", ""name"": ""inventory has pre-nasalized consonants"", ""function"": {""class"": ""cltoolkit.features.phonology.HasSoundsWithFeature"", ""args"": [""consonants"", [[""pre-nasalized""]]]}, ""type"": {""class"": ""type""}, ""note"": null, ""categories"": {""true"": ""has pre-nasalized consonants"", ""false"": ""does not have pre-nasalized consonants""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-HasLabiodentalFricatives,inventory has labio-dental fricatives or affricates,Does the inventory contain at least one labio-dental fricative  or labio-dental affricate consonants.,"{""id"": ""HasLabiodentalFricatives"", ""name"": ""inventory has labio-dental fricatives or affricates"", ""function"": {""class"": ""cltoolkit.features.phonology.HasSoundsWithFeature"", ""args"": [""consonants"", [[""labio-dental"", ""fricative""], [""labio-dental"", ""affricate""]]]}, ""type"": {""class"": ""type""}, ""note"": null, ""categories"": {""true"": ""has labio-dental fricative  or labio-dental affricate consonants"", ""false"": ""does not have labio-dental fricative  or labio-dental affricate consonants""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
-FatherWithP,father starts with p-sound,Check if a language has a form for FATHER starting with [p].,"{""id"": ""FatherWithP"", ""name"": ""father starts with p-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""FATHER""], [[""bilabial"", ""stop""], [""labio-dental"", ""fricative""]]], ""kwargs"": {""concept_label"": null, ""sound_label"": ""[p]""}}, ""type"": {""class"": ""type""}, ""note"": ""see also: MotherWithM"", ""categories"": {""true"": ""FATHER starts with [p] or similar"", ""false"": ""FATHER starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.segments""]}"
+.. seealso::
+
+    - :func:`syllable_complexity`
+    - `WALS 12A - Syllable Structure <https://wals.info/feature/12A>`_
+","{""id"": ""SyllableStructure"", ""name"": ""complexity of the syllable structure"", ""function"": {""class"": ""cltoolkit.features.phonology.SyllableStructure""}, ""type"": ""None"", ""note"": ""same as: WALS 12A"", ""categories"": {""1"": ""simple syllable structure (only CV attested)"", ""2"": ""moderately complex syllable structure (C(C)VC attested)"", ""3"": ""complex syllable structure""}, ""requires"": [""cltoolkit.features.reqs.graphemes""]}"
+FirstPersonWithM,fist person starts with an m-sound,"Check if a language has a form for first_person starting with [m].
+
+.. note::
+
+    Parametrized instances of this class can be used to check for certain cases of sound
+    symbolism, or geographic / areal trends in languages to have word forms for certain
+    concepts starting in certain words.
+
+.. seealso:: :func:`sound_match`
+
+.. code-block:: python
+
+    mother_with_m = StartsWithSound([""MOTHER""], [[""bilabial"", ""nasal""]], sound_label='[m]')","{""id"": ""FirstPersonWithM"", ""name"": ""fist person starts with an m-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""I""], [[""bilabial"", ""nasal""], [""labio-dental"", ""nasal""]]], ""kwargs"": {""concept_label"": ""first_person"", ""sound_label"": ""[m]""}}, ""type"": ""bool"", ""note"": ""similar to: WALS 136B"", ""categories"": {""true"": ""first_person starts with [m] or similar"", ""false"": ""first_person starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.graphemes""]}"
+FirstPersonWithN,fist person starts with an n-sound,"Check if a language has a form for first person starting with [n].
+
+.. note::
+
+    Parametrized instances of this class can be used to check for certain cases of sound
+    symbolism, or geographic / areal trends in languages to have word forms for certain
+    concepts starting in certain words.
+
+.. seealso:: :func:`sound_match`
+
+.. code-block:: python
+
+    mother_with_m = StartsWithSound([""MOTHER""], [[""bilabial"", ""nasal""]], sound_label='[m]')","{""id"": ""FirstPersonWithN"", ""name"": ""fist person starts with an n-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""I""], [[""dental"", ""nasal""], [""retroflex"", ""nasal""], [""alveolar"", ""nasal""], [""alveolo-palatal"", ""nasal""], [""retroflex"", ""nasal""]]], ""kwargs"": {""concept_label"": ""first person"", ""sound_label"": ""[n]""}}, ""type"": ""bool"", ""note"": ""see also: FirstPersonWithM, SecondPersonWithT, SecondPersonWithN, SecondPersonWithM"", ""categories"": {""true"": ""first person starts with [n] or similar"", ""false"": ""first person starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.graphemes""]}"
+SecondPersonWithT,second person starts with a t-sound,"Check if a language has a form for second person starting with [t].
+
+.. note::
+
+    Parametrized instances of this class can be used to check for certain cases of sound
+    symbolism, or geographic / areal trends in languages to have word forms for certain
+    concepts starting in certain words.
+
+.. seealso:: :func:`sound_match`
+
+.. code-block:: python
+
+    mother_with_m = StartsWithSound([""MOTHER""], [[""bilabial"", ""nasal""]], sound_label='[m]')","{""id"": ""SecondPersonWithT"", ""name"": ""second person starts with a t-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""THOU"", ""THEE (OBLIQUE CASE OF YOU)""], [[""dental"", ""fricative""], [""dental"", ""affricate""], [""dental"", ""stop""], [""alveolar"", ""fricative""], [""alveolar"", ""affricate""], [""alveolar"", ""stop""], [""palatal"", ""fricative""], [""palatal"", ""affricate""], [""palatal"", ""stop""], [""alveolo-palatal"", ""fricative""], [""alveolo-palatal"", ""affricate""], [""alveolo-palatal"", ""stop""], [""retroflex"", ""fricative""], [""retroflex"", ""affricate""], [""retroflex"", ""stop""]]], ""kwargs"": {""concept_label"": ""second person"", ""sound_label"": ""[t]""}}, ""type"": ""bool"", ""note"": ""see also: FirstPersonWithM, FirstPersonWithN, SecondPersonWithN, SecondPersonWithM"", ""categories"": {""true"": ""second person starts with [t] or similar"", ""false"": ""second person starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.graphemes""]}"
+SecondPersonWithM,second person starts with an m-sound,"Check if a language has a form for second person starting with [m].
+
+.. note::
+
+    Parametrized instances of this class can be used to check for certain cases of sound
+    symbolism, or geographic / areal trends in languages to have word forms for certain
+    concepts starting in certain words.
+
+.. seealso:: :func:`sound_match`
+
+.. code-block:: python
+
+    mother_with_m = StartsWithSound([""MOTHER""], [[""bilabial"", ""nasal""]], sound_label='[m]')","{""id"": ""SecondPersonWithM"", ""name"": ""second person starts with an m-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""THOU"", ""THEE (OBLIQUE CASE OF YOU)""], [[""bilabial"", ""nasal""], [""labio-dental"", ""nasal""]]], ""kwargs"": {""concept_label"": ""second person"", ""sound_label"": ""[m]""}}, ""type"": ""bool"", ""note"": ""see also: FirstPersonWithM, FirstPersonWithN, SecondPersonWithT, SecondPersonWithN"", ""categories"": {""true"": ""second person starts with [m] or similar"", ""false"": ""second person starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.graphemes""]}"
+SecondPersonWithN,second person starts with an n-sound,"Check if a language has a form for second person starting with [n].
+
+.. note::
+
+    Parametrized instances of this class can be used to check for certain cases of sound
+    symbolism, or geographic / areal trends in languages to have word forms for certain
+    concepts starting in certain words.
+
+.. seealso:: :func:`sound_match`
+
+.. code-block:: python
+
+    mother_with_m = StartsWithSound([""MOTHER""], [[""bilabial"", ""nasal""]], sound_label='[m]')","{""id"": ""SecondPersonWithN"", ""name"": ""second person starts with an n-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""THOU"", ""THEE (OBLIQUE CASE OF YOU)""], [[""dental"", ""nasal""], [""retroflex"", ""nasal""], [""palatal"", ""nasal""], [""alveolo-palatal"", ""nasal""], [""alveolar"", ""nasal""]]], ""kwargs"": {""concept_label"": ""second person"", ""sound_label"": ""[n]""}}, ""type"": ""bool"", ""note"": ""see also: FirstPersonWithM, FirstPersonWithN, SecondPersonWithT, SecondPersonWithM"", ""categories"": {""true"": ""second person starts with [n] or similar"", ""false"": ""second person starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.graphemes""]}"
+MotherWithM,mother starts with m-sound,"Check if a language has a form for MOTHER starting with [m].
+
+.. note::
+
+    Parametrized instances of this class can be used to check for certain cases of sound
+    symbolism, or geographic / areal trends in languages to have word forms for certain
+    concepts starting in certain words.
+
+.. seealso:: :func:`sound_match`
+
+.. code-block:: python
+
+    mother_with_m = StartsWithSound([""MOTHER""], [[""bilabial"", ""nasal""]], sound_label='[m]')","{""id"": ""MotherWithM"", ""name"": ""mother starts with m-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""MOTHER""], [[""bilabial"", ""nasal""]]], ""kwargs"": {""concept_label"": null, ""sound_label"": ""[m]""}}, ""type"": ""bool"", ""note"": ""see also: FatherWithP"", ""categories"": {""true"": ""MOTHER starts with [m] or similar"", ""false"": ""MOTHER starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.graphemes""]}"
+WindWithF,wind starts with f-sound,"Check if a language has a form for WIND starting with [f].
+
+.. note::
+
+    Parametrized instances of this class can be used to check for certain cases of sound
+    symbolism, or geographic / areal trends in languages to have word forms for certain
+    concepts starting in certain words.
+
+.. seealso:: :func:`sound_match`
+
+.. code-block:: python
+
+    mother_with_m = StartsWithSound([""MOTHER""], [[""bilabial"", ""nasal""]], sound_label='[m]')","{""id"": ""WindWithF"", ""name"": ""wind starts with f-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""WIND""], [[""labio-dental"", ""fricative""], [""labio-dental"", ""affricate""]]], ""kwargs"": {""concept_label"": null, ""sound_label"": ""[f]""}}, ""type"": ""bool"", ""note"": null, ""categories"": {""true"": ""WIND starts with [f] or similar"", ""false"": ""WIND starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.graphemes""]}"
+HasPrenasalizedConsonants,inventory has pre-nasalized consonants,"Does the inventory contain at least one pre-nasalized consonants.
+
+.. code-block:: python
+
+    prenasalized_consonants = phonology.HasSoundsWithFeature(""consonants"", [[""pre-nasalized""]])","{""id"": ""HasPrenasalizedConsonants"", ""name"": ""inventory has pre-nasalized consonants"", ""function"": {""class"": ""cltoolkit.features.phonology.HasSoundsWithFeature"", ""args"": [""consonants"", [[""pre-nasalized""]]]}, ""type"": ""bool"", ""note"": null, ""categories"": {""true"": ""has pre-nasalized consonants"", ""false"": ""does not have pre-nasalized consonants""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+HasLabiodentalFricatives,inventory has labio-dental fricatives or affricates,"Does the inventory contain at least one labio-dental fricative  or labio-dental affricate consonants.
+
+.. code-block:: python
+
+    prenasalized_consonants = phonology.HasSoundsWithFeature(""consonants"", [[""pre-nasalized""]])","{""id"": ""HasLabiodentalFricatives"", ""name"": ""inventory has labio-dental fricatives or affricates"", ""function"": {""class"": ""cltoolkit.features.phonology.HasSoundsWithFeature"", ""args"": [""consonants"", [[""labio-dental"", ""fricative""], [""labio-dental"", ""affricate""]]]}, ""type"": ""bool"", ""note"": null, ""categories"": {""true"": ""has labio-dental fricative  or labio-dental affricate consonants"", ""false"": ""does not have labio-dental fricative  or labio-dental affricate consonants""}, ""requires"": [""cltoolkit.features.reqs.inventory""]}"
+FatherWithP,father starts with p-sound,"Check if a language has a form for FATHER starting with [p].
+
+.. note::
+
+    Parametrized instances of this class can be used to check for certain cases of sound
+    symbolism, or geographic / areal trends in languages to have word forms for certain
+    concepts starting in certain words.
+
+.. seealso:: :func:`sound_match`
+
+.. code-block:: python
+
+    mother_with_m = StartsWithSound([""MOTHER""], [[""bilabial"", ""nasal""]], sound_label='[m]')","{""id"": ""FatherWithP"", ""name"": ""father starts with p-sound"", ""function"": {""class"": ""cltoolkit.features.phonology.StartsWithSound"", ""args"": [[""FATHER""], [[""bilabial"", ""stop""], [""labio-dental"", ""fricative""]]], ""kwargs"": {""concept_label"": null, ""sound_label"": ""[p]""}}, ""type"": ""bool"", ""note"": ""see also: MotherWithM"", ""categories"": {""true"": ""FATHER starts with [p] or similar"", ""false"": ""FATHER starts with another sound"", ""null"": ""missing data""}, ""requires"": [""cltoolkit.features.reqs.graphemes""]}"
 SyllableOnset,complexity of the syllable onset,"
-Check for syllable complexity onset (based on APICS 118).
-","{""id"": ""SyllableOnset"", ""name"": ""complexity of the syllable onset"", ""function"": {""class"": ""cltoolkit.features.phonology.SyllableOnset""}, ""type"": null, ""note"": ""same as: APICS 118"", ""categories"": {""1"": ""simple syllable onset (only CV attested)"", ""2"": ""moderately complex syllable onset (C(C)V attested)"", ""3"": ""complex syllable onset""}, ""requires"": [""cltoolkit.features.reqs.segments""]}"
+.. seealso::
+
+    - :func:`syllable_complexity`
+    - `APiCS 118 - Syllable onsets <https://apics-online.info/parameters/118>`_
+","{""id"": ""SyllableOnset"", ""name"": ""complexity of the syllable onset"", ""function"": {""class"": ""cltoolkit.features.phonology.SyllableOnset""}, ""type"": ""None"", ""note"": ""same as: APICS 118"", ""categories"": {""1"": ""simple syllable onset (only CV attested)"", ""2"": ""moderately complex syllable onset (C(C)V attested)"", ""3"": ""complex syllable onset""}, ""requires"": [""cltoolkit.features.reqs.graphemes""]}"
 SyllableOffset,complexity of the syllable offset,"
-Check for syllable complexity offset (based on APICS 119).
-","{""id"": ""SyllableOffset"", ""name"": ""complexity of the syllable offset"", ""function"": {""class"": ""cltoolkit.features.phonology.SyllableOffset""}, ""type"": null, ""note"": ""same as: APICS 118"", ""categories"": {""1"": ""simple syllable offset (only CV attested)"", ""2"": ""moderately complex syllable offset (CVC attested)"", ""3"": ""slightly complex syllable offset (CV(C)C attested)"", ""4"": ""complex syllable offset""}, ""requires"": [""cltoolkit.features.reqs.segments""]}"
+.. seealso::
+
+    - :func:`syllable_complexity`
+    - `APiCS 119 - Syllable codas <https://apics-online.info/parameters/119>`_
+","{""id"": ""SyllableOffset"", ""name"": ""complexity of the syllable offset"", ""function"": {""class"": ""cltoolkit.features.phonology.SyllableOffset""}, ""type"": ""None"", ""note"": ""same as: APICS 118"", ""categories"": {""1"": ""simple syllable offset (only CV attested)"", ""2"": ""moderately complex syllable offset (CVC attested)"", ""3"": ""slightly complex syllable offset (CV(C)C attested)"", ""4"": ""complex syllable offset""}, ""requires"": [""cltoolkit.features.reqs.graphemes""]}"

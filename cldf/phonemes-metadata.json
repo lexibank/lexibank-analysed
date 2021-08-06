@@ -14,7 +14,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/lexibank-analysed",
-            "dc:created": "e0d9b28"
+            "dc:created": "44d1cc9"
         },
         {
             "rdf:type": "prov:Entity",
@@ -26,223 +26,223 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/wangbai",
-            "dc:created": "db37cb5"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/hubercolumbian",
-            "dc:created": "v4.0"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/tupian-language-resources/tuled",
-            "dc:created": "v0.11-12-g677ea69"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/clarkkimmun",
-            "dc:created": "b0685eb"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/sequencecomparison/kesslersignificance",
-            "dc:created": "c3acfde"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/wold",
-            "dc:created": "v3.0-45-g5f72585"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/tls",
-            "dc:created": "v3.0-14-g5866571"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/peirosaustroasiatic",
-            "dc:created": "82ff75a"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/naganorgyalrongic",
-            "dc:created": "v2.0-14-g2ab7d9e"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/sequencecomparison/hattorijaponic",
-            "dc:created": "21f8c58"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/sequencecomparison/blustaustronesian",
-            "dc:created": "7d9a15a"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/castrozhuang",
             "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
-            "rdf:about": "https://github.com/intercontinental-dictionary-series/lindseyende",
-            "dc:created": "v1.0-2-g786b994"
+            "rdf:about": "https://github.com/lexibank/hubercolumbian",
+            "dc:created": "v4.0.1"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/lieberherrkhobwa",
-            "dc:created": "v1.0.0"
+            "rdf:about": "https://github.com/tupian-language-resources/tuled",
+            "dc:created": "v0.11-22-g4d9d7be"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/yanglalo",
-            "dc:created": "v2.0.1-14-gf7b5b01"
+            "rdf:about": "https://github.com/lexibank/clarkkimmun",
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
-            "rdf:about": "https://github.com/digling/servamalagasy",
-            "dc:created": "b9ff475"
+            "rdf:about": "https://github.com/SequenceComparison/kesslersignificance",
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/hantganbangime",
-            "dc:created": "08be5fc"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/bantubvd",
-            "dc:created": "v4.0-1-g1df9ff6"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/zhoubizic",
-            "dc:created": "abe692e"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/marrisonnaga",
-            "dc:created": "v2.0-25-gd2ff315"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/leeainu",
-            "dc:created": "49ba078"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/intercontinental-dictionary-series/visserkalamang",
-            "dc:created": "v1.0-3-g638c174"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/digling/gaotb",
-            "dc:created": "52dab12"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/sequencecomparison/listsamplesize",
-            "dc:created": "fd8e19c"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/digling/chingelong",
-            "dc:created": "v0.1"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/hsiuhmongmien",
-            "dc:created": "bc2b17c"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/syrjaenenuralic",
-            "dc:created": "ace32af"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/halenepal",
-            "dc:created": "v2.0-24-g535e3f2"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/bdpa",
-            "dc:created": "v1.0-1-g6abdeca"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/northeuralex",
-            "dc:created": "v3.0-11-g7ae42d1"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/deepadungpalaung",
-            "dc:created": "fd4fb7a"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/pharaocoracholaztecan",
-            "dc:created": "c4b28dc"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/wichmannmixezoquean",
-            "dc:created": "f411a85"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/intercontinental-dictionary-series/ids",
+            "rdf:about": "https://github.com/lexibank/wold",
             "dc:created": "v4.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/tls",
+            "dc:created": "v4.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/peirosaustroasiatic",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/naganorgyalrongic",
+            "dc:created": "v3.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/SequenceComparison/hattorijaponic",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/SequenceComparison/blustaustronesian",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/castrozhuang",
+            "dc:created": "v1.0.1"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/intercontinental-dictionary-series/lindseyende",
+            "dc:created": "v2.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/lieberherrkhobwa",
+            "dc:created": "v2.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/yanglalo",
+            "dc:created": "v3.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/digling/servamalagasy",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/hantganbangime",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/bantubvd",
+            "dc:created": "v4.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/zhoubizic",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/marrisonnaga",
+            "dc:created": "v3.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/leeainu",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/intercontinental-dictionary-series/visserkalamang",
+            "dc:created": "v2.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/digling/gaotb",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/SequenceComparison/listsamplesize",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/digling/chingelong",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/hsiuhmongmien",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/syrjaenenuralic",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/halenepal",
+            "dc:created": "v3.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/bdpa",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/northeuralex",
+            "dc:created": "v4.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/deepadungpalaung",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/pharaocoracholaztecan",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/wichmannmixezoquean",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/intercontinental-dictionary-series/ids",
+            "dc:created": "v4.1"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/polyglottaafricana",
-            "dc:created": "9bc1272"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/felekesemitic",
-            "dc:created": "3a695cb"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
-            "rdf:about": "https://github.com/sequencecomparison/houchinese",
-            "dc:created": "c005012"
+            "rdf:about": "https://github.com/SequenceComparison/houchinese",
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -254,25 +254,25 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/kraftchadic",
-            "dc:created": "v4.0"
+            "dc:created": "v4.0.1"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/backstromnorthernpakistan",
-            "dc:created": "v1.0-1-gba8272c"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/logos",
-            "dc:created": "v3.0-3-g7d0ddc6"
+            "dc:created": "v4.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/bremerberta",
-            "dc:created": "7117975"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -283,14 +283,14 @@
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
-            "rdf:about": "https://github.com/sequencecomparison/dunnielex",
-            "dc:created": "4a87843"
+            "rdf:about": "https://github.com/SequenceComparison/dunnielex",
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/ratcliffearabic",
-            "dc:created": "f0bff03"
+            "dc:created": "v1.0.1"
         },
         {
             "rdf:type": "prov:Entity",
@@ -302,37 +302,37 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/robinsonap",
-            "dc:created": "v3.0-16-g5f5b9db"
+            "dc:created": "v4.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/yangyi",
-            "dc:created": "feb02c6"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/zhaobai",
-            "dc:created": "8188d0e"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/gerarditupi",
-            "dc:created": "v1.0.1-4-g8712fcd"
+            "dc:created": "v2.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/constenlachibchan",
-            "dc:created": "v0.2-4-gbc0fe99"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/saenkoromance",
-            "dc:created": "2e22fe7"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -344,13 +344,13 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/zgraggenmadang",
-            "dc:created": "v3.0-10-g56b6445"
+            "dc:created": "v4.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/dravlex",
-            "dc:created": "9013711"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -361,8 +361,8 @@
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
-            "rdf:about": "https://github.com/sequencecomparison/zhivlovobugrian",
-            "dc:created": "f273a9c"
+            "rdf:about": "https://github.com/SequenceComparison/zhivlovobugrian",
+            "dc:created": "v1.0.1"
         },
         {
             "rdf:type": "prov:Entity",
@@ -374,55 +374,55 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/savelyevturkic",
-            "dc:created": "v1.0-20-g11a43a6"
+            "dc:created": "v2.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/walworthpolynesian",
-            "dc:created": "500c5c9"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/clics/clics1-cldf",
-            "dc:created": "v1.1-4-g622d7a3"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/ivanisuansu",
-            "dc:created": "7dec9ab"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/suntb",
-            "dc:created": "v3.0-10-gbbe57b2"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/leejaponic",
-            "dc:created": "fd7f761"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/galuciotupi",
-            "dc:created": "35a1480"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/carvalhopurus",
             "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
+            "rdf:about": "https://github.com/clics/clics1-cldf",
+            "dc:created": "v2.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/ivanisuansu",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/suntb",
+            "dc:created": "v4.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/leejaponic",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/galuciotupi",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/carvalhopurus",
+            "dc:created": "v1.0.1"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/diacl",
-            "dc:created": "v2.0-16-gdbcf8fe"
+            "dc:created": "v3.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -434,31 +434,31 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/cals",
-            "dc:created": "v1.0"
+            "dc:created": "v1.0.1"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/johanssonsoundsymbolic",
-            "dc:created": "96ec9fd"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/davletshinaztecan",
-            "dc:created": "cba1162"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/liusinitic",
-            "dc:created": "d56e4fe"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/joophonosemantic",
-            "dc:created": "ae43b41"
+            "dc:created": "v1.1"
         },
         {
             "rdf:type": "prov:Entity",
@@ -470,19 +470,19 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/simsrma",
-            "dc:created": "fc863e3"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/transnewguineaorg",
-            "dc:created": "v2.0-38-ge9aac7d"
+            "dc:created": "v3.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/sidwellbahnaric",
-            "dc:created": "090976a"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -494,37 +494,37 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/mannburmish",
-            "dc:created": "98642aa"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/duonglachi",
-            "dc:created": "acd44b2"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/chindialectsurvey",
-            "dc:created": "27945a0"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/intercontinental-dictionary-series/yuchinese",
-            "dc:created": "v1.0-5-g6ee0cb8"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/castroyi",
             "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/duonglachi",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/chindialectsurvey",
+            "dc:created": "v1.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/intercontinental-dictionary-series/yuchinese",
+            "dc:created": "v2.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/castroyi",
+            "dc:created": "v1.0.1"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/satterthwaitetb",
-            "dc:created": "v3.0-9-g9feced8"
+            "dc:created": "v4.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -535,14 +535,14 @@
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
-            "rdf:about": "https://github.com/sequencecomparison/starostinpie",
-            "dc:created": "bad65c6"
+            "rdf:about": "https://github.com/SequenceComparison/starostinpie",
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/nagarajakhasian",
-            "dc:created": "df77bc3"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -554,61 +554,61 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/kleinewillinghoeferbikwinjen",
-            "dc:created": "ef92c1e"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/leekoreanic",
-            "dc:created": "4f58ee5"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/lundgrenomagoa",
-            "dc:created": "88bf2cd"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/sagartst",
-            "dc:created": "v1.1.0-25-ga26e476"
+            "dc:created": "v2.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/mcelhanonhuon",
-            "dc:created": "0c07f30"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/dunnaslian",
-            "dc:created": "a912191"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/sohartmannchin",
-            "dc:created": "v2.0-7-g5b5688d"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/castrosui",
             "dc:created": "v3.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/castrosui",
+            "dc:created": "v3.0.1"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/mitterhoferbena",
-            "dc:created": "v2.0-17-g5c101b8"
+            "dc:created": "v3.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/huntergatherer",
-            "dc:created": "dbe5fd5"
+            "dc:created": "v1.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -635,7 +635,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 37840,
+            "dc:extent": 112602,
             "tableSchema": {
                 "columns": [
                     {
@@ -725,7 +725,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 1270,
+            "dc:extent": 1812,
             "tableSchema": {
                 "columns": [
                     {
@@ -762,7 +762,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 892,
+            "dc:extent": 3696,
             "tableSchema": {
                 "columns": [
                     {
@@ -826,7 +826,7 @@
                         "name": "ISO639P3code"
                     },
                     {
-                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org//v1.0/terms.rdf#contributionReference",
                         "name": "Dataset"
                     },
                     {
@@ -843,6 +843,123 @@
                 ]
             },
             "url": "languages.csv"
+        },
+        {
+            "dc:extent": 4,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": "string",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Description"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Glottocodes"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Concepts"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Forms"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "collections.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
+            "dc:extent": 99,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": false,
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                        "required": false,
+                        "name": "Description"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#contributor",
+                        "required": false,
+                        "name": "Contributor"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#citation",
+                        "required": false,
+                        "name": "Citation"
+                    },
+                    {
+                        "separator": " ",
+                        "name": "Collection_IDs"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Glottocodes"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Doculects"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Concepts"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Senses"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Forms"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Collection_IDs"
+                        ],
+                        "reference": {
+                            "resource": "collections.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "contributions.csv"
         }
     ]
 }

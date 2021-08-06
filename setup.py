@@ -27,10 +27,11 @@ setup(
     platforms='any',
     python_requires='>=3.6',
     install_requires=[
+        'cldfbench>=1.7.2',
         'cltoolkit',
+        'cldfviz',
         'pylexibank',
         'attrs>=18.2',
-        'cldfbench[excel]>=1.2.3',
         'clldutils>=3.5',
         'cldfcatalog>=1.3',
         'csvw>=1.6',

@@ -1,8 +1,8 @@
-import collections
-import itertools
-import pathlib
 import re
+import pathlib
 import zipfile
+import itertools
+import collections
 import xml.etree.ElementTree as ET
 
 import requests
@@ -10,15 +10,32 @@ import requests
 import pycldf
 from cldfbench import CLDFSpec
 from cldfbench import Dataset as BaseDataset
-from clldutils.misc import nfilter
-from clldutils.path import readlines
+from clldutils.misc import lazyproperty
 from cltoolkit import Wordlist
 from cltoolkit.features import FEATURES
 from pyclts import CLTS
 from git import Repo, GitCommandError
 from tqdm import tqdm
-from csvw.metadata import Link
 
+COLLECTIONS = {
+    'LexiCore': (
+        'Wordlists with phonetic transcriptions in which sound segments can be readily described '
+        'by the CLTS system',
+        'wordlists with phonetic transcriptions)'),
+    'ClicsCore': (
+        'Wordlists with large form inventories in which at least 250 concepts can be linked to '
+        'the Concepticon',
+        'large wordlists with at least 250 concepts'),
+    'CogCore': (
+        'Wordlists with phonetic transcriptions in which cognate sets have been annotated '
+        '(a subset of LexiCore)',
+        'wordlists with phonetic transcriptions and cognate sets'),
+    'ProtoCore': (
+        'Wordlists with phonetic transcriptions in which cognate sets have been annotated and '
+        'which contain one or more ancestral languages whose forms are proto-forms from which '
+        'forms in the descendant languages can be derived (a subset of CogCore)',
+        'wordlists with phonetic transcriptions, cognate sets, and proto-languages'),
+}
 CLTS_2_1 = (
     "https://zenodo.org/record/4705149/files/cldf-clts/clts-v2.1.0.zip?download=1",
     'cldf-clts-clts-04f04e3')
@@ -83,6 +100,15 @@ class Dataset(BaseDataset):
                 dir=self.cldf_dir, module="StructureDataset"),
         }
 
+    @lazyproperty
+    def dataset_meta(self):
+        res = collections.OrderedDict()
+        for row in self.etc_dir.read_csv('lexibank.tsv', delimiter='\t', dicts=True):
+            row['collections'] = set(key for key in COLLECTIONS if row[key].strip() == 'x')
+            if any(coll in row['collections'] for coll in ['LexiCore', 'ClicsCore']):
+                res[row['Dataset']] = row
+        return res
+
     def cmd_download(self, args):
         github_info = collections.OrderedDict()
 
@@ -107,9 +133,7 @@ class Dataset(BaseDataset):
                 github_info.get(row.get('Zenodo'))
                 or {'orga': row['Organization'], 'repo': row['Dataset']})
         datasets = collections.OrderedDict(
-            (row['Dataset'], get_ghinfo(row))
-            for row in self.etc_dir.read_csv('lexibank.tsv', delimiter='\t', dicts=True)
-            if row['LexiCore'].strip() or row['ClicsCore'].strip())
+            (did, get_ghinfo(row)) for did, row in self.dataset_meta.items())
 
         for dataset, ghinfo in datasets.items():
             args.log.info("Checking {}".format(dataset))
@@ -152,26 +176,92 @@ class Dataset(BaseDataset):
         with self.raw_dir.temp_download(CLTS_2_1[0], 'ds.zip', log=args.log) as zipp:
             zipfile.ZipFile(str(zipp)).extractall(self.raw_dir)
 
-    def load_data(self, set_=None):
+    def _datasets(self, set_=None, with_metadata=False):
         """
         Load all datasets from a defined group of datasets.
         """
-        ds_specs = collections.OrderedDict([
-            (r['Dataset'], r)
-            for r in self.etc_dir.read_csv('lexibank.tsv', delimiter='\t', dicts=True)])
         if set_:
-            dss = nfilter(readlines(self.etc_dir / '{}.txt'.format(set_), strip=True))
+            dss = [key for key, md in self.dataset_meta.items() if set_ in md['collections']]
         else:
-            dss = list(ds_specs.keys())
+            dss = list(self.dataset_meta.keys())
 
         res = []
         for ds in dss:
             if ds not in _loaded:
                 _loaded[ds] = (
                     pycldf.Dataset.from_metadata(self.raw_dir / ds / "cldf" / "cldf-metadata.json"),
-                    ds_specs[ds])
-            res.append(_loaded[ds][0])
+                    self.dataset_meta[ds])
+            res.append(_loaded[ds]) if with_metadata else res.append(_loaded[ds][0])
         return res
+
+    def _schema(self, writer, with_stats=False):
+        writer.cldf.add_component(
+            'LanguageTable',
+            {
+                'name': 'Dataset',
+                'propertyUrl': 'http://cldf.clld.org//v1.0/terms.rdf#contributionReference',
+            },
+            'Subgroup',
+            'Family')
+        t = writer.cldf.add_table(
+            'collections.csv',
+            'ID',
+            'Name',
+            'Description',
+            'Glottocodes',
+            'Concepts',
+            'Forms',
+        )
+        t.tableSchema.primaryKey = ['ID']
+        writer.cldf.add_component(
+            'ContributionTable',
+            {'name': 'Collection_IDs', 'separator': ' '},
+            'Glottocodes',
+            'Doculects',
+            'Concepts',
+            'Senses',
+            'Forms',
+        )
+        writer.cldf.add_foreign_key('ContributionTable', 'Collection_IDs', 'collections.csv', 'ID')
+
+        collstats = collections.OrderedDict()
+        for cid, (desc, name) in COLLECTIONS.items():
+            collstats[cid] = dict(
+                ID=cid,
+                Name=name,
+                Description=desc,
+                Glottocodes=set(),
+                Concepts=set(),
+                Forms=0,
+            )
+        if not with_stats:
+            return
+        for ds, md in tqdm(self._datasets(with_metadata=True), desc='Computing summary stats'):
+            langs = list(ds.iter_rows('LanguageTable', 'glottocode'))
+            gcs = set(lg['glottocode'] for lg in langs if lg['glottocode'])
+            senses = list(ds.iter_rows('ParameterTable', 'concepticonReference'))
+            csids = set(sense['concepticonReference'] for sense in senses if sense['concepticonReference'])
+            contrib = dict(
+                ID=md['Dataset'],
+                Name=ds.properties['dc:title'],
+                Citation=ds.properties['dc:bibliographicCitation'],
+                Collection_IDs=[key for key in COLLECTIONS if md.get(key).strip() == 'x'],
+                Glottocodes=len(gcs),
+                Doculects=len(langs),
+                Concepts=len(csids),
+                Senses=len(senses),
+                Forms=len(list(ds['FormTable'])),
+            )
+            writer.objects['ContributionTable'].append(contrib)
+            for key, stats in collstats.items():
+                if key in md['collections']:
+                    stats['Glottocodes'] = stats['Glottocodes'].union(gcs)
+                    stats['Concepts'] = stats['Concepts'].union(csids)
+                    stats['Forms'] += contrib['Forms']
+        for d in collstats.values():
+            d['Glottocodes'] = len(d['Glottocodes'])
+            d['Concepts'] = len(d['Concepts'])
+            writer.objects['collections.csv'].append(d)
 
     def cmd_makecldf(self, args):
         languages = collections.OrderedDict()
@@ -234,9 +324,7 @@ class Dataset(BaseDataset):
                     yield language
 
         with self.cldf_writer(args, cldf_spec='phonology') as writer:
-            # FIXME: work around cldfbench bug (can't rename core table of a module!):
-            writer.cldf['ValueTable'].url = Link('phonology-values.csv')
-            writer.cldf.add_component('LanguageTable', 'Dataset', 'Subgroup', 'Family')
+            self._schema(writer)
             writer.cldf.add_columns(
                 'ParameterTable',
                 {"name": "Feature_Spec", "datatype": "json"},
@@ -247,7 +335,7 @@ class Dataset(BaseDataset):
             for fid, fname, fdesc in [
                 ('concepts', 'Number of concepts', 'Number of senses linked to Concepticon'),
                 ('forms', 'Number of forms', ''),
-                ('bipa_forms', 'Number of BIPA conforming forms', ''),
+                ('forms_with_sounds', 'Number of BIPA conforming forms', ''),
                 ('senses', 'Number of senses', ''),
             ]:
                 writer.objects['ParameterTable'].append(
@@ -257,18 +345,16 @@ class Dataset(BaseDataset):
             sounds = collections.defaultdict(collections.Counter)
             for language in _add_languages(
                 writer,
-                Wordlist(datasets=self.load_data('lexicore'), ts=CLTS(self.raw_dir / CLTS_2_1[1]).bipa),
-                lambda l: len(l.bipa_forms) >= 80,
+                Wordlist(datasets=self._datasets('LexiCore'), ts=CLTS(self.raw_dir / CLTS_2_1[1]).bipa),
+                lambda l: len(l.forms_with_sounds) >= 80,
                 features,
-                ['concepts', 'forms', 'bipa_forms', 'senses'],
+                ['concepts', 'forms', 'forms_with_sounds', 'senses'],
             ):
                 for sound in language.sound_inventory.segments:
-                    sounds[(sound.obj.name.replace(' ', '_'), sound.obj.s)][language.id] = len(sound.occs)
+                    sounds[(sound.obj.name.replace(' ', '_'), sound.obj.s)][language.id] = len(sound.occurrences)
 
         with self.cldf_writer(args, cldf_spec='lexicon', clean=False) as writer:
-            # FIXME: work around cldfbench bug (can't rename core table of a module!):
-            writer.cldf['ValueTable'].url = Link('lexicon-values.csv')
-            writer.cldf.add_component('LanguageTable', 'Dataset', 'Subgroup', 'Family')
+            self._schema(writer)
             writer.cldf.add_columns(
                 'ParameterTable',
                 {"name": "Feature_Spec", "datatype": "json"},
@@ -285,31 +371,27 @@ class Dataset(BaseDataset):
             _add_features(writer, features)
             _ = list(_add_languages(
                 writer,
-                Wordlist(datasets=self.load_data('clics')),
+                Wordlist(datasets=self._datasets('ClicsCore')),
                 lambda l: len(l.concepts) >= 250,
                 features,
                 ['concepts', 'forms', 'senses']))
 
         with self.cldf_writer(args, cldf_spec='phonemes', clean=False) as writer:
-            #
-            # FIXME: work around cldfbench bug (can't rename core table of a module!):
-            writer.cldf['ValueTable'].url = Link('frequencies.csv')
-            #
             writer.cldf.add_columns('ParameterTable', 'cltsReference')
-            writer.cldf.add_component('LanguageTable', 'Dataset', 'Subgroup', 'Family')
+            self._schema(writer, with_stats=True)
             writer.objects['LanguageTable'] = languages.values()
             for clts_id, glyphs in itertools.groupby(sorted(sounds.keys()), lambda k: k[0]):
                 glyphs = [g[1] for g in glyphs]
-                occs = collections.Counter()
+                occurrences = collections.Counter()
                 for glyph in glyphs:
-                    occs.update(**sounds[clts_id, glyph])
+                    occurrences.update(**sounds[clts_id, glyph])
 
                 writer.objects['ParameterTable'].append(dict(
                     ID=clts_id,
                     Name=' / '.join(glyphs),
                     CLTS_ID=clts_id,
                 ))
-                for lid, freq in occs.items():
+                for lid, freq in occurrences.items():
                     writer.objects['ValueTable'].append(dict(
                         ID='{}-{}'.format(lid, clts_id),
                         Language_ID=lid,

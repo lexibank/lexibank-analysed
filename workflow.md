@@ -6,8 +6,14 @@ Lexibank is a collection of lexical datasets provided in [CLDF](https://cldf.cll
 
 The lexibank collection consists of mainly two types of datasets:
 
-1. CLDF datasets linked to Concepticon and Glottolog with consistent lexeme forms which have a sufficient size in terms of concepts covered. This collection is called `clicscore` collection, since it fulfills the criteria to be included into the [CLICS](https://clics.clld.org) database. The collection can be used to compute various lexical features for individual language varieties.
-2. CLDF datasets linked to Concepticon and Glottolog with lexeme forms which are transcribed in the BIPA transcription system proposed by the [CLTS](https://clts.clld.org) project. This collection, which may overlap with the `clicscore` collection, is called `lexicore` and can be used to compute various phonological features for language varieties.
+1. CLDF datasets linked to Concepticon and Glottolog with consistent lexeme forms which have a 
+   sufficient size in terms of concepts covered. This collection is called `ClicsCore` collection, since 
+   it fulfills the criteria to be included in the [CLICS](https://clics.clld.org) database. The collection 
+   can be used to compute various lexical features for individual language varieties.
+2. CLDF datasets linked to Concepticon and Glottolog with lexeme forms which are transcribed in the BIPA 
+   transcription system proposed by the [CLTS](https://clts.clld.org) project. This collection, which may
+   overlap with the `ClicsCore` collection, is called `LexiCore` and can be used to compute various phonological 
+   features for language varieties.
 
 The decision about which datasets are assigned to which collection is currently carried out by the board of lexibank editors, who estimate how well each of the datasets qualifies for the inclusion in either or both collections. The decisions are available in the form of a spreadsheet, shared along with this repository (see [src/lexibank/data/lexibank.tsv](https://github.com/lexibank/lexibank-study/blob/main/src/lexibank/data/lexibank.tsv)).
 
@@ -65,6 +71,42 @@ which in turn call the code described above.
 
 ## 3 Data exploration
 
+### Metadata
+
+In addition to feature data, the CLDF data also contains
+- provenance information, linking each doculect to the dataset from which it was extracted
+- summary statistics about the collections into which we bundle the datasets.
+
+This data is contained in the tables [contributions.csv](cldf/contributions.csv) and [collections.csv](cldf/collections.csv).
+We can look at the numbers of unique Glottocodes or Concepts and the number of individual
+forms in each collection:
+```shell
+$ csvcut -c ID,Glottocodes,Concepts,Forms cldf/collections.csv | csvformat -T
+ID	Glottocodes	Concepts	Forms
+LexiCore	2407	3065	1164149
+ClicsCore	2512	3088	1952425
+CogCore	861	1696	288178
+ProtoCore	28	951	10890
+```
+or list how many source datasets are aggregated in each of these collections:
+```shell
+$ csvgrep -c Collection_IDs -m Lexi cldf/contributions.csv | csvstat --count
+Row count: 92
+```
+
+`contributions.csv` also lists numbers of doculects and senses. Datasets with a low ratio between
+`Glottocodes` and `Doculects`, i.e. with many doculects mapped to the same glottocode, are typical
+dialectal collections. We can check this ratio running
+```shell
+$ csvsql --query "select id, name, cast(glottocodes as float) / cast(doculects as float) as ratio from contributions order by ratio limit 1" \
+cldf/contributions.csv 
+ID,Name,ratio
+cals,"CLDF dataset derived from Mennecier et al.'s ""Central Asian Language Survey"" from 2016",0.06818181818181818
+```
+
+
+### Feature data
+
 To check for available features, you can inspect the CLDF ParameterTable of the respective
 CLDF datasets:
 ```shell
@@ -72,7 +114,7 @@ $ csvcut -c ID,Name cldf/phonology-features.csv | column -n -s"," -t
 ID                         Name
 concepts                   Number of concepts
 forms                      Number of forms
-bipa_forms                 Number of BIPA conforming forms
+forms_with_sounds          Number of BIPA conforming forms
 senses                     Number of senses
 ConsonantQualitySize       consonant quality size
 VowelQualitySize           vowel quality size
@@ -222,7 +264,7 @@ cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters SkinInBark --pacif
 ![Skin in Bark](plots/SkinInBark.jpg)
 
 
-You can also plot two features at the same time onto a map +++ but for now only logical features +++. In order to do so, just select those features which you think are useful to be inspected synchronously, and type:
+You can also plot two features at the same time onto a map. In order to do so, just select those features which you think are useful to be inspected synchronously, and type:
 
 ```
 cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters ArmAndHand,LegAndFoot --pacific-centered --base-layer Esri_WorldImagery --markersize 15
