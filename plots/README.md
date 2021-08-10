@@ -26,7 +26,7 @@ $ cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties-color
 
 This yields the Figure 2 in the dataset.
 
-![plots](plots/figure-2.png)
+![plots](figure-2.png)
 
 ## Sound-Symbolic Features in the LexiCore Subset of Lexibank
 
@@ -46,5 +46,5 @@ $ cldfbench cldfviz.map cldf/phonology-metadata.json --colormaps tol,tol --forma
 This yields the Figure 4 in the dataset.
 
 
-![plots](plots/figure-4.png)
+![plots](figure-4.png)
 
