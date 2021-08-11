@@ -16,7 +16,6 @@ from pyclts import CLTS
 from git import Repo, GitCommandError
 from tqdm import tqdm
 from csvw.dsv import reader, UnicodeWriter
-from collabutils.googlesheets import Spreadsheet
 
 COLLECTIONS = {
     'LexiCore': (
@@ -113,8 +112,6 @@ class Dataset(BaseDataset):
         return res
 
     def cmd_download(self, args):
-        Spreadsheet('1x8c_fuWkUYpDKedn2mNkKFxpwtHCFAOBUeRT8Mihy3M').fetch_sheets(
-            {'datasets': 'lexibank.tsv'}, self.etc_dir)
         rows = list(reader(self.etc_dir / 'lexibank.tsv'))
         with UnicodeWriter(self.etc_dir / 'lexibank.tsv', delimiter='\t') as w:
             w.writerows(rows)
