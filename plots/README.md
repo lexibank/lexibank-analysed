@@ -8,7 +8,55 @@ To assemble the data, you will also need the [csvkit](https://pypi.org/project/c
 
 ## Preliminaries
 
-YOu
+
+## Statistics
+
+We will use `csvcut` and other shell tools to explore the statistics of our data collection. Thus, in order to count the number of languages in the Lexibank collection of Lexibank, we just type:
+
+```shell
+$ csvcut cldf/languages.csv -c ID | sort -u | wc -l
+3666
+```
+
+To count unique Glottocodes, we type:
+
+```shell
+$ csvcut cldf/languages.csv -c Glottocode | sort -u | wc -l
+2087
+```
+
+To count the number of languages in our LexiCore and our ClicsCore collection, we type:
+
+```shell
+$ csvcut cldf/languages.csv -c ID,Incollections | grep "LexiCore" | sort -u | wc -l
+2916
+$ csvcut cldf/languages.csv -c ID,Incollections | grep "ClicsCore" | csvcut -c ID | sort -u | wc -l
+1784
+```
+
+And to count the number of distinct languages by Glottocode, we type:
+
+```shell
+$ csvcut cldf/languages.csv -c Glottocode,Incollections | grep "LexiCore" | sed s/ClicsCore// | sort -u | wc -l
+2067
+$ csvcut cldf/languages.csv -c Glottocode,Incollections | grep "ClicsCore" | sed s/LexiCore// | sort -u | wc -l
+1246
+```
+
+This yields all in all the following Table X:
+
+Subset | Languages | Varieties | Words 
+--- | --- | --- | ---
+LexiCore | 2067 | 2916 | 
+ClicsCore | 1246 | 1784 |
+ 
+
+
+
+
+
+
+
 
 ## Distribution of the Data in Lexibank
 

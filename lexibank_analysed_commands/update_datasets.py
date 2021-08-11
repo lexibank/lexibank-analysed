@@ -15,7 +15,7 @@ def register(parser):
 
 def _run(dataset, args):
     Spreadsheet(args.doc_key).fetch_sheets(
-        {'datasets': 'lexibank.tsv'},
+        {'datasets': 'lexibank.csv'},
         dataset.etc_dir)
 
 
