@@ -45,7 +45,7 @@ CONDITIONS = {
         "ClicsCore": lambda x: len(x.concepts) >= 250,
         "ProtoCore": lambda x: len(x.forms_with_sounds) >= 80,
         "CogCore": lambda x: len(x.forms_with_sounds) >= 80,
-        "Lexibank": lambda x: len(x.forms_with_sounds) >= 80 or len(xl.concepts) >= 250
+        "Lexibank": lambda x: len(x.forms_with_sounds) >= 80 or len(x.concepts) >= 250
         }
 CLTS_2_1 = (
     "https://zenodo.org/record/4705149/files/cldf-clts/clts-v2.1.0.zip?download=1",
