@@ -160,11 +160,12 @@ def run(args):
             d1,
             "{0:.2f} / {1:.2f}".format(p1, r1), 
             "{0:.2f} / {1:.2f}".format(p2, r2), 
-            "{0:.2f} / {1:.2f}".format(p3, r3)
+            "{0:.2f} / {1:.2f}".format(p3, r3),
+            len(comparisons[d1])
             ]]
     
     print(tabulate(table, headers=["Feature", "WALS/LexiCore", "WALS/PHOIBLE",
-        "LexiCore/PHOIBLE"]))
+        "LexiCore/PHOIBLE", "N"]))
 
 
 
