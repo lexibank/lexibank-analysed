@@ -1,21 +1,18 @@
-import re
 import pathlib
 import zipfile
 import itertools
 import collections
-import xml.etree.ElementTree as ET
-
-import requests
 
 import pycldf
 from cldfbench import CLDFSpec
 from cldfbench import Dataset as BaseDataset
 from cltoolkit import Wordlist
 from cltoolkit.features import FEATURES
+from cldfzenodo import oai_lexibank
 from pyclts import CLTS
 from git import Repo, GitCommandError
 from tqdm import tqdm
-from csvw.dsv import reader, UnicodeWriter
+from csvw.dsv import reader
 
 COLLECTIONS = {
     'LexiCore': (
@@ -51,33 +48,6 @@ CLTS_2_1 = (
     "https://zenodo.org/record/4705149/files/cldf-clts/clts-v2.1.0.zip?download=1",
     'cldf-clts-clts-04f04e3')
 _loaded = {}
-
-OAI_PMH_URL = 'https://zenodo.org/oai2d?verb=ListRecords&set=user-lexibank&metadataPrefix=oai_dc'
-RESUME_URL = 'https://zenodo.org/oai2d?verb=ListRecords&resumptionToken={}'
-RECORD_TAG = '{http://www.openarchives.org/OAI/2.0/oai_dc/}dc'
-ID_TAG = '{http://purl.org/dc/elements/1.1/}identifier'
-REL_TAG = '{http://purl.org/dc/elements/1.1/}relation'
-
-
-def parse_oai_record(record):
-    for id_ in record.iter(ID_TAG):
-        if id_.text.startswith('10.5281/zenodo.'):
-            doi = id_.text
-            break
-    else:
-        return None
-
-    for rel in record.iter(REL_TAG):
-        match = re.fullmatch(
-            r'url:https://github\.com/([^/]+)/([^/]+)/tree/([^/]+)',
-            rel.text)
-        if match:
-            gh_orga, gh_repo, gh_tag = match.groups()
-            break
-    else:
-        return None
-
-    return doi, {'orga': gh_orga, 'repo': gh_repo, 'tag': gh_tag}
 
 
 class Dataset(BaseDataset):
@@ -123,33 +93,10 @@ class Dataset(BaseDataset):
         return res
 
     def cmd_download(self, args):
-        rows = list(reader(self.etc_dir / 'lexibank.tsv'))
-        github_info = collections.OrderedDict()
+        github_info = {rec.doi: rec.github_repos for rec in oai_lexibank()}
 
-        next_url = OAI_PMH_URL
-        while next_url:
-            response = ET.fromstring(requests.get(next_url).text)
-            github_info.update(
-                filter(
-                    None,
-                    map(parse_oai_record, response.iter(RECORD_TAG))))
-
-            token_list = response.findall(
-                './{http://www.openarchives.org/OAI/2.0/}ListRecords'
-                '/{http://www.openarchives.org/OAI/2.0/}resumptionToken')
-            if token_list:
-                next_url = RESUME_URL.format(token_list[0].text)
-            else:
-                next_url = ''
-
-        def get_ghinfo(row):
-            return (
-                github_info.get(row.get('Zenodo'))
-                or {'orga': row['Organization'], 'repo': row['Dataset']})
-        datasets = collections.OrderedDict(
-            (did, get_ghinfo(row)) for did, row in self.dataset_meta.items())
-
-        for dataset, ghinfo in datasets.items():
+        for dataset, row in self.dataset_meta.items():
+            ghinfo = github_info[row['Zenodo']]
             args.log.info("Checking {}".format(dataset))
             dest = self.raw_dir / dataset
 
@@ -161,18 +108,16 @@ class Dataset(BaseDataset):
             else:
                 args.log.info("... cloning {}".format(dataset))
                 try:
-                    Repo.clone_from(
-                        "https://github.com/{}/{}.git".format(ghinfo['orga'], ghinfo['repo']),
-                        str(dest))
+                    Repo.clone_from(ghinfo.clone_url, str(dest))
                 except GitCommandError as e:
                     args.log.error("... download failed\n{}".format(str(e)))
                     continue
 
             # check out release (fall back to master branch)
             repo = Repo(str(dest))
-            if 'tag' in ghinfo:
-                args.log.info('... checking out tag {}'.format(ghinfo['tag']))
-                repo.git.checkout(ghinfo['tag'])
+            if ghinfo.tag:
+                args.log.info('... checking out tag {}'.format(ghinfo.tag))
+                repo.git.checkout(ghinfo.tag)
             else:
                 args.log.warning('... could not determine tag to check out')
                 args.log.info('... checking out master')
