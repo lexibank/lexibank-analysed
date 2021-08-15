@@ -35,7 +35,18 @@ COLLECTIONS = {
         'which contain one or more ancestral languages whose forms are proto-forms from which '
         'forms in the descendant languages can be derived (a subset of CogCore)',
         'wordlists with phonetic transcriptions, cognate sets, and proto-languages'),
+    'Lexibank': (
+        'Metacollection of wordlists belonging to either of the datasets',
+        'all wordlists in the Lexibank collection'
+        ),
 }
+CONDITIONS = {
+        "LexiCore": lambda x: len(x.forms_with_sounds) >= 80,
+        "ClicsCore": lambda x: len(x.concepts) >= 250,
+        "ProtoCore": lambda x: len(x.forms_with_sounds) >= 80,
+        "CogCore": lambda x: len(x.forms_with_sounds) >= 80,
+        "Lexibank": lambda x: len(x.forms_with_sounds) >= 80 or len(x.concepts) >= 250
+        }
 CLTS_2_1 = (
     "https://zenodo.org/record/4705149/files/cldf-clts/clts-v2.1.0.zip?download=1",
     'cldf-clts-clts-04f04e3')
@@ -103,18 +114,16 @@ class Dataset(BaseDataset):
     @property
     def dataset_meta(self):
         res = collections.OrderedDict()
-        for row in self.etc_dir.read_csv('lexibank.tsv', delimiter='\t', dicts=True):
+        for row in self.etc_dir.read_csv('lexibank.csv', delimiter=',', dicts=True):
             if not row['Zenodo'].strip():
                 continue
-            row['collections'] = set(key for key in COLLECTIONS if row[key].strip() == 'x')
+            row['collections'] = set(key for key in COLLECTIONS if row.get(key, '').strip() == 'x')
             if any(coll in row['collections'] for coll in ['LexiCore', 'ClicsCore']):
                 res[row['Dataset']] = row
         return res
 
     def cmd_download(self, args):
         rows = list(reader(self.etc_dir / 'lexibank.tsv'))
-        with UnicodeWriter(self.etc_dir / 'lexibank.tsv', delimiter='\t') as w:
-            w.writerows(rows)
         github_info = collections.OrderedDict()
 
         next_url = OAI_PMH_URL
@@ -199,7 +208,7 @@ class Dataset(BaseDataset):
             res.append(_loaded[ds]) if with_metadata else res.append(_loaded[ds][0])
         return res
 
-    def _schema(self, writer, with_stats=False):
+    def _schema(self, writer, with_stats=False, collstats=None):
         writer.cldf.add_component(
             'LanguageTable',
             {
@@ -207,6 +216,8 @@ class Dataset(BaseDataset):
                 'propertyUrl': 'http://cldf.clld.org//v1.0/terms.rdf#contributionReference',
             },
             {'name': 'Forms', 'datatype': 'integer', 'dc:description': 'Number of forms'},
+            {'name': "FormsWithSounds", "datatype": "integer",
+                "dc:description": "Number of forms with sounds"},
             {'name': 'Concepts', 'datatype': 'integer', 'dc:description': 'Number of concepts'},
             {'name': 'Incollections'},
             'Subgroup',
@@ -216,6 +227,7 @@ class Dataset(BaseDataset):
             'ID',
             'Name',
             'Description',
+            'Varieties',
             'Glottocodes',
             'Concepts',
             'Forms',
@@ -232,16 +244,6 @@ class Dataset(BaseDataset):
         )
         writer.cldf.add_foreign_key('ContributionTable', 'Collection_IDs', 'collections.csv', 'ID')
 
-        collstats = collections.OrderedDict()
-        for cid, (desc, name) in COLLECTIONS.items():
-            collstats[cid] = dict(
-                ID=cid,
-                Name=name,
-                Description=desc,
-                Glottocodes=set(),
-                Concepts=set(),
-                Forms=0,
-            )
         if not with_stats:
             return
         for ds, md in tqdm(self._datasets(with_metadata=True), desc='Computing summary stats'):
@@ -253,7 +255,7 @@ class Dataset(BaseDataset):
                 ID=md['Dataset'],
                 Name=ds.properties['dc:title'],
                 Citation=ds.properties['dc:bibliographicCitation'],
-                Collection_IDs=[key for key in COLLECTIONS if md.get(key).strip() == 'x'],
+                Collection_IDs=[key for key in COLLECTIONS if md.get(key, '').strip() == 'x'],
                 Glottocodes=len(gcs),
                 Doculects=len(langs),
                 Concepts=len(csids),
@@ -261,17 +263,27 @@ class Dataset(BaseDataset):
                 Forms=len(list(ds['FormTable'])),
             )
             writer.objects['ContributionTable'].append(contrib)
-            for key, stats in collstats.items():
-                if key in md['collections']:
-                    stats['Glottocodes'] = stats['Glottocodes'].union(gcs)
-                    stats['Concepts'] = stats['Concepts'].union(csids)
-                    stats['Forms'] += contrib['Forms']
-        for d in collstats.values():
-            d['Glottocodes'] = len(d['Glottocodes'])
-            d['Concepts'] = len(d['Concepts'])
-            writer.objects['collections.csv'].append(d)
+        if collstats:
+            for d in collstats.values():
+                d['Glottocodes'] = len(d['Glottocodes'])
+                d['Concepts'] = len(d['Concepts'])
+                writer.objects['collections.csv'].append(d)
 
     def cmd_makecldf(self, args):
+        dsinfo = {row["ID"]: row for row in reader(self.etc_dir /
+            'lexibank.csv', dicts=True, delimiter=",")}
+        visited = set()
+        collstats = collections.OrderedDict()
+        for cid, (desc, name) in COLLECTIONS.items():
+            collstats[cid] = dict(
+                ID=cid,
+                Name=name,
+                Description=desc,
+                Varieties=0,
+                Glottocodes=set(),
+                Concepts=set(),
+                Forms=0,
+            )
         languages = collections.OrderedDict()
 
         def _add_features(writer, features):
@@ -290,7 +302,9 @@ class Dataset(BaseDataset):
                             Name=v,
                         ))
 
-        def _add_language(writer, language, features, attr_features, collection=''):
+        def _add_language(
+                writer, language, features, attr_features,
+                collection='', visited=set()):
             l = languages.get(language.id)
             if not l:
                 l = {
@@ -302,12 +316,31 @@ class Dataset(BaseDataset):
                     "Longitude": language.longitude,
                     "Subgroup": language.subgroup,
                     "Family": language.family,
-                    "Forms": len(language.forms_with_sounds or []),
+                    "Forms": len(language.forms or []),
+                    "FormsWithSounds": len(language.forms_with_sounds or []),
                     "Concepts": len(language.concepts),
                     "Incollections": collection,
                 }
             else:
                 l['Incollections'] = l['Incollections'] + collection
+            if language.id not in visited:
+                for cid in ["ClicsCore", "LexiCore", "CogCore", "ProtoCore"]:
+                    try:
+                        if dsinfo[language.dataset][cid] == 'x' and CONDITIONS[cid](language):
+                            collstats[cid]["Glottocodes"].add(language.glottocode)
+                            collstats[cid]["Varieties"] += 1
+                            collstats[cid]["Forms"] += len(language.forms)
+                            collstats[cid]["Concepts"].update(
+                                    [concept.id for concept in language.concepts])
+                    except:
+                        print("problems with {0}".format(language.dataset))
+                if CONDITIONS["Lexibank"](language):
+                    collstats["Lexibank"]["Glottocodes"].add(language.glottocode)
+                    collstats["Lexibank"]["Varieties"] += 1
+                    collstats["Lexibank"]["Forms"] += len(language.forms)
+                    collstats["Lexibank"]["Concepts"].update(
+                                    [concept.id for concept in language.concepts])
+                visited.add(language.id)
             languages[language.id] = l
             writer.objects['LanguageTable'].append(l)
             for attr in attr_features:
@@ -316,7 +349,7 @@ class Dataset(BaseDataset):
                     Language_ID=language.id,
                     Parameter_ID=attr,
                     Value=len(getattr(language, attr))
-                ))
+                )) 
             for feature in features:
                 v = feature(language)
                 if feature.categories:
@@ -329,13 +362,15 @@ class Dataset(BaseDataset):
                     Code_ID='{}-{}'.format(feature.id, v) if feature.categories else None,
                 ))
 
-        def _add_languages(writer, wordlist, condition, features, attr_features, collection=''):
+        def _add_languages(writer, wordlist, condition, features,
+                attr_features, collection='', visited=set([]), ):
             for language in tqdm(wordlist.languages, desc='computing features'):
                 if language.name == None or language.name == "None":
                     args.log.warning('{0.dataset}: {0.id}: {0.name}'.format(language))
                     continue
                 if language.latitude and condition(language):
-                    _add_language(writer, language, features, attr_features, collection=collection)
+                    _add_language(writer, language, features, attr_features,
+                            collection=collection, visited=visited)
                     yield language
 
         with self.cldf_writer(args, cldf_spec='phonology') as writer:
@@ -361,10 +396,11 @@ class Dataset(BaseDataset):
             for language in _add_languages(
                 writer,
                 Wordlist(datasets=self._datasets('LexiCore'), ts=CLTS(self.raw_dir / CLTS_2_1[1]).bipa),
-                lambda l: len(l.forms_with_sounds) >= 80,
+                CONDITIONS["LexiCore"], # len(l.forms_with_sounds) >= 80,
                 features,
                 ['concepts', 'forms', 'forms_with_sounds', 'senses'],
                 collection='LexiCore',
+                visited=visited
             ):
                 for sound in language.sound_inventory.segments:
                     sounds[(sound.obj.name.replace(' ', '_'), sound.obj.s)][language.id] = len(sound.occurrences)
@@ -388,15 +424,16 @@ class Dataset(BaseDataset):
             _ = list(_add_languages(
                 writer,
                 Wordlist(datasets=self._datasets('ClicsCore')),
-                lambda l: len(l.concepts) >= 250,
+                CONDITIONS["ClicsCore"], #lambda l: len(l.concepts) >= 250,
                 features,
                 ['concepts', 'forms', 'senses'],
                 collection='ClicsCore',
+                visited=visited,
             ))
 
         with self.cldf_writer(args, cldf_spec='phonemes', clean=False) as writer:
             writer.cldf.add_columns('ParameterTable', 'cltsReference')
-            self._schema(writer, with_stats=True)
+            self._schema(writer, with_stats=True, collstats=collstats)
             writer.objects['LanguageTable'] = languages.values()
             for clts_id, glyphs in itertools.groupby(sorted(sounds.keys()), lambda k: k[0]):
                 glyphs = [g[1] for g in glyphs]
