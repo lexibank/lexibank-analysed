@@ -1,8 +1,9 @@
 """
-Re-download `etc/lexibank.tsv`.
+Re-download `etc/lexibank.csv`.
 """
 from cldfbench.cli_util import with_dataset, add_dataset_spec
 from collabutils.googlesheets import Spreadsheet
+
 
 def register(parser):
     add_dataset_spec(parser)

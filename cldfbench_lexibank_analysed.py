@@ -158,7 +158,7 @@ class Dataset(BaseDataset):
             'LanguageTable',
             {
                 'name': 'Dataset',
-                'propertyUrl': 'http://cldf.clld.org//v1.0/terms.rdf#contributionReference',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#contributionReference',
             },
             {'name': 'Forms', 'datatype': 'integer', 'dc:description': 'Number of forms'},
             {'name': "FormsWithSounds", "datatype": "integer",
@@ -197,7 +197,7 @@ class Dataset(BaseDataset):
             senses = list(ds.iter_rows('ParameterTable', 'concepticonReference'))
             csids = set(sense['concepticonReference'] for sense in senses if sense['concepticonReference'])
             contrib = dict(
-                ID=md['Dataset'],
+                ID=md['ID'],
                 Name=ds.properties['dc:title'],
                 Citation=ds.properties['dc:bibliographicCitation'],
                 Collection_IDs=[key for key in COLLECTIONS if md.get(key, '').strip() == 'x'],
@@ -391,7 +391,7 @@ class Dataset(BaseDataset):
                     Name=' / '.join(glyphs),
                     CLTS_ID=clts_id,
                 ))
-                for lid, freq in occurrences.items():
+                for lid, freq in sorted(occurrences.items()):
                     writer.objects['ValueTable'].append(dict(
                         ID='{}-{}'.format(lid, clts_id),
                         Language_ID=lid,
