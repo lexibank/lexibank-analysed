@@ -31,6 +31,7 @@ setup(
         'cldfbench>=1.7.2',
         'cltoolkit>=0.1.1',
         'cldfviz>=0.3.0',
+        'cldfzenodo',
         'pylexibank',
         'attrs>=18.2',
         'clldutils>=3.5',

@@ -62,7 +62,7 @@ which in turn call the code described above.
 
    These datasets are created running
    ```shell
-   $ cldfbench makecldf cldfbench_lexibank_analysed.py 
+   $ cldfbench makecldf --with-cldfreadme cldfbench_lexibank_analysed.py
    ```
 
 4. Make sure valid CLDF data has been created:
@@ -85,15 +85,16 @@ forms in each collection:
 ```shell
 $ csvcut -c ID,Glottocodes,Concepts,Forms cldf/collections.csv | csvformat -T
 ID	Glottocodes	Concepts	Forms
-LexiCore	2390	3058	1142038
-ClicsCore	2492	3083	1930314
-CogCore	844	1677	266067
-ProtoCore	28	951	10890
+LexiCore	1836	3050	958870
+ClicsCore	1091	3032	1489863
+CogCore	738	1670	192353
+ProtoCore	18	951	8750
+Lexibank	2086	3110	1830056
 ```
 or list how many source datasets are aggregated in each of these collections:
 ```shell
 $ csvgrep -c Collection_IDs -m Lexi cldf/contributions.csv | csvstat --count
-Row count: 91
+Row count: 92
 ```
 
 `contributions.csv` also lists numbers of doculects and senses. Datasets with a low ratio between
@@ -198,17 +199,17 @@ $ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | cs
 	Unique values:         58
 	Smallest value:        7
 	Largest value:         107
-	Sum:                   69.898
-	Mean:                  23,718
+	Sum:                   69.180
+	Mean:                  23,724
 	Median:                23
-	StDev:                 8,287
-	Most common values:    23 (211x)
-	                       21 (194x)
-	                       22 (190x)
-	                       20 (165x)
-	                       24 (155x)
+	StDev:                 8,345
+	Most common values:    23 (208x)
+	                       22 (192x)
+	                       21 (185x)
+	                       20 (161x)
+	                       24 (149x)
 
-Row count: 2947
+Row count: 2916
 
 $ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvgrep -c Value -r"^(7|98)$" | csvcut -c Language_ID,Value
 Language_ID,Value
@@ -216,6 +217,20 @@ chenhmongmien-NortheastYunnanChuanqiandian,98
 johanssonsoundsymbolic-Rotokas,7
 transnewguineaorg-keoru-ahia,7
 ```
+
+And we can correlate our computed features with the corresponding data from other datasets, such as WALS and
+PHOIBLE (as implemented in [correlations.py](lexibank_analysed_commands/correlations.py)):
+```shell
+cldfbench lexibank-analysed.correlations
+```
+
+| Feature | WALS/LexiCore | WALS/PHOIBLE | LexiCore/PHOIBLE | N |
+|:----------|:----------------|:---------------|:-------------------|----:|
+| 1A | 0.66 / 0.00 | 0.92 / 0.00 | 0.70 / 0.00 | 233 |
+| 2A | 0.51 / 0.00 | 0.66 / 0.00 | 0.68 / 0.00 | 235 |
+| 3A | 0.55 / 0.00 | 0.76 / 0.00 | 0.68 / 0.00 | 235 |
+| 4A | 0.54 / 0.00 | 0.69 / 0.00 | 0.59 / 0.00 | 235 |
+| 5A | 0.40 / 0.00 | 0.60 / 0.00 | 0.56 / 0.00 | 235 |
 
 
 ## 4 Data visualization

@@ -298,6 +298,10 @@ bowernpny-Yirandali,Yirandali,,-20.65810118,143.9625916,yira1239,,bowernpny,145,
 bowernpny-YortaYorta,Yorta Yorta,,-35.9,145.01,yort1237,,bowernpny,266,266,263,LexiCoreClicsCore,,Pama-Nyungan
 bowernpny-Yugambeh,Yugambeh,,-27.803,153.082,yuga1244,,bowernpny,323,323,317,LexiCoreClicsCore,,Pama-Nyungan
 bowernpny-Yuwaalaraay,Yuwaalaraay,,-29.758184,147.923684,yuwa1242,,bowernpny,321,321,314,LexiCoreClicsCore,,Pama-Nyungan
+bremerberta-Maiyu,Maiyu,,10.473464,34.540485,mayu1240,,bremerberta,205,205,181,LexiCore,,Berta
+bremerberta-Fadashi,Fadashi,,9.585863,34.677096,fada1248,,bremerberta,209,209,180,LexiCore,,Berta
+bremerberta-Undulu,Undulu,,10.314359,34.778879,undu1236,,bremerberta,193,193,175,LexiCore,,Berta
+bremerberta-BelejeGonfoye,Beleje Gonfoye,,9.097105,36.203337,,,bremerberta,202,202,181,LexiCore,,
 cals-Kkhalqabad1,KK-Halqabad 1,,39.98,63.3223,kara1467,,cals,183,183,183,LexiCore,,Turkic
 cals-Kkhalqabad2,KK-Halqabad 2,,39.98,63.3223,kara1467,,cals,184,184,184,LexiCore,,Turkic
 cals-Kkhalqabad3,KK-Halqabad 3,,39.98,63.3223,kara1467,,cals,184,184,184,LexiCore,,Turkic
@@ -1316,11 +1320,6 @@ kraftchadic-Wamdiu,Wamdiu,,10.53854,12.99521,marg1266,,kraftchadic,441,441,426,L
 kraftchadic-Westmargi,West Margi,,10.83854,12.99521,puta1243,,kraftchadic,697,697,428,LexiCoreClicsCore,,Afro-Asiatic
 kraftchadic-Yingilum,Yingilum,,9.9249,13.6567,nort2770,,kraftchadic,440,440,427,LexiCoreClicsCore,,Atlantic-Congo
 kraftchadic-Zvana,Zə̀ɣvana,,11.05751,13.77847,dghw1239,,kraftchadic,445,445,427,LexiCoreClicsCore,,Afro-Asiatic
-leejaponic-OldJapanese,Old Japanese,,34.683333,135.8,oldj1239,,leejaponic,206,206,205,LexiCore,,Japonic
-leejaponic-Hachijyo,Hachijyo,,33.109444,139.791389,hach1239,,leejaponic,191,191,190,LexiCore,,Japonic
-leejaponic-Kagoshima,Kagoshima,,28.2099,129.453,nort2935,,leejaponic,195,195,194,LexiCore,,Japonic
-leejaponic-Irafu,Irafu,,24.831088,125.18956,irab1238,,leejaponic,193,193,192,LexiCore,,Japonic
-leejaponic-Yonaguni,Yonaguni,,24.45,122.991,yona1241,,leejaponic,181,181,181,LexiCore,,Japonic
 leeainu-yakumo,Yakumo,,42.25,140.266667,ainu1240,,leeainu,215,215,199,LexiCore,,Ainu
 leeainu-oshamambe,Oshamambe,,42.508056,140.373056,ainu1240,,leeainu,198,198,197,LexiCore,,Ainu
 leeainu-horobetsu,Horobetsu,,42.416667,141.1,ainu1240,,leeainu,225,225,199,LexiCore,,Ainu
@@ -1333,10 +1332,11 @@ leeainu-bihoro,Bihoro,,43.825,144.105556,ainu1240,,leeainu,213,213,199,LexiCore,
 leeainu-asahikawa,Asahikawa,,43.766667,142.366667,ainu1240,,leeainu,213,213,198,LexiCore,,Ainu
 leeainu-nayoro,Nayoro,,44.355833,142.463333,ainu1240,,leeainu,221,221,198,LexiCore,,Ainu
 leeainu-soya,Sôya,,45.415667,141.673056,ainu1240,,leeainu,209,209,196,LexiCore,,Ainu
-bremerberta-Maiyu,Maiyu,,10.473464,34.540485,mayu1240,,bremerberta,205,205,181,LexiCore,,Berta
-bremerberta-Fadashi,Fadashi,,9.585863,34.677096,fada1248,,bremerberta,209,209,180,LexiCore,,Berta
-bremerberta-Undulu,Undulu,,10.314359,34.778879,undu1236,,bremerberta,193,193,175,LexiCore,,Berta
-bremerberta-BelejeGonfoye,Beleje Gonfoye,,9.097105,36.203337,,,bremerberta,202,202,181,LexiCore,,
+leejaponic-OldJapanese,Old Japanese,,34.683333,135.8,oldj1239,,leejaponic,206,206,205,LexiCore,,Japonic
+leejaponic-Hachijyo,Hachijyo,,33.109444,139.791389,hach1239,,leejaponic,191,191,190,LexiCore,,Japonic
+leejaponic-Kagoshima,Kagoshima,,28.2099,129.453,nort2935,,leejaponic,195,195,194,LexiCore,,Japonic
+leejaponic-Irafu,Irafu,,24.831088,125.18956,irab1238,,leejaponic,193,193,192,LexiCore,,Japonic
+leejaponic-Yonaguni,Yonaguni,,24.45,122.991,yona1241,,leejaponic,181,181,181,LexiCore,,Japonic
 leekoreanic-Jeju,Jeju,,33.3805,126.5554,jeju1234,,leekoreanic,154,154,149,LexiCore,,Koreanic
 leekoreanic-SJeolla,Southern Jeolla,,35.14,126.84,chol1278,,leekoreanic,176,176,172,LexiCore,,Koreanic
 leekoreanic-NJeolla,Northern Jeolla,,35.14,126.84,chol1278,,leekoreanic,146,146,144,LexiCore,,Koreanic
@@ -2596,6 +2596,41 @@ transnewguineaorg-zia,Zia,,-7.95814,147.579,ziaa1250,,transnewguineaorg,310,310,
 transnewguineaorg-zimakani,Zimakani,,-7.3701,141.452,zima1244,,transnewguineaorg,269,269,175,LexiCore,,Anim
 transnewguineaorg-zimakani-south-boazi,Zimakani (South Boazi Dialect),,-7.3701,141.452,zima1244,,transnewguineaorg,213,213,155,LexiCore,,Anim
 transnewguineaorg-zorop,Zorop,,-3.39765,140.897,yafi1240,,transnewguineaorg,150,150,101,LexiCore,,Pauwasi
+utoaztecan-Mono,Mono,,37.1935,-119.347,mono1275,,utoaztecan,127,127,121,LexiCore,,Uto-Aztecan
+utoaztecan-NorthernPaiute,Northern Paiute,,40.0799,-119.536,nort2954,,utoaztecan,159,159,121,LexiCore,,Uto-Aztecan
+utoaztecan-Pannamint,Timbisha (Panamint),,36.0007,-117.901,pana1305,,utoaztecan,136,136,121,LexiCore,,Uto-Aztecan
+utoaztecan-Comanche,Comanche,,34.0,-101.0,coma1245,,utoaztecan,128,128,121,LexiCore,,Uto-Aztecan
+utoaztecan-Kawaiisu,Kawaiisu,,36.0538,-118.679,kawa1283,,utoaztecan,145,145,121,LexiCore,,Uto-Aztecan
+utoaztecan-Chemehuevi,Chemehuevi,,35.356093,-116.438436,chem1251,,utoaztecan,136,136,119,LexiCore,,Uto-Aztecan
+utoaztecan-SouthernPaiute,Southern Paiute,,37.0,-114.0,sout2969,,utoaztecan,134,134,120,LexiCore,,Uto-Aztecan
+utoaztecan-SouthernUte,Southern Ute,,38.0,-109.0,utee1244,,utoaztecan,132,132,120,LexiCore,,Uto-Aztecan
+utoaztecan-Tubatulabel,Tübatulabal,,35.327,-117.163,tuba1278,,utoaztecan,161,161,120,LexiCore,,Uto-Aztecan
+utoaztecan-Serrano,Serrano,,33.9479,-116.772,serr1255,,utoaztecan,133,133,120,LexiCore,,Uto-Aztecan
+utoaztecan-Cahuilla,Cahuilla,,33.5324,-116.691,cahu1264,,utoaztecan,126,126,119,LexiCore,,Uto-Aztecan
+utoaztecan-Cupeno,Cupeño,,33.3148,-116.515,cupe1243,,utoaztecan,126,126,120,LexiCore,,Uto-Aztecan
+utoaztecan-Luiseno,Luiseño,,33.3184,-116.939,luis1253,,utoaztecan,129,129,121,LexiCore,,Uto-Aztecan
+utoaztecan-Gabrielino,Tongva,,34.1,-118.11,tong1329,,utoaztecan,127,127,110,LexiCore,,Uto-Aztecan
+utoaztecan-Hopi,Hopi,,35.7653,-110.535,hopi1249,,utoaztecan,130,130,121,LexiCore,,Uto-Aztecan
+utoaztecan-Papago,O'odham,,31.7973,-111.995,toho1245,,utoaztecan,134,134,121,LexiCore,,Uto-Aztecan
+utoaztecan-PimaDeOnavas,Pima de Onavas,,28.654,-108.326,pima1248,,utoaztecan,144,144,121,LexiCore,,Uto-Aztecan
+utoaztecan-NorthernTepehuan,Northern Tepehuan,,26.4348,-107.379,nort2959,,utoaztecan,151,151,120,LexiCore,,Uto-Aztecan
+utoaztecan-Opata,Ópata,,31.15211,-110.06212,opat1246,,utoaztecan,139,139,107,LexiCore,,Uto-Aztecan
+utoaztecan-Eudeve,Eudeve,,28.5,-110.0,eude1234,,utoaztecan,150,150,119,LexiCore,,Uto-Aztecan
+utoaztecan-Guarijio,Guarijío,,27.8685,-108.437,huar1255,,utoaztecan,126,126,121,LexiCore,,Uto-Aztecan
+utoaztecan-Tarahumara,Tarahumara,,27.5648,-107.154,cent2131,,utoaztecan,139,139,121,LexiCore,,Uto-Aztecan
+utoaztecan-Tubar,Tubar,,30.0,-111.0,tuba1279,,utoaztecan,156,156,111,LexiCore,,Uto-Aztecan
+utoaztecan-Mayo,Mayo,,26.4522,-108.981,mayo1264,,utoaztecan,129,129,121,LexiCore,,Uto-Aztecan
+utoaztecan-Yaqui,Yaqui,,29.9446,-110.681,yaqu1251,,utoaztecan,144,144,121,LexiCore,,Uto-Aztecan
+utoaztecan-Cora,Cora,,22.4099,-104.467,elna1235,,utoaztecan,134,134,121,LexiCore,,Uto-Aztecan
+utoaztecan-Huichol,Huichol,,21.954,-104.062,huic1243,,utoaztecan,155,155,112,LexiCore,,Uto-Aztecan
+utoaztecan-ClassicalAztec,Classical Nahuatl,,19.72,-96.97,clas1250,,utoaztecan,139,139,121,LexiCore,,Uto-Aztecan
+utoaztecan-AztecTetelcingo,Tetelcingo Nahuatl,,18.8854,-98.893,tete1251,,utoaztecan,143,143,119,LexiCore,,Uto-Aztecan
+utoaztecan-AztecZacapoaxtla,Zacapoaxtla Nahuatl,,20.1554,-97.5556,high1278,,utoaztecan,125,125,116,LexiCore,,Uto-Aztecan
+utoaztecan-Pipil,Pipil,,13.8931,-89.443,pipi1250,,utoaztecan,145,145,117,LexiCore,,Uto-Aztecan
+utoaztecan-SoutheasternTepehuan,Southeastern Tepehuan,,23.1584,-103.983,sout2976,,utoaztecan,116,116,115,LexiCore,,Uto-Aztecan
+utoaztecan-Kiowa,Kiowa,,34.9403,-98.9042,kiow1266,,utoaztecan,115,115,111,LexiCore,,Kiowa-Tanoan
+utoaztecan-Karankawa,Karankawa,,28.9082,-96.4856,kara1289,,utoaztecan,83,83,64,LexiCore,,Karankawa
+utoaztecan-Zuni,Zuni,,35.0056,-108.782,zuni1245,,utoaztecan,128,128,112,LexiCore,,Zuni
 visserkalamang-kara1499,Kalamang,,-3.47037,132.678,kara1499,,visserkalamang,1179,1179,854,LexiCoreClicsCore,,West Bomberai
 walworthpolynesian-Anuta,Anuta_253,,-11.61,169.85,anut1237,,walworthpolynesian,222,222,196,LexiCore,,Austronesian
 walworthpolynesian-AustralA,Austral_1213,,-23.3843,-149.462,aust1304,,walworthpolynesian,200,200,192,LexiCore,,Austronesian
@@ -2880,41 +2915,6 @@ zhivlovobugrian-vakhkhanty,Vakh Khanty,,62.4308,66.1218,khan1273,,zhivlovobugria
 zhivlovobugrian-tremjugankhanty,Tremjugan Khanty,,64.4118,61.344,mans1258,,zhivlovobugrian,107,107,106,LexiCore,,Uralic
 zhivlovobugrian-synjakhanty,Synja Khanty,,62.4308,66.1218,khan1273,,zhivlovobugrian,99,99,97,LexiCore,,Uralic
 zhivlovobugrian-northmansi,North Mansi,,64.4118,61.344,mans1258,,zhivlovobugrian,112,112,110,LexiCore,,Uralic
-utoaztecan-Mono,Mono,,37.1935,-119.347,mono1275,,utoaztecan,127,127,121,LexiCore,,Uto-Aztecan
-utoaztecan-NorthernPaiute,Northern Paiute,,40.0799,-119.536,nort2954,,utoaztecan,159,159,121,LexiCore,,Uto-Aztecan
-utoaztecan-Pannamint,Timbisha (Panamint),,36.0007,-117.901,pana1305,,utoaztecan,136,136,121,LexiCore,,Uto-Aztecan
-utoaztecan-Comanche,Comanche,,34.0,-101.0,coma1245,,utoaztecan,128,128,121,LexiCore,,Uto-Aztecan
-utoaztecan-Kawaiisu,Kawaiisu,,36.0538,-118.679,kawa1283,,utoaztecan,145,145,121,LexiCore,,Uto-Aztecan
-utoaztecan-Chemehuevi,Chemehuevi,,35.356093,-116.438436,chem1251,,utoaztecan,136,136,119,LexiCore,,Uto-Aztecan
-utoaztecan-SouthernPaiute,Southern Paiute,,37.0,-114.0,sout2969,,utoaztecan,134,134,120,LexiCore,,Uto-Aztecan
-utoaztecan-SouthernUte,Southern Ute,,38.0,-109.0,utee1244,,utoaztecan,132,132,120,LexiCore,,Uto-Aztecan
-utoaztecan-Tubatulabel,Tübatulabal,,35.327,-117.163,tuba1278,,utoaztecan,161,161,120,LexiCore,,Uto-Aztecan
-utoaztecan-Serrano,Serrano,,33.9479,-116.772,serr1255,,utoaztecan,133,133,120,LexiCore,,Uto-Aztecan
-utoaztecan-Cahuilla,Cahuilla,,33.5324,-116.691,cahu1264,,utoaztecan,126,126,119,LexiCore,,Uto-Aztecan
-utoaztecan-Cupeno,Cupeño,,33.3148,-116.515,cupe1243,,utoaztecan,126,126,120,LexiCore,,Uto-Aztecan
-utoaztecan-Luiseno,Luiseño,,33.3184,-116.939,luis1253,,utoaztecan,129,129,121,LexiCore,,Uto-Aztecan
-utoaztecan-Gabrielino,Tongva,,34.1,-118.11,tong1329,,utoaztecan,127,127,110,LexiCore,,Uto-Aztecan
-utoaztecan-Hopi,Hopi,,35.7653,-110.535,hopi1249,,utoaztecan,130,130,121,LexiCore,,Uto-Aztecan
-utoaztecan-Papago,O'odham,,31.7973,-111.995,toho1245,,utoaztecan,134,134,121,LexiCore,,Uto-Aztecan
-utoaztecan-PimaDeOnavas,Pima de Onavas,,28.654,-108.326,pima1248,,utoaztecan,144,144,121,LexiCore,,Uto-Aztecan
-utoaztecan-NorthernTepehuan,Northern Tepehuan,,26.4348,-107.379,nort2959,,utoaztecan,151,151,120,LexiCore,,Uto-Aztecan
-utoaztecan-Opata,Ópata,,31.15211,-110.06212,opat1246,,utoaztecan,139,139,107,LexiCore,,Uto-Aztecan
-utoaztecan-Eudeve,Eudeve,,28.5,-110.0,eude1234,,utoaztecan,150,150,119,LexiCore,,Uto-Aztecan
-utoaztecan-Guarijio,Guarijío,,27.8685,-108.437,huar1255,,utoaztecan,126,126,121,LexiCore,,Uto-Aztecan
-utoaztecan-Tarahumara,Tarahumara,,27.5648,-107.154,cent2131,,utoaztecan,139,139,121,LexiCore,,Uto-Aztecan
-utoaztecan-Tubar,Tubar,,30.0,-111.0,tuba1279,,utoaztecan,156,156,111,LexiCore,,Uto-Aztecan
-utoaztecan-Mayo,Mayo,,26.4522,-108.981,mayo1264,,utoaztecan,129,129,121,LexiCore,,Uto-Aztecan
-utoaztecan-Yaqui,Yaqui,,29.9446,-110.681,yaqu1251,,utoaztecan,144,144,121,LexiCore,,Uto-Aztecan
-utoaztecan-Cora,Cora,,22.4099,-104.467,elna1235,,utoaztecan,134,134,121,LexiCore,,Uto-Aztecan
-utoaztecan-Huichol,Huichol,,21.954,-104.062,huic1243,,utoaztecan,155,155,112,LexiCore,,Uto-Aztecan
-utoaztecan-ClassicalAztec,Classical Nahuatl,,19.72,-96.97,clas1250,,utoaztecan,139,139,121,LexiCore,,Uto-Aztecan
-utoaztecan-AztecTetelcingo,Tetelcingo Nahuatl,,18.8854,-98.893,tete1251,,utoaztecan,143,143,119,LexiCore,,Uto-Aztecan
-utoaztecan-AztecZacapoaxtla,Zacapoaxtla Nahuatl,,20.1554,-97.5556,high1278,,utoaztecan,125,125,116,LexiCore,,Uto-Aztecan
-utoaztecan-Pipil,Pipil,,13.8931,-89.443,pipi1250,,utoaztecan,145,145,117,LexiCore,,Uto-Aztecan
-utoaztecan-SoutheasternTepehuan,Southeastern Tepehuan,,23.1584,-103.983,sout2976,,utoaztecan,116,116,115,LexiCore,,Uto-Aztecan
-utoaztecan-Kiowa,Kiowa,,34.9403,-98.9042,kiow1266,,utoaztecan,115,115,111,LexiCore,,Kiowa-Tanoan
-utoaztecan-Karankawa,Karankawa,,28.9082,-96.4856,kara1289,,utoaztecan,83,83,64,LexiCore,,Karankawa
-utoaztecan-Zuni,Zuni,,35.0056,-108.782,zuni1245,,utoaztecan,128,128,112,LexiCore,,Zuni
 clics1-DidoSagadinSagadin,Dido (Sagadin)-Sagadin,,42.2646,45.8096,dido1241,,clics1,1408,0,1223,ClicsCore,,Nakh-Daghestanian
 clics1-DargwaKajtakKajtak,Dargwa (Kajtak)-Kajtak,,42.4257,47.4388,darg1241,,clics1,1452,0,1265,ClicsCore,,Nakh-Daghestanian
 clics1-Estonianstd,Estonian-std,,58.55,25.82,esto1258,,clics1,1649,0,1274,ClicsCore,,Uralic
