@@ -11,7 +11,6 @@ from cltoolkit import Wordlist
 from cltoolkit.features import FEATURES
 from cldfzenodo import oai_lexibank
 from pyclts import CLTS
-from git import Repo, GitCommandError
 from tqdm import tqdm
 from csvw.dsv import reader
 
