@@ -103,7 +103,7 @@ class Dataset(BaseDataset):
         for dataset, row in self.dataset_meta.items():
             args.log.info("Downloading {}".format(dataset))
             record = github_info[row['Zenodo']]
-            record.download_dataset(self.raw_dir / dataset / 'cldf')
+            record.download(self.raw_dir / dataset)
 
         with self.raw_dir.temp_download(CLTS_2_1[0], 'ds.zip', log=args.log) as zipp:
             zipfile.ZipFile(str(zipp)).extractall(self.raw_dir)
