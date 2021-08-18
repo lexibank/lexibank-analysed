@@ -95,15 +95,15 @@ class Dataset(BaseDataset):
     def cmd_download(self, args):
         github_info = {rec.doi: rec for rec in oai_lexibank()}
 
-        # Unless someone knows a way to reliably do partial updates of the raw
-        # folder?
-        if self.raw_dir.exists():
-            shutil.rmtree(self.raw_dir)
-
         for dataset, row in self.dataset_meta.items():
+            dest = self.raw_dir / dataset
+            if dest.exists():
+                args.log.info('Removing old download in {}'.format(dest))
+                shutil.rmtree(dest)
+
             args.log.info("Downloading {}".format(dataset))
             record = github_info[row['Zenodo']]
-            record.download(self.raw_dir / dataset)
+            record.download(dest)
 
         with self.raw_dir.temp_download(CLTS_2_1[0], 'ds.zip', log=args.log) as zipp:
             zipfile.ZipFile(str(zipp)).extractall(self.raw_dir)
