@@ -1,4 +1,6 @@
-# Lexibank Analysed: 
+# Lexibank Analysed
+
+A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2000 language varieties
 
 Cite as:
 
