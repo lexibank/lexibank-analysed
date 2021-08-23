@@ -47,25 +47,25 @@ The summary statistics are also given in the file `cldf/collections.csv` and `cl
 In order to plot the data shown in Figure 1 of the main study, open a terminal inside the lexibank-analysed package and type the following command:
 
 ```shell
-cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties-colormaps=jet,jet,tol --language-properties=Forms,Concepts,Incollections --format=jpg --pacific-centered --width=40 --height=20 --dpi=300 --markersize=100 --output=plots/figure-2
+cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties-colormaps=tol --language-properties=Incollections --format=pdf --pacific-centered --width=40 --height=20 --dpi=100 --markersize=33 --output=plots/figure-1 --projection=Robinson
 ```
 
-For the interactive version of the data in HTML format, type:
+For the interactive version of the data in HTML format, we show three different values at once, typing:
 
 ```shell
-cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties-colormaps jet,jet,tol --language-properties=Forms,Concepts,Incollections --format=html --pacific-centered --markersize=100 --output=plots/figure-2
+cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties-colormaps jet,jet,tol --language-properties=Forms,Concepts,Incollections --format=html --pacific-centered --markersize=10 --output=plots/figure-1
 ```
 
-This yields the Figure 2 in the dataset.
+This yields the Figure 1 in the dataset (which was slightly modified by enlarging the legend).
 
-![plots](figure-2.jpg)
+![plots](figure-1.jpg)
 
 ## Sound-Symbolic Features in the LexiCore Subset of Lexibank
 
-In order to plot Figure 4 in our draft, use the following command:
+In order to plot Figure 3 in our draft, use the following command:
 
 ```shell
-cldfbench cldfviz.map cldf/phonology-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=jpg --pacific-centered --markersize=100 --parameters=FatherWithP,MotherWithM --width=40 --height=20 --dpi=300 --output=plots/figure-4
+lexibank-analysed]$ cldfbench cldfviz.map cldf/phonology-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=pdf --pacific-centered --markersize=30 --parameters=FatherWithP,MotherWithM --width=40 --height=20 --dpi=100 --output=plots/figure-3 --projection Robinson
 ```
 
 For the interactive output, you can type:
@@ -82,52 +82,52 @@ This yields the Figure 4 in the dataset.
 
 ## Lexical Features
 
-In order to plot Figure 5 in our draft, use the following command:
+In order to plot Figure 4 in our draft, use the following command:
 
 ```shell
-cldfbench cldfviz.map cldf/lexicon-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=jpg --pacific-centered --markersize=100 --parameters=ArmAndHand,LegAndFoot --width=40 --height=20 --dpi=300 --output=plots/figure-5
+cldfbench cldfviz.map cldf/lexicon-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=pdf --pacific-centered --markersize=100 --parameters=ArmAndHand,LegAndFoot --width=40 --height=20 --dpi=100 --output=plots/figure-4 --projection Robinson
 ```
 
 For the interactive output, you can type:
 
 ```shell
-cldfbench cldfviz.map cldf/lexicon-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=html --pacific-centered --markersize=100 --parameters=ArmAndHand,LegAndFoot --output=plots/figure-5
+cldfbench cldfviz.map cldf/lexicon-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=html --pacific-centered --markersize=100 --parameters=ArmAndHand,LegAndFoot --output=plots/figure-4
+```
+
+This yields the Figure 4 in the dataset.
+
+![Figure 4](figure-4.jpg)
+
+In order to plot Figure 5 in our draft, use the following command:
+
+```shell
+cldfbench cldfviz.map cldf/lexicon-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=pdf --pacific-centered --markersize=100 --parameters=CommonSubstringInManAndWoman,CommonSubstringInBoyAndGirl --width=40 --height=20 --dpi=100 --output=plots/figure-5 --projection=Robinson
+```
+
+For the interactive output, you can type:
+
+```shell
+cldfbench cldfviz.map cldf/lexicon-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=html --pacific-centered --markersize=100 --parameters=CommonSubstringInManAndWoman,CommonSubstringInBoyAndGirl --output=plots/figure-5
 ```
 
 This yields the Figure 5 in the dataset.
 
 ![Figure 5](figure-5.jpg)
 
-In order to plot Figure 5 in our draft, use the following command:
+
+
+In order to plot Figure 6 in our draft, use the following command:
 
 ```shell
-cldfbench cldfviz.map cldf/lexicon-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=jpg --pacific-centered --markersize=100 --parameters=CommonSubstringInManAndWoman,CommonSubstringInBoyAndGirl --width=40 --height=20 --dpi=300 --output=plots/figure-6
+cldfbench cldfviz.map cldf/lexicon-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=pdf --pacific-centered --markersize=100 --parameters=EyeInTear,WaterInTear --width=40 --height=20 --dpi=100 --output=plots/figure-6 --projection=Robinson
 ```
 
 For the interactive output, you can type:
 
 ```shell
-cldfbench cldfviz.map cldf/lexicon-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=html --pacific-centered --markersize=100 --parameters=CommonSubstringInManAndWoman,CommonSubstringInBoyAndGirl --output=plots/figure-6
+cldfbench cldfviz.map cldf/lexicon-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=html --pacific-centered --markersize=100 --parameters=EyeInTear,WaterInTear --output=plots/figure-6
 ```
 
-This yields the Figure 5 in the dataset.
+This yields the Figure 6 in the dataset.
 
 ![Figure 6](figure-6.jpg)
-
-
-
-In order to plot Figure 7 in our draft, use the following command:
-
-```shell
-cldfbench cldfviz.map cldf/lexicon-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=jpg --pacific-centered --markersize=100 --parameters=EyeInTear,WaterInTear --width=40 --height=20 --dpi=300 --output=plots/figure-7
-```
-
-For the interactive output, you can type:
-
-```shell
-cldfbench cldfviz.map cldf/lexicon-metadata.json --colormaps '{"True":"#DC143C","False":"#FFFFFF"},{"True": "#6495ED", "False": "#FFFFFF"}' --missing-value "#808080" --format=html --pacific-centered --markersize=100 --parameters=EyeInTear,WaterInTear --output=plots/figure-7
-```
-
-This yields the Figure 7 in the dataset.
-
-![Figure 7](figure-7.jpg)
