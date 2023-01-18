@@ -1,0 +1,6 @@
+ID,Organization,Dataset,Zenodo,EDICTOR,Todo,ClicsCore,LexiCore,CogCore,ProtoCore,Other,CLTS,CLTSVersion,CLDFBench,Conceptlist,CheckPhonotactics,CheckedAuthors,License,Version,Warnings,CheckedBy,DoubleCheckBy
+aaleykusunda,lexibank,aaleykusunda,10.5281/zenodo.5115947,,,x,x,,,,100,2.1.0,x,x,x,x,CC-BY-4.0,v2.0,-,Mattis,Johannes
+abrahammonpa,lexibank,abrahammonpa,10.5281/zenodo.5115885,,,x,x,,,,100,2.1.0,x,x,x,x,CC-BY-4.0,v3.0,-,Mattis,Johannes
+allenbai,lexibank,allenbai,10.5281/zenodo.5115649,,,x,x,,,,100,2.1.0,x,x,x,x,CC-BY-4.0,v4.0,-,Mattis,Christoph
+backstromnorthernpakistan,lexibank,backstromnorthernpakistan,10.5281/zenodo.5116054,,,,x,,,,100,2.1.0,x,x,x,x,CC-BY-4.0,v1.0,-,Mattis,Johannes
+bantubvd,lexibank,bantubvd,10.5281/zenodo.5115982,,,x,x,,,,100,2.1.0,x,x,x,x,CC-BY-4.0,v4.0,,Mattis,Johannes
