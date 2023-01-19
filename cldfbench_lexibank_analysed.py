@@ -5,7 +5,9 @@ import collections
 
 import pycldf
 from cldfbench import CLDFSpec
-from cldfbench import Dataset as BaseDataset
+from pylexibank.cldf import LexibankWriter
+from pylexibank import Dataset as BaseDataset
+import pylexibank.dataset
 from cltoolkit import Wordlist
 from cltoolkit.features import FEATURES
 from cldfzenodo import oai_lexibank
@@ -13,6 +15,12 @@ from pyclts import CLTS
 from git import Repo, GitCommandError
 from tqdm import tqdm
 from csvw.dsv import reader
+import attr
+
+from pylexibank import Lexeme, Concept
+
+import lingpy
+from clldutils.misc import slug
 
 COLLECTIONS = {
     'LexiCore': (
@@ -50,12 +58,37 @@ CLTS_2_1 = (
 _loaded = {}
 
 
+@attr.s
+class CustomLexeme(Lexeme):
+    CV_Template = attr.ib(default=None)
+    Sound_Classes = attr.ib(default=None)
+
+
+@attr.s
+class CustomConcept(Concept):
+    Central_Concept = attr.ib(default=None)
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "lexibank-analysed"
+    lexeme_class = CustomLexeme
+    concept_class = CustomConcept
 
     def cldf_specs(self):
         return {
+            None: pylexibank.dataset.CLDFSpec(
+                dir=self.cldf_dir,
+                metadata_fname='wordlist-metadata.json',
+                writer_cls=LexibankWriter,
+                module="Wordlist",
+                zipped=["FormTable"],
+                data_fnames=dict(
+                    ParameterTable="concepts.csv",
+                    LanguageTable="languages.csv",
+                    CognateTable="cognates.csv",
+                    FormTable="forms.csv"
+                    )),
             'phonology': CLDFSpec(
                 metadata_fname='phonology-metadata.json',
                 data_fnames=dict(
@@ -84,7 +117,7 @@ class Dataset(BaseDataset):
     @property
     def dataset_meta(self):
         res = collections.OrderedDict()
-        for row in self.etc_dir.read_csv('lexibank.csv', delimiter=',', dicts=True):
+        for row in self.etc_dir.read_csv('lexibank-dev.csv', delimiter=',', dicts=True):
             if not row['Zenodo'].strip():
                 continue
             row['collections'] = set(key for key in COLLECTIONS if row.get(key, '').strip() == 'x')
@@ -216,7 +249,7 @@ class Dataset(BaseDataset):
 
     def cmd_makecldf(self, args):
         dsinfo = {row["ID"]: row for row in reader(self.etc_dir /
-            'lexibank.csv', dicts=True, delimiter=",")}
+            'lexibank-dev.csv', dicts=True, delimiter=",")}
         visited = set()
         collstats = collections.OrderedDict()
         for cid, (desc, name) in COLLECTIONS.items():
@@ -294,7 +327,7 @@ class Dataset(BaseDataset):
                     Language_ID=language.id,
                     Parameter_ID=attr,
                     Value=len(getattr(language, attr))
-                )) 
+                ))
             for feature in features:
                 v = feature(language)
                 if feature.categories:
@@ -318,13 +351,52 @@ class Dataset(BaseDataset):
                             collection=collection, visited=visited)
                     yield language
 
-        with self.cldf_writer(args, cldf_spec='phonology') as writer:
+        # we add both the concepts and the forms, we add the languages later
+        # via the LexiCore phonology module
+        clts = CLTS(self.raw_dir / CLTS_2_1[1])
+        with self.cldf_writer(args) as writer:
+            # add concepts and the like
+            wl = Wordlist(self._datasets("LexiCore"), ts=clts.bipa)
+            visited_concepts = set()
+            for i, language in tqdm(enumerate(wl.languages), desc="add forms"):
+                if CONDITIONS["LexiCore"](language) and language.latitude:
+                    for form in language.forms_with_sounds:
+                        if form.concept:
+                            writer.add_form_with_segments(
+                                    Local_ID=form.id,
+                                    Parameter_ID=slug(form.concept.concepticon_gloss, lowercase=True),
+                                    Language_ID=language.id,
+                                    Value=form.value,
+                                    Form=form.form,
+                                    Segments=form.sounds,
+                                    CV_Template="".join(clts.soundclass("cv")(form.sounds)),
+                                    Sound_Classes="".join(clts.soundclass("dolgo")(form.sounds)),
+                                    Source="" # dataset.id
+                                    )
+                            visited_concepts.add(form.concept.concepticon_gloss)
+            args.log.info('added lexibank forms')
+            # retrieve central concept from Rzymski concept list
+            central_concepts = {
+                    c.concepticon_gloss: c.attributes["central_concept"] for c  in
+                    self.concepticon.conceptlists["Rzymski-2020-1624"].concepts.values()
+                    }
+            for concept in wl.concepts:
+                if concept.concepticon_gloss in visited_concepts:
+                    writer.add_concept(
+                            ID=slug(concept.concepticon_gloss, lowercase=True),
+                            Name=concept.concepticon_gloss,
+                            Concepticon_ID=concept.concepticon_id,
+                            Concepticon_Gloss=concept.concepticon_gloss,
+                            Central_Concept=central_concepts.get(concept.concepticon_gloss, "")
+                            )
+            args.log.info("added concepts for wordlist")
+
+        with self.cldf_writer(args, cldf_spec='phonology', clean=False) as writer:
             self._schema(writer)
             writer.cldf.add_columns(
                 'ParameterTable',
                 {"name": "Feature_Spec", "datatype": "json"},
             )
-
             features = [f for f in FEATURES if f.function.__module__.endswith("phonology")]
 
             for fid, fname, fdesc in [
