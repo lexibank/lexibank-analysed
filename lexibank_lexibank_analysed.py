@@ -327,7 +327,7 @@ class Dataset(BaseDataset):
                     Language_ID=language.id,
                     Parameter_ID=attr,
                     Value=len(getattr(language, attr))
-                )) 
+                ))
             for feature in features:
                 v = feature(language)
                 if feature.categories:
@@ -350,7 +350,7 @@ class Dataset(BaseDataset):
                     _add_language(writer, language, features, attr_features,
                             collection=collection, visited=visited)
                     yield language
-        
+
         # we add both the concepts and the forms, we add the languages later
         # via the LexiCore phonology module
         clts = CLTS(self.raw_dir / CLTS_2_1[1])
@@ -377,7 +377,7 @@ class Dataset(BaseDataset):
             args.log.info('added lexibank forms')
             # retrieve central concept from Rzymski concept list
             central_concepts = {
-                    c.concepticon_gloss: c.attributes["central_concept"] for c  in 
+                    c.concepticon_gloss: c.attributes["central_concept"] for c  in
                     self.concepticon.conceptlists["Rzymski-2020-1624"].concepts.values()
                     }
             for concept in wl.concepts:
