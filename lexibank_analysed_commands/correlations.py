@@ -13,7 +13,7 @@ from cltoolkit.features import FEATURES
 from cldfzenodo import Record
 from clldutils.clilib import Table, add_format
 
-from cldfbench_lexibank_analysed import Dataset as LB, CLTS_2_1
+from lexibank_lexibank_analysed import Dataset as LB, CLTS_2_1
 
 
 def register(parser):
