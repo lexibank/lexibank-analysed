@@ -46,11 +46,11 @@ COLLECTIONS = {
         ),
 }
 CONDITIONS = {
-        "LexiCore": lambda x: len(x.forms_with_sounds) >= 80,
+        "LexiCore": lambda x: len(x.forms_with_sounds) >= 100,
         "ClicsCore": lambda x: len(x.concepts) >= 250,
-        "ProtoCore": lambda x: len(x.forms_with_sounds) >= 80,
-        "CogCore": lambda x: len(x.forms_with_sounds) >= 80,
-        "Lexibank": lambda x: len(x.forms_with_sounds) >= 80 or len(x.concepts) >= 250
+        "ProtoCore": lambda x: len(x.forms_with_sounds) >= 100,
+        "CogCore": lambda x: len(x.forms_with_sounds) >= 100,
+        "Lexibank": lambda x: len(x.forms_with_sounds) >= 100 or len(x.concepts) >= 250
         }
 CLTS_2_1 = (
     "https://zenodo.org/record/4705149/files/cldf-clts/clts-v2.1.0.zip?download=1",
@@ -365,24 +365,35 @@ class Dataset(BaseDataset):
             writer.add_sources()
             # add concepts and the like
             wl = Wordlist(self._datasets("LexiCore"), ts=clts.bipa)
+            best_varieties = collections.defaultdict(dict)
+            var_count = 0
+            for lng in wl.languages:
+                if CONDITIONS["LexiCore"](lng) and lng.latitude and lng.glottocode:
+                    fws = len(lng.forms_with_sounds)
+                    var_count += 1
+                    best_varieties[lng.glottocode][lng.id] = (lng, fws)
+            args.log.info("found {0} different glottocodes with {1} varieties".format(len(best_varieties), var_count))
+
             visited_concepts = set()
-            for i, language in tqdm(enumerate(wl.languages), desc="add forms", ):
-                if CONDITIONS["LexiCore"](language) and language.latitude:
-                    for form in language.forms_with_sounds:
-                        if form.concept:
-                            cgls = cid2gls[form.concept.concepticon_id]
-                            writer.add_form_with_segments(
-                                    Local_ID=form.id,
-                                    Parameter_ID=slug(cgls, lowercase=True),
-                                    Language_ID=language.id,
-                                    Value=form.value,
-                                    Form=form.form,
-                                    Segments=form.sounds,
-                                    CV_Template="".join(clts.soundclass("cv")(form.sounds)),
-                                    Sound_Classes="".join(clts.soundclass("dolgo")(form.sounds)),
-                                    Source=self.dataset_meta[language.dataset]["Source"].split(" ")
-                                    )
-                            visited_concepts.add(cgls)
+            for i, glc in tqdm(enumerate(best_varieties), desc="add_forms"):
+                # select best variety
+                language = sorted(best_varieties[glc].items(), key=lambda x: x[1][0], reverse=True)[0][1][0]
+                print(language.id, language.dataset)
+                for form in language.forms_with_sounds:
+                    if form.concept and form.concept.concepticon_id:
+                        cgls = cid2gls[form.concept.concepticon_id]
+                        writer.add_form_with_segments(
+                                Local_ID=form.id,
+                                Parameter_ID=slug(cgls, lowercase=True),
+                                Language_ID=language.id,
+                                Value=form.value,
+                                Form=form.form,
+                                Segments=form.sounds,
+                                CV_Template="".join(clts.soundclass("cv")(form.sounds)),
+                                Sound_Classes="".join(clts.soundclass("dolgo")(form.sounds)),
+                                Source=self.dataset_meta[language.dataset]["Source"].split(" ")
+                                )
+                        visited_concepts.add(cgls)
             args.log.info('added lexibank forms')
             # retrieve central concept from Rzymski concept list
             central_concepts = {
