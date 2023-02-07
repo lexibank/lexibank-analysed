@@ -46,18 +46,18 @@ COLLECTIONS = {
         ),
 }
 CONDITIONS = {
-        "LexiCore": lambda x: len(x.forms_with_sounds) >= 100,
-        "ClicsCore": lambda x: len(x.concepts) >= 250,
-        "ProtoCore": lambda x: len(x.forms_with_sounds) >= 100,
-        "CogCore": lambda x: len(x.forms_with_sounds) >= 100,
-        "Lexibank": lambda x: len(x.forms_with_sounds) >= 100 or len(x.concepts) >= 250
+        "LexiCore": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100,
+        "ClicsCore": lambda x: len(x.forms_with_sounds) >= 250 and len(x.concepts) >= 250,
+        "ProtoCore": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100,
+        "CogCore": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100,
+        "Lexibank": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100
         }
 CLTS_2_1 = (
     "https://zenodo.org/record/4705149/files/cldf-clts/clts-v2.1.0.zip?download=1",
     'cldf-clts-clts-04f04e3')
 _loaded = {}
 
-LB_VERSION = "lexibank-dev.tsv"
+LB_VERSION = "lexibank.tsv"
 
 @attr.s
 class CustomLexeme(Lexeme):
