@@ -46,18 +46,18 @@ COLLECTIONS = {
         ),
 }
 CONDITIONS = {
-        "LexiCore": lambda x: len(x.forms_with_sounds) >= 100,
-        "ClicsCore": lambda x: len(x.concepts) >= 250,
-        "ProtoCore": lambda x: len(x.forms_with_sounds) >= 100,
-        "CogCore": lambda x: len(x.forms_with_sounds) >= 100,
-        "Lexibank": lambda x: len(x.forms_with_sounds) >= 100 or len(x.concepts) >= 250
+        "LexiCore": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100,
+        "ClicsCore": lambda x: len(x.forms_with_sounds) >= 250 and len(x.concepts) >= 250,
+        "ProtoCore": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100,
+        "CogCore": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100,
+        "Lexibank": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100
         }
 CLTS_2_1 = (
     "https://zenodo.org/record/4705149/files/cldf-clts/clts-v2.1.0.zip?download=1",
     'cldf-clts-clts-04f04e3')
 _loaded = {}
 
-LB_VERSION = "lexibank-dev.tsv"
+LB_VERSION = "lexibank-bliss.tsv"
 
 @attr.s
 class CustomLexeme(Lexeme):
@@ -380,7 +380,7 @@ class Dataset(BaseDataset):
                 language = sorted(best_varieties[glc].items(), key=lambda x: x[1][0], reverse=True)[0][1][0]
                 print(language.id, language.dataset)
                 for form in language.forms_with_sounds:
-                    if form.concept and form.concept.concepticon_id:
+                    if form.concept and form.concept.concepticon_id and form.concept.concepticon_id in cid2gls:
                         cgls = cid2gls[form.concept.concepticon_id]
                         writer.add_form_with_segments(
                                 Local_ID=form.id,
@@ -406,7 +406,7 @@ class Dataset(BaseDataset):
                     cgls = cid2gls[concept.concepticon_id]
                     if cgls in visited_concepts:
                         writer.add_concept(
-                                ID=slug(concept.concepticon_gloss, lowercase=True),
+                                ID=slug(cgls, lowercase=True),
                                 Name=concept.concepticon_gloss,
                                 Concepticon_ID=concept.concepticon_id,
                                 Concepticon_Gloss=cgls,
