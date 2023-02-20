@@ -23,21 +23,26 @@ Available online at https://lexibank.clld.org
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 754
-- **Concepts:** 2,662
-- **Lexemes:** 561,635
-- **Sources:** 21
-- **Synonymy:** 1.16
+- **Varieties:** 2,030
+- **Concepts:** 3,034
+- **Lexemes:** 648,871
+- **Sources:** 78
+- **Synonymy:** 1.12
 - **Invalid lexemes:** 0
-- **Tokens:** 3,457,262
-- **Segments:** 816 (0 BIPA errors, 0 CLTS sound class errors, 811 CLTS modified)
-- **Inventory size (avg):** 42.49
+- **Tokens:** 3,498,445
+- **Segments:** 1,491 (0 BIPA errors, 0 CLTS sound class errors, 1483 CLTS modified)
+- **Inventory size (avg):** 37.22
 
 ## Possible Improvements:
 
 - Languages linked to [bookkeeping languoids in Glottolog](http://glottolog.org/glottolog/glottologinformation#bookkeepinglanguoids):
   - Rawngtu Weilong [wela1234](http://glottolog.org/resource/languoid/id/wela1234)
   - Rawngtu Ramtim [wela1234](http://glottolog.org/resource/languoid/id/wela1234)
+  - Naxi (Lijiang) [naxi1246](http://glottolog.org/resource/languoid/id/naxi1246)
+  - Naxi (Yongning) [naxi1246](http://glottolog.org/resource/languoid/id/naxi1246)
+  - Lenca-Salvador [lenc1244](http://glottolog.org/resource/languoid/id/lenc1244)
+  - Sanapaná (Angaité) [sana1281](http://glottolog.org/resource/languoid/id/sana1281)
+  - Betsimisaraka [sout3125](http://glottolog.org/resource/languoid/id/sout3125)
 
 
 

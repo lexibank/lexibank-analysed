@@ -453,36 +453,6 @@ backstromnorthernpakistan-DashkinAstor,Dashkin (Astor),,35.476599,74.774062,,,ba
 backstromnorthernpakistan-KachuraJel,Kachura (Jel),,35.439487,75.449668,,,backstromnorthernpakistan,254,254,202,LexiCore,,Indo-European
 backstromnorthernpakistan-Gultari,Gultari,,34.660371,75.539611,,,backstromnorthernpakistan,219,219,202,LexiCore,,Indo-European
 backstromnorthernpakistan-Dras,Dras,,34.4478362,75.5947267,dras1242,,backstromnorthernpakistan,156,156,147,LexiCore,,Indo-European
-baf2-Bambara,Bambara,,12.9,-7.65,bamb1269,,baf2,292,292,217,LexiCore,Western_Mande,Mande
-baf2-Bangime,Bangime,,14.7984833,-3.76015,bang1363,,baf2,334,334,321,LexiCoreClicsCore,Isolate,Isolate
-baf2-BankanTey,Bankan_Tey,,15.07,-2.91,bank1259,,baf2,325,325,313,LexiCoreClicsCore,North-Eastern_Dogon,Dogon
-baf2-BenTey,Ben_Tey,,14.8524,-2.94641667,bent1238,,baf2,308,308,295,LexiCoreClicsCore,North-Eastern_Dogon,Dogon
-baf2-BonduSo,Bondu_So,,14.98,-3.03,bond1252,,baf2,489,489,317,LexiCoreClicsCore,North-Western_Dogon,Dogon
-baf2-BozoHainyaxo,Bozo_Hainyaxo,,13.75,-5.75,hain1253,,baf2,135,135,122,LexiCore,Soninke-Bozo,Mande
-baf2-BozoTiemaCewe,Bozo_Tiema_Cewe,,15.6,-4.3,tiem1235,,baf2,129,129,115,LexiCore,Soninke-Bozo,Mande
-baf2-BozoTieyaxo,Bozo_Tieyaxo,,14.25,-5,tiey1235,,baf2,133,133,114,LexiCore,Soninke-Bozo,Mande
-baf2-Bunoge,Bunoge,,14.6532333,-3.79361667,buno1241,,baf2,290,290,281,LexiCoreClicsCore,South-Western_Dogon,Dogon
-baf2-DogulDom,Dogul_Dom,,14.49455,-3.56038333,dogu1235,,baf2,305,305,286,LexiCoreClicsCore,South-Western_Dogon,Dogon
-baf2-DonnoSo,Donno_So,,14.49455,-3.368,donn1239,,baf2,232,232,223,LexiCore,South-Eastern_Dogon,Dogon
-baf2-Fulfulde,Fulfulde,,14.49205,-3.61506667,maas1242,,baf2,319,319,306,LexiCoreClicsCore,North-Central_Atlantic,Atlantic
-baf2-Gourou,Gourou,,14.0634,-3.24563333,guru1265,,baf2,165,165,157,LexiCore,North-Eastern_Dogon,Dogon
-baf2-Jamsay,Jamsay,,15.00045,-2.95395,jams1239,,baf2,324,324,310,LexiCoreClicsCore,North-Eastern_Dogon,Dogon
-baf2-Jenaama,Jenaama,,15.5,-4,jena1242,,baf2,245,245,241,LexiCore,Soninke-Bozo,Mande
-baf2-Mombo,Mombo,,14.4,-3.7,momb1254,,baf2,324,324,315,LexiCoreClicsCore,South-Western_Dogon,Dogon
-baf2-Nanga,Nanga,,14.8193833,-3.01043333,nang1261,,baf2,334,334,321,LexiCoreClicsCore,North-Eastern_Dogon,Dogon
-baf2-Penange,Penange,,14.39385,-4.03238333,pena1270,,baf2,303,303,294,LexiCoreClicsCore,South-Western_Dogon,Dogon
-baf2-PergeTegu,Perge_Tegu,,14.85205,-3.305,perg1234,,baf2,324,324,313,LexiCoreClicsCore,North-Eastern_Dogon,Dogon
-baf2-SonghaiSenni,Songhai_Senni,,15.2778333,-1.69998333,humb1244,,baf2,339,339,295,LexiCoreClicsCore,Eastern_Songhai,Songhai
-baf2-Soninke,Soninke,,13.13,-11.72,soni1259,,baf2,243,243,190,LexiCore,Soninke-Bozo,Mande
-baf2-TebulUre,Tebul_Ure,,14.685,-3.057,tebu1239,,baf2,304,304,297,LexiCoreClicsCore,North-Western_Dogon,Dogon
-baf2-TiranigeDiga,Tiranige_Diga,,14.85,-3.73333333,tira1258,,baf2,312,312,304,LexiCoreClicsCore,South-Western_Dogon,Dogon
-baf2-TogoKan,Togo_Kan,,13.933,-3.416,togo1254,,baf2,317,317,305,LexiCoreClicsCore,South-Eastern_Dogon,Dogon
-baf2-TommoSo,Tommo_So,,14.5608333,-3.39393333,tomm1242,,baf2,327,327,313,LexiCoreClicsCore,South-Eastern_Dogon,Dogon
-baf2-TomoKan,Tomo_Kan,,13.933,-3.416,tomo1243,,baf2,145,145,135,LexiCore,South-Eastern_Dogon,Dogon
-baf2-ToroSo,Toro_So,,14.4666667,-3.31666667,toro1252,,baf2,244,244,155,LexiCore,South-Eastern_Dogon,Dogon
-baf2-ToroTegu,Toro_Tegu,,15.0052667,-2.085,toro1253,,baf2,332,332,316,LexiCoreClicsCore,North-Eastern_Dogon,Dogon
-baf2-YandaDom,Yanda_Dom,,14.6471833,-3.14816667,yand1257,,baf2,324,324,312,LexiCoreClicsCore,North-Western_Dogon,Dogon
-baf2-YornoSo,Yorno_So,,14.5627,-3.2353,yorn1234,,baf2,331,331,316,LexiCoreClicsCore,North-Western_Dogon,Dogon
 bantubvd-1,Kinyamwezi F22,,-5.08559,32.94452,nyam1276,,bantubvd,466,466,387,LexiCoreClicsCore,,Atlantic-Congo
 bantubvd-2,Bukusu E.31c,,0.68043,34.7719,buku1249,,bantubvd,433,433,383,LexiCoreClicsCore,,Atlantic-Congo
 bantubvd-3,Koyo C.24,,-0.69688,15.7508,koyo1242,,bantubvd,386,386,358,LexiCoreClicsCore,,Atlantic-Congo
@@ -817,29 +787,6 @@ castrozhuang-DuAnGaoling,Du'an Gaoling,,24.06382,108.079128,cent2009,,castrozhua
 castrozhuang-DuAnBaiwang,Du'an Baiwang,,24.11682,108.41675,cent2009,,castrozhuang,522,522,488,LexiCoreClicsCore,Zhuang,Tai-Kadai
 castrozhuang-XinchengBeigeng,Xincheng Beigeng,,23.775707,108.559842,east2326,,castrozhuang,525,525,487,LexiCoreClicsCore,Zhuang,Tai-Kadai
 castrozhuang-XinchengGuosui,Xincheng Guosui,,23.879303,108.80687,east2326,,castrozhuang,523,523,487,LexiCoreClicsCore,Zhuang,Tai-Kadai
-chacolanguages-Abipon,Abipón,,-29,-61,abip1241,,chacolanguages,216,216,155,LexiCore,,Guaicuruan
-chacolanguages-Ava,Ava Guaraní,,-20.42,-63.37,east2555,,chacolanguages,263,263,215,LexiCore,,Tupian
-chacolanguages-Ayoreo,Ayoreo,,-19.22,-60.22,ayor1240,,chacolanguages,377,377,212,LexiCore,,Zamucoan
-chacolanguages-Cerriteno,Toba de Cerrito,,-27.3247044,-57.6695154,toba1269,,chacolanguages,180,180,154,LexiCore,,Guaicuruan
-chacolanguages-Chamacoco,Chamacoco,,-20.59,-58.2,cham1315,,chacolanguages,251,251,162,LexiCore,,Zamucoan
-chacolanguages-Chorote,Iyojwa'ja Chorote,,-22.19,-63.24,iyoj1235,,chacolanguages,360,360,216,LexiCore,,Matacoan
-chacolanguages-Enlhet,Enlhet,,-22.54,-58.98,nort2971,,chacolanguages,438,438,216,LexiCore,,Enlhet-Enenlhet
-chacolanguages-EnxetSur,Enxet Sur,,-23.43,-57.95,sout2989,,chacolanguages,334,334,189,LexiCore,,Enlhet-Enenlhet
-chacolanguages-Guarani,Guaraní Paraguayo,,-25.61,-57.09,para1311,,chacolanguages,325,325,214,LexiCore,,Tupian
-chacolanguages-Kadiweo,Kadiweo,,-19.72,-57.58,kadi1248,,chacolanguages,225,225,157,LexiCore,,Guaicuruan
-chacolanguages-Lule,Lule,,-25.22,-61.89,lule1238,,chacolanguages,296,296,174,LexiCore,,Lule-Vilela
-chacolanguages-Maka,Maká,,-25.01,-57.37,maca1260,,chacolanguages,282,282,199,LexiCore,,Matacoan
-chacolanguages-Manjui,Manjui,,-22.48,-62.3,iyow1239,,chacolanguages,254,254,176,LexiCore,,Matacoan
-chacolanguages-Mapudungun,Mapudungun,,-38.74,-71.28,mapu1245,,chacolanguages,256,256,207,LexiCore,,Araucanian
-chacolanguages-Mbya,Mbya,,-26.02,-52.71,mbya1239,,chacolanguages,223,223,168,LexiCore,,Tupian
-chacolanguages-Mocovi,Mocoví,,-28.1,-60.41,moco1246,,chacolanguages,298,298,213,LexiCore,,Guaicuruan
-chacolanguages-Nivacle,Nivaclé,,-22.86,-61.76,niva1238,,chacolanguages,376,376,217,LexiCore,,Matacoan
-chacolanguages-Pilaga,Pilagá,,-25.01,-60.15,pila1245,,chacolanguages,287,287,211,LexiCore,,Guaicuruan
-chacolanguages-Quichua,Quichua Santiagueño,,-27.82,-63.25,sant1432,,chacolanguages,235,235,162,LexiCore,,Quechua
-chacolanguages-Tapiete,Tapiete,,-21.42,-62.68,tapi1253,,chacolanguages,272,272,194,LexiCore,,Tupian
-chacolanguages-Toba,Toba,,-23.77,-61.96,toba1269,,chacolanguages,471,471,216,LexiCore,,Guaicuruan
-chacolanguages-TobaPilaga,Toba-pilagá,,-23.4989,-61.6489,toba1270,,chacolanguages,368,368,192,LexiCore,,Guaicuruan
-chacolanguages-Wichi,Wichí,,-23.16,-62.18,wich1261,,chacolanguages,388,388,209,LexiCore,,Matacoan
 chaconbaniwa-Aha,Aha,,2.17859,-67.7704,bani1255,,chaconbaniwa,197,197,193,LexiCore,,Arawakan
 chaconbaniwa-Dzawinai,Dzawinai,,2.17859,-67.7704,bani1255,,chaconbaniwa,124,124,123,LexiCore,,Arawakan
 chaconbaniwa-Ehe,Ehe,,2.17859,-67.7704,bani1255,,chaconbaniwa,194,194,190,LexiCore,,Arawakan
@@ -1006,10 +953,10 @@ crossandean-Sullkatiti,Sullkatiti,,-16.77,-68.71,,,crossandean,153,153,150,LexiC
 crossandean-Atalla,Huancavelica,,-12.76,-74.87,huan1249,,crossandean,153,153,150,LexiCore,Quechua,Quechuan
 crossandean-Azuay,Azuay,,-2.48,-78.97,azua1234,,crossandean,155,155,148,LexiCore,Quechua,Quechuan
 crossandean-Curva,Apolobamba,,-14.4,-68.79,apol1241,,crossandean,152,152,150,LexiCore,Quechua,Quechuan
-crossandean-Apuri,Apurí-Madean-Viñac,,-12.89,-75.81,apur1253,,crossandean,153,153,141,LexiCore,Quechua,Quechuan
+crossandean-Apuri,Apurí-Madean-Viñac,,-12.89,-75.81,apur1253,,crossandean,152,152,140,LexiCore,Quechua,Quechuan
 crossandean-Ayacucho,Ayacucho,,-13.85,-74.32,ayac1239,,crossandean,156,156,149,LexiCore,Quechua,Quechuan
-crossandean-Huangascar,Chocos-Huangáscar,,-12.9,-75.83,azan1238,,crossandean,153,153,142,LexiCore,Quechua,Quechuan
-crossandean-Cacra-Hongos,Cacra-Hongos,,-12.81,-75.78,cacr1238,,crossandean,151,151,140,LexiCore,Quechua,Quechuan
+crossandean-Huangascar,Chocos-Huangáscar,,-12.9,-75.83,azan1238,,crossandean,152,152,141,LexiCore,Quechua,Quechuan
+crossandean-Cacra-Hongos,Cacra-Hongos,,-12.81,-75.78,cacr1238,,crossandean,151,151,139,LexiCore,Quechua,Quechuan
 crossandean-Chetilla,Cajamarca,,-7.09,-78.32,caja1238,,crossandean,150,150,149,LexiCore,Quechua,Quechuan
 crossandean-Chachapoyas,Chachapoyas,,-6.27,-77.66,chac1250,,crossandean,146,146,142,LexiCore,Quechua,Quechuan
 crossandean-Yanac,Corongo,,-8.58,-77.99,coro1247,,crossandean,152,152,150,LexiCore,Quechua,Quechuan
@@ -1023,16 +970,16 @@ crossandean-Jauja,Jauja-Huanca,,-11.67,-75.28,jauj1238,,crossandean,148,148,139,
 crossandean-Huanca,Huaylla-Huanca,,-11.77,-75.49,huay1241,,crossandean,161,161,147,LexiCore,Quechua,Quechuan
 crossandean-Inkawasi,Lambayeque,,-6.17,-79.47,lamb1276,,crossandean,154,154,150,LexiCore,Quechua,Quechuan
 crossandean-Maragua,Chuquisaca,,-18.96,-65.78,sout2991,,crossandean,153,153,150,LexiCore,Quechua,Quechuan
-crossandean-Napo,Napo ,,-0.04,-76.23,napo1242,,crossandean,145,145,145,LexiCore,Quechua,Quechuan
+crossandean-Napo,Napo,,-0.04,-76.23,napo1242,,crossandean,145,145,145,LexiCore,Quechua,Quechuan
 crossandean-Troje,Chimborazo,,-1.37,-78.85,nort3351,,crossandean,153,153,150,LexiCore,Quechua,Quechuan
 crossandean-Pacaraos,Pacaraos,,-11.14,-76.73,paca1245,,crossandean,150,150,140,LexiCore,Quechua,Quechuan
 crossandean-Puno,Puno,,-14.61,-70.21,puno1238,,crossandean,151,151,150,LexiCore,Quechua,Quechuan
 crossandean-Lamas,San Martín,,-6.42,-76.52,sanm1289,,crossandean,151,151,147,LexiCore,Quechua,Quechuan
-crossandean-SanPedro,Liscay-San Pedro,,-13.09,-75.74,sanp1258,,crossandean,150,150,141,LexiCore,Quechua,Quechuan
+crossandean-SanPedro,Liscay-San Pedro,,-13.09,-75.74,sanp1258,,crossandean,149,149,140,LexiCore,Quechua,Quechuan
 crossandean-Santiagueno,Santiago del Estero,,-27.79,-64.25,sant1432,,crossandean,147,147,146,LexiCore,Quechua,Quechuan
 crossandean-Pastaza,Pastaza,,-4.79,-76.53,sout2990,,crossandean,157,157,147,LexiCore,Quechua,Quechuan
 crossandean-Pocona,Cochabamba,,-17.67,-65.42,coch1274,,crossandean,154,154,150,LexiCore,Quechua,Quechuan
-crossandean-Lincha-Tana,Lincha-Tana,,-12.8,-75.66,tana1291,,crossandean,150,150,139,LexiCore,Quechua,Quechuan
+crossandean-Lincha-Tana,Lincha-Tana,,-12.8,-75.66,tana1291,,crossandean,150,150,138,LexiCore,Quechua,Quechuan
 crossandean-Serena,Tena,,-0.76,-77.54,tena1240,,crossandean,152,152,150,LexiCore,Quechua,Quechuan
 crossandean-Tarma,Yaru,,-11.42,-75.68,yaru1256,,crossandean,147,147,144,LexiCore,Quechua,Quechuan
 crossandean-Laraos,Laraos,,-13.11,-75.77,yauy1235,,crossandean,151,151,150,LexiCore,Quechua,Quechuan
@@ -1041,7 +988,7 @@ crossandean-Bobonaza,Bobonaza,,-1.5,-77.9,,,crossandean,145,145,145,LexiCore,Que
 crossandean-Chacpar,Chavín,,-9.58,-77.21,,,crossandean,155,155,149,LexiCore,Quechua,
 crossandean-Raimondi,Antonio Raimondi,,-9.1,-77.01,,,crossandean,138,138,137,LexiCore,Quechua,
 crossandean-Taquile,Taquile,,-15.77,-69.68,,,crossandean,150,150,149,LexiCore,Quechua,
-crossandean-Wari,Wari,,-9.34,-77.17,,,crossandean,143,143,140,LexiCore,Quechua,
+crossandean-Wari,Huari,,-9.34,-77.17,,,crossandean,143,143,140,LexiCore,Quechua,
 crossandean-CuzquenoAntiguo,Cuzqueño Antiguo,,-14.09,-71.77,,,crossandean,160,160,146,LexiCore,Quechua,
 crossandean-Chipaya,Chipaya,,-18.74,-67.9,chip1262,,crossandean,165,165,146,LexiCore,Uru-Chipaya,Uru-Chipaya
 davletshinaztecan-ClassicalNahuatl,Classical Nahuatl,,19.72,-96.97,clas1250,,davletshinaztecan,101,101,100,LexiCore,,Uto-Aztecan
@@ -1193,36 +1140,6 @@ gerarditupi-GuaraniMbya,GuaraniMbya,,-26.0188,-52.711,mbya1239,,gerarditupi,239,
 gerarditupi-GuaraniParaguay,Guarani Paraguay,,-25.60551,-57.08816,para1311,,gerarditupi,236,236,234,LexiCore,,Tupian
 gerarditupi-Guayaki,Guayaki,,-25.5865,-56.4697,ache1246,,gerarditupi,112,112,112,LexiCore,,Tupian
 gerarditupi-Xeta,Xeta,,-24.9408,-52.2266,xeta1241,,gerarditupi,121,121,120,LexiCore,,Tupian
-gravinachadic-Afade,Afade,,12.0551,14.6343,afad1236,,gravinachadic,704,704,645,LexiCoreClicsCore,KotokoNorth,Afro-Asiatic
-gravinachadic-Bata,Bata,,9.68091,12.677,bata1314,,gravinachadic,340,340,301,LexiCoreClicsCore,Bata,Afro-Asiatic
-gravinachadic-Buduma,Buduma,,13.0692,14.4492,budu1265,,gravinachadic,413,413,363,LexiCoreClicsCore,KotokoIsland,Afro-Asiatic
-gravinachadic-Buwal,Buwal,,10.6151,13.8838,buwa1243,,gravinachadic,1163,1163,946,LexiCoreClicsCore,Daba,Afro-Asiatic
-gravinachadic-Cuvok,Cuvok,,10.6448,14.0006,cuvo1236,,gravinachadic,1425,1425,1136,LexiCoreClicsCore,Mafa,Afro-Asiatic
-gravinachadic-Dghwede,Dghwede,,11.05751,13.77847,dghw1239,,gravinachadic,173,173,168,LexiCore,Mandara,Afro-Asiatic
-gravinachadic-Dugwor,Dugwor,,10.752,14.2134,dugw1239,,gravinachadic,1534,1534,1192,LexiCoreClicsCore,Mofu,Afro-Asiatic
-gravinachadic-Gavar,Gavar,,10.5603,13.8188,gava1241,,gravinachadic,1180,1180,992,LexiCoreClicsCore,Daba,Afro-Asiatic
-gravinachadic-GizigaMarva,GizigaMarva,,10.6755,14.219,nort3047,,gravinachadic,1269,1269,1056,LexiCoreClicsCore,Maroua,Afro-Asiatic
-gravinachadic-KamweFutu,Kamwe-Futu,,10.646,13.5136,kamw1239,,gravinachadic,862,862,763,LexiCoreClicsCore,Higi,Afro-Asiatic
-gravinachadic-Lagwan,Lagwan,,11.5592,14.9884,lagw1237,,gravinachadic,1346,1346,1128,LexiCoreClicsCore,KotokoCentre,Afro-Asiatic
-gravinachadic-Lamang,Lamang,,11.0243,13.7362,lama1288,,gravinachadic,198,198,166,LexiCore,Lamang,Afro-Asiatic
-gravinachadic-Malgbe,Malgbe,,12.5342,14.8475,malg1250,,gravinachadic,1311,1311,1094,LexiCoreClicsCore,KotokoNorth,Afro-Asiatic
-gravinachadic-Margi,Margi,,10.93854,13.0521,marg1265,,gravinachadic,124,124,121,LexiCore,Margi,Afro-Asiatic
-gravinachadic-MargiS,MargiS,,10.53854,12.99521,marg1266,,gravinachadic,151,151,135,LexiCore,Margi,Afro-Asiatic
-gravinachadic-Mazera,Mazera,,11.1433,15.044,maje1243,,gravinachadic,333,333,306,LexiCoreClicsCore,KotokoSouth,Afro-Asiatic
-gravinachadic-Mbara,Mbara,,10.91,15.54,mbar1260,,gravinachadic,377,377,333,LexiCoreClicsCore,Musgum,Afro-Asiatic
-gravinachadic-Mbudum,Mbudum,,10.466,13.9322,mbed1242,,gravinachadic,1270,1270,1068,LexiCoreClicsCore,Daba,Afro-Asiatic
-gravinachadic-Mbuko,Mbuko,,10.7788,14.1677,mbuk1243,,gravinachadic,953,953,520,LexiCoreClicsCore,Hurza,Afro-Asiatic
-gravinachadic-Merey,Merey,,10.7458,14.09,mere1246,,gravinachadic,1210,1210,871,LexiCoreClicsCore,Mofu,Afro-Asiatic
-gravinachadic-MofuGudur,Mofu-Gudur,,10.567,14.0314,mofu1248,,gravinachadic,179,179,129,LexiCore,Mofu,Afro-Asiatic
-gravinachadic-Moloko,Moloko,,10.7933,14.2521,molo1266,,gravinachadic,573,573,459,LexiCoreClicsCore,Mofu,Afro-Asiatic
-gravinachadic-Mpade,Mpade,,12.561391,14.446893,mpad1242,,gravinachadic,1706,1706,1215,LexiCoreClicsCore,KotokoNorth,Afro-Asiatic
-gravinachadic-Mser,Mser,,11.9765,15.0373,mser1242,,gravinachadic,1470,1470,1215,LexiCoreClicsCore,KotokoCentre,Afro-Asiatic
-gravinachadic-Muyang,Muyang,,10.86047,14.21246,muya1243,,gravinachadic,1050,1050,478,LexiCoreClicsCore,Mofu,Afro-Asiatic
-gravinachadic-Ouldeme,Ouldeme,,10.955,14.1378,wuzl1236,,gravinachadic,704,704,496,LexiCoreClicsCore,Mofu,Afro-Asiatic
-gravinachadic-Psikye,Psikye,,10.677,13.569,psik1239,,gravinachadic,217,217,166,LexiCore,Higi,Afro-Asiatic
-gravinachadic-ShoaArabic,Shoa Arabic,,14.67,13.5,chad1249,,gravinachadic,452,452,386,LexiCoreClicsCore,Arabic,Afro-Asiatic
-gravinachadic-Sukur,Sukur,,10.8933,13.6437,suku1272,,gravinachadic,245,245,232,LexiCore,Sukur,Afro-Asiatic
-gravinachadic-Vame,Vame,,10.9481,14.2131,vame1236,,gravinachadic,642,642,492,LexiCoreClicsCore,Hurza,Afro-Asiatic
 halenepal-Nepali,Nepali,,28.0,85.0,nepa1254,,halenepal,2454,2454,709,LexiCoreClicsCore,Indo-Aryan,Indo-European
 halenepal-Gurung,Gurung,,27.41687,86.28988,guru1261,,halenepal,2006,2006,593,LexiCoreClicsCore,Tamangic,Sino-Tibetan
 halenepal-SahuTamang,Tamang (Sahu),,28.0239,85.0563,west2415,,halenepal,1848,1848,584,LexiCoreClicsCore,Tamangic,Sino-Tibetan
@@ -1342,290 +1259,6 @@ hubercolumbian-Wounaan,Wounaan,,8.5,-78.0,woun1238,,hubercolumbian,454,454,339,L
 hubercolumbian-Yucuna,Yucuna,,-0.76075,-71.0033,yucu1253,,hubercolumbian,411,411,336,LexiCoreClicsCore,,Arawakan
 hubercolumbian-Yukpa,Yukpa,,9.67534,-73.0557,yukp1241,,hubercolumbian,349,349,271,LexiCoreClicsCore,,Cariban
 hubercolumbian-Yuruti,Yurutí,,0.735585,-69.6955,yuru1263,,hubercolumbian,382,382,335,LexiCoreClicsCore,,Tucanoan
-idssegmented-andi,Andi,,42.8078,46.2919,andi1255,,idssegmented,1544,1544,1287,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-akhvakhnortherndialect,Akhvakh (Northern dialect),,42.4003,46.3037,akhv1239,,idssegmented,1636,1636,1286,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-akhvakhsoutherndialect,Akhvakh (Southern dialect),,42.4003,46.3037,akhv1239,,idssegmented,1541,1541,1292,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-bagvalal,Bagvalal,,42.3966,46.1041,bagv1239,,idssegmented,1545,1545,1286,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-botlikh,Botlikh,,42.665,46.22,botl1242,,idssegmented,1430,1430,1289,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-godoberi,Godoberi,,42.7428,46.2252,ghod1238,,idssegmented,1514,1514,1283,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-karata,Karata,,42.6501,46.3151,kara1474,,idssegmented,1484,1484,1290,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-karatatokitindialect,Karata (Tokitin dialect),,42.5727,46.3724,toki1238,,idssegmented,1528,1528,1291,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-hinuq,Hinuq,,42.4502,45.8064,hinu1240,,idssegmented,1748,1748,1287,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-tindi,Tindi,,42.3316,45.9227,tind1238,,idssegmented,1584,1584,1283,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-chamalal,Chamalal,,42.5024,45.995,cham1309,,idssegmented,1695,1695,1287,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-hunzib,Hunzib,,42.0808,46.1369,hunz1247,,idssegmented,1529,1529,1288,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-lak,Lak,,42.1328,47.0809,lakk1252,,idssegmented,1503,1503,1278,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwa,Dargwa,,42.4257,47.4388,darg1241,,idssegmented,1768,1768,1296,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwakubachidialect,Dargwa (Kubachi dialect),,42.08504,47.601843,kuba1248,,idssegmented,1363,1363,1278,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwakhajdakdialect,Dargwa (Khajdak dialect),,42.052428,47.776611,kajt1238,,idssegmented,1493,1493,1300,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-aghul,Aghul,,41.9242,47.5843,aghu1253,,idssegmented,1383,1383,1274,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-archivariety1,Archi (variety 1),,42.3239,46.8267,arch1244,,idssegmented,1364,1364,1279,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-budukh,Budukh,,41.2272,48.3353,budu1248,,idssegmented,1712,1712,1267,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-lezgian,Lezgian,,41.5157,47.8951,lezg1247,,idssegmented,1850,1850,1302,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-lezgimikrakhdialect,Lezgi (Mikrakh dialect),,41.5157,47.8951,lezg1247,,idssegmented,1448,1448,1287,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-rutul,Rutul,,41.6187,47.3244,rutu1240,,idssegmented,1535,1535,1291,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-tabasarannortherndialectkhanagsubdialect,Tabasaran (Northern dialect Khanag subdialect),,42.0198,47.8379,taba1259,,idssegmented,1696,1696,1297,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-khinalug,Khinalug,,41.1801,48.0571,khin1240,,idssegmented,1631,1631,1275,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-tsakhur,Tsakhur,,41.5916,46.8858,tsak1249,,idssegmented,1440,1440,1282,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-azerbaijani,Azerbaijani,,40.9777,46.4737,nort2697,,idssegmented,1761,1761,1302,LexiCoreClicsCore,,Turkic
-idssegmented-kumyk,Kumyk,,43.0,47.0,kumy1244,,idssegmented,1805,1805,1300,LexiCoreClicsCore,,Turkic
-idssegmented-nogai,Nogai,,43.5917,46.6618,noga1249,,idssegmented,2031,2031,1297,LexiCoreClicsCore,,Turkic
-idssegmented-judeotat,Judeo-Tat,,42.068306,48.264749,jude1256,,idssegmented,2215,2215,1291,LexiCoreClicsCore,,Indo-European
-idssegmented-chechen,Chechen,,43.5,45.5,chec1245,,idssegmented,1705,1705,1301,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-udi,Udi,,40.9,47.7236,udii1243,,idssegmented,1342,1342,1224,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-avarkusurdialect,Avar (Kusur dialect),,41.7047,46.558,avar1256,,idssegmented,1401,1401,1296,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-avar,Avar,,41.7047,46.558,avar1256,,idssegmented,1534,1534,1295,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-erzyamordvin,Erzya Mordvin,,52.8548,45.3901,erzy1239,,idssegmented,1376,1376,1276,LexiCoreClicsCore,,Uralic
-idssegmented-estonian,Estonian,,58.55,25.82,esto1258,,idssegmented,1687,1687,1304,LexiCoreClicsCore,,Uralic
-idssegmented-finnish,Finnish,,64.7628,25.5577,finn1318,,idssegmented,1727,1727,1304,LexiCoreClicsCore,,Uralic
-idssegmented-hungarian,Hungarian,,46.9068585714,19.6555271429,hung1274,,idssegmented,1711,1711,1303,LexiCoreClicsCore,,Uralic
-idssegmented-khanty,Khanty,,62.4308,66.1218,khan1273,,idssegmented,1404,1404,1130,LexiCoreClicsCore,,Uralic
-idssegmented-komi,Komi,,64.0527,54.946,komi1268,,idssegmented,1771,1771,1298,LexiCoreClicsCore,,Uralic
-idssegmented-northernsaami,Northern Saami,,68.725,22.1113,nort2671,,idssegmented,1377,1377,1249,LexiCoreClicsCore,,Uralic
-idssegmented-mansi,Mansi,,64.4118,61.344,mans1258,,idssegmented,1461,1461,1158,LexiCoreClicsCore,,Uralic
-idssegmented-mari,Mari,,55.8307,48.405,east2328,,idssegmented,1553,1553,1302,LexiCoreClicsCore,,Uralic
-idssegmented-nenets,Nenets,,66.1775,71.0234,nene1249,,idssegmented,1301,1301,1093,LexiCoreClicsCore,,Uralic
-idssegmented-selkup,Selkup,,59.9409,82.3004,selk1253,,idssegmented,1226,1226,1006,LexiCoreClicsCore,,Uralic
-idssegmented-udmurt,Udmurt,,56.12921,52.63548,udmu1245,,idssegmented,1519,1519,1290,LexiCoreClicsCore,,Uralic
-idssegmented-bezhta,Bezhta,,42.1206,46.0332,bezh1248,,idssegmented,1731,1731,1291,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-tsezmokokdialect,Tsez (Mokok dialect),,42.2646,45.8096,dido1241,,idssegmented,1523,1523,1289,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwamuiridialect,Dargwa (Muiri dialect),,42.4257,47.4388,darg1241,,idssegmented,1539,1539,1287,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-azerbaijaniterekemedialect,Azerbaijani (Terekeme dialect),,40.9777,46.4737,nort2697,,idssegmented,1469,1469,1300,LexiCoreClicsCore,,Turkic
-idssegmented-ancientgreek,Ancient Greek,,39.8155,21.9129,anci1242,,idssegmented,2241,2241,1256,LexiCoreClicsCore,,Indo-European
-idssegmented-moderngreek,Modern Greek,,38.36,23.13,mode1248,,idssegmented,1721,1721,1307,LexiCoreClicsCore,,Indo-European
-idssegmented-latin,Latin,,41.9026,12.4502,lati1261,,idssegmented,1933,1933,1282,LexiCoreClicsCore,,Indo-European
-idssegmented-italian,Italian,,43.0464,12.6489,ital1282,,idssegmented,1543,1543,1308,LexiCoreClicsCore,,Indo-European
-idssegmented-french,French,,48.0,2.0,stan1290,,idssegmented,1644,1644,1308,LexiCoreClicsCore,,Indo-European
-idssegmented-panare,Panare,,6.95035,-65.8483,enap1235,,idssegmented,1115,1115,1016,LexiCoreClicsCore,,Cariban
-idssegmented-macushi,Macushi,,4.31861,-60.2209,macu1259,,idssegmented,947,947,909,LexiCoreClicsCore,,Cariban
-idssegmented-dekwana,De'kwana,,4.70705,-64.3877,maqu1238,,idssegmented,439,439,430,LexiCoreClicsCore,,Cariban
-idssegmented-waiwai,Wai Wai,,1.50881,-59.1417,waiw1244,,idssegmented,1014,1014,969,LexiCoreClicsCore,,Cariban
-idssegmented-spanish,Spanish,,40.4414,-1.11788,stan1288,,idssegmented,1770,1770,1308,LexiCoreClicsCore,,Indo-European
-idssegmented-catalan,Catalan,,41.453,1.569,stan1289,,idssegmented,1543,1543,1307,LexiCoreClicsCore,,Indo-European
-idssegmented-portuguese,Portuguese,,39.91,-8.1,port1283,,idssegmented,1683,1683,1308,LexiCoreClicsCore,,Indo-European
-idssegmented-romanian,Romanian,,46.3913,24.2256,roma1327,,idssegmented,1229,1229,917,LexiCoreClicsCore,,Indo-European
-idssegmented-oldirish,Old Irish,,53.0,-8.0,oldi1245,,idssegmented,1353,1353,859,LexiCoreClicsCore,,Indo-European
-idssegmented-irish,Irish,,53.2186,-7.61509,iris1253,,idssegmented,2420,2420,1259,LexiCoreClicsCore,,Indo-European
-idssegmented-welsh,Welsh,,52.0,-4.0,wels1247,,idssegmented,2122,2122,1306,LexiCoreClicsCore,,Indo-European
-idssegmented-breton,Breton,,48.2452,-3.78934,bret1244,,idssegmented,1773,1773,1252,LexiCoreClicsCore,,Indo-European
-idssegmented-gothic,Gothic,,46.9304,29.9786,goth1244,,idssegmented,1001,1001,749,LexiCoreClicsCore,,Indo-European
-idssegmented-oldnorse,Old Norse,,63.42,10.38,oldn1244,,idssegmented,1442,1442,897,LexiCoreClicsCore,,Indo-European
-idssegmented-danish,Danish,,54.8655,9.36284,dani1285,,idssegmented,1559,1559,1297,LexiCoreClicsCore,,Indo-European
-idssegmented-swedish,Swedish,,59.800634,17.389526,swed1254,,idssegmented,2101,2101,1306,LexiCoreClicsCore,,Indo-European
-idssegmented-oldenglish,Old English,,51.06,-1.31,olde1238,,idssegmented,2490,2490,1230,LexiCoreClicsCore,,Indo-European
-idssegmented-middleenglish,Middle English,,51.65,-1.11,midd1317,,idssegmented,1995,1995,1260,LexiCoreClicsCore,,Indo-European
-idssegmented-english,English,,53.0,-1.0,stan1293,,idssegmented,1553,1553,1308,LexiCoreClicsCore,,Indo-European
-idssegmented-dutch,Dutch,,52.0,5.0,dutc1256,,idssegmented,1731,1731,1308,LexiCoreClicsCore,,Indo-European
-idssegmented-oldhighgerman,Old High German,,52.0,10.0,oldh1241,,idssegmented,4945,4945,1205,LexiCoreClicsCore,,Indo-European
-idssegmented-middlehighgerman,Middle High German,,48.254,10.599,midd1343,,idssegmented,1997,1997,1280,LexiCoreClicsCore,,Indo-European
-idssegmented-german,German,,48.649,12.4676,stan1295,,idssegmented,1898,1898,1307,LexiCoreClicsCore,,Indo-European
-idssegmented-yiddish,Yiddish,,51.75,19.42,east2295,,idssegmented,1786,1786,1305,LexiCoreClicsCore,,Indo-European
-idssegmented-lithuanian,Lithuanian,,55.1429,23.9601,lith1251,,idssegmented,1919,1919,1305,LexiCoreClicsCore,,Indo-European
-idssegmented-latvian,Latvian,,56.826108,24.309118,latv1249,,idssegmented,1693,1693,1308,LexiCoreClicsCore,,Indo-European
-idssegmented-oldprussian,Old Prussian,,52.394,14.757,prus1238,,idssegmented,591,591,563,LexiCoreClicsCore,,Indo-European
-idssegmented-oldchurchslavonic,Old Church Slavonic,,43.7171,22.8442,chur1257,,idssegmented,1207,1207,847,LexiCoreClicsCore,,Indo-European
-idssegmented-bulgarian,Bulgarian,,43.3646,25.047,bulg1262,,idssegmented,2351,2351,1299,LexiCoreClicsCore,,Indo-European
-idssegmented-serbocroatian,Serbo-Croatian,,44.15,18.81,sout1528,,idssegmented,2123,2123,1298,LexiCoreClicsCore,,Indo-European
-idssegmented-czech,Czech,,49.873398,15.10437,czec1258,,idssegmented,1805,1805,1302,LexiCoreClicsCore,,Indo-European
-idssegmented-polish,Polish,,51.8439,18.6255,poli1260,,idssegmented,2040,2040,1307,LexiCoreClicsCore,,Indo-European
-idssegmented-russian,Russian,,59.0,50.0,russ1263,,idssegmented,1698,1698,1303,LexiCoreClicsCore,,Indo-European
-idssegmented-albaniantoskvariety,Albanian (Tosk variety),,41.0,20.0,tosk1239,,idssegmented,1977,1977,1254,LexiCoreClicsCore,,Indo-European
-idssegmented-armenianeasternvariety,Armenian (Eastern variety),,40.0,45.0,nucl1235,,idssegmented,1864,1864,1297,LexiCoreClicsCore,,Indo-European
-idssegmented-armenianwesternvariety,Armenian (Western variety),,40.1897,44.4839,homs1234,,idssegmented,1835,1835,1297,LexiCoreClicsCore,,Indo-European
-idssegmented-hittite,Hittite,,40.0,35.0,hitt1242,,idssegmented,1108,1108,679,LexiCoreClicsCore,,Indo-European
-idssegmented-tochariana,Tocharian A,,42.98,89.18,tokh1242,,idssegmented,609,609,538,LexiCoreClicsCore,,Indo-European
-idssegmented-tocharianb,Tocharian B,,41.65,82.9,tokh1243,,idssegmented,902,902,767,LexiCoreClicsCore,,Indo-European
-idssegmented-sanskrit,Sanskrit,,20.0,77.0,sans1269,,idssegmented,2684,2684,1231,LexiCoreClicsCore,,Indo-European
-idssegmented-romani,Romani,,46.09,18.16,vlax1238,,idssegmented,1720,1720,1262,LexiCoreClicsCore,,Indo-European
-idssegmented-avestan,Avestan,,34.217,62.112,aves1237,,idssegmented,841,841,560,LexiCoreClicsCore,,Indo-European
-idssegmented-persian,Persian,,32.9,53.3,west2369,,idssegmented,1618,1618,1171,LexiCoreClicsCore,,Indo-European
-idssegmented-ancientaramaic,Ancient Aramaic,,32.84,37.0,olda1245,,idssegmented,1925,1925,1191,LexiCoreClicsCore,,Afro-Asiatic
-idssegmented-elamite,Elamite,,31.1833,48.2333,elam1244,,idssegmented,787,787,340,LexiCoreClicsCore,,Elamite
-idssegmented-negerhollands,Negerhollands,,18.3416,-64.8922,nege1244,,idssegmented,1228,1228,867,LexiCoreClicsCore,,Indo-European
-idssegmented-jamaicancreolelimonesecreoledialect,Jamaican Creole (Limonese Creole dialect),,18.13,-77.2612,jama1262,,idssegmented,1676,1676,1270,LexiCoreClicsCore,,Indo-European
-idssegmented-basque,Basque,,43.2787,-1.31622,basq1248,,idssegmented,1523,1523,1213,LexiCoreClicsCore,,Basque
-idssegmented-hausa,Hausa,,11.1513,8.7804,haus1257,,idssegmented,1691,1691,1271,LexiCoreClicsCore,,Afro-Asiatic
-idssegmented-polci,Polci,,10.0258,9.53362,polc1243,,idssegmented,1161,1161,1095,LexiCoreClicsCore,,Afro-Asiatic
-idssegmented-nahuatlsierradezacapoaxtlavariety,Nahuatl (Sierra de Zacapoaxtla variety),,20.1554,-97.5556,high1278,,idssegmented,1418,1418,886,LexiCoreClicsCore,,Uto-Aztecan
-idssegmented-chatinozacatepecvariety,Chatino (Zacatepec variety),,16.08,-97.3069,zaca1242,,idssegmented,1566,1566,1241,LexiCoreClicsCore,,Otomanguean
-idssegmented-karok,Karok,,41.8228,-123.315,karo1304,,idssegmented,852,852,815,LexiCoreClicsCore,,Karok
-idssegmented-seri,Seri,,28.9877,-112.384,seri1257,,idssegmented,1290,1290,1045,LexiCoreClicsCore,,Seri
-idssegmented-zuni,Zuni,,35.0056,-108.782,zuni1245,,idssegmented,979,979,880,LexiCoreClicsCore,,Zuni
-idssegmented-northernhaida,Northern Haida,,54.004532,-132.079257,nort2938,,idssegmented,1023,1023,714,LexiCoreClicsCore,,Haida
-idssegmented-tlingit,Tlingit,,59.4447,-135.29,tlin1245,,idssegmented,1333,1333,756,LexiCoreClicsCore,,Athabaskan-Eyak-Tlingit
-idssegmented-tsimshian,Tsimshian,,52.59103,-128.544545,nucl1649,,idssegmented,806,806,532,LexiCoreClicsCore,,Tsimshian
-idssegmented-nuuchahnulth,Nuu-chah-nulth,,49.67,-126.67,nuuc1236,,idssegmented,877,877,438,LexiCoreClicsCore,,Wakashan
-idssegmented-bellacoola,Bella Coola,,52.3448,-126.689,bell1243,,idssegmented,594,594,403,LexiCoreClicsCore,,Salishan
-idssegmented-upperchehalis,Upper Chehalis,,46.7981,-123.169,uppe1439,,idssegmented,346,346,304,LexiCoreClicsCore,,Salishan
-idssegmented-hawaiian,Hawaiian,,19.6297,-155.43,hawa1245,,idssegmented,2586,2586,1067,LexiCoreClicsCore,,Austronesian
-idssegmented-maori,Maori,,-38.2881,176.541,maor1246,,idssegmented,2174,2174,1078,LexiCoreClicsCore,,Austronesian
-idssegmented-marquesan,Marquesan,,-9.75663,-138.979,sout2866,,idssegmented,1248,1248,664,LexiCoreClicsCore,,Austronesian
-idssegmented-rapanui,Rapa Nui,,-27.113,-109.342,rapa1244,,idssegmented,1319,1319,1073,LexiCoreClicsCore,,Austronesian
-idssegmented-rotuman,Rotuman,,-12.5008,177.066,rotu1241,,idssegmented,1352,1352,1193,LexiCoreClicsCore,,Austronesian
-idssegmented-tongan,Tongan,,-21.17,-175.25,tong1325,,idssegmented,1742,1742,1117,LexiCoreClicsCore,,Austronesian
-idssegmented-tuamotuan,Tuamotuan,,-16.17259,-146.321755,tuam1242,,idssegmented,1373,1373,612,LexiCoreClicsCore,,Austronesian
-idssegmented-bari,Barí,,9.08497,-72.9353,bari1297,,idssegmented,465,465,441,LexiCoreClicsCore,,Chibchan
-idssegmented-muisca,Muisca,,6.24999,-74.1666,chib1270,,idssegmented,813,813,771,LexiCoreClicsCore,,Chibchan
-idssegmented-paez,Páez,,2.61516,-76.31254,paez1247,,idssegmented,1205,1205,1123,LexiCoreClicsCore,,Páez
-idssegmented-cayapa,Cayapa,,0.71489,-79.0508,chac1249,,idssegmented,1613,1613,1219,LexiCoreClicsCore,,Barbacoan
-idssegmented-colorado,Colorado,,-0.21181,-79.2347,colo1256,,idssegmented,1140,1140,910,LexiCoreClicsCore,,Barbacoan
-idssegmented-embera,Embera,,7.12761,-77.574,nort2972,,idssegmented,793,793,771,LexiCoreClicsCore,,Chocoan
-idssegmented-epena,Epena,,4.25877,-77.3566,epen1239,,idssegmented,1089,1089,955,LexiCoreClicsCore,,Chocoan
-idssegmented-puinave,Puinave,,3.92974,-67.6886,puin1248,,idssegmented,1136,1136,1030,LexiCoreClicsCore,,Puinave
-idssegmented-yuwana,Yuwana,,5.63879,-65.4267,yuwa1244,,idssegmented,973,973,902,LexiCoreClicsCore,,Hoti
-idssegmented-yaruro,Yaruro,,7.10677,-67.5996,pume1238,,idssegmented,1139,1139,1106,LexiCoreClicsCore,,Pumé
-idssegmented-ninamshirishanavariety,Ninam (Shirishana variety),,4.03894,-62.7801,nina1238,,idssegmented,999,999,898,LexiCoreClicsCore,,Yanomamic
-idssegmented-yanomami,Yanomámi,,2.48999,-62.8522,yano1262,,idssegmented,931,931,838,LexiCoreClicsCore,,Yanomamic
-idssegmented-cofan,Cofán,,0.276675,-77.0643,cofa1242,,idssegmented,1467,1467,1108,LexiCoreClicsCore,,Cofán
-idssegmented-waorani,Waorani,,-1.12312,-76.683,waor1240,,idssegmented,1230,1230,1196,LexiCoreClicsCore,,Waorani
-idssegmented-siona,Siona,,0.31733,-76.0237,sion1247,,idssegmented,1142,1142,755,LexiCoreClicsCore,,Tucanoan
-idssegmented-tuyuca,Tuyuca,,0.39441,-70.043515,tuyu1244,,idssegmented,1075,1075,1031,LexiCoreClicsCore,,Tucanoan
-idssegmented-aguaruna,Aguaruna,,-5.30044,-77.9218,agua1253,,idssegmented,1258,1258,1158,LexiCoreClicsCore,,Chicham
-idssegmented-yagua,Yagua,,-3.42913,-72.2186,yagu1244,,idssegmented,1776,1776,1178,LexiCoreClicsCore,,Peba-Yagua
-idssegmented-baure,Baure,,-13.61,-63.68,baur1253,,idssegmented,287,287,234,LexiCore,,Arawakan
-idssegmented-goajiro,Goajiro,,11.395566,-72.199791,wayu1243,,idssegmented,978,978,902,LexiCoreClicsCore,,Arawakan
-idssegmented-ignaciano,Ignaciano,,-15.1188,-65.3993,igna1246,,idssegmented,1109,1109,834,LexiCoreClicsCore,,Arawakan
-idssegmented-mashcopiro,Mashco Piro,,-11.4745,-70.7953,mash1270,,idssegmented,569,569,458,LexiCoreClicsCore,,Arawakan
-idssegmented-trinitario,Trinitario,,-15.3331,-65.4096,trin1274,,idssegmented,907,907,733,LexiCoreClicsCore,,Arawakan
-idssegmented-wapishana,Wapishana,,2.58744,-59.8021,wapi1253,,idssegmented,1152,1152,1095,LexiCoreClicsCore,,Arawakan
-idssegmented-waura,Waurá,,-13.296,-53.6971,waur1244,,idssegmented,1242,1242,1009,LexiCoreClicsCore,,Arawakan
-idssegmented-yavitero,Yavitero,,2.924844,-67.438886,yavi1244,,idssegmented,798,798,769,LexiCoreClicsCore,,Arawakan
-idssegmented-aymara,Aymara,,-17.0,-68.5,cent2142,,idssegmented,1026,1026,955,LexiCoreClicsCore,,Aymaran
-idssegmented-chipaya,Chipaya,,-18.73951,-67.89633,chip1262,,idssegmented,1010,1010,847,LexiCoreClicsCore,,Uru-Chipaya
-idssegmented-moseten,Mosetén,,-14.64448,-67.83756,mose1249,,idssegmented,1162,1162,1034,LexiCoreClicsCore,,Mosetén-Chimané
-idssegmented-araona,Araona,,-12.4242,-67.7293,arao1248,,idssegmented,1125,1125,801,LexiCoreClicsCore,,Pano-Tacanan
-idssegmented-cavinena,Cavineña,,-13.3544,-66.6277,cavi1250,,idssegmented,1005,1005,942,LexiCoreClicsCore,,Pano-Tacanan
-idssegmented-eseejja,Ese Ejja,,-11.7268,-67.515,esee1248,,idssegmented,968,968,723,LexiCoreClicsCore,,Pano-Tacanan
-idssegmented-eseejjahuarayo,Ese Ejja (Huarayo),,-11.7268,-67.515,esee1248,,idssegmented,710,710,658,LexiCoreClicsCore,,Pano-Tacanan
-idssegmented-tacana,Tacana,,-13.39249,-68.04056,taca1256,,idssegmented,1190,1190,902,LexiCoreClicsCore,,Pano-Tacanan
-idssegmented-cashibo,Cashibo,,-8.70232,-75.4206,cash1251,,idssegmented,744,744,647,LexiCoreClicsCore,,Pano-Tacanan
-idssegmented-catuquina,Catuquina,,-7.97456,-71.56151,pano1254,,idssegmented,1124,1124,1053,LexiCoreClicsCore,,Pano-Tacanan
-idssegmented-chacobo,Chácobo,,-12.133,-66.7164,chac1251,,idssegmented,1019,1019,835,LexiCoreClicsCore,,Pano-Tacanan
-idssegmented-shipiboconibo,Shipibo-Conibo,,-7.17105,-74.8219,ship1254,,idssegmented,1334,1334,917,LexiCoreClicsCore,,Pano-Tacanan
-idssegmented-yaminahua,Yaminahua,,-9.8846,-71.5964,yami1256,,idssegmented,1347,1347,1128,LexiCoreClicsCore,,Pano-Tacanan
-idssegmented-cayuvava,Cayuvava,,-13.2482,-65.4822,cayu1262,,idssegmented,1154,1154,661,LexiCoreClicsCore,,Cayubaba
-idssegmented-itonama,Itonama,,-12.80431,-64.35748,iton1250,,idssegmented,902,902,675,LexiCoreClicsCore,,Itonama
-idssegmented-movima,Movima,,-13.8115,-65.6348,movi1243,,idssegmented,1038,1038,1035,LexiCoreClicsCore,,Movima
-idssegmented-pacaasnovos,Pacaas Novos,,-10.69948,-64.56152,wari1268,,idssegmented,228,228,185,LexiCore,,Chapacuran
-idssegmented-munduruku,Mundurukú,,-8.41095,-57.691,mund1330,,idssegmented,533,533,437,LexiCoreClicsCore,,Tupian
-idssegmented-ache,Aché,,-25.5865,-56.4697,ache1246,,idssegmented,969,969,961,LexiCoreClicsCore,,Tupian
-idssegmented-chiriguano,Chiriguano,,-20.42,-63.37,east2555,,idssegmented,1413,1413,1108,LexiCoreClicsCore,,Tupian
-idssegmented-guarani,Guaraní,,-25.60551,-57.08816,para1311,,idssegmented,1929,1929,1288,LexiCoreClicsCore,,Tupian
-idssegmented-siriono,Sirionó,,-15.5298,-63.9688,siri1273,,idssegmented,1159,1159,706,LexiCoreClicsCore,,Tupian
-idssegmented-wayampi,Wayampi,,1.73817,-52.6887,waya1270,,idssegmented,1260,1260,1101,LexiCoreClicsCore,,Tupian
-idssegmented-canela,Canela,,-6.10712,-45.1299,cane1242,,idssegmented,195,195,172,LexiCore,,Nuclear-Macro-Je
-idssegmented-kaingang,Kaingáng,,-27.7671,-52.5394,kain1272,,idssegmented,1714,1714,1011,LexiCoreClicsCore,,Nuclear-Macro-Je
-idssegmented-karaja,Karajá,,-11.1881,-50.3492,kara1500,,idssegmented,525,525,452,LexiCoreClicsCore,,Nuclear-Macro-Je
-idssegmented-trumai,Trumai,,-11.8119,-53.5717,trum1247,,idssegmented,682,682,562,LexiCoreClicsCore,,Trumai
-idssegmented-ayoreo,Ayoreo,,-19.220055,-60.217495,ayor1240,,idssegmented,1405,1405,1094,LexiCoreClicsCore,,Zamucoan
-idssegmented-sanapanaangaitedialect,Sanapaná (Angaité dialect),,-22.85,-58.45,anga1316,,idssegmented,1158,1158,1005,LexiCoreClicsCore,,Lengua-Mascoy
-idssegmented-sanapanaenlhetdialect,Sanapaná (Enlhet dialect),,-22.49,-58.38,sana1298,,idssegmented,1767,1767,1178,LexiCoreClicsCore,,Lengua-Mascoy
-idssegmented-lengua,Lengua,,-22.6559,-58.9053,leng1262,,idssegmented,1110,1110,1099,LexiCoreClicsCore,,Lengua-Mascoy
-idssegmented-mocovi,Mocoví,,-28.097,-60.4145,moco1246,,idssegmented,1195,1195,1117,LexiCoreClicsCore,,Guaicuruan
-idssegmented-pilaga,Pilagá,,-25.0058,-60.1537,pila1245,,idssegmented,1209,1209,1122,LexiCoreClicsCore,,Guaicuruan
-idssegmented-chorote,Chorote,,-22.1896,-63.2383,iyoj1235,,idssegmented,1510,1510,1078,LexiCoreClicsCore,,Matacoan
-idssegmented-maca,Maca,,-25.0119,-57.3694,maca1260,,idssegmented,1063,1063,964,LexiCoreClicsCore,,Matacoan
-idssegmented-wichi,Wichí,,-23.1633,-62.1757,wich1264,,idssegmented,1170,1170,1150,LexiCoreClicsCore,,Matacoan
-idssegmented-nivacle,Nivaclé,,-22.8557,-61.7606,niva1238,,idssegmented,1556,1556,1180,LexiCoreClicsCore,,Matacoan
-idssegmented-kunza,Kunza,,-23.0,-69.0,kunz1244,,idssegmented,895,895,529,LexiCoreClicsCore,,Kunza
-idssegmented-mapudungun,Mapudungun,,-38.7392,-71.277,mapu1245,,idssegmented,1377,1377,1171,LexiCoreClicsCore,,Araucanian
-idssegmented-tehuelche,Tehuelche,,-47.5796,-68.3235,tehu1242,,idssegmented,862,862,668,LexiCoreClicsCore,,Chonan
-idssegmented-selknam,Selknam,,-54.0,-68.5,onaa1245,,idssegmented,864,864,763,LexiCoreClicsCore,,Chonan
-idssegmented-gununakune,Gününa Küne,,-42.223,-68.666,puel1244,,idssegmented,758,758,734,LexiCoreClicsCore,,Puelche
-idssegmented-qawasqar,Qawasqar,,-49.303195,-74.707536,qawa1238,,idssegmented,634,634,630,LexiCoreClicsCore,,Kawesqar
-idssegmented-toba,Toba,,-23.77,-61.96,toba1269,,idssegmented,1359,1359,1143,LexiCoreClicsCore,,Guaicuruan
-idssegmented-yagan,Yagán,,-55.2748,-68.2648,yama1264,,idssegmented,715,715,675,LexiCoreClicsCore,,Yámana
-idssegmented-chechenakkindialect,Chechen (Akkin dialect),,43.5,45.5,chec1245,,idssegmented,1415,1415,1301,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-uncunwee,Uncunwee,,11.6432,29.8122,ghul1238,,idssegmented,1762,1762,1129,LexiCoreClicsCore,,Nubian
-idssegmented-ossetic,Ossetic,,42.98,44.61,iron1242,,idssegmented,2382,2382,1283,LexiCoreClicsCore,,Indo-European
-idssegmented-avararaderikhdialect,Avar (Araderikh dialect),,41.7047,46.558,avar1256,,idssegmented,1520,1520,1266,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-avareastgergebildialect,Avar (East Gergebil dialect),,41.7047,46.558,avar1256,,idssegmented,1748,1748,1297,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-avaransaltadialect,Avar (Ansalta dialect),,41.7047,46.558,avar1256,,idssegmented,1851,1851,1294,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-khwarshikwantladadialect,Khwarshi (Kwantlada dialect),,42.2743,45.9977,khva1239,,idssegmented,1742,1742,1288,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-centralthai,Central Thai,,14.192,100.671,thai1261,,idssegmented,1756,1756,1301,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-southerntaisongkhlavariety,Southern Tai (Songkhla variety),,6.85668,99.7031,sout2746,,idssegmented,1388,1388,1303,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-thaikoratvariety,Thai (Korat variety),,6.85668,99.7031,sout2746,,idssegmented,1372,1372,1286,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-khamuangchiangmaivariety,Khamuang (Chiang Mai variety),,18.857495,100.20739,nort2740,,idssegmented,1318,1318,1299,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-dehong,Dehong,,21.7837,99.722,tain1252,,idssegmented,1550,1550,1286,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-jinshadai,Jinsha Dai,,26.7238,106.682,nort1545,,idssegmented,1300,1300,1214,LexiCoreClicsCore,,Hmong-Mien
-idssegmented-tailu,Tai Lü,,21.0321,101.282,luuu1242,,idssegmented,1367,1367,1239,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-taikhun,Tai Khün,,19.6062,99.3363,khun1259,,idssegmented,1555,1555,1305,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-shan,Shan,,21.5995,98.0342,shan1277,,idssegmented,1474,1474,1303,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-shannorthernshandialect,Shan (Northern Shan dialect),,21.5995,98.0342,shan1277,,idssegmented,1894,1894,1306,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-nungfengshan,Nung-Fengshan,,24.3,106.2,guib1244,,idssegmented,1448,1448,1242,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-nunglazhai,Nung-Lazhai,,24.3,106.2,guib1244,,idssegmented,1668,1668,1230,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-nungninbei,Nung-Ninbei,,20.8965,104.286,nung1283,,idssegmented,1284,1284,1152,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-zhuanglongzhou,Zhuang-Longzhou,,22.4,106.9,zuoj1238,,idssegmented,1690,1690,1182,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-sui,Sui,,24.0488,106.563,suii1243,,idssegmented,1521,1521,1169,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-maonan,Maonan,,25.0169,108.024,maon1241,,idssegmented,1176,1176,1093,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-mulam,Mulam,,24.8151,108.928,mula1253,,idssegmented,1145,1145,1072,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-chadong,Chadong,,25.23532,109.96041,chad1240,,idssegmented,1259,1259,1188,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-southernkam,Southern Kam,,25.8874,109.222,sout2741,,idssegmented,1401,1401,1257,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-lakkia,Lakkia,,24.1169,110.106,lakk1238,,idssegmented,1412,1412,1241,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-hlaibaotingvariety,Hlai (Baoting variety),,18.8062,109.459,hlai1239,,idssegmented,1280,1280,1133,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-langjabuyang,Langja Buyang,,23.604572,106.030277,emab1235,,idssegmented,1152,1152,1087,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-ecunbuyang,Ecun Buyang,,23.550258,106.016896,lang1316,,idssegmented,1112,1112,1033,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-sanchongkelao,Sanchong Kelao,,22.5632,104.698,gree1278,,idssegmented,1022,1022,987,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-qaukelao,Qau Kelao,,26.155438,106.16455,qaua1234,,idssegmented,1121,1121,1083,LexiCoreClicsCore,,Tai-Kadai
-idssegmented-botlikhmiarsodialect,Botlikh (Miarso dialect),,42.665,46.22,botl1242,,idssegmented,1523,1523,1295,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwachiragdialect,Dargwa (Chirag dialect),,41.869481,47.41111,chir1284,,idssegmented,1350,1350,1285,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwagapshimashuktidialect,Dargwa (Gapshima Shukti dialect),,42.4257,47.4388,darg1241,,idssegmented,1542,1542,1295,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwagapshimadialect,Dargwa (Gapshima dialect),,42.4257,47.4388,darg1241,,idssegmented,1550,1550,1292,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwagubdendialect,Dargwa (Gubden dialect),,42.4257,47.4388,darg1241,,idssegmented,1451,1451,1288,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwakadardialect,Dargwa (Kadar dialect),,42.4257,47.4388,darg1241,,idssegmented,1468,1468,1292,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwamegebdialect,Dargwa (Megeb dialect),,42.4257,47.4388,darg1241,,idssegmented,1640,1640,1290,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwamekegidialect,Dargwa (Mekegi dialect),,42.4257,47.4388,darg1241,,idssegmented,1436,1436,1291,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwamugidialect,Dargwa (Mugi dialect),,42.4257,47.4388,darg1241,,idssegmented,1432,1432,1299,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwasirkhidialect,Dargwa (Sirkhi dialect),,42.4257,47.4388,darg1241,,idssegmented,1402,1402,1295,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-dargwausishadialect,Dargwa (Usisha dialect),,42.4257,47.4388,darg1241,,idssegmented,1384,1384,1297,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-ingush,Ingush,,43.11,45.03,ingu1240,,idssegmented,1516,1516,1303,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-kryz,Kryz,,41.1811,48.1846,kryt1240,,idssegmented,1473,1473,1203,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-kumykdorgelidialect,Kumyk (Dorgeli dialect),,43.0,47.0,kumy1244,,idssegmented,1632,1632,1291,LexiCoreClicsCore,,Turkic
-idssegmented-kumykkajtaktumenlerdialect,Kumyk (Kajtak Tumenler dialect),,43.0,47.0,kumy1244,,idssegmented,1493,1493,1295,LexiCoreClicsCore,,Turkic
-idssegmented-kumykkajtakdialect,Kumyk (Kajtak dialect),,43.0,47.0,kumy1244,,idssegmented,1428,1428,1292,LexiCoreClicsCore,,Turkic
-idssegmented-kumykkarabudakhkentdialect,Kumyk (Karabudakhkent dialect),,43.0,47.0,kumy1244,,idssegmented,1724,1724,1291,LexiCoreClicsCore,,Turkic
-idssegmented-kumykterbragundialect,Kumyk (Ter Bragun dialect),,43.0,47.0,kumy1244,,idssegmented,1633,1633,1300,LexiCoreClicsCore,,Turkic
-idssegmented-lakarakuldialect,Lak (Arakul dialect),,42.1328,47.0809,lakk1252,,idssegmented,1352,1352,1292,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-lakbalkhardialect,Lak (Balkhar dialect),,42.1328,47.0809,lakk1252,,idssegmented,1412,1412,1289,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-lakshalidialect,Lak (Shali dialect),,42.1328,47.0809,lakk1252,,idssegmented,1548,1548,1290,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-rutulborchinokhnowdialect,Rutul (Borchino Khnow dialect),,41.6187,47.3244,rutu1240,,idssegmented,1396,1396,1286,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-tsakhurgelmetsdialect,Tsakhur (Gelmets dialect),,41.5916,46.8858,tsak1249,,idssegmented,1381,1381,1285,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-tsovatush,Tsova-Tush,,42.1806,45.344,bats1242,,idssegmented,1625,1625,1296,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-archivariety2,Archi (variety 2),,42.3239,46.8267,arch1244,,idssegmented,1414,1414,1276,LexiCoreClicsCore,,Nakh-Daghestanian
-idssegmented-bengali,Bengali,,24.0,90.0,beng1280,,idssegmented,1380,1380,1271,LexiCoreClicsCore,,Indo-European
-idssegmented-hindi,Hindi,,25.0,77.0,hind1269,,idssegmented,1628,1628,1307,LexiCoreClicsCore,,Indo-European
-idssegmented-khasi,Khasi,,24.977,91.9998,khas1269,,idssegmented,1252,1252,1098,LexiCoreClicsCore,,Austroasiatic
-idssegmented-mahasupaharikotgharidialect,Mahasu Pahari (Kotghari dialect),,31.0088,77.5317,maha1287,,idssegmented,1115,1115,798,LexiCoreClicsCore,,Indo-European
-idssegmented-marathi,Marathi,,17.9344,76.6665,mara1378,,idssegmented,1592,1592,1285,LexiCoreClicsCore,,Indo-European
-idssegmented-nepali,Nepali,,27.5947033333,87.6200833333,east1436,,idssegmented,1098,1098,1038,LexiCoreClicsCore,,Indo-European
-idssegmented-punjabi,Punjabi,,30.0948,75.3474,west2386,,idssegmented,1602,1602,1143,LexiCoreClicsCore,,Indo-European
-idssegmented-tamil,Tamil,,10.520219,78.825989,tami1289,,idssegmented,1248,1248,1245,LexiCoreClicsCore,,Dravidian
-idssegmented-telugu,Telugu,,16.4529,78.7024,telu1262,,idssegmented,4034,4034,1217,LexiCoreClicsCore,,Dravidian
-idssegmented-tibetan,Tibetan,,28.3681,90.1872,tibe1272,,idssegmented,1294,1294,1105,LexiCoreClicsCore,,Sino-Tibetan
-idssegmented-kme2kemievariety,Kme-2 (Kemie variety),,22.0743,100.842,manm1238,,idssegmented,1204,1204,1182,LexiCoreClicsCore,,Austroasiatic
-idssegmented-bulang,Bulang,,22.0092,99.7405,blan1242,,idssegmented,1149,1149,1130,LexiCoreClicsCore,,Austroasiatic
-idssegmented-bulang2,Bulang-2,,22.0092,99.7405,blan1242,,idssegmented,1312,1312,1199,LexiCoreClicsCore,,Austroasiatic
-idssegmented-bulang3,Bulang-3,,22.0092,99.7405,blan1242,,idssegmented,1257,1257,1231,LexiCoreClicsCore,,Austroasiatic
-idssegmented-kemekemievariety,Keme (Kemie variety),,22.0743,100.842,manm1238,,idssegmented,1086,1086,1075,LexiCoreClicsCore,,Austroasiatic
-idssegmented-xu,Xu,,22.0163,100.881,huuu1240,,idssegmented,997,997,946,LexiCoreClicsCore,,Austroasiatic
-idssegmented-wa,Wa,,23.1024,99.108,nucl1290,,idssegmented,1362,1362,1266,LexiCoreClicsCore,,Austroasiatic
-idssegmented-rumai,Rumai,,23.6404,97.3172,ruma1248,,idssegmented,1028,1028,959,LexiCoreClicsCore,,Austroasiatic
-idssegmented-prai,Prai,,19.0383,101.218,phai1238,,idssegmented,2198,2198,1120,LexiCoreClicsCore,,Austroasiatic
-idssegmented-pusing,Pusing,,21.3474,101.916,bitt1240,,idssegmented,1336,1336,1257,LexiCoreClicsCore,,Austroasiatic
-idssegmented-paliu,Paliu,,24.7013,104.955,boly1239,,idssegmented,1077,1077,969,LexiCoreClicsCore,,Austroasiatic
-idssegmented-mlabri,Mlabri,,18.5533,101.163,mlab1235,,idssegmented,929,929,919,LexiCoreClicsCore,,Austroasiatic
-idssegmented-vietnamese,Vietnamese,,20.681188,105.774071,viet1252,,idssegmented,774,774,480,LexiCoreClicsCore,,Austroasiatic
-idssegmented-phong,Phong,,19.9622,104.088,phon1246,,idssegmented,1183,1183,1146,LexiCoreClicsCore,,Austroasiatic
-idssegmented-khapoong,Kha Poong,,18.25,105.0,khap1242,,idssegmented,1345,1345,1119,LexiCoreClicsCore,,Austroasiatic
-idssegmented-ahlaothavung,Ahlao (Thavung),,17.7655,104.229,aheu1239,,idssegmented,868,868,824,LexiCoreClicsCore,,Austroasiatic
-idssegmented-nyakur,Nyakur,,15.8909,101.515,nyah1250,,idssegmented,1172,1172,1089,LexiCoreClicsCore,,Austroasiatic
-idssegmented-pear,Pear,,13.593,105.028,pear1247,,idssegmented,1212,1212,1134,LexiCoreClicsCore,,Austroasiatic
-idssegmented-kasong,Kasong,,11.936,104.136,suoy1242,,idssegmented,1120,1120,1090,LexiCoreClicsCore,,Austroasiatic
-idssegmented-samre,Samre,,12.243,103.139,somr1240,,idssegmented,1244,1244,1176,LexiCoreClicsCore,,Austroasiatic
-idssegmented-chong,Chong,,12.5218,102.514,chon1284,,idssegmented,1214,1214,1169,LexiCoreClicsCore,,Austroasiatic
-idssegmented-iduh,Iduh,,19.3497,104.106,oduu1239,,idssegmented,1013,1013,971,LexiCoreClicsCore,,Austroasiatic
-idssegmented-mangch,Mang Ch,,21.4305,102.133,mang1378,,idssegmented,1336,1336,1256,LexiCoreClicsCore,,Austroasiatic
-idssegmented-mangvn,Mang VN,,21.4305,102.133,mang1378,,idssegmented,884,884,673,LexiCoreClicsCore,,Austroasiatic
 ivanisuansu-Suansu,Suansu,,24.806681,93.941689,suan1234,,ivanisuansu,250,250,250,LexiCore,,Isolate
 johanssonsoundsymbolic-Abun,Abun,,-0.57073,132.416,abun1252,,johanssonsoundsymbolic,199,199,180,LexiCore,,Abun
 johanssonsoundsymbolic-Achumawi,Achumawi,,41.0979,-121.191,achu1247,,johanssonsoundsymbolic,322,322,263,LexiCoreClicsCore,,Palaihnihan
@@ -1881,17 +1514,6 @@ joophonosemantic-Wayuu,Wayuu,,11.395566,-72.199791,wayu1243,,joophonosemantic,10
 joophonosemantic-Burushaski,Burushaski,,36.2161,74.8236,buru1296,,joophonosemantic,100,100,100,LexiCore,,Burushaski
 joophonosemantic-ShipiboConibo,Shipibo-Conibo,,-7.17105,-74.8219,ship1254,,joophonosemantic,100,100,100,LexiCore,,Panoan
 joophonosemantic-Warao,Warao,,7.50851,-59.3528,wara1303,,joophonosemantic,100,100,100,LexiCore,,Warao
-kahd-Banawa,Banawa,,-6.74,-64.9,bana1307,,kahd,612,612,463,LexiCoreClicsCore,,Arawan
-kahd-Deni,Deni,,-6.75,-67.5,deni1241,,kahd,554,554,412,LexiCoreClicsCore,,Arawan
-kahd-Jamamadi,Jamamadi,,-7.62,-66.57,jama1261,,kahd,536,536,407,LexiCoreClicsCore,,Arawan
-kahd-Jarawara,Jarawara,,-7,-65,jara1276,,kahd,667,667,487,LexiCoreClicsCore,,Arawan
-kahd-Kulina,Kulina,,-8.55,-70.66,culi1244,,kahd,542,542,404,LexiCoreClicsCore,,Arawan
-kahd-Paumari,Paumari,,-5.78,-64.28,paum1247,,kahd,528,528,401,LexiCoreClicsCore,,Arawan
-kahd-Sorowaha,Sorowaha,,-6.83,-66.31,suru1263,,kahd,516,516,383,LexiCoreClicsCore,,Arawan
-kahd-ProtoArawan,Proto-Arawan,,-6.82,-64.61,,,kahd,387,387,265,LexiCoreClicsCore,,
-kahd-Arasairi,Arasairi,,-13.32,-71.73,aras1241,,kahd,221,221,185,LexiCore,,Harakmbut
-kahd-Sapiteri,Sapiteri,,-13.32,-71.23,sapi1239,,kahd,193,193,169,LexiCore,,Harakmbut
-kahd-Toyeri,Toyeri,,-13.32,-71.23,toye1240,,kahd,204,204,185,LexiCore,,Harakmbut
 kesslersignificance-Albanian,Albanian,,42.317,21.3837,gheg1238,,kesslersignificance,200,200,200,LexiCore,,Indo-European
 kesslersignificance-Latin,Latin,,41.9026,12.4502,lati1261,,kesslersignificance,200,200,200,LexiCore,,Indo-European
 kesslersignificance-German,German,,48.649,12.4676,stan1295,,kesslersignificance,200,200,200,LexiCore,,Indo-European
@@ -1974,37 +1596,6 @@ kraftchadic-Wamdiu,Wamdiu,,10.53854,12.99521,marg1266,,kraftchadic,441,441,426,L
 kraftchadic-Westmargi,West Margi,,10.83854,12.99521,puta1243,,kraftchadic,697,697,428,LexiCoreClicsCore,,Afro-Asiatic
 kraftchadic-Yingilum,Yingilum,,9.9249,13.6567,nort2770,,kraftchadic,440,440,427,LexiCoreClicsCore,,Atlantic-Congo
 kraftchadic-Zvana,Zə̀ɣvana,,11.05751,13.77847,dghw1239,,kraftchadic,445,445,427,LexiCoreClicsCore,,Afro-Asiatic
-lamanisoic-Achang,Achang,,24.3479,97.7438,acha1249,,lamanisoic,297,297,280,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Axi,Axi,,24.6009,103.713,axiy1235,,lamanisoic,300,300,282,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Azha,Azha,,23.9,104.15,azha1235,,lamanisoic,291,291,274,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Azhe,Azhe,,24.405,103.441,azhe1235,,lamanisoic,300,300,282,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Bisu,Bisu,,20.8542,99.9862,bisu1244,,lamanisoic,285,285,270,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Gepu,Gepu,,25.7,102.5,gepo1234,,lamanisoic,298,298,280,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Hani,Hani,,22.67753,102.851673333,hani1248,,lamanisoic,301,301,283,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Haoni,Haoni,,23.2074,101.886,honi1244,,lamanisoic,299,299,282,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Jinuo,Jinuo,,22.0473,101.057,youl1235,,lamanisoic,299,299,282,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Kazhuo,Kazhuo,,24.6,102.4,kats1235,,lamanisoic,290,290,274,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Lahu,Lahu,,21.2701,100.214,lahu1253,,lamanisoic,301,301,283,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Lavu,Lavu,,26.4,101.0,talu1238,,lamanisoic,297,297,279,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Lipo,Lipo,,25.226,101.302,lipo1242,,lamanisoic,290,290,273,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Lisu,Lisu,,26.91,98.94,lisu1250,,lamanisoic,301,301,283,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Lolopo,Lolopo,,25.50051,101.30185,lolo1259,,lamanisoic,301,301,283,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Lope,Lope,,25.395,103.306,awuu1235,,lamanisoic,300,300,282,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Maang,Maang,,23.555104,105.70091,maan1239,,lamanisoic,292,292,276,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Mondzi,Mondzi,,23.446095,105.416304,mond1267,,lamanisoic,290,290,275,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Nasu,Nasu,,25.48,102.48,wudi1238,,lamanisoic,300,300,282,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Naxi,Naxi,,27.5,100.0,naxi1245,,lamanisoic,299,299,282,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Nuosu,Nuosu,,28.1947,102.121,sich1238,,lamanisoic,301,301,283,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Nusu,Nusu,,26.7292,98.8801,nusu1239,,lamanisoic,292,292,275,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Polo,Polo,,23.667,104.238,phol1235,,lamanisoic,296,296,278,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Rouruo,Rouruo,,26.4572,98.8634,zauz1238,,lamanisoic,293,293,277,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Sangkong,S.kong,,21.64,100.77,sang1320,,lamanisoic,289,289,275,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Samu,Samu,,25.012,102.2,sama1295,,lamanisoic,288,288,272,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Sani,Sani,,24.278,103.759,sani1269,,lamanisoic,299,299,281,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Toloza,Toloza,,26.9,99.9,tang1372,,lamanisoic,296,296,279,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-WrittenBurmese,WB,,20.7926,93.9665,nucl1310,,lamanisoic,300,300,282,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Zaiwa,Zaiwa,,24.1726,98.3643,zaiw1241,,lamanisoic,300,300,283,LexiCoreClicsCore,,Sino-Tibetan
-lamanisoic-Zuoke,Zuoke,,23.8,104.8,zokh1238,,lamanisoic,296,296,278,LexiCoreClicsCore,,Sino-Tibetan
 leeainu-yakumo,Yakumo,,42.25,140.266667,ainu1240,,leeainu,215,215,199,LexiCore,,Ainu
 leeainu-oshamambe,Oshamambe,,42.508056,140.373056,ainu1240,,leeainu,198,198,197,LexiCore,,Ainu
 leeainu-horobetsu,Horobetsu,,42.416667,141.1,ainu1240,,leeainu,225,225,199,LexiCore,,Ainu
@@ -2040,12 +1631,6 @@ lieberherrkhobwa-Khoitam,Khoitam,,27.3293889,92.4360113,khoi1252,,lieberherrkhob
 lieberherrkhobwa-Rahung,Rahung,,27.375914,92.409383,rahu1234,,lieberherrkhobwa,104,104,100,LexiCore,,Sino-Tibetan
 lieberherrkhobwa-Rupa,Rupa,,27.2029222,92.3970446,rupa1234,,lieberherrkhobwa,100,100,100,LexiCore,,Sino-Tibetan
 lindseyende-ende1235,Ende (Papua New Guinea),,-8.957786,142.240799,ende1235,,lindseyende,1129,1129,1128,LexiCoreClicsCore,,Pahoturi
-lionnetyotonahua-EudeveNorth,North Eudeve,,28.5,-110.0,eude1234,,lionnetyotonahua,278,278,188,LexiCore,,Uto-Aztecan
-lionnetyotonahua-Mayo,Mayo,,26.4522,-108.981,mayo1264,,lionnetyotonahua,260,260,173,LexiCore,,Uto-Aztecan
-lionnetyotonahua-Opata,Opata,,31.15211,-110.06212,opat1246,,lionnetyotonahua,267,267,167,LexiCore,,Uto-Aztecan
-lionnetyotonahua-TarahumaraCentral,Central Tarahumara,,27.5648,-107.154,cent2131,,lionnetyotonahua,382,382,211,LexiCore,,Uto-Aztecan
-lionnetyotonahua-Tubar,Tubar,,30.0,-111.0,tuba1279,,lionnetyotonahua,206,206,136,LexiCore,,Uto-Aztecan
-lionnetyotonahua-Yaqui,Yaqui,,29.9446,-110.681,yaqu1251,,lionnetyotonahua,245,245,166,LexiCore,,Uto-Aztecan
 listsamplesize-german,German,,48.649,12.4676,stan1295,,listsamplesize,642,642,549,LexiCoreClicsCore,,Indo-European
 listsamplesize-dutch,Dutch,,52.0,5.0,dutc1256,,listsamplesize,579,579,549,LexiCoreClicsCore,,Indo-European
 listsamplesize-french,French,,48.0,2.0,stan1290,,listsamplesize,631,631,548,LexiCoreClicsCore,,Indo-European
@@ -2069,12 +1654,6 @@ liusinitic-Taiyuan,Taiyuan,,37.8632119,112.4024883,taiy1243,,liusinitic,234,234,
 liusinitic-Wenzhou,Wenzhou,,28.005496,120.701179,ouji1238,,liusinitic,218,218,202,LexiCore,Sinitic,Sino-Tibetan
 liusinitic-XiAn,Xi_an,,34.228154,108.960571,xian1253,,liusinitic,234,234,202,LexiCore,Sinitic,Sino-Tibetan
 liusinitic-Xiamen,Xiamen,,24.49421,118.08918,xiam1236,,liusinitic,211,211,201,LexiCore,Sinitic,Sino-Tibetan
-luangthongkumkaren-Kayah,Kayah,,19.8939,98.3359,east2342,,luangthongkumkaren,298,298,242,LexiCore,,Sino-Tibetan
-luangthongkumkaren-Kayan,Kayan,,19.5183,97.4138,kaya1315,,luangthongkumkaren,292,292,233,LexiCore,,Sino-Tibetan
-luangthongkumkaren-Kayaw,Kayaw,,19.0561,96.8365,brek1238,,luangthongkumkaren,314,314,253,LexiCoreClicsCore,,Sino-Tibetan
-luangthongkumkaren-NorthernPwo,Northern Pwo,,18.016,98.2709,pwon1235,,luangthongkumkaren,281,281,228,LexiCore,,Sino-Tibetan
-luangthongkumkaren-SouthernSgaw,Southern Sgaw,,17.9872,97.7126,sgaw1245,,luangthongkumkaren,300,300,246,LexiCore,,Sino-Tibetan
-luangthongkumkaren-WesternBwe,Western Bwe,,18.9796,96.9936,bwek1238,,luangthongkumkaren,245,245,210,LexiCore,,Sino-Tibetan
 lundgrenomagoa-Tupinamba,Tupinambá,,-22.807778,-42.106389,tupi1273,,lundgrenomagoa,1669,1669,130,LexiCore,,Tupian
 lundgrenomagoa-Omagua,Omagua,,-3.526,-69.1667,omag1248,,lundgrenomagoa,732,732,138,LexiCore,,Tupian
 mannburmish-Achang,Achang,,24.25,97.8333,acha1249,,mannburmish,361,361,359,LexiCoreClicsCore,Burmish,Sino-Tibetan
@@ -2261,30 +1840,6 @@ northeuralex-che,Chechen,,43.50,45.50,chec1245,,northeuralex,1056,1056,939,LexiC
 northeuralex-arb,Standard Arabic,,27.96,43.85,stan1318,,northeuralex,1142,1142,953,LexiCoreClicsCore,,Afro-Asiatic
 northeuralex-heb,Modern Hebrew,,31.11,35.02,hebr1245,,northeuralex,1079,1079,953,LexiCoreClicsCore,,Afro-Asiatic
 northeuralex-cmn,Mandarin Chinese,,40.02,116.23,mand1415,,northeuralex,1010,1010,947,LexiCoreClicsCore,,Sino-Tibetan
-oskolskayatungusic-Even,Even,,70.6687,130.914,even1260,,oskolskayatungusic,386,386,252,LexiCoreClicsCore,,Tungusic
-oskolskayatungusic-Hezhe,Hezhe,,47.585,132.48,kile1243,,oskolskayatungusic,259,259,244,LexiCore,,Tungusic
-oskolskayatungusic-Jurchen,Jurchen,,44.412626,126.866803,jurc1239,,oskolskayatungusic,195,195,180,LexiCore,,Tungusic
-oskolskayatungusic-Manchu,Manchu,,47.31225,126.55713,manc1252,,oskolskayatungusic,306,306,252,LexiCoreClicsCore,,Tungusic
-oskolskayatungusic-Nanai_Bikin,Bikin Nanai,,48.43426,134.79726,nana1257,,oskolskayatungusic,396,396,252,LexiCoreClicsCore,,Tungusic
-oskolskayatungusic-Nanai_Najkhin,Najkhin Nanai,,48.43426,134.79726,nana1257,,oskolskayatungusic,293,293,253,LexiCoreClicsCore,,Tungusic
-oskolskayatungusic-Negidal,Negidal,,52.96584,139.20575,negi1245,,oskolskayatungusic,445,445,251,LexiCoreClicsCore,,Tungusic
-oskolskayatungusic-Oroch,Oroch,,50.32354,137.85131,oroc1248,,oskolskayatungusic,285,285,252,LexiCoreClicsCore,,Tungusic
-oskolskayatungusic-Orok,Orok,,49.36393,143.12819,orok1265,,oskolskayatungusic,332,332,253,LexiCoreClicsCore,,Tungusic
-oskolskayatungusic-Oroqen,Oroqen,,50.6319,125.017,oroq1238,,oskolskayatungusic,265,265,253,LexiCoreClicsCore,,Tungusic
-oskolskayatungusic-Solon,Solon,,48.166,119.4873,solo1263,,oskolskayatungusic,284,284,253,LexiCoreClicsCore,,Tungusic
-oskolskayatungusic-Udihe,Udihe,,46.63086,135.67762,udih1248,,oskolskayatungusic,291,291,253,LexiCoreClicsCore,,Tungusic
-oskolskayatungusic-Ulcha,Ulch,,51.85209,140.29045,ulch1241,,oskolskayatungusic,360,360,253,LexiCoreClicsCore,,Tungusic
-oskolskayatungusic-Xibe,Xibe,,43.5854,81.0034,xibe1242,,oskolskayatungusic,271,271,253,LexiCoreClicsCore,,Tungusic
-othanieljen-Jenjo,Jenjo,,9.27,11.39,dzaa1238,,othanieljen,300,300,285,LexiCoreClicsCore,,Atlantic-Congo
-othanieljen-MungaDosso,Munga Dosso,,9.26,11.29,ming1254,,othanieljen,300,300,285,LexiCoreClicsCore,,Atlantic-Congo
-othanieljen-Tha,Tha,,9.21,11.18,thaa1239,,othanieljen,299,299,284,LexiCoreClicsCore,,Atlantic-Congo
-othanieljen-Kyak,Kyãk,,9.52,11.28,kyak1243,,othanieljen,300,300,285,LexiCoreClicsCore,,Atlantic-Congo
-othanieljen-Moo,Moo,,9.44,11.2,mooo1239,,othanieljen,300,300,285,LexiCoreClicsCore,,Atlantic-Congo
-othanieljen-Lelau,Lelau,,9.29,11.16,leel1242,,othanieljen,300,300,285,LexiCoreClicsCore,,Atlantic-Congo
-othanieljen-Mak,Mak,,9.37,11.13,makn1235,,othanieljen,300,300,285,LexiCoreClicsCore,,Atlantic-Congo
-othanieljen-Maghdi,Maghdi,,9.29,11.02,magh1238,,othanieljen,300,300,285,LexiCoreClicsCore,,Atlantic-Congo
-othanieljen-Loo,Loo,,9.41,11.05,looo1238,,othanieljen,299,299,284,LexiCoreClicsCore,,Atlantic-Congo
-othanieljen-Burak,Burak,,9.49,11.07,bura1271,,othanieljen,300,300,285,LexiCoreClicsCore,,Atlantic-Congo
 peirosaustroasiatic-Jru,Jru,,15.27261,106.32196,lave1248,,peirosaustroasiatic,100,100,100,LexiCore,BAHNARIC,Austroasiatic
 peirosaustroasiatic-MDip,M.Dip,,11.52,107.34,maaa1253,,peirosaustroasiatic,106,106,100,LexiCore,BAHNARIC,Austroasiatic
 peirosaustroasiatic-Khmer,Khmer,,11.4549,104.49337,cent1989,,peirosaustroasiatic,101,101,100,LexiCore,KHMERIC,Austroasiatic
@@ -2572,17 +2127,6 @@ savelyevturkic-Turkmen,Turkmen,,37.0872,59.1757,turk1304,,savelyevturkic,259,259
 savelyevturkic-Tuvan,Tuvan,,51.7,94.36667,tuvi1240,,savelyevturkic,258,258,235,LexiCore,,Turkic
 savelyevturkic-Uighur,Uyghur,,43.67,79.75,uigh1240,,savelyevturkic,293,293,242,LexiCore,,Turkic
 savelyevturkic-Yakut,Yakut,,61.6974,133.98,yaku1245,,savelyevturkic,260,260,240,LexiCore,,Turkic
-sawkatokaleya-Tonga,Tonga,,-17.42,27.1,tong1318,,sawkatokaleya,178,178,176,LexiCore,,Atlantic-Congo
-sawkatokaleya-MukuniMarch,Mukuni-March,,-17.905369,25.937401,lenj1248,,sawkatokaleya,198,198,196,LexiCore,,Atlantic-Congo
-sawkatokaleya-Mukuni,Mukuni,,-17.905369,25.937401,lenj1248,,sawkatokaleya,198,198,194,LexiCore,,Atlantic-Congo
-sawkatokaleya-Sekute2013,Sekute 2013,,-17.653196,25.634457,seku1239,,sawkatokaleya,199,199,197,LexiCore,,Atlantic-Congo
-sawkatokaleya-Sekute,Sekute,,-17.653196,25.634457,seku1239,,sawkatokaleya,198,198,194,LexiCore,,Atlantic-Congo
-sawkatokaleya-Musukotwani,Musukotwani,,-17.615317,25.883419,musu1242,,sawkatokaleya,203,203,196,LexiCore,,Atlantic-Congo
-sawkatokaleya-Ila,Ila,,-15.61,26.46,ilaa1246,,sawkatokaleya,199,199,196,LexiCore,,Atlantic-Congo
-sawkatokaleya-Lozi,Lozi,,-17.71,24.74,lozi1239,,sawkatokaleya,198,198,196,LexiCore,,Atlantic-Congo
-sawkatokaleya-Chewa,Chewa,,-14.8,32.81,nyan1308,,sawkatokaleya,201,201,195,LexiCore,,Atlantic-Congo
-sawkatokaleya-Nkoya1,Nkoya_1,,-14.85,24.76,nkoy1244,,sawkatokaleya,189,189,187,LexiCore,,Atlantic-Congo
-sawkatokaleya-Nkoya2,Nkoya_2,,-14.85,24.76,nkoy1244,,sawkatokaleya,205,205,199,LexiCore,,Atlantic-Congo
 servamalagasy-SakalavaAmbanja,Sakalava,,-13.67,48.33,saka1291,,servamalagasy,207,207,207,LexiCore,,Austronesian
 servamalagasy-SihanakaAmbatondrazaka,Sihanaka,,-17.87,48.42,siha1244,,servamalagasy,207,207,207,LexiCore,,Austronesian
 servamalagasy-AntankaranaAmbilobe,Antankarana,,-13.2,49.05,anta1255,,servamalagasy,207,207,207,LexiCore,,Austronesian
@@ -2666,16 +2210,6 @@ sidwellbahnaric-halang,Halang,,14.7862,107.457,hala1252,,sidwellbahnaric,205,205
 sidwellbahnaric-chrau,Chrau,,10.8021,107.293,chra1242,,sidwellbahnaric,175,175,169,LexiCore,,Austroasiatic
 sidwellbahnaric-nyaheun,Nyaheun,,15.1034,106.543,nyah1249,,sidwellbahnaric,197,197,187,LexiCore,,Austroasiatic
 sidwellbahnaric-khaonh,Khaonh,,12.6313,107.301,cent1992,,sidwellbahnaric,157,157,155,LexiCore,,Austroasiatic
-sidwellvietic-Vietnamese,VN (standard),,20.681188,105.774071,viet1252,,sidwellvietic,116,116,116,LexiCore,,Austroasiatic
-sidwellvietic-MuongBi,Muong (Barker),,20.7374,105.186,muon1246,,sidwellvietic,116,116,116,LexiCore,,Austroasiatic
-sidwellvietic-NguonCL,Nguồn Cổ Liêm,,17.7243,105.932,nguo1239,,sidwellvietic,108,108,108,LexiCore,,Austroasiatic
-sidwellvietic-Arem,Arem,,17.7672,105.928,arem1240,,sidwellvietic,113,113,113,LexiCore,,Austroasiatic
-sidwellvietic-ThavungS,Thavung,,17.7655,104.229,aheu1239,,sidwellvietic,112,112,112,LexiCore,,Austroasiatic
-sidwellvietic-ThavungPS,Thavung Phon Soung,,17.7655,104.229,aheu1239,,sidwellvietic,114,114,114,LexiCore,,Austroasiatic
-sidwellvietic-ThavungF,Thavung,,17.7655,104.229,aheu1239,,sidwellvietic,104,104,104,LexiCore,,Austroasiatic
-sidwellvietic-MalengBro,Maleng Bro,,18.18657,104.95342,bola1249,,sidwellvietic,101,101,101,LexiCore,,Austroasiatic
-sidwellvietic-Khmu,Khmu Cuang,,20.2463,101.671,khmu1256,,sidwellvietic,113,113,113,LexiCore,,Austroasiatic
-sidwellvietic-Jahai,Jahai,,5.63695,101.541,jeha1242,,sidwellvietic,108,108,108,LexiCore,,Austroasiatic
 sohartmannchin-Chinbon,Chinbon,,20.0776,94.0506,chin1478,,sohartmannchin,281,281,275,LexiCoreClicsCore,Chin,Sino-Tibetan
 sohartmannchin-Daai,Daai,,20.7347,93.7853,daai1236,,sohartmannchin,292,292,275,LexiCoreClicsCore,Chin,Sino-Tibetan
 sohartmannchin-Khumi,Khumi,,22.87125,92.9894633333,khum1248,,sohartmannchin,280,280,276,LexiCoreClicsCore,Chin,Sino-Tibetan
@@ -2702,11 +2236,6 @@ starostinpie-italian,Italian,,43.0464,12.6489,ital1282,,starostinpie,119,119,109
 starostinpie-english,English,,53.0,-1.0,stan1293,,starostinpie,115,115,110,LexiCore,,Indo-European
 starostinpie-icelandic,Icelandic,,63.4837,-19.0212,icel1247,,starostinpie,119,119,110,LexiCore,,Indo-European
 starostinpie-swedish,Swedish,,59.800634,17.389526,swed1254,,starostinpie,121,121,110,LexiCore,,Indo-European
-starostintujia-duogutujia,Duogu_Tujia,,29.3016,109.759,nort2732,,starostintujia,102,102,102,LexiCore,,Sino-Tibetan
-starostintujia-tashatujia,Tasha_Tujia,,29.3016,109.759,nort2732,,starostintujia,104,104,103,LexiCore,,Sino-Tibetan
-starostintujia-tanxitujia,Tanxi_Tujia,,28.2368,110.022,sout2739,,starostintujia,102,102,102,LexiCore,,Sino-Tibetan
-starostintujia-boluotujia,Boluo_Tujia,,28.2368,110.022,sout2739,,starostintujia,102,102,102,LexiCore,,Sino-Tibetan
-starostintujia-dianfangtujia,Dianfang_Tujia,,29.3016,109.759,nort2732,,starostintujia,103,103,102,LexiCore,,Sino-Tibetan
 suntb-Achang,Achang (Longchuan),,24.466605,97.89503,acha1249,,suntb,965,965,869,LexiCoreClicsCore,Burmish,Sino-Tibetan
 suntb-Atsi,Atsi [Zaiwa],,24.17,98.36,zaiw1241,,suntb,1036,1036,917,LexiCoreClicsCore,Burmish,Sino-Tibetan
 suntb-RangoonBurmese,Burmese (Spoken Rangoon),,16.867489,96.191442,mand1476,,suntb,1002,1002,923,LexiCoreClicsCore,Burmish,Sino-Tibetan
@@ -2724,139 +2253,6 @@ syrjaenenuralic-udmurt,Udmurt,,56.12921,52.63548,udmu1245,,syrjaenenuralic,204,2
 syrjaenenuralic-selkup,Selkup,,59.9409,82.3004,selk1253,,syrjaenenuralic,178,178,172,LexiCore,,Uralic
 syrjaenenuralic-nganasan,Nganasan,,73.1354,86.2106,ngan1291,,syrjaenenuralic,193,193,162,LexiCore,,Uralic
 syrjaenenuralic-ingrian,Ingrian,,59.47403,29.71145,ingr1248,,syrjaenenuralic,208,208,168,LexiCore,,Uralic
-tls-Bena,Bena,,-9.26671,35.0364,bena1262,,tls,1010,1010,650,LexiCoreClicsCore,,Atlantic-Congo
-tls-Bende,Bende,,-6.22082,30.5926,bend1258,,tls,447,447,358,LexiCoreClicsCore,,Atlantic-Congo
-tls-Bondei1,Bondei1,,-5.10749,38.5079,bond1247,,tls,1002,1002,645,LexiCoreClicsCore,,Atlantic-Congo
-tls-Bondei2,Bondei2,,-5.10749,38.5079,bond1247,,tls,1046,1046,661,LexiCoreClicsCore,,Atlantic-Congo
-tls-Bungu,Bungu,,-8.32587,32.8801,bung1265,,tls,1006,1006,646,LexiCoreClicsCore,,Atlantic-Congo
-tls-Chuka,Chuka,,-0.27405,37.6116,chuk1274,,tls,979,979,640,LexiCoreClicsCore,,Atlantic-Congo
-tls-Dawida,Dawida,,-3.79347,38.57254,tait1250,,tls,1011,1011,646,LexiCoreClicsCore,,Atlantic-Congo
-tls-Doe,Doe,,-6.25844,38.4902,doee1238,,tls,1031,1031,656,LexiCoreClicsCore,,Atlantic-Congo
-tls-Embu,Embu,,-0.62822,37.5933,embu1241,,tls,1039,1039,656,LexiCoreClicsCore,,Atlantic-Congo
-tls-Fipa,Fipa,,-7.88963,31.3442,fipa1238,,tls,1017,1017,644,LexiCoreClicsCore,,Atlantic-Congo
-tls-Gusii,Gusii,,-0.78872,34.76751,gusi1247,,tls,1034,1034,659,LexiCoreClicsCore,,Atlantic-Congo
-tls-Gweno,Gweno,,-3.68407,37.6827,gwen1239,,tls,944,944,621,LexiCoreClicsCore,,Atlantic-Congo
-tls-Gwere,Gwere,,1.11392,33.8227,gwer1238,,tls,992,992,642,LexiCoreClicsCore,,Atlantic-Congo
-tls-Hangaza,Hangaza,,-2.52347,30.7074,hang1260,,tls,963,963,633,LexiCoreClicsCore,,Atlantic-Congo
-tls-Haya,Haya,,-1.70878,31.4846,haya1250,,tls,934,934,617,LexiCoreClicsCore,,Atlantic-Congo
-tls-Hehe,Hehe,,-7.71572,35.7255,hehe1240,,tls,996,996,636,LexiCoreClicsCore,,Atlantic-Congo
-tls-Ikizu,Ikizu,,-1.9915,34.3589,ikiz1238,,tls,970,970,631,LexiCoreClicsCore,,Atlantic-Congo
-tls-Jita,Jita,,-1.62681,33.9141,jita1239,,tls,1000,1000,646,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kaheunn,Kahe.unn,,-3.51412,37.5759,kahe1238,,tls,152,152,148,LexiCore,,Atlantic-Congo
-tls-KambaKitu,Kamba_kitu,,-1.60827,37.9532,kamb1297,,tls,1025,1025,653,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kami,Kami,,-6.71075,37.98,kami1256,,tls,1012,1012,648,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kerebe,Kerebe,,-2.09315,33.5326,kere1283,,tls,987,987,637,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kiha,Kiha,,-3.77873,30.4894,haaa1252,,tls,999,999,638,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kikuyu,Kikuyu,,-0.29005,36.719,kiku1240,,tls,973,973,633,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kilegi,Kilegi,,-1.83511,33.0488,kara1481,,tls,1003,1003,646,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kimbu,Kimbu,,-7.23023,33.6445,kimb1242,,tls,1038,1038,655,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kimochiunn,Kimochi.unn,,-3.33743,37.3357,moch1256,,tls,230,230,223,LexiCore,,Atlantic-Congo
-tls-Kinga,Kinga,,-9.35868,34.2321,nucl1379,,tls,900,900,597,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kisi,Kisi,,-9.93,34.4825,kisi1243,,tls,995,995,638,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kivinza,Kivinza,,-4.99312,30.5699,vinz1238,,tls,1019,1019,649,LexiCoreClicsCore,,Atlantic-Congo
-tls-KuriaMago,Kuria_mago,,-1.50636,34.5049,kuri1259,,tls,1023,1023,651,LexiCoreClicsCore,,Atlantic-Congo
-tls-KuriaTari,Kuria_tari,,-1.50636,34.5049,kuri1259,,tls,1041,1041,658,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kutu,Kutu,,-7.23789,37.8623,kutu1263,,tls,1013,1013,645,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kwere,Kwere,,-6.50666,38.4449,kwer1261,,tls,1042,1042,659,LexiCoreClicsCore,,Atlantic-Congo
-tls-Lambya,Lambya,,-9.49372,33.15852,lamb1272,,tls,1045,1045,659,LexiCoreClicsCore,,Atlantic-Congo
-tls-Langi,Langi,,-4.71413,35.9517,lang1320,,tls,1006,1006,645,LexiCoreClicsCore,,Atlantic-Congo
-tls-Luganda,Luganda,,0.66884,32.15153,gand1255,,tls,647,647,484,LexiCoreClicsCore,,Atlantic-Congo
-tls-Luguru,Luguru,,-6.86828,37.5557,lugu1238,,tls,901,901,582,LexiCoreClicsCore,,Atlantic-Congo
-tls-Lvhyia,Lvhyia,,0.3652,34.0335,saam1283,,tls,1047,1047,662,LexiCoreClicsCore,,Atlantic-Congo
-tls-Lumasaaba,Lumasaaba,,1.05906,34.2829,masa1299,,tls,995,995,643,LexiCoreClicsCore,,Atlantic-Congo
-tls-Lungwa,Lungwa,,-7.24959,31.7614,rung1255,,tls,1024,1024,650,LexiCoreClicsCore,,Atlantic-Congo
-tls-Lusoga,Lusoga,,0.40456,33.3942,soga1242,,tls,1037,1037,656,LexiCoreClicsCore,,Atlantic-Congo
-tls-Mabia,Mabia,,-10.9906,39.5133,mako1251,,tls,1044,1044,657,LexiCoreClicsCore,,Atlantic-Congo
-tls-Machame,Machame,,-3.29385,37.0703,mach1266,,tls,1010,1010,644,LexiCoreClicsCore,,Atlantic-Congo
-tls-Machameunn,Machame.unn,,-3.29385,37.0703,mach1266,,tls,233,233,227,LexiCore,,Atlantic-Congo
-tls-Makonde,Makonde,,-10.9906,39.5133,mako1251,,tls,1019,1019,650,LexiCoreClicsCore,,Atlantic-Congo
-tls-Malila,Malila,,-9.16619,33.339,mali1279,,tls,1009,1009,643,LexiCoreClicsCore,,Atlantic-Congo
-tls-Manda,Manda,,-10.3991,34.7424,mand1423,,tls,1016,1016,649,LexiCoreClicsCore,,Atlantic-Congo
-tls-Maragoli,Maragoli,,0.09487,34.729,logo1258,,tls,1035,1035,655,LexiCoreClicsCore,,Atlantic-Congo
-tls-Matengo,Matengo,,-11.554,35.0056,mate1258,,tls,1002,1002,642,LexiCoreClicsCore,,Atlantic-Congo
-tls-Matumbi,Matumbi,,-8.53734,39.0409,matu1259,,tls,765,765,529,LexiCoreClicsCore,,Atlantic-Congo
-tls-Mbunga,Mbunga,,-8.19661,36.5362,mbun1248,,tls,978,978,628,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kimbunga,Kimbunga,,-8.19661,36.5362,mbun1248,,tls,983,983,630,LexiCoreClicsCore,,Atlantic-Congo
-tls-Meru,Meru,,0.26484,37.7396,meru1245,,tls,977,977,632,LexiCoreClicsCore,,Atlantic-Congo
-tls-Mkwaya,Mkwaya,,-1.80737,33.71,kway1241,,tls,984,984,637,LexiCoreClicsCore,,Atlantic-Congo
-tls-Mpoto,Mpoto,,-11.13767,34.71269,mpot1240,,tls,870,870,589,LexiCoreClicsCore,,Atlantic-Congo
-tls-Mwera,Mwera,,-9.75639,38.8762,mwer1248,,tls,897,897,595,LexiCoreClicsCore,,Atlantic-Congo
-tls-Mwera1,Mwera1,,-9.75639,38.8762,mwer1248,,tls,988,988,630,LexiCoreClicsCore,,Atlantic-Congo
-tls-Namwanga,Namwanga,,-9.11261,32.3163,nyam1275,,tls,1027,1027,657,LexiCoreClicsCore,,Atlantic-Congo
-tls-Nata,Nata,,-1.94989,34.5361,ikom1245,,tls,964,964,629,LexiCoreClicsCore,,Atlantic-Congo
-tls-Ndali,Ndali,,-9.88948,33.6118,ndal1241,,tls,987,987,634,LexiCoreClicsCore,,Atlantic-Congo
-tls-Ndamba,Ndamba,,-8.40485,36.0271,ndam1239,,tls,998,998,640,LexiCoreClicsCore,,Atlantic-Congo
-tls-Ndari,Ndari,,-9.88948,33.6118,ndal1241,,tls,987,987,634,LexiCoreClicsCore,,Atlantic-Congo
-tls-Ndengeleko,Ndengeleko,,-7.54628,38.958,nden1248,,tls,912,912,598,LexiCoreClicsCore,,Atlantic-Congo
-tls-Ngindo,Ngindo,,-9.78145,37.9832,ngin1244,,tls,846,846,563,LexiCoreClicsCore,,Atlantic-Congo
-tls-Ngoni,Ngoni,,-11.7794,37.4118,ngon1269,,tls,967,967,630,LexiCoreClicsCore,,Atlantic-Congo
-tls-Ngoreme,Ngoreme,,-1.8485,34.6173,ngur1263,,tls,1023,1023,648,LexiCoreClicsCore,,Atlantic-Congo
-tls-Nguungulu,Nguungulu,,-5.79734,37.6823,ngul1246,,tls,988,988,640,LexiCoreClicsCore,,Atlantic-Congo
-tls-NPare,N_pare,,-4.17978,37.8323,asut1235,,tls,1046,1046,518,LexiCoreClicsCore,,Atlantic-Congo
-tls-Ntuzu,Ntuzu,,-3.16082,32.8765,suku1261,,tls,900,900,605,LexiCoreClicsCore,,Atlantic-Congo
-tls-Nyamwezi,Nyamwezi,,-5.08559,32.94452,nyam1276,,tls,1021,1021,649,LexiCoreClicsCore,,Atlantic-Congo
-tls-Nyaturuwil,Nyaturuwil,,-5.12263,34.6657,nyat1246,,tls,1026,1026,653,LexiCoreClicsCore,,Atlantic-Congo
-tls-Nyiha,Nyiha,,-9.4472,32.9057,nyih1240,,tls,993,993,645,LexiCoreClicsCore,,Atlantic-Congo
-tls-Nyiramba,Nyiramba,,-4.50002,34.3068,nila1242,,tls,1039,1039,656,LexiCoreClicsCore,,Atlantic-Congo
-tls-Pangwa,Pangwa,,-9.96782,34.8039,pang1287,,tls,900,900,598,LexiCoreClicsCore,,Atlantic-Congo
-tls-Pimbwe,Pimbwe,,-6.81358,31.4289,pimb1238,,tls,907,907,601,LexiCoreClicsCore,,Atlantic-Congo
-tls-Pogoro,Pogoro,,-8.72283,36.4148,pogo1243,,tls,936,936,606,LexiCoreClicsCore,,Atlantic-Congo
-tls-Kipogoro,Kipogoro,,-8.72283,36.4148,pogo1243,,tls,936,936,606,LexiCoreClicsCore,,Atlantic-Congo
-tls-Rufiji,Rufiji,,-7.54628,38.958,nden1248,,tls,970,970,627,LexiCoreClicsCore,,Atlantic-Congo
-tls-Rukiga,Rukiga,,-1.04387,29.9122,chig1238,,tls,1043,1043,659,LexiCoreClicsCore,,Atlantic-Congo
-tls-Rundi,Rundi,,-2.94,29.97,rund1242,,tls,749,749,549,LexiCoreClicsCore,,Atlantic-Congo
-tls-Rungwa,Rungwa,,-7.24959,31.7614,rung1255,,tls,1025,1025,651,LexiCoreClicsCore,,Atlantic-Congo
-tls-Runyambo,Runyambo,,-1.6096,30.9156,nyam1277,,tls,1012,1012,644,LexiCoreClicsCore,,Atlantic-Congo
-tls-Runyankore,Runyankore,,-0.46364,30.548,nyan1307,,tls,889,889,616,LexiCoreClicsCore,,Atlantic-Congo
-tls-Runyoro,Runyoro,,0.95294,31.3493,nyor1246,,tls,989,989,637,LexiCoreClicsCore,,Atlantic-Congo
-tls-Rutooro,Rutooro,,0.57291,30.6389,toor1238,,tls,1024,1024,656,LexiCoreClicsCore,,Atlantic-Congo
-tls-Safwa,Safwa,,-8.54936,33.4766,safw1238,,tls,985,985,628,LexiCoreClicsCore,,Atlantic-Congo
-tls-Sambaa,Sambaa,,-4.8,38.29,sham1280,,tls,1016,1016,649,LexiCoreClicsCore,,Atlantic-Congo
-tls-Samialugwe,Samialugwe,,0.3652,34.0335,saam1283,,tls,1021,1021,653,LexiCoreClicsCore,,Atlantic-Congo
-tls-Sangu,Sangu,,-8.4,33.9,sang1330,,tls,1000,1000,643,LexiCoreClicsCore,,Atlantic-Congo
-tls-ShashiSiz,Shashi_siz,,-1.9915,34.3589,ikiz1238,,tls,952,952,618,LexiCoreClicsCore,,Atlantic-Congo
-tls-Shubi,Shubi,,-2.97663,31.0681,shub1238,,tls,1037,1037,661,LexiCoreClicsCore,,Atlantic-Congo
-tls-Sonjo,Sonjo,,-2.19303,35.8035,temi1247,,tls,1052,1052,663,LexiCoreClicsCore,,Atlantic-Congo
-tls-SPare,S_pare,,-4.17978,37.8323,asut1235,,tls,981,981,501,LexiCoreClicsCore,,Atlantic-Congo
-tls-Suba,Suba,,-0.95719,34.1033,suba1238,,tls,1003,1003,642,LexiCoreClicsCore,,Atlantic-Congo
-tls-Sukuma,Sukuma,,-3.16082,32.8765,suku1261,,tls,935,935,606,LexiCoreClicsCore,,Atlantic-Congo
-tls-Sumbwa,Sumbwa,,-3.47335,31.9457,sumb1240,,tls,886,886,596,LexiCoreClicsCore,,Atlantic-Congo
-tls-Tharaka,Tharaka,,-0.13221,38.073,thar1283,,tls,960,960,629,LexiCoreClicsCore,,Atlantic-Congo
-tls-Tuveta,Tuveta,,-3.41822,37.7061,tave1240,,tls,737,737,382,LexiCoreClicsCore,,Atlantic-Congo
-tls-Vunjo,Vunjo,,-3.42531,37.5847,vunj1238,,tls,998,998,642,LexiCoreClicsCore,,Atlantic-Congo
-tls-Wanda,Wanda,,-8.34522,32.4375,wand1264,,tls,1028,1028,654,LexiCoreClicsCore,,Atlantic-Congo
-tls-Wanji,Wanji,,-9.00683,34.0757,vwan1235,,tls,941,941,618,LexiCoreClicsCore,,Atlantic-Congo
-tls-Wungu,Wungu,,-8.32587,32.8801,bung1265,,tls,997,997,643,LexiCoreClicsCore,,Atlantic-Congo
-tls-Yao,Yao,,-13.6119,35.2387,yaoo1241,,tls,1014,1014,645,LexiCoreClicsCore,,Atlantic-Congo
-tls-Zanaki,Zanaki,,-2.26367,34.0542,zana1238,,tls,985,985,630,LexiCoreClicsCore,,Atlantic-Congo
-tls-Zaramo,Zaramo,,-6.87705,38.9258,zara1247,,tls,1037,1037,657,LexiCoreClicsCore,,Atlantic-Congo
-tls-Zigua,Zigua,,-5.61864,38.4114,zigu1242,,tls,1029,1029,652,LexiCoreClicsCore,,Atlantic-Congo
-tls-Zinza,Zinza,,-2.64132,32.1755,zinz1238,,tls,999,999,650,LexiCoreClicsCore,,Atlantic-Congo
-tolmiebritishcolumbia-Thlinkit-Skutkwan,Thlinkit,,54.2006,-129.8392,tlin1245,,tolmiebritishcolumbia,204,204,188,LexiCore,,Athabaskan-Eyak-Tlingit
-tolmiebritishcolumbia-Tshimsian-Kitunto,Tshimsian,,54.336545,-130.450287,tsim1258,,tolmiebritishcolumbia,197,197,189,LexiCore,,Tsimshian
-tolmiebritishcolumbia-Tshimsian-Kithatla,Tshimsian,,53.3899,-130.1344,tsim1258,,tolmiebritishcolumbia,185,185,179,LexiCore,,Tsimshian
-tolmiebritishcolumbia-Haida-Kaigani,Haida,,54.8979,-132.2479,sout2956,,tolmiebritishcolumbia,198,198,189,LexiCore,,Haida
-tolmiebritishcolumbia-Haida-Kumshewa,Haida,,53.0341106,-131.6063853,haid1248,,tolmiebritishcolumbia,181,181,178,LexiCore,,Haida
-tolmiebritishcolumbia-Kwakiool-Haishilla,Kwakiool,,53.588,-128.79,kwak1269,,tolmiebritishcolumbia,178,178,171,LexiCore,,Wakashan
-tolmiebritishcolumbia-Kwakiool-Hailtzuk,Kwakiool,,52.3358,-128.4734,kwak1269,,tolmiebritishcolumbia,179,179,170,LexiCore,,Wakashan
-tolmiebritishcolumbia-Kwakiool-Kwiha,Kwakiool,,50.6962,-127.4253,kwak1269,,tolmiebritishcolumbia,182,182,175,LexiCore,,Wakashan
-tolmiebritishcolumbia-Kwakiool-Likwiltoh,Kwakiool,,49.9985,-125.1751,kwak1269,,tolmiebritishcolumbia,192,192,183,LexiCore,,Wakashan
-tolmiebritishcolumbia-Kawitshin-Kowmook-Tlathool,Kawitshin,,49.681,-124.8871,cowi1241,,tolmiebritishcolumbia,158,158,149,LexiCore,,Salishan
-tolmiebritishcolumbia-Kawitshin-Snanaimooh,Kawitshin,,49.1575,-123.9471,cowi1241,,tolmiebritishcolumbia,145,145,142,LexiCore,,Salishan
-tolmiebritishcolumbia-Kawitshin-Songis,Kawitshin,,48.42331,-123.38779,cowi1241,,tolmiebritishcolumbia,186,186,180,LexiCore,,Salishan
-tolmiebritishcolumbia-Kawitshin-Kwantlin,Kawitshin,,49.0975,-122.6558,cowi1241,,tolmiebritishcolumbia,204,204,195,LexiCore,,Salishan
-tolmiebritishcolumbia-Aht-Kaiookwaht,Aht,,50.0303702,-127.3784801,nuuc1236,,tolmiebritishcolumbia,169,169,166,LexiCore,,Wakashan
-tolmiebritishcolumbia-Niskwalli-Sinahomish,Niskwalli,,47.9688,-122.4076,lush1252,,tolmiebritishcolumbia,189,189,182,LexiCore,,Salishan
-tolmiebritishcolumbia-Tsheheilis-Staktamish,Tsheheilis,,46.8238,-123.2017,lowe1427,,tolmiebritishcolumbia,148,148,143,LexiCore,,Salishan
-tolmiebritishcolumbia-Tshinook-Tshinook,Tshinook,,46.279,-123.772,kath1253,,tolmiebritishcolumbia,148,148,145,LexiCore,,Chinookan
-tolmiebritishcolumbia-Tshinook-Tilhilooit-UpperTshinook,Tshinook,,45.5838,-121.2008,wasc1239,,tolmiebritishcolumbia,192,192,185,LexiCore,,Chinookan
-tolmiebritishcolumbia-Bilhoola-Noothlakimish,Bilhoola,,52.4188,-127.2684,bell1243,,tolmiebritishcolumbia,205,205,195,LexiCore,,Salishan
-tolmiebritishcolumbia-Tinne-Tshilkotin,Tinnē,,51.8725,-122.8855,chil1280,,tolmiebritishcolumbia,142,142,136,LexiCore,,Athabaskan-Eyak-Tlingit
-tolmiebritishcolumbia-Tinne-Takulli-Teheili,Tinnē,,49.3466,-121.4731,carr1249,,tolmiebritishcolumbia,129,129,126,LexiCore,,Athabaskan-Eyak-Tlingit
-tolmiebritishcolumbia-Selish-Lillooet,Selish,,50.6849,-121.9177,lill1248,,tolmiebritishcolumbia,200,200,190,LexiCore,,Salishan
-tolmiebritishcolumbia-Selish-Kullespelm,Selish,,49.0194,-117.4528,kali1308,,tolmiebritishcolumbia,188,188,181,LexiCore,,Salishan
-tolmiebritishcolumbia-Shahaptani-Whulwhaipum,Shahaptani,,46.1427,-121.6173,klik1240,,tolmiebritishcolumbia,210,210,190,LexiCore,,Sahaptian
-tolmiebritishcolumbia-Kootenuha-UpperKootenuha,Kootenuha,,47.5422,-116.9385,kute1249,,tolmiebritishcolumbia,134,134,126,LexiCore,,
 transnewguineaorg-abaga,Abaga,,-6.12028,145.665,abag1245,,transnewguineaorg,109,109,101,LexiCore,,Nuclear Trans New Guinea
 transnewguineaorg-abu-arapesh,Abu' Arapesh,,-3.461612,142.917031,abua1245,,transnewguineaorg,170,170,153,LexiCore,,Nuclear Torricelli
 transnewguineaorg-abui-makadai,Abui (Makadai Dialect),,-8.31058,124.588,abui1241,,transnewguineaorg,118,118,107,LexiCore,,Timor-Alor-Pantar
@@ -3261,73 +2657,6 @@ transnewguineaorg-zia,Zia,,-7.95814,147.579,ziaa1250,,transnewguineaorg,310,310,
 transnewguineaorg-zimakani,Zimakani,,-7.3701,141.452,zima1244,,transnewguineaorg,269,269,175,LexiCore,,Anim
 transnewguineaorg-zimakani-south-boazi,Zimakani (South Boazi Dialect),,-7.3701,141.452,zima1244,,transnewguineaorg,213,213,155,LexiCore,,Anim
 transnewguineaorg-zorop,Zorop,,-3.39765,140.897,yafi1240,,transnewguineaorg,150,150,101,LexiCore,,Pauwasi
-tuled-AcuaTupi,Açuã Tupi,,-7.231441,-64.131324,,,tuled,237,237,217,LexiCore,Tupi-Guarani,
-tuled-Akuntsu,Akuntsu,,-12.8322,-60.9716,akun1241,,tuled,431,431,390,LexiCoreClicsCore,Tuparí,Tupian
-tuled-Amondawa,Amondawa,,-9.04023,-62.3064,amun1246,,tuled,366,366,314,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Anambe,Anambe,,-2.71119,-49.303,anam1249,,tuled,225,225,214,LexiCore,Tupi-Guarani,Tupian
-tuled-Apiaka,Apiaka,,-7.84711,-57.91,apia1248,,tuled,296,296,276,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Arawete,Araweté,,-4.90246,-52.5001,araw1273,,tuled,321,321,302,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Arikem,Arikem,,-8.92,-63.74,arik1264,,tuled,239,239,206,LexiCore,Arikem,Tupian
-tuled-Arua,Arua,,-12.12,-62.44,arua1261,,tuled,209,209,194,LexiCore,Mondé,Tupian
-tuled-AsuriniTocantins,Asuriní Tocantins,,-3.59359,-49.8991,toca1235,,tuled,394,394,357,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-AsuriniXingu,Asuriní Xingu,,-4.13463,-52.321,xing1248,,tuled,302,302,271,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Aweti,Awetí,,-12.381944,-53.391944,awet1244,,tuled,435,435,396,LexiCoreClicsCore,Aweti,Tupian
-tuled-Chiriguano,Chiriguano,,-20.42,-63.37,east2555,,tuled,409,409,385,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Nandeva,Ñandeva,,-25.65,-55.05,chir1286,,tuled,140,140,120,LexiCore,Tupi-Guarani,Tupian
-tuled-CintaLarga,Cinta-Larga,,-10.5879,-60.8312,cint1239,,tuled,197,197,181,LexiCore,Mondé,Tupian
-tuled-Kokama,Kokama,,-4.5,-74,coca1259,,tuled,383,383,354,LexiCoreClicsCore,Omagua-Kokama,Tupian
-tuled-Teko,Teko,,3.23694,-52.3699,emer1243,,tuled,470,470,411,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Gaviao,Gavião,,-10.7235,-61.6752,gavi1246,,tuled,489,489,400,LexiCoreClicsCore,Mondé,Tupian
-tuled-Guaja,Guajá,,-3.93574,-46.3683,guaj1256,,tuled,390,390,344,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Guajajara,Guajajara,,-4.69461,-45.7081,guaj1255,,tuled,473,473,414,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Guarani,Guaraní,,-25.60551,-57.08816,para1311,,tuled,480,480,422,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Guarayo,Guarayo,,-15.8247,-61.6934,guar1292,,tuled,430,430,384,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Ache,Ache,,-25.5865,-56.4697,ache1246,,tuled,382,382,350,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Juruna,Juruna,,-10.9354,-53.3472,juru1256,,tuled,406,406,357,LexiCoreClicsCore,Juruna,Tupian
-tuled-Kaapor,Ka'apor,,-2.46455,-46.2204,urub1250,,tuled,446,446,407,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Kaiowa,Kaiowa,,-24.589,-54.6815,kaiw1246,,tuled,236,236,222,LexiCore,Tupi-Guarani,Tupian
-tuled-Kamajura,Kamajura,,-12.2661,-53.4651,kama1373,,tuled,304,304,289,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Kampe,Kampe,,-12.790872,-61.193643,,,tuled,115,115,108,LexiCore,Tuparí,
-tuled-Karitiana,Karitiana,,-9.37937,-64.1522,kari1311,,tuled,487,487,395,LexiCoreClicsCore,Arikem,Tupian
-tuled-Karo,Karo,,-10.3342,-61.5691,karo1305,,tuled,427,427,387,LexiCoreClicsCore,Ramarana-Purubora,Tupian
-tuled-Kayabi,Kayabi,,-11.2747,-55.5479,kaya1329,,tuled,299,299,283,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Kepkiriwat,Kepkiriwat,,-11.66,-61.25,kepk1241,,tuled,194,194,178,LexiCore,Tuparí,Tupian
-tuled-Kuruaya,Kuruaya,,-3.09561,-52.2303,kuru1309,,tuled,323,323,287,LexiCoreClicsCore,Munduruku,Tupian
-tuled-LGAXVIII,LGA XVIII,,-1.466667,-48.483333,,,tuled,371,371,328,LexiCoreClicsCore,Tupi-Guarani,
-tuled-TupiAustral,Tupí Austral,,-23.95,-46.38,tupi1274,,tuled,329,329,264,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Makurap,Makurap,,-11.8701,-64.3201,maku1278,,tuled,459,459,401,LexiCoreClicsCore,Tuparí,Tupian
-tuled-Matanau,Matanau,,-6.0372,-60.48,,,tuled,111,111,103,LexiCore,Mondé,
-tuled-Mbya,Mbya,,-26.0188,-52.711,mbya1239,,tuled,400,400,364,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Mekens,Mekens,,-13.054,-62.0927,saki1248,,tuled,419,419,361,LexiCoreClicsCore,Tuparí,Tupian
-tuled-Monde,Monde,,-12.0499,-61.25,sala1273,,tuled,276,276,250,LexiCoreClicsCore,Mondé,Tupian
-tuled-Munduruku,Mundurukú,,-8.41095,-57.691,mund1330,,tuled,503,503,405,LexiCoreClicsCore,Munduruku,Tupian
-tuled-Nheengatu,Nheengatu,,1.04503,-66.9646,nhen1239,,tuled,426,426,391,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-OldGuarani,Old Guaraní,,-26.25,-54.29,,,tuled,396,396,362,LexiCoreClicsCore,Tupi-Guarani,
-tuled-Omagua,Omagua,,-3.53,-69.17,omag1248,,tuled,374,374,353,LexiCoreClicsCore,Omagua-Kokama,Tupian
-tuled-Parakana,Parakana,,-4.64681,-50.0621,para1312,,tuled,390,390,355,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Parintintin,Parintintin,,-7.92626,-61.936,tenh1241,,tuled,464,464,409,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Purubora,Purubora,,-11.4226,-62.4358,puru1264,,tuled,313,313,256,LexiCoreClicsCore,Ramarana-Purubora,Tupian
-tuled-Ramarama,Ramarama,,-10.4,-63,,,tuled,109,109,104,LexiCore,Ramarana-Purubora,
-tuled-Mawe,Mawe,,-3.63897,-56.8749,sate1243,,tuled,424,424,382,LexiCoreClicsCore,Mawé,Tupian
-tuled-Siriono,Siriono,,-15.5298,-63.9688,siri1273,,tuled,474,474,400,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-SuruiAikewara,Surui-Aikewara,,-5.93,-48.59,suru1261,,tuled,381,381,354,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-SuruiPaiter,Surui-Paiter,,-11.0989,-61.2818,suru1262,,tuled,443,443,368,LexiCoreClicsCore,Mondé,Tupian
-tuled-Tapiete,Tapiete,,-21.4169,-62.684,tapi1253,,tuled,358,358,334,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Tapirape,Tapirapé,,-10.5373,-50.5438,tapi1254,,tuled,305,305,292,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Tembe,Tembe,,-2.6123,-48.2359,temb1276,,tuled,455,455,401,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Tenharim,Tenharim,,-8.32882,-61.8972,,,tuled,353,353,325,LexiCoreClicsCore,Tupi-Guarani,
-tuled-Tupari,Tupari,,-11.8884,-62.2544,tupa1250,,tuled,469,469,420,LexiCoreClicsCore,Tuparí,Tupian
-tuled-Tupinamba,Tupinambá,,-8.1055,-34.887,tupi1273,,tuled,508,508,422,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Urueuwauwau,Urueuwauwau,,-10.9176,-63.8086,urue1240,,tuled,273,273,260,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Uruku,Uruku,,-8.9,-62,,,tuled,196,196,165,LexiCore,Ramarana-Purubora,
-tuled-Warazu,Warazu,,-12.8553,-63.1903,paus1244,,tuled,380,380,359,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Wayampi,Wayampi,,1.73817,-52.6887,waya1270,,tuled,491,491,423,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Wayoro,Wayoro,,-12.6945,-61.3064,wayo1238,,tuled,374,374,340,LexiCoreClicsCore,Tuparí,Tupian
-tuled-Xeta,Xeta,,-24.9408,-52.2266,xeta1241,,tuled,332,332,261,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Xipaya,Xipaya,,-4.133,-49.948,xipa1240,,tuled,382,382,342,LexiCoreClicsCore,Juruna,Tupian
-tuled-Yuki,Yuki,,-16.7875,-64.9438,yuqu1240,,tuled,324,324,293,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Zoe,Zo'e,,-1.77,-55.51,zoee1240,,tuled,391,391,349,LexiCoreClicsCore,Tupi-Guarani,Tupian
-tuled-Zoro,Zoro,,-10.7235,-61.6752,gavi1246,,tuled,203,203,195,LexiCore,Mondé,Tupian
 utoaztecan-Mono,Mono,,37.1935,-119.347,mono1275,,utoaztecan,127,127,121,LexiCore,,Uto-Aztecan
 utoaztecan-NorthernPaiute,Northern Paiute,,40.0799,-119.536,nort2954,,utoaztecan,159,159,121,LexiCore,,Uto-Aztecan
 utoaztecan-Pannamint,Timbisha (Panamint),,36.0007,-117.901,pana1305,,utoaztecan,136,136,121,LexiCore,,Uto-Aztecan
@@ -3363,62 +2692,36 @@ utoaztecan-SoutheasternTepehuan,Southeastern Tepehuan,,23.1584,-103.983,sout2976
 utoaztecan-Kiowa,Kiowa,,34.9403,-98.9042,kiow1266,,utoaztecan,115,115,111,LexiCore,,Kiowa-Tanoan
 utoaztecan-Zuni,Zuni,,35.0056,-108.782,zuni1245,,utoaztecan,128,128,112,LexiCore,,Zuni
 visserkalamang-kara1499,Kalamang,,-3.47037,132.678,kara1499,,visserkalamang,1179,1179,854,LexiCoreClicsCore,,West Bomberai
-walkerarawakan-Achagua,Achagua,,4.42,-72.25,acha1250,,walkerarawakan,115,115,100,LexiCore,,Arawakan
-walkerarawakan-Apurina,Apurinã,,-9,-67,apur1254,,walkerarawakan,102,102,100,LexiCore,,Arawakan
-walkerarawakan-Ashaninka,Asháninka,,-12,-74,asha1243,,walkerarawakan,100,100,100,LexiCore,,Arawakan
-walkerarawakan-Avane,Avane,,2.71,-67.55,bani1254,,walkerarawakan,113,113,100,LexiCore,,Arawakan
-walkerarawakan-BaniwaDoIcana,Baniwa do Icana,,2.67,-66.83,bani1255,,walkerarawakan,163,163,100,LexiCore,,Arawakan
-walkerarawakan-Bare,Baré,,1,-67,bare1276,,walkerarawakan,104,104,100,LexiCore,,Arawakan
-walkerarawakan-Curripaco,Curripaco,,2.5,-68.5,curr1243,,walkerarawakan,100,100,100,LexiCore,,Arawakan
-walkerarawakan-Garifuna,Garifuna,,15.67,-88,gari1256,,walkerarawakan,165,165,100,LexiCore,,Arawakan
-walkerarawakan-IslandCarib,Island Carib,,15.4,-61.3,isla1278,,walkerarawakan,100,100,100,LexiCore,,Arawakan
-walkerarawakan-Kaishana,Kaishana,,-2.5,-68,kais1242,,walkerarawakan,151,151,100,LexiCore,,Arawakan
-walkerarawakan-Kinikinao,Kinikinao,,-21.5,-57.6,guan1270,,walkerarawakan,101,101,100,LexiCore,,Arawakan
-walkerarawakan-Lokono,Lokono,,5.5,-55.17,araw1276,,walkerarawakan,100,100,100,LexiCore,,Arawakan
-walkerarawakan-Machiguenga,Machiguenga,,-12,-72.67,mach1267,,walkerarawakan,107,107,100,LexiCore,,Arawakan
-walkerarawakan-Mehinaku,Mehináku,,-12.5,-53.42,mehi1240,,walkerarawakan,101,101,100,LexiCore,,Arawakan
-walkerarawakan-Nomatsiguenga,Nomatsiguenga,,-11.67,-74.5,noma1263,,walkerarawakan,102,102,100,LexiCore,,Arawakan
-walkerarawakan-Palikur,Palikúr,,3,-51,pali1279,,walkerarawakan,105,105,100,LexiCore,,Arawakan
-walkerarawakan-Parecis,Parecís,,-14,-57,pare1272,,walkerarawakan,100,100,100,LexiCore,,Arawakan
-walkerarawakan-Piapoco,Piapoco,,4,-69.5,piap1246,,walkerarawakan,100,100,100,LexiCore,,Arawakan
-walkerarawakan-Resigaro,Resígaro,,-2.42,-71.5,resi1247,,walkerarawakan,137,137,100,LexiCore,,Arawakan
-walkerarawakan-Tariana,Tariana,,1,-69.17,tari1256,,walkerarawakan,100,100,100,LexiCore,,Arawakan
-walkerarawakan-Terena,Terena,,-20,-56,tere1281,,walkerarawakan,101,101,100,LexiCore,,Arawakan
-walkerarawakan-Trinitario,Trinitario,,-15.33,-65.42,trin1274,,walkerarawakan,100,100,100,LexiCore,,Arawakan
-walkerarawakan-Wapishana,Wapishana,,2.67,-60,wapi1253,,walkerarawakan,103,103,100,LexiCore,,Arawakan
-walkerarawakan-WarekenaVelha,Warekena Velha,,1.5,-67.5,ware1255,,walkerarawakan,113,113,100,LexiCore,,Arawakan
-walkerarawakan-Waura,Waurá,,-12.4,-53.6,waur1244,,walkerarawakan,104,104,100,LexiCore,,Arawakan
-walkerarawakan-Wayuu,Wayuu,,12,-72,wayu1243,,walkerarawakan,100,100,100,LexiCore,,Arawakan
-walkerarawakan-Yanesha,Yanesha',,-10.5,-75.42,yane1238,,walkerarawakan,110,110,100,LexiCore,,Arawakan
-walkerarawakan-Yine,Yine,,-11,-73,yine1238,,walkerarawakan,100,100,100,LexiCore,,Arawakan
-walworthpolynesian-Anuta,Tarangapaka-Anuta,,-11.61,169.85,anut1237,,walworthpolynesian,222,222,196,LexiCore,,Austronesian
-walworthpolynesian-EastFutuna,Fakafutuna,,-14.278717,-178.137222,east2447,,walworthpolynesian,280,280,209,LexiCore,,Austronesian
-walworthpolynesian-Emae,Fakamae,,-17.052,168.399,emae1237,,walworthpolynesian,189,189,178,LexiCore,,Austronesian
-walworthpolynesian-FutunaAniwa,Fesau Futuna,,-19.5303,170.215,futu1245,,walworthpolynesian,240,240,202,LexiCore,,Austronesian
-walworthpolynesian-Hawaiian,'ōlelo Hawai'i,,19.6297,-155.43,hawa1245,,walworthpolynesian,235,235,210,LexiCore,,Austronesian
-walworthpolynesian-Kapingamarangi,Kapingamarangi,,1.039166,154.797223,kapi1249,,walworthpolynesian,213,213,189,LexiCore,,Austronesian
-walworthpolynesian-Luangiua,Luangiua,,-5.49029,159.701,onto1237,,walworthpolynesian,217,217,194,LexiCore,,Austronesian
-walworthpolynesian-Mangareva,Reo Magareva,,-23.1095,-134.97,mang1401,,walworthpolynesian,252,252,203,LexiCore,,Austronesian
-walworthpolynesian-Maori,Reo Māori,,-38.2881,176.541,maor1246,,walworthpolynesian,227,227,210,LexiCore,,Austronesian
-walworthpolynesian-MeleFila,Mele-Fila,,-17.6841,168.275,mele1250,,walworthpolynesian,189,189,180,LexiCore,,Austronesian
-walworthpolynesian-Niuean,Vagahau Niue,,-19.06,-169.86,niue1239,,walworthpolynesian,239,239,197,LexiCore,,Austronesian
-walworthpolynesian-NorthMarquesan,'eo 'enana,,-8.89412,-140.108,nort2845,,walworthpolynesian,287,287,207,LexiCore,,Austronesian
-walworthpolynesian-Nukeria,Nukeria,,-3.40038,154.731,nuku1259,,walworthpolynesian,258,258,209,LexiCore,,Austronesian
-walworthpolynesian-Penrhyn,Penrhyn,,-9.082238,-157.922908,penr1237,,walworthpolynesian,203,203,187,LexiCore,,Austronesian
-walworthpolynesian-Pukapuka,Leo Pukapuka,,-10.91,-165.83,puka1242,,walworthpolynesian,311,311,209,LexiCore,,Austronesian
-walworthpolynesian-RakahangaManihiki,Manihiki,,-10.03,-161.09,raka1237,,walworthpolynesian,267,267,182,LexiCore,,Austronesian
-walworthpolynesian-Rapanui,Rapanui,,-27.113,-109.342,rapa1244,,walworthpolynesian,252,252,204,LexiCore,,Austronesian
-walworthpolynesian-Rarotongan,Reo Rarotongan,,-21.23,-159.78,raro1241,,walworthpolynesian,298,298,210,LexiCore,,Austronesian
-walworthpolynesian-RennellBellona,Rennell-Bellona,,-11.6237,160.265,renn1242,,walworthpolynesian,250,250,206,LexiCore,,Austronesian
-walworthpolynesian-Samoan,Gagana Sāmoa,,-13.92,-171.83,samo1305,,walworthpolynesian,292,292,210,LexiCore,,Austronesian
-walworthpolynesian-Sikaiana,Sikaiana,,-8.378194,162.72952,sika1261,,walworthpolynesian,216,216,194,LexiCore,,Austronesian
-walworthpolynesian-Tahitian,Reo Tahiti,,-17.6485,-149.45,tahi1242,,walworthpolynesian,237,237,209,LexiCore,,Austronesian
-walworthpolynesian-Tikopia,Fakatikopia,,-12.2766,168.822,tiko1237,,walworthpolynesian,243,243,201,LexiCore,,Austronesian
-walworthpolynesian-Tongan,Lea Fakatonga,,-21.17,-175.25,tong1325,,walworthpolynesian,222,222,210,LexiCore,,Austronesian
-walworthpolynesian-Tuamotuan,Reo o te Tuamotu,,-16.17259,-146.321755,tuam1242,,walworthpolynesian,257,257,199,LexiCore,,Austronesian
-walworthpolynesian-Tuvalu,Leo Tuvalu,,-8.520813,179.198088,tuva1244,,walworthpolynesian,255,255,191,LexiCore,,Austronesian
-walworthpolynesian-VaeakauTaumako,Vaeakau-Taumako,,-10.173335,166.247188,pile1238,,walworthpolynesian,243,243,204,LexiCore,,Austronesian
-walworthpolynesian-EastUvea,Faka'uvea,,-13.2903,-176.207,wall1257,,walworthpolynesian,256,256,198,LexiCore,,Austronesian
+walworthpolynesian-Anuta,Anuta_253,,-11.61,169.85,anut1237,,walworthpolynesian,222,222,196,LexiCore,,Austronesian
+walworthpolynesian-AustralA,Austral_1213,,-23.3843,-149.462,aust1304,,walworthpolynesian,200,200,192,LexiCore,,Austronesian
+walworthpolynesian-AustralB,Austral_128,,-23.3843,-149.462,aust1304,,walworthpolynesian,262,262,210,LexiCore,,Austronesian
+walworthpolynesian-EastFutuna,EastFutuna_210,,-14.278717,-178.137222,east2447,,walworthpolynesian,280,280,209,LexiCore,,Austronesian
+walworthpolynesian-Emae,Emae_1030,,-17.052,168.399,emae1237,,walworthpolynesian,189,189,178,LexiCore,,Austronesian
+walworthpolynesian-FutunaAniwa,FutunaAniwa_156,,-19.5303,170.215,futu1245,,walworthpolynesian,240,240,202,LexiCore,,Austronesian
+walworthpolynesian-Hawaiian,Hawaiian_52,,19.6297,-155.43,hawa1245,,walworthpolynesian,235,235,210,LexiCore,,Austronesian
+walworthpolynesian-Kapingamarangi,Kapingamarangi_217,,1.039166,154.797223,kapi1249,,walworthpolynesian,213,213,189,LexiCore,,Austronesian
+walworthpolynesian-Luangiua,Luangiua_238,,-5.49029,159.701,onto1237,,walworthpolynesian,217,217,194,LexiCore,,Austronesian
+walworthpolynesian-Mangareva,Mangareva_239,,-23.1095,-134.97,mang1401,,walworthpolynesian,252,252,203,LexiCore,,Austronesian
+walworthpolynesian-Maori,Maori_85,,-38.2881,176.541,maor1246,,walworthpolynesian,227,227,210,LexiCore,,Austronesian
+walworthpolynesian-MeleFila,Mele-Fila_1163,,-17.6841,168.275,mele1250,,walworthpolynesian,189,189,180,LexiCore,,Austronesian
+walworthpolynesian-Niuean,Niuean_247,,-19.06,-169.86,niue1239,,walworthpolynesian,239,239,197,LexiCore,,Austronesian
+walworthpolynesian-NorthMarquesan,NorthMarquesan_38,,-8.89412,-140.108,nort2845,,walworthpolynesian,287,287,207,LexiCore,,Austronesian
+walworthpolynesian-Nukuria,Nukuria_1212,,-3.40038,154.731,nuku1259,,walworthpolynesian,258,258,209,LexiCore,,Austronesian
+walworthpolynesian-Penrhyn,Penrhyn_235,,-9.082238,-157.922908,penr1237,,walworthpolynesian,203,203,187,LexiCore,,Austronesian
+walworthpolynesian-Pukapuka,Pukapuka_152,,-10.91,-165.83,puka1242,,walworthpolynesian,311,311,209,LexiCore,,Austronesian
+walworthpolynesian-RakahangaManihiki,RakahangaManihiki_589,,-10.03,-161.09,raka1237,,walworthpolynesian,267,267,182,LexiCore,,Austronesian
+walworthpolynesian-Rapanui,Rapanui_264,,-27.113,-109.342,rapa1244,,walworthpolynesian,252,252,204,LexiCore,,Austronesian
+walworthpolynesian-Rarotongan,Rarotongan_58,,-21.23,-159.78,raro1241,,walworthpolynesian,298,298,210,LexiCore,,Austronesian
+walworthpolynesian-RennellBellona,RennellBellona_206,,-11.6237,160.265,renn1242,,walworthpolynesian,250,250,206,LexiCore,,Austronesian
+walworthpolynesian-Samoan,Samoan_118,,-13.92,-171.83,samo1305,,walworthpolynesian,292,292,210,LexiCore,,Austronesian
+walworthpolynesian-Sikaiana,Sikaiana_243,,-8.378194,162.72952,sika1261,,walworthpolynesian,216,216,194,LexiCore,,Austronesian
+walworthpolynesian-Tahitian,Tahitian_173,,-17.6485,-149.45,tahi1242,,walworthpolynesian,237,237,209,LexiCore,,Austronesian
+walworthpolynesian-Tikopia,Tikopia_155,,-12.2766,168.822,tiko1237,,walworthpolynesian,243,243,201,LexiCore,,Austronesian
+walworthpolynesian-TongatongaIslands,TongaTongaIslands_136,,-21.17,-175.25,tong1325,,walworthpolynesian,222,222,210,LexiCore,,Austronesian
+walworthpolynesian-Tuamotuan,Tuamotuan_246,,-16.17259,-146.321755,tuam1242,,walworthpolynesian,257,257,199,LexiCore,,Austronesian
+walworthpolynesian-Tuvalu,Tuvalu_753,,-8.520813,179.198088,tuva1244,,walworthpolynesian,255,255,191,LexiCore,,Austronesian
+walworthpolynesian-VaeakauTaumako,VaeakauTaumako_375,,-10.173335,166.247188,pile1238,,walworthpolynesian,243,243,204,LexiCore,,Austronesian
+walworthpolynesian-Wallisian,Wallisian_258,,-13.2903,-176.207,wall1257,,walworthpolynesian,256,256,198,LexiCore,,Austronesian
 wangbai-Dashi,Dashi,,26.3530106,100.1930442,,,wangbai,425,425,388,LexiCoreClicsCore,Bai,Sino-Tibetan
 wangbai-Ega,Ega,,26.4858945,98.8528962,egab1234,,wangbai,438,438,388,LexiCoreClicsCore,Bai,Sino-Tibetan
 wangbai-Enqi,Enqi,,26.4738155,99.1189832,enqi1234,,wangbai,457,457,400,LexiCoreClicsCore,Bai,Sino-Tibetan
@@ -3428,18 +2731,6 @@ wangbai-Mazhelong,Mazhelong,,24.1677209,104.1950232,,,wangbai,448,448,398,LexiCo
 wangbai-Tuoluo,Tuoluo,,23.3833337,102.1839821,tuol1234,,wangbai,449,449,404,LexiCoreClicsCore,Bai,Sino-Tibetan
 wangbai-Zhoucheng,Zhoucheng,,25.8958826,100.0988062,zhou1234,,wangbai,428,428,387,LexiCoreClicsCore,Bai,Sino-Tibetan
 wangbai-Gongxing,Gongxing,,27.0852794,99.1652452,,,wangbai,442,442,393,LexiCoreClicsCore,Bai,Sino-Tibetan
-wheelerutoaztecan-TumpisaShoshonePanamintKoso,"Tümpisa Shoshone (Panamint,Koso)",,36.0007,-117.901,pana1305,,wheelerutoaztecan,160,160,101,LexiCore,,Uto-Aztecan
-wheelerutoaztecan-BigSmokeyValleyShoshone,Big Smokey Valley Shoshone,,41.0,-116.0,shos1248,,wheelerutoaztecan,147,147,100,LexiCore,,Uto-Aztecan
-wheelerutoaztecan-Shoshone,Shoshone,,41.0,-116.0,shos1248,,wheelerutoaztecan,137,137,101,LexiCore,,Uto-Aztecan
-wheelerutoaztecan-OrayviHopi,Orayvi Hopi,,35.7653,-110.535,hopi1249,,wheelerutoaztecan,143,143,101,LexiCore,,Uto-Aztecan
-wheelerutoaztecan-Kitanemuk,Kitanemuk,,33.9479,-116.772,serr1255,,wheelerutoaztecan,116,116,100,LexiCore,,Uto-Aztecan
-wheelerutoaztecan-Luiseno,Luiseño,,33.3184,-116.939,luis1253,,wheelerutoaztecan,132,132,100,LexiCore,,Uto-Aztecan
-wheelerutoaztecan-TohonoOodham,Tohono O'odham,,31.7973,-111.995,toho1245,,wheelerutoaztecan,141,141,101,LexiCore,,Uto-Aztecan
-wheelerutoaztecan-PimaBajo,Pima Bajo,,28.654,-108.326,pima1248,,wheelerutoaztecan,134,134,101,LexiCore,,Uto-Aztecan
-wheelerutoaztecan-Raramuri,Rarámuri,,27.5648,-107.154,cent2131,,wheelerutoaztecan,123,123,101,LexiCore,,Uto-Aztecan
-wheelerutoaztecan-ArizonaYoemeYaqui,Arizona Yoeme (Yaqui),,29.9446,-110.681,yaqu1251,,wheelerutoaztecan,122,122,100,LexiCore,,Uto-Aztecan
-wheelerutoaztecan-ClassicalNahuatl,Classical Nahuatl,,19.72,-96.97,clas1250,,wheelerutoaztecan,122,122,100,LexiCore,,Uto-Aztecan
-wheelerutoaztecan-Zuni,Zuni,,35.0056,-108.782,zuni1245,,wheelerutoaztecan,115,115,100,LexiCore,,Zuni
 wichmannmixezoquean-LowlandMixe,Lowland Mixe,,16.9404,-95.4659,coat1238,,wichmannmixezoquean,112,112,110,LexiCore,,Mixe-Zoque
 wichmannmixezoquean-SouthHighlandMixe,South Highland Mixe,,16.9634,-96.1186,tlah1239,,wichmannmixezoquean,110,110,110,LexiCore,,Mixe-Zoque
 wichmannmixezoquean-NorthHighlandMixe,North Highland Mixe,,17.2157,-96.0179,toto1305,,wichmannmixezoquean,115,115,110,LexiCore,,Mixe-Zoque

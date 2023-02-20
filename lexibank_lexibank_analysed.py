@@ -57,7 +57,7 @@ CLTS_2_1 = (
     'cldf-clts-clts-04f04e3')
 _loaded = {}
 
-LB_VERSION = "lexibank.tsv"
+LB_VERSION = "lexibank-bliss.tsv"
 
 @attr.s
 class CustomLexeme(Lexeme):
@@ -380,7 +380,7 @@ class Dataset(BaseDataset):
                 language = sorted(best_varieties[glc].items(), key=lambda x: x[1][0], reverse=True)[0][1][0]
                 print(language.id, language.dataset)
                 for form in language.forms_with_sounds:
-                    if form.concept and form.concept.concepticon_id:
+                    if form.concept and form.concept.concepticon_id and form.concept.concepticon_id in cid2gls:
                         cgls = cid2gls[form.concept.concepticon_id]
                         writer.add_form_with_segments(
                                 Local_ID=form.id,
@@ -406,7 +406,7 @@ class Dataset(BaseDataset):
                     cgls = cid2gls[concept.concepticon_id]
                     if cgls in visited_concepts:
                         writer.add_concept(
-                                ID=slug(concept.concepticon_gloss, lowercase=True),
+                                ID=slug(cgls, lowercase=True),
                                 Name=concept.concepticon_gloss,
                                 Concepticon_ID=concept.concepticon_id,
                                 Concepticon_Gloss=cgls,
