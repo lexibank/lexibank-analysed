@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='lexibank_analysed',
-    version='0.1.0.dev0',
+    version='1.0.dev0',
     description='',
     author='',
     author_email='',
