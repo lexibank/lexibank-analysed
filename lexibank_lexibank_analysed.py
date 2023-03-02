@@ -179,12 +179,13 @@ class Dataset(BaseDataset):
         """
         Load all datasets from a defined group of datasets.
         """
+        dataset_meta = self.dataset_meta
         if set_ is None:
-            dataset_ids = self.dataset_meta.keys()
+            dataset_ids = dataset_meta.keys()
         else:
             dataset_ids = [
                 key
-                for key, md in self.dataset_meta.items()
+                for key, md in dataset_meta.items()
                 if set_ in md['collections']]
 
         for dataset_id in dataset_ids:
@@ -192,7 +193,7 @@ class Dataset(BaseDataset):
                 if dataset_id not in _loaded:
                     _loaded[dataset_id] = (
                         pycldf.Dataset.from_metadata(self.raw_dir / dataset_id / "cldf" / "cldf-metadata.json"),
-                        self.dataset_meta[dataset_id])
+                        dataset_meta[dataset_id])
                 if with_metadata:
                     yield _loaded[dataset_id]
                 else:
