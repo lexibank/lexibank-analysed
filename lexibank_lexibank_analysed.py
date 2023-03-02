@@ -62,12 +62,15 @@ LB_VERSION = "lexibank-bliss.tsv"
 @attr.s
 class CustomLexeme(Lexeme):
     CV_Template = attr.ib(default=None)
-    Sound_Classes = attr.ib(default=None)
+    Prosodic_String = attr.ib(default=None)
+    Dolgo_Sound_Classes = attr.ib(default=None)
+    SCA_Sound_Classes = attr.ib(default=None)
 
 
 @attr.s
 class CustomConcept(Concept):
     Central_Concept = attr.ib(default=None)
+    Core_Concept = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
@@ -378,7 +381,7 @@ class Dataset(BaseDataset):
             for i, glc in tqdm(enumerate(best_varieties), desc="add_forms"):
                 # select best variety
                 language = sorted(best_varieties[glc].items(), key=lambda x: x[1][0], reverse=True)[0][1][0]
-                print(language.id, language.dataset)
+                args.log.info("processing {0} / {1}".format(language.id, language.dataset))
                 for form in language.forms_with_sounds:
                     if form.concept and form.concept.concepticon_id and form.concept.concepticon_id in cid2gls:
                         cgls = cid2gls[form.concept.concepticon_id]
@@ -390,7 +393,13 @@ class Dataset(BaseDataset):
                                 Form=form.form,
                                 Segments=form.sounds,
                                 CV_Template="".join(clts.soundclass("cv")(form.sounds)),
-                                Sound_Classes="".join(clts.soundclass("dolgo")(form.sounds)),
+                                Prosodic_String="".join(
+                                    lingpy.sequence.sound_classes.prosodic_string(form.sounds,
+                                                    _output="CcV")),
+                                Dolgo_Sound_Classes="".join(clts.soundclass("dolgo")(
+                                    form.sounds)),
+                                SCA_Sound_Classes="".join(clts.soundclass("sca")(
+                                    form.sounds)),
                                 Source=self.dataset_meta[language.dataset]["Source"].split(" ")
                                 )
                         visited_concepts.add(cgls)
@@ -401,6 +410,17 @@ class Dataset(BaseDataset):
                     self.concepticon.conceptlists["Rzymski-2020-1624"].concepts.values()
                     if c.concepticon_id
                     }
+            base_concepts = {c: [] for c in cid2gls.values()}
+            for clist in [
+                    "Swadesh-1952-200", 
+                    "Swadesh-1955-100", 
+                    "Starostin-1991-110",
+                    "Tadmor-2009-100",
+                    "Holman-2008-40"]:
+                for c in self.concepticon.conceptlists[clist].concepts.values():
+                    if c.concepticon_id and c.concepticon_id in cid2gls:
+                        base_concepts[cid2gls[c.concepticon_id]] += [clist]
+
             for concept in wl.concepts:
                 if concept.concepticon_id in cid2gls:
                     cgls = cid2gls[concept.concepticon_id]
@@ -410,6 +430,9 @@ class Dataset(BaseDataset):
                                 Name=concept.concepticon_gloss,
                                 Concepticon_ID=concept.concepticon_id,
                                 Concepticon_Gloss=cgls,
+                                Core_Concept=" ".join(
+                                    base_concepts.get(concept.concepticon_gloss,
+                                                      "")),
                                 Central_Concept=central_concepts.get(concept.concepticon_gloss, "")
                                 )
             args.log.info("added concepts for wordlist")
