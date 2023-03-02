@@ -410,7 +410,7 @@ class Dataset(BaseDataset):
                     self.concepticon.conceptlists["Rzymski-2020-1624"].concepts.values()
                     if c.concepticon_id
                     }
-            base_concepts = {c: [] for c in central_concepts}
+            base_concepts = {c: [] for c in cid2gls.values()}
             for clist in [
                     "Swadesh-1952-200", 
                     "Swadesh-1955-100", 
@@ -419,7 +419,7 @@ class Dataset(BaseDataset):
                     "Holman-2008-40"]:
                 for c in self.concepticon.conceptlists[clist].concepts.values():
                     if c.concepticon_id and c.concepticon_id in cid2gls:
-                        base_concepts[cid2gls[c.id]] += [clist]
+                        base_concepts[cid2gls[c.concepticon_id]] += [clist]
 
             for concept in wl.concepts:
                 if concept.concepticon_id in cid2gls:
@@ -430,7 +430,9 @@ class Dataset(BaseDataset):
                                 Name=concept.concepticon_gloss,
                                 Concepticon_ID=concept.concepticon_id,
                                 Concepticon_Gloss=cgls,
-                                Core_Concept=" ".join(base_concepts.get(concept.concepticon_gloss, "")
+                                Core_Concept=" ".join(
+                                    base_concepts.get(concept.concepticon_gloss,
+                                                      "")),
                                 Central_Concept=central_concepts.get(concept.concepticon_gloss, "")
                                 )
             args.log.info("added concepts for wordlist")
