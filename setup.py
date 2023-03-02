@@ -41,7 +41,7 @@ setup(
         'uritemplate',
         'lingpy>=2.6.8',
         'pyclts>=3.1',
-        'cartopy',
+        'cartopy<0.20.0',
         'pillow',
         'matplotlib',
         'scipy',
