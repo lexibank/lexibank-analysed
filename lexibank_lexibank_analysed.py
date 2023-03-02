@@ -93,7 +93,8 @@ class Dataset(BaseDataset):
                     ParameterTable="concepts.csv",
                     LanguageTable="languages.csv",
                     CognateTable="cognates.csv",
-                    FormTable="forms.csv")),
+                    FormTable="forms.csv"
+                )),
             'phonology': CLDFSpec(
                 metadata_fname='phonology-metadata.json',
                 data_fnames=dict(
@@ -126,7 +127,7 @@ class Dataset(BaseDataset):
             # # uncomment below when having added all data to zenodo
             # if not row['Zenodo'].strip():
             #     continue
-            row['collections'] = set(key for key in COLLECTIONS if row.get(key, '').strip() == 'x')
+            row['collections'] = {key for key in COLLECTIONS if row.get(key, '').strip() == 'x'}
             if any(coll in row['collections'] for coll in ['LexiCore', 'ClicsCore']):
                 res[row['Dataset']] = row
         return res
@@ -174,27 +175,30 @@ class Dataset(BaseDataset):
         with self.raw_dir.temp_download(CLTS_2_1[0], 'ds.zip', log=args.log) as zipp:
             zipfile.ZipFile(str(zipp)).extractall(self.raw_dir)
 
-    def _datasets(self, set_=None, with_metadata=False):
+    def _iter_datasets(self, set_=None, with_metadata=False):
         """
         Load all datasets from a defined group of datasets.
         """
-        if set_:
-            dss = [key for key, md in self.dataset_meta.items() if set_ in md['collections']]
+        if set_ is None:
+            dataset_ids = self.dataset_meta.keys()
         else:
-            dss = list(self.dataset_meta.keys())
+            dataset_ids = [
+                key
+                for key, md in self.dataset_meta.items()
+                if set_ in md['collections']]
 
-        res = []
-        for ds in dss:
+        for dataset_id in dataset_ids:
             try:
-                if ds not in _loaded:
-                    _loaded[ds] = (
-                        pycldf.Dataset.from_metadata(self.raw_dir / ds / "cldf" / "cldf-metadata.json"),
-                        self.dataset_meta[ds])
-                res.append(_loaded[ds]) if with_metadata else res.append(_loaded[ds][0])
+                if dataset_id not in _loaded:
+                    _loaded[dataset_id] = (
+                        pycldf.Dataset.from_metadata(self.raw_dir / dataset_id / "cldf" / "cldf-metadata.json"),
+                        self.dataset_meta[dataset_id])
+                if with_metadata:
+                    yield _loaded[dataset_id]
+                else:
+                    yield _loaded[dataset_id][0]
             except FileNotFoundError:
-                print("Missing Dataset: {0}".format(ds))
-
-        return res
+                print("Missing Dataset: {0}".format(dataset_id))
 
     def _schema(self, writer, with_stats=False, collstats=None):
         writer.cldf.add_component(
@@ -204,8 +208,7 @@ class Dataset(BaseDataset):
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#contributionReference',
             },
             {'name': 'Forms', 'datatype': 'integer', 'dc:description': 'Number of forms'},
-            {'name': "FormsWithSounds", "datatype": "integer",
-                "dc:description": "Number of forms with sounds"},
+            {'name': "FormsWithSounds", "datatype": "integer", "dc:description": "Number of forms with sounds"},
             {'name': 'Concepts', 'datatype': 'integer', 'dc:description': 'Number of concepts'},
             {'name': 'Incollections'},
             'Subgroup',
@@ -234,11 +237,11 @@ class Dataset(BaseDataset):
 
         if not with_stats:
             return
-        for ds, md in tqdm(self._datasets(with_metadata=True), desc='Computing summary stats'):
+        for ds, md in tqdm(self._iter_datasets(with_metadata=True), desc='Computing summary stats'):
             langs = list(ds.iter_rows('LanguageTable', 'glottocode'))
-            gcs = set(lg['glottocode'] for lg in langs if lg['glottocode'])
+            gcs = {lg['glottocode'] for lg in langs if lg['glottocode']}
             senses = list(ds.iter_rows('ParameterTable', 'concepticonReference'))
-            csids = set(sense['concepticonReference'] for sense in senses if sense['concepticonReference'])
+            csids = {sense['concepticonReference'] for sense in senses if sense['concepticonReference']}
             contrib = dict(
                 ID=md['ID'],
                 Name=ds.properties['dc:title'],
@@ -352,7 +355,7 @@ class Dataset(BaseDataset):
 
         def _add_languages(
             writer, languages, condition, features, attr_features,
-            collection='', visited=set([]),
+            collection='', visited=set(),
         ):
             for language in tqdm(languages, desc='computing features'):
                 if language.name is None or language.name == "None":
@@ -371,7 +374,7 @@ class Dataset(BaseDataset):
             # add sources
             writer.add_sources()
             # add concepts and the like
-            wl = Wordlist(self._datasets("LexiCore"), ts=clts.bipa)
+            wl = Wordlist(self._iter_datasets("LexiCore"), ts=clts.bipa)
             best_varieties = collections.defaultdict(dict)
             var_count = 0
             for lng in wl.languages:
@@ -384,7 +387,7 @@ class Dataset(BaseDataset):
             visited_concepts = set()
             for i, glc in tqdm(enumerate(best_varieties), desc="add_forms"):
                 # select best variety
-                language = sorted(best_varieties[glc].items(), key=lambda x: x[1][0], reverse=True)[0][1][0]
+                language = max(best_varieties[glc].items(), key=lambda x: x[1][0])[1][0]
                 args.log.info("processing {0} / {1}".format(language.id, language.dataset))
                 for form in language.forms_with_sounds:
                     if form.concept and form.concept.concepticon_id and form.concept.concepticon_id in cid2gls:
@@ -421,7 +424,7 @@ class Dataset(BaseDataset):
                     "Holman-2008-40"]:
                 for c in self.concepticon.conceptlists[clist].concepts.values():
                     if c.concepticon_id and c.concepticon_id in cid2gls:
-                        base_concepts[cid2gls[c.concepticon_id]] += [clist]
+                        base_concepts[cid2gls[c.concepticon_id]].append(clist)
 
             for concept in wl.concepts:
                 if concept.concepticon_id in cid2gls:
