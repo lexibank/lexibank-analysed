@@ -382,13 +382,14 @@ class Dataset(BaseDataset):
                 if CONDITIONS["LexiCore"](lng) and lng.latitude and lng.glottocode:
                     fws = len(lng.forms_with_sounds)
                     var_count += 1
-                    best_varieties[lng.glottocode][lng.id] = (lng, fws)
+                    # add form count for sorting
+                    best_varieties[lng.glottocode][lng.id] = (fws, lng)
             args.log.info("found {0} different glottocodes with {1} varieties".format(len(best_varieties), var_count))
 
             visited_concepts = set()
             for i, glc in tqdm(enumerate(best_varieties), desc="add_forms"):
                 # select best variety
-                language = max(best_varieties[glc].items(), key=lambda x: x[1][0])[1][0]
+                _, language = max(best_varieties[glc].values())
                 args.log.info("processing {0} / {1}".format(language.id, language.dataset))
                 for form in language.forms_with_sounds:
                     if form.concept and form.concept.concepticon_id and form.concept.concepticon_id in cid2gls:
