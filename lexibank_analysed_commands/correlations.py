@@ -63,7 +63,7 @@ def run(args):
 
     for gcode in progressbar(phoibledata, desc='extracting PHOIBLE inventories'):
         for lid, sounds in phoibledata[gcode].items():
-            if not "?" in sounds:        
+            if "?" not in sounds:
                 language = Language(
                     id=lid,
                     data=phoiblekeys[gcode].data,
