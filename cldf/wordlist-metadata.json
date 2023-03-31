@@ -19,19 +19,19 @@
         {
             "rdf:about": "https://github.com/lexibank/lexibank-study/",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.2-23-gc12427a",
+            "dc:created": "v0.2-24-ge56c3c4",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.6",
+            "dc:created": "v4.7",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.0.0",
+            "dc:created": "v3.1.0",
             "dc:title": "Concepticon"
         },
         {
@@ -636,7 +636,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 648664,
+            "dc:extent": 709638,
             "tableSchema": {
                 "columns": [
                     {
@@ -768,7 +768,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 3034,
+            "dc:extent": 3033,
             "tableSchema": {
                 "columns": [
                     {
@@ -895,6 +895,30 @@
                     {
                         "datatype": "string",
                         "name": "Family"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Family_in_Data"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Subgroup"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Forms"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FormsWithSounds"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Concepts"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Incollections"
                     }
                 ],
                 "primaryKey": [
