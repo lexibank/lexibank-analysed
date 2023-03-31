@@ -23,13 +23,13 @@ Available online at https://lexibank.clld.org
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 2,030
+- **Varieties:** 2,029
 - **Concepts:** 3,034
-- **Lexemes:** 648,871
+- **Lexemes:** 648,664
 - **Sources:** 78
 - **Synonymy:** 1.12
 - **Invalid lexemes:** 0
-- **Tokens:** 3,498,445
+- **Tokens:** 3,497,311
 - **Segments:** 1,491 (0 BIPA errors, 0 CLTS sound class errors, 1483 CLTS modified)
 - **Inventory size (avg):** 37.22
 

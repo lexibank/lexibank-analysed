@@ -17,7 +17,7 @@ from tqdm import tqdm
 from csvw.dsv import reader
 import attr
 
-from pylexibank import Lexeme, Concept
+from pylexibank import Lexeme, Concept, Language
 
 import lingpy
 from clldutils.misc import slug
@@ -73,11 +73,22 @@ class CustomConcept(Concept):
     Core_Concept = attr.ib(default=None)
 
 
+@attr.s
+class CustomLanguage(Language):
+    Family_in_Data = attr.ib(default=None)
+    Subgroup = attr.ib(default=None)
+    Forms = attr.ib(default=None)
+    FormsWithSounds = attr.ib(default=None)
+    Concepts = attr.ib(default=None)
+    Incollections = attr.ib(default=None)
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "lexibank-analysed"
     lexeme_class = CustomLexeme
     concept_class = CustomConcept
+    language_class = CustomLanguage
 
     def cldf_specs(self):
         return {
@@ -208,7 +219,8 @@ class Dataset(BaseDataset):
             {'name': 'Concepts', 'datatype': 'integer', 'dc:description': 'Number of concepts'},
             {'name': 'Incollections'},
             'Subgroup',
-            'Family')
+            'Family',
+            'Family_in_Data')
         t = writer.cldf.add_table(
             'collections.csv',
             'ID',
@@ -259,6 +271,7 @@ class Dataset(BaseDataset):
     def cmd_makecldf(self, args):
         cid2gls = {c.id: c.gloss for c in
                    self.concepticon.conceptsets.values()}
+        languoids = {k.id: k for k in self.glottolog.languoids()}
         visited = set()
         collstats = collections.OrderedDict()
         for cid, (desc, name) in COLLECTIONS.items():
@@ -294,20 +307,27 @@ class Dataset(BaseDataset):
                 collection='', visited=set()):
             l = languages.get(language.id)
             if not l:
-                l = {
-                    "ID": language.id,
-                    "Name": language.name,
-                    "Glottocode": language.glottocode,
-                    "Dataset": language.dataset,
-                    "Latitude": language.latitude,
-                    "Longitude": language.longitude,
-                    "Subgroup": language.subgroup,
-                    "Family": language.family,
-                    "Forms": len(language.forms or []),
-                    "FormsWithSounds": len(language.forms_with_sounds or []),
-                    "Concepts": len(language.concepts),
-                    "Incollections": collection,
-                }
+                try:
+                    family = self.glottolog.languoid(language.glottocode).family
+                    l = {
+                        "ID": language.id,
+                        "Name": language.name,
+                        "Glottocode": language.glottocode,
+                        "Dataset": language.dataset,
+                        "Latitude": language.latitude,
+                        "Longitude": language.longitude,
+                        "Subgroup": language.subgroup,
+                        "Family": family.name if family else "",
+                        "Family_in_Source": language.family,
+                        "Forms": len(language.forms or []),
+                        "FormsWithSounds": len(language.forms_with_sounds or []),
+                        "Concepts": len(language.concepts),
+                        "Incollections": collection,
+                    }
+                except AttributeError:
+                    args.log.warn("{0} / {1} / {2}".format(
+                        language.name, language.dataset, language.glottocode))
+                    return
             else:
                 l['Incollections'] = l['Incollections'] + collection
             if language.id not in visited:
@@ -352,10 +372,10 @@ class Dataset(BaseDataset):
         def _add_languages(writer, languages, condition, features,
                 attr_features, collection='', visited=set([]), ):
             for language in tqdm(languages, desc='computing features'):
-                if language.name == None or language.name == "None":
+                if not str(language.name).strip() or language.name == "None":
                     args.log.warning('{0.dataset}: {0.id}: {0.name}'.format(language))
                     continue
-                if language.latitude and condition(language):
+                if language.latitude and language.glottocode and condition(language):
                     _add_language(writer, language, features, attr_features,
                             collection=collection, visited=visited)
                     yield language
@@ -371,7 +391,7 @@ class Dataset(BaseDataset):
             best_varieties = collections.defaultdict(dict)
             var_count = 0
             for lng in wl.languages:
-                if CONDITIONS["LexiCore"](lng) and lng.latitude and lng.glottocode:
+                if CONDITIONS["LexiCore"](lng) and lng.latitude and lng.glottocode and lng.glottocode in languoids:
                     fws = len(lng.forms_with_sounds)
                     var_count += 1
                     best_varieties[lng.glottocode][lng.id] = (lng, fws)
