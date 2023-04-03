@@ -276,7 +276,7 @@ class Dataset(BaseDataset):
     def cmd_makecldf(self, args):
         cid2gls = {c.id: c.gloss for c in
                    self.concepticon.conceptsets.values()}
-        languoids = {k.id: k for k in self.glottolog.languoids()}
+        languoids = self.glottolog.cached_languoids 
         visited = set()
         collstats = collections.OrderedDict()
         for cid, (desc, name) in COLLECTIONS.items():
@@ -313,7 +313,7 @@ class Dataset(BaseDataset):
             l = languages.get(language.id)
             if not l:
                 try:
-                    family = self.glottolog.languoid(language.glottocode).family
+                    family = languoids[language.glottocode].family
                     l = {
                         "ID": language.id,
                         "Name": language.name,
@@ -323,13 +323,13 @@ class Dataset(BaseDataset):
                         "Longitude": language.longitude,
                         "Subgroup": language.subgroup,
                         "Family": family.name if family else "",
-                        "Family_in_Source": language.family,
+                        "Family_in_Data": language.family,
                         "Forms": len(language.forms or []),
                         "FormsWithSounds": len(language.forms_with_sounds or []),
                         "Concepts": len(language.concepts),
                         "Incollections": collection,
                     }
-                except AttributeError:
+                except KeyError:
                     args.log.warn("{0} / {1} / {2}".format(
                         language.name, language.dataset, language.glottocode))
                     return
