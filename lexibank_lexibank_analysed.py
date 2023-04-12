@@ -379,7 +379,7 @@ class Dataset(BaseDataset):
             collection='', visited=set(),
         ):
             for language in tqdm(languages, desc='computing features'):
-                if not str(language.name).strip() or language.name == "None":
+                if not language.name or not language.name.strip() or language.name == 'None':
                     args.log.warning('{0.dataset}: {0.id}: {0.name}'.format(language))
                     continue
                 if language.latitude and language.glottocode and condition(language):
