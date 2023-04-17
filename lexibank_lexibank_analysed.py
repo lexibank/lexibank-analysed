@@ -332,7 +332,7 @@ class Dataset(BaseDataset):
                 except KeyError:
                     args.log.warn("{0} / {1} / {2}".format(
                         language.name, language.dataset, language.glottocode))
-                    return
+                    return False
             else:
                 l['Incollections'] = l['Incollections'] + collection
             if language.id not in visited:
@@ -373,6 +373,7 @@ class Dataset(BaseDataset):
                     Value=v,
                     Code_ID='{}-{}'.format(feature.id, v) if feature.categories else None,
                 ))
+            return True
 
         def _add_languages(
             writer, languages, condition, features, attr_features,
@@ -383,9 +384,9 @@ class Dataset(BaseDataset):
                     args.log.warning('{0.dataset}: {0.id}: {0.name}'.format(language))
                     continue
                 if language.latitude and language.glottocode and condition(language):
-                    _add_language(writer, language, features, attr_features,
-                            collection=collection, visited=visited)
-                    yield language
+                    if _add_language(writer, language, features, attr_features,
+                                     collection=collection, visited=visited):
+                        yield language
 
         # we add both the concepts and the forms, we add the languages later
         # via the LexiCore phonology module
