@@ -83,6 +83,7 @@ class CustomLanguage(Language):
     FormsWithSounds = attr.ib(default=None)
     Concepts = attr.ib(default=None)
     Incollections = attr.ib(default=None)
+    Dataset = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
