@@ -1,6 +1,4 @@
 ID	Organization	Dataset	Source	Zenodo	Todo	ClicsCore	LexiCore	CogCore	ProtoCore	Version
-mixtecansubgrouping	lexibank	mixtecansubrouping	Auderset2023	10.5281/zenodo.7642970	Concept List to Concepticon		x	x		v0.1
-leecaijia	lexibank	leecaijia	Lee2022				x			
 aaleykusunda	lexibank	aaleykusunda	Aaley2019	10.5281/zenodo.5115947			x			v2.0
 abrahammonpa	lexibank	abrahammonpa	Abraham2018	10.5281/zenodo.5115885		x	x			v3.0
 abvdoceanic	lexibank	abvdoceanic	Greenhill2008	10.5281/zenodo.5206553			x	x		v0.2
@@ -61,6 +59,7 @@ kochtukanoan	lexibank	kochtukanoan	Koch1914		concept list not in concepticon	x	x
 kraftchadic	lexibank	kraftchadic	Kraft1981	10.5281/zenodo.5121222		x	x			v4.0.1
 lamanisoic	lexibank	lamanisoic	Lama2012			x	x			
 leeainu	lexibank	leeainu	Lee2013	10.5281/zenodo.5126890			x			v1.0
+leecaijia	lexibank	leecaijia	Lee2022				x			
 leejaponic	lexibank	leejaponic	Lee2011	10.5281/zenodo.5126801			x			v1.0
 leekoreanic	lexibank	leekoreanic	Lee2015	10.5281/zenodo.5126904			x	x		v1.0
 lieberherrkhobwa	lexibank	lieberherrkhobwa	Lieberherr2017	10.5281/zenodo.5127687			x	x		v1.0
@@ -74,6 +73,7 @@ mannburmish	lexibank	mannburmish	Mann1998	10.5281/zenodo.5131419		x	x	x		v1.0
 marrisonnaga	lexibank	marrisonnaga	Marrison1967	10.5281/zenodo.5121317		x	x			v3.0
 mcelhanonhuon	lexibank	mcelhanonhuon	McElhanon1967	10.5281/zenodo.5127348			x	x		v1.0
 mitterhoferbena	lexibank	mitterhoferbena	Mitterhofer2013	10.5281/zenodo.5121327		x	x			v3.0
+mixtecansubgrouping	lexibank	mixtecansubrouping	Auderset2023	10.5281/zenodo.7642970	Concept List to Concepticon		x	x		v0.1
 naganorgyalrongic	lexibank	naganorgyalrongic	Nagano2013	10.5281/zenodo.5126458		x	x			v3.0
 nagarajakhasian	lexibank	nagarajakhasian	Nagaraja2013	10.5281/zenodo.5131421			x	x		v1.0
 northeuralex	lexibank	northeuralex	Dellert2020	10.5281/zenodo.5121268		x	x			v4.0
