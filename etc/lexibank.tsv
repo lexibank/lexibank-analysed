@@ -55,7 +55,7 @@ hsiuhmongmien	lexibank	hsiuhmongmien	Hsiu2015	10.5281/zenodo.5126451	check for s
 hubercolumbian	lexibank	hubercolumbian	Huber1992	10.5281/zenodo.5121219		x	x			v4.0.1
 huntergatherer	lexibank	huntergatherer	HunterGatherer	10.5281/zenodo.5126741		x	x			v1.0
 ids					Replaced by idssegmented?					
-idssegmented	intercontinental-dictionary-series	idssegmented	IDS		check sources and make public, concepticon concept sets need re-run	x	x			
+idssegmented	intercontinental-dictionary-series	idssegmented	IDS	10.5281/zenodo.10404395	check sources and make public, concepticon concept sets need re-run	x	x			
 ivanisuansu	lexibank	ivanisuansu	Ivani2019	10.5281/zenodo.5126966			x			v1.0
 johanssonsoundsymbolic	lexibank	johanssonsoundsymbolic	Johansson2020	10.5281/zenodo.5127131		x	x			
 joophonosemantic	lexibank	joophonosemantic	Joo2019	10.5281/zenodo.5137230			x			v1.1
@@ -75,7 +75,7 @@ lionnetyotonahua	lexibank	lionnetyotonahua	Lionnet1985		concept list added, need
 listsamplesize	sequencecomparison	listsamplesize	List2014c	10.5281/zenodo.5128050		x	x	x		v1.0
 liusinitic	lexibank	liusinitic	Liu2007	10.5281/zenodo.5131413			x	x		v1.0
 logos	lexibank	logos		10.5281/zenodo.5141379						
-luangthongkumkaren	lexibank	luangthongkumkaren	Luangthongkum2019		List has been added to Concepticon, rebuild needed	x	x	x	x	
+luangthongkumkaren	lexibank	luangthongkumkaren	Luangthongkum2019	10.5281/zenodo.10392172	List has been added to Concepticon, rebuild needed	x	x	x	x	
 lundgrenomagoa	lexibank	lundgrenomagoa	Lundgren2020	10.5281/zenodo.5128097			x	x		v1.0
 mannburmish	lexibank	mannburmish	Mann1998	10.5281/zenodo.5131419		x	x	x		v1.0
 marrisonnaga	lexibank	marrisonnaga	Marrison1967	10.5281/zenodo.5121317		x	x			v3.0
