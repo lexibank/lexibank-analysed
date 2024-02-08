@@ -82,7 +82,7 @@ marrisonnaga	lexibank	marrisonnaga	Marrison1967	10.5281/zenodo.5121317		x	x			v3
 mcelhanonhuon	lexibank	mcelhanonhuon	McElhanon1967	10.5281/zenodo.5127348			x	x		v1.0
 mitterhoferbena	lexibank	mitterhoferbena	Mitterhofer2013	10.5281/zenodo.5121327		x	x			v3.0
 mixezoqueanvoices	lexibank	mixezoqueanvoices								
-mixtecansubgrouping	lexibank	mixtecansubrouping	Auderset2023	10.5281/zenodo.7642970	Concept List to Concepticon		x	x		v0.1
+mixtecansubgrouping	lexibank	mixtecansubrouping	Auderset2023	10.5281/zenodo.7642970	List has been added to Concepticon		x	x		v0.1
 naganorgyalrongic	lexibank	naganorgyalrongic	Nagano2013	10.5281/zenodo.5126458		x	x			v3.0
 nagarajakhasian	lexibank	nagarajakhasian	Nagaraja2013	10.5281/zenodo.5131421			x	x		v1.0
 northeuralex	lexibank	northeuralex	Dellert2020	10.5281/zenodo.5121268		x	x			v4.0
@@ -119,7 +119,7 @@ transnewguineaorg	lexibank	transnewguineaorg	Greenhill2015	10.5281/zenodo.514162
 tuled	tupian-language-resources	tuled	TULED-0.11		Concept list is added, rebuild	x	x	x		
 utoaztecan	lexibank	utoaztecan	Greenhill2023fc	10.5281/zenodo.5173799			x	x		v1.1
 valzarpanotakana	pano-tacanan-history	valzarpanotakana								
-vanuatuvoices	lexibank	vanuatuvoices			Concept list status unclear					
+vanuatuvoices	lexibank	vanuatuvoices			concept list missing					
 visserkalamang	intercontinental-dictionary-series	visserkalamang	Visser2021	10.5281/zenodo.5139559		x	x			v2.0
 walkerarawakan	lexibank	walkerarawakan	Walker2011				x			
 walworthpolynesian	lexibank	walworthpolynesian	Walworth2018	10.5281/zenodo.5126932	new release needed		x	x		v1.0
@@ -134,7 +134,7 @@ yanglalo	lexibank	yanglalo	Yang2011	10.5281/zenodo.5121829		x	x	x	x	v3.0
 yangyi	lexibank	yangyi	Yang2022	10.5281/zenodo.5167277		x	x			v1.1
 yuchinese	intercontinental-dictionary-series	yuchinese	Yu2021	10.5281/zenodo.5139881		x	x			v2.0
 zgraggenmadang	lexibank	zgraggenmadang	Zgraggen1980a	10.5281/zenodo.5121535		x	x			v4.0
-zhangrgyalrong	lexibank	zhangrgyalrong	Zhang2019		concept list for concepticon 2.6		x	x		
+zhangrgyalrong	lexibank	zhangrgyalrong	Zhang2019		Concept list has been added, but script needs modification		x	x		
 zhaobai	lexibank	zhaobai	Zhao2006	10.5281/zenodo.5136947			x			v1.0
 zhivlovobugrian	sequencecomparison	zhivlovobugrian	Zhivlov2011	10.5281/zenodo.5137439			x	x		v1.0
 zhoubizic	lexibank	zhoubizic	Zhou2020	10.5281/zenodo.5140129	List has been added to Concepticon, rebuild and rerelease needed	x	x			v1.0
