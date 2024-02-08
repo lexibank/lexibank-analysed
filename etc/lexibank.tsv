@@ -54,8 +54,7 @@ houchinese	sequencecomparison	houchinese	Hou2004	10.5281/zenodo.5126858			x	x		v
 hsiuhmongmien	lexibank	hsiuhmongmien	Hsiu2015	10.5281/zenodo.5126451	check for sounds (profile okay but not complete		x			
 hubercolumbian	lexibank	hubercolumbian	Huber1992	10.5281/zenodo.5121219		x	x			v4.0.1
 huntergatherer	lexibank	huntergatherer	HunterGatherer	10.5281/zenodo.5126741		x	x			v1.0
-ids					Replaced by idssegmented?					
-idssegmented	intercontinental-dictionary-series	idssegmented	IDS	10.5281/zenodo.10404395	check sources and make public, concepticon concept sets need re-run	x	x			
+idssegmented	intercontinental-dictionary-series	idssegmented	IDS	10.5281/zenodo.10404395	check sources and make public, concepticon concept sets need re-run, replaces ids	x	x			
 ivanisuansu	lexibank	ivanisuansu	Ivani2019	10.5281/zenodo.5126966			x			v1.0
 johanssonsoundsymbolic	lexibank	johanssonsoundsymbolic	Johansson2020	10.5281/zenodo.5127131		x	x			
 joophonosemantic	lexibank	joophonosemantic	Joo2019	10.5281/zenodo.5137230			x			v1.1
