@@ -3,17 +3,17 @@ aaleykusunda	lexibank	aaleykusunda	Aaley2019	10.5281/zenodo.5115947			x			v2.0
 abrahammonpa	lexibank	abrahammonpa	Abraham2018	10.5281/zenodo.5115885		x	x			v3.0
 abvdoceanic	lexibank	abvdoceanic	Greenhill2008	10.5281/zenodo.5206553			x	x		v0.2
 allenbai	lexibank	allenbai	Allen2007	10.5281/zenodo.5115649		x	x			v4.0
-backstromnorthernpakistan	lexibank	backstromnorthernpakistan	Backstrom1992	10.5281/zenodo.5116054			x			v1.0
+backstromnorthernpakistan	lexibank	backstromnorthernpakistan	Backstrom1992	10.5281/zenodo.5116054	Needs rebuild after Concepticon release		x			v1.0
 baf2	lexibank	baf2	Hantgan2022	10.5281/zenodo.5751226	Concept list has been added to Concepticon, data set needs rebuild	x	x			v0.2
-blumpanotacana	pano-tacanan-history	blumpanotacana		10.5281/zenodo.10450408			x	x		
+blumpanotacana	pano-tacanan-history	blumpanotacana		10.5281/zenodo.10450408			x	x		v0.2
 bantubvd	lexibank	bantubvd	Greenhill2015a	10.5281/zenodo.5115982		x	x			v4.0
 bdpa	lexibank	bdpa	List2014e	10.5281/zenodo.5116087			x	x		v1.0
 beidasinitic	lexibank	beidasinitic	Cihui	10.5281/zenodo.5119295		x	x			v5.0.1
-birchallchapacuran	lexibank	birchallchapacuran	Birchall2016	10.5281/zenodo.5119306			x			v1.0.1
+birchallchapacuran	lexibank	birchallchapacuran	Birchall2016	10.5281/zenodo.6538403			x			v1.1.0
 blustaustronesian	sequencecomparison	blustaustronesian	Greenhill2008	10.5281/zenodo.5137392			x	x		v1.0
-bodtkhobwa	lexibank	bodtkhobwa	Bodt2022	10.5281/zenodo.5119330		x	x	x		v3.0.1
+bodtkhobwa	lexibank	bodtkhobwa	Bodt2022	10.5281/zenodo.6538395		x	x	x		v3.1.0
 bowernpny	lexibank	bowernpny	Bowern2012	10.5281/zenodo.5119341		x	x	x		v4.0.1
-bremerberta	lexibank	bremerberta	Bremer2016	10.5281/zenodo.5126757			x			v1.0
+bremerberta	lexibank	bremerberta	Bremer2016	10.5281/zenodo.6538256			x			v1.1
 cals	lexibank	cals	Mennecier2016	10.5281/zenodo.5121189			x	x		v1.0.1
 carvalhopurus	lexibank	carvalhopurus	Carvalho2021	10.5281/zenodo.5121195			x	x	x	v1.0.1
 castrosui	lexibank	castrosui	Castro2011	10.5281/zenodo.5121213		x	x			v3.0.1
@@ -28,7 +28,6 @@ chacontukanoan	lexibank	chacontukanoan	Chacon2014	10.5281/zenodo.5118723			x	x		
 chenhmongmien	lexibank	chenhmongmien	Chen2012	10.5281/zenodo.5118744		x	x			v3.0
 chindialectsurvey	lexibank	chindialectsurvey	Chin2019	10.5281/zenodo.5121280		x	x			v1.0
 chingelong	digling	chingelong	Chin2015	10.5281/zenodo.5121324			x			v1.0
-clics1	clics	clics1-cldf		10.5281/zenodo.5121530						
 clarkkimmun	lexibank	clarkkimmun	Clark2008	10.5281/zenodo.5121482	check for sounds and profile	x	x			v1.0
 constenlachibchan	lexibank	constenlachibchan	Constenla2005	10.5281/zenodo.5121347			x	x		v1.0
 crossandean	lexibank	crossandean	Blum2023	10.5281/zenodo.7491751		x	x	x		v1.1
