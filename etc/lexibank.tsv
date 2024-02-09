@@ -51,7 +51,7 @@ hantganbangime	lexibank	hantganbangime	Hantgan2022b	10.5281/zenodo.5126441	could
 hattorijaponic	sequencecomparison	hattorijaponic	Hattori1973	10.5281/zenodo.5126845			x	x		v1.0
 houchinese	sequencecomparison	houchinese	Hou2004	10.5281/zenodo.5126858			x	x		v1.0
 hsiuhmongmien	lexibank	hsiuhmongmien	Hsiu2015	10.5281/zenodo.5126451	check for sounds (profile okay but not complete		x			
-hubercolumbian	lexibank	hubercolumbian	Huber1992	10.5281/zenodo.5121219		x	x			v4.0.1
+huberchubercolumbian	lexibank	hubercolumbian	Huber1992	10.5281/zenodo.5121219		x	x			v4.0.1
 huntergatherer	lexibank	huntergatherer	HunterGatherer	10.5281/zenodo.5126741		x	x			v1.0
 idssegmented	intercontinental-dictionary-series	idssegmented	IDS	10.5281/zenodo.10404395	check sources and make public, concepticon concept sets need re-run, replaces ids	x	x			
 ivanisuansu	lexibank	ivanisuansu	Ivani2019	10.5281/zenodo.5126966			x			v1.0
@@ -62,6 +62,7 @@ kesslersignificance	sequencecomparison	kesslersignificance	Kessler2001	10.5281/z
 kleinewillinghoeferbikwinjen	lexibank	kleinewillinghoeferbikwinjen	Kleinewillinghoefer2015	10.5281/zenodo.5127404			x			v1.0
 kochtukanoan	lexibank	kochtukanoan	Koch1914		Concept list has been added, needs rebuild	x	x			
 kraftchadic	lexibank	kraftchadic	Kraft1981	10.5281/zenodo.5121222		x	x			v4.0.1
+lairgyalrong	lexibank	lairgyalrong	Lai2023		Release is not on Zenodo yet					v0.2
 lamanisoic	lexibank	lamanisoic	Lama2012			x	x			
 leeainu	lexibank	leeainu	Lee2013	10.5281/zenodo.5126890			x			v1.0
 leecaijia	lexibank	leecaijia	Lee2022				x			
@@ -131,7 +132,6 @@ yanglalo	lexibank	yanglalo	Yang2011	10.5281/zenodo.5121829		x	x	x	x	v3.0
 yangyi	lexibank	yangyi	Yang2022	10.5281/zenodo.5167277		x	x			v1.1
 yuchinese	intercontinental-dictionary-series	yuchinese	Yu2021	10.5281/zenodo.5139881		x	x			v2.0
 zgraggenmadang	lexibank	zgraggenmadang	Zgraggen1980a	10.5281/zenodo.5121535		x	x			v4.0
-zhangrgyalrong	lexibank	zhangrgyalrong	Zhang2019		Concept list has been added, but script needs modification		x	x		
 zhaobai	lexibank	zhaobai	Zhao2006	10.5281/zenodo.5136947			x			v1.0
 zhivlovobugrian	sequencecomparison	zhivlovobugrian	Zhivlov2011	10.5281/zenodo.5137439			x	x		v1.0
 zhoubizic	lexibank	zhoubizic	Zhou2020	10.5281/zenodo.5140129	List has been added to Concepticon, rebuild and rerelease needed	x	x			v1.0
