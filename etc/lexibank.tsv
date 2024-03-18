@@ -5,7 +5,7 @@ abvdoceanic	lexibank	abvdoceanic	Greenhill2008	10.5281/zenodo.5206553			x	x		v0.
 allenbai	lexibank	allenbai	Allen2007	10.5281/zenodo.5115649		x	x			v4.0
 backstromnorthernpakistan	lexibank	backstromnorthernpakistan	Backstrom1992	10.5281/zenodo.5116054	Needs rebuild after Concepticon release		x			v1.0
 baf2	lexibank	baf2	Hantgan2022	10.5281/zenodo.5751226	Ready for release	x	x			v0.2
-blumpanotacana	pano-tacanan-history	blumpanotacana		10.5281/zenodo.10450408			x	x		v0.2
+blumpanotacana	pano-tacanan-history	blumpanotacana		10.5281/zenodo.10450408		x	x	x		v0.2
 bantubvd	lexibank	bantubvd	Greenhill2015a	10.5281/zenodo.5115982		x	x			v4.0
 bdpa	lexibank	bdpa	List2014e	10.5281/zenodo.5116087			x	x		v1.0
 beidasinitic	lexibank	beidasinitic	Cihui	10.5281/zenodo.5119295		x	x			v5.0.1
@@ -30,7 +30,7 @@ chindialectsurvey	lexibank	chindialectsurvey	Chin2019	10.5281/zenodo.5121280		x	
 chingelong	digling	chingelong	Chin2015	10.5281/zenodo.5121324			x			v1.0
 clarkkimmun	lexibank	clarkkimmun	Clark2008	10.5281/zenodo.5121482	check for sounds and profile	x	x			v1.0
 constenlachibchan	lexibank	constenlachibchan	Constenla2005	10.5281/zenodo.5121347			x	x		v1.0
-crossandean	lexibank	crossandean	Blum2023	10.5281/zenodo.7491751		x	x	x		v1.1
+crossandean	lexibank	crossandean	Blum2023	10.5281/zenodo.7491751			x	x		v1.1
 danielssogeram									x	
 davletshinaztecan	lexibank	davletshinaztecan	Davletshin2012	10.5281/zenodo.5121382			x	x	x	v1.0
 deepadungpalaung	lexibank	deepadungpalaung	Deepadung2015	10.5281/zenodo.5121402			x	x		v1.0
@@ -44,7 +44,7 @@ felekesemitic	lexibank	felekesemitic	Feleke2021	10.5281/zenodo.5126691			x	x		v1
 galuciotupi	lexibank	galuciotupi	Galucio2015	10.5281/zenodo.5121724			x	x		v1.0
 gaotb	digling	gaotb	Gao2020	10.5281/zenodo.5121776			x	x		v1.0
 gerarditupi	lexibank	gerarditupi	Gerardi2021	10.5281/zenodo.5127906			x	x		v2.0
-girardprototakanan	pano-tacanan-history	girardprototakanan								
+girardprototakanan	pano-tacanan-history	girardprototakanan	Girard1971	10.5281/zenodo.10212485			X	X	X	v1.0.0
 gravinachadic	lexibank	gravinachadic	Gravina2014		Ready for release	x	x	x		
 halenepal	lexibank	halenepal	Hale1973	10.5281/zenodo.5121540		x	x			v3.0
 hantganbangime	lexibank	hantganbangime	Hantgan2022b	10.5281/zenodo.5126441	could be superceded by baf2, which has more concepts	x	x			v1.0
@@ -86,8 +86,8 @@ mixtecansubgrouping	lexibank	mixtecansubrouping	Auderset2023	10.5281/zenodo.7642
 naganorgyalrongic	lexibank	naganorgyalrongic	Nagano2013	10.5281/zenodo.5126458		x	x			v3.0
 nagarajakhasian	lexibank	nagarajakhasian	Nagaraja2013	10.5281/zenodo.5131421			x	x		v1.0
 northeuralex	lexibank	northeuralex	Dellert2020	10.5281/zenodo.5121268		x	x			v4.0
-northperulex	lexibank	northperulex	Barrientos2024		in progress, not ready for 2.0					
-oliveiraprotopanoan	pano-tacanan-history	oliveiraprotopanoan		10.5281/zenodo.8058801						
+northperulex	lexibank	northperulex	Barrientos2024		Possibly ready for LB v2.0					
+oliveiraprotopanoan	pano-tacanan-history	oliveiraprotopanoan		10.5281/zenodo.8058801			X	X	X	
 oskolskayatungusic	lexibank	oskolskayatungusic	Oskolskaya2022	10.5281/zenodo.10404266		x	x	x		
 othanieljen	lexibank	othanieljen	Othaniel2017	10.5281/zenodo.10404212		x	x			v1.0
 peirosaustroasiatic	lexibank	peirosaustroasiatic	Peiros1998	10.5281/zenodo.5127536			x	x		v1.0
@@ -120,7 +120,7 @@ tolmiebritishcolumbia	lexibank	tolmiebritishcolumbia	Tolmie1884				x
 transnewguineaorg	lexibank	transnewguineaorg	Greenhill2015	10.5281/zenodo.5141620		x	x			v3.0
 tuled	tupian-language-resources	tuled	TULED-0.11		Concept list is added, rebuild	x	x	x		
 utoaztecan	lexibank	utoaztecan	Greenhill2023fc	10.5281/zenodo.5173799			x	x		v1.1
-valzarpanotakana	pano-tacanan-history	valzarpanotakana								
+valzarpanotakana	pano-tacanan-history	valzarpanotakana	Valenzuela2023	10.5281/zenodo.10212481				x	x	
 visserkalamang	intercontinental-dictionary-series	visserkalamang	Visser2021	10.5281/zenodo.5139559		x	x			v2.0
 walkerarawakan	lexibank	walkerarawakan	Walker2011				x			
 walworthpolynesian	lexibank	walworthpolynesian	Walworth2018	10.5281/zenodo.5126932	new release needed		x	x		v1.0
