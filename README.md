@@ -1,89 +1,70 @@
-# Study on lexibank data (presenting the lexibank dataset).
+# Lexibank Analysed
 
-## Links
+## How to cite
 
-* [Lexibank Paper](https://share.eva.mpg.de/index.php/s/drLi7WZwtFGJosH)
-* [Lexibank List of Datasets](https://docs.google.com/spreadsheets/d/1x8c_fuWkUYpDKedn2mNkKFxpwtHCFAOBUeRT8Mihy3M/edit?usp=sharing)
+If you use these data please cite
+- the original source
+  > List, Johann-Mattis; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph; Englisch, Johannes; and Russell D. Gray (2021): Lexibank: A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2000 language varieties [Dataset, Version 1.0]. Geneva: Zenodo.
+- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
-## Running the scripts
+## Description
 
-Install the lexibank package:
 
-```
-pip install -e ./
-```
+This dataset is licensed under a CC-BY-4.0 license
 
-Download the data (git):
+Available online at https://lexibank.clld.org
 
-```
-lexibank download --destination=datasets
-```
+## Statistics
 
-Assemble phoneme features in file lexicore.json:
 
-```
-lexibank inventory --datadir=datasets
-```
+![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
+![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
+![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
+![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
+![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-Assemble lexical features in file clics.json:
+- **Varieties:** 2,029
+- **Concepts:** 3,033
+- **Lexemes:** 709,638
+- **Sources:** 75
+- **Synonymy:** 1.14
+- **Invalid lexemes:** 0
+- **Tokens:** 3,857,425
+- **Segments:** 1,486 (0 BIPA errors, 0 CLTS sound class errors, 1478 CLTS modified)
+- **Inventory size (avg):** 37.46
 
-```
-lexibank lexicon --datadir=datasets
-```
+## Possible Improvements:
 
-Create plot of data in lexicore:
+- Languages linked to [bookkeeping languoids in Glottolog](http://glottolog.org/glottolog/glottologinformation#bookkeepinglanguoids):
+  - Rawngtu Weilong [wela1234](http://glottolog.org/resource/languoid/id/wela1234)
+  - Rawngtu Ramtim [wela1234](http://glottolog.org/resource/languoid/id/wela1234)
+  - Naxi (Lijiang) [naxi1246](http://glottolog.org/resource/languoid/id/naxi1246)
+  - Naxi (Yongning) [naxi1246](http://glottolog.org/resource/languoid/id/naxi1246)
+  - Lenca-Salvador [lenc1244](http://glottolog.org/resource/languoid/id/lenc1244)
+  - Sanapaná (Angaité) [sana1281](http://glottolog.org/resource/languoid/id/sana1281)
+  - Betsimisaraka [sout3125](http://glottolog.org/resource/languoid/id/sout3125)
 
-```
-lexibank plot_collection --datafile=lexicore.json --filename=plots/lexicore-data.pdf
-```
 
-Create plot of data in clics:
 
-```
-lexibank plot_collection --datafile=clics.json --filename=plots/clics-data.pdf
-```
+# Contributors
 
-Create plot of a feature:
+Name               | GitHub user | Description | Role
+---                | ---         | --- | ---
+Johann-Mattis List | @LinguList  | maintainer | Author
+Robert Forkel | @xrotwang | maintainer | Author
+Simon J. Greenhill | @simongreenhill | maintainer | Author
+Christoph Rzymski | @chrzyki | maintainer | Author
+Johannes Englisch | @johenglisch | maintainer | Author
+Russell D. Gray | | maintainer | Author
 
-```
-lexibank plot_discrete_pfeature --filename=plots/HasLaterals.pdf --feature=HasLaterals --colormap=SequentialOrRd3 --lexicore=lexicore.json
-```
 
-## Detailed Discussion of Commands
 
-### Plotting Discrete Phonological Features
 
-Phonological features are calculated from selected lexical datasets, using dedicated functions defined in the `cltoolkit` package. Many features were modeled after the features described in existing databases dedicated to providing cross-linguistic information on various language varieties, such as the World Atlas of Language Structures online (Dryer and Haspelmath 2013).
+## CLDF Datasets
 
-Features are computed beforehand using dedicated commands and then stored in a JSON file. 
+The following CLDF datasets are available in [cldf](cldf):
 
-In order to get an overview on the features which are available, just type:
-
-```
-$ lexibank feature --datafile=lexicore.json --format=simple
-```
-
-The output will plot all features which have currently been computed:
-
-```
-Feature                  Description
------------------------  -------------------------------------------------------------
-ConsonantQualitySize     consonant quality size
-VowelQualitySize         vowel quality size
-VowelSize                vowel size
-ConsonantSize            consonant size
-CVRatio                  consonant and vowel ratio
-CVQualityRatio           consonant and vowel ratio (by quality)
-CVSoundRatio             consonant and vowel ratio (including diphthongs and clusters)
-HasNasalVowels           has nasal vowels or not
-HasRoundedVowels         has rounded vowels or not
-VelarNasal               has the velar nasal (engma)
-PlosiveVoicingGaps       voicing and gaps in plosives
-LacksCommonConsonants    gaps in plosives
-HasUncommonConsonants    has uncommon consonants
-PlosiveFricativeVoicing  voicing in plosives and fricatives
-UvularConsonants         presence of uvular consonants
-GlottalizedConsonants    presence of glottalized consonants
-HasLaterals              presence of glottalized consonants
-SyllableStructure        complexity of the syllable structure
-```
+- CLDF [Wordlist](https://github.com/cldf/cldf/tree/master/modules/Wordlist) at [cldf/wordlist-metadata.json](cldf/wordlist-metadata.json)
+- CLDF [StructureDataset](https://github.com/cldf/cldf/tree/master/modules/StructureDataset) at [cldf/phonology-metadata.json](cldf/phonology-metadata.json)
+- CLDF [StructureDataset](https://github.com/cldf/cldf/tree/master/modules/StructureDataset) at [cldf/lexicon-metadata.json](cldf/lexicon-metadata.json)
+- CLDF [StructureDataset](https://github.com/cldf/cldf/tree/master/modules/StructureDataset) at [cldf/phonemes-metadata.json](cldf/phonemes-metadata.json)
