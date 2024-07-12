@@ -320,6 +320,7 @@ class Dataset(BaseDataset):
                         "Name": language.name,
                         "Glottocode": language.glottocode,
                         "Dataset": language.dataset,
+                        "Macroarea": language.macroarea,
                         "Latitude": language.latitude,
                         "Longitude": language.longitude,
                         "Subgroup": language.subgroup,
