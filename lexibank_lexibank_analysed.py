@@ -52,13 +52,13 @@ CONDITIONS = {
     "Lexibank": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100,
 }
 
-CLTS_2_1 = (
-    "https://zenodo.org/record/4705149/files/cldf-clts/clts-v2.1.0.zip?download=1",
-    'cldf-clts-clts-04f04e3')
+CLTS_2_3 = (
+    "https://zenodo.org/records/10997741/files/cldf-clts/clts-v2.3.0.zip?download=1",
+    'cldf-clts-clts-1c0b886')
 
 _loaded = {}
 
-LB_VERSION = "lexibank-bliss.tsv"
+LB_VERSION = "lexibank.tsv"
 
 
 @attr.s
@@ -184,7 +184,7 @@ class Dataset(BaseDataset):
                         args.log.error('found neither main nor master branch')
                 repo.git.merge()
 
-        with self.raw_dir.temp_download(CLTS_2_1[0], 'ds.zip', log=args.log) as zipp:
+        with self.raw_dir.temp_download(CLTS_2_3[0], 'ds.zip', log=args.log) as zipp:
             zipfile.ZipFile(str(zipp)).extractall(self.raw_dir)
 
     def _iter_datasets(self, set_=None, with_metadata=False):
@@ -320,6 +320,7 @@ class Dataset(BaseDataset):
                         "Name": language.name,
                         "Glottocode": language.glottocode,
                         "Dataset": language.dataset,
+                        "Macroarea": language.macroarea,
                         "Latitude": language.latitude,
                         "Longitude": language.longitude,
                         "Subgroup": language.subgroup,
@@ -364,6 +365,7 @@ class Dataset(BaseDataset):
                     Value=len(getattr(language, attribute)),
                 ))
             for feature in features:
+                print(language, feature)
                 v = feature(language)
                 if feature.categories:
                     assert v in feature.categories, '{}: "{}"'.format(feature.id, v)
@@ -391,7 +393,7 @@ class Dataset(BaseDataset):
 
         # we add both the concepts and the forms, we add the languages later
         # via the LexiCore phonology module
-        clts = CLTS(self.raw_dir / CLTS_2_1[1])
+        clts = CLTS(self.raw_dir / CLTS_2_3[1])
         with self.cldf_writer(args) as writer:
             # add sources
             writer.add_sources()

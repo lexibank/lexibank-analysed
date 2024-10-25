@@ -23,26 +23,27 @@ Available online at https://lexibank.clld.org
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 2,029
-- **Concepts:** 3,033
-- **Lexemes:** 709,638
-- **Sources:** 75
-- **Synonymy:** 1.14
+- **Varieties:** 2,671 (linked to 2,671 different Glottocodes)
+- **Concepts:** 3,178 (linked to 3,178 different Concepticon concept sets)
+- **Lexemes:** 1,094,877
+- **Sources:** 102
+- **Synonymy:** 1.12
 - **Invalid lexemes:** 0
-- **Tokens:** 3,857,425
-- **Segments:** 1,486 (0 BIPA errors, 0 CLTS sound class errors, 1478 CLTS modified)
-- **Inventory size (avg):** 37.46
+- **Tokens:** 6,244,189
+- **Segments:** 1,855 (0 BIPA errors, 0 CLTS sound class errors, 1846 CLTS modified)
+- **Inventory size (avg):** 38.76
 
 ## Possible Improvements:
 
 - Languages linked to [bookkeeping languoids in Glottolog](http://glottolog.org/glottolog/glottologinformation#bookkeepinglanguoids):
-  - Rawngtu Weilong [wela1234](http://glottolog.org/resource/languoid/id/wela1234)
-  - Rawngtu Ramtim [wela1234](http://glottolog.org/resource/languoid/id/wela1234)
-  - Naxi (Lijiang) [naxi1246](http://glottolog.org/resource/languoid/id/naxi1246)
-  - Naxi (Yongning) [naxi1246](http://glottolog.org/resource/languoid/id/naxi1246)
-  - Lenca-Salvador [lenc1244](http://glottolog.org/resource/languoid/id/lenc1244)
-  - Sanapaná (Angaité) [sana1281](http://glottolog.org/resource/languoid/id/sana1281)
-  - Betsimisaraka [sout3125](http://glottolog.org/resource/languoid/id/sout3125)
+  - Taungtha (Wethet) [rung1263](http://glottolog.org/resource/languoid/id/rung1263)
+  - Thaiphum (Rengkheng) [thai1262](http://glottolog.org/resource/languoid/id/thai1262)
+  - Doitu (Hetsawlay) [song1313](http://glottolog.org/resource/languoid/id/song1313)
+  - Laitu (Khuasung) [lait1239](http://glottolog.org/resource/languoid/id/lait1239)
+  - Laisaw Thu Htay Kung [lait1239](http://glottolog.org/resource/languoid/id/lait1239)
+  - Songlai-Hettui 8Karchaung (Hettui) [song1313](http://glottolog.org/resource/languoid/id/song1313)
+  - Songlai-Maung Um (Song) 1Maung Um (Song) [song1313](http://glottolog.org/resource/languoid/id/song1313)
+  - Laitu Ahongdong [lait1239](http://glottolog.org/resource/languoid/id/lait1239)
 
 
 

@@ -1,6 +1,6 @@
 ID,Name,Description,Varieties,Glottocodes,Concepts,Forms
-LexiCore,wordlists with phonetic transcriptions),Wordlists with phonetic transcriptions in which sound segments can be readily described by the CLTS system,2905,2029,3055,986930
-ClicsCore,large wordlists with at least 250 concepts,Wordlists with large form inventories in which at least 250 concepts can be linked to the Concepticon,1030,772,2972,610041
-CogCore,wordlists with phonetic transcriptions and cognate sets,Wordlists with phonetic transcriptions in which cognate sets have been annotated (a subset of LexiCore),1295,1048,1676,263081
-ProtoCore,"wordlists with phonetic transcriptions, cognate sets, and proto-languages",Wordlists with phonetic transcriptions in which cognate sets have been annotated and which contain one or more ancestral languages whose forms are proto-forms from which forms in the descendant languages can be derived (a subset of CogCore),12,12,947,8163
-Lexibank,all wordlists in the Lexibank collection,Metacollection of wordlists belonging to either of the datasets,2905,2029,3055,986930
+LexiCore,wordlists with phonetic transcriptions),Wordlists with phonetic transcriptions in which sound segments can be readily described by the CLTS system,4345,2671,3200,1680346
+ClicsCore,large wordlists with at least 250 concepts,Wordlists with large form inventories in which at least 250 concepts can be linked to the Concepticon,1652,1129,3098,1135761
+CogCore,wordlists with phonetic transcriptions and cognate sets,Wordlists with phonetic transcriptions in which cognate sets have been annotated (a subset of LexiCore),1790,1372,2067,368443
+ProtoCore,"wordlists with phonetic transcriptions, cognate sets, and proto-languages",Wordlists with phonetic transcriptions in which cognate sets have been annotated and which contain one or more ancestral languages whose forms are proto-forms from which forms in the descendant languages can be derived (a subset of CogCore),34,32,1135,11949
+Lexibank,all wordlists in the Lexibank collection,Metacollection of wordlists belonging to either of the datasets,4345,2671,3200,1680346
