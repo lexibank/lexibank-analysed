@@ -2,6 +2,7 @@ import pathlib
 import zipfile
 import itertools
 import collections
+import shutil
 
 import pycldf
 from cldfbench import CLDFSpec
@@ -12,7 +13,6 @@ from cltoolkit import Wordlist
 from cltoolkit.features import FEATURES
 from cldfzenodo import oai_lexibank
 from pyclts import CLTS
-from git import Repo, GitCommandError
 from tqdm import tqdm
 import attr
 
@@ -145,44 +145,17 @@ class Dataset(BaseDataset):
         return res
 
     def cmd_download(self, args):
-        github_info = {rec.doi: rec.github_repos for rec in oai_lexibank()}
+        github_info = {rec.doi: rec for rec in oai_lexibank()}
 
         for dataset, row in self.dataset_meta.items():
-            ghinfo = github_info[row['Zenodo']]
-            args.log.info("Checking {}".format(dataset))
             dest = self.raw_dir / dataset
-
-            # download data
             if dest.exists():
-                args.log.info("... dataset already exists.  pulling changes.")
-                for remote in Repo(str(dest)).remotes:
-                    remote.fetch()
-            else:
-                args.log.info("... cloning {}".format(dataset))
-                try:
-                    Repo.clone_from(ghinfo.clone_url, str(dest))
-                except GitCommandError as e:
-                    args.log.error("... download failed\n{}".format(str(e)))
-                    continue
+                args.log.info('Removing old download in {}'.format(dest))
+                shutil.rmtree(dest)
 
-            # check out release (fall back to master branch)
-            repo = Repo(str(dest))
-            if ghinfo.tag:
-                args.log.info('... checking out tag {}'.format(ghinfo.tag))
-                repo.git.checkout(ghinfo.tag)
-            else:
-                args.log.warning('... could not determine tag to check out')
-                args.log.info('... checking out master')
-                try:
-                    branch = repo.branches.main
-                    branch.checkout()
-                except AttributeError:
-                    try:
-                        branch = repo.branches.master
-                        branch.checkout()
-                    except AttributeError:
-                        args.log.error('found neither main nor master branch')
-                repo.git.merge()
+            args.log.info("Downloading {}".format(dataset))
+            record = github_info[row['Zenodo']]
+            record.download(dest)
 
         with self.raw_dir.temp_download(CLTS_2_3[0], 'ds.zip', log=args.log) as zipp:
             zipfile.ZipFile(str(zipp)).extractall(self.raw_dir)
