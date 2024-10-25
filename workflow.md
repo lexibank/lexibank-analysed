@@ -42,16 +42,28 @@ which in turn call the code described above.
    $ pip install -e .
    ```
 
-2. Download the data collections
+   Install cltoolkit
+   ```shell
+   $ git clone https://github.com/cldf/cltoolkit.git
+   $ cd cltoolkit
+   $ python setup.py install
+   ```
+
+   Clone the repositories from:
+     * [Glottolog](https://github.com/glottolog/glottolog);
+     * [Concepticon](https://github.com/concepticon/concepticon-data);
+     * [CLTS](https://github.com/cldf-clts/clts)
+
+3. Download the data collections
 
    The data collections will be downloaded by reading the most recent selection of 
    lexibank datasets from the file `src/lexibank/data/lexibank.tsv` and then downloading the relevant datasets to a folder which you specify with the kewyord `destination`. We will call the folder `datasets` in the following.
 
    ```shell
-   $ cldfbench download cldfbench_lexibank_analysed.py
+   $ cldfbench download lexibank_lexibank_analysed.py
    ```
 
-3. Compute phonological and lexical features and phoneme inventories
+4. Compute phonological and lexical features and phoneme inventories
 
    The analysis results of `lexibank-analysed` are stored in three CLDF StructureDatasets.
 
@@ -62,10 +74,11 @@ which in turn call the code described above.
 
    These datasets are created running
    ```shell
-   $ cldfbench makecldf --with-cldfreadme cldfbench_lexibank_analysed.py
+   $ cldfbench lexibank.makecldf lexibank_lexibank_analysed.py --glottolog path_to_glottolog --concepticon path_to_concepticon --clts path_to_clts
    ```
+   with the paths to Glottolog (`path_to_glottolog`), Concepticon (`path_to_concepticon`) and CLTS (`path_to_clts`) pointing to the corresponding repositories from Step 1.
 
-4. Make sure valid CLDF data has been created:
+5. Make sure valid CLDF data has been created:
    ```shell
    pytest
    ```
