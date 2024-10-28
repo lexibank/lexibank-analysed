@@ -14,6 +14,16 @@ This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://lexibank.clld.org
 
+## Notes
+
+### Core Sets
+
+The core-sets are defined by using the following criteria:
+
+![](./core_sets.svg)
+
+
+
 ## Statistics
 
 
