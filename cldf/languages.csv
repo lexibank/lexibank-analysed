@@ -636,6 +636,7 @@ baf2-BozoTieyaxo,Bozo_Tieyaxo,Africa,14.25,-5,tiey1235,,baf2,134,134,113,LexiCor
 baf2-Bunoge,Bunoge,Africa,14.6532333,-3.79361667,buno1241,,baf2,292,292,282,LexiCoreClicsCore,South-Western_Dogon,Dogon,Dogon
 baf2-DogulDom,Dogul_Dom,Africa,14.49455,-3.56038333,dogu1235,,baf2,307,307,286,LexiCoreClicsCore,South-Western_Dogon,Dogon,Dogon
 baf2-DonnoSo,Donno_So,Africa,14.49455,-3.368,donn1239,,baf2,234,234,223,LexiCore,South-Eastern_Dogon,Dogon,Dogon
+baf2-Fulfulde,Fulfulde,Africa,14.49205,-3.61506667,maas1239,,baf2,320,320,305,LexiCoreClicsCore,North-Central_Atlantic,Atlantic-Congo,Atlantic
 baf2-Gourou,Gourou,Africa,14.0634,-3.24563333,guru1265,,baf2,167,167,158,LexiCore,North-Eastern_Dogon,Dogon,Dogon
 baf2-Jamsay,Jamsay,Africa,15.00045,-2.95395,jams1239,,baf2,326,326,310,LexiCoreClicsCore,North-Eastern_Dogon,Dogon,Dogon
 baf2-Jenaama,Jenaama,Africa,15.5,-4,jena1242,,baf2,247,247,241,LexiCore,Soninke-Bozo,Mande,Mande
@@ -643,6 +644,7 @@ baf2-Mombo,Mombo,Africa,14.4,-3.7,momb1254,,baf2,327,327,316,LexiCoreClicsCore,S
 baf2-Nanga,Nanga,Africa,14.8193833,-3.01043333,nang1261,,baf2,337,337,322,LexiCoreClicsCore,North-Eastern_Dogon,Dogon,Dogon
 baf2-Penange,Penange,Africa,14.39385,-4.03238333,pena1270,,baf2,305,305,294,LexiCoreClicsCore,South-Western_Dogon,Dogon,Dogon
 baf2-PergeTegu,Perge_Tegu,Africa,14.85205,-3.305,perg1234,,baf2,327,327,314,LexiCoreClicsCore,North-Eastern_Dogon,Dogon,Dogon
+baf2-SonghaiSenni,Songhai_Senni,Africa,15.2778333,-1.69998333,humb1243,,baf2,342,342,295,LexiCoreClicsCore,Eastern_Songhai,Songhay,Songhai
 baf2-Soninke,Soninke,Africa,13.13,-11.72,soni1259,,baf2,244,244,191,LexiCore,Soninke-Bozo,Mande,Mande
 baf2-TebulUre,Tebul_Ure,Africa,14.685,-3.057,tebu1239,,baf2,307,307,299,LexiCoreClicsCore,North-Western_Dogon,Dogon,Dogon
 baf2-TiranigeDiga,Tiranige_Diga,Africa,14.85,-3.73333333,tira1258,,baf2,315,315,305,LexiCoreClicsCore,South-Western_Dogon,Dogon,Dogon
@@ -2250,6 +2252,7 @@ johanssonsoundsymbolic-RungaKibet,Runga-Kibet,Africa,9.7154,20.9945,rung1258,,jo
 johanssonsoundsymbolic-Sahu,Sahu,Papunesia,1.00742,127.493,sahu1245,,johanssonsoundsymbolic,289,289,264,LexiCoreClicsCore,,North Halmahera,North Halmahera
 johanssonsoundsymbolic-Saliba,Saliba,South America,5.30115,-69.3843,sali1298,,johanssonsoundsymbolic,266,266,211,LexiCore,,Saliban,Saliban
 johanssonsoundsymbolic-Salinan,Salinan,North America,37.6646,-121.718,sali1253,,johanssonsoundsymbolic,167,167,158,LexiCore,,,Salinan
+johanssonsoundsymbolic-Sanapanaangaite,Sanapaná (Angaité),South America,-22.11454,-58.90698,anga1316,,johanssonsoundsymbolic,314,314,258,LexiCoreClicsCore,,Lengua-Mascoy,Lengua-Mascoy
 johanssonsoundsymbolic-Sandawe,Sandawe,Africa,-5.26918,35.4808,sand1273,,johanssonsoundsymbolic,276,276,233,LexiCore,,,Sandawe
 johanssonsoundsymbolic-SaraKabaNaa,Sara Kaba Naa,Africa,9.39388,19.2566,sara1321,,johanssonsoundsymbolic,298,298,238,LexiCore,,Central Sudanic,Central Sudanic
 johanssonsoundsymbolic-Savosavo,Savosavo,Papunesia,-9.12853,159.814,savo1255,,johanssonsoundsymbolic,227,227,182,LexiCore,,,Savosavo
@@ -2450,6 +2453,7 @@ lairgyalrong-KangdingMinyag,Kangding Minyag,Eurasia,30.055673,101.962819,west241
 lairgyalrong-PengbuxiMinyag,Pengbuxi Minyag,Eurasia,29.762152,101.53514,west2417,,lairgyalrong,304,304,289,LexiCoreClicsCore,Qiangic,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-OldBurmese,Old Burmese,Eurasia,21.461103,96.595184,oldb1235,,lairgyalrong,239,239,228,LexiCore,Burmish,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-XinlongQueyu,Xinlong Queyu,Eurasia,30.978459,100.260535,quey1238,,lairgyalrong,244,244,236,LexiCore,Qiangic,Sino-Tibetan,Sino-Tibetan
+lairgyalrong-PubarongQueyu,Pubarong Queyu,Eurasia,30.222522,100.778441,quey1238,,lairgyalrong,279,279,273,LexiCoreClicsCore,Qiangic,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-SiyuewuKhroskyabs,Siyuewu Khroskyabs,Eurasia,31.752277,101.423119,siya1242,,lairgyalrong,328,328,286,LexiCoreClicsCore,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-BragbarSitu,Bragbar Situ,Eurasia,31.815434,101.909098,situ1238,,lairgyalrong,312,312,287,LexiCoreClicsCore,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-Geshiza,Geshiza,,31.028655,101.648464,horp1240,,lairgyalrong,292,292,264,LexiCoreClicsCore,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
@@ -2659,6 +2663,7 @@ mixtecansubgrouping-CosoltepecMixtec,CosoltepecMixtec,North America,18.14291,-97
 mixtecansubgrouping-CuatzoquitengoMixtec,CuatzoquitengoMixtec,North America,17.28835,-98.61552,cuat1239,,mixtecansubgrouping,125,125,111,LexiCore,Mixtec,Otomanguean,Otomanguean
 mixtecansubgrouping-SantaAnaCuauhtemocMixtec,SantaAnaCuauhtemocMixtec,North America,17.98379,-96.79439,cuya1240,,mixtecansubgrouping,126,126,110,LexiCore,Mixtec,Otomanguean,Otomanguean
 mixtecansubgrouping-CuyamecalcoVillaZaragozaMixtec,CuyamecalcoVillaZaragozaMixtec,North America,18.0821,-96.7314,cuya1240,,mixtecansubgrouping,127,127,110,LexiCore,Mixtec,Otomanguean,Otomanguean
+mixtecansubgrouping-SanJuanDiuxiMixtec,SanJuanDiuxiMixtec,North America,17.3596,-97.3861,diux1235,,mixtecansubgrouping,166,166,144,LexiCore,Mixtec,Otomanguean,Otomanguean
 mixtecansubgrouping-SanMartinDuraznosMixtec,SanMartinDuraznosMixtec,North America,17.30502,-98.10188,juxt1235,,mixtecansubgrouping,220,220,185,LexiCore,Mixtec,Otomanguean,Otomanguean
 mixtecansubgrouping-SantaCatarinaEstetlaMixtec,SantaCatarinaEstetlaMixtec,North America,17.02627,-97.0974,peno1244,,mixtecansubgrouping,125,125,109,LexiCore,Mixtec,Otomanguean,Otomanguean
 mixtecansubgrouping-SanMarcoslaFlorMixtec,SanMarcoslaFlorMixtec,North America,17.418889,-98.268611,sanm1291,,mixtecansubgrouping,192,192,174,LexiCore,Mixtec,Otomanguean,Otomanguean
@@ -2697,6 +2702,7 @@ mixtecansubgrouping-SanJuanTamazolaMixtec,SanJuanTamazolaMixtec,North America,17
 mixtecansubgrouping-SanJuanTeitaMixtec,SanJuanTeitaMixtec,North America,17.1542,-97.3899,sanj1282,,mixtecansubgrouping,123,123,110,LexiCore,Mixtec,Otomanguean,Otomanguean
 mixtecansubgrouping-SanJuanTepeuxila1900Cuicatec,SanJuanTepeuxila1900Cuicatec,North America,18.72299,-95.84118,tepe1280,,mixtecansubgrouping,124,124,121,LexiCore,Cuicatec,Otomanguean,Otomanguean
 mixtecansubgrouping-SanPedroTidaaMixtec,SanPedroTidaaMixtec,North America,17.4142,-97.3333,tida1235,,mixtecansubgrouping,125,125,111,LexiCore,Mixtec,Otomanguean,Otomanguean
+mixtecansubgrouping-SantiagoTilantongoMixtec,SantiagoTilantongoMixtec,North America,17.3596,-97.3861,diux1235,,mixtecansubgrouping,124,124,109,LexiCore,Mixtec,Otomanguean,Otomanguean
 mixtecansubgrouping-SanAgustinTlacotepecMixtec,SanAgustinTlacotepecMixtec,North America,17.20365,-97.51853,sana1284,,mixtecansubgrouping,124,124,109,LexiCore,Mixtec,Otomanguean,Otomanguean
 mixtecansubgrouping-TlahuapaMixtec,TlahuapaMixtec,North America,17.37553,-98.33826,alco1235,,mixtecansubgrouping,203,203,176,LexiCore,Mixtec,Otomanguean,Otomanguean
 mixtecansubgrouping-SantiagoTlazoyaltepecMixtec,SantiagoTlazoyaltepecMixtec,North America,17.0274,-96.99583,sant1446,,mixtecansubgrouping,122,122,106,LexiCore,Mixtec,Otomanguean,Otomanguean
