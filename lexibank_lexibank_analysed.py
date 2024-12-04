@@ -1,4 +1,5 @@
 import pathlib
+import csv
 import zipfile
 import itertools
 import collections
@@ -265,6 +266,15 @@ class Dataset(BaseDataset):
             )
         languages = collections.OrderedDict()
 
+        # Create blacklist
+        ignore_docs = collections.defaultdict()
+        # Open the CSV file and read the data
+        with open('etc/preferred_sources.csv', mode='r', encoding='utf8') as file:
+            reader = csv.reader(file)
+            next(reader, None)
+            for row in reader:
+                ignore_docs[row[0]] = row[1]
+
         def _add_features(writer, features):
             for feature in features:
                 writer.objects['ParameterTable'].append(dict(
@@ -277,18 +287,18 @@ class Dataset(BaseDataset):
                     for k, v in feature.categories.items():
                         writer.objects['CodeTable'].append(dict(
                             Parameter_ID=feature.id,
-                            ID='{}-{}'.format(feature.id, k),
+                            ID=f'{feature.id}-{k}',
                             Name=v,
                         ))
 
         def _add_language(
                 writer, language, features, attr_features,
                 collection='', visited=set()):
-            l = languages.get(language.id)
-            if not l:
+            langs = languages.get(language.id)
+            if not langs:
                 try:
                     family = languoids[language.glottocode].family
-                    l = {
+                    langs = {
                         "ID": language.id,
                         "Name": language.name,
                         "Glottocode": language.glottocode,
@@ -305,11 +315,10 @@ class Dataset(BaseDataset):
                         "Incollections": collection,
                     }
                 except KeyError:
-                    args.log.warn("{0} / {1} / {2}".format(
-                        language.name, language.dataset, language.glottocode))
+                    args.log.warn(f"{language.name} / {language.dataset} / {language.glottocode}")
                     return False
             else:
-                l['Incollections'] = l['Incollections'] + collection
+                langs['Incollections'] = langs['Incollections'] + collection
             if language.id not in visited:
                 for cid in ["ClicsCore", "LexiCore", "CogCore", "ProtoCore"]:
                     try:
@@ -320,7 +329,7 @@ class Dataset(BaseDataset):
                             collstats[cid]["Concepts"].update(
                                 concept.id for concept in language.concepts)
                     except:
-                        print("problems with {0}".format(language.dataset))
+                        print(f"problems with {language.dataset}")
                 if CONDITIONS["Lexibank"](language):
                     collstats["Lexibank"]["Glottocodes"].add(language.glottocode)
                     collstats["Lexibank"]["Varieties"] += 1
@@ -332,22 +341,21 @@ class Dataset(BaseDataset):
             writer.objects['LanguageTable'].append(l)
             for attribute in attr_features:
                 writer.objects['ValueTable'].append(dict(
-                    ID='{}-{}'.format(language.id, attribute),
+                    ID=f'{language.id}-{attribute}',
                     Language_ID=language.id,
                     Parameter_ID=attribute,
                     Value=len(getattr(language, attribute)),
                 ))
             for feature in features:
-                print(language, feature)
                 v = feature(language)
                 if feature.categories:
-                    assert v in feature.categories, '{}: "{}"'.format(feature.id, v)
+                    assert v in feature.categories, f'{feature.id}: "{v}"'
                 writer.objects['ValueTable'].append(dict(
-                    ID='{}-{}'.format(language.id, feature.id),
+                    ID=f'{language.id}-{feature.id}',
                     Language_ID=language.id,
                     Parameter_ID=feature.id,
                     Value=v,
-                    Code_ID='{}-{}'.format(feature.id, v) if feature.categories else None,
+                    Code_ID=f'{feature.id}-{v}' if feature.categories else None,
                 ))
             return True
 
@@ -357,7 +365,7 @@ class Dataset(BaseDataset):
         ):
             for language in tqdm(languages, desc='computing features'):
                 if not language.name or not language.name.strip() or language.name == 'None':
-                    args.log.warning('{0.dataset}: {0.id}: {0.name}'.format(language))
+                    args.log.warning(f'{language.dataset}: {language.id}: {language.name}')
                     continue
                 if language.latitude and language.glottocode and condition(language):
                     if _add_language(writer, language, features, attr_features,
@@ -372,21 +380,21 @@ class Dataset(BaseDataset):
             writer.add_sources()
             # add concepts and the like
             wl = Wordlist(self._iter_datasets("LexiCore"), ts=clts.bipa)
-            best_varieties = collections.defaultdict(dict)
+            best_vars = collections.defaultdict(dict)
             var_count = 0
             for lng in wl.languages:
                 if CONDITIONS["LexiCore"](lng) and lng.latitude and lng.glottocode and lng.glottocode in languoids:
                     fws = len(lng.forms_with_sounds)
                     var_count += 1
                     # add form count for sorting
-                    best_varieties[lng.glottocode][lng.id] = (fws, lng)
-            args.log.info("found {0} different glottocodes with {1} varieties".format(len(best_varieties), var_count))
+                    best_vars[lng.glottocode][lng.id] = (fws, lng)
+            args.log.info(f"found {len(best_vars)} different glottocodes with {var_count} varieties")
 
             visited_concepts = set()
-            for i, glc in tqdm(enumerate(best_varieties), desc="add_forms"):
+            for glc in tqdm(best_vars, desc="add_forms"):
                 # select best variety
-                _, language = max(best_varieties[glc].values())
-                args.log.info("processing {0} / {1}".format(language.id, language.dataset))
+                _, language = max(best_vars[glc].values())
+                args.log.info(f"processing {language.id} / {language.dataset}")
                 for form in language.forms_with_sounds:
                     if form.concept and form.concept.concepticon_id and form.concept.concepticon_id in cid2gls:
                         cgls = cid2gls[form.concept.concepticon_id]
@@ -452,14 +460,13 @@ class Dataset(BaseDataset):
                 ('forms_with_sounds', 'Number of BIPA conforming forms', ''),
                 ('senses', 'Number of senses', ''),
             ]:
-                writer.objects['ParameterTable'].append(
-                    dict(ID=fid, Name=fname, Description=fdesc))
+                writer.objects['ParameterTable'].append(dict(ID=fid, Name=fname, Description=fdesc))
             _add_features(writer, features)
 
             sounds = collections.defaultdict(collections.Counter)
             for language in _add_languages(
                 writer,
-                [lng for lng in wl.languages],
+                list(wl.languages),
                 CONDITIONS["LexiCore"],  # len(l.forms_with_sounds) >= 80,
                 features,
                 ['concepts', 'forms', 'forms_with_sounds', 'senses'],
@@ -512,7 +519,7 @@ class Dataset(BaseDataset):
                 ))
                 for lid, freq in sorted(occurrences.items()):
                     writer.objects['ValueTable'].append(dict(
-                        ID='{}-{}'.format(lid, clts_id),
+                        ID='f{lid}-{clts_id}',
                         Language_ID=lid,
                         Parameter_ID=clts_id,
                         Value=freq,
