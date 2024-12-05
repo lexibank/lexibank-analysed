@@ -337,8 +337,8 @@ class Dataset(BaseDataset):
                     collstats["Lexibank"]["Concepts"].update(
                         concept.id for concept in language.concepts)
                 visited.add(language.id)
-            languages[language.id] = l
-            writer.objects['LanguageTable'].append(l)
+            languages[language.id] = langs
+            writer.objects['LanguageTable'].append(langs)
             for attribute in attr_features:
                 writer.objects['ValueTable'].append(dict(
                     ID=f'{language.id}-{attribute}',
