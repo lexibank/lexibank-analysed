@@ -269,8 +269,8 @@ class Dataset(BaseDataset):
         # Create blacklist
         ignore_docs = collections.defaultdict()
         # Open the CSV file and read the data
-        with open('etc/preferred_sources.csv', mode='r', encoding='utf8') as file:
-            reader = csv.reader(file)
+        with open('etc/preferred_sources.tsv', mode='r', encoding='utf8') as file:
+            reader = csv.reader(file, delimiter='\t')
             next(reader, None)
             for row in reader:
                 ignore_docs[row[0]] = row[1]
