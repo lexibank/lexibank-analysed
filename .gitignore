@@ -135,3 +135,4 @@ dmypy.json
 inventories/data/*
 .idea/
 raw/
+*.sqlite3

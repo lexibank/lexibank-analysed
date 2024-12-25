@@ -1,119 +1,125 @@
-ID	Organization	Dataset	Source	Zenodo	Todo	ClicsCore	LexiCore	CogCore	ProtoCore	Version
-mixtecansubgrouping	lexibank	mixtecansubrouping	Auderset2023	10.5281/zenodo.7642970	Concept List to Concepticon		x	x		v0.1
-leecaijia	lexibank	leecaijia	Lee2022				x			
-aaleykusunda	lexibank	aaleykusunda	Aaley2019	10.5281/zenodo.5115947			x			v2.0
-abrahammonpa	lexibank	abrahammonpa	Abraham2018	10.5281/zenodo.5115885		x	x			v3.0
-abvdoceanic	lexibank	abvdoceanic	Greenhill2008	10.5281/zenodo.5206553			x	x		v0.2
-allenbai	lexibank	allenbai	Allen2007	10.5281/zenodo.5115649		x	x			v4.0
-backstromnorthernpakistan	lexibank	backstromnorthernpakistan	Backstrom1992	10.5281/zenodo.5116054			x			v1.0
-baf2	lexibank	baf2	Hantgan2022	10.5281/zenodo.5751226	concept list not in concepticon	x	x			v0.2
-bantubvd	lexibank	bantubvd	Greenhill2015a	10.5281/zenodo.5115982		x	x			v4.0
-bdpa	lexibank	bdpa	List2014e	10.5281/zenodo.5116087			x	x		v1.0
-beidasinitic	lexibank	beidasinitic	Cihui	10.5281/zenodo.5119295		x	x			v5.0.1
-birchallchapacuran	lexibank	birchallchapacuran	Birchall2016	10.5281/zenodo.5119306			x			v1.0.1
-blustaustronesian	sequencecomparison	blustaustronesian	Greenhill2008	10.5281/zenodo.5137392			x	x		v1.0
-bodtkhobwa	lexibank	bodtkhobwa	Bodt2022	10.5281/zenodo.5119330		x	x	x		v3.0.1
-bowernpny	lexibank	bowernpny	Bowern2012	10.5281/zenodo.5119341		x	x	x		v4.0.1
-bremerberta	lexibank	bremerberta	Bremer2016	10.5281/zenodo.5126757			x			v1.0
-cals	lexibank	cals	Mennecier2016	10.5281/zenodo.5121189			x	x		v1.0.1
-carvalhopurus	lexibank	carvalhopurus	Carvalho2021	10.5281/zenodo.5121195			x	x	x	v1.0.1
-castrosui	lexibank	castrosui	Castro2011	10.5281/zenodo.5121213		x	x			v3.0.1
-castroyi	lexibank	castroyi	Castro2010	10.5281/zenodo.5121214		x	x			v1.0.1
-castrozhuang	lexibank	castrozhuang	Castro2010a	10.5281/zenodo.5121215		x	x			v1.0.1
-chacolanguages	lexibank	chacolanguages	Brid2022	10.5281/zenodo.6660368	Carlos: open PR; concept list not in concepticon	x	x			v0.2
-chaconarawakan	lexibank	chaconarawakan	Chacon2017	10.5281/zenodo.5118556			x	x		v2.0
-chaconbaniwa	lexibank	chaconbaniwa	Chacon2019	10.5281/zenodo.5118605			x	x		v2.0
-chaconcolumbian	lexibank	chaconcolumbian	Chacon2017	10.5281/zenodo.5118763			x	x		v2.0
-chaconnorthwestarawakan	lexibank	chaconnorthwestarawakan	Chacon2022		concept list not in concepticon		x	x		
-chacontukanoan	lexibank	chacontukanoan	Chacon2014	10.5281/zenodo.5118723			x	x		v1.0
-chenhmongmien	lexibank	chenhmongmien	Chen2012	10.5281/zenodo.5118744		x	x			v3.0
-chindialectsurvey	lexibank	chindialectsurvey	Chin2019	10.5281/zenodo.5121280		x	x			v1.0
-chingelong	digling	chingelong	Chin2015	10.5281/zenodo.5121324			x			v1.0
-clarkkimmun	lexibank	clarkkimmun	Clark2008	10.5281/zenodo.5121482	check for sounds and profile	x	x			v1.0
-constenlachibchan	lexibank	constenlachibchan	Constenla2005	10.5281/zenodo.5121347			x	x		v1.0
-crossandean	lexibank	crossandean	Blum2023	10.5281/zenodo.7491751		x	x	x		v1.1
-davletshinaztecan	lexibank	davletshinaztecan	Davletshin2012	10.5281/zenodo.5121382			x	x	x	v1.0
-deepadungpalaung	lexibank	deepadungpalaung	Deepadung2015	10.5281/zenodo.5121402			x	x		v1.0
-dravlex	lexibank	dravlex	Kolipakam2018	10.5281/zenodo.5121580			x	x		v1.0
-dunnaslian	lexibank	dunnaslian	Dunn2013	10.5281/zenodo.5121613			x	x		v1.0
-dunnielex	sequencecomparison	dunnielex	Dunn2012	10.5281/zenodo.5121651			x	x		v1.0
-duonglachi	lexibank	duonglachi	Duong2020	10.5281/zenodo.5121663			x			v1.0
-felekesemitic	lexibank	felekesemitic	Feleke2021	10.5281/zenodo.5126691			x	x		v1.0
-galuciotupi	lexibank	galuciotupi	Galucio2015	10.5281/zenodo.5121724			x	x		v1.0
-gaotb	digling	gaotb	Gao2020	10.5281/zenodo.5121776			x	x		v1.0
-gerarditupi	lexibank	gerarditupi	Gerardi2021	10.5281/zenodo.5127906			x	x		v2.0
-gravinachadic	lexibank	gravinachadic	Gravina2014		list not in concepticon	x	x	x		
-halenepal	lexibank	halenepal	Hale1973	10.5281/zenodo.5121540		x	x			v3.0
-hantganbangime	lexibank	hantganbangime	Hantgan2022b	10.5281/zenodo.5126441	could be superceded by baf2, which has more concepts	x	x			v1.0
-hattorijaponic	sequencecomparison	hattorijaponic	Hattori1973	10.5281/zenodo.5126845			x	x		v1.0
-houchinese	sequencecomparison	houchinese	Hou2004	10.5281/zenodo.5126858			x	x		v1.0
-hsiuhmongmien	lexibank	hsiuhmongmien	Hsiu2015	10.5281/zenodo.5126451	check for sounds (profile okay but not complete		x			
-hubercolumbian	lexibank	hubercolumbian	Huber1992	10.5281/zenodo.5121219		x	x			v4.0.1
-huntergatherer	lexibank	huntergatherer	HunterGatherer	10.5281/zenodo.5126741		x	x			v1.0
-idssegmented	intercontinental-dictionary-series	idssegmented	IDS		check sources and make public, concepticon concept sets need re-run	x	x			
-ivanisuansu	lexibank	ivanisuansu	Ivani2019	10.5281/zenodo.5126966			x			v1.0
-johanssonsoundsymbolic	lexibank	johanssonsoundsymbolic	Johansson2020	10.5281/zenodo.5127131		x	x			
-joophonosemantic	lexibank	joophonosemantic	Joo2019	10.5281/zenodo.5137230			x			v1.1
-kahd	tupian-language-resources	kahd	Gerardi2022		final check needed (references, etc.)	x	x	x		
-kesslersignificance	sequencecomparison	kesslersignificance	Kessler2001	10.5281/zenodo.5127775			x	x		
-kleinewillinghoeferbikwinjen	lexibank	kleinewillinghoeferbikwinjen	Kleinewillinghoefer2015	10.5281/zenodo.5127404			x			v1.0
-kochtukanoan	lexibank	kochtukanoan	Koch1914		concept list not in concepticon	x	x			
-kraftchadic	lexibank	kraftchadic	Kraft1981	10.5281/zenodo.5121222		x	x			v4.0.1
-lamanisoic	lexibank	lamanisoic	Lama2012			x	x			
-leeainu	lexibank	leeainu	Lee2013	10.5281/zenodo.5126890			x			v1.0
-leejaponic	lexibank	leejaponic	Lee2011	10.5281/zenodo.5126801			x			v1.0
-leekoreanic	lexibank	leekoreanic	Lee2015	10.5281/zenodo.5126904			x	x		v1.0
-lieberherrkhobwa	lexibank	lieberherrkhobwa	Lieberherr2017	10.5281/zenodo.5127687			x	x		v1.0
-lindseyende	intercontinental-dictionary-series	lindseyende	Lindsey2019	10.5281/zenodo.5127829		x	x			v2.0
-lionnetyotonahua	lexibank	lionnetyotonahua	Lionnet1985		concept list added	x	x	x		
-listsamplesize	sequencecomparison	listsamplesize	List2014c	10.5281/zenodo.5128050		x	x	x		v1.0
-liusinitic	lexibank	liusinitic	Liu2007	10.5281/zenodo.5131413			x	x		v1.0
-luangthongkumkaren	lexibank	luangthongkumkaren	Luangthongkum2019		list not in concepticon	x	x	x	x	
-lundgrenomagoa	lexibank	lundgrenomagoa	Lundgren2020	10.5281/zenodo.5128097			x	x		v1.0
-mannburmish	lexibank	mannburmish	Mann1998	10.5281/zenodo.5131419		x	x	x		v1.0
-marrisonnaga	lexibank	marrisonnaga	Marrison1967	10.5281/zenodo.5121317		x	x			v3.0
-mcelhanonhuon	lexibank	mcelhanonhuon	McElhanon1967	10.5281/zenodo.5127348			x	x		v1.0
-mitterhoferbena	lexibank	mitterhoferbena	Mitterhofer2013	10.5281/zenodo.5121327		x	x			v3.0
-naganorgyalrongic	lexibank	naganorgyalrongic	Nagano2013	10.5281/zenodo.5126458		x	x			v3.0
-nagarajakhasian	lexibank	nagarajakhasian	Nagaraja2013	10.5281/zenodo.5131421			x	x		v1.0
-northeuralex	lexibank	northeuralex	Dellert2020	10.5281/zenodo.5121268		x	x			v4.0
-oskolskayatungusic	lexibank	oskolskayatungusic	Oskolskaya2022			x	x	x		
-othanieljen	lexibank	othanieljen	Othaniel2017			x	x			
-peirosaustroasiatic	lexibank	peirosaustroasiatic	Peiros1998	10.5281/zenodo.5127536			x	x		v1.0
-pharaocoracholaztecan	lexibank	pharaocoracholaztecan	Pharao2020	10.5281/zenodo.5136882			x	x	x	v1.0
-polyglottaafricana	lexibank	polyglottaafricana	Koelle1854	10.5281/zenodo.5136890		x	x			v1.0
-ratcliffearabic	lexibank	ratcliffearabic	Ratcliffe2021	10.5281/zenodo.5136898			x	x		v1.0.1
-robinsonap	lexibank	robinsonap	Robinson2012	10.5281/zenodo.5121340		x	x	x		v4.0
-saenkoromance	lexibank	saenkoromance	Saenko2015	10.5281/zenodo.5136900			x	x		v1.0
-sagartst	lexibank	sagartst	Sagart2019	10.5281/zenodo.5121409			x	x		v2.0
-savelyevturkic	lexibank	savelyevturkic	Savelyev2020	10.5281/zenodo.5137274			x	x		v2.0
-sawkatokaleya	lexibank	sawkatokaleya	Sawka2019				x			
-servamalagasy	digling	servamalagasy	Serva2020	10.5281/zenodo.5137040			x			v1.0
-sidwellbahnaric	lexibank	sidwellbahnaric	Sidwell2015	10.5281/zenodo.5137055			x	x		v1.0
-sidwellvietic	lexibank	sidwellvietic	Sidwell2021		integrate concepticon 3.0		x	x	x	
-simsrma	lexibank	simsrma	Sims2020	10.5281/zenodo.5166593			x	x		v1.1
-sohartmannchin	lexibank	sohartmannchin	SoHartmann1988	10.5281/zenodo.5121813		x	x			v3.0
-starostinpie	sequencecomparison	starostinpie	Starostin2005b	10.5281/zenodo.5137281			x	x		v1.0
-starostintujia	lexibank	starostintujia	Starostin2013b				x	x		
-suntb	lexibank	suntb	Sun1991	10.5281/zenodo.5121515		x	x			v4.0
-syrjaenenuralic	lexibank	syrjaenenuralic	Syrjaenen2013	10.5281/zenodo.5137236			x	x		v1.0
-tls	lexibank	tls	Nurse1975	10.5281/zenodo.5121819		x	x			v4.0
-tolmiebritishcolumbia	lexibank	tolmiebritishcolumbia	Tolmie1884				x			
-transnewguineaorg	lexibank	transnewguineaorg	Greenhill2015	10.5281/zenodo.5141620		x	x			v3.0
-tuled	tupian-language-resources	tuled	TULED-0.11		check concepticon and status	x	x	x		
-utoaztecan	lexibank	utoaztecan	Greenhill2023fc	10.5281/zenodo.5173799			x	x		v1.1
-visserkalamang	intercontinental-dictionary-series	visserkalamang	Visser2021	10.5281/zenodo.5139559		x	x			v2.0
-walkerarawakan	lexibank	walkerarawakan	Walker2011				x			
-walworthpolynesian	lexibank	walworthpolynesian	Walworth2018	10.5281/zenodo.5126932	new release needed		x	x		v1.0
-wangbai	lexibank	wangbai	Wang2004b	10.5281/zenodo.5137407		x	x			v1.0
-wheelerutoaztecan	lexibank	wheelerutoaztecan	Wheeler2015b				x			
-wichmannmixezoquean	lexibank	wichmannmixezoquean	Wichmann2011	10.5281/zenodo.5126948			x	x		v1.0
-wold	lexibank	wold	WOLD	10.5281/zenodo.5139859		x	x			v4.0
-yanglalo	lexibank	yanglalo	Yang2011	10.5281/zenodo.5121829		x	x	x	x	v3.0
-yangyi	lexibank	yangyi	Yang2022	10.5281/zenodo.5167277		x	x			v1.1
-yuchinese	intercontinental-dictionary-series	yuchinese	Yu2021	10.5281/zenodo.5139881		x	x			v2.0
-zgraggenmadang	lexibank	zgraggenmadang	Zgraggen1980a	10.5281/zenodo.5121535		x	x			v4.0
-zhangrgyalrong	lexibank	zhangrgyalrong	Zhang2019		concept list for concepticon 2.6		x	x		
-zhaobai	lexibank	zhaobai	Zhao2006	10.5281/zenodo.5136947			x			v1.0
-zhivlovobugrian	sequencecomparison	zhivlovobugrian	Zhivlov2011	10.5281/zenodo.5137439			x	x		v1.0
-zhoubizic	lexibank	zhoubizic	Zhou2020	10.5281/zenodo.5140129	Mathilda: Open PR; list not in concepticon	x	x			v1.0
+ID	Organization	Dataset	Source	Zenodo	Todo	ClicsCore	LexiCore	CogCore	ProtoCore	Version	Comments/Questions	Status		
+aaleykusunda	lexibank	aaleykusunda	Aaley2019	10.5281/zenodo.13149034			x			v2.1		done (FB)		
+abrahammonpa	lexibank	abrahammonpa	Abraham2018	10.5281/zenodo.13149071		x	x			v3.1		done (FB)		
+abvdoceanic	lexibank	abvdoceanic	Greenhill2008	10.5281/zenodo.13149095			x	x		v0.3		done (FB)		
+abvdphilippines	lexibank	abvdphilippines	Greenhill2008	10.5281/zenodo.13304336			x	x		v1.0		done (FB)		
+allenbai	lexibank	allenbai	Allen2007	10.5281/zenodo.13149106		x	x			v4.1		done (FB)		
+backstromnorthernpakistan	lexibank	backstromnorthernpakistan	Backstrom1992	10.5281/zenodo.13149113			x			v1.1		done (FB)		
+baf2	lexibank	baf2	Hantgan2022	10.5281/zenodo.14001726		x	x			v1.2		done (FB)		
+blumpanotacana	pano-tacanan-history	blumpanotacana	Blum2024	10.5281/zenodo.13149588		x	x	x		v1.2		done (FB)		
+bantubvd	lexibank	bantubvd	Greenhill2015a	10.5281/zenodo.13143126		x	x			v4.1		Done (CR)		
+beidasinitic	lexibank	beidasinitic	Cihui	10.5281/zenodo.13149151		x	x			v5.1		done (FB)		
+birchallchapacuran	lexibank	birchallchapacuran	Birchall2016	10.5281/zenodo.13149660			x			v1.3		done (FB)		
+blustaustronesian	sequencecomparison	blustaustronesian	Greenhill2008	10.5281/zenodo.13150156			x	x		v1.1		done (FB)		
+bodtkhobwa	lexibank	bodtkhobwa	Bodt2022	10.5281/zenodo.13149621		x	x	x		v3.3		done (FB)		
+bowernpny	lexibank	bowernpny	Bowern2012	10.5281/zenodo.13143103		x	x	x		v4.1		Done (CR)		
+bremerberta	lexibank	bremerberta	Bremer2016	10.5281/zenodo.13829541			x			v1.3		Done (CR)		
+cals	lexibank	cals	Mennecier2016	10.5281/zenodo.13149281			x	x		v1.1		done (FB)		
+carvalhopurus	lexibank	carvalhopurus	Carvalho2021	10.5281/zenodo.13149291			x	x	x	v1.1		done (FB)		
+castrosui	lexibank	castrosui	Castro2011	10.5281/zenodo.13149296		x	x			v3.1		done (FB)		
+castroyi	lexibank	castroyi	Castro2010	10.5281/zenodo.13149313		x	x			v1.1		done (FB)		
+castrozhuang	lexibank	castrozhuang	Castro2010a	10.5281/zenodo.13149318		x	x			v1.1		done (FB)		
+chacolanguages	lexibank	chacolanguages	Brid2022	10.5281/zenodo.13684237		x	x			v0.3		done (FB)		
+chaconarawakan	lexibank	chaconarawakan	Chacon2017	10.5281/zenodo.13149373			x	x		v2.1		done (FB)		
+chaconbaniwa	lexibank	chaconbaniwa	Chacon2019	10.5281/zenodo.13149386			x	x		v2.1		done (FB)		
+chaconcolumbian	lexibank	chaconcolumbian	Chacon2017	10.5281/zenodo.13149391			x	x		v2.1		done (FB)		
+chaconnorthwestarawakan	lexibank	chaconnorthwestarawakan	Chacon2022	10.5281/zenodo.13150036			x	x		v1.0		done (FB)		
+chacontukanoan	lexibank	chacontukanoan	Chacon2014	10.5281/zenodo.13149485			x	x		v1.1		done (FB)		
+chenhmongmien	lexibank	chenhmongmien	Chen2012	10.5281/zenodo.13149500		x	x			v3.1		done (FB)		
+chindialectsurvey	lexibank	chindialectsurvey	Chin2019	10.5281/zenodo.13149727		x	x			v1.1		done (FB)		
+chingelong	digling	chingelong	Chin2015	10.5281/zenodo.13149785			x			v1.1		done (FB)		
+clarkkimmun	lexibank	clarkkimmun	Clark2008	10.5281/zenodo.13149728		x	x			v1.1		done (FB)		
+constenlachibchan	lexibank	constenlachibchan	Constenla2005	10.5281/zenodo.13149729			x	x		v1.1		done (FB)		
+crossandean	lexibank	crossandean	Blum2023	10.5281/zenodo.13149752			x	x		v1.2		done (FB)		
+davletshinaztecan	lexibank	davletshinaztecan	Davletshin2012	10.5281/zenodo.13149808			x	x	x	v1.1		done (FB)		
+deepadungpalaung	lexibank	deepadungpalaung	Deepadung2015	10.5281/zenodo.13149823			x	x		v1.2		done (FB)		
+dravlex	lexibank	dravlex	Kolipakam2018	10.5281/zenodo.13149853			x	x		v1.1		done (FB)		
+dunnaslian	lexibank	dunnaslian	Dunn2013	10.5281/zenodo.13149878			x	x		v1.1		done (FB)		
+dunnielex	sequencecomparison	dunnielex	Dunn2012	10.5281/zenodo.13150141			x	x		v1.1		done (FB)		
+duonglachi	lexibank	duonglachi	Duong2020	10.5281/zenodo.13829479			x			v1.2		done (CB)		
+felekesemitic	lexibank	felekesemitic	Feleke2021	10.5281/zenodo.13253766			x	x		v1.1		done (CB)		
+galuciotupi	lexibank	galuciotupi	Galucio2015	10.5281/zenodo.13253797			x	x		v1.1		done (CB)		
+gaotb	digling	gaotb	Gao2020	10.5281/zenodo.13254735			x	x		v1.1		done (FB)		
+gerarditupi	lexibank	gerarditupi	Gerardi2021	10.5281/zenodo.13841415			x	x		v2.1		done(FB)		
+gravinachadic	lexibank	gravinachadic	Gravina2014	10.5281/zenodo.13254095		x	x	x		v1.0		done (CB)		
+halenepal	lexibank	halenepal	Hale1973	10.5281/zenodo.13143140		x	x			v4.0	Release as v4.0 because of the big change/fix for the lexemes.	Done (CR)		
+hantganbangime	lexibank	hantganbangime	Hantgan2022b	10.5281/zenodo.13319171		x	x			v1.1		done (CB)		
+hattorijaponic	sequencecomparison	hattorijaponic	Hattori1973	10.5281/zenodo.13169462			x	x		v1.1		done (FB)		
+heathdogon	languageorphans	heathdogon	Moran2016	10.5281/zenodo.13304440		x	x			v0.3		done (FB)		
+houchinese	sequencecomparison	houchinese	Hou2004	10.5281/zenodo.13254732			x	x		v1.1		done (FB)		
+hsiuhmongmien	lexibank	hsiuhmongmien	Hsiu2015	10.5281/zenodo.13269392			x			v1.1		done (CB)		
+hubercolumbian	lexibank	hubercolumbian	Huber1992	10.5281/zenodo.13254493		x	x			v4.0.2		done (CB)		
+huntergatherer	lexibank	huntergatherer	HunterGatherer	10.5281/zenodo.13832119		x	x			v2.1		done (CB)		
+idssegmented	intercontinental-dictionary-series	idssegmented	IDS	10.5281/zenodo.13832130		x	x			v1.2		done (FB)		
+iecor	lexibank	iecor	Heggarty2024	10.5281/zenodo.13304537			x	x		v1.2		done (FB)		
+ivanisuansu	lexibank	ivanisuansu	Ivani2019	10.5281/zenodo.13254433			x			v2.0		done (CB)		
+johanssonsoundsymbolic	lexibank	johanssonsoundsymbolic	Johansson2020	10.5281/zenodo.14001750		x	x			v1.3		done (CB)		
+joophonosemantic	lexibank	joophonosemantic	Joo2019	10.5281/zenodo.13254582			x			v1.2		done (CB)		
+keypano	idssegmented	keypano	Miller2024	10.5281/zenodo.13234493		x	x			v0.1		done (FB)		
+kesslersignificance	sequencecomparison	kesslersignificance	Kessler2001	10.5281/zenodo.13235043			x	x		v1.1		done (FB)		
+kleinewillinghoeferbikwinjen	lexibank	kleinewillinghoeferbikwinjen	Kleinewillinghoefer2015	10.5281/zenodo.13829628			x			v1.2		done (CB)		
+kochtukanoan	lexibank	kochtukanoan	Koch1914	10.5281/zenodo.13235052		x	x			v1.0		done (FB)		
+kraftchadic	lexibank	kraftchadic	Kraft1981	10.5281/zenodo.13832124		x	x			v4.1		done (CB)		
+lairgyalrong	lexibank	lairgyalrong	Lai2023	10.5281/zenodo.14001762		x	x	x		v0.4		done (FB)		
+lamanisoic	lexibank	lamanisoic	Lama2012	10.5281/zenodo.13169526		x	x			v1.1		done (FB)		
+leeainu	lexibank	leeainu	Lee2013	10.5281/zenodo.13253605			x			v1.1		done (CB)		
+leecaijia	lexibank	leecaijia	Lee2022	10.5281/zenodo.13253594			x			v1.0		done (CB)		
+leejaponic	lexibank	leejaponic	Lee2011	10.5281/zenodo.13254646			x			v1.1		done (CB)		
+leekoreanic	lexibank	leekoreanic	Lee2015	10.5281/zenodo.13254649			x	x		v1.1		done (CB)		
+lieberherrkhobwa	lexibank	lieberherrkhobwa	Lieberherr2017	10.5281/zenodo.13319047			x	x		v2.1	ortho-profiles could be improved, okay enoughr for LB 2.0	done (CB)		
+lindseyende	intercontinental-dictionary-series	lindseyende	Lindsey2019	10.5281/zenodo.13254739		x	x			v2.2		done (FB)		
+lionnetyotonahua	lexibank	lionnetyotonahua	Lionnet1985	10.5281/zenodo.13169353		x	x	x		v1.0		done (FB)		
+listsamplesize	sequencecomparison	listsamplesize	List2014c	10.5281/zenodo.13169429		x	x	x		v1.1		done (FB)		
+liusinitic	lexibank	liusinitic	Liu2007	10.5281/zenodo.13254682			x	x		v1.4		done (CB)		
+luangthongkumkaren	lexibank	luangthongkumkaren	Luangthongkum2019	10.5281/zenodo.13254728		x	x	x	x	v1.1		done (CB)		
+lundgrenomagoa	lexibank	lundgrenomagoa	Lundgren2020	10.5281/zenodo.13319013			x	x		v1.1		done (CB)		
+mannburmish	lexibank	mannburmish	Mann1998	10.5281/zenodo.13235497		x	x	x		v1.3		Done (CR)		
+marrisonnaga	lexibank	marrisonnaga	Marrison1967	10.5281/zenodo.13235510		x	x			v3.1		Done (CR)		
+mcelhanonhuon	lexibank	mcelhanonhuon	McElhanon1967	10.5281/zenodo.13269405			x	x		v1.1		done (CB)		
+mitterhoferbena	lexibank	mitterhoferbena	Mitterhofer2013	10.5281/zenodo.13235478		x	x			v3.1		Done (CR)		
+mixtecansubgrouping	lexibank	mixtecansubgrouping	Auderset2023	10.5281/zenodo.14001610			x	x		v0.4		done (CB)		
+naganorgyalrongic	lexibank	naganorgyalrongic	Nagano2013	10.5281/zenodo.13220621		x	x			v3.1		Done (CR)		
+nagarajakhasian	lexibank	nagarajakhasian	Nagaraja2013	10.5281/zenodo.13269522			x	x		v1.1		done (CB)		
+northeuralex	lexibank	northeuralex	Dellert2020	10.5281/zenodo.13269523		x	x			v4.1		done (CB)		
+northernperu	lexibank	northernperu	Barrientos2024	10.5281/zenodo.13269803			x			v0.1		done (CB)		
+oskolskayatungusic	lexibank	oskolskayatungusic	Oskolskaya2022	10.5281/zenodo.13163376		x	x	x		v1.1		Done (CR)		
+othanieljen	lexibank	othanieljen	Othaniel2017	10.5281/zenodo.13829625		x	x			v1.2		Done (CR)		
+peirosaustroasiatic	lexibank	peirosaustroasiatic	Peiros1998	10.5281/zenodo.13168443			x	x		v1.1		Done (CR)		
+pharaocoracholaztecan	lexibank	pharaocoracholaztecan	Pharao2020	10.5281/zenodo.13304640			x	x	x	v1.1.1		Done (CR)		
+polyglottaafricana	lexibank	polyglottaafricana	Koelle1854	10.5281/zenodo.13221020		x	x			v2.1		Done (CR)		
+ratcliffearabic	lexibank	ratcliffearabic	Ratcliffe2021	10.5281/zenodo.13162864			x	x		v1.1		Done (CR)		
+robinsonap	lexibank	robinsonap	Robinson2012	10.5281/zenodo.13163515		x	x	x		v4.1		Done (CR)		
+saenkoromance	lexibank	saenkoromance	Saenko2015	10.5281/zenodo.13163492			x	x		v1.1		Done (CR)		
+sagartst	lexibank	sagartst	Sagart2019	10.5281/zenodo.13162889			x	x		v2.1		Done (CR)		
+savelyevturkic	lexibank	savelyevturkic	Savelyev2020	10.5281/zenodo.13163242			x	x		v2.1		Done (CR)		
+sawkatokaleya	lexibank	sawkatokaleya	Sawka2019	10.5281/zenodo.13164643			x			v1.0		Done (CR)		
+seifartecheverriboran	lexibank	seifartecheverriboran	Seifart2015	10.5281/zenodo.13164427		x	x	x	x	v1.0		Done (CR)		
+servamalagasy	digling	servamalagasy	Serva2020	10.5281/zenodo.13168397			x			v1.1		Done (CR)		
+sidwellbahnaric	lexibank	sidwellbahnaric	Sidwell2015	10.5281/zenodo.13162996			x	x		v1.1		Done (CR)		
+sidwellvietic	lexibank	sidwellvietic	Sidwell2021	10.5281/zenodo.13164573			x	x	x	v1.1		Done (CR)		
+simsrma	lexibank	simsrma	Sims2020	10.5281/zenodo.13168246			x	x		v1.3		Done (CR)		
+sohartmannchin	lexibank	sohartmannchin	SoHartmann1988	10.5281/zenodo.13163647		x	x			v3.1		Done (CR)		
+starostinkaren	lexibank	starostinkaren	Starostin2011	10.5281/zenodo.13168287			x	x		v1.0		Done (CR)		
+starostinpie	sequencecomparison	starostinpie	Starostin2005b	10.5281/zenodo.13167172			x	x		v1.1		Done (CR)		
+starostintujia	lexibank	starostintujia	Starostin2013b	10.5281/zenodo.13163694			x	x		v1.0		Done (CR)		
+suntb	lexibank	suntb	Sun1991	10.5281/zenodo.13304824		x	x			v4.1		Done (CR)		
+syrjaenenuralic	lexibank	syrjaenenuralic	Syrjaenen2013	10.5281/zenodo.13164684			x	x		v1.1		Done (CR)		
+tls	lexibank	tls	Nurse1975	10.5281/zenodo.13163463		x	x			v4.2		Done (CR)		
+tolmiebritishcolumbia	lexibank	tolmiebritishcolumbia	Tolmie1884	10.5281/zenodo.13143482			x			v1.1		Done (CR)		
+transnewguineaorg	lexibank	transnewguineaorg	Greenhill2015	10.5281/zenodo.5141620	Waiting for SG	x	x			v3.0		PR ready (upstream data fixed, still needs profile changes?)		
+tryonsolomon	lexibank	tryonsolomon	Tryon1983	10.5281/zenodo.13150089			x			v3.1		done (FB)		
+utoaztecan	lexibank	utoaztecan	Greenhill2023	10.5281/zenodo.5173799	Conceptlist integration missing		x	x		v1.1	Concept list not in Concepticon?	PR ready, concept list to Concepticon is WIP (CR)		
+visserkalamang	intercontinental-dictionary-series	visserkalamang	Visser2021	10.5281/zenodo.13220870		x	x			v2.2		Done (CR)		
+walkerarawakan	lexibank	walkerarawakan	Walker2011	10.5281/zenodo.13170587			x			v1.1		Done (CR)		
+walworthpolynesian	lexibank	walworthpolynesian	Walworth2018	10.5281/zenodo.13218906			x	x		v1.1		Done (CR)		
+wangbai	lexibank	wangbai	Wang2004b	10.5281/zenodo.13163051		x	x			v1.1		Done (CR)		
+wheelerutoaztecan	lexibank	wheelerutoaztecan	Wheeler2015b	10.5281/zenodo.13170025			x			v1.1		Done (CR)		
+wichmannmixezoquean	lexibank	wichmannmixezoquean	Wichmann2011	10.5281/zenodo.13163225			x	x		v1.1		Done (CR)		
+wold	lexibank	wold	WOLD	10.5281/zenodo.13861321		x	x			v4.1		Done (FB)		
+yanglalo	lexibank	yanglalo	Yang2011	10.5281/zenodo.13306849		x	x	x	x	v4.0		Done (CR)		
+yangyi	lexibank	yangyi	Yang2022	10.5281/zenodo.13220883		x	x			v1.3		Done (CR)		
+yuchinese	intercontinental-dictionary-series	yuchinese	Yu2021	10.5281/zenodo.13284157		x	x			v2.1		Done (CR)		
+zgraggenmadang	lexibank	zgraggenmadang	Zgraggen1980a	10.5281/zenodo.13163448		x	x			v4.1		Done (CR)		
+zhaobai	lexibank	zhaobai	Zhao2006	10.5281/zenodo.13163115			x			v1.1		Done (CR)		
+zhivlovobugrian	sequencecomparison	zhivlovobugrian	Zhivlov2011	10.5281/zenodo.13220897			x	x		v1.1		Done (CR)		
+zhoubizic	lexibank	zhoubizic	Zhou2020	10.5281/zenodo.13168188		x	x			v1.2		Done (CR)		
