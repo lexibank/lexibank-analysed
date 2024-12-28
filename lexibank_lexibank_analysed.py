@@ -43,14 +43,18 @@ COLLECTIONS = {
     'Lexibank': (
         'Metacollection of wordlists belonging to either of the datasets',
         'all wordlists in the Lexibank collection'),
+    "Selexion": (
+        "Selection of one language per Glottocode, ranked by size of "
+        "the lexicon",
+        "selected wordlists in Lexibank"),
 }
 
 CONDITIONS = {
     "LexiCore": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100,
-    "ClicsCore": lambda x: len(x.forms_with_sounds) >= 250 and len(x.concepts) >= 250,
-    "ProtoCore": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100,
-    "CogCore": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100,
-    "Lexibank": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100,
+    "ClicsCore": lambda x: len(x.forms_with_sounds) >= 180 and len(x.concepts) >= 180,
+    "ProtoCore": lambda x: len(x.forms_with_sounds) >= 80 and len(x.concepts) >= 80,
+    "CogCore": lambda x: len(x.forms_with_sounds) >= 80 and len(x.concepts) >= 80,
+    "Lexibank": lambda x: len(x.forms_with_sounds) >= 80 and len(x.concepts) >= 80,
 }
 
 CLTS_2_3 = (
@@ -61,6 +65,8 @@ _loaded = {}
 
 LB_VERSION = "lexibank.tsv"
 
+DATASETS = 2
+
 
 @attr.s
 class CustomLexeme(Lexeme):
@@ -68,6 +74,8 @@ class CustomLexeme(Lexeme):
     Prosodic_String = attr.ib(default=None)
     Dolgo_Sound_Classes = attr.ib(default=None)
     SCA_Sound_Classes = attr.ib(default=None)
+
+
 
 
 @attr.s
@@ -85,6 +93,8 @@ class CustomLanguage(Language):
     Concepts = attr.ib(default=None)
     Incollections = attr.ib(default=None)
     Dataset = attr.ib(default=None)
+    #Reference_Data = attr.ib(default=None, metadata={"format": "bool", "description":
+    #                                          "flag forms to be ignore"})
 
 
 class Dataset(BaseDataset):
@@ -136,7 +146,8 @@ class Dataset(BaseDataset):
     @property
     def dataset_meta(self):
         res = collections.OrderedDict()
-        for row in self.etc_dir.read_csv(LB_VERSION, delimiter='\t', dicts=True):
+        for row in self.etc_dir.read_csv(LB_VERSION, delimiter='\t',
+                                         dicts=True)[:DATASETS]:
             # # uncomment below when having added all data to zenodo
             # if not row['Zenodo'].strip():
             #     continue
@@ -197,7 +208,8 @@ class Dataset(BaseDataset):
             {'name': 'Forms', 'datatype': 'integer', 'dc:description': 'Number of forms'},
             {'name': "FormsWithSounds", "datatype": "integer", "dc:description": "Number of forms with sounds"},
             {'name': 'Concepts', 'datatype': 'integer', 'dc:description': 'Number of concepts'},
-            {'name': 'Incollections'},
+            {'name': 'Incollections', 'datatype': "string", "separator": " ", 
+             "dc:description": "Subselections of Lexibank"},
             'Subgroup',
             'Family',
             'Family_in_Data')
@@ -312,13 +324,13 @@ class Dataset(BaseDataset):
                         "Forms": len(language.forms or []),
                         "FormsWithSounds": len(language.forms_with_sounds or []),
                         "Concepts": len(language.concepts),
-                        "Incollections": collection,
+                        "Incollections": [collection],
                     }
                 except KeyError:
                     args.log.warn(f"{language.name} / {language.dataset} / {language.glottocode}")
                     return False
             else:
-                langs['Incollections'] = langs['Incollections'] + collection
+                langs['Incollections'] = langs['Incollections'] + [collection]
             if language.id not in visited:
                 for cid in ["ClicsCore", "LexiCore", "CogCore", "ProtoCore"]:
                     try:
@@ -391,30 +403,35 @@ class Dataset(BaseDataset):
             args.log.info(f"found {len(best_vars)} different glottocodes with {var_count} varieties")
 
             visited_concepts = set()
+            best_languages = {}
             for glc in tqdm(best_vars, desc="add_forms"):
                 # select best variety
-                _, language = max(best_vars[glc].values())
-                args.log.info(f"processing {language.id} / {language.dataset}")
-                for form in language.forms_with_sounds:
-                    if form.concept and form.concept.concepticon_id and form.concept.concepticon_id in cid2gls:
-                        cgls = cid2gls[form.concept.concepticon_id]
-                        writer.add_form_with_segments(
-                            Local_ID=form.id,
-                            Parameter_ID=slug(cgls, lowercase=True),
-                            Language_ID=language.id,
-                            Value=form.value,
-                            Form=form.form,
-                            Segments=form.sounds,
-                            CV_Template="".join(clts.soundclass("cv")(form.sounds)),
-                            Prosodic_String="".join(
-                                lingpy.sequence.sound_classes.prosodic_string(
-                                    form.sounds, _output="CcV")),
-                            Dolgo_Sound_Classes="".join(
-                                clts.soundclass("dolgo")(form.sounds)),
-                            SCA_Sound_Classes="".join(
-                                clts.soundclass("sca")(form.sounds)),
-                            Source=self.dataset_meta[language.dataset]["Source"].split(" "))
-                        visited_concepts.add(cgls)
+                _, best_language = max(best_vars[glc].values())
+                args.log.info(f"processing {best_language.id} / {best_language.dataset}")
+                for _, language in best_vars[glc].values():
+                    if language.id == best_language.id:
+                        best_languages[language.id] = language
+                    for form in language.forms_with_sounds:
+                        if form.concept and form.concept.concepticon_id and form.concept.concepticon_id in cid2gls:
+                            cgls = cid2gls[form.concept.concepticon_id]
+                            writer.add_form_with_segments(
+                                Local_ID=form.id,
+                                Parameter_ID=slug(cgls, lowercase=True),
+                                Language_ID=language.id,
+                                Value=form.value,
+                                Form=form.form,
+                                Segments=form.sounds,
+                                CV_Template="".join(clts.soundclass("cv")(form.sounds)),
+                                Prosodic_String="".join(
+                                    lingpy.sequence.sound_classes.prosodic_string(
+                                        form.sounds, _output="CcV")),
+                                Dolgo_Sound_Classes="".join(
+                                    clts.soundclass("dolgo")(form.sounds)),
+                                SCA_Sound_Classes="".join(
+                                    clts.soundclass("sca")(form.sounds)),
+                                Source=self.dataset_meta[language.dataset]["Source"].split(" "),
+                                )
+                            visited_concepts.add(cgls)
             args.log.info('added lexibank forms')
             # retrieve central concept from Rzymski concept list
             central_concepts = {
@@ -504,6 +521,17 @@ class Dataset(BaseDataset):
 
         with self.cldf_writer(args, cldf_spec='phonemes', clean=False) as writer:
             writer.cldf.add_columns('ParameterTable', 'cltsReference')
+
+            # add information on included forms here +++
+            args.log.info("write information on selected languages")
+            for lid, language in languages.items():
+                if lid in best_languages:
+                    languages[lid]["Incollections"] += ["Selexion"]
+                    collstats["Selexion"]["Glottocodes"].add(best_languages[lid].glottocode)
+                    collstats["Selexion"]["Varieties"] += 1
+                    collstats["Selexion"]["Forms"] += len(best_languages[lid].forms)
+                    collstats["Selexion"]["Concepts"].update(
+                        concept.id for concept in best_languages[lid].concepts)
             self._schema(writer, with_stats=True, collstats=collstats)
             writer.objects['LanguageTable'] = languages.values()
             for clts_id, glyphs in itertools.groupby(sorted(sounds.keys()), lambda k: k[0]):
