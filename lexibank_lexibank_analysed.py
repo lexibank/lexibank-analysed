@@ -4,6 +4,11 @@ import zipfile
 import itertools
 import collections
 import shutil
+import json
+import codecs
+
+
+import nameparser
 
 import pycldf
 from cldfbench import CLDFSpec
@@ -16,6 +21,8 @@ from cldfzenodo import oai_lexibank
 from pyclts import CLTS
 from tqdm import tqdm
 import attr
+
+
 
 from pylexibank import Lexeme, Concept, Language
 
@@ -64,7 +71,6 @@ CLTS_2_3 = (
 _loaded = {}
 
 LB_VERSION = "lexibank.tsv"
-
 DATASETS = 2
 
 
@@ -93,8 +99,6 @@ class CustomLanguage(Language):
     Concepts = attr.ib(default=None)
     Incollections = attr.ib(default=None)
     Dataset = attr.ib(default=None)
-    #Reference_Data = attr.ib(default=None, metadata={"format": "bool", "description":
-    #                                          "flag forms to be ignore"})
 
 
 class Dataset(BaseDataset):
@@ -158,7 +162,8 @@ class Dataset(BaseDataset):
 
     def cmd_download(self, args):
         github_info = {rec.doi: rec for rec in oai_lexibank()}
-
+        
+        sources = pycldf.Sources.from_file(self.raw_dir / "base-sources.bib")
         for dataset, row in self.dataset_meta.items():
             dest = self.raw_dir / dataset
             if dest.exists():
@@ -168,6 +173,45 @@ class Dataset(BaseDataset):
             args.log.info("Downloading {}".format(dataset))
             record = github_info[row['Zenodo']]
             record.download(dest)
+
+            # load zenodo info to make a new bibtex and doi
+            with open(self.raw_dir / dataset / ".zenodo.json") as f:
+                meta = json.load(f)
+            editors = [c["name"] for c in meta["contributors"] if
+                       c["type"] == "Editor"]
+            for i, editor in enumerate(editors):
+                name = nameparser.HumanName(editor)
+                first = name.first
+                if name.middle:
+                    first == " " + name.middle
+                editors[i] = "{0}, {1}".format(
+                    name.last,
+                    first)
+
+            # load normal metadata to get the original citation
+            with open(self.raw_dir / dataset / "metadata.json") as f:
+                meta = json.load(f)
+            description = meta["citation"]
+            # create bibtex and write to new file
+            bib = dict(author=" and ".join(record.creators),
+                    title=record.title,
+                    publisher="Zenodo",
+                    year=record.year,
+                    address="Geneva",
+                    doi=record.doi)
+            if editors:
+                bib["editor"] = " and ".join(editors)
+            if description:
+                bib["citation"] = description
+
+            sources.add(pycldf.Source(
+                    "book",
+                    row["ID"],
+                    **bib))
+
+        with codecs.open(self.raw_dir / "sources.bib", "w", "utf-8") as f:
+            for source in sources:
+                f.write(source.bibtex() + "\n\n")
 
         with self.raw_dir.temp_download(CLTS_2_3[0], 'ds.zip', log=args.log) as zipp:
             zipfile.ZipFile(str(zipp)).extractall(self.raw_dir)
@@ -232,6 +276,12 @@ class Dataset(BaseDataset):
             'Concepts',
             'Senses',
             'Forms',
+            {
+                "name": 'Source', 
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                "datatype": "string",
+                "separator": ";"
+                },
         )
         writer.cldf.add_foreign_key('ContributionTable', 'Collection_IDs', 'collections.csv', 'ID')
 
@@ -252,6 +302,7 @@ class Dataset(BaseDataset):
                 Concepts=len(csids),
                 Senses=len(senses),
                 Forms=len(list(ds['FormTable'])),
+                Source=md["Source"].split(),
             )
             writer.objects['ContributionTable'].append(contrib)
         if collstats:
@@ -388,7 +439,7 @@ class Dataset(BaseDataset):
         # via the LexiCore phonology module
         clts = CLTS(self.raw_dir / CLTS_2_3[1])
         with self.cldf_writer(args) as writer:
-            # add sources
+            # add sources, combine the lists
             writer.add_sources()
             # add concepts and the like
             wl = Wordlist(self._iter_datasets("LexiCore"), ts=clts.bipa)
@@ -429,7 +480,7 @@ class Dataset(BaseDataset):
                                     clts.soundclass("dolgo")(form.sounds)),
                                 SCA_Sound_Classes="".join(
                                     clts.soundclass("sca")(form.sounds)),
-                                Source=self.dataset_meta[language.dataset]["Source"].split(" "),
+                                Source=self.dataset_meta[language.dataset]["ID"],
                                 )
                             visited_concepts.add(cgls)
             args.log.info('added lexibank forms')
