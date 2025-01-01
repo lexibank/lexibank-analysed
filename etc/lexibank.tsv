@@ -1,7 +1,7 @@
 ID	Organization	Dataset	Source	Zenodo	Todo	ClicsCore	LexiCore	CogCore	ProtoCore	Version	Comments	Status
-iecor	lexibank	iecor	Heggarty2024	10.5281/zenodo.13304537			x	x		v1.2		done (FB)
 aaleykusunda	lexibank	aaleykusunda	Aaley2019	10.5281/zenodo.13149034			x			v2.1		done (FB)
 abrahammonpa	lexibank	abrahammonpa	Abraham2018	10.5281/zenodo.13149071		x	x			v3.1		done (FB)
+iecor	lexibank	iecor	Heggarty2024	10.5281/zenodo.13304537			x	x		v1.2		done (FB)
 abvdoceanic	lexibank	abvdoceanic	Greenhill2008	10.5281/zenodo.13149095			x	x		v0.3		done (FB)
 abvdphilippines	lexibank	abvdphilippines	Greenhill2008	10.5281/zenodo.13304336			x	x		v1.0		done (FB)
 allenbai	lexibank	allenbai	Allen2007	10.5281/zenodo.13149106		x	x			v4.1		done (FB)

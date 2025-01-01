@@ -17,7 +17,7 @@ from pylexibank import Dataset as BaseDataset
 import pylexibank.dataset
 from cltoolkit import Wordlist
 from cltoolkit.features import FEATURES
-from cldfzenodo import oai_lexibank
+from cldfzenodo import API as cldfzenodoapi
 from pyclts import CLTS
 from tqdm import tqdm
 import attr
@@ -70,9 +70,7 @@ CLTS_2_3 = (
 
 _loaded = {}
 
-LB_VERSION = "lexibank.tsv"
-DATASETS = 2
-
+LB_VERSION = "lexibank-dev.tsv"
 
 @attr.s
 class CustomLexeme(Lexeme):
@@ -80,8 +78,6 @@ class CustomLexeme(Lexeme):
     Prosodic_String = attr.ib(default=None)
     Dolgo_Sound_Classes = attr.ib(default=None)
     SCA_Sound_Classes = attr.ib(default=None)
-
-
 
 
 @attr.s
@@ -151,7 +147,7 @@ class Dataset(BaseDataset):
     def dataset_meta(self):
         res = collections.OrderedDict()
         for row in self.etc_dir.read_csv(LB_VERSION, delimiter='\t',
-                                         dicts=True)[:DATASETS]:
+                                         dicts=True):
             # # uncomment below when having added all data to zenodo
             # if not row['Zenodo'].strip():
             #     continue
@@ -161,7 +157,9 @@ class Dataset(BaseDataset):
         return res
 
     def cmd_download(self, args):
-        github_info = {rec.doi: rec for rec in oai_lexibank()}
+        github_info = {}
+        for rec in cldfzenodoapi.iter_records(community='lexibank'):
+            github_info[rec.doi] = rec
         
         sources = pycldf.Sources.from_file(self.raw_dir / "base-sources.bib")
         for dataset, row in self.dataset_meta.items():
@@ -208,6 +206,11 @@ class Dataset(BaseDataset):
                     "book",
                     row["ID"],
                     **bib))
+
+            # check if source is in sources
+            for src_key in row["Source"].split(" "):
+                if src_key not in sources:
+                    args.log.warn("source with key '{0}' missing in data".format(src_key))
 
         with codecs.open(self.raw_dir / "sources.bib", "w", "utf-8") as f:
             for source in sources:
