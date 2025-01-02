@@ -70,7 +70,7 @@ CLTS_2_3 = (
 
 _loaded = {}
 
-LB_VERSION = "lexibank-dev.tsv"
+LB_VERSION = "lexibank.tsv"
 
 @attr.s
 class CustomLexeme(Lexeme):
@@ -157,10 +157,6 @@ class Dataset(BaseDataset):
         return res
 
     def cmd_download(self, args):
-        github_info = {}
-        for rec in cldfzenodoapi.iter_records(community='lexibank'):
-            github_info[rec.doi] = rec
-        
         sources = pycldf.Sources.from_file(self.raw_dir / "base-sources.bib")
         for dataset, row in self.dataset_meta.items():
             dest = self.raw_dir / dataset
@@ -169,7 +165,7 @@ class Dataset(BaseDataset):
                 shutil.rmtree(dest)
 
             args.log.info("Downloading {}".format(dataset))
-            record = github_info[row['Zenodo']]
+            record = cldfzenodoapi.get_record(row["Zenodo"]) 
             record.download(dest)
 
             # load zenodo info to make a new bibtex and doi
