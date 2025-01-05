@@ -70,7 +70,7 @@ CLTS_2_3 = (
 
 _loaded = {}
 
-LB_VERSION = "lexibank.tsv"
+LB_VERSION = "lexibank2.tsv"
 
 @attr.s
 class CustomLexeme(Lexeme):
@@ -166,6 +166,11 @@ class Dataset(BaseDataset):
 
             args.log.info("Downloading {}".format(dataset))
             record = cldfzenodoapi.get_record(row["Zenodo"]) 
+            # check if record is most recent one
+            rec_new = record.from_concept_doi(record.concept_doi)
+            if rec_new.doi != record.doi:
+                record = rec_new
+                args.log.warn("DOI for datasets {0} is not the latest version!".format(row["ID"]))
             record.download(dest)
 
             # load zenodo info to make a new bibtex and doi
