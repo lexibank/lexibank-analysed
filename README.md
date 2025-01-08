@@ -33,15 +33,15 @@ The core-sets are defined by using the following criteria:
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 2,672 (linked to 2,672 different Glottocodes)
-- **Concepts:** 3,178 (linked to 3,178 different Concepticon concept sets)
-- **Lexemes:** 1,095,158
-- **Sources:** 100
-- **Synonymy:** 1.12
+- **Varieties:** 4,737 (linked to 2,789 different Glottocodes)
+- **Concepts:** 3,195 (linked to 3,195 different Concepticon concept sets)
+- **Lexemes:** 1,671,479
+- **Sources:** 127
+- **Synonymy:** 1.10
 - **Invalid lexemes:** 0
-- **Tokens:** 6,245,879
-- **Segments:** 1,858 (0 BIPA errors, 0 CLTS sound class errors, 1849 CLTS modified)
-- **Inventory size (avg):** 38.76
+- **Tokens:** 9,325,843
+- **Segments:** 2,376 (0 BIPA errors, 0 CLTS sound class errors, 2367 CLTS modified)
+- **Inventory size (avg):** 39.49
 
 ## Possible Improvements:
 
@@ -54,6 +54,7 @@ The core-sets are defined by using the following criteria:
   - Songlai-Hettui 8Karchaung (Hettui) [song1313](http://glottolog.org/resource/languoid/id/song1313)
   - Songlai-Maung Um (Song) 1Maung Um (Song) [song1313](http://glottolog.org/resource/languoid/id/song1313)
   - Laitu Ahongdong [lait1239](http://glottolog.org/resource/languoid/id/lait1239)
+  - Khalaj [khal1270](http://glottolog.org/resource/languoid/id/khal1270)
 
 
 
@@ -61,12 +62,14 @@ The core-sets are defined by using the following criteria:
 
 Name               | GitHub user | Description | Role
 ---                | ---         | --- | ---
-Johann-Mattis List | @LinguList  | maintainer | Author
+Frederic Blum | @FredericBlum | maintainer | Author
 Robert Forkel | @xrotwang | maintainer | Author
 Simon J. Greenhill | @simongreenhill | maintainer | Author
 Christoph Rzymski | @chrzyki | maintainer | Author
 Johannes Englisch | @johenglisch | maintainer | Author
 Russell D. Gray | | maintainer | Author
+Johann-Mattis List | @LinguList  | maintainer | Author
+
 
 
 

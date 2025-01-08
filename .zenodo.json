@@ -2,7 +2,7 @@
     "title": "Lexibank Analysed",
     "creators": [
         {
-            "name": "Johann-Mattis List"
+            "name": "Frederic Blum"
         },
         {
             "name": "Robert Forkel"
@@ -18,6 +18,9 @@
         },
         {
             "name": "Russell D. Gray"
+        },
+        {
+            "name": "Johann-Mattis List"
         }
     ],
     "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>List, Johann-Mattis; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph; Englisch, Johannes; and Russell D. Gray (2021): Lexibank: A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2000 language varieties [Dataset, Version 1.0]. Geneva: Zenodo.</p>\n</blockquote>",

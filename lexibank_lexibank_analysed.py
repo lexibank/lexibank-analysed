@@ -12,6 +12,7 @@ import nameparser
 
 import pycldf
 from cldfbench import CLDFSpec
+from pylexibank import Lexeme, Concept, Language
 from pylexibank.cldf import LexibankWriter
 from pylexibank import Dataset as BaseDataset
 import pylexibank.dataset
@@ -21,10 +22,6 @@ from cldfzenodo import API as cldfzenodoapi
 from pyclts import CLTS
 from tqdm import tqdm
 import attr
-
-
-
-from pylexibank import Lexeme, Concept, Language
 
 import lingpy
 from clldutils.misc import slug
@@ -70,7 +67,8 @@ CLTS_2_3 = (
 
 _loaded = {}
 
-LB_VERSION = "lexibank2.tsv"
+LB_VERSION = "lexibank.tsv"
+
 
 @attr.s
 class CustomLexeme(Lexeme):
@@ -161,20 +159,20 @@ class Dataset(BaseDataset):
         for dataset, row in self.dataset_meta.items():
             dest = self.raw_dir / dataset
             if dest.exists():
-                args.log.info('Removing old download in {}'.format(dest))
+                args.log.info(f'Removing old download in {dest}')
                 shutil.rmtree(dest)
 
-            args.log.info("Downloading {}".format(dataset))
+            args.log.info(f"Downloading {dataset}")
             record = cldfzenodoapi.get_record(row["Zenodo"]) 
             # check if record is most recent one
             rec_new = record.from_concept_doi(record.concept_doi)
             if rec_new.doi != record.doi:
                 record = rec_new
-                args.log.warn("DOI for datasets {0} is not the latest version!".format(row["ID"]))
+                args.log.warn(f"DOI for datasets {row["ID"]} is not the latest version!")
             record.download(dest)
 
             # load zenodo info to make a new bibtex and doi
-            with open(self.raw_dir / dataset / ".zenodo.json") as f:
+            with open(self.raw_dir / dataset / ".zenodo.json", encoding='utf8') as f:
                 meta = json.load(f)
             editors = [c["name"] for c in meta["contributors"] if
                        c["type"] == "Editor"]
@@ -182,13 +180,11 @@ class Dataset(BaseDataset):
                 name = nameparser.HumanName(editor)
                 first = name.first
                 if name.middle:
-                    first == " " + name.middle
-                editors[i] = "{0}, {1}".format(
-                    name.last,
-                    first)
+                    first = " " + name.middle
+                editors[i] = f"{name.last}, {first}"
 
             # load normal metadata to get the original citation
-            with open(self.raw_dir / dataset / "metadata.json") as f:
+            with open(self.raw_dir / dataset / "metadata.json", encoding='utf8') as f:
                 meta = json.load(f)
             description = meta["citation"]
             # create bibtex and write to new file
