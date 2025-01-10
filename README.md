@@ -33,15 +33,15 @@ The core-sets are defined by using the following criteria:
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 4,737 (linked to 2,789 different Glottocodes)
+- **Varieties:** 4,745 (linked to 2,791 different Glottocodes)
 - **Concepts:** 3,195 (linked to 3,195 different Concepticon concept sets)
-- **Lexemes:** 1,671,479
-- **Sources:** 127
-- **Synonymy:** 1.10
+- **Lexemes:** 1,663,389
+- **Sources:** 128
+- **Synonymy:** 1.09
 - **Invalid lexemes:** 0
-- **Tokens:** 9,325,843
-- **Segments:** 2,376 (0 BIPA errors, 0 CLTS sound class errors, 2367 CLTS modified)
-- **Inventory size (avg):** 39.49
+- **Tokens:** 9,285,063
+- **Segments:** 2,377 (0 BIPA errors, 0 CLTS sound class errors, 2368 CLTS modified)
+- **Inventory size (avg):** 39.51
 
 ## Possible Improvements:
 
