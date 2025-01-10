@@ -163,7 +163,7 @@ class Dataset(BaseDataset):
                 shutil.rmtree(dest)
 
             args.log.info(f"Downloading {dataset}")
-            record = cldfzenodoapi.get_record(row["Zenodo"]) 
+            record = cldfzenodoapi.get_record(row["Zenodo"])
             # check if record is most recent one
             rec_new = record.from_concept_doi(record.concept_doi)
             if rec_new.doi != record.doi:
@@ -188,21 +188,19 @@ class Dataset(BaseDataset):
                 meta = json.load(f)
             description = meta["citation"]
             # create bibtex and write to new file
-            bib = dict(author=" and ".join(record.creators),
-                    title=record.title,
-                    publisher="Zenodo",
-                    year=record.year,
-                    address="Geneva",
-                    doi=record.doi)
+            bib = dict(
+                author=" and ".join(record.creators),
+                title=record.title,
+                publisher="Zenodo",
+                year=record.year,
+                address="Geneva",
+                doi=record.doi)
             if editors:
                 bib["editor"] = " and ".join(editors)
             if description:
                 bib["citation"] = description
 
-            sources.add(pycldf.Source(
-                    "book",
-                    row["ID"],
-                    **bib))
+            sources.add(pycldf.Source("book", row["ID"], **bib))
 
             # check if source is in sources
             for src_key in row["Source"].split(" "):
@@ -252,7 +250,7 @@ class Dataset(BaseDataset):
             {'name': 'Forms', 'datatype': 'integer', 'dc:description': 'Number of forms'},
             {'name': "FormsWithSounds", "datatype": "integer", "dc:description": "Number of forms with sounds"},
             {'name': 'Concepts', 'datatype': 'integer', 'dc:description': 'Number of concepts'},
-            {'name': 'Incollections', 'datatype': "string", "separator": " ", 
+            {'name': 'Incollections', 'datatype': "string", "separator": " ",
              "dc:description": "Subselections of Lexibank"},
             'Subgroup',
             'Family',
@@ -277,11 +275,11 @@ class Dataset(BaseDataset):
             'Senses',
             'Forms',
             {
-                "name": 'Source', 
+                "name": 'Source',
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
                 "datatype": "string",
-                "separator": ";"
-                },
+                "separator": ";",
+            },
         )
         writer.cldf.add_foreign_key('ContributionTable', 'Collection_IDs', 'collections.csv', 'ID')
 
@@ -314,7 +312,7 @@ class Dataset(BaseDataset):
     def cmd_makecldf(self, args):
         cid2gls = {c.id: c.gloss for c in
                    self.concepticon.conceptsets.values()}
-        languoids = self.glottolog.cached_languoids 
+        languoids = self.glottolog.cached_languoids
         visited = set()
         collstats = collections.OrderedDict()
         for cid, (desc, name) in COLLECTIONS.items():
@@ -464,8 +462,8 @@ class Dataset(BaseDataset):
                     duplicates = set()
                     for form in language.forms_with_sounds:
                         form_check = "{0}-{1}".format(
-                                form.concept.concepticon_id if form.concept else "",
-                                str(form.sounds))
+                            form.concept.concepticon_id if form.concept else "",
+                            str(form.sounds))
                         if form.concept and \
                                 form.concept.concepticon_id and \
                                 form.concept.concepticon_id in cid2gls and \
@@ -488,7 +486,7 @@ class Dataset(BaseDataset):
                                 SCA_Sound_Classes="".join(
                                     clts.soundclass("sca")(form.sounds)),
                                 Source=self.dataset_meta[language.dataset]["ID"],
-                                )
+                            )
                             visited_concepts.add(cgls)
                         elif form_check in duplicates:
                             excluded.append(form)
@@ -499,11 +497,11 @@ class Dataset(BaseDataset):
                 f.write("--- | --- | --- | --- | ---\n")
                 for form in excluded:
                     f.write(" | ".join([
-                        form.id, 
+                        form.id,
                         form.language.name,
                         form.concept.concepticon_gloss,
                         form.form, str(form.sounds)]) + "\n")
-                    
+
             args.log.info('added lexibank forms')
             # retrieve central concept from Rzymski concept list
             central_concepts = {
