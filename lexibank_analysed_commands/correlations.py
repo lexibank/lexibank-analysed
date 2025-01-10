@@ -13,7 +13,7 @@ from cltoolkit.features import FEATURES
 from cldfzenodo import Record
 from clldutils.clilib import Table, add_format
 
-from lexibank_lexibank_analysed import Dataset as LB, CLTS_2_1
+from lexibank_lexibank_analysed import Dataset as LB, CLTS_2_3
 
 
 def register(parser):
@@ -30,7 +30,7 @@ def run(args):
     lba = LB()
 
     args.log.info('Loading data ...')
-    clts = CLTS(lba.raw_dir / CLTS_2_1[1])
+    clts = CLTS(lba.raw_dir / CLTS_2_3[1])
     clts2phoible = clts.transcriptiondata_dict["phoible"]
 
     # WALS Online v2020.1
