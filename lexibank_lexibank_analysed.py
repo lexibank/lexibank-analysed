@@ -455,15 +455,22 @@ class Dataset(BaseDataset):
 
             visited_concepts = set()
             best_languages = {}
+            excluded = []
             for glc in tqdm(best_vars, desc="add_forms"):
-                # select best variety
                 _, best_language = max(best_vars[glc].values())
-                args.log.info(f"processing {best_language.id} / {best_language.dataset}")
                 for _, language in best_vars[glc].values():
                     if language.id == best_language.id:
                         best_languages[language.id] = language
+                    duplicates = set()
                     for form in language.forms_with_sounds:
-                        if form.concept and form.concept.concepticon_id and form.concept.concepticon_id in cid2gls:
+                        form_check = "{0}-{1}".format(
+                                form.concept.concepticon_id if form.concept else "",
+                                str(form.sounds))
+                        if form.concept and \
+                                form.concept.concepticon_id and \
+                                form.concept.concepticon_id in cid2gls and \
+                                form_check not in duplicates:
+                            duplicates.add(form_check)
                             cgls = cid2gls[form.concept.concepticon_id]
                             writer.add_form_with_segments(
                                 Local_ID=form.id,
@@ -483,6 +490,20 @@ class Dataset(BaseDataset):
                                 Source=self.dataset_meta[language.dataset]["ID"],
                                 )
                             visited_concepts.add(cgls)
+                        elif form_check in duplicates:
+                            excluded.append(form)
+            args.log.info("excluded {0} duplicates".format(len(excluded)))
+            with open(self.raw_dir / "duplicates.md", "w") as f:
+                f.write("# Duplicates\n\n")
+                f.write("ID | Language | Concept | Form | Sounds \n")
+                f.write("--- | --- | --- | --- | ---\n")
+                for form in excluded:
+                    f.write(" | ".join([
+                        form.id, 
+                        form.language.name,
+                        form.concept.concepticon_gloss,
+                        form.form, str(form.sounds)]) + "\n")
+                    
             args.log.info('added lexibank forms')
             # retrieve central concept from Rzymski concept list
             central_concepts = {
