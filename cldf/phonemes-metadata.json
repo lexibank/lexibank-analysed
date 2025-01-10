@@ -14,24 +14,24 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "Lexibank Analysed",
-    "dcat:accessURL": "https://github.com/lexibank/lexibank-analysed",
+    "dcat:accessURL": "https://github.com/lexibank/lexibank-study/",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "https://github.com/lexibank/lexibank-analysed",
+            "rdf:about": "https://github.com/lexibank/lexibank-study/",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-38-gb464e30",
+            "dc:created": "v1.0-57-gf849b00",
             "dc:title": "Repository"
         },
         {
-            "rdf:about": "https://github.com/glottolog/glottolog",
+            "rdf:about": "git@github.com:glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.0",
+            "dc:created": "v5.1",
             "dc:title": "Glottolog"
         },
         {
-            "rdf:about": "https://github.com/concepticon/concepticon-data",
+            "rdf:about": "git@github.com:concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.2.0",
+            "dc:created": "v3.3.0",
             "dc:title": "Concepticon"
         },
         {
@@ -56,7 +56,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 163823,
+            "dc:extent": 181150,
             "tableSchema": {
                 "columns": [
                     {
@@ -146,7 +146,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 2125,
+            "dc:extent": 2312,
             "tableSchema": {
                 "columns": [
                     {
@@ -189,7 +189,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 4351,
+            "dc:extent": 4745,
             "tableSchema": {
                 "columns": [
                     {
@@ -272,6 +272,9 @@
                         "name": "Concepts"
                     },
                     {
+                        "dc:description": "Subselections of Lexibank",
+                        "datatype": "string",
+                        "separator": " ",
                         "name": "Incollections"
                     },
                     {
@@ -307,7 +310,7 @@
             "url": "languages.csv"
         },
         {
-            "dc:extent": 5,
+            "dc:extent": 6,
             "tableSchema": {
                 "columns": [
                     {
@@ -347,7 +350,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
-            "dc:extent": 124,
+            "dc:extent": 134,
             "tableSchema": {
                 "columns": [
                     {
@@ -406,6 +409,12 @@
                     {
                         "datatype": "string",
                         "name": "Forms"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "separator": ";",
+                        "name": "Source"
                     }
                 ],
                 "foreignKeys": [
