@@ -1,22 +1,10 @@
-ID	Organization	Dataset	Source	Zenodo	Todo	ClicsCore	LexiCore	CogCore	ProtoCore	Version
-idssegmented	intercontinental-dictionary-series	idssegmented	IDS		check sources and make public, concepticon concept sets need re-run	x	x			
-tls	lexibank	tls	Nurse1975	10.5281/zenodo.5121819		x	x			v4.0
-abrahammonpa	lexibank	abrahammonpa	Abraham2018	10.5281/zenodo.5115885		x	x			v3.0
-allenbai	lexibank	allenbai	Allen2007	10.5281/zenodo.5115649		x	x			v4.0
-baf2	lexibank	baf2	Hantgan2022	10.5281/zenodo.5751226	concept list not in concepticon	x	x			v0.2
-bantubvd	lexibank	bantubvd	Greenhill2015a	10.5281/zenodo.5115982		x	x			v4.0
-beidasinitic	lexibank	beidasinitic	Cihui	10.5281/zenodo.5119295		x	x			v5.0.1
-bodtkhobwa	lexibank	bodtkhobwa	Bodt2022	10.5281/zenodo.5119330		x	x	x		v3.0.1
-bowernpny	lexibank	bowernpny	Bowern2012	10.5281/zenodo.5119341		x	x	x		v4.0.1
-castrosui	lexibank	castrosui	Castro2011	10.5281/zenodo.5121213		x	x			v3.0.1
-castroyi	lexibank	castroyi	Castro2010	10.5281/zenodo.5121214		x	x			v1.0.1
-castrozhuang	lexibank	castrozhuang	Castro2010a	10.5281/zenodo.5121215		x	x			v1.0.1
-chacolanguages	lexibank	chacolanguages	Brid2022	10.5281/zenodo.6660368	Carlos: open PR; concept list not in concepticon	x	x			v0.2
-chenhmongmien	lexibank	chenhmongmien	Chen2012	10.5281/zenodo.5118744		x	x			v3.0
-chindialectsurvey	lexibank	chindialectsurvey	Chin2019	10.5281/zenodo.5121280		x	x			v1.0
-clarkkimmun	lexibank	clarkkimmun	Clark2008	10.5281/zenodo.5121482	check for sounds and profile	x	x			v1.0
-crossandean	lexibank	crossandean	Blum2023	10.5281/zenodo.7491751		x	x	x		v1.1
-gravinachadic	lexibank	gravinachadic	Gravina2014		list not in concepticon	x	x	x		
-halenepal	lexibank	halenepal	Hale1973	10.5281/zenodo.5121540		x	x			v3.0
-hantganbangime	lexibank	hantganbangime	Hantgan2022b	10.5281/zenodo.5126441	could be superceded by baf2, which has more concepts	x	x			v1.0
-hubercolumbian	lexibank	hubercolumbian	Huber1992	10.5281/zenodo.5121219		x	x			v4.0.1
+ID	Organization	Dataset	Source	Zenodo	Todo	ClicsCore	LexiCore	CogCore	ProtoCore	Version	Comments	Status
+aaleykusunda	lexibank	aaleykusunda	Aaley2019	10.5281/zenodo.13149034			x			v2.1		done (FB)
+abrahammonpa	lexibank	abrahammonpa	Abraham2018	10.5281/zenodo.13149071		x	x			v3.1		done (FB)
+iecor	lexibank	iecor	Heggarty2024	10.5281/zenodo.13304537			x	x		v1.2		done (FB)
+abvdphilippines	lexibank	abvdphilippines	Greenhill2008	10.5281/zenodo.13304336			x	x		v1.0		done (FB)
+allenbai	lexibank	allenbai	Allen2007	10.5281/zenodo.13149106		x	x			v4.1		done (FB)
+backstromnorthernpakistan	lexibank	backstromnorthernpakistan	Backstrom1992	10.5281/zenodo.13149113			x			v1.1		done (FB)
+baf2	lexibank	baf2	Hantgan2022	10.5281/zenodo.14001726		x	x			v1.2		done (FB)
+blumpanotacana	pano-tacanan-history	blumpanotacana	Blum2024	10.5281/zenodo.13149588		x	x	x		v1.2		done (FB)
+bantubvd	lexibank	bantubvd	Greenhill2015a	10.5281/zenodo.13143126		x	x			v4.1		done (CR)
