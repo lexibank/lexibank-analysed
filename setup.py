@@ -13,7 +13,7 @@ setup(
     license='MIT',
     url='https://github.com/lexibank/lexibank-analysed',
     py_modules=['lexibank_lexibank_analysed'],
-    packages=find_packages(where='.'),
+    packages=['lexibank_analysed_commands'],
     include_package_data=True,
     zip_safe=False,
     entry_points={
@@ -25,7 +25,7 @@ setup(
         ],
     },
     platforms='any',
-    python_requires='>=3.6',
+    python_requires='>=3.8',
     install_requires=[
         'collabutils[googlesheets]',
         'cldfbench>=1.7.2',
@@ -63,10 +63,12 @@ setup(
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy'
     ],
