@@ -4,7 +4,7 @@
 
 If you use these data please cite
 - the original source
-  > List, Johann-Mattis; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph; Englisch, Johannes; and Russell D. Gray (2021): Lexibank: A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2000 language varieties [Dataset, Version 1.0]. Geneva: Zenodo.
+  > Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Gray, Russell D.; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank²: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -60,15 +60,16 @@ The core-sets are defined by using the following criteria:
 
 # Contributors
 
-Name               | GitHub user | Description | Role
----                | ---         | --- | ---
-Frederic Blum | @FredericBlum | maintainer | Author
-Robert Forkel | @xrotwang | maintainer | Author
-Simon J. Greenhill | @simongreenhill | maintainer | Author
-Christoph Rzymski | @chrzyki | maintainer | Author
-Johannes Englisch | @johenglisch | maintainer | Author
-Russell D. Gray | | maintainer | Author
-Johann-Mattis List | @LinguList  | maintainer | Author
+Name                | GitHub user      | Description  | Role
+---                 | ---              | ---          | ---
+Frederic Blum       | @FredericBlum    | maintainer   | Author
+Carlos Barrientos   | @MuffinLinwist   | maintainer   | Author
+Johannes Englisch   | @johenglisch     | maintainer   | Author
+Robert Forkel       | @xrotwang        | maintainer   | Author
+Russell D. Gray     |                  | maintainer   | Author
+Simon J. Greenhill  | @simongreenhill  | maintainer   | Author
+Christoph Rzymski   | @chrzyki         | maintainer   | Author
+Johann-Mattis List  | @LinguList       | maintainer   | Author
 
 
 

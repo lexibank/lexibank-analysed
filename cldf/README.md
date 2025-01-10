@@ -15,12 +15,12 @@
 
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | List, Johann-Mattis; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph; Englisch, Johannes; and Russell D. Gray (2021): Lexibank: A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2000 language varieties [Dataset, Version 1.0]. Geneva: Zenodo.
+[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Gray, Russell D.; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank²: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://lexibank.clld.org
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/lexibank/lexibank-study/
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/lexibank-study//tree/f849b00">lexibank/lexibank-study/ v1.0-57-gf849b00</a></li><li><a href="git@github.com:glottolog/glottolog/tree/v5.1">Glottolog v5.1</a></li><li><a href="git@github.com:concepticon/concepticon-data/tree/v3.3.0">Concepticon v3.3.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/lexibank-study//tree/451c2aa">lexibank/lexibank-study/ v1.0-61-g451c2aa</a></li><li><a href="git@github.com:glottolog/glottolog/tree/v5.1">Glottolog v5.1</a></li><li><a href="git@github.com:concepticon/concepticon-data/tree/v3.3.0">Concepticon v3.3.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.12.7</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | lexibank-analysed
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -116,12 +116,12 @@ Name/Property | Datatype | Description
 
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | List, Johann-Mattis; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph; Englisch, Johannes; and Russell D. Gray (2021): Lexibank: A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2000 language varieties [Dataset, Version 1.0]. Geneva: Zenodo.
+[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Gray, Russell D.; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank²: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF StructureDataset](http://cldf.clld.org/v1.0/terms.rdf#StructureDataset)
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://lexibank.clld.org
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/lexibank/lexibank-study/
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/lexibank-study//tree/f849b00">lexibank/lexibank-study/ v1.0-57-gf849b00</a></li><li><a href="git@github.com:glottolog/glottolog/tree/v5.1">Glottolog v5.1</a></li><li><a href="git@github.com:concepticon/concepticon-data/tree/v3.3.0">Concepticon v3.3.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/lexibank-study//tree/451c2aa">lexibank/lexibank-study/ v1.0-61-g451c2aa</a></li><li><a href="git@github.com:glottolog/glottolog/tree/v5.1">Glottolog v5.1</a></li><li><a href="git@github.com:concepticon/concepticon-data/tree/v3.3.0">Concepticon v3.3.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.12.7</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | lexibank-analysed
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -263,12 +263,12 @@ Name/Property | Datatype | Description
 
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | List, Johann-Mattis; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph; Englisch, Johannes; and Russell D. Gray (2021): Lexibank: A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2000 language varieties [Dataset, Version 1.0]. Geneva: Zenodo.
+[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Gray, Russell D.; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank²: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF StructureDataset](http://cldf.clld.org/v1.0/terms.rdf#StructureDataset)
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://lexibank.clld.org
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/lexibank/lexibank-study/
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/lexibank-study//tree/f849b00">lexibank/lexibank-study/ v1.0-57-gf849b00</a></li><li><a href="git@github.com:glottolog/glottolog/tree/v5.1">Glottolog v5.1</a></li><li><a href="git@github.com:concepticon/concepticon-data/tree/v3.3.0">Concepticon v3.3.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/lexibank-study//tree/451c2aa">lexibank/lexibank-study/ v1.0-61-g451c2aa</a></li><li><a href="git@github.com:glottolog/glottolog/tree/v5.1">Glottolog v5.1</a></li><li><a href="git@github.com:concepticon/concepticon-data/tree/v3.3.0">Concepticon v3.3.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.12.7</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | lexibank-analysed
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -410,12 +410,12 @@ Name/Property | Datatype | Description
 
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | List, Johann-Mattis; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph; Englisch, Johannes; and Russell D. Gray (2021): Lexibank: A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2000 language varieties [Dataset, Version 1.0]. Geneva: Zenodo.
+[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Gray, Russell D.; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank²: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF StructureDataset](http://cldf.clld.org/v1.0/terms.rdf#StructureDataset)
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://lexibank.clld.org
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/lexibank/lexibank-study/
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/lexibank-study//tree/f849b00">lexibank/lexibank-study/ v1.0-57-gf849b00</a></li><li><a href="git@github.com:glottolog/glottolog/tree/v5.1">Glottolog v5.1</a></li><li><a href="git@github.com:concepticon/concepticon-data/tree/v3.3.0">Concepticon v3.3.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/lexibank-study//tree/451c2aa">lexibank/lexibank-study/ v1.0-61-g451c2aa</a></li><li><a href="git@github.com:glottolog/glottolog/tree/v5.1">Glottolog v5.1</a></li><li><a href="git@github.com:concepticon/concepticon-data/tree/v3.3.0">Concepticon v3.3.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.12.7</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | lexibank-analysed
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
