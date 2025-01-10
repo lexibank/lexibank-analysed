@@ -25,8 +25,8 @@ header = ["Cognate", "Concept", "Family", "Frequency"]
 print(tabulate(
     table[:10],
     tablefmt="pipe",
-    headers=header)
-    )
+    headers=header,
+))
 
 with open('cognateset_diversity.tsv', 'w', encoding='utf8', newline='') as f:
     writer = csv.writer(f, delimiter='\t')
