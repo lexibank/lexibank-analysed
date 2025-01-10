@@ -168,7 +168,7 @@ class Dataset(BaseDataset):
             rec_new = record.from_concept_doi(record.concept_doi)
             if rec_new.doi != record.doi:
                 record = rec_new
-                args.log.warn(f"DOI for datasets {row["ID"]} is not the latest version!")
+                args.log.warn(f'DOI for datasets {row["ID"]} is not the latest version!')
             record.download(dest)
 
             # load zenodo info to make a new bibtex and doi
