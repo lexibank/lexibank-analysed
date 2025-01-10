@@ -32,18 +32,21 @@ jobs:
         pytest --cldf-metadata=cldf/lexicon-metadata.json test.py
   validate-phonemes:
     needs: build
+    runs-on: ubuntu-latest
     steps:
     - name: Validate phonemes
       run: |
         pytest --cldf-metadata=cldf/phonemes-metadata.json test.py
   validate-phonology:
     needs: build
+    runs-on: ubuntu-latest
     steps:
     - name: Validate phonology
       run: |
         pytest --cldf-metadata=cldf/phonology-metadata.json test.py
   validate-wordlist:
     needs: build
+    runs-on: ubuntu-latest
     steps:
     - name: Validate wordlist
       run: |
