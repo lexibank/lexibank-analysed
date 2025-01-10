@@ -379,7 +379,7 @@ class Dataset(BaseDataset):
                     args.log.warn(f"{language.name} / {language.dataset} / {language.glottocode}")
                     return False
             else:
-                langs['Incollections'] = langs['Incollections'] + [collection]
+                langs['Incollections'].append(collection)
             if language.id not in visited:
                 for cid in ["ClicsCore", "LexiCore", "CogCore", "ProtoCore"]:
                     try:
@@ -596,7 +596,7 @@ class Dataset(BaseDataset):
             args.log.info("write information on selected languages")
             for lid, language in languages.items():
                 if lid in best_languages:
-                    languages[lid]["Incollections"] += ["Selexion"]
+                    languages[lid]["Incollections"].append("Selexion")
                     collstats["Selexion"]["Glottocodes"].add(best_languages[lid].glottocode)
                     collstats["Selexion"]["Varieties"] += 1
                     collstats["Selexion"]["Forms"] += len(best_languages[lid].forms)
