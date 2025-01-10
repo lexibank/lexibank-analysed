@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -24,9 +23,28 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pytest-cldf
-    - name: Test with pytest
+  validate-lexicon:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Validate lexicon
       run: |
         pytest --cldf-metadata=cldf/lexicon-metadata.json test.py
+  validate-phonemes:
+    needs: build
+    steps:
+    - name: Validate phonemes
+      run: |
         pytest --cldf-metadata=cldf/phonemes-metadata.json test.py
+  validate-phonology:
+    needs: build
+    steps:
+    - name: Validate phonology
+      run: |
         pytest --cldf-metadata=cldf/phonology-metadata.json test.py
+  validate-wordlist:
+    needs: build
+    steps:
+    - name: Validate wordlist
+      run: |
         pytest --cldf-metadata=cldf/wordlist-metadata.json test.py
