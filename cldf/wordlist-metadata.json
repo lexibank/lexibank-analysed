@@ -19,7 +19,7 @@
         {
             "rdf:about": "https://github.com/lexibank/lexibank-study/",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-61-g451c2aa",
+            "dc:created": "v1.0-77-g3a4dc05",
             "dc:title": "Repository"
         },
         {

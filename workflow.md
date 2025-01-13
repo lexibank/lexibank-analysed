@@ -1,13 +1,21 @@
 # Using the Lexibank Data Repository
 
-Lexibank is a collection of lexical datasets provided in [CLDF](https://cldf.clld.org) formats. These CLDF datasets were compiled with the help of the `pylexibank` package, which is an extension for the [CLDFBench](https://github.com/cldf/cldfbench) package for handling CLDF datasets. Since data in the lexibank collection is maximally integrated with cross-linguistic resources that have been compiled during the past years, it is possible to make active use of the data to compute many features (lexical and phonological) automatically. In the following, we will describe the major workflow.
+Lexibank is a collection of lexical datasets provided in
+[CLDF](https://cldf.clld.org) formats. These CLDF datasets were compiled with
+the help of the `pylexibank` package, which is an extension for the
+[CLDFBench](https://github.com/cldf/cldfbench) package for handling CLDF
+datasets. Since data in the lexibank collection is maximally integrated with
+cross-linguistic resources that have been compiled during the past years, it is
+possible to make active use of the data to compute many features (lexical and
+phonological) automatically. In the following, we will describe the major
+workflow.
 
 ## 1 Lexibank Collection
 
 The lexibank collection consists of mainly two types of datasets:
 
 1. CLDF datasets linked to Concepticon and Glottolog with consistent lexeme forms which have a 
-   sufficient size in terms of concepts covered. This collection is called `ClicsCore` collection, since 
+   sufficient size in terms of concepts covered. This collection is called the `ClicsCore` collection, since 
    it fulfills the criteria to be included in the [CLICS](https://clics.clld.org) database. The collection 
    can be used to compute various lexical features for individual language varieties.
 2. CLDF datasets linked to Concepticon and Glottolog with lexeme forms which are transcribed in the BIPA 
@@ -17,9 +25,7 @@ The lexibank collection consists of mainly two types of datasets:
 
 The decision about which datasets are assigned to which collection is currently carried out by the board of lexibank editors, who estimate how well each of the datasets qualifies for the inclusion in either or both collections. The decisions are available in the form of a spreadsheet, shared along with this repository (see [etc/lexibank.tsv](etc/lexibank.tsv)).
 
-The authoritative spreadsheet itself is curated on the [nextcloud server of MPI-EVA](https://share.eva.mpg.de/index.php/s/dqmqQn567P4PKie). 
-For now, however, we experience problems with the nextcloud server and therefore edit the spreadsheet on 
-[GoogleSheets](https://docs.google.com/spreadsheets/d/1x8c_fuWkUYpDKedn2mNkKFxpwtHCFAOBUeRT8Mihy3M/edit?usp=sharing). 
+Upon each new release of Lexibank, the spreadsheet is updated, individual datasets in CLDF are shared on Zenodo, and published with a dedicated version also on GitHub, in order to document their status clearly. 
 
 
 ## 2 Lexibank Workflow
