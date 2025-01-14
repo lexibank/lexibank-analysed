@@ -33,7 +33,7 @@ with open("data.txt", encoding='utf8') as f:
                     concept,
                     mappings[0][0],
                     mappings[0][1]
-                    ]]
+                ]]
 
 # cursor.execute("insert into LanguageTable(cldf_id) values ('proto');")
 # for i, row in enumerate(data):
@@ -93,8 +93,8 @@ elif OUT == 'extended.sql':
 print(tabulate(
     table[:10],
     tablefmt="pipe",
-    headers=header)
-    )
+    headers=header,
+))
 
 with open('matches.tsv', 'w', encoding='utf8', newline='') as f:
     writer = csv.writer(f, delimiter='\t')

@@ -1,10 +1,12 @@
 # Lexibank Analysed
 
+[![CLDF validation](https://github.com/lexibank/lexibank-study//workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/lexibank-study//actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
 - the original source
-  > List, Johann-Mattis; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph; Englisch, Johannes; and Russell D. Gray (2021): Lexibank: A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2000 language varieties [Dataset, Version 1.0]. Geneva: Zenodo.
+  > Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Gray, Russell D.; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank²: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -27,6 +29,7 @@ The core-sets are defined by using the following criteria:
 ## Statistics
 
 
+[![CLDF validation](https://github.com/lexibank/lexibank-study//workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/lexibank-study//actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")

@@ -164,7 +164,7 @@ class Dataset(BaseDataset):
             rec_new = record.from_concept_doi(record.concept_doi)
             if rec_new.doi != record.doi:
                 record = rec_new
-                args.log.warn(f"DOI for datasets {row['ID']} is not the latest version!")
+                args.log.warn(f'DOI for datasets {row["ID"]} is not the latest version!')
             record.download(dest)
 
             # load zenodo info to make a new bibtex and doi
@@ -183,12 +183,13 @@ class Dataset(BaseDataset):
                 meta = json.load(f)
             description = meta["citation"]
             # create bibtex and write to new file
-            bib = dict(author=" and ".join(record.creators),
-                       title=record.title,
-                       publisher="Zenodo",
-                       year=record.year,
-                       address="Geneva",
-                       doi=record.doi)
+            bib = dict(
+                author=" and ".join(record.creators),
+                title=record.title,
+                publisher="Zenodo",
+                year=record.year,
+                address="Geneva",
+                doi=record.doi)
             if editors:
                 bib["editor"] = " and ".join(editors)
             if description:
@@ -272,8 +273,8 @@ class Dataset(BaseDataset):
                 "name": 'Source',
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
                 "datatype": "string",
-                "separator": ";"
-                },
+                "separator": ";",
+            },
         )
         writer.cldf.add_foreign_key('ContributionTable', 'Collection_IDs', 'collections.csv', 'ID')
 
@@ -374,7 +375,7 @@ class Dataset(BaseDataset):
                     args.log.warn(f"{language.name} / {language.dataset} / {language.glottocode}")
                     return False
             else:
-                langs['Incollections'] = langs['Incollections'] + [collection]
+                langs['Incollections'].append(collection)
             if language.id not in visited:
                 for cid in ["ClicsCore", "LexiCore", "CogCore", "ProtoCore"]:
                     try:
@@ -478,7 +479,7 @@ class Dataset(BaseDataset):
                                 SCA_Sound_Classes="".join(
                                     clts.soundclass("sca")(form.sounds)),
                                 Source=self.dataset_meta[language.dataset]["ID"],
-                                )
+                            )
                             visited_concepts.add(cgls)
                         elif form_check in duplicates:
                             excluded.append(form)

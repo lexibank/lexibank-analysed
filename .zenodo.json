@@ -26,7 +26,7 @@
             "name": "Johann-Mattis List"
         }
     ],
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>List, Johann-Mattis; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph; Englisch, Johannes; and Russell D. Gray (2021): Lexibank: A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2000 language varieties [Dataset, Version 1.0]. Geneva: Zenodo.</p>\n</blockquote>",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Gray, Russell D.; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank\u00b2: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>\n</blockquote>",
     "access_right": "open",
     "keywords": [
         "cldf:Wordlist",

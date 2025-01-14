@@ -25,8 +25,8 @@ header = ["Count", "Language", "Glottocode", "Longitude", "Latitude", "Family"]
 print(tabulate(
     table[:10],
     tablefmt="pipe",
-    headers=header)
-    )
+    headers=header,
+))
 
 with open('lb_1.tsv', 'w', encoding='utf8', newline='') as f:
     writer = csv.writer(f, delimiter='\t')
