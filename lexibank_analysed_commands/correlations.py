@@ -33,7 +33,7 @@ def run(args):
     clts = CLTS(lba.raw_dir / CLTS_2_3[1])
     clts2phoible = clts.transcriptiondata_dict["phoible"]
 
-    # WALS Online v2020.1
+    # WALS Online v2020.4
     wals = get_cldf_dataset('10.5281/zenodo.13950591', lba.raw_dir / 'wals')
     # PHOIBLE 2.0.1
     phoible = get_cldf_dataset('10.5281/zenodo.2677911', lba.raw_dir / 'phoible')
