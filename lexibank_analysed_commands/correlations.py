@@ -33,8 +33,8 @@ def run(args):
     clts = CLTS(lba.raw_dir / CLTS_2_3[1])
     clts2phoible = clts.transcriptiondata_dict["phoible"]
 
-    # WALS Online v2020.1
-    wals = get_cldf_dataset('10.5281/zenodo.4683137', lba.raw_dir / 'wals')
+    # WALS Online v2020.4
+    wals = get_cldf_dataset('10.5281/zenodo.13950591', lba.raw_dir / 'wals')
     # PHOIBLE 2.0.1
     phoible = get_cldf_dataset('10.5281/zenodo.2677911', lba.raw_dir / 'phoible')
 
@@ -110,8 +110,8 @@ def run(args):
             p3, r3 = spearmanr([x[1] for x in comparisons[d1]], [x[2] for x in comparisons[d1]])
             table.append([
                 d1,
-                "{0:.2f} / {1:.2f}".format(p1, r1),
-                "{0:.2f} / {1:.2f}".format(p2, r2),
-                "{0:.2f} / {1:.2f}".format(p3, r3),
+                f"{p1} / {r1}",
+                f"{p2} / {r2}",
+                f"{p3} / {r3}",
                 len(comparisons[d1])
             ])

@@ -6,8 +6,6 @@ import collections
 import shutil
 import json
 import codecs
-
-
 import nameparser
 
 import pycldf
@@ -21,9 +19,8 @@ from cltoolkit.features import FEATURES
 from cldfzenodo import API as cldfzenodoapi
 from pyclts import CLTS
 from tqdm import tqdm
+from lingpy.sequence.sound_classes import prosodic_string
 import attr
-
-import lingpy
 from clldutils.misc import slug
 
 COLLECTIONS = {
@@ -144,8 +141,7 @@ class Dataset(BaseDataset):
     @property
     def dataset_meta(self):
         res = collections.OrderedDict()
-        for row in self.etc_dir.read_csv(LB_VERSION, delimiter='\t',
-                                         dicts=True):
+        for row in self.etc_dir.read_csv(LB_VERSION, delimiter='\t', dicts=True):
             # # uncomment below when having added all data to zenodo
             # if not row['Zenodo'].strip():
             #     continue
@@ -174,8 +170,7 @@ class Dataset(BaseDataset):
             # load zenodo info to make a new bibtex and doi
             with open(self.raw_dir / dataset / ".zenodo.json", encoding='utf8') as f:
                 meta = json.load(f)
-            editors = [c["name"] for c in meta["contributors"] if
-                       c["type"] == "Editor"]
+            editors = [c["name"] for c in meta["contributors"] if c["type"] == "Editor"]
             for i, editor in enumerate(editors):
                 name = nameparser.HumanName(editor)
                 first = name.first
@@ -205,7 +200,7 @@ class Dataset(BaseDataset):
             # check if source is in sources
             for src_key in row["Source"].split(" "):
                 if src_key not in sources:
-                    args.log.warn("source with key '{0}' missing in data".format(src_key))
+                    args.log.warn(f"source with key '{src_key}' missing in data")
 
         with codecs.open(self.raw_dir / "sources.bib", "w", "utf-8") as f:
             for source in sources:
@@ -238,7 +233,7 @@ class Dataset(BaseDataset):
                 else:
                     yield _loaded[dataset_id][0]
             except FileNotFoundError:
-                print("Missing Dataset: {0}".format(dataset_id))
+                print(f"Missing Dataset: {dataset_id}")
 
     def _schema(self, writer, with_stats=False, collstats=None):
         writer.cldf.add_component(
@@ -352,9 +347,10 @@ class Dataset(BaseDataset):
                             Name=v,
                         ))
 
-        def _add_language(
-                writer, language, features, attr_features,
-                collection='', visited=set()):
+        def _add_language(writer, language, features, attr_features, collection='',
+                          visited=None):
+            if visited is None:
+                visited = set()
             langs = languages.get(language.id)
             if not langs:
                 try:
@@ -420,10 +416,10 @@ class Dataset(BaseDataset):
                 ))
             return True
 
-        def _add_languages(
-            writer, languages, condition, features, attr_features,
-            collection='', visited=set(),
-        ):
+        def _add_languages(writer, languages, condition, features, attr_features, collection='',
+                           visited=None):
+            if visited is None:
+                visited = set()
             for language in tqdm(languages, desc='computing features'):
                 if not language.name or not language.name.strip() or language.name == 'None':
                     args.log.warning(f'{language.dataset}: {language.id}: {language.name}')
@@ -461,9 +457,7 @@ class Dataset(BaseDataset):
                         best_languages[language.id] = language
                     duplicates = set()
                     for form in language.forms_with_sounds:
-                        form_check = "{0}-{1}".format(
-                            form.concept.concepticon_id if form.concept else "",
-                            str(form.sounds))
+                        form_check = f"{form.concept.concepticon_id if form.concept else ''}-{str(form.sounds)}"
                         if form.concept and \
                                 form.concept.concepticon_id and \
                                 form.concept.concepticon_id in cid2gls and \
@@ -479,8 +473,7 @@ class Dataset(BaseDataset):
                                 Segments=form.sounds,
                                 CV_Template="".join(clts.soundclass("cv")(form.sounds)),
                                 Prosodic_String="".join(
-                                    lingpy.sequence.sound_classes.prosodic_string(
-                                        form.sounds, _output="CcV")),
+                                    prosodic_string(form.sounds, _output="CcV")),
                                 Dolgo_Sound_Classes="".join(
                                     clts.soundclass("dolgo")(form.sounds)),
                                 SCA_Sound_Classes="".join(
@@ -490,8 +483,8 @@ class Dataset(BaseDataset):
                             visited_concepts.add(cgls)
                         elif form_check in duplicates:
                             excluded.append(form)
-            args.log.info("excluded {0} duplicates".format(len(excluded)))
-            with open(self.raw_dir / "duplicates.md", "w") as f:
+            args.log.info(f"excluded {len(excluded)} duplicates")
+            with open(self.raw_dir / "duplicates.md", "w", encoding='utf8') as f:
                 f.write("# Duplicates\n\n")
                 f.write("ID | Language | Concept | Form | Sounds \n")
                 f.write("--- | --- | --- | --- | ---\n")
@@ -596,7 +589,7 @@ class Dataset(BaseDataset):
             args.log.info("write information on selected languages")
             for lid, language in languages.items():
                 if lid in best_languages:
-                    languages[lid]["Incollections"].append("Selexion")
+                    language["Incollections"] += ["Selexion"]
                     collstats["Selexion"]["Glottocodes"].add(best_languages[lid].glottocode)
                     collstats["Selexion"]["Varieties"] += 1
                     collstats["Selexion"]["Forms"] += len(best_languages[lid].forms)
