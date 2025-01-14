@@ -6,21 +6,10 @@ Lexibank is a collection of lexical datasets provided in [CLDF](https://cldf.cll
 
 The lexibank collection consists of mainly two types of datasets:
 
-1. CLDF datasets linked to Concepticon and Glottolog with consistent lexeme forms which have a 
-   sufficient size in terms of concepts covered. This collection is called `ClicsCore` collection, since 
-   it fulfills the criteria to be included in the [CLICS](https://clics.clld.org) database. The collection 
-   can be used to compute various lexical features for individual language varieties.
-2. CLDF datasets linked to Concepticon and Glottolog with lexeme forms which are transcribed in the BIPA 
-   transcription system proposed by the [CLTS](https://clts.clld.org) project. This collection, which may
-   overlap with the `ClicsCore` collection, is called `LexiCore` and can be used to compute various phonological 
-   features for language varieties.
+1. CLDF datasets linked to Concepticon and Glottolog with consistent lexeme forms which have a sufficient size in terms of concepts covered. This collection is called `ClicsCore` collection, since it fulfills the criteria to be included in the [CLICS](https://clics.clld.org) database. The collection can be used to compute various lexical features for individual language varieties.
+2. CLDF datasets linked to Concepticon and Glottolog with lexeme forms which are transcribed in the BIPA  transcription system proposed by the [CLTS](https://clts.clld.org) project. This c∏opeollection, which may  overlap with the `ClicsCore` collection, is called `LexiCore` and can be used to compute various phonological   features for language varieties.
 
 The decision about which datasets are assigned to which collection is currently carried out by the board of lexibank editors, who estimate how well each of the datasets qualifies for the inclusion in either or both collections. The decisions are available in the form of a spreadsheet, shared along with this repository (see [etc/lexibank.tsv](etc/lexibank.tsv)).
-
-The authoritative spreadsheet itself is curated on the [nextcloud server of MPI-EVA](https://share.eva.mpg.de/index.php/s/dqmqQn567P4PKie). 
-For now, however, we experience problems with the nextcloud server and therefore edit the spreadsheet on 
-[GoogleSheets](https://docs.google.com/spreadsheets/d/1x8c_fuWkUYpDKedn2mNkKFxpwtHCFAOBUeRT8Mihy3M/edit?usp=sharing). 
-
 
 ## 2 Lexibank Workflow
 
@@ -31,39 +20,38 @@ This repository contains a `cldfbench` package, bundling
   - to compute phonological and lexical features from this data and
 - The computed structural data in three CLDF StructureDatasets.
 
-The workflow consists of a sequence of calls to `cldfbench` subcommands,
-which in turn call the code described above.
-
+The workflow consists of a sequence of calls to `cldfbench` subcommands, which in turn call the code described above.
 
 1. Install the package (including Dependencies)
+
+```shell
+git clone https://github.com/lexibank/lexibank-analysed
+cd lexibank-analysed
+pip install -e .
+```
+
+Install cltoolkit
+
+```shell
+git clone https://github.com/cldf/cltoolkit.git
+cd cltoolkit
+python setup.py install
+```
+
+Clone the repositories from:
+   * [Glottolog](https://github.com/glottolog/glottolog);
+   * [Concepticon](https://github.com/concepticon/concepticon-data);
+   * [CLTS](https://github.com/cldf-clts/clts)
+
+1. Download the data collections
+
+   The data collections will be downloaded by reading the most recent selection of lexibank datasets from the file `src/lexibank/data/lexibank.tsv` and then downloading the relevant datasets to a folder which you specify with the kewyord `destination`. We will call the folder `datasets` in the following.
+
    ```shell
-   $ git clone https://github.com/lexibank/lexibank-analysed
-   $ cd lexibank-analysed
-   $ pip install -e .
+   cldfbench download lexibank_lexibank_analysed.py
    ```
 
-   Install cltoolkit
-   ```shell
-   $ git clone https://github.com/cldf/cltoolkit.git
-   $ cd cltoolkit
-   $ python setup.py install
-   ```
-
-   Clone the repositories from:
-     * [Glottolog](https://github.com/glottolog/glottolog);
-     * [Concepticon](https://github.com/concepticon/concepticon-data);
-     * [CLTS](https://github.com/cldf-clts/clts)
-
-3. Download the data collections
-
-   The data collections will be downloaded by reading the most recent selection of 
-   lexibank datasets from the file `src/lexibank/data/lexibank.tsv` and then downloading the relevant datasets to a folder which you specify with the kewyord `destination`. We will call the folder `datasets` in the following.
-
-   ```shell
-   $ cldfbench download lexibank_lexibank_analysed.py
-   ```
-
-4. Compute phonological and lexical features and phoneme inventories
+2. Compute phonological and lexical features and phoneme inventories
 
    The analysis results of `lexibank-analysed` are stored in three CLDF StructureDatasets.
 
@@ -73,22 +61,25 @@ which in turn call the code described above.
    - Phoneme inventories including frequencies are derived.
 
    These datasets are created running
+
    ```shell
-   $ cldfbench lexibank.makecldf lexibank_lexibank_analysed.py --glottolog path_to_glottolog --concepticon path_to_concepticon --clts path_to_clts
+   cldfbench lexibank.makecldf lexibank_lexibank_analysed.py --glottolog path_to_glottolog --concepticon path_to_concepticon --clts path_to_clts
    ```
+
    with the paths to Glottolog (`path_to_glottolog`), Concepticon (`path_to_concepticon`) and CLTS (`path_to_clts`) pointing to the corresponding repositories from Step 1.
 
-5. Make sure valid CLDF data has been created:
+3. Make sure valid CLDF data has been created:
+
    ```shell
    pytest
    ```
-
 
 ## 3 Data exploration
 
 ### Metadata
 
 In addition to feature data, the CLDF data also contains
+
 - provenance information, linking each doculect to the dataset from which it was extracted
 - summary statistics about the collections into which we bundle the datasets.
 
@@ -104,27 +95,30 @@ CogCore	738	1670	192353
 ProtoCore	18	951	8750
 Lexibank	2086	3110	1830056
 ```
+
 or list how many source datasets are aggregated in each of these collections:
+
 ```shell
-$ csvgrep -c Collection_IDs -m Lexi cldf/contributions.csv | csvstat --count
+csvgrep -c Collection_IDs -m Lexi cldf/contributions.csv | csvstat --count
 Row count: 92
 ```
 
 `contributions.csv` also lists numbers of doculects and senses. Datasets with a low ratio between
 `Glottocodes` and `Doculects`, i.e. with many doculects mapped to the same glottocode, are typical
 dialectal collections. We can check this ratio running
+
 ```shell
-$ csvsql --query "select id, name, cast(glottocodes as float) / cast(doculects as float) as ratio from contributions order by ratio limit 1" \
+csvsql --query "select id, name, cast(glottocodes as float) / cast(doculects as float) as ratio from contributions order by ratio limit 1" \
 cldf/contributions.csv 
 ID,Name,ratio
 cals,"CLDF dataset derived from Mennecier et al.'s ""Central Asian Language Survey"" from 2016",0.06818181818181818
 ```
 
-
 ### Feature data
 
 To check for available features, you can inspect the CLDF ParameterTable of the respective
 CLDF datasets:
+
 ```shell
 $ csvcut -c ID,Name cldf/phonology-features.csv | column -n -s"," -t
 ID                         Name
@@ -203,6 +197,7 @@ HearAndSmell                      hear and smell colexified or not
 ```
 
 You can also easily inspect the data for outliers:
+
 ```shell
 $ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvstat -c Value
   4. "Value"

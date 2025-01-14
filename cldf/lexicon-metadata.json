@@ -19,19 +19,19 @@
         {
             "rdf:about": "https://github.com/lexibank/lexibank-analysed",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-38-gb464e30",
+            "dc:created": "v1.0-58-gd2ff5f9",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.0",
+            "dc:created": "v5.1",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.2.0",
+            "dc:created": "v3.3.0",
             "dc:title": "Concepticon"
         },
         {
@@ -44,7 +44,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.12.7"
+            "dc:description": "3.9.6"
         },
         {
             "dc:title": "python-packages",
@@ -56,7 +56,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 54648,
+            "dc:extent": 106887,
             "tableSchema": {
                 "columns": [
                     {
@@ -254,7 +254,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1656,
+            "dc:extent": 3239,
             "tableSchema": {
                 "columns": [
                     {
@@ -337,6 +337,9 @@
                         "name": "Concepts"
                     },
                     {
+                        "dc:description": "Subselections of Lexibank",
+                        "datatype": "string",
+                        "separator": " ",
                         "name": "Incollections"
                     },
                     {
@@ -469,6 +472,12 @@
                     {
                         "datatype": "string",
                         "name": "Forms"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "separator": ";",
+                        "name": "Source"
                     }
                 ],
                 "foreignKeys": [

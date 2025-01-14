@@ -13,7 +13,7 @@ from cltoolkit.features import FEATURES
 from cldfzenodo import Record
 from clldutils.clilib import Table, add_format
 
-from lexibank_lexibank_analysed import Dataset as LB, CLTS_2_1
+from lexibank_lexibank_analysed import Dataset as LB, CLTS_2_3
 
 
 def register(parser):
@@ -30,11 +30,11 @@ def run(args):
     lba = LB()
 
     args.log.info('Loading data ...')
-    clts = CLTS(lba.raw_dir / CLTS_2_1[1])
+    clts = CLTS(lba.raw_dir / CLTS_2_3[1])
     clts2phoible = clts.transcriptiondata_dict["phoible"]
 
     # WALS Online v2020.1
-    wals = get_cldf_dataset('10.5281/zenodo.4683137', lba.raw_dir / 'wals')
+    wals = get_cldf_dataset('10.5281/zenodo.13950591', lba.raw_dir / 'wals')
     # PHOIBLE 2.0.1
     phoible = get_cldf_dataset('10.5281/zenodo.2677911', lba.raw_dir / 'phoible')
 
@@ -110,8 +110,8 @@ def run(args):
             p3, r3 = spearmanr([x[1] for x in comparisons[d1]], [x[2] for x in comparisons[d1]])
             table.append([
                 d1,
-                "{0:.2f} / {1:.2f}".format(p1, r1),
-                "{0:.2f} / {1:.2f}".format(p2, r2),
-                "{0:.2f} / {1:.2f}".format(p3, r3),
+                f"{p1} / {r1}",
+                f"{p2} / {r2}",
+                f"{p3} / {r3}",
                 len(comparisons[d1])
             ])
