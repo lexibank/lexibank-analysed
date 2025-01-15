@@ -19,7 +19,7 @@
         {
             "rdf:about": "https://github.com/lexibank/lexibank-analysed",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-82-gec1ab63",
+            "dc:created": "v1.0-87-g1d713d7",
             "dc:title": "Repository"
         },
         {
@@ -342,11 +342,27 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Incollections"
+                        "name": "Dataset"
                     },
                     {
                         "datatype": "string",
-                        "name": "Dataset"
+                        "name": "LexiCore"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ClicsCore"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CogCore"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ProtoCore"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Selexion"
                     }
                 ],
                 "primaryKey": [

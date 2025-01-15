@@ -1,5 +1,4 @@
 import pathlib
-import csv
 import zipfile
 import itertools
 import collections
@@ -7,21 +6,21 @@ import shutil
 import json
 import codecs
 import nameparser
+import attr
 
 import pycldf
-from cldfbench import CLDFSpec
+from tqdm import tqdm
+import pylexibank.dataset
+from pyclts import CLTS
 from pylexibank import Lexeme, Concept, Language
 from pylexibank.cldf import LexibankWriter
 from pylexibank import Dataset as BaseDataset
-import pylexibank.dataset
+from cldfbench import CLDFSpec
+from cldfzenodo import API as cldfzenodoapi
 from cltoolkit import Wordlist
 from cltoolkit.features import FEATURES
-from cldfzenodo import API as cldfzenodoapi
-from pyclts import CLTS
-from tqdm import tqdm
-from lingpy.sequence.sound_classes import prosodic_string
-import attr
 from clldutils.misc import slug
+from lingpy.sequence.sound_classes import prosodic_string
 
 COLLECTIONS = {
     'LexiCore': (
@@ -45,8 +44,8 @@ COLLECTIONS = {
         'Metacollection of wordlists belonging to either of the datasets',
         'all wordlists in the Lexibank collection'),
     "Selexion": (
-        "Selection of one language per Glottocode, ranked by size of "
-        "the lexicon",
+        "Selection of one language per Glottocode, ranked by number of "
+        "unique concepts mapped to Concepticon",
         "selected wordlists in Lexibank"),
 }
 
@@ -88,8 +87,12 @@ class CustomLanguage(Language):
     Forms = attr.ib(default=None)
     FormsWithSounds = attr.ib(default=None)
     Concepts = attr.ib(default=None)
-    Incollections = attr.ib(default=None)
     Dataset = attr.ib(default=None)
+    LexiCore = attr.ib(default=None)
+    ClicsCore = attr.ib(default=None)
+    CogCore = attr.ib(default=None)
+    ProtoCore = attr.ib(default=None)
+    Selexion = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
@@ -142,9 +145,8 @@ class Dataset(BaseDataset):
     def dataset_meta(self):
         res = collections.OrderedDict()
         for row in self.etc_dir.read_csv(LB_VERSION, delimiter='\t', dicts=True):
-            # # uncomment below when having added all data to zenodo
-            # if not row['Zenodo'].strip():
-            #     continue
+            if not row['Zenodo'].strip():
+                continue
             row['collections'] = {key for key in COLLECTIONS if row.get(key, '').strip() == 'x'}
             if any(coll in row['collections'] for coll in ['LexiCore', 'ClicsCore']):
                 res[row['Dataset']] = row
@@ -247,6 +249,11 @@ class Dataset(BaseDataset):
             {'name': 'Concepts', 'datatype': 'integer', 'dc:description': 'Number of concepts'},
             {'name': 'Incollections', 'datatype': "string", "separator": " ",
              "dc:description": "Subselections of Lexibank"},
+            'LexiCore',
+            'ClicsCore',
+            'CogCore',
+            'ProtoCore',
+            'Selexion',
             'Subgroup',
             'Family',
             'Family_in_Data')
@@ -322,15 +329,6 @@ class Dataset(BaseDataset):
             )
         languages = collections.OrderedDict()
 
-        # Create blacklist
-        ignore_docs = collections.defaultdict()
-        # Open the CSV file and read the data
-        with open('etc/preferred_sources.tsv', mode='r', encoding='utf8') as file:
-            reader = csv.reader(file, delimiter='\t')
-            next(reader, None)
-            for row in reader:
-                ignore_docs[row[0]] = row[1]
-
         def _add_features(writer, features):
             for feature in features:
                 writer.objects['ParameterTable'].append(dict(
@@ -370,12 +368,15 @@ class Dataset(BaseDataset):
                         "FormsWithSounds": len(language.forms_with_sounds or []),
                         "Concepts": len(language.concepts),
                         "Incollections": [collection],
+                        "LexiCore": 1 if self.dataset_meta[language.dataset]['LexiCore'] == 'x' and CONDITIONS['LexiCore'](language) else 0,
+                        "ClicsCore": 1 if self.dataset_meta[language.dataset]['ClicsCore'] == 'x' and CONDITIONS['ClicsCore'](language) else 0,
+                        "CogCore": 1 if self.dataset_meta[language.dataset]['CogCore'] == 'x' and CONDITIONS['CogCore'](language) else 0,
+                        "ProtoCore": 1 if self.dataset_meta[language.dataset]['ProtoCore'] == 'x' and CONDITIONS['ProtoCore'](language) else 0,
                     }
                 except KeyError:
                     args.log.warn(f"{language.name} / {language.dataset} / {language.glottocode}")
                     return False
-            else:
-                langs['Incollections'].append(collection)
+
             if language.id not in visited:
                 for cid in ["ClicsCore", "LexiCore", "CogCore", "ProtoCore"]:
                     try:
@@ -385,7 +386,7 @@ class Dataset(BaseDataset):
                             collstats[cid]["Forms"] += len(language.forms)
                             collstats[cid]["Concepts"].update(
                                 concept.id for concept in language.concepts)
-                    except:
+                    except KeyError:
                         print(f"problems with {language.dataset}")
                 if CONDITIONS["Lexibank"](language):
                     collstats["Lexibank"]["Glottocodes"].add(language.glottocode)
@@ -440,7 +441,7 @@ class Dataset(BaseDataset):
             best_vars = collections.defaultdict(dict)
             var_count = 0
             for lng in wl.languages:
-                if CONDITIONS["LexiCore"](lng) and lng.latitude and lng.glottocode and lng.glottocode in languoids:
+                if CONDITIONS["LexiCore"](lng) and lng.latitude and lng.glottocode in languoids:
                     fws = len(lng.forms_with_sounds)
                     var_count += 1
                     # add form count for sorting
@@ -590,6 +591,7 @@ class Dataset(BaseDataset):
             for lid, language in languages.items():
                 if lid in best_languages:
                     language["Incollections"] += ["Selexion"]
+                    language["Selexion"] = 1
                     collstats["Selexion"]["Glottocodes"].add(best_languages[lid].glottocode)
                     collstats["Selexion"]["Varieties"] += 1
                     collstats["Selexion"]["Forms"] += len(best_languages[lid].forms)
