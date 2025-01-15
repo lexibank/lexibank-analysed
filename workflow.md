@@ -240,7 +240,7 @@ Visual exploration of the data can be done with `cldfviz`, a `cldfbench` plugin 
 Let's first look at the distribution of languages in LexiCore and ClicsCore on a map:
 
 ```shell
-cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="Forms,Concepts" --language-properties-colormaps="plasma,viridis"  --markersize 15 --pacific-centered
+cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="LexiCore,ClicsCore,CogCore" --language-properties-colormaps='{"1":"#fde725"},{"1":"#21918c", "0":"#f8f8ff"},{"1":"#440154", "0":"#f8f8ff"}'  --markersize 15 --pacific-centered
 ```
 
 ![doculects](plots/doculects.png)
