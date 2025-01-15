@@ -1,14 +1,6 @@
 # Using the Lexibank Data Repository
 
-Lexibank is a collection of lexical datasets provided in
-[CLDF](https://cldf.clld.org) formats. These CLDF datasets were compiled with
-the help of the `pylexibank` package, which is an extension for the
-[CLDFBench](https://github.com/cldf/cldfbench) package for handling CLDF
-datasets. Since data in the lexibank collection is maximally integrated with
-cross-linguistic resources that have been compiled during the past years, it is
-possible to make active use of the data to compute many features (lexical and
-phonological) automatically. In the following, we will describe the major
-workflow.
+Lexibank is a collection of lexical datasets provided in [CLDF](https://cldf.clld.org) formats. These CLDF datasets were compiled with the help of the `pylexibank` package, which is an extension for the [CLDFBench](https://github.com/cldf/cldfbench) package for handling CLDF datasets. Since data in the lexibank collection is maximally integrated with cross-linguistic resources that have been compiled during the past years, it is possible to make active use of the data to compute many features (lexical and phonological) automatically. In the following, we will describe the major workflow.
 
 ## 1 Lexibank Collection
 

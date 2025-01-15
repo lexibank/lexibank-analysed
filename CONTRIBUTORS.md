@@ -10,4 +10,3 @@ Russell D. Gray     |                  | maintainer   | Author
 Simon J. Greenhill  | @simongreenhill  | maintainer   | Author
 Christoph Rzymski   | @chrzyki         | maintainer   | Author
 Johann-Mattis List  | @LinguList       | maintainer   | Author
-
