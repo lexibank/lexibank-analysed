@@ -24,7 +24,7 @@ jobs:
         pip install pytest-cldf
     - name: Validate lexicon
       run: |
-        pytest --cldf-metadata=cldf/lexicon-metadata.json test.py
+        pytest -k test_lexicon
 
   validate-phonemes:
     runs-on: ubuntu-latest
@@ -43,7 +43,7 @@ jobs:
         pip install pytest-cldf
     - name: Validate phonemes
       run: |
-        pytest --cldf-metadata=cldf/phonemes-metadata.json test.py
+        pytest -k test_phonemes
 
   validate-phonology:
     runs-on: ubuntu-latest
@@ -62,7 +62,7 @@ jobs:
         pip install pytest-cldf
     - name: Validate phonology
       run: |
-        pytest --cldf-metadata=cldf/phonology-metadata.json test.py
+        pytest -k test_phonology
 
   validate-wordlist:
     runs-on: ubuntu-latest
@@ -81,4 +81,4 @@ jobs:
         pip install pytest-cldf
     - name: Validate wordlist
       run: |
-        pytest --cldf-metadata=cldf/wordlist-metadata.json test.py
+        pytest -k test_wordlist

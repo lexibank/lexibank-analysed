@@ -610,7 +610,7 @@ class Dataset(BaseDataset):
                 ))
                 for lid, freq in sorted(occurrences.items()):
                     writer.objects['ValueTable'].append(dict(
-                        ID='f{lid}-{clts_id}',
+                        ID=f'{lid}-{clts_id}',
                         Language_ID=lid,
                         Parameter_ID=clts_id,
                         Value=freq,
