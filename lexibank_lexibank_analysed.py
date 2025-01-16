@@ -372,6 +372,7 @@ class Dataset(BaseDataset):
                         "ClicsCore": 1 if self.dataset_meta[language.dataset]['ClicsCore'] == 'x' and CONDITIONS['ClicsCore'](language) else 0,
                         "CogCore": 1 if self.dataset_meta[language.dataset]['CogCore'] == 'x' and CONDITIONS['CogCore'](language) else 0,
                         "ProtoCore": 1 if self.dataset_meta[language.dataset]['ProtoCore'] == 'x' and CONDITIONS['ProtoCore'](language) else 0,
+                        "Selexion": 1 if 'Selexion' in [collection] else 0
                     }
                 except KeyError:
                     args.log.warn(f"{language.name} / {language.dataset} / {language.glottocode}")
