@@ -18,7 +18,7 @@ This repository contains a `cldfbench` package, bundling
 - code
   - to download the lexibank dataset,
   - to compute phonological and lexical features from this data and
-- The computed structural data in three CLDF StructureDatasets.
+- the computed structural data in three CLDF StructureDatasets.
 
 The workflow consists of a sequence of calls to `cldfbench` subcommands, which in turn call the code described above.
 
