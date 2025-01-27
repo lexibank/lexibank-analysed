@@ -38,7 +38,7 @@ The workflow consists of a sequence of calls to `cldfbench` subcommands, which i
 
 2. Download the data collections
 
-   The data collections will be downloaded by reading the most recent selection of lexibank datasets from the file `src/lexibank/data/lexibank.tsv` and then downloading the relevant datasets to a folder which you specify with the kewyord `destination`. We will call the folder `datasets` in the following.
+   The data collections will be downloaded by reading the most recent selection of lexibank datasets from the file `etc/lexibank.tsv`:
 
    ```shell
    cldfbench download lexibank_lexibank_analysed.py
