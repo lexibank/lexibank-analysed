@@ -7,7 +7,7 @@ Lexibank is a collection of lexical datasets provided in [CLDF](https://cldf.cll
 The lexibank collection consists of mainly two types of datasets:
 
 1. CLDF datasets linked to Concepticon and Glottolog with consistent lexeme forms which have a sufficient size in terms of concepts covered. This collection is called `ClicsCore` collection, since it fulfills the criteria to be included in the [CLICS](https://clics.clld.org) database. The collection can be used to compute various lexical features for individual language varieties.
-2. CLDF datasets linked to Concepticon and Glottolog with lexeme forms which are transcribed in the BIPA  transcription system proposed by the [CLTS](https://clts.clld.org) project. This c∏opeollection, which may  overlap with the `ClicsCore` collection, is called `LexiCore` and can be used to compute various phonological   features for language varieties.
+2. CLDF datasets linked to Concepticon and Glottolog with lexeme forms which are transcribed in the BIPA  transcription system proposed by the [CLTS](https://clts.clld.org) project. This collection, which may  overlap with the `ClicsCore` collection, is called `LexiCore` and can be used to compute various phonological   features for language varieties.
 
 The decision about which datasets are assigned to which collection is currently carried out by the board of lexibank editors, who estimate how well each of the datasets qualifies for the inclusion in either or both collections. The decisions are available in the form of a spreadsheet, shared along with this repository (see [etc/lexibank.tsv](etc/lexibank.tsv)).
 
