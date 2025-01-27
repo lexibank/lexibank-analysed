@@ -1,21 +1,13 @@
 # Using the Lexibank Data Repository
 
-Lexibank is a collection of lexical datasets provided in
-[CLDF](https://cldf.clld.org) formats. These CLDF datasets were compiled with
-the help of the `pylexibank` package, which is an extension for the
-[CLDFBench](https://github.com/cldf/cldfbench) package for handling CLDF
-datasets. Since data in the lexibank collection is maximally integrated with
-cross-linguistic resources that have been compiled during the past years, it is
-possible to make active use of the data to compute many features (lexical and
-phonological) automatically. In the following, we will describe the major
-workflow.
+Lexibank is a collection of lexical datasets provided in [CLDF](https://cldf.clld.org) formats. These CLDF datasets were compiled with the help of the `pylexibank` package, which is an extension for the [CLDFBench](https://github.com/cldf/cldfbench) package for handling CLDF datasets. Since data in the lexibank collection is maximally integrated with cross-linguistic resources that have been compiled during the past years, it is possible to make active use of the data to compute many features (lexical and phonological) automatically. In the following, we will describe the major workflow.
 
 ## 1 Lexibank Collection
 
 The lexibank collection consists of mainly two types of datasets:
 
 1. CLDF datasets linked to Concepticon and Glottolog with consistent lexeme forms which have a sufficient size in terms of concepts covered. This collection is called `ClicsCore` collection, since it fulfills the criteria to be included in the [CLICS](https://clics.clld.org) database. The collection can be used to compute various lexical features for individual language varieties.
-2. CLDF datasets linked to Concepticon and Glottolog with lexeme forms which are transcribed in the BIPA  transcription system proposed by the [CLTS](https://clts.clld.org) project. This c∏opeollection, which may  overlap with the `ClicsCore` collection, is called `LexiCore` and can be used to compute various phonological   features for language varieties.
+2. CLDF datasets linked to Concepticon and Glottolog with lexeme forms which are transcribed in the BIPA  transcription system proposed by the [CLTS](https://clts.clld.org) project. This collection, which may  overlap with the `ClicsCore` collection, is called `LexiCore` and can be used to compute various phonological   features for language varieties.
 
 The decision about which datasets are assigned to which collection is currently carried out by the board of lexibank editors, who estimate how well each of the datasets qualifies for the inclusion in either or both collections. The decisions are available in the form of a spreadsheet, shared along with this repository (see [etc/lexibank.tsv](etc/lexibank.tsv)).
 
@@ -26,7 +18,7 @@ This repository contains a `cldfbench` package, bundling
 - code
   - to download the lexibank dataset,
   - to compute phonological and lexical features from this data and
-- The computed structural data in three CLDF StructureDatasets.
+- the computed structural data in three CLDF StructureDatasets.
 
 The workflow consists of a sequence of calls to `cldfbench` subcommands, which in turn call the code described above.
 
@@ -46,7 +38,7 @@ The workflow consists of a sequence of calls to `cldfbench` subcommands, which i
 
 2. Download the data collections
 
-   The data collections will be downloaded by reading the most recent selection of lexibank datasets from the file `src/lexibank/data/lexibank.tsv` and then downloading the relevant datasets to a folder which you specify with the kewyord `destination`. We will call the folder `datasets` in the following.
+   The data collections will be downloaded by reading the most recent selection of lexibank datasets from the file `etc/lexibank.tsv`:
 
    ```shell
    cldfbench download lexibank_lexibank_analysed.py
@@ -56,7 +48,7 @@ The workflow consists of a sequence of calls to `cldfbench` subcommands, which i
 
    The analysis results of `lexibank-analysed` are stored in three CLDF StructureDatasets.
 
-   - Phonological features (inspired by those features typically listed in datasets like the [World Atlast of Language Structures](https://wals.info) are computed with the help of the phonological feature inference methods provided by the [cltoolkits](https://github.com/cldf/cltoolkit) package, which offers facilitated (high-level) access to CLDF datasets (specifically lexical datasets). Having downloaded the data packages, you can run the following code to compute the current 18 phonological features from the `lexicore` data. Since the target of phonological features is `lexicore` data (data defined in the `lexicore` collection of lexibank), the command will create a file called `lexicore.json`, in which the major information on phonological features is stored.
+   - Phonological features (inspired by those features typically listed in datasets like the [World Atlast of Language Structures](https://wals.info)) are computed with the help of the phonological feature inference methods provided by the [cltoolkits](https://github.com/cldf/cltoolkit) package, which offers facilitated (high-level) access to CLDF datasets (specifically lexical datasets). Having downloaded the data packages, you can run the following code to compute the current 18 phonological features from the `LexiCore` data. Since the target of phonological features is `LexiCore` data (data defined in the `LexiCore` collection of lexibank), the command will create a file called `lexicore.json`, in which the major information on phonological features is stored.
    - Lexical features (dedicated colexifications and partial colexifications) are computed as well.
    - Phoneme inventories including frequencies are derived.
 
@@ -71,6 +63,7 @@ The workflow consists of a sequence of calls to `cldfbench` subcommands, which i
 4. Make sure valid CLDF data has been created:
 
    ```shell
+   pip install -e ".[test]"
    pytest
    ```
 
@@ -83,8 +76,7 @@ In addition to feature data, the CLDF data also contains
 - provenance information, linking each doculect to the dataset from which it was extracted
 - summary statistics about the collections into which we bundle the datasets.
 
-This data is contained in the tables [contributions.csv](cldf/contributions.csv) and [collections.csv](cldf/collections.csv). We can look at the numbers of unique Glottocodes or Concepts and the number of individual
-forms in each collection:
+This data is contained in the tables [contributions.csv](cldf/contributions.csv) and [collections.csv](cldf/collections.csv). We can look at the numbers of unique Glottocodes or Concepts and the number of individual forms in each collection:
 
 ```shell
 $ pip install csvkit
@@ -105,14 +97,12 @@ $ csvgrep -c Collection_IDs -m Lexi cldf/contributions.csv | csvstat --count
 134
 ```
 
-`contributions.csv` also lists numbers of doculects and senses. Datasets with a low ratio between
-`Glottocodes` and `Doculects`, i.e. with many doculects mapped to the same glottocode, are typical
-dialectal collections. We can check this ratio running
+`contributions.csv` also lists numbers of doculects and senses. Datasets with a low ratio between `Glottocodes` and `Doculects`, i.e. with many doculects mapped to the same glottocode, are typical dialectal collections. We can check this ratio running
 
 ```shell
 csvsql --query "select id, name, cast(glottocodes as float) / cast(doculects as float) as ratio from contributions order by ratio limit 1" cldf/contributions.csv 
 ID,Name,ratio
-cals,"CLDF dataset derived from Mennecier et al.'s ""Central Asian Language Survey"" from 2016",0.06818181818181818
+cals,"CLDF dataset derived from Mennecier et al.'s ""Central Asian Language Survey"" from 2016",0.0681
 ```
 
 ### Feature data
@@ -229,8 +219,7 @@ chenhmongmien-NortheastYunnanChuanqiandian,98
 johanssonsoundsymbolic-Rotokas,7
 ```
 
-And we can correlate our computed features with the corresponding data from other datasets, such as WALS and
-PHOIBLE (as implemented in [correlations.py](lexibank_analysed_commands/correlations.py)):
+And we can correlate our computed features with the corresponding data from other datasets, such as WALS and PHOIBLE (as implemented in [correlations.py](lexibank_analysed_commands/correlations.py)):
 
 ```shell
 cldfbench lexibank-analysed.correlations
@@ -238,74 +227,76 @@ cldfbench lexibank-analysed.correlations
 
 | Feature | WALS/LexiCore | WALS/PHOIBLE | LexiCore/PHOIBLE | N |
 |:----------|:----------------|:---------------|:-------------------|----:|
-| 1A | 0.66 / 0.00 | 0.92 / 0.00 | 0.70 / 0.00 | 233 |
-| 2A | 0.51 / 0.00 | 0.66 / 0.00 | 0.68 / 0.00 | 235 |
-| 3A | 0.55 / 0.00 | 0.76 / 0.00 | 0.68 / 0.00 | 235 |
-| 4A | 0.54 / 0.00 | 0.69 / 0.00 | 0.59 / 0.00 | 235 |
-| 5A | 0.40 / 0.00 | 0.60 / 0.00 | 0.56 / 0.00 | 235 |
+| 1A | 0.67 / 0.00 | 0.92 / 0.00 | 0.70 / 0.00 | 265 |
+| 2A | 0.54 / 0.00 | 0.68 / 0.00 | 0.71 / 0.00 | 267 |
+| 3A | 0.55 / 0.00 | 0.76 / 0.00 | 0.67 / 0.00 | 267 |
+| 4A | 0.5 / 0.00 | 0.67 / 0.00 | 0.53 / 0.00 | 267 |
+| 5A | 0.36 / 0.00 | 0.55 / 0.00 | 0.58 / 0.00 | 267 |
 
 ## 4 Data visualization
 
-Visual exploration of the data can be done with `cldfviz`, a `cldfbench` plugin to visualize
-CLDF datasets.
+Visual exploration of the data can be done with `cldfviz`, a `cldfbench` plugin to visualize CLDF datasets.
 
-Let's first look at the distribution of languages in LexiCore and ClicsCore
-on a map:
+Let's first look at the distribution of languages in LexiCore and ClicsCore on a map:
+
 ```shell
-cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties Incollections,Forms,Concepts --language-properties-colormaps tol,plasma,viridis  --markersize 15 --pacific-centered
+cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="LexiCore,ClicsCore,CogCore" --language-properties-colormaps='{"1":"#fde725"},{"1":"#21918c", "0":"#f8f8ff"},{"1":"#440154", "0":"#f8f8ff"}'  --markersize 15 --pacific-centered
 ```
-![doculects](plots/doculects.jpg)
+
+![doculects](plots/doculects.png)
+
+We can also plot the number of forms and concepts in the different languages:
+
+```shell
+cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="Forms,Concepts" --language-properties-colormaps="plasma,viridis"  --markersize 15 --pacific-centered
+```
+
+![coverage](plots/coverage.png)
 
 We can plot continuous variables on a map, e.g. `ConsonantQualitySize`:
+
 ```shell
 cldfbench cldfviz.map cldf/phonology-metadata.json --parameters ConsonantQualitySize --colormaps plasma --pacific-centered
 ```
-A screenshot of the resulting [leaflet map](https://leafletjs.com/) is shown below. (To plot printable
-maps, install `cldfviz` with `cartopy` support and choose a different output format using the
-`--format` option.)
 
-![consonant quality size](plots/ConsonantQualitySize.jpg)
+A screenshot of the resulting [leaflet map](https://leafletjs.com/) is shown below. (To plot printable maps, install `cldfviz` with `cartopy` support and choose a different output format using the `--format` option.)
 
-Map plots for categorical variables like `VelarNasal` are supported as well.
-This feature is equivalent to [feature 9A from WALS](https://wals.info/feature/9A).
+![consonant quality size](plots/ConsonantQualitySize.png)
+
+Map plots for categorical variables like `VelarNasal` are supported as well. This feature is equivalent to [feature 9A from WALS](https://wals.info/feature/9A).
 
 We can inspect the values:
+
 ```shell
-$ csvgrep -c Parameter_ID -m "VelarNasal" cldf/phonology-codes.csv | csvcut -c ID,Name | column -s, -t -n
+$ csvgrep -c Parameter_ID -m "VelarNasal" cldf/phonology-codes.csv | csvcut -c ID,Name | column -s, -t
 ID            Name
 VelarNasal-1  velar nasal occurs in syllable-initial position
 VelarNasal-2  velar nasal occurs but not in syllable-initial position
 VelarNasal-3  velar nasal is missing
 ```
+
 and plot it on a map:
+
 ```shell
 cldfbench cldfviz.map cldf/phonology-metadata.json --parameters VelarNasal --colormaps tol --pacific-centered
 ```
 
-![Velar Nasal](plots/VelarNasal.jpg)
+![Velar Nasal](plots/VelarNasal.png)
 
+As a final type of feature, consider `SkinInBark`. This feature is a so-called partial colexification, which means that the word expressing "skin" recurs in part in the word expressing "bark" in the language variety in question, while not being identical with it. This feature has two major values, `true` and `false`, and -- as a third case -- `None`, when data are missing (there is no word for "skin" or for "bark" in our data). We can plot the feature in the same way in which we plotted the data before
 
-As a final type of feature, consider `SkinInBark`.
-This feature is a so-called partial colexification, which means that the word expressing "skin" recurs in part in the 
-word expressing "bark" in the language variety in question, while not being identical with it.
-
-This feature has two major values, `true` and `false`, and -- as a third case -- `None`, when data are missing (there 
-is no word for "skin" or for "bark" in our data). 
-We can plot the feature in the same way in which we plotted the data before
-
-```
+```shell
 cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters SkinInBark --pacific-centered
 ```
 
-![Skin in Bark](plots/SkinInBark.jpg)
-
+![Skin in Bark](plots/SkinInBark.png)
 
 You can also plot two features at the same time onto a map. In order to do so, just select those features which you think are useful to be inspected synchronously, and type:
 
-```
-cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters ArmAndHand,LegAndFoot --pacific-centered --base-layer Esri_WorldImagery --markersize 15
+```shell
+cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters ArmAndHand,LegAndFoot --pacific-centered --base-layer OpenStreetMap --markersize 15
 ```
 
-The resulting plot offers a new account on the data by combining feature information for two features. 
+The resulting plot offers a new account on the data by combining feature information for two features.
 
-![ArmAndHand-LegAndFoot](plots/ArmAndHand-LegAndFoot.jpg)
+![ArmAndHand-LegAndFoot](plots/ArmAndHand-LegAndFoot.png)

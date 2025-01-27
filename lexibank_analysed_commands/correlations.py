@@ -110,8 +110,8 @@ def run(args):
             p3, r3 = spearmanr([x[1] for x in comparisons[d1]], [x[2] for x in comparisons[d1]])
             table.append([
                 d1,
-                f"{p1} / {r1}",
-                f"{p2} / {r2}",
-                f"{p3} / {r3}",
+                f"{round(p1, 2)} / {round(r1, 2)}",
+                f"{round(p2, 2)} / {round(r2, 2)}",
+                f"{round(p3, 2)} / {round(r3, 2)}",
                 len(comparisons[d1])
             ])

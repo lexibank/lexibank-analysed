@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 setup(
@@ -7,7 +7,7 @@ setup(
     description='',
     author='',
     author_email='',
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf8').read(),
     long_description_content_type='text/markdown',
     keywords='',
     license='MIT',
@@ -54,7 +54,6 @@ setup(
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
