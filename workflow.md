@@ -243,7 +243,7 @@ Let's first look at the distribution of languages in LexiCore and ClicsCore on a
 cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="LexiCore,ClicsCore,CogCore" --language-properties-colormaps='{"1":"#fde725"},{"1":"#21918c", "0":"#f8f8ff"},{"1":"#440154", "0":"#f8f8ff"}'  --markersize 15 --pacific-centered
 ```
 
-![doculects](plots/doculects.png)
+![doculects](analysis/plots/doculects.png)
 
 We can also plot the number of forms and concepts in the different languages:
 
@@ -251,7 +251,7 @@ We can also plot the number of forms and concepts in the different languages:
 cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="Forms,Concepts" --language-properties-colormaps="plasma,viridis"  --markersize 15 --pacific-centered
 ```
 
-![coverage](plots/coverage.png)
+![coverage](analysis/plots/coverage.png)
 
 We can plot continuous variables on a map, e.g. `ConsonantQualitySize`:
 
@@ -261,7 +261,7 @@ cldfbench cldfviz.map cldf/phonology-metadata.json --parameters ConsonantQuality
 
 A screenshot of the resulting [leaflet map](https://leafletjs.com/) is shown below. (To plot printable maps, install `cldfviz` with `cartopy` support and choose a different output format using the `--format` option.)
 
-![consonant quality size](plots/ConsonantQualitySize.png)
+![consonant quality size](analysis/plots/ConsonantQualitySize.png)
 
 Map plots for categorical variables like `VelarNasal` are supported as well. This feature is equivalent to [feature 9A from WALS](https://wals.info/feature/9A).
 
@@ -281,7 +281,7 @@ and plot it on a map:
 cldfbench cldfviz.map cldf/phonology-metadata.json --parameters VelarNasal --colormaps tol --pacific-centered
 ```
 
-![Velar Nasal](plots/VelarNasal.png)
+![Velar Nasal](analysis/plots/VelarNasal.png)
 
 As a final type of feature, consider `SkinInBark`. This feature is a so-called partial colexification, which means that the word expressing "skin" recurs in part in the word expressing "bark" in the language variety in question, while not being identical with it. This feature has two major values, `true` and `false`, and -- as a third case -- `None`, when data are missing (there is no word for "skin" or for "bark" in our data). We can plot the feature in the same way in which we plotted the data before
 
@@ -289,7 +289,7 @@ As a final type of feature, consider `SkinInBark`. This feature is a so-called p
 cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters SkinInBark --pacific-centered
 ```
 
-![Skin in Bark](plots/SkinInBark.png)
+![Skin in Bark](analysis/plots/SkinInBark.png)
 
 You can also plot two features at the same time onto a map. In order to do so, just select those features which you think are useful to be inspected synchronously, and type:
 
@@ -299,4 +299,4 @@ cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters ArmAndHand,LegAndF
 
 The resulting plot offers a new account on the data by combining feature information for two features.
 
-![ArmAndHand-LegAndFoot](plots/ArmAndHand-LegAndFoot.png)
+![ArmAndHand-LegAndFoot](analysis/plots/ArmAndHand-LegAndFoot.png)
