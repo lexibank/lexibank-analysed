@@ -26,20 +26,20 @@ cd soundclass_queries
 The first set of queries that we will present are based on Dolgopolsky sound classes. They are run via the script `match_soundclasses.py`, and look for matches in sound classes for data from a specific language, compared to all other languages in Lexibank. Two queries are offered: `base.sql`, and `extended.sql`. Both are called via the command line, where you can also specify the glottocode from the language that you want to compare with all other cases. The `base.sql` query only gives you the number of matches, while `extended.sql` also provides you with the list of matches themselves. In both cases, the results are stored in `matches.tsv` and a map is created as `index.html` that you can open in a browser. Here, the languages with most matches are colored accordingly.
 
 ```shell
-python match_soundclasses.py --setting=q_base.sql --glottocode=kusu1250
+python match_soundclasses.py --query=q_base.sql --glottocode=kusu1250
 ```
 
 ```shell
-python match_soundclasses.py --setting=q_extended.sql --glottocode=cand1248
+python match_soundclasses.py --query=q_extended.sql --glottocode=cand1248
 ```
 
-The third setting uses the `q_proto.sql` query. Here, we check for matches based on a list of lexical forms provided in `data.txt`. This replaces the glottocode, since we provide the data manually.
+The third query uses the `q_proto.sql` query. Here, we check for matches based on a list of lexical forms provided in `data.txt`. This replaces the glottocode, since we provide the data manually.
 
 ```shell
-python match_soundclasses.py --setting=q_proto.sql
+python match_soundclasses.py --query=q_proto.sql
 ```
 
-```
+```md
 Name                        ID                                   Glottocode    Family               Latitude    Longitude    Hits
 --------------------------  -----------------------------------  ------------  -----------------  ----------  -----------  ------
 Dumagat, Casiguran          abvdphilippines-417                  casi1235      Austronesian            16.22       121.88       8
@@ -52,9 +52,12 @@ Thai                        wold-Thai                            thai1261      T
 Tibetan (Written)           marrisonnaga-WrittenTibetan          clas1254      Sino-Tibetan            30.03        91.16       7
 Akhvakh (Northern dialect)  idssegmented-akhvakhnortherndialect  akhv1239      Nakh-Daghestanian       42.40        46.30       6
 Anuta                       tryonsolomon-anuta                   anut1237      Austronesian           -11.61       169.85       6
-
 ```
 
 ## Queries: Colexifications
 
 tbc
+
+```shell
+python colexifications.py --concept_1=='EYE' --concept_2=='SUN'
+```

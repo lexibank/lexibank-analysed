@@ -1,34 +1,51 @@
 """
 Query New Dataset against the Lexibank Database.
 """
+import argparse
+import csv
+import logging
 import sqlite3
 from tabulate import tabulate
-import csv
+from clldutils.clilib import add_format, Table, PathType
 
-OUT = 'colex.sql'
-concept_one = ''
-concept_two = ''
+logging.basicConfig(level=logging.INFO)
 
-# load lexibank database
-db = sqlite3.connect("data/lexibank2.sqlite3")
-cursor = db.cursor()
 
-# get the data on the language
-with open(OUT, encoding='utf8') as f:
-    query = f.read()
+def run_query(args):
+    # get the data on the language
+    query = 'colexifications.sql'
 
-cursor.execute(query)
-table = cursor.fetchall()
+    # load lexibank database
+    db = sqlite3.connect("../lexibank.sqlite3")
+    cursor = db.cursor()
 
-header = ["Count", "Language", "Glottocode", "Family", "Form"]
+    with open(query, encoding='utf8') as f:
+        query = f.read()
 
-print(tabulate(
-    table[:10],
-    tablefmt="pipe",
-    headers=header,
-))
+    cursor.execute(query, (args.concept_1, args.concept_2))
 
-with open('colex.tsv', 'w', encoding='utf8', newline='') as f:
-    writer = csv.writer(f, delimiter='\t')
-    writer.writerow(header)
-    writer.writerows(table)
+    table = cursor.fetchall()
+
+    header = ["Count", "Language", "Glottocode", "Family", "Form"]
+
+    print(tabulate(
+        table[:10],
+        tablefmt="pipe",
+        headers=header,
+    ))
+
+    with open('colex.tsv', 'w', encoding='utf8', newline='') as f:
+        writer = csv.writer(f, delimiter='\t')
+        writer.writerow(header)
+        writer.writerows(table)
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--concept_1', type=str,
+                        help='Choose the first concept to compare')
+    parser.add_argument('--concept_2', type=str,
+                        help='Choose the second concept to compare')
+    add_format(parser, default='simple')
+    args = parser.parse_args()
+
+    run_query(args)

@@ -14,7 +14,7 @@ WHERE
     f.cldf_languageReference = l.cldf_id
         AND
     -- Select the two concepts to compare
-    p.concepticon_gloss IN ('SWEET POTATO', 'CASSAVA')
+    p.concepticon_gloss IN (?, ?)
 GROUP BY 
     l.cldf_name, f.cldf_segments
 HAVING 
