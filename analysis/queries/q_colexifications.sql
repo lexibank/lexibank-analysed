@@ -3,6 +3,8 @@ SELECT
     l.cldf_name AS Doculect,
     l.cldf_glottocode AS Glottocode,
     l.family AS Family,
+    l.cldf_latitude,
+    l.cldf_longitude,
     f.cldf_segments AS Form
 FROM 
     LanguageTable AS l,
@@ -12,6 +14,8 @@ WHERE
     f.cldf_parameterReference = p.cldf_id
         AND
     f.cldf_languageReference = l.cldf_id
+        AND
+    l.Selexion == 1
         AND
     -- Select the two concepts to compare
     p.concepticon_gloss IN (?, ?)

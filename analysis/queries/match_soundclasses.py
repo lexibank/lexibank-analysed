@@ -50,12 +50,15 @@ def run_query(args):
                     hits.extend(cursor.fetchall())
 
         table = []
-        for lid, rows in itertools.groupby(sorted(hits, key=lambda r: r[0]), lambda row: row[0]):
+        for _, rows in itertools.groupby(sorted(hits, key=lambda r: r[0]), lambda row: row[0]):
             rows = list(rows)
             table.append(list(rows[0]) + [len(rows)])
         table = sorted(table, key=lambda r: -r[-1])
     else:
-        cursor.execute(args.query.read_text(encoding='utf8'), (args.glottocode, args.glottocode) if args.query.stem != 'q_proto' else ())
+        cursor.execute(
+            args.query.read_text(encoding='utf8'),
+            (args.glottocode, args.glottocode) if args.query.stem != 'q_proto' else ()
+        )
         table = cursor.fetchall()
 
     max_hits = table[0][-1]
@@ -79,16 +82,9 @@ def run_query(args):
                 )
                 f.write(f'.bindPopup("<b>{row[0]}: {row[-1]} Hits</b>");\n')
 
-    logging.getLogger(__name__).info(f"Saved file with maximal number of hits at {max_hits}.")
+    logging.info("Saved file with maximal number of hits at %s.", max_hits)
 
-    header = []
-    if args.query.stem in ('q_base', 'q_proto'):
-        header = ["Name", "ID", "Glottocode", "Family", "Latitude", "Longitude", "Hits"]
-    elif args.query.stem == 'q_extended':
-        header = [
-            "Name", "ID", "Glottocode", "Family", "Latitude", "Longitude", "Concepticon",
-            "Core Concept", "Dolgopolsky", "Segments A", "Segments B", "Hits"
-        ]
+    header = [row[0] for row in cursor.description]
 
     with Table(args, *header) as t:
         t.extend(table[:10])

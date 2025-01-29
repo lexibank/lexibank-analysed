@@ -35,7 +35,7 @@ INNER JOIN
         GROUP BY 
             CognateSet
         HAVING 
-            COUNT(*) >= 6
+            COUNT(*) >= 5
         ORDER BY 
             Count DESC, CognateSet
     ) as freq

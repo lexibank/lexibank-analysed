@@ -6,11 +6,9 @@ from tabulate import tabulate
 import csv
 
 OUT = 'cognateset_diversity.sql'
-concept_one = ''
-concept_two = ''
 
 # load lexibank database
-db = sqlite3.connect("data/blumpanotacana.sqlite3")
+db = sqlite3.connect("blumpanotacana.sqlite3")
 cursor = db.cursor()
 
 # get the data on the language
@@ -20,7 +18,7 @@ with open(OUT, encoding='utf8') as f:
 cursor.execute(query)
 table = cursor.fetchall()
 
-header = ["Cognate", "Concept", "Family", "Frequency"]
+header = ["COGID", "Concept", "Subgroup", "Frequency"]
 
 print(tabulate(
     table[:10],

@@ -20,7 +20,7 @@ cldf createdb ../cldf/wordlist-metadata.json lexibank.sqlite3
 The queries discussed in this chapter are stored in the folder `soundclass_queries`.
 
 ```shell
-cd soundclass_queries
+cd queries
 ```
 
 The first set of queries that we will present are based on Dolgopolsky sound classes. They are run via the script `match_soundclasses.py`, and look for matches in sound classes for data from a specific language, compared to all other languages in Lexibank. Two queries are offered: `base.sql`, and `extended.sql`. Both are called via the command line, where you can also specify the glottocode from the language that you want to compare with all other cases. The `base.sql` query only gives you the number of matches, while `extended.sql` also provides you with the list of matches themselves. In both cases, the results are stored in `matches.tsv` and a map is created as `index.html` that you can open in a browser. Here, the languages with most matches are colored accordingly.
@@ -56,8 +56,27 @@ Anuta                       tryonsolomon-anuta                   anut1237      A
 
 ## Queries: Colexifications
 
-tbc
+The next query shows how you can easily extract specific colexifications between Concepticon concepts. You simply add the two concepts to the function call that you want to compare, and receive a full list of language varieties that feature the colexification in question. The resulting map provides you with information on geographic spread of the languages involved as well as their lexical forms.
 
 ```shell
-python colexifications.py --concept_1=='EYE' --concept_2=='SUN'
+python colexifications.py --concept_1 'SUN' --concept_2 'MOON'
 ```
+
+## Queries: Semantic diversity of cognate set
+
+The last query is a bit different, since it makes use of a specific Lexibank dataset, `blumpanotacana`. The same query can be run with all datasets of the *CogCore* subset, since all it requires are annotations for cognacy.
+
+For preparing the data, we only need to clone the repository and create the SQLite database.
+
+```shell
+cd cognateset_diversity
+git clone https://github.com/pano-takanan-history/blumpanotacana 
+cldf createdb blumpanotacana/cldf/cldf-metadata.json blumpanotacana.sqlite3
+python cognateset_diversity.py
+```
+
+The script provides an output of the different concepts that are annotated for cognacy, as well as the amount of languages in each subgroup that features such semantic value. The result can be visualized by a colexification network.
+
+![Example](analysis/queries/cognateset_diversity/cog_moon.png){width=50%}
+
+In the example we can see that cognateset *4280* features a range of different semantics, where all Tacanan languages have the meaning of MOON, while the Panoan languages feature YEAR, SUN, DAY, and others.
