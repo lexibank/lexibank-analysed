@@ -27,6 +27,9 @@ The first set of queries that we will present are based on Dolgopolsky sound cla
 
 ```shell
 python match_soundclasses.py --setting=q_base.sql --glottocode=kusu1250
+```
+
+```shell
 python match_soundclasses.py --setting=q_extended.sql --glottocode=cand1248
 ```
 
@@ -34,6 +37,22 @@ The third setting uses the `q_proto.sql` query. Here, we check for matches based
 
 ```shell
 python match_soundclasses.py --setting=q_proto.sql
+```
+
+```
+Name                        ID                                   Glottocode    Family               Latitude    Longitude    Hits
+--------------------------  -----------------------------------  ------------  -----------------  ----------  -----------  ------
+Dumagat, Casiguran          abvdphilippines-417                  casi1235      Austronesian            16.22       121.88       8
+Kalabra                     berrywestpapuan-Kalabra              kala1256      West Bird's Head        -1.43       131.62       8
+Kilokaka                    tryonsolomon-kilokaka                zaza1245      Austronesian            -8.19       159.25       8
+Kokota                      tryonsolomon-kokota                  koko1269      Austronesian            -8.16       159.19       7
+Poro                        tryonsolomon-poro                    gaoo1237      Austronesian            -8.35       159.79       7
+Pukapuka                    abvdoceanic-Pukapuka_152             puka1242      Austronesian           -10.91      -165.83       7
+Thai                        wold-Thai                            thai1261      Tai-Kadai               16.00       101.00       7
+Tibetan (Written)           marrisonnaga-WrittenTibetan          clas1254      Sino-Tibetan            30.03        91.16       7
+Akhvakh (Northern dialect)  idssegmented-akhvakhnortherndialect  akhv1239      Nakh-Daghestanian       42.40        46.30       6
+Anuta                       tryonsolomon-anuta                   anut1237      Austronesian           -11.61       169.85       6
+
 ```
 
 ## Queries: Colexifications

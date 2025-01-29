@@ -1,64 +1,62 @@
 """
 Query with the Lexibank Database.
 """
-import argparse
-import csv
+import logging
+import pathlib
 import sqlite3
-from clldutils.misc import slug
+import argparse
+import itertools
+
+from csvw.dsv import UnicodeWriter
+from clldutils.clilib import add_format, Table, PathType
 from lingpy import tokens2class, ipa2tokens
 from pysem import to_concepticon
-from tabulate import tabulate
+
+logging.basicConfig(level=logging.INFO)
 
 
-# load lexibank database
-db = sqlite3.connect("../lexibank.sqlite3")
-cursor = db.cursor()
+def cc(dolgo_sound_classes):
+    """
+    Compute consonant classes from Dolgopolsky sound classes.
+    """
+    condensed = dolgo_sound_classes.replace('V', '').replace('+', '').replace('1', '')
+    if dolgo_sound_classes.startswith('V'):
+        return ('H' + condensed + 'H')[:2]
+    return (condensed + 'H')[:2]
 
 
-def run_query(setting, gcode):
+def run_query(args):
     """Runs the query against the selected glottocode."""
-    # get the data on the language
-    data = []
 
-    if setting == 'q_proto.sql':
-        with open("data.txt", encoding='utf8') as f:
-            for row in f:
-                word, concepts = row.strip().split("=")
-                for concept in concepts.strip().split(", "):
-                    mappings = to_concepticon([{"gloss": concept}])[concept]
-                    if mappings:
-                        data += [[
-                            word.strip(),
-                            "".join(tokens2class(ipa2tokens(word.strip()), "dolgo")),
-                            concept,
-                            mappings[0][0],
-                            mappings[0][1]
-                            ]]
-        cursor.execute("insert into LanguageTable(cldf_id) values ('proto');")
-        for i, row in enumerate(data):
-            cursor.execute(
-                "insert into FormTable(cldf_id, cldf_form, cldf_value, cldf_languageReference, " +
-                " cldf_Segments, cldf_parameterReference, " +
-                "Dolgo_Sound_Classes) values ('proto-" + str(i + 1) + 
-                "', '" + row[0] + "', '" + row[0] + "', " 
-                "'proto', '" +
-                " ".join(ipa2tokens(row[0])) + "', '" +
-                slug(row[4]) + "', '" +
-                row[1] + "');"
-                )
-    try:
-        cursor.execute("ALTER TABLE LanguageTable DROP COLUMN filter")
-    except sqlite3.OperationalError:
-        pass
+    # load lexibank database
+    db = sqlite3.connect("../lexibank.sqlite3")
+    cursor = db.cursor()
+    db.create_function('cc', 1, cc)
 
-    if setting != 'q_proto.sql':
-        cursor.execute(f"ALTER TABLE LanguageTable ADD COLUMN filter VARCHAR DEFAULT {gcode}")
+    if args.query.stem == 'q_proto':
+        cursor.execute(pathlib.Path('q_proto_view.sql').read_text(encoding='utf8'))
+        hits = []
+        for row in pathlib.Path('data.txt').read_text(encoding='utf8').split('\n'):
+            word, _, concepts = row.partition("=")
+            for concept in concepts.strip().split(", ") if concepts else []:
+                mappings = to_concepticon([{"gloss": concept}])[concept]
+                if mappings:
+                    cursor.execute(
+                        args.query.read_text(encoding='utf8'),
+                        (
+                            cc("".join(tokens2class(ipa2tokens(word.strip()), "dolgo"))),
+                            mappings[0][1],
+                        ))
+                    hits.extend(cursor.fetchall())
 
-    with open(setting, encoding='utf8') as f:
-        query = f.read()
-
-    cursor.execute(query)
-    table = cursor.fetchall()
+        table = []
+        for lid, rows in itertools.groupby(sorted(hits, key=lambda r: r[0]), lambda row: row[0]):
+            rows = list(rows)
+            table.append(list(rows[0]) + [len(rows)])
+        table = sorted(table, key=lambda r: -r[-1])
+    else:
+        cursor.execute(args.query.read_text(encoding='utf8'), (args.glottocode, args.glottocode) if args.query.stem != 'q_proto' else ())
+        table = cursor.fetchall()
 
     max_hits = table[0][-1]
     colors = {
@@ -81,37 +79,31 @@ def run_query(setting, gcode):
                 )
                 f.write(f'.bindPopup("<b>{row[0]}: {row[-1]} Hits</b>");\n')
 
-    print(f"[i] Saved file with maximal number of hits at {max_hits}.")
+    logging.getLogger(__name__).info(f"Saved file with maximal number of hits at {max_hits}.")
 
     header = []
-    if setting in ('q_base.sql', 'q_proto.sql'):
+    if args.query.stem in ('q_base', 'q_proto'):
         header = ["Name", "ID", "Glottocode", "Family", "Latitude", "Longitude", "Hits"]
-    elif setting == 'q_extended.sql':
+    elif args.query.stem == 'q_extended':
         header = [
             "Name", "ID", "Glottocode", "Family", "Latitude", "Longitude", "Concepticon",
             "Core Concept", "Dolgopolsky", "Segments A", "Segments B", "Hits"
         ]
 
-    print(tabulate(
-        table[:10],
-        tablefmt="pipe",
-        headers=header
-        ))
+    with Table(args, *header) as t:
+        t.extend(table[:10])
 
-    with open('matches.tsv', 'w', encoding='utf8', newline='') as f:
-        writer = csv.writer(f, delimiter='\t')
-        writer.writerows(table)
+    with UnicodeWriter('matches.tsv', delimiter='\t') as writer:
+        writer.writerows([header] + table)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--setting', type=str,
+    parser.add_argument('--query', type=PathType(type='file'),
                         help='Choose which query to run: base or extended')
     parser.add_argument('--glottocode', type=str, default='kusu1250',
                         help='Choose which glottocode to use for the query')
+    add_format(parser, default='simple')
     args = parser.parse_args()
 
-    run_query(
-        setting=args.setting,
-        gcode=args.glottocode
-        )
+    run_query(args)
