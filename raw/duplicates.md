@@ -1774,6 +1774,7 @@ castrozhuang-MashanBaishan-Castro-2010-511-420-1 | Mashan Baishan | LOOSE | θɔ
 castrozhuang-DuAnGaoling-Castro-2010-511-374-2 | Du'an Gaoling | WE (INCLUSIVE) | ðɐu²³¹ | ð ɐu ²³¹
 chacolanguages-Ava-95_claw-2 | Ava Guaraní | CLAW | po+ãpe | p o + ã p e
 idssegmented-chiriguano-8-600-1 | Chiriguano | TREE | ɨ'wɨra | ɨ w ɨ r a
+tuled-Chiriguano-85-3 | Chiriguano | CONSUME (DRINK OR EAT) | u | u
 chacolanguages-Ayoreo-15_long-6 | Ayoreo | LONG | uma+ejna | u m a + e n̥ a
 idssegmented-ayoreo-12-50-3 | Ayoreo | INSIDE | -ihiʔ | i h i ʔ
 chacolanguages-Toba-279_come-3 | Toba | COME | anac | a n a k
@@ -1964,13 +1965,12 @@ idssegmented-moderngreek-22-420-2 | Modern Greek | MAGIC | 'maɣia | m a ɣ i a
 starostinpie-swedish-46_leaf-2 | Swedish | LEAF | b.l.a.d | b l a d
 tuled-SuruiPaiter-337-2 | Surui-Paiter | SING | merewa | m e ɾ e w a
 tuled-Tembe-304-2 | Tembe | REMAIN | pɨta | p ɨ t a
+tuled-Guajajara-71-3 | Guajajara | CHIEFTAIN | kəpitəw | k ə p i t ə w
 tuled-Guajajara-220-3 | Guajajara | LIE DOWN | ʔa | ʔ a
 tuled-Guajajara-220-4 | Guajajara | LIE DOWN | zerew | z e r e w
-tuled-Guajajara-71-3 | Guajajara | CHIEFTAIN | kəpitəw | k ə p i t ə w
 tuled-Guajajara-260-2 | Guajajara | NOW | kurɨ | k u r ɨ
-tuled-Guajajara-443-2 | Guajajara | YOU | pe | p e
 tuled-Guajajara-413-2 | Guajajara | WAKE UP | meʔe | m e ʔ e
-tuled-Amondawa-367-2 | Amondawa | SUN | kʷara | kʷ a ɾ a
+tuled-Guajajara-443-2 | Guajajara | YOU | pe | p e
 gerarditupi-Parintintin-240_wing2-1 | Parintintin | WING | p e p o | p e p o
 gerarditupi-Urueuwauwau-240_wing2-1 | Urueuwauwau | WING | p e p o | p e p o
 gerarditupi-Arawete-240_wing2-1 | Araweté | WING | p e p a | p e p a
@@ -9541,6 +9541,7 @@ transnewguineaorg-zorop-1907_wepronound1p-2 | Zorop | WE | nin | n i n
 transnewguineaorg-zorop-275_pig-2 | Zorop | PIG | sər | s ə r
 tryonsolomon-mono-173_theydl-1 | Mono | THEY | relana!i | r e l a n a ʔ i
 tryonsolomon-mono-168_youpl-1 | Mono | YOU | māŋ | m aː ŋ
+tuled-Akuntsu-83-2 | Akuntsu | COME | tʃe | tʃ e
 vanuatuvoices-Nakanamangasesake-77_mother-2 | Nakanamanga: Sesake | MOTHER | tete | t e t e
 vanuatuvoices-Nakanamangasesake-78_father-2 | Nakanamanga: Sesake | FATHER | popo | p o p o
 vanuatuvoices-Sivitinjavjericho-78_father-2 | Siviti (Njav): Jericho | FATHER | tate | t a t e

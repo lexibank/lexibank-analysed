@@ -1,10 +1,10 @@
-ID	Organization	Dataset	Source	Zenodo	Todo	ClicsCore	LexiCore	CogCore	ProtoCore	Version	Comments	Status
-aaleykusunda	lexibank	aaleykusunda	Aaley2019	10.5281/zenodo.13149034			x			v2.1		done (FB)
-abrahammonpa	lexibank	abrahammonpa	Abraham2018	10.5281/zenodo.13149071		x	x			v3.1		done (FB)
-iecor	lexibank	iecor	Heggarty2024	10.5281/zenodo.13304537			x	x		v1.2		done (FB)
-abvdphilippines	lexibank	abvdphilippines	Greenhill2008	10.5281/zenodo.13304336			x	x		v1.0		done (FB)
-allenbai	lexibank	allenbai	Allen2007	10.5281/zenodo.13149106		x	x			v4.1		done (FB)
-backstromnorthernpakistan	lexibank	backstromnorthernpakistan	Backstrom1992	10.5281/zenodo.13149113			x			v1.1		done (FB)
-baf2	lexibank	baf2	Hantgan2022	10.5281/zenodo.14001726		x	x			v1.2		done (FB)
-blumpanotacana	pano-tacanan-history	blumpanotacana	Blum2024	10.5281/zenodo.13149588		x	x	x		v1.2		done (FB)
-bantubvd	lexibank	bantubvd	Greenhill2015a	10.5281/zenodo.13143126		x	x			v4.1		done (CR)
+ID	Organization	Dataset	Source	Zenodo	Todo	ClicsCore	LexiCore	CogCore	ProtoCore	Version	Comments
+aaleykusunda	lexibank	aaleykusunda	Aaley2019	10.5281/zenodo.13149034			x			v2.1	
+abrahammonpa	lexibank	abrahammonpa	Abraham2018	10.5281/zenodo.13149071		x	x			v3.1	
+iecor	lexibank	iecor	Heggarty2024	10.5281/zenodo.13304537			x	x		v1.2	
+abvdphilippines	lexibank	abvdphilippines	Greenhill2008	10.5281/zenodo.13304336			x	x		v1.0	
+allenbai	lexibank	allenbai	Allen2007	10.5281/zenodo.13149106		x	x			v4.1	
+backstromnorthernpakistan	lexibank	backstromnorthernpakistan	Backstrom1992	10.5281/zenodo.13149113			x			v1.1	
+baf2	lexibank	baf2	Hantgan2022	10.5281/zenodo.14001726		x	x			v1.2	
+blumpanotacana	pano-tacanan-history	blumpanotacana	Blum2024	10.5281/zenodo.13149588		x	x	x		v1.2	
+bantubvd	lexibank	bantubvd	Greenhill2015a	10.5281/zenodo.13143126		x	x			v4.1	

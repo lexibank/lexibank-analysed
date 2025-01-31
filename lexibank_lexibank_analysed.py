@@ -25,8 +25,8 @@ from lingpy.sequence.sound_classes import prosodic_string
 COLLECTIONS = {
     'LexiCore': (
         'Wordlists with phonetic transcriptions in which sound segments can be readily described '
-        'by the CLTS system',
-        'wordlists with phonetic transcriptions)'),
+        'by the CLTS system and in which at least 100 concepts can be linked to Concepticon.',
+        'wordlists with phonetic transcriptions and at least 100 concepts)'),
     'ClicsCore': (
         'Wordlists with large form inventories in which at least 250 concepts can be linked to '
         'the Concepticon',
@@ -228,8 +228,8 @@ class Dataset(BaseDataset):
             try:
                 if dataset_id not in _loaded:
                     _loaded[dataset_id] = (
-                        pycldf.Dataset.from_metadata(self.raw_dir / dataset_id / "cldf" / "cldf-metadata.json"),
-                        dataset_meta[dataset_id])
+                        pycldf.Dataset.from_metadata(
+                            self.raw_dir / dataset_id / "cldf" / "cldf-metadata.json"), dataset_meta[dataset_id])
                 if with_metadata:
                     yield _loaded[dataset_id]
                 else:

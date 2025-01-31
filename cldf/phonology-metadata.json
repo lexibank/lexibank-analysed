@@ -19,7 +19,7 @@
         {
             "rdf:about": "https://github.com/lexibank/lexibank-analysed",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-90-g4f0311f",
+            "dc:created": "v1.0-93-g6ec8cc1",
             "dc:title": "Repository"
         },
         {
@@ -44,7 +44,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.9.6"
+            "dc:description": "3.13.1"
         },
         {
             "dc:title": "python-packages",
