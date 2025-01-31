@@ -82,12 +82,12 @@ This data is contained in the tables [contributions.csv](cldf/contributions.csv)
 $ pip install csvkit
 $ csvcut -c ID,Glottocodes,Concepts,Forms cldf/collections.csv | csvformat -T
 ID      Glottocodes     Concepts        Forms
-LexiCore        2791    3199    1775434
-ClicsCore       2064    3168    1540913
-CogCore 1417    1940    392758
+LexiCore        2791    3208    1775323
+ClicsCore       2064    3177    1540641
+CogCore 1442    1973    414550
 ProtoCore       32      1135    11949
-Lexibank        2791    3199    1775434
-Selexion        2791    3182    1210251
+Lexibank        2791    3208    1775323
+Selexion        2791    3192    1210178
 ```
 
 or list how many source datasets are aggregated in each of these collections:
@@ -192,21 +192,22 @@ You can also easily inspect the data for outliers:
 ```shell
 $ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvstat -c Value
   4. "Value"
+
         Type of data:          Number
         Contains null values:  False
         Non-null values:       4745
         Unique values:         64
         Smallest value:        7
         Largest value:         107
-        Sum:                   115,017
-        Mean:                  24.24
+        Sum:                   115,029
+        Mean:                  24.242
         Median:                23
         StDev:                 8.479
         Most decimal places:   0
         Most common values:    22 (325x)
-                               23 (313x)
+                               23 (311x)
                                20 (297x)
-                               21 (270x)
+                               21 (269x)
                                19 (264x)
 
 Row count: 4745
@@ -227,11 +228,11 @@ cldfbench lexibank-analysed.correlations
 
 | Feature | WALS/LexiCore | WALS/PHOIBLE | LexiCore/PHOIBLE | N |
 |:----------|:----------------|:---------------|:-------------------|----:|
-| 1A | 0.67 / 0.00 | 0.92 / 0.00 | 0.70 / 0.00 | 265 |
-| 2A | 0.54 / 0.00 | 0.68 / 0.00 | 0.71 / 0.00 | 267 |
-| 3A | 0.55 / 0.00 | 0.76 / 0.00 | 0.67 / 0.00 | 267 |
-| 4A | 0.5 / 0.00 | 0.67 / 0.00 | 0.53 / 0.00 | 267 |
-| 5A | 0.36 / 0.00 | 0.55 / 0.00 | 0.58 / 0.00 | 267 |
+| 1A | 0.67 / 0.0 | 0.92 / 0.0 | 0.70 / 0.0 | 265 |
+| 2A | 0.54 / 0.0 | 0.68 / 0.0 | 0.71 / 0.0 | 267 |
+| 3A | 0.55 / 0.0 | 0.76 / 0.0 | 0.67 / 0.0 | 267 |
+| 4A | 0.50 / 0.0 | 0.67 / 0.0 | 0.53 / 0.0 | 267 |
+| 5A | 0.36 / 0.0 | 0.55 / 0.0 | 0.58 / 0.0 | 267 |
 
 ## 4 Data visualization
 
@@ -253,15 +254,15 @@ cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="Forms,
 
 ![coverage](analysis/plots/coverage.png)
 
-We can plot continuous variables on a map, e.g. `ConsonantQualitySize`:
+We can plot continuous variables on a map, e.g. `CVQualityRatio`:
 
 ```shell
-cldfbench cldfviz.map cldf/phonology-metadata.json --parameters ConsonantQualitySize --colormaps plasma --pacific-centered
+cldfbench cldfviz.map cldf/phonology-metadata.json --parameters CVQualityRatio --language-filters '{"Name":"^(?!Adyghe|Yorno So|Togo Kan|Karata$).*$", "Glottocode": "^(?!kajt1238)"}' --colormaps plasma --pacific-centered
 ```
 
 A screenshot of the resulting [leaflet map](https://leafletjs.com/) is shown below. (To plot printable maps, install `cldfviz` with `cartopy` support and choose a different output format using the `--format` option.)
 
-![consonant quality size](analysis/plots/ConsonantQualitySize.png)
+![consonant quality size](analysis/plots/CVQualityRatio.png)
 
 Map plots for categorical variables like `VelarNasal` are supported as well. This feature is equivalent to [feature 9A from WALS](https://wals.info/feature/9A).
 
@@ -294,7 +295,7 @@ cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters SkinInBark --pacif
 You can also plot two features at the same time onto a map. In order to do so, just select those features which you think are useful to be inspected synchronously, and type:
 
 ```shell
-cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters ArmAndHand,LegAndFoot --pacific-centered --base-layer OpenStreetMap --markersize 15
+cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters ArmAndHand,LegAndFoot --pacific-centered --markersize 15
 ```
 
 The resulting plot offers a new account on the data by combining feature information for two features.

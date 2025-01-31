@@ -8,7 +8,7 @@ import csv
 OUT = 'cognateset_diversity.sql'
 
 # load lexibank database
-db = sqlite3.connect("blumpanotacana.sqlite3")
+db = sqlite3.connect("../../lexibank.sqlite3")
 cursor = db.cursor()
 
 # get the data on the language

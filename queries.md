@@ -64,14 +64,12 @@ python colexifications.py --concept_1 'SUN' --concept_2 'MOON'
 
 ## Queries: Semantic diversity of cognate set
 
-The last query is a bit different, since it makes use of a specific Lexibank dataset, `blumpanotacana`. The same query can be run with all datasets of the *CogCore* subset, since all it requires are annotations for cognacy.
+The last query is a bit different, since it makes use of a specific language family and subgroups therein. The same query can be run with all datasets of the *CogCore* subset, since all it requires are annotations for cognacy.
 
 For preparing the data, we only need to clone the repository and create the SQLite database.
 
 ```shell
 cd cognateset_diversity
-git clone https://github.com/pano-takanan-history/blumpanotacana 
-cldf createdb blumpanotacana/cldf/cldf-metadata.json blumpanotacana.sqlite3
 python cognateset_diversity.py
 ```
 
