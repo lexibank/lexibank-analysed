@@ -1,244 +1,58 @@
-L.circle([-5.61864, 38.4114], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Zigua: 4 Hits</b>");
-L.circle([-5.61864, 38.4114], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Zigua: 4 Hits</b>");
-L.circle([-5.61864, 38.4114], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Zigua: 4 Hits</b>");
-L.circle([-5.61864, 38.4114], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Zigua: 4 Hits</b>");
-L.circle([-0.61832, -60.4259], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Waimiri Atroari: 4 Hits</b>");
-L.circle([-0.61832, -60.4259], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Waimiri Atroari: 4 Hits</b>");
-L.circle([-0.61832, -60.4259], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Waimiri Atroari: 4 Hits</b>");
-L.circle([-0.61832, -60.4259], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Waimiri Atroari: 4 Hits</b>");
-L.circle([27.96, 43.85], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Standard Arabic: 4 Hits</b>");
-L.circle([27.96, 43.85], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Standard Arabic: 4 Hits</b>");
-L.circle([27.96, 43.85], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Standard Arabic: 4 Hits</b>");
-L.circle([27.96, 43.85], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Standard Arabic: 4 Hits</b>");
-L.circle([31.54, 103.38], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Qiang (Taoping): 4 Hits</b>");
-L.circle([31.54, 103.38], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Qiang (Taoping): 4 Hits</b>");
-L.circle([31.54, 103.38], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Qiang (Taoping): 4 Hits</b>");
-L.circle([31.54, 103.38], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Qiang (Taoping): 4 Hits</b>");
-L.circle([-5.26918, 35.4808], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Sandawe: 4 Hits</b>");
-L.circle([-5.26918, 35.4808], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Sandawe: 4 Hits</b>");
-L.circle([-5.26918, 35.4808], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Sandawe: 4 Hits</b>");
-L.circle([-5.26918, 35.4808], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Sandawe: 4 Hits</b>");
-L.circle([-4.45258, 151.702], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Qaget: 4 Hits</b>");
-L.circle([-4.45258, 151.702], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Qaget: 4 Hits</b>");
-L.circle([-4.45258, 151.702], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Qaget: 4 Hits</b>");
-L.circle([-4.45258, 151.702], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Qaget: 4 Hits</b>");
-L.circle([-4.45258, 151.702], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Qaget: 4 Hits</b>");
-L.circle([25.0667, 94.6333], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Meluri: 4 Hits</b>");
-L.circle([25.0667, 94.6333], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Meluri: 4 Hits</b>");
-L.circle([25.0667, 94.6333], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Meluri: 4 Hits</b>");
-L.circle([25.0667, 94.6333], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Meluri: 4 Hits</b>");
-L.circle([-5.0112, 145.418], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Parawen: 4 Hits</b>");
-L.circle([-5.0112, 145.418], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Parawen: 4 Hits</b>");
-L.circle([-5.0112, 145.418], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Parawen: 4 Hits</b>");
-L.circle([-5.0112, 145.418], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Parawen: 4 Hits</b>");
-L.circle([32.1, 67.2], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Northern Pashto: 4 Hits</b>");
-L.circle([32.1, 67.2], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Northern Pashto: 4 Hits</b>");
-L.circle([32.1, 67.2], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Northern Pashto: 4 Hits</b>");
-L.circle([32.1, 67.2], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Northern Pashto: 4 Hits</b>");
-L.circle([-0.8652, -72.4249], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Muinane: 4 Hits</b>");
-L.circle([-0.8652, -72.4249], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Muinane: 4 Hits</b>");
-L.circle([-0.8652, -72.4249], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Muinane: 4 Hits</b>");
-L.circle([-0.8652, -72.4249], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Muinane: 4 Hits</b>");
-L.circle([-0.8652, -72.4249], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Muinane: 4 Hits</b>");
-L.circle([-3.18895, 152.606], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Lihir (Sunglik): 4 Hits</b>");
-L.circle([-3.18895, 152.606], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Lihir (Sunglik): 4 Hits</b>");
-L.circle([-3.18895, 152.606], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Lihir (Sunglik): 4 Hits</b>");
-L.circle([-3.18895, 152.606], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Lihir (Sunglik): 4 Hits</b>");
-L.circle([-1.50636, 34.5049], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Kuria_tari: 4 Hits</b>");
-L.circle([-1.50636, 34.5049], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Kuria_tari: 4 Hits</b>");
-L.circle([-1.50636, 34.5049], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Kuria_tari: 4 Hits</b>");
-L.circle([-1.50636, 34.5049], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Kuria_tari: 4 Hits</b>");
-L.circle([-20.6301, 166.59], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Iaai: 4 Hits</b>");
-L.circle([-20.6301, 166.59], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Iaai: 4 Hits</b>");
-L.circle([-20.6301, 166.59], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Iaai: 4 Hits</b>");
-L.circle([-20.6301, 166.59], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Iaai: 4 Hits</b>");
-L.circle([-20.6301, 166.59], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Iaai: 4 Hits</b>");
-L.circle([-6.25844, 38.4902], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Doe: 4 Hits</b>");
-L.circle([-6.25844, 38.4902], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Doe: 4 Hits</b>");
-L.circle([-6.25844, 38.4902], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Doe: 4 Hits</b>");
-L.circle([-6.25844, 38.4902], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Doe: 4 Hits</b>");
-L.circle([0.69618, -67.5028], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Curripaco: 4 Hits</b>");
-L.circle([0.69618, -67.5028], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Curripaco: 4 Hits</b>");
-L.circle([0.69618, -67.5028], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Curripaco: 4 Hits</b>");
-L.circle([0.69618, -67.5028], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Curripaco: 4 Hits</b>");
-L.circle([10.9485, -73.8043], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Kogui: 4 Hits</b>");
-L.circle([10.9485, -73.8043], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Kogui: 4 Hits</b>");
-L.circle([10.9485, -73.8043], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Kogui: 4 Hits</b>");
-L.circle([10.9485, -73.8043], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Kogui: 4 Hits</b>");
-L.circle([9.08497, -72.9353], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Barí: 4 Hits</b>");
-L.circle([9.08497, -72.9353], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Barí: 4 Hits</b>");
-L.circle([9.08497, -72.9353], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Barí: 4 Hits</b>");
-L.circle([9.08497, -72.9353], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Barí: 4 Hits</b>");
-L.circle([42.3966, 46.1041], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Bagvalal: 4 Hits</b>");
-L.circle([42.3966, 46.1041], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Bagvalal: 4 Hits</b>");
-L.circle([42.3966, 46.1041], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Bagvalal: 4 Hits</b>");
-L.circle([42.3966, 46.1041], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Bagvalal: 4 Hits</b>");
-L.circle([-6.22711, 150.182], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Akolet: 4 Hits</b>");
-L.circle([-6.22711, 150.182], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Akolet: 4 Hits</b>");
-L.circle([-6.22711, 150.182], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Akolet: 4 Hits</b>");
-L.circle([-6.22711, 150.182], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Akolet: 4 Hits</b>");
-L.circle([10.5328, 119.655], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Agutyanen: 4 Hits</b>");
-L.circle([10.5328, 119.655], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Agutyanen: 4 Hits</b>");
-L.circle([10.5328, 119.655], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Agutyanen: 4 Hits</b>");
-L.circle([10.5328, 119.655], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 100000.0}).addTo(map)
-.bindPopup("<b>Agutyanen: 4 Hits</b>");
-L.circle([-5.49605, 145.361], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>sop: 5 Hits</b>");
-L.circle([-5.49605, 145.361], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>sop: 5 Hits</b>");
-L.circle([-5.49605, 145.361], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>sop: 5 Hits</b>");
-L.circle([-5.49605, 145.361], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>sop: 5 Hits</b>");
-L.circle([-5.49605, 145.361], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>sop: 5 Hits</b>");
-L.circle([24.324, 120.577], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Hoanya Ts82: 5 Hits</b>");
-L.circle([24.324, 120.577], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Hoanya Ts82: 5 Hits</b>");
-L.circle([24.324, 120.577], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Hoanya Ts82: 5 Hits</b>");
-L.circle([24.324, 120.577], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Hoanya Ts82: 5 Hits</b>");
-L.circle([24.324, 120.577], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Hoanya Ts82: 5 Hits</b>");
-L.circle([-5.79734, 37.6823], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Nguungulu: 5 Hits</b>");
-L.circle([-5.79734, 37.6823], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Nguungulu: 5 Hits</b>");
-L.circle([-5.79734, 37.6823], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Nguungulu: 5 Hits</b>");
-L.circle([-5.79734, 37.6823], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Nguungulu: 5 Hits</b>");
-L.circle([-5.79734, 37.6823], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Nguungulu: 5 Hits</b>");
-L.circle([-23.0, -69.0], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Kunza: 5 Hits</b>");
-L.circle([-23.0, -69.0], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Kunza: 5 Hits</b>");
-L.circle([-23.0, -69.0], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Kunza: 5 Hits</b>");
-L.circle([-23.0, -69.0], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Kunza: 5 Hits</b>");
-L.circle([-23.0, -69.0], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Kunza: 5 Hits</b>");
-L.circle([-23.0, -69.0], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Kunza: 5 Hits</b>");
-L.circle([-5.5087, 148.666], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Bariai: 5 Hits</b>");
-L.circle([-5.5087, 148.666], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Bariai: 5 Hits</b>");
-L.circle([-5.5087, 148.666], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Bariai: 5 Hits</b>");
-L.circle([-5.5087, 148.666], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Bariai: 5 Hits</b>");
-L.circle([-5.5087, 148.666], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'lightgray', radius: 125000.0}).addTo(map)
-.bindPopup("<b>Bariai: 5 Hits</b>");
-L.circle([-10.6748, 142.196], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 150000.0}).addTo(map)
-.bindPopup("<b>Mabuiag: 6 Hits</b>");
-L.circle([-10.6748, 142.196], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 150000.0}).addTo(map)
-.bindPopup("<b>Mabuiag: 6 Hits</b>");
-L.circle([-10.6748, 142.196], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 150000.0}).addTo(map)
-.bindPopup("<b>Mabuiag: 6 Hits</b>");
-L.circle([-10.6748, 142.196], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 150000.0}).addTo(map)
-.bindPopup("<b>Mabuiag: 6 Hits</b>");
-L.circle([-10.6748, 142.196], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 150000.0}).addTo(map)
-.bindPopup("<b>Mabuiag: 6 Hits</b>");
-L.circle([-10.6748, 142.196], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 150000.0}).addTo(map)
-.bindPopup("<b>Mabuiag: 6 Hits</b>");
-L.circle([-25.0747, 17.9767], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'black', radius: 175000.0}).addTo(map)
-.bindPopup("<b>Nama: 7 Hits</b>");
-L.circle([-25.0747, 17.9767], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'black', radius: 175000.0}).addTo(map)
-.bindPopup("<b>Nama: 7 Hits</b>");
-L.circle([-25.0747, 17.9767], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'black', radius: 175000.0}).addTo(map)
-.bindPopup("<b>Nama: 7 Hits</b>");
-L.circle([-25.0747, 17.9767], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'black', radius: 175000.0}).addTo(map)
-.bindPopup("<b>Nama: 7 Hits</b>");
-L.circle([-25.0747, 17.9767], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'black', radius: 175000.0}).addTo(map)
-.bindPopup("<b>Nama: 7 Hits</b>");
-L.circle([-25.0747, 17.9767], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'black', radius: 175000.0}).addTo(map)
-.bindPopup("<b>Nama: 7 Hits</b>");
-L.circle([-25.0747, 17.9767], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'black', radius: 175000.0}).addTo(map)
-.bindPopup("<b>Nama: 7 Hits</b>");
+L.circle([-8.41095, -57.691], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Mundurukú: k a + ʃ i</b>");
+L.circle([0.39441, -70.043515], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Tuyuca: b ũ ĩ p ũ</b>");
+L.circle([0.58157, -69.4955], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Desano: a a b ɛ</b>");
+L.circle([1.32382, -70.1939], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Cubeo: a w i a</b>");
+L.circle([0.02193, -70.808], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Barasana: b ũ h ĩ h ũ</b>");
+L.circle([46.7981, -123.169], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Upper Chehalis: ɬ u kʷ a ɬ</b>");
+L.circle([-5.73914, -72.6281], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Matses: u ʂ ɨ</b>");
+L.circle([-4.9222, 145.683], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Garus: k a l a m</b>");
+L.circle([-6.31631, 145.997], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Gadsup: i k o n a</b>");
+L.circle([-6.65534, 145.714], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Awa: i j o</b>");
+L.circle([0.2485, -69.8079], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Yuhup: w æ dʰ ɔ</b>");
+L.circle([0.166667, -69.25], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Hup: w æ d + h ɔ</b>");
+L.circle([-0.1177, -67.2934], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Dâw: x ʉ t ʉ m</b>");
+L.circle([-2.8406, 136.899], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Tause: s o</b>");
+L.circle([-2.88029, 137.924], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Obokuitai: s o</b>");
+L.circle([-3.18494, 137.282], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Kirikiri: t ɔ</b>");
+L.circle([-2.71182, 138.053], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Eritai: s o</b>");
+L.circle([-3.11078, 137.387], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Edopi: s u</b>");
+L.circle([-2.92042, 137.68], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Biritai: s o</b>");
+L.circle([2.65939, -71.4629], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Nukak: w i d ʔ</b>");
+L.circle([6.90948, -71.0036], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Playero: h u a m e t o</b>");
+L.circle([5.81736, -68.9839], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Guahibo: h u a m e t o</b>");
+L.circle([-2.44717, 137.629], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Bauzi: a l a</b>");
+L.circle([8.5, -78.0], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Wounaan: e d a u</b>");
+L.circle([-6.64861, 142.993], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Kasua: o p o</b>");
+L.circle([-0.8652, -72.4249], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Muinane: n ɨ ʔ ɨ b a</b>");
+L.circle([0.71489, -79.0508], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Cayapa: p a h t a</b>");
+L.circle([-7.5501, 142.998], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Mubami: b u b e i</b>");
+L.circle([43.63, 142.46], {color: 'black', fillOpacity: 1, weight: 1, fillColor: 'darkgray', radius: 3e5}).addTo(map)
+.bindPopup("<b>Hokkaido Ainu: ts u p</b>");

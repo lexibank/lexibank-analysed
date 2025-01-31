@@ -8,7 +8,7 @@ clldutils==3.22.2
 colorama==0.4.6
 colorlog==6.8.2
 commonnexus==1.9.2
-csvw==3.3.0
+csvw==3.5.1
 idna==3.7
 importlib_metadata==8.0.0
 isodate==0.6.1
@@ -23,7 +23,7 @@ Markdown==3.6
 MarkupSafe==2.1.5
 networkx==3.2.1
 newick==1.9.0
-numpy==2.0.0
+numpy==2.2.2
 pybtex==0.24.0
 pycldf==1.40.4
 pylatexenc==2.10
