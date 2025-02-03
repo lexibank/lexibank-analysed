@@ -28,9 +28,9 @@ COLLECTIONS = {
         'by the CLTS system and in which at least 100 concepts can be linked to Concepticon.',
         'wordlists with phonetic transcriptions and at least 100 concepts)'),
     'ClicsCore': (
-        'Wordlists with large form inventories in which at least 250 concepts can be linked to '
+        'Wordlists with large form inventories in which at least 180 concepts can be linked to '
         'the Concepticon',
-        'large wordlists with at least 250 concepts'),
+        'large wordlists with at least 180 concepts'),
     'CogCore': (
         'Wordlists with phonetic transcriptions in which cognate sets have been annotated '
         '(a subset of LexiCore)',
