@@ -1166,7 +1166,7 @@ gerarditupi-Nheengatu,Nheengatu,South America,1.04503,-66.9646,nhen1239,,gerardi
 gerarditupi-Kokama,Kokama,South America,-4.5,-74.0,coca1259,,gerarditupi,232,232,230,LexiCore,1,1,1,0,0,,Tupian,Tupian
 gerarditupi-Omagua,Omagua,South America,-3.526,-69.1667,omag1248,,gerarditupi,207,207,205,LexiCore,1,1,1,0,0,,Tupian,Tupian
 gerarditupi-Yuki,Yuki,South America,-16.7875,-64.9438,yuqu1240,,gerarditupi,195,195,194,LexiCore,1,1,1,0,0,,Tupian,Tupian
-gerarditupi-Guarayo,Guarayo,South America,-15.8247,-61.6934,guar1292,,gerarditupi,207,207,205,LexiCore,1,1,1,0,0,,Tupian,Tupian
+gerarditupi-Guarayo,Guarayo,South America,-15.8247,-61.6934,guar1292,,gerarditupi,207,207,205,LexiCore Selexion,1,1,1,0,1,,Tupian,Tupian
 gerarditupi-Siriono,Sirionó,South America,-15.5298,-63.9688,siri1273,,gerarditupi,223,223,221,LexiCore,1,1,1,0,0,,Tupian,Tupian
 gerarditupi-Warazu,Warazu,South America,-12.8553,-63.1903,paus1244,,gerarditupi,236,236,234,LexiCore,1,1,1,0,0,,Tupian,Tupian
 gerarditupi-Chiriguano,Chiriguano,South America,-20.42,-63.37,east2555,,gerarditupi,240,240,238,LexiCore,1,1,1,0,0,,Tupian,Tupian
@@ -3692,65 +3692,65 @@ tryonsolomon-vangunu,Vangunu,Papunesia,-8.66826,157.997,vang1243,,tryonsolomon,3
 tryonsolomon-vano,Vano,Papunesia,-11.6107,166.7984,vano1237,,tryonsolomon,330,330,307,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
 tryonsolomon-varisi,Varisi,Papunesia,-6.83443,156.655,vari1239,,tryonsolomon,339,339,311,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
 tryonsolomon-waladelaus,Walade (LauS),Papunesia,-8.51018,160.872,lauu1247,,tryonsolomon,314,314,288,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
-tuled-Akuntsu,Akuntsu,South America,-12.8322,-60.9716,akun1241,,tuled,431,431,390,LexiCore Selexion,1,1,0,0,1,Tuparí,Tupian,Tupian
-tuled-Amondawa,Amondawa,South America,-9.04023,-62.3064,amun1246,,tuled,366,366,314,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Anambe,Anambe,South America,-2.71119,-49.303,anam1249,,tuled,225,225,214,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Apiaka,Apiaka,South America,-7.84711,-57.91,apia1248,,tuled,296,296,276,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Arawete,Araweté,South America,-4.90246,-52.5001,araw1273,,tuled,321,321,302,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Arikem,Arikem,South America,-8.92,-63.74,arik1264,,tuled,239,239,206,LexiCore Selexion,1,1,0,0,1,Arikem,Tupian,Tupian
-tuled-Arua,Arua,South America,-12.12,-62.44,arua1261,,tuled,209,209,194,LexiCore Selexion,1,1,0,0,1,Mondé,Tupian,Tupian
-tuled-AsuriniTocantins,Asuriní Tocantins,South America,-3.59359,-49.8991,toca1235,,tuled,394,394,357,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-AsuriniXingu,Asuriní Xingu,South America,-4.13463,-52.321,xing1248,,tuled,302,302,271,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Aweti,Awetí,South America,-12.381944,-53.391944,awet1244,,tuled,435,435,396,LexiCore Selexion,1,1,0,0,1,Aweti,Tupian,Tupian
-tuled-Chiriguano,Chiriguano,South America,-20.42,-63.37,east2555,,tuled,409,409,385,LexiCore,1,1,0,0,0,Tupi-Guarani,Tupian,Tupian
-tuled-Nandeva,Ñandeva,South America,-25.65,-55.05,chir1286,,tuled,140,140,120,LexiCore Selexion,1,0,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-CintaLarga,Cinta-Larga,South America,-10.5879,-60.8312,cint1239,,tuled,197,197,181,LexiCore Selexion,1,1,0,0,1,Mondé,Tupian,Tupian
-tuled-Kokama,Kokama,South America,-4.5,-74,coca1259,,tuled,383,383,354,LexiCore Selexion,1,1,0,0,1,Omagua-Kokama,Tupian,Tupian
-tuled-Teko,Teko,South America,3.23694,-52.3699,emer1243,,tuled,470,470,411,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Gaviao,Gavião,South America,-10.7235,-61.6752,gavi1246,,tuled,489,489,400,LexiCore Selexion,1,1,0,0,1,Mondé,Tupian,Tupian
-tuled-Guaja,Guajá,South America,-3.93574,-46.3683,guaj1256,,tuled,390,390,344,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Guajajara,Guajajara,South America,-4.69461,-45.7081,guaj1255,,tuled,473,473,414,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Guarani,Guaraní,South America,-25.60551,-57.08816,para1311,,tuled,480,480,422,LexiCore,1,1,0,0,0,Tupi-Guarani,Tupian,Tupian
-tuled-Guarayo,Guarayo,South America,-15.8247,-61.6934,guar1292,,tuled,430,430,384,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Ache,Ache,South America,-25.5865,-56.4697,ache1246,,tuled,382,382,350,LexiCore,1,1,0,0,0,Tupi-Guarani,Tupian,Tupian
-tuled-Juruna,Juruna,South America,-10.9354,-53.3472,juru1256,,tuled,406,406,357,LexiCore Selexion,1,1,0,0,1,Juruna,Tupian,Tupian
-tuled-Kaapor,Ka'apor,South America,-2.46455,-46.2204,urub1250,,tuled,446,446,407,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Kaiowa,Kaiowa,South America,-24.589,-54.6815,kaiw1246,,tuled,236,236,222,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Kamajura,Kamajura,South America,-12.2661,-53.4651,kama1373,,tuled,304,304,289,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Karitiana,Karitiana,South America,-9.37937,-64.1522,kari1311,,tuled,487,487,395,LexiCore Selexion,1,1,0,0,1,Arikem,Tupian,Tupian
-tuled-Karo,Karo,South America,-10.3342,-61.5691,karo1305,,tuled,427,426,387,LexiCore Selexion,1,1,0,0,1,Ramarana-Purubora,Tupian,Tupian
-tuled-Kayabi,Kayabi,South America,-11.2747,-55.5479,kaya1329,,tuled,299,299,283,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Kepkiriwat,Kepkiriwat,South America,-11.66,-61.25,kepk1241,,tuled,194,194,178,LexiCore Selexion,1,0,0,0,1,Tuparí,Tupian,Tupian
-tuled-Kuruaya,Kuruaya,South America,-3.09561,-52.2303,kuru1309,,tuled,323,323,287,LexiCore Selexion,1,1,0,0,1,Munduruku,Tupian,Tupian
-tuled-TupiAustral,Tupí Austral,South America,-23.95,-46.38,tupi1274,,tuled,329,329,264,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Makurap,Makurap,South America,-11.8701,-64.3201,maku1278,,tuled,459,459,401,LexiCore Selexion,1,1,0,0,1,Tuparí,Tupian,Tupian
-tuled-Mbya,Mbya,South America,-26.0188,-52.711,mbya1239,,tuled,400,400,364,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Mekens,Mekens,South America,-13.054,-62.0927,saki1248,,tuled,419,419,361,LexiCore Selexion,1,1,0,0,1,Tuparí,Tupian,Tupian
-tuled-Monde,Monde,South America,-12.0499,-61.25,sala1273,,tuled,276,276,250,LexiCore Selexion,1,1,0,0,1,Mondé,Tupian,Tupian
-tuled-Munduruku,Mundurukú,South America,-8.41095,-57.691,mund1330,,tuled,503,503,405,LexiCore,1,1,0,0,0,Munduruku,Tupian,Tupian
-tuled-Nheengatu,Nheengatu,South America,1.04503,-66.9646,nhen1239,,tuled,426,426,391,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Omagua,Omagua,South America,-3.53,-69.17,omag1248,,tuled,374,373,353,LexiCore Selexion,1,1,0,0,1,Omagua-Kokama,Tupian,Tupian
-tuled-Parakana,Parakana,South America,-4.64681,-50.0621,para1312,,tuled,390,390,355,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Parintintin,Parintintin,South America,-7.92626,-61.936,tenh1241,,tuled,464,464,409,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Purubora,Purubora,South America,-11.4226,-62.4358,puru1264,,tuled,313,313,256,LexiCore Selexion,1,1,0,0,1,Ramarana-Purubora,Tupian,Tupian
-tuled-Mawe,Mawe,South America,-3.63897,-56.8749,sate1243,,tuled,424,424,382,LexiCore Selexion,1,1,0,0,1,Mawé,Tupian,Tupian
-tuled-Siriono,Siriono,South America,-15.5298,-63.9688,siri1273,,tuled,474,474,400,LexiCore,1,1,0,0,0,Tupi-Guarani,Tupian,Tupian
-tuled-SuruiAikewara,Surui-Aikewara,South America,-5.93,-48.59,suru1261,,tuled,381,381,354,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-SuruiPaiter,Surui-Paiter,South America,-11.0989,-61.2818,suru1262,,tuled,443,443,368,LexiCore Selexion,1,1,0,0,1,Mondé,Tupian,Tupian
-tuled-Tapiete,Tapiete,South America,-21.4169,-62.684,tapi1253,,tuled,358,358,334,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Tapirape,Tapirapé,South America,-10.5373,-50.5438,tapi1254,,tuled,305,305,292,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Tembe,Tembe,South America,-2.6123,-48.2359,temb1276,,tuled,455,455,401,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Tupari,Tupari,South America,-11.8884,-62.2544,tupa1250,,tuled,469,469,420,LexiCore Selexion,1,1,0,0,1,Tuparí,Tupian,Tupian
-tuled-Tupinamba,Tupinambá,South America,-8.1055,-34.887,tupi1273,,tuled,508,508,422,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Urueuwauwau,Urueuwauwau,South America,-10.9176,-63.8086,urue1240,,tuled,273,273,260,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Warazu,Warazu,South America,-12.8553,-63.1903,paus1244,,tuled,380,380,359,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Wayampi,Wayampi,South America,1.73817,-52.6887,waya1270,,tuled,491,491,423,LexiCore,1,1,0,0,0,Tupi-Guarani,Tupian,Tupian
-tuled-Wayoro,Wayoro,South America,-12.6945,-61.3064,wayo1238,,tuled,374,374,340,LexiCore Selexion,1,1,0,0,1,Tuparí,Tupian,Tupian
-tuled-Xeta,Xeta,South America,-24.9408,-52.2266,xeta1241,,tuled,332,332,261,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Xipaya,Xipaya,South America,-4.133,-49.948,xipa1240,,tuled,382,382,342,LexiCore Selexion,1,1,0,0,1,Juruna,Tupian,Tupian
-tuled-Yuki,Yuki,South America,-16.7875,-64.9438,yuqu1240,,tuled,324,324,293,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Zoe,Zo'e,South America,-1.77,-55.51,zoee1240,,tuled,391,391,349,LexiCore Selexion,1,1,0,0,1,Tupi-Guarani,Tupian,Tupian
-tuled-Zoro,Zoro,South America,-10.7235,-61.6752,gavi1246,,tuled,203,202,195,LexiCore,1,1,0,0,0,Mondé,Tupian,Tupian
+tuled-Arikem,Arikem,South America,-8.92,-63.74,arik1264,,tuled,250,250,217,LexiCore Selexion,1,1,1,0,1,Arikem,Tupian,Tupian
+tuled-Karitiana,Karitiana,South America,-9.37937,-64.1522,kari1311,,tuled,493,493,402,LexiCore Selexion,1,1,1,0,1,Arikem,Tupian,Tupian
+tuled-AsuriniTocantins,Asuriní Tocantins,South America,-3.59359,-49.8991,toca1235,,tuled,393,393,364,LexiCore Selexion,1,1,1,0,1,ATP-Tupi-Guarani,Tupian,Tupian
+tuled-Parakana,Parakana,South America,-4.64681,-50.0621,para1312,,tuled,389,389,359,LexiCore Selexion,1,1,1,0,1,ATP-Tupi-Guarani,Tupian,Tupian
+tuled-Aweti,Awetí,South America,-12.381944,-53.391944,awet1244,,tuled,443,443,402,LexiCore Selexion,1,1,1,0,1,Aweti,Tupian,Tupian
+tuled-Chiriguano,Chiriguano,South America,-20.42,-63.37,east2555,,tuled,410,410,380,LexiCore,1,1,1,0,0,Guarani,Tupian,Tupian
+tuled-Nandeva,Ñandeva,South America,-25.65,-55.05,chir1286,,tuled,140,140,120,LexiCore Selexion,1,0,1,0,1,Guarani,Tupian,Tupian
+tuled-Guarani,Guaraní,South America,-25.60551,-57.08816,para1311,,tuled,480,480,429,LexiCore,1,1,1,0,0,Guarani,Tupian,Tupian
+tuled-Guarayo,Guarayo,South America,-15.8247,-61.6934,guar1292,,tuled,161,161,148,LexiCore,1,0,1,0,0,Guarani,Tupian,Tupian
+tuled-Ache,Ache,South America,-25.5865,-56.4697,ache1246,,tuled,380,380,348,LexiCore,1,1,1,0,0,Guarani,Tupian,Tupian
+tuled-Mbya,Mbya,South America,-26.0188,-52.711,mbya1239,,tuled,399,399,370,LexiCore Selexion,1,1,1,0,1,Guarani,Tupian,Tupian
+tuled-Tapiete,Tapiete,South America,-21.4169,-62.684,tapi1253,,tuled,358,358,336,LexiCore Selexion,1,1,1,0,1,Guarani,Tupian,Tupian
+tuled-Xeta,Xeta,South America,-24.9408,-52.2266,xeta1241,,tuled,331,331,263,LexiCore Selexion,1,1,1,0,1,Guarani,Tupian,Tupian
+tuled-Juruna,Juruna,South America,-10.9354,-53.3472,juru1256,,tuled,408,408,365,LexiCore Selexion,1,1,1,0,1,Juruna,Tupian,Tupian
+tuled-Xipaya,Xipaya,South America,-4.133,-49.948,xipa1240,,tuled,385,385,354,LexiCore Selexion,1,1,1,0,1,Juruna,Tupian,Tupian
+tuled-Amondawa,Amondawa,South America,-9.04023,-62.3064,amun1246,,tuled,364,364,318,LexiCore Selexion,1,1,1,0,1,Kawahiv-Tupi-Guarani,Tupian,Tupian
+tuled-Apiaka,Apiaka,South America,-7.84711,-57.91,apia1248,,tuled,296,296,280,LexiCore Selexion,1,1,1,0,1,Kawahiv-Tupi-Guarani,Tupian,Tupian
+tuled-Kaiowa,Kaiowa,South America,-24.589,-54.6815,kaiw1246,,tuled,240,240,226,LexiCore Selexion,1,1,1,0,1,Kawahiv-Tupi-Guarani,Tupian,Tupian
+tuled-Parintintin,Parintintin,South America,-7.92626,-61.936,tenh1241,,tuled,461,461,415,LexiCore Selexion,1,1,1,0,1,Kawahiv-Tupi-Guarani,Tupian,Tupian
+tuled-Urueuwauwau,Urueuwauwau,South America,-10.9176,-63.8086,urue1240,,tuled,272,272,261,LexiCore Selexion,1,1,1,0,1,Kawahiv-Tupi-Guarani,Tupian,Tupian
+tuled-Mawe,Mawe,South America,-3.63897,-56.8749,sate1243,,tuled,437,437,393,LexiCore Selexion,1,1,1,0,1,Mawé,Tupian,Tupian
+tuled-Arua,Arua,South America,-12.12,-62.44,arua1261,,tuled,277,277,251,LexiCore Selexion,1,1,1,0,1,Mondé,Tupian,Tupian
+tuled-CintaLarga,Cinta-Larga,South America,-10.5879,-60.8312,cint1239,,tuled,197,197,184,LexiCore Selexion,1,1,1,0,1,Mondé,Tupian,Tupian
+tuled-Gaviao,Gavião,South America,-10.7235,-61.6752,gavi1246,,tuled,490,490,408,LexiCore Selexion,1,1,1,0,1,Mondé,Tupian,Tupian
+tuled-Monde,Monde,South America,-12.0499,-61.25,sala1273,,tuled,280,280,254,LexiCore Selexion,1,1,1,0,1,Mondé,Tupian,Tupian
+tuled-SuruiPaiter,Surui-Paiter,South America,-11.0989,-61.2818,suru1262,,tuled,454,454,379,LexiCore Selexion,1,1,1,0,1,Mondé,Tupian,Tupian
+tuled-Zoro,Zoro,South America,-10.7235,-61.6752,gavi1246,,tuled,206,206,202,LexiCore,1,1,1,0,0,Mondé,Tupian,Tupian
+tuled-Kuruaya,Kuruaya,South America,-3.09561,-52.2303,kuru1309,,tuled,332,332,296,LexiCore Selexion,1,1,1,0,1,Munduruku,Tupian,Tupian
+tuled-Munduruku,Mundurukú,South America,-8.41095,-57.691,mund1330,,tuled,510,510,415,LexiCore,1,1,1,0,0,Munduruku,Tupian,Tupian
+tuled-Kokama,Kokama,South America,-4.5,-74,coca1259,,tuled,382,382,359,LexiCore Selexion,1,1,1,0,1,Omagua-Kokama,Tupian,Tupian
+tuled-Omagua,Omagua,South America,-3.53,-69.17,omag1248,,tuled,371,371,353,LexiCore Selexion,1,1,1,0,1,Omagua-Kokama,Tupian,Tupian
+tuled-Karo,Karo,South America,-10.3342,-61.5691,karo1305,,tuled,432,432,399,LexiCore Selexion,1,1,1,0,1,Ramarana-Purubora,Tupian,Tupian
+tuled-Purubora,Purubora,South America,-11.4226,-62.4358,puru1264,,tuled,319,319,263,LexiCore Selexion,1,1,1,0,1,Ramarana-Purubora,Tupian,Tupian
+tuled-Siriono,Siriono,South America,-15.5298,-63.9688,siri1273,,tuled,474,474,405,LexiCore,1,1,1,0,0,SY-Tupi-Guarani,Tupian,Tupian
+tuled-Yuki,Yuki,South America,-16.7875,-64.9438,yuqu1240,,tuled,324,324,294,LexiCore Selexion,1,1,1,0,1,SY-Tupi-Guarani,Tupian,Tupian
+tuled-Guajajara,Guajajara,South America,-4.69461,-45.7081,guaj1255,,tuled,472,472,423,LexiCore Selexion,1,1,1,0,1,Tenetehara,Tupian,Tupian
+tuled-Tembe,Tembe,South America,-2.6123,-48.2359,temb1276,,tuled,453,453,408,LexiCore Selexion,1,1,1,0,1,Tenetehara,Tupian,Tupian
+tuled-TupiAustral,Tupí Austral,South America,-23.95,-46.38,tupi1274,,tuled,328,328,267,LexiCore Selexion,1,1,1,0,1,TLN,Tupian,Tupian
+tuled-Nheengatu,Nheengatu,South America,1.04503,-66.9646,nhen1239,,tuled,442,442,412,LexiCore Selexion,1,1,1,0,1,TLN,Tupian,Tupian
+tuled-Tupinamba,Tupinambá,South America,-8.1055,-34.887,tupi1273,,tuled,509,509,431,LexiCore Selexion,1,1,1,0,1,TLN,Tupian,Tupian
+tuled-Akuntsu,Akuntsu,South America,-12.8322,-60.9716,akun1241,,tuled,442,442,401,LexiCore Selexion,1,1,1,0,1,Tuparí,Tupian,Tupian
+tuled-Kepkiriwat,Kepkiriwat,South America,-11.66,-61.25,kepk1241,,tuled,194,194,179,LexiCore Selexion,1,0,1,0,1,Tuparí,Tupian,Tupian
+tuled-Makurap,Makurap,South America,-11.8701,-64.3201,maku1278,,tuled,459,459,409,LexiCore Selexion,1,1,1,0,1,Tuparí,Tupian,Tupian
+tuled-Mekens,Mekens,South America,-13.054,-62.0927,saki1248,,tuled,417,417,367,LexiCore Selexion,1,1,1,0,1,Tuparí,Tupian,Tupian
+tuled-Tupari,Tupari,South America,-11.8884,-62.2544,tupa1250,,tuled,470,470,428,LexiCore Selexion,1,1,1,0,1,Tuparí,Tupian,Tupian
+tuled-Wayoro,Wayoro,South America,-12.6945,-61.3064,wayo1238,,tuled,377,377,346,LexiCore Selexion,1,1,1,0,1,Tuparí,Tupian,Tupian
+tuled-Anambe,Anambe,South America,-2.71119,-49.303,anam1249,,tuled,224,224,214,LexiCore Selexion,1,1,1,0,1,Tupi-Guarani,Tupian,Tupian
+tuled-Arawete,Araweté,South America,-4.90246,-52.5001,araw1273,,tuled,320,320,307,LexiCore Selexion,1,1,1,0,1,Tupi-Guarani,Tupian,Tupian
+tuled-AsuriniXingu,Asuriní Xingu,South America,-4.13463,-52.321,xing1248,,tuled,300,300,275,LexiCore Selexion,1,1,1,0,1,Tupi-Guarani,Tupian,Tupian
+tuled-Guaja,Guajá,South America,-3.93574,-46.3683,guaj1256,,tuled,387,387,348,LexiCore Selexion,1,1,1,0,1,Tupi-Guarani,Tupian,Tupian
+tuled-Kaapor,Ka'apor,South America,-2.46455,-46.2204,urub1250,,tuled,445,445,417,LexiCore Selexion,1,1,1,0,1,Tupi-Guarani,Tupian,Tupian
+tuled-Kamajura,Kamajura,South America,-12.2661,-53.4651,kama1373,,tuled,306,306,295,LexiCore Selexion,1,1,1,0,1,Tupi-Guarani,Tupian,Tupian
+tuled-Kayabi,Kayabi,South America,-11.2747,-55.5479,kaya1329,,tuled,298,298,285,LexiCore Selexion,1,1,1,0,1,Tupi-Guarani,Tupian,Tupian
+tuled-SuruiAikewara,Surui-Aikewara,South America,-5.93,-48.59,suru1261,,tuled,380,380,360,LexiCore Selexion,1,1,1,0,1,Tupi-Guarani,Tupian,Tupian
+tuled-Tapirape,Tapirapé,South America,-10.5373,-50.5438,tapi1254,,tuled,304,304,293,LexiCore Selexion,1,1,1,0,1,Tupi-Guarani,Tupian,Tupian
+tuled-Warazu,Warazu,South America,-12.8553,-63.1903,paus1244,,tuled,378,378,363,LexiCore Selexion,1,1,1,0,1,Tupi-Guarani,Tupian,Tupian
+tuled-Teko,Teko,South America,3.23694,-52.3699,emer1243,,tuled,471,471,420,LexiCore Selexion,1,1,1,0,1,TWZ,Tupian,Tupian
+tuled-Wayampi,Wayampi,South America,1.73817,-52.6887,waya1270,,tuled,490,490,430,LexiCore,1,1,1,0,0,TWZ,Tupian,Tupian
+tuled-Zoe,Zo'e,South America,-1.77,-55.51,zoee1240,,tuled,388,388,351,LexiCore Selexion,1,1,1,0,1,TWZ,Tupian,Tupian
 vanuatuvoices-Alavasalavas,Alavas: Alavas,Papunesia,-15.89046,167.24151,vovo1238,,vanuatuvoices,172,172,167,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Alavaswowo,Alavas: Wowo,Papunesia,-15.90293,167.18499,vovo1238,,vanuatuvoices,174,174,167,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Atchinorap,Atchin: Orap,Papunesia,-15.9156,167.30641,atch1238,,vanuatuvoices,181,181,174,LexiCore Selexion,1,0,0,0,1,,Austronesian,Austronesian
