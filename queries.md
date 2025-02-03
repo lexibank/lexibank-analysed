@@ -89,6 +89,6 @@ python cognateset_diversity.py
 
 The script provides an output of the different concepts that are annotated for cognacy, as well as the amount of languages in each subgroup that features such semantic value. The result can be visualized by a colexification network.
 
-![Example](analysis/queries/cognateset_diversity/cog_moon.png){width=50%}
+<img src='analysis/queries/cognateset_diversity/cog_moon.png' width="250">
 
 In the example we can see that cognateset *4280* features a range of different semantics, where all Tacanan languages have the meaning of MOON, while the Panoan languages feature YEAR, SUN, DAY, and others.
