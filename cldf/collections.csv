@@ -1,6 +1,6 @@
 ID,Name,Description,Varieties,Glottocodes,Concepts,Forms
 LexiCore,wordlists with phonetic transcriptions and at least 100 concepts),Wordlists with phonetic transcriptions in which sound segments can be readily described by the CLTS system and in which at least 100 concepts can be linked to Concepticon.,4745,2791,3208,1775323
-ClicsCore,large wordlists with at least 250 concepts,Wordlists with large form inventories in which at least 250 concepts can be linked to the Concepticon,3238,2064,3177,1540641
+ClicsCore,large wordlists with at least 180 concepts,Wordlists with large form inventories in which at least 180 concepts can be linked to the Concepticon,3238,2064,3177,1540641
 CogCore,wordlists with phonetic transcriptions and cognate sets,Wordlists with phonetic transcriptions in which cognate sets have been annotated (a subset of LexiCore),1952,1442,1973,414550
 ProtoCore,"wordlists with phonetic transcriptions, cognate sets, and proto-languages",Wordlists with phonetic transcriptions in which cognate sets have been annotated and which contain one or more ancestral languages whose forms are proto-forms from which forms in the descendant languages can be derived (a subset of CogCore),34,32,1135,11949
 Lexibank,all wordlists in the Lexibank collection,Metacollection of wordlists belonging to either of the datasets,4745,2791,3208,1775323
