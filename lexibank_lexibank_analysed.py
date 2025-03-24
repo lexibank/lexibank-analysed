@@ -50,7 +50,7 @@ COLLECTIONS = {
 }
 
 CONDITIONS = {
-    "LexiCore": lambda x: len(x.forms_with_sounds) >= 100 and len(x.concepts) >= 100,
+    "LexiCore": lambda x: len(x.forms_with_sounds) >= 80 and len(x.concepts) >= 80,
     "ClicsCore": lambda x: len(x.forms_with_sounds) >= 180 and len(x.concepts) >= 180,
     "ProtoCore": lambda x: len(x.forms_with_sounds) >= 80 and len(x.concepts) >= 80,
     "CogCore": lambda x: len(x.forms_with_sounds) >= 80 and len(x.concepts) >= 80,
