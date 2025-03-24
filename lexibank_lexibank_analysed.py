@@ -25,8 +25,8 @@ from lingpy.sequence.sound_classes import prosodic_string
 COLLECTIONS = {
     'LexiCore': (
         'Wordlists with phonetic transcriptions in which sound segments can be readily described '
-        'by the CLTS system and in which at least 100 concepts can be linked to Concepticon.',
-        'wordlists with phonetic transcriptions and at least 100 concepts)'),
+        'by the CLTS system and in which at least 80 concepts can be linked to Concepticon.',
+        'wordlists with phonetic transcriptions and at least 80 concepts)'),
     'ClicsCore': (
         'Wordlists with large form inventories in which at least 180 concepts can be linked to '
         'the Concepticon',

@@ -8,7 +8,7 @@
    height="477.64935"
    viewBox="0 0 1320.5348 477.64935"
    sodipodi:docname="core_sets.svg"
-   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,13 +25,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.98419389"
-     inkscape:cx="339.87205"
-     inkscape:cy="242.83833"
-     inkscape:window-width="3840"
-     inkscape:window-height="2085"
+     inkscape:cx="339.36403"
+     inkscape:cy="243.34636"
+     inkscape:window-width="1200"
+     inkscape:window-height="1186"
      inkscape:window-x="0"
-     inkscape:window-y="51"
-     inkscape:window-maximized="1"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
      inkscape:current-layer="g1">
     <inkscape:page
        x="0"
@@ -237,8 +237,8 @@
          id="tspan26"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-size:20px;font-family:FreeSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
          x="0"
-         dx="0 0 0 0 0 0 0 0 -0.20000026 -0.20000026 0 0 -0.20000026 -0.20000026"
-         y="0">&gt; 100 concepts</tspan></text>
+         dx="0 0 0 0 0 0 0 -0.20000026 -0.20000026 0 0 -0.20000026 -0.20000026"
+         y="0">&gt; 80 concepts</tspan></text>
     <path
        id="path26"
        d="m 450.988,252.438 h 138.91 v 39.305 h -138.91 z"

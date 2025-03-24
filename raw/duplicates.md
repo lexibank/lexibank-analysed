@@ -1745,6 +1745,18 @@ huntergatherer-207-144_grass-2 | Ritharrngu | GRASS | mulmu | m u l m u
 huntergatherer-207-178_kangaroogeneric-2 | Ritharrngu | KANGAROO | weṯi | w e t i
 huntergatherer-207-167_spearthrower-2 | Ritharrngu | SPEARTHROWER | murruku | m u rː u k u
 huntergatherer-207-164_spear-2 | Ritharrngu | SPEAR | gami | g a m i
+huntergatherer-198-122_fishgeneric-1 | Walmajarri | FISH | kapi | k a p i
+huntergatherer-198-127_flower-1 | Walmajarri | FLOWER | partiri | p a r t i r i
+huntergatherer-198-11_antgeneric-2 | Walmajarri | ANT | pinga | p i ŋ a
+huntergatherer-198-49_blowflyhousefly-2 | Walmajarri | FLY (INSECT) | ngurriny | n g u rː i n y
+huntergatherer-198-109_dogcampdomestic-2 | Walmajarri | DOG | kunyarr | k u n y a rː
+huntergatherer-198-144_grass-2 | Walmajarri | GRASS | yuka | y u k a
+huntergatherer-198-280_spider-2 | Walmajarri | SPIDER | purlkartu | p u r l k a r t u
+huntergatherer-198-45_cookfood-1 | Walmajarri | COOK (SOMETHING) | kampa- | k a m p a
+huntergatherer-198-57_diggingstick-2 | Walmajarri | DIGGING STICK | kana | k a n a
+huntergatherer-198-26_boomerangthrowingstickgeneric-2 | Walmajarri | BOOMERANG | karli | k a r l i
+huntergatherer-198-167_spearthrower-2 | Walmajarri | SPEARTHROWER | ngapaliny | n g a p a l i n y
+huntergatherer-198-164_spear-2 | Walmajarri | SPEAR | kularta | k u l a r t a
 bowernpny-Thalanyji-158_hitwithhand-2 | Thalanyji | STRIKE | patha-rrgin | p a t̪ a + r g i n
 bowernpny-Tharrgari-134_fly-2 | Tharrgari | FLY (MOVE THROUGH AIR) | yuwi | j u w i
 bowernpny-Warlmanpa-134_fly-2 | Warlmanpa | FLY (MOVE THROUGH AIR) | warangarra | w a ɹ a ŋ a r a
@@ -1801,6 +1813,7 @@ huntergatherer-60-109_dogcampdomestic-2 | Tariana | DOG | čínu | tʃ i n u
 huntergatherer-60-105_deer-2 | Tariana | DEER | néɾi | n e ɾ i
 huntergatherer-60-44_coca-1 | Tariana | COCA | hipatu | h i p a t u
 huntergatherer-60-15_basketgeneral-2 | Tariana | BASKET | káme_ | k a m e
+chaconcolumbian-Giacone-121_deer-2 | giacone | DEER | neéri | n eː r i
 chenhmongmien-EasternLuobuohe-437_ten-2 | Luobuohe, Eastern | TEN | ʁo³¹ | ʁ o ³¹
 chenhmongmien-EasternLuobuohe-437_ten-3 | Luobuohe, Eastern | TEN | ʁo³¹ | ʁ o ³¹
 chenhmongmien-EasternLuobuohe-859_lookfor-1 | Luobuohe, Eastern | LOOK FOR | ʔlen²⁴ | ˀl e n ²⁴
@@ -1964,6 +1977,7 @@ idssegmented-moderngreek-10-613-2 | Modern Greek | CARRY ON SHOULDER | meta'fero
 idssegmented-moderngreek-22-420-2 | Modern Greek | MAGIC | 'maɣia | m a ɣ i a
 starostinpie-swedish-46_leaf-2 | Swedish | LEAF | b.l.a.d | b l a d
 tuled-SuruiPaiter-337-2 | Surui-Paiter | SING | merewa | m e ɾ e w a
+galuciotupi-Su-17_man-2 | Suruí | MAN | óój | oː j
 tuled-Tembe-304-2 | Tembe | REMAIN | pɨta | p ɨ t a
 tuled-Guajajara-71-3 | Guajajara | CHIEFTAIN | kəpitəw | k ə p i t ə w
 tuled-Guajajara-220-3 | Guajajara | LIE DOWN | ʔa | ʔ a
@@ -2302,6 +2316,1156 @@ gravinachadic-ShoaArabic-665_vagina-2 | Shoa Arabic | VAGINA | faraj | f a r a j
 gravinachadic-Vame-214_farmer-2 | Vame | FARMER | ɗù_mbətsɗáy | ɗ u + m b ə ts ɗ a j
 gravinachadic-Vame-466_place-2 | Vame | PLACE (POSITION) | mènè | m e n e
 gravinachadic-Vame-583_steal-2 | Vame | STEAL | gìyà_ākár | g i j a + a k a r
+tls-Kikuyu-23_thigh-1 | Kikuyu | THIGH | kIero | k ɪ e r o
+tls-Kikuyu-37_becomebadrotten-1 | Kikuyu | ROTTEN | ora | o r a
+tls-Kikuyu-129_washtakeabath-1 | Kikuyu | WASH | -thambia | tʰ a ⁿb i a
+tls-Kikuyu-206_increasemakegreater-1 | Kikuyu | INCREASE | ongerera | o ŋ e r e r a
+tls-Kikuyu-578_carry-1 | Kikuyu | CARRY | kuua | k uː a
+tls-Kikuyu-594_suckthebreast-1 | Kikuyu | SUCK | -onga | o ŋ a
+tls-Kikuyu-679_child-1 | Kikuyu | CHILD | mwana | m w a n a
+tls-Kikuyu-732_song-1 | Kikuyu | SONG | rwImbo | r w ɪ ⁿb o
+tls-Kikuyu-824_dawn-1 | Kikuyu | DAWN | gUkIa | g ʊ k ɪ a
+tls-Kikuyu-943_sweep-1 | Kikuyu | SWEEP | hata | h a t a
+tls-Kikuyu-1001_corpse-1 | Kikuyu | CORPSE | kIimba | k ɪ i ⁿb a
+tls-Kikuyu-1027_die-1 | Kikuyu | DIE | -kua | k u a
+tls-Kikuyu-1030_milk-1 | Kikuyu | MILK | iria | i r i a
+tls-Kikuyu-1033_sew-1 | Kikuyu | SEW | -tuma | t u m a
+tls-Embu-23_thigh-1 | Embu | THIGH | kIero | k ɪ e r o
+tls-Embu-206_increasemakegreater-1 | Embu | INCREASE | kwongerera | kʷ o ŋ e r e r a
+tls-Embu-542_inside-1 | Embu | INSIDE | ndarI | ⁿd a r ɪ
+tls-Embu-578_carry-1 | Embu | CARRY | gUkua | g ʊ k u a
+tls-Embu-588_shoulder-1 | Embu | SHOULDER | yega | j e g a
+tls-Embu-644_roast-1 | Embu | ROAST (SOMETHING) | gwokia | g w o k i a
+tls-Embu-732_song-1 | Embu | SONG | rwImbo | r w ɪ ⁿb o
+tls-Embu-837_snail-1 | Embu | SNAIL | Irumbwa | ɪ r u ⁿb w a
+tls-Embu-968_shivershudder-1 | Embu | SHIVER | gUtetema | g ʊ t e t e m a
+tls-Embu-996_ripen-1 | Embu | RIPEN | kwIrua | kʷ ɪ r u a
+tls-Embu-1001_corpse-1 | Embu | CORPSE | kimba | k i ⁿb a
+tls-Embu-1030_milk-1 | Embu | MILK | Iria | ɪ r i a
+tls-Embu-1032_foam-1 | Embu | FOAM | mUvuro | m ʊ v u r o
+tls-Embu-1033_sew-1 | Embu | SEW | gUtuma | g ʊ t u m a
+tls-Meru-128_washclothes-1 | Meru | WASH | isanja | i s a n j a
+tls-Meru-19_milk-1 | Meru | MILK | maruva | m a r u v a
+tls-Meru-23_thigh-1 | Meru | THIGH | kinama | k i n a m a
+tls-Meru-502_foam-1 | Meru | FOAM | iviya | i v i j a
+tls-Meru-542_inside-1 | Meru | INSIDE | kari | k a r i
+tls-Meru-588_shoulder-1 | Meru | SHOULDER | yeeva | j eː v a
+tls-Meru-589_sew-1 | Meru | SEW | ifuma | i f u m a
+tls-Meru-644_roast-1 | Meru | ROAST (SOMETHING) | oja | o j a
+tls-Meru-679_child-1 | Meru | CHILD | mwana | m w a n a
+tls-Meru-732_song-1 | Meru | SONG | ufina | u f i n a
+tls-Meru-824_dawn-1 | Meru | DAWN | ija | i j a
+tls-Meru-837_snail-1 | Meru | SNAIL | ikoru | i k o r u
+tls-Meru-879_resembleveryclosely-1 | Meru | RESEMBLE | ivaka | i v a k a
+tls-Meru-968_shivershudder-1 | Meru | SHIVER | irerema | i r e r e m a
+tls-Meru-975_beleftoverremainover-1 | Meru | REMAIN | isaa | i s aː
+tls-Meru-996_ripen-1 | Meru | RIPEN | ivira | i v i r a
+tls-Chuka-23_thigh-1 | Chuka | THIGH | kIaU | k ɪ a ʊ
+tls-Chuka-129_washtakeabath-1 | Chuka | WASH | kUthamba | k ʊ tʰ a ⁿb a
+tls-Chuka-139_bridge-1 | Chuka | BRIDGE | ndaraca | ⁿd a r a ts a
+tls-Chuka-542_inside-1 | Chuka | INSIDE | ndaani | ⁿd aː n i
+tls-Chuka-578_carry-1 | Chuka | CARRY | gukua | g u k u a
+tls-Chuka-594_suckthebreast-1 | Chuka | SUCK | gwonka | g w o n k a
+tls-Chuka-713_magic-1 | Chuka | MAGIC | Urogi | ʊ r o g i
+tls-Chuka-837_snail-1 | Chuka | SNAIL | irumbo | i r u ⁿb o
+tls-Chuka-850_stir-1 | Chuka | STIR | kuruga | k u r u g a
+tls-Chuka-867_shamedisgrace-1 | Chuka | SHAME | nthoni | n tʰ o n i
+tls-Chuka-879_resembleveryclosely-1 | Chuka | RESEMBLE | kubuanana | k u b u a n a n a
+tls-Chuka-996_ripen-1 | Chuka | RIPEN | kugunda | k u g u ⁿd a
+tls-Tharaka-206_increasemakegreater-1 | Tharaka | INCREASE | ongeera | o ŋ eː r a
+tls-Tharaka-578_carry-1 | Tharaka | CARRY | gukamata | g u k a m a t a
+tls-Tharaka-594_suckthebreast-1 | Tharaka | SUCK | gwonka | g w o n k a
+tls-Tharaka-644_roast-1 | Tharaka | ROAST (SOMETHING) | gwokia | g w o k i a
+tls-Tharaka-679_child-1 | Tharaka | CHILD | kaana | k aː n a
+tls-Tharaka-867_shamedisgrace-1 | Tharaka | SHAME | nthoni | n tʰ o n i
+tls-Tharaka-1019_many-1 | Tharaka | MANY | inyingi | i n j i ŋ i
+tls-Tharaka-1027_die-1 | Tharaka | DIE | gukua | g u k u a
+tls-Tharaka-1030_milk-1 | Tharaka | MILK | iria | i r i a
+tls-Tharaka-1033_sew-1 | Tharaka | SEW | gutuma | g u t u m a
+tls-Tharaka-1035_remainstay-1 | Tharaka | REMAIN | gutigara | g u t i g a r a
+tls-KambaKitu-23_thigh-1 | Kamba_kitu | THIGH | UtambI | ʊ t a ⁿb ɪ
+tls-KambaKitu-483_twist-1 | Kamba_kitu | TWIST | kwokotha | kʷ o k o tʰ a
+tls-KambaKitu-542_inside-1 | Kamba_kitu | INSIDE | nthInI | n tʰ ɪ n ɪ
+tls-KambaKitu-588_shoulder-1 | Kamba_kitu | SHOULDER | kItuo | k ɪ t u o
+tls-KambaKitu-594_suckthebreast-1 | Kamba_kitu | SUCK | kwonga | kʷ o ŋ a
+tls-KambaKitu-644_roast-1 | Kamba_kitu | ROAST (SOMETHING) | kUvIvya | k ʊ v ɪ v j a
+tls-KambaKitu-713_magic-1 | Kamba_kitu | MAGIC | Uoi | ʊ o i
+tls-KambaKitu-732_song-1 | Kamba_kitu | SONG | wathi | w a tʰ i
+tls-KambaKitu-824_dawn-1 | Kamba_kitu | DAWN | maIsya-ngya | m a ɪ s j a + ŋ j a
+tls-KambaKitu-867_shamedisgrace-1 | Kamba_kitu | SHAME | nthoni | n tʰ o n i
+tls-KambaKitu-879_resembleveryclosely-1 | Kamba_kitu | RESEMBLE | kUvw'anana | k ʊ vʷ a n a n a
+tls-KambaKitu-943_sweep-1 | Kamba_kitu | SWEEP | kUtuta | k ʊ t u t a
+tls-KambaKitu-996_ripen-1 | Kamba_kitu | RIPEN | kwIw'a | kʷ ɪ w a
+tls-KambaKitu-1001_corpse-1 | Kamba_kitu | CORPSE | kimba | k i ⁿb a
+tls-KambaKitu-1019_many-1 | Kamba_kitu | MANY | nyingI | n j i ŋ ɪ
+tls-KambaKitu-1027_die-1 | Kamba_kitu | DIE | kUkwa | k ʊ kʷ a
+tls-KambaKitu-1030_milk-1 | Kamba_kitu | MILK | Iia | ɪ i a
+tls-Machame-128_washclothes-1 | Machame | WASH | isangya | i s a ŋ j a
+tls-Machame-139_bridge-1 | Machame | BRIDGE | kitara | k i t a r a
+tls-Machame-19_milk-1 | Machame | MILK | malela | m a l e l a
+tls-Machame-589_sew-1 | Machame | SEW | ishona | i ʃ o n a
+tls-Machame-679_child-1 | Machame | CHILD | mona | m o n a
+tls-Machame-680_districtprovincecountry-1 | Machame | COUNTRY | ur*uka | u r u k a
+tls-Machame-824_dawn-1 | Machame | DAWN | ikyaa | i k j aː
+tls-Machame-975_beleftoverremainover-1 | Machame | REMAIN | isaa | i s aː
+tls-Vunjo-206_increasemakegreater-1 | Vunjo | INCREASE | ionger*a | i o ŋ e r a
+tls-Vunjo-425_die-1 | Vunjo | DIE | ipfa | i p f a
+tls-Vunjo-502_foam-1 | Vunjo | FOAM | wia | w i a
+tls-Vunjo-52_corpse-1 | Vunjo | CORPSE | mnying'a | m n j i ŋˀ a
+tls-Vunjo-578_carry-1 | Vunjo | CARRY | ir^uo | i r u o
+tls-Vunjo-588_shoulder-1 | Vunjo | SHOULDER | kombe | k o ⁿb e
+tls-Vunjo-589_sew-1 | Vunjo | SEW | ipfuma | i p f u m a
+tls-Vunjo-594_suckthebreast-1 | Vunjo | SUCK | ionga | i o ŋ a
+tls-Vunjo-679_child-1 | Vunjo | CHILD | mana | m a n a
+tls-Vunjo-713_magic-1 | Vunjo | MAGIC | usawi | u s a w i
+tls-Vunjo-793_many-1 | Vunjo | MANY | shifoi | ʃ i f o i
+tls-Vunjo-837_snail-1 | Vunjo | SNAIL | ikorwi | i k o r w i
+tls-Vunjo-867_shamedisgrace-1 | Vunjo | SHAME | sonu | s o n u
+tls-Vunjo-879_resembleveryclosely-1 | Vunjo | RESEMBLE | ihiana | i h i a n a
+tls-Vunjo-968_shivershudder-1 | Vunjo | SHIVER | ir^er^ema | i r e r e m a
+tls-Vunjo-996_ripen-1 | Vunjo | RIPEN | iwir*a | i w i r a
+tls-Gweno-139_bridge-1 | Gweno | BRIDGE | daraja | d a r a j a
+tls-Gweno-19_milk-1 | Gweno | MILK | mariva | m a r i v a
+tls-Gweno-206_increasemakegreater-1 | Gweno | INCREASE | iongera | i o ŋ e r a
+tls-Gweno-23_thigh-1 | Gweno | THIGH | kinama | k i n a m a
+tls-Gweno-542_inside-1 | Gweno | INSIDE | voshi | v o ʃ i
+tls-Gweno-588_shoulder-1 | Gweno | SHOULDER | ikotho | i k o tʰ o
+tls-Gweno-679_child-1 | Gweno | CHILD | mwana | m w a n a
+tls-Gweno-713_magic-1 | Gweno | MAGIC | vuthavi | v u tʰ a v i
+tls-Gweno-793_many-1 | Gweno | MANY | -fwa | f w a
+tls-Gweno-837_snail-1 | Gweno | SNAIL | iramba | i r a ⁿb a
+tls-Gweno-867_shamedisgrace-1 | Gweno | SHAME | irawa | i r a w a
+tls-Gweno-879_resembleveryclosely-1 | Gweno | RESEMBLE | fwanana | f w a n a n a
+tls-Gweno-996_ripen-1 | Gweno | RIPEN | isha | i ʃ a
+tls-Dawida-128_washclothes-1 | Dawida | WASH | kuogosha | k u o g o ʃ a
+tls-Dawida-139_bridge-1 | Dawida | BRIDGE | jaraja | dʒ a r a j a
+tls-Dawida-19_milk-1 | Dawida | MILK | mariwa | m a r i w a
+tls-Dawida-23_thigh-1 | Dawida | THIGH | bara | b a r a
+tls-Dawida-425_die-1 | Dawida | DIE | kufwa | k u f w a
+tls-Dawida-502_foam-1 | Dawida | FOAM | ifua | i f u a
+tls-Dawida-52_corpse-1 | Dawida | CORPSE | garia | g a r i a
+tls-Dawida-578_carry-1 | Dawida | CARRY | kuduka | k u d u k a
+tls-Dawida-588_shoulder-1 | Dawida | SHOULDER | ionge_ | i o ŋ e
+tls-Dawida-589_sew-1 | Dawida | SEW | kudunga | k u d u ŋ a
+tls-Dawida-594_suckthebreast-1 | Dawida | SUCK | kuonga | k u o ŋ a
+tls-Dawida-644_roast-1 | Dawida | ROAST (SOMETHING) | kuocha | k u o tʃ a
+tls-Dawida-679_child-1 | Dawida | CHILD | mwana | m w a n a
+tls-Dawida-713_magic-1 | Dawida | MAGIC | wusawi | w u s a w i
+tls-Dawida-732_song-1 | Dawida | SONG | lumbo_ | l u ⁿb o
+tls-Dawida-793_many-1 | Dawida | MANY | nyingi | n j i ŋ i
+tls-Dawida-837_snail-1 | Dawida | SNAIL | kitambala_ | k i t a ⁿb a l a
+tls-Dawida-867_shamedisgrace-1 | Dawida | SHAME | waya | w a j a
+tls-Dawida-879_resembleveryclosely-1 | Dawida | RESEMBLE | kufwanana | k u f w a n a n a
+tls-Dawida-968_shivershudder-1 | Dawida | SHIVER | kusugusika | k u s u g u s i k a
+tls-Dawida-975_beleftoverremainover-1 | Dawida | REMAIN | kusigarika | k u s i g a r i k a
+tls-Dawida-996_ripen-1 | Dawida | RIPEN | kuwurwa | k u w u r w a
+tls-Bende-542_inside-1 | Bende | INSIDE | mukati | m u k a t i
+tls-Bende-679_child-1 | Bende | CHILD | mwana | m w a n a
+tls-Bende-732_song-1 | Bende | SONG | lwimbo | l w i ⁿb o
+tls-Bende-996_ripen-1 | Bende | RIPEN | kuhya | k u h j a
+tls-Bende-1019_many-1 | Bende | MANY | -engi | e ŋ i
+tls-Bende-1027_die-1 | Bende | DIE | kufwa | k u f w a
+tls-Bende-1030_milk-1 | Bende | MILK | mabhele | m a bʱ e l e
+tls-Bende-1033_sew-1 | Bende | SEW | kusuma | k u s u m a
+tls-Ntuzu-588_shoulder-1 | Ntuzu | SHOULDER | ibega | i b e g a
+tls-Ntuzu-644_roast-1 | Ntuzu | ROAST (SOMETHING) | gocha | g o tʃ a
+tls-Ntuzu-679_child-1 | Ntuzu | CHILD | ng'wana | ŋˀ w a n a
+tls-Ntuzu-680_districtprovincecountry-1 | Ntuzu | COUNTRY | sI | s ɪ
+tls-Ntuzu-867_shamedisgrace-1 | Ntuzu | SHAME | soni | s o n i
+tls-Ntuzu-996_ripen-1 | Ntuzu | RIPEN | gUpya | g ʊ p j a
+tls-Ntuzu-1032_foam-1 | Ntuzu | FOAM | isulo | i s u l o
+tls-Ntuzu-1035_remainstay-1 | Ntuzu | REMAIN | gUsaga | g ʊ s a g a
+tls-Sukuma-542_inside-1 | Sukuma | INSIDE | mugati | m u g a t i
+tls-Sukuma-588_shoulder-1 | Sukuma | SHOULDER | ibega_ | i b e g a
+tls-Sukuma-713_magic-1 | Sukuma | MAGIC | bulogi | b u l o g i
+tls-Sukuma-732_song-1 | Sukuma | SONG | lyimbo_ | l j i ⁿb o
+tls-Sukuma-837_snail-1 | Sukuma | SNAIL | ngoku_ | ŋ o k u
+tls-Sukuma-879_resembleveryclosely-1 | Sukuma | RESEMBLE | kwiyikola | kʷ i j i k o l a
+tls-Sukuma-1019_many-1 | Sukuma | MANY | -ingi | i ŋ i
+tls-Sukuma-1030_milk-1 | Sukuma | MILK | mabele | m a b e l e
+tls-Sukuma-1032_foam-1 | Sukuma | FOAM | ifulo | i f u l o
+tls-Sukuma-1035_remainstay-1 | Sukuma | REMAIN | gusaga | g u s a g a
+tls-Sumbwa-23_thigh-1 | Sumbwa | THIGH | sibelo | s i b e l o
+tls-Sumbwa-594_suckthebreast-1 | Sumbwa | SUCK | -onka | o n k a
+tls-Sumbwa-644_roast-1 | Sumbwa | ROAST (SOMETHING) | -banika | b a n i k a
+tls-Sumbwa-679_child-1 | Sumbwa | CHILD | mwana | m w a n a
+tls-Sumbwa-680_districtprovincecountry-1 | Sumbwa | COUNTRY | nsi | n s i
+tls-Sumbwa-713_magic-1 | Sumbwa | MAGIC | bulozi | b u l o z i
+tls-Sumbwa-732_song-1 | Sumbwa | SONG | lwimbo | l w i ⁿb o
+tls-Sumbwa-837_snail-1 | Sumbwa | SNAIL | lifwelo | l i f w e l o
+tls-Sumbwa-867_shamedisgrace-1 | Sumbwa | SHAME | nsoni | n s o n i
+tls-Sumbwa-943_sweep-1 | Sumbwa | SWEEP | -hyagila | h j a g i l a
+tls-Sumbwa-968_shivershudder-1 | Sumbwa | SHIVER | -zuguma | z u g u m a
+tls-Sumbwa-996_ripen-1 | Sumbwa | RIPEN | -hya | h j a
+tls-Sumbwa-1001_corpse-1 | Sumbwa | CORPSE | mutumbi | m u t u ⁿb i
+tls-Sumbwa-1019_many-1 | Sumbwa | MANY | ingi | i ŋ i
+tls-Sumbwa-1027_die-1 | Sumbwa | DIE | -fwa | f w a
+tls-Sumbwa-1030_milk-1 | Sumbwa | MILK | mabele | m a b e l e
+tls-Sumbwa-1033_sew-1 | Sumbwa | SEW | -sona | s o n a
+tls-Sumbwa-1035_remainstay-1 | Sumbwa | REMAIN | -ikala | i k a l a
+tls-Kimbu-483_twist-1 | Kimbu | TWIST | pota | p o t a
+tls-Kimbu-542_inside-1 | Kimbu | INSIDE | muxati | m u x a t i
+tls-Kimbu-644_roast-1 | Kimbu | ROAST (SOMETHING) | tima | t i m a
+tls-Kimbu-713_magic-1 | Kimbu | MAGIC | uwulogi | u w u l o g i
+tls-Kimbu-867_shamedisgrace-1 | Kimbu | SHAME | insoni | i n s o n i
+tls-Kimbu-996_ripen-1 | Kimbu | RIPEN | vilaa | v i l aː
+tls-Kimbu-1019_many-1 | Kimbu | MANY | -ingi | i ŋ i
+tls-Kimbu-1030_milk-1 | Kimbu | MILK | imaveele | i m a v eː l e
+tls-Kimbu-1032_foam-1 | Kimbu | FOAM | ipulo | i p u l o
+tls-Bungu-578_carry-1 | Bungu | CARRY | kusenda | k u s e ⁿd a
+tls-Bungu-679_child-1 | Bungu | CHILD | umwana | u m w a n a
+tls-Bungu-713_magic-1 | Bungu | MAGIC | uulozi | uː l o z i
+tls-Bungu-732_song-1 | Bungu | SONG | inimbo | i n i ⁿb o
+tls-Bungu-837_snail-1 | Bungu | SNAIL | inyonga | i n j o ŋ a
+tls-Bungu-968_shivershudder-1 | Bungu | SHIVER | kugaya | k u g a j a
+tls-Bungu-1019_many-1 | Bungu | MANY | inji | i n j i
+tls-Bungu-1027_die-1 | Bungu | DIE | kukufwa | k u k u f w a
+tls-Bungu-1032_foam-1 | Bungu | FOAM | ifulo | i f u l o
+tls-Bungu-1033_sew-1 | Bungu | SEW | kusuma | k u s u m a
+tls-Bungu-1035_remainstay-1 | Bungu | REMAIN | kushala | k u ʃ a l a
+tls-Wungu-425_die-1 | Wungu | DIE | kukufwa_ | k u k u f w a
+tls-Wungu-502_foam-1 | Wungu | FOAM | ifulo_ | i f u l o
+tls-Wungu-578_carry-1 | Wungu | CARRY | kusenda_ | k u s e ⁿd a
+tls-Wungu-589_sew-1 | Wungu | SEW | kusuma_ | k u s u m a
+tls-Wungu-679_child-1 | Wungu | CHILD | umwana_ | u m w a n a
+tls-Wungu-713_magic-1 | Wungu | MAGIC | uulozi_ | uː l o z i
+tls-Wungu-732_song-1 | Wungu | SONG | inimbo_ | i n i ⁿb o
+tls-Wungu-793_many-1 | Wungu | MANY | inji_ | i n j i
+tls-Wungu-837_snail-1 | Wungu | SNAIL | inyonga_ | i n j o ŋ a
+tls-Wungu-867_shamedisgrace-1 | Wungu | SHAME | iyazi_ | i j a z i
+tls-Wungu-968_shivershudder-1 | Wungu | SHIVER | kugaya | k u g a j a
+tls-Wungu-975_beleftoverremainover-1 | Wungu | REMAIN | kushala_ | k u ʃ a l a
+tls-Nyiramba-23_thigh-1 | Nyiramba | THIGH | kEEga | k ɛː g a
+tls-Nyiramba-502_foam-1 | Nyiramba | FOAM | pyomboolu | p j o ⁿb oː l u
+tls-Nyiramba-52_corpse-1 | Nyiramba | CORPSE | mUiimba | m ʊ iː ⁿb a
+tls-Nyiramba-679_child-1 | Nyiramba | CHILD | mwaana | m w aː n a
+tls-Nyiramba-793_many-1 | Nyiramba | MANY | mingE | m i ŋ ɛ
+tls-Nyiramba-867_shamedisgrace-1 | Nyiramba | SHAME | nsoni | n s o n i
+tls-Nyiramba-968_shivershudder-1 | Nyiramba | SHIVER | kwi-kEkEma | kʷ i + k ɛ k ɛ m a
+tls-Nyiramba-975_beleftoverremainover-1 | Nyiramba | REMAIN | kwi-shaaga | kʷ i + ʃ aː g a
+tls-Nyaturuwil-19_milk-1 | Nyaturuwil | MILK | maiva | m a i v a
+tls-Nyaturuwil-206_increasemakegreater-1 | Nyaturuwil | INCREASE | guongeya | g u o ŋ e j a
+tls-Nyaturuwil-502_foam-1 | Nyaturuwil | FOAM | ifomboru | i f o ⁿb o r u
+tls-Nyaturuwil-589_sew-1 | Nyaturuwil | SEW | utuma | u t u m a
+tls-Nyaturuwil-713_magic-1 | Nyaturuwil | MAGIC | uroghi | u r o gʱ i
+tls-Nyaturuwil-793_many-1 | Nyaturuwil | MANY | nyingi | n j i ŋ i
+tls-Nyaturuwil-850_stir-1 | Nyaturuwil | STIR | ukugha | u k u gʱ a
+tls-Nyaturuwil-867_shamedisgrace-1 | Nyaturuwil | SHAME | minyaa | m i n j aː
+tls-Langi-19_milk-1 | Langi | MILK | masusu | m a s u s u
+tls-Langi-502_foam-1 | Langi | FOAM | ifulo | i f u l o
+tls-Langi-588_shoulder-1 | Langi | SHOULDER | iveya | i v e j a
+tls-Langi-589_sew-1 | Langi | SEW | ku-chuma | k u + tʃ u m a
+tls-Langi-679_child-1 | Langi | CHILD | msinga | m s i ŋ a
+tls-Langi-713_magic-1 | Langi | MAGIC | usavi | u s a v i
+tls-Langi-837_snail-1 | Langi | SNAIL | matambala | m a t a ⁿb a l a
+tls-Langi-867_shamedisgrace-1 | Langi | SHAME | soni | s o n i
+tls-Langi-879_resembleveryclosely-1 | Langi | RESEMBLE | kw-ifyana | kʷ + i f j a n a
+tls-Langi-996_ripen-1 | Langi | RIPEN | ku-virwa | k u + v i r w a
+tls-Sambaa-124_skin-1 | Sambaa | SKIN | kanda | k a ⁿd a
+tls-Sambaa-155a_increase-1 | Sambaa | INCREASE | kuomboka | k u o ⁿb o k a
+tls-Sambaa-19_milk-1 | Sambaa | MILK | mee | m eː
+tls-Sambaa-425_die-1 | Sambaa | DIE | kufa | k u f a
+tls-Sambaa-502_foam-1 | Sambaa | FOAM | fulo | f u l o
+tls-Sambaa-52_corpse-1 | Sambaa | CORPSE | kimba | k i ⁿb a
+tls-Sambaa-542_inside-1 | Sambaa | INSIDE | ndai | ⁿd a i
+tls-Sambaa-588_shoulder-1 | Sambaa | SHOULDER | egha | e gʱ a
+tls-Sambaa-644_roast-1 | Sambaa | ROAST (SOMETHING) | kuoka_ | k u o k a
+tls-Sambaa-713_magic-1 | Sambaa | MAGIC | ushai | u ʃ a i
+tls-Sambaa-867_shamedisgrace-1 | Sambaa | SHAME | shoni | ʃ o n i
+tls-Sambaa-879_resembleveryclosely-1 | Sambaa | RESEMBLE | kufanana | k u f a n a n a
+tls-Sambaa-975_beleftoverremainover-1 | Sambaa | REMAIN | kushighaa | k u ʃ i gʱ aː
+tls-Sambaa-996_ripen-1 | Sambaa | RIPEN | kuizwa | k u i z w a
+tls-Bondei1-139_bridge-1 | Bondei1 | BRIDGE | daaja | d aː j a
+tls-Bondei1-19_milk-1 | Bondei1 | MILK | mee | m eː
+tls-Bondei1-425_die-1 | Bondei1 | DIE | ku-fa | k u + f a
+tls-Bondei1-502_foam-1 | Bondei1 | FOAM | fuo | f u o
+tls-Bondei1-589_sew-1 | Bondei1 | SEW | ku-shona | k u + ʃ o n a
+tls-Bondei1-644_roast-1 | Bondei1 | ROAST (SOMETHING) | ku-oka | k u + o k a
+tls-Bondei1-679_child-1 | Bondei1 | CHILD | mwana | m w a n a
+tls-Bondei1-713_magic-1 | Bondei1 | MAGIC | usawi | u s a w i
+tls-Bondei1-824_dawn-1 | Bondei1 | DAWN | kiokio | k i o k i o
+tls-Bondei1-850_stir-1 | Bondei1 | STIR | ku-kooga | k u + k oː g a
+tls-Bondei1-867_shamedisgrace-1 | Bondei1 | SHAME | soni | s o n i
+tls-Bondei1-879_resembleveryclosely-1 | Bondei1 | RESEMBLE | ku-fanana | k u + f a n a n a
+tls-Bondei1-975_beleftoverremainover-1 | Bondei1 | REMAIN | ku-sigaa | k u + s i g aː
+tls-Bondei1-996_ripen-1 | Bondei1 | RIPEN | ku-iva | k u + i v a
+tls-Bondei2-19_milk-1 | Bondei2 | MILK | mee | m eː
+tls-Bondei2-23_thigh-1 | Bondei2 | THIGH | nyonga | n j o ŋ a
+tls-Bondei2-502_foam-1 | Bondei2 | FOAM | fuo | f u o
+tls-Bondei2-588_shoulder-1 | Bondei2 | SHOULDER | wega | w e g a
+tls-Bondei2-589_sew-1 | Bondei2 | SEW | ku-shona | k u + ʃ o n a
+tls-Bondei2-644_roast-1 | Bondei2 | ROAST (SOMETHING) | ku-oka | k u + o k a
+tls-Bondei2-679_child-1 | Bondei2 | CHILD | mwana | m w a n a
+tls-Bondei2-713_magic-1 | Bondei2 | MAGIC | usawi | u s a w i
+tls-Bondei2-824_dawn-1 | Bondei2 | DAWN | ku-cha | k u + tʃ a
+tls-Bondei2-850_stir-1 | Bondei2 | STIR | kooga | k oː g a
+tls-Bondei2-867_shamedisgrace-1 | Bondei2 | SHAME | soni | s o n i
+tls-Bondei2-879_resembleveryclosely-1 | Bondei2 | RESEMBLE | ku-fanana | k u + f a n a n a
+tls-Doe-139_bridge-1 | Doe | BRIDGE | jaraja | dʒ a r a j a
+tls-Doe-19_milk-1 | Doe | MILK | maziwa | m a z i w a
+tls-Doe-425_die-1 | Doe | DIE | ku-fa | k u + f a
+tls-Doe-502_foam-1 | Doe | FOAM | povu | p o v u
+tls-Doe-588_shoulder-1 | Doe | SHOULDER | yega | j e g a
+tls-Doe-644_roast-1 | Doe | ROAST (SOMETHING) | k-oka | k + o k a
+tls-Doe-679_child-1 | Doe | CHILD | mwana | m w a n a
+tls-Doe-713_magic-1 | Doe | MAGIC | usawi | u s a w i
+tls-Doe-837_snail-1 | Doe | SNAIL | kovya | k o v j a
+tls-Doe-867_shamedisgrace-1 | Doe | SHAME | kinyala | k i n j a l a
+tls-Doe-975_beleftoverremainover-1 | Doe | REMAIN | ku-sigala | k u + s i g a l a
+tls-Kwere-139_bridge-1 | Kwere | BRIDGE | tingetinge | t i ŋ e t i ŋ e
+tls-Kwere-19_milk-1 | Kwere | MILK | maziwa | m a z i w a
+tls-Kwere-206_increasemakegreater-1 | Kwere | INCREASE | k-ongeza | k + o ŋ e z a
+tls-Kwere-425_die-1 | Kwere | DIE | ku-fa | k u + f a
+tls-Kwere-502_foam-1 | Kwere | FOAM | hovu | h o v u
+tls-Kwere-542_inside-1 | Kwere | INSIDE | mgati | m g a t i
+tls-Kwere-547_leavegoaway-1 | Kwere | LEAVE | ku-segela | k u + s e g e l a
+tls-Kwere-588_shoulder-1 | Kwere | SHOULDER | gwaha | g w a h a
+tls-Kwere-589_sew-1 | Kwere | SEW | ku-sona | k u + s o n a
+tls-Kwere-644_roast-1 | Kwere | ROAST (SOMETHING) | k-oka | k + o k a
+tls-Kwere-679_child-1 | Kwere | CHILD | mwana | m w a n a
+tls-Kwere-713_magic-1 | Kwere | MAGIC | uhawi | u h a w i
+tls-Kwere-850_stir-1 | Kwere | STIR | ku-koroga | k u + k o r o g a
+tls-Zaramo-19_milk-1 | Zaramo | MILK | matombo | m a t o ⁿb o
+tls-Zaramo-23_thigh-1 | Zaramo | THIGH | kihili | k i h i l i
+tls-Zaramo-425_die-1 | Zaramo | DIE | ku-fa | k u + f a
+tls-Zaramo-502_foam-1 | Zaramo | FOAM | hovu | h o v u
+tls-Zaramo-589_sew-1 | Zaramo | SEW | ku-shona | k u + ʃ o n a
+tls-Zaramo-679_child-1 | Zaramo | CHILD | mwana | m w a n a
+tls-Zaramo-732_song-1 | Zaramo | SONG | wimbo | w i ⁿb o
+tls-Zaramo-824_dawn-1 | Zaramo | DAWN | ku-cha | k u + tʃ a
+tls-Zaramo-867_shamedisgrace-1 | Zaramo | SHAME | kinyala | k i n j a l a
+tls-Nguungulu-139_bridge-1 | Nguungulu | BRIDGE | dalaja | d a l a j a
+tls-Nguungulu-19_milk-1 | Nguungulu | MILK | mele | m e l e
+tls-Nguungulu-23_thigh-1 | Nguungulu | THIGH | wambo | w a ⁿb o
+tls-Nguungulu-37_becomebadrotten-1 | Nguungulu | ROTTEN | ku-ola | k u + o l a
+tls-Nguungulu-425_die-1 | Nguungulu | DIE | ku-banika | k u + b a n i k a
+tls-Nguungulu-52_corpse-1 | Nguungulu | CORPSE | kimba | k i ⁿb a
+tls-Nguungulu-589_sew-1 | Nguungulu | SEW | ku-suma | k u + s u m a
+tls-Nguungulu-594_suckthebreast-1 | Nguungulu | SUCK | -yonkha | j o n kʰ a
+tls-Nguungulu-679_child-1 | Nguungulu | CHILD | mwana | m w a n a
+tls-Nguungulu-713_magic-1 | Nguungulu | MAGIC | usai | u s a i
+tls-Nguungulu-732_song-1 | Nguungulu | SONG | wila | w i l a
+tls-Nguungulu-837_snail-1 | Nguungulu | SNAIL | kove_ | k o v e
+tls-Nguungulu-867_shamedisgrace-1 | Nguungulu | SHAME | soni | s o n i
+tls-Nguungulu-975_beleftoverremainover-1 | Nguungulu | REMAIN | ku-sigala | k u + s i g a l a
+tls-Luguru-139_bridge-1 | Luguru | BRIDGE | chiroko | tʃ i r o k o
+tls-Luguru-206_increasemakegreater-1 | Luguru | INCREASE | kw-ongetsa | kʷ + o ŋ e ts a
+tls-Luguru-502_foam-1 | Luguru | FOAM | hovu | h o v u
+tls-Luguru-589_sew-1 | Luguru | SEW | -sona | s o n a
+tls-Luguru-594_suckthebreast-1 | Luguru | SUCK | k-ong'a | k + o ŋˀ a
+tls-Luguru-713_magic-1 | Luguru | MAGIC | uhawi | u h a w i
+tls-Luguru-837_snail-1 | Luguru | SNAIL | kova | k o v a
+tls-Luguru-850_stir-1 | Luguru | STIR | ku-tiga | k u + t i g a
+tls-Luguru-867_shamedisgrace-1 | Luguru | SHAME | chinyala | tʃ i n j a l a
+tls-Luguru-879_resembleveryclosely-1 | Luguru | RESEMBLE | ku-gala | k u + g a l a
+tls-Luguru-996_ripen-1 | Luguru | RIPEN | liva | l i v a
+tls-Kami-425_die-1 | Kami | DIE | ku-fa | k u + f a
+tls-Kami-502_foam-1 | Kami | FOAM | fulo | f u l o
+tls-Kami-588_shoulder-1 | Kami | SHOULDER | yega | j e g a
+tls-Kami-679_child-1 | Kami | CHILD | mwana | m w a n a
+tls-Kami-732_song-1 | Kami | SONG | wila | w i l a
+tls-Kami-793_many-1 | Kami | MANY | ingi | i ŋ i
+tls-Kami-850_stir-1 | Kami | STIR | ku-pigita | k u + p i g i t a
+tls-Kami-867_shamedisgrace-1 | Kami | SHAME | chinyala | tʃ i n j a l a
+tls-Kami-975_beleftoverremainover-1 | Kami | REMAIN | ku-sigala | k u + s i g a l a
+tls-Kami-996_ripen-1 | Kami | RIPEN | ku-iva | k u + i v a
+tls-Kutu-19_milk-1 | Kutu | MILK | matombo | m a t o ⁿb o
+tls-Kutu-23_thigh-1 | Kutu | THIGH | haza | h a z a
+tls-Kutu-679_child-1 | Kutu | CHILD | mwana | m w a n a
+tls-Kutu-713_magic-1 | Kutu | MAGIC | uhawi | u h a w i
+tls-Kutu-732_song-1 | Kutu | SONG | wila | w i l a
+tls-Kutu-824_dawn-1 | Kutu | DAWN | -ucha | u tʃ a
+tls-Kutu-850_stir-1 | Kutu | STIR | -tibwiliza | t i b w i l i z a
+wold-Swahili-24-06-3 | Swahili | NOT | -si- | s i
+tls-Pogoro-124_skin-1 | Pogoro | SKIN | lkuli | l k u l i
+tls-Pogoro-19_milk-1 | Pogoro | MILK | maweri | m a w e r i
+tls-Pogoro-206_increasemakegreater-1 | Pogoro | INCREASE | kongera | k o ŋ e r a
+tls-Pogoro-23_thigh-1 | Pogoro | THIGH | liwondu | l i w o ⁿd u
+tls-Pogoro-37_becomebadrotten-1 | Pogoro | ROTTEN | wola | w o l a
+tls-Pogoro-547_leavegoaway-1 | Pogoro | LEAVE | uka | u k a
+tls-Pogoro-588_shoulder-1 | Pogoro | SHOULDER | liwega | l i w e g a
+tls-Pogoro-679_child-1 | Pogoro | CHILD | mwana | m w a n a
+tls-Pogoro-713_magic-1 | Pogoro | MAGIC | uganga | u g a ŋ a
+tls-Pogoro-793_many-1 | Pogoro | MANY | -vua | v u a
+tls-Pogoro-867_shamedisgrace-1 | Pogoro | SHAME | soni | s o n i
+tls-Pogoro-879_resembleveryclosely-1 | Pogoro | RESEMBLE | lifana | l i f a n a
+tls-Kipogoro-124_skin-1 | Kipogoro | SKIN | lkuli | l k u l i
+tls-Kipogoro-19_milk-1 | Kipogoro | MILK | maweri | m a w e r i
+tls-Kipogoro-206_increasemakegreater-1 | Kipogoro | INCREASE | kongera | k o ŋ e r a
+tls-Kipogoro-23_thigh-1 | Kipogoro | THIGH | liwondu | l i w o ⁿd u
+tls-Kipogoro-37_becomebadrotten-1 | Kipogoro | ROTTEN | wola | w o l a
+tls-Kipogoro-588_shoulder-1 | Kipogoro | SHOULDER | liwega | l i w e g a
+tls-Kipogoro-679_child-1 | Kipogoro | CHILD | mwana | m w a n a
+tls-Kipogoro-713_magic-1 | Kipogoro | MAGIC | uganga | u g a ŋ a
+tls-Kipogoro-793_many-1 | Kipogoro | MANY | -vua | v u a
+tls-Kipogoro-867_shamedisgrace-1 | Kipogoro | SHAME | soni | s o n i
+tls-Kipogoro-879_resembleveryclosely-1 | Kipogoro | RESEMBLE | lipana | l i p a n a
+tls-Ndamba-425_die-1 | Ndamba | DIE | kusova | k u s o v a
+tls-Ndamba-578_carry-1 | Ndamba | CARRY | kuyegha | k u j e gʱ a
+tls-Ndamba-589_sew-1 | Ndamba | SEW | kusona | k u s o n a
+tls-Ndamba-644_roast-1 | Ndamba | ROAST (SOMETHING) | kunyanya | k u n j a n j a
+tls-Ndamba-679_child-1 | Ndamba | CHILD | mwana | m w a n a
+tls-Ndamba-713_magic-1 | Ndamba | MAGIC | uhavi | u h a v i
+tls-Ndamba-793_many-1 | Ndamba | MANY | -tangala | t a ŋ a l a
+tls-Ndamba-867_shamedisgrace-1 | Ndamba | SHAME | soni | s o n i
+tls-Sangu-23_thigh-1 | Sangu | THIGH | ishima | i ʃ i m a
+tls-Sangu-483_twist-1 | Sangu | TWIST | kitava | k i t a v a
+tls-Sangu-578_carry-1 | Sangu | CARRY | kisumula | k i s u m u l a
+tls-Sangu-713_magic-1 | Sangu | MAGIC | uwuhavi | u w u h a v i
+tls-Sangu-850_stir-1 | Sangu | STIR | kikhologa | k i kʰ o l o g a
+tls-Sangu-996_ripen-1 | Sangu | RIPEN | kiyela | k i j e l a
+tls-Sangu-1033_sew-1 | Sangu | SEW | kihona | k i h o n a
+tls-Hehe-139_bridge-1 | Hehe | BRIDGE | ililalo | i l i l a l o
+tls-Hehe-542_inside-1 | Hehe | INSIDE | kugati | k u g a t i
+tls-Hehe-547_leavegoaway-1 | Hehe | LEAVE | hega | h e g a
+tls-Hehe-588_shoulder-1 | Hehe | SHOULDER | ilivega | i l i v e g a
+tls-Hehe-644_roast-1 | Hehe | ROAST (SOMETHING) | nyaanya | n j aː n j a
+tls-Hehe-837_snail-1 | Hehe | SNAIL | ilikola | i l i k o l a
+tls-Hehe-850_stir-1 | Hehe | STIR | kologa | k o l o g a
+tls-Hehe-867_shamedisgrace-1 | Hehe | SHAME | inyoni | i n j o n i
+tls-Hehe-968_shivershudder-1 | Hehe | SHIVER | kuvila | k u v i l a
+tls-Hehe-996_ripen-1 | Hehe | RIPEN | pya | p j a
+tls-Hehe-1019_many-1 | Hehe | MANY | -olofu | o l o f u
+tls-Hehe-1027_die-1 | Hehe | DIE | fwa | f w a
+tls-Hehe-1030_milk-1 | Hehe | MILK | ilisiva | i l i s i v a
+tls-Hehe-1032_foam-1 | Hehe | FOAM | ilifulo | i l i f u l o
+tls-Hehe-1033_sew-1 | Hehe | SEW | hona | h o n a
+tls-Hehe-1035_remainstay-1 | Hehe | REMAIN | sigala | s i g a l a
+tls-Bena-483_twist-1 | Bena | TWIST | bota | b o t a
+tls-Bena-594_suckthebreast-1 | Bena | SUCK | kong'a | k o ŋˀ a
+tls-Bena-680_districtprovincecountry-1 | Bena | COUNTRY | inyi | i n j i
+tls-Bena-713_magic-1 | Bena | MAGIC | uvwuhavi | u vʷ u h a v i
+tls-Bena-968_shivershudder-1 | Bena | SHIVER | hilila | h i l i l a
+tls-Bena-1027_die-1 | Bena | DIE | fwa | f w a
+tls-Pangwa-124_skin-1 | Pangwa | SKIN | sonda | s o ⁿd a
+tls-Pangwa-155a_increase-1 | Pangwa | INCREASE | khuyongelecha | kʰ u j o ŋ e l e tʃ a
+tls-Pangwa-578_carry-1 | Pangwa | CARRY | khupinda | kʰ u p i ⁿd a
+tls-Pangwa-588_shoulder-1 | Pangwa | SHOULDER | liveka | l i v e k a
+tls-Pangwa-644_roast-1 | Pangwa | ROAST (SOMETHING) | khunyanya | kʰ u n j a n j a
+tls-Pangwa-679_child-1 | Pangwa | CHILD | mwana | m w a n a
+tls-Pangwa-713_magic-1 | Pangwa | MAGIC | vuhavi | v u h a v i
+tls-Pangwa-824_dawn-1 | Pangwa | DAWN | khusha | kʰ u ʃ a
+tls-Pangwa-867_shamedisgrace-1 | Pangwa | SHAME | soni | s o n i
+tls-Pangwa-879_resembleveryclosely-1 | Pangwa | RESEMBLE | khuwanana | kʰ u w a n a n a
+tls-Pangwa-943_sweep-1 | Pangwa | SWEEP | khufyakila | kʰ u f j a k i l a
+tls-Pangwa-996_ripen-1 | Pangwa | RIPEN | khufunda | kʰ u f u ⁿd a
+tls-Pangwa-1033_sew-1 | Pangwa | SEW | khuhona | kʰ u h o n a
+tls-Pangwa-1035_remainstay-1 | Pangwa | REMAIN | khusikala | kʰ u s i k a l a
+tls-Kinga-128_washclothes-1 | Kinga | WASH | ukusuka | u k u s u k a
+tls-Kinga-206_increasemakegreater-1 | Kinga | INCREASE | ukwongeletsa | u kʷ o ŋ e l e ts a
+tls-Kinga-679_child-1 | Kinga | CHILD | umwana | u m w a n a
+tls-Kinga-713_magic-1 | Kinga | MAGIC | uvuhavi | u v u h a v i
+tls-Kinga-732_song-1 | Kinga | SONG | ulwimbo | u l w i ⁿb o
+tls-Kinga-867_shamedisgrace-1 | Kinga | SHAME | isoni | i s o n i
+tls-Kinga-879_resembleveryclosely-1 | Kinga | RESEMBLE | ukuwanana | u k u w a n a n a
+tls-Kinga-943_sweep-1 | Kinga | SWEEP | ukukuna | u k u k u n a
+tls-Kinga-996_ripen-1 | Kinga | RIPEN | ukuvisula | u k u v i s u l a
+tls-Kinga-1019_many-1 | Kinga | MANY | nyolosu | n j o l o s u
+tls-Kinga-1027_die-1 | Kinga | DIE | ukuswa | u k u s w a
+tls-Kinga-1030_milk-1 | Kinga | MILK | ulukama | u l u k a m a
+tls-Kinga-1033_sew-1 | Kinga | SEW | ukuhona | u k u h o n a
+tls-Kinga-1035_remainstay-1 | Kinga | REMAIN | ukusigala | u k u s i g a l a
+tls-Wanji-23_thigh-1 | Wanji | THIGH | kyima | k j i m a
+tls-Wanji-128_washclothes-1 | Wanji | WASH | suka | s u k a
+tls-Wanji-594_suckthebreast-1 | Wanji | SUCK | kwong'ha | kʷ o ŋˀ h a
+tls-Wanji-644_roast-1 | Wanji | ROAST (SOMETHING) | nyanya | n j a n j a
+tls-Wanji-679_child-1 | Wanji | CHILD | mwana | m w a n a
+tls-Wanji-1001_corpse-1 | Wanji | CORPSE | mfimba | m f i ⁿb a
+tls-Wanji-1019_many-1 | Wanji | MANY | -inga | i ŋ a
+tls-Wanji-1032_foam-1 | Wanji | FOAM | litotofula | l i t o t o f u l a
+tls-Wanji-1035_remainstay-1 | Wanji | REMAIN | kusighala | k u s i gʱ a l a
+tls-Rundi-19_milk-1 | Rundi | MILK | amata | a m a t a
+tls-Rundi-425_die-1 | Rundi | DIE | gupfa | g u p f a
+tls-Rundi-483_twist-1 | Rundi | TWIST | guhotora | g u h o t o r a
+tls-Rundi-52_corpse-1 | Rundi | CORPSE | umuvyimba | u m u v j i ⁿb a
+tls-Rundi-588_shoulder-1 | Rundi | SHOULDER | igitugu | i g i t u g u
+tls-Rundi-589_sew-1 | Rundi | SEW | kubarira | k u b a r i r a
+tls-Rundi-679_child-1 | Rundi | CHILD | umwana | u m w a n a
+tls-Rundi-680_districtprovincecountry-1 | Rundi | COUNTRY | intara | i n t a r a
+tls-Rundi-713_magic-1 | Rundi | MAGIC | uburozi | u b u r o z i
+tls-Rundi-732_song-1 | Rundi | SONG | ururirimbo | u r u r i r i ⁿb o
+tls-Rundi-793_many-1 | Rundi | MANY | -nshi | n ʃ i
+tls-Rundi-837_snail-1 | Rundi | SNAIL | igifwera | i g i f w e r a
+tls-Rundi-975_beleftoverremainover-1 | Rundi | REMAIN | gusigara | g u s i g a r a
+tls-Shubi-139_bridge-1 | Shubi | BRIDGE | urutindo | u r u t i ⁿd o
+tls-Shubi-502_foam-1 | Shubi | FOAM | ifuro | i f u r o
+tls-Shubi-52_corpse-1 | Shubi | CORPSE | umutumbi | u m u t u ⁿb i
+tls-Shubi-547_leavegoaway-1 | Shubi | LEAVE | kuvaho | k u v a h o
+tls-Shubi-644_roast-1 | Shubi | ROAST (SOMETHING) | gutara | g u t a r a
+tls-Shubi-680_districtprovincecountry-1 | Shubi | COUNTRY | igihugu | i g i h u g u
+tls-Shubi-713_magic-1 | Shubi | MAGIC | ubulozi | u b u l o z i
+tls-Shubi-732_song-1 | Shubi | SONG | ururirimbo | u r u r i r i ⁿb o
+tls-Shubi-793_many-1 | Shubi | MANY | vyinshi | v j i n ʃ i
+tls-Shubi-850_stir-1 | Shubi | STIR | kuvuruguta | k u v u r u g u t a
+tls-Shubi-867_shamedisgrace-1 | Shubi | SHAME | isoni | i s o n i
+tls-Shubi-879_resembleveryclosely-1 | Shubi | RESEMBLE | gususa | g u s u s a
+tls-Shubi-943_sweep-1 | Shubi | SWEEP | gukubuura | g u k u b uː r a
+tls-Shubi-975_beleftoverremainover-1 | Shubi | REMAIN | gusigara | g u s i g a r a
+tls-Shubi-996_ripen-1 | Shubi | RIPEN | gusha | g u ʃ a
+tls-Hangaza-19_milk-1 | Hangaza | MILK | amata | a m a t a
+tls-Hangaza-206_increasemakegreater-1 | Hangaza | INCREASE | ukongereza | u k o ŋ e r e z a
+tls-Hangaza-425_die-1 | Hangaza | DIE | kupfa | k u p f a
+tls-Hangaza-502_foam-1 | Hangaza | FOAM | ifuro | i f u r o
+tls-Hangaza-547_leavegoaway-1 | Hangaza | LEAVE | kuvaho | k u v a h o
+tls-Hangaza-588_shoulder-1 | Hangaza | SHOULDER | ikitugu | i k i t u g u
+tls-Hangaza-644_roast-1 | Hangaza | ROAST (SOMETHING) | kutara | k u t a r a
+tls-Hangaza-679_child-1 | Hangaza | CHILD | umwana | u m w a n a
+tls-Hangaza-837_snail-1 | Hangaza | SNAIL | ikifyela | i k i f j e l a
+tls-Hangaza-975_beleftoverremainover-1 | Hangaza | REMAIN | kusigara | k u s i g a r a
+tls-Hangaza-996_ripen-1 | Hangaza | RIPEN | kusha | k u ʃ a
+tls-Kiha-139_bridge-1 | Kiha | BRIDGE | ikilalo | i k i l a l o
+tls-Kiha-19_milk-1 | Kiha | MILK | amata | a m a t a
+tls-Kiha-502_foam-1 | Kiha | FOAM | ifuro | i f u r o
+tls-Kiha-52_corpse-1 | Kiha | CORPSE | umuvyimba | u m u v j i ⁿb a
+tls-Kiha-542_inside-1 | Kiha | INSIDE | hagati | h a g a t i
+tls-Kiha-588_shoulder-1 | Kiha | SHOULDER | igitugu | i g i t u g u
+tls-Kiha-713_magic-1 | Kiha | MAGIC | ubhulozi | u bʱ u l o z i
+tls-Kiha-732_song-1 | Kiha | SONG | urulilimbo | u r u l i l i ⁿb o
+tls-Kiha-879_resembleveryclosely-1 | Kiha | RESEMBLE | ugusa | u g u s a
+tls-Kiha-975_beleftoverremainover-1 | Kiha | REMAIN | ugusigala | u g u s i g a l a
+tls-Kiha-996_ripen-1 | Kiha | RIPEN | ugusha | u g u ʃ a
+tls-Kivinza-139_bridge-1 | Kivinza | BRIDGE | ikilalo | i k i l a l o
+tls-Kivinza-19_milk-1 | Kivinza | MILK | amata | a m a t a
+tls-Kivinza-23_thigh-1 | Kivinza | THIGH | ikibhelo | i k i bʱ e l o
+tls-Kivinza-425_die-1 | Kivinza | DIE | ukupfa | u k u p f a
+tls-Kivinza-502_foam-1 | Kivinza | FOAM | ifulo | i f u l o
+tls-Kivinza-588_shoulder-1 | Kivinza | SHOULDER | ibhitugo | i bʱ i t u g o
+tls-Kivinza-589_sew-1 | Kivinza | SEW | ukubhalila | u k u bʱ a l i l a
+tls-Kivinza-644_roast-1 | Kivinza | ROAST (SOMETHING) | ukwotsa | u kʷ o ts a
+tls-Kivinza-679_child-1 | Kivinza | CHILD | umwana | u m w a n a
+tls-Kivinza-713_magic-1 | Kivinza | MAGIC | ubhulozi | u bʱ u l o z i
+tls-Kivinza-867_shamedisgrace-1 | Kivinza | SHAME | insoni | i n s o n i
+tls-Kivinza-975_beleftoverremainover-1 | Kivinza | REMAIN | ukusigala | u k u s i g a l a
+tls-Runyoro-19_milk-1 | Runyoro | MILK | amata | a m a t a
+tls-Runyoro-502_foam-1 | Runyoro | FOAM | eifuro | e i f u r o
+tls-Runyoro-542_inside-1 | Runyoro | INSIDE | omunda | o m u ⁿd a
+tls-Runyoro-588_shoulder-1 | Runyoro | SHOULDER | eibega | e i b e g a
+tls-Runyoro-679_child-1 | Runyoro | CHILD | omwaana | o m w aː n a
+tls-Runyoro-793_many-1 | Runyoro | MANY | bingi | b i ŋ i
+tls-Runyoro-824_dawn-1 | Runyoro | DAWN | nyenkyakara | n j e n k j a k a r a
+tls-Runyoro-837_snail-1 | Runyoro | SNAIL | ekitindinda | e k i t i ⁿd i ⁿd a
+tls-Runyoro-850_stir-1 | Runyoro | STIR | kukoroga | k u k o r o g a
+tls-Runyoro-867_shamedisgrace-1 | Runyoro | SHAME | kuswara | k u s w a r a
+tls-Rutooro-19_milk-1 | Rutooro | MILK | amaata | a m aː t a
+tls-Rutooro-206_increasemakegreater-1 | Rutooro | INCREASE | kwongeza | kʷ o ŋ e z a
+tls-Rutooro-425_die-1 | Rutooro | DIE | kufwa | k u f w a
+tls-Rutooro-52_corpse-1 | Rutooro | CORPSE | omurambo | o m u r a ⁿb o
+tls-Rutooro-542_inside-1 | Rutooro | INSIDE | omunda | o m u ⁿd a
+tls-Rutooro-578_carry-1 | Rutooro | CARRY | himba | h i ⁿb a
+tls-Rutooro-588_shoulder-1 | Rutooro | SHOULDER | ibega | i b e g a
+tls-Rutooro-594_suckthebreast-1 | Rutooro | SUCK | kwonka | kʷ o n k a
+tls-Rutooro-679_child-1 | Rutooro | CHILD | omwana | o m w a n a
+tls-Rutooro-713_magic-1 | Rutooro | MAGIC | oburogo | o b u r o g o
+tls-Rutooro-824_dawn-1 | Rutooro | DAWN | emamba | e m a ⁿb a
+tls-Rutooro-837_snail-1 | Rutooro | SNAIL | ekitindinda | e k i t i ⁿd i ⁿd a
+tls-Rutooro-850_stir-1 | Rutooro | STIR | koroga | k o r o g a
+tls-Rutooro-867_shamedisgrace-1 | Rutooro | SHAME | ensoni | e n s o n i
+tls-Runyankore-19_milk-1 | Runyankore | MILK | amate | a m a t e
+tls-Runyankore-425_die-1 | Runyankore | DIE | kufa | k u f a
+tls-Runyankore-502_foam-1 | Runyankore | FOAM | eifuro | e i f u r o
+tls-Runyankore-52_corpse-1 | Runyankore | CORPSE | omutumbi | o m u t u ⁿb i
+tls-Runyankore-542_inside-1 | Runyankore | INSIDE | omunda | o m u ⁿd a
+tls-Runyankore-588_shoulder-1 | Runyankore | SHOULDER | eibega | e i b e g a
+tls-Runyankore-589_sew-1 | Runyankore | SEW | kubaziira | k u b a z iː r a
+tls-Runyankore-644_roast-1 | Runyankore | ROAST (SOMETHING) | kwotsya | kʷ o ts j a
+tls-Runyankore-679_child-1 | Runyankore | CHILD | omuto | o m u t o
+tls-Runyankore-713_magic-1 | Runyankore | MAGIC | oburogo | o b u r o g o
+tls-Runyankore-732_song-1 | Runyankore | SONG | ekyeshongoro | e k j e ʃ o ŋ o r o
+tls-Runyankore-793_many-1 | Runyankore | MANY | -ingi | i ŋ i
+tls-Runyankore-824_dawn-1 | Runyankore | DAWN | omushekye | o m u ʃ e k j e
+tls-Runyankore-837_snail-1 | Runyankore | SNAIL | ekinyangondokyera | e k i n j a ŋ o ⁿd o k j e r a
+tls-Runyankore-850_stir-1 | Runyankore | STIR | kushigisha | k u ʃ i g i ʃ a
+tls-Runyankore-867_shamedisgrace-1 | Runyankore | SHAME | enshoni | e n ʃ o n i
+tls-Runyankore-879_resembleveryclosely-1 | Runyankore | RESEMBLE | kushushana_na | k u ʃ u ʃ a n a + n a
+tls-Runyankore-968_shivershudder-1 | Runyankore | SHIVER | kutetema | k u t e t e m a
+tls-Rukiga-129_washtakeabath-1 | Rukiga | WASH | okunaaba | o k u n aː b a
+tls-Rukiga-19_milk-1 | Rukiga | MILK | amate | a m a t e
+tls-Rukiga-425_die-1 | Rukiga | DIE | okufa | o k u f a
+tls-Rukiga-502_foam-1 | Rukiga | FOAM | eifuro | e i f u r o
+tls-Rukiga-588_shoulder-1 | Rukiga | SHOULDER | eibega | e i b e g a
+tls-Rukiga-589_sew-1 | Rukiga | SEW | okubazira | o k u b a z i r a
+tls-Rukiga-594_suckthebreast-1 | Rukiga | SUCK | okwonka | o kʷ o n k a
+tls-Rukiga-679_child-1 | Rukiga | CHILD | omwana | o m w a n a
+tls-Rukiga-732_song-1 | Rukiga | SONG | ekyeshongoro | e k j e ʃ o ŋ o r o
+tls-Rukiga-793_many-1 | Rukiga | MANY | -kanyire | k a n j i r e
+tls-Rukiga-837_snail-1 | Rukiga | SNAIL | ekinyangondokyera | e k i n j a ŋ o ⁿd o k j e r a
+tls-Rukiga-943_sweep-1 | Rukiga | SWEEP | okukondora | o k u k o ⁿd o r a
+tls-Rukiga-968_shivershudder-1 | Rukiga | SHIVER | okutetema | o k u t e t e m a
+tls-Rukiga-996_ripen-1 | Rukiga | RIPEN | okusya | o k u s j a
+tls-Luganda-19_milk-1 | Luganda | MILK | mata | m a t a
+tls-Luganda-425_die-1 | Luganda | DIE | ku-fa | k u + f a
+tls-Luganda-502_foam-1 | Luganda | FOAM | jjovu | dʒː o v u
+tls-Luganda-589_sew-1 | Luganda | SEW | ku-tunga | k u + t u ŋ a
+tls-Luganda-679_child-1 | Luganda | CHILD | mwana | m w a n a
+tls-Luganda-732_song-1 | Luganda | SONG | luyimba | l u j i ⁿb a
+tls-Luganda-867_shamedisgrace-1 | Luganda | SHAME | nsonyi | n s o n j i
+tls-Lusoga-23_thigh-1 | Lusoga | THIGH | ekisambi_ | e k i s a ⁿb i
+tls-Lusoga-425_die-1 | Lusoga | DIE | oku-fa | o k u + f a
+tls-Lusoga-589_sew-1 | Lusoga | SEW | ku-tunga | k u + t u ŋ a
+tls-Lusoga-713_magic-1 | Lusoga | MAGIC | eirogo | e i r o g o
+tls-Lusoga-837_snail-1 | Lusoga | SNAIL | eikovu | e i k o v u
+tls-Lusoga-968_shivershudder-1 | Lusoga | SHIVER | ku-dhugumira | k u + dʱ u g u m i r a
+tls-Gwere-139_bridge-1 | Gwere | BRIDGE | lutindo | l u t i ⁿd o
+tls-Gwere-206_increasemakegreater-1 | Gwere | INCREASE | kw-ongera | kʷ + o ŋ e r a
+tls-Gwere-52_corpse-1 | Gwere | CORPSE | mulambo | m u l a ⁿb o
+tls-Gwere-542_inside-1 | Gwere | INSIDE | munda | m u ⁿd a
+tls-Gwere-589_sew-1 | Gwere | SEW | ku-tunga | k u + t u ŋ a
+tls-Gwere-594_suckthebreast-1 | Gwere | SUCK | kw-onka | kʷ + o n k a
+tls-Gwere-644_roast-1 | Gwere | ROAST (SOMETHING) | kw-okya | kʷ + o k j a
+tls-Gwere-679_child-1 | Gwere | CHILD | mwaana | m w aː n a
+tls-Gwere-732_song-1 | Gwere | SONG | lwembo | l w e ⁿb o
+tls-Gwere-837_snail-1 | Gwere | SNAIL | kikovu | k i k o v u
+tls-Gwere-850_stir-1 | Gwere | STIR | ku-tabula | k u + t a b u l a
+tls-Gwere-867_shamedisgrace-1 | Gwere | SHAME | ku-swala | k u + s w a l a
+tls-Gwere-968_shivershudder-1 | Gwere | SHIVER | ku-tukuta | k u + t u k u t a
+tls-Gwere-975_beleftoverremainover-1 | Gwere | REMAIN | ku-sigala | k u + s i g a l a
+tls-Gwere-996_ripen-1 | Gwere | RIPEN | kw-enga | kʷ + e ŋ a
+tls-Runyambo-139_bridge-1 | Runyambo | BRIDGE | orutindo | o r u t i ⁿd o
+tls-Runyambo-19_milk-1 | Runyambo | MILK | amate | a m a t e
+tls-Runyambo-425_die-1 | Runyambo | DIE | fa | f a
+tls-Runyambo-502_foam-1 | Runyambo | FOAM | ifuro | i f u r o
+tls-Runyambo-578_carry-1 | Runyambo | CARRY | kutwala | k u t w a l a
+tls-Runyambo-588_shoulder-1 | Runyambo | SHOULDER | ibega | i b e g a
+tls-Runyambo-644_roast-1 | Runyambo | ROAST (SOMETHING) | kwocha | kʷ o tʃ a
+tls-Runyambo-679_child-1 | Runyambo | CHILD | omwana | o m w a n a
+tls-Runyambo-713_magic-1 | Runyambo | MAGIC | oburogi | o b u r o g i
+tls-Runyambo-732_song-1 | Runyambo | SONG | oruhoya | o r u h o j a
+tls-Runyambo-793_many-1 | Runyambo | MANY | bingi | b i ŋ i
+tls-Runyambo-837_snail-1 | Runyambo | SNAIL | echinyira | e tʃ i n j i r a
+tls-Runyambo-867_shamedisgrace-1 | Runyambo | SHAME | ensoni | e n s o n i
+tls-Runyambo-943_sweep-1 | Runyambo | SWEEP | kwelelera | kʷ e l e l e r a
+tls-Runyambo-968_shivershudder-1 | Runyambo | SHIVER | kutetema | k u t e t e m a
+tls-Haya-139_bridge-1 | Haya | BRIDGE | olutindo | o l u t i ⁿd o
+tls-Haya-19_milk-1 | Haya | MILK | amata | a m a t a
+tls-Haya-425_die-1 | Haya | DIE | fa | f a
+tls-Haya-502_foam-1 | Haya | FOAM | ifulo | i f u l o
+tls-Haya-52_corpse-1 | Haya | CORPSE | omutumbi | o m u t u ⁿb i
+tls-Haya-542_inside-1 | Haya | INSIDE | omunda | o m u ⁿd a
+tls-Haya-793_many-1 | Haya | MANY | -ingi | i ŋ i
+tls-Haya-837_snail-1 | Haya | SNAIL | ekinyila | e k i n j i l a
+tls-Haya-867_shamedisgrace-1 | Haya | SHAME | enshoni | e n ʃ o n i
+tls-Haya-879_resembleveryclosely-1 | Haya | RESEMBLE | shanangana | ʃ a n a ŋ a n a
+tls-Haya-996_ripen-1 | Haya | RIPEN | kuhya | k u h j a
+tls-Zinza-19_milk-1 | Zinza | MILK | amate | a m a t e
+tls-Zinza-578_carry-1 | Zinza | CARRY | kusutura | k u s u t u r a
+tls-Zinza-679_child-1 | Zinza | CHILD | omwana | o m w a n a
+tls-Zinza-867_shamedisgrace-1 | Zinza | SHAME | ensoni | e n s o n i
+tls-Zinza-879_resembleveryclosely-1 | Zinza | RESEMBLE | kususana | k u s u s a n a
+tls-Zinza-975_beleftoverremainover-1 | Zinza | REMAIN | kusigara | k u s i g a r a
+tls-Zinza-996_ripen-1 | Zinza | RIPEN | kusha | k u ʃ a
+tls-Kerebe-19_milk-1 | Kerebe | MILK | amata | a m a t a
+tls-Kerebe-502_foam-1 | Kerebe | FOAM | ifilo | i f i l o
+tls-Kerebe-542_inside-1 | Kerebe | INSIDE | munda | m u ⁿd a
+tls-Kerebe-589_sew-1 | Kerebe | SEW | kubazila | k u b a z i l a
+tls-Kerebe-679_child-1 | Kerebe | CHILD | omwana | o m w a n a
+tls-Kerebe-713_magic-1 | Kerebe | MAGIC | obulogi | o b u l o g i
+tls-Kerebe-732_song-1 | Kerebe | SONG | olwembo | o l w e ⁿb o
+tls-Kerebe-837_snail-1 | Kerebe | SNAIL | watelela | w a t e l e l a
+tls-Kerebe-867_shamedisgrace-1 | Kerebe | SHAME | ensoni | e n s o n i
+tls-Kerebe-879_resembleveryclosely-1 | Kerebe | RESEMBLE | kususana | k u s u s a n a
+tls-Kerebe-943_sweep-1 | Kerebe | SWEEP | kukukumba | k u k u k u ⁿb a
+tls-Kerebe-975_beleftoverremainover-1 | Kerebe | REMAIN | kusigala | k u s i g a l a
+tls-Kerebe-996_ripen-1 | Kerebe | RIPEN | kuhya | k u h j a
+tls-Jita-139_bridge-1 | Jita | BRIDGE | echambukilo | e tʃ a ⁿb u k i l o
+tls-Jita-19_milk-1 | Jita | MILK | amata | a m a t a
+tls-Jita-425_die-1 | Jita | DIE | -fwa | f w a
+tls-Jita-52_corpse-1 | Jita | CORPSE | omutumbi | o m u t u ⁿb i
+tls-Jita-547_leavegoaway-1 | Jita | LEAVE | sokao | s o k a o
+tls-Jita-588_shoulder-1 | Jita | SHOULDER | libega | l i b e g a
+tls-Jita-679_child-1 | Jita | CHILD | omwana | o m w a n a
+tls-Jita-713_magic-1 | Jita | MAGIC | obulosi | o b u l o s i
+tls-Jita-793_many-1 | Jita | MANY | -afu | a f u
+tls-Jita-837_snail-1 | Jita | SNAIL | nyabutelele | n j a b u t e l e l e
+tls-Jita-867_shamedisgrace-1 | Jita | SHAME | jiswalo | dʒ i s w a l o
+tls-Jita-996_ripen-1 | Jita | RIPEN | ya | j a
+tls-Kilegi-19_milk-1 | Kilegi | MILK | amata | a m a t a
+tls-Kilegi-37_becomebadrotten-1 | Kilegi | ROTTEN | bola | b o l a
+tls-Kilegi-425_die-1 | Kilegi | DIE | okufwa | o k u f w a
+tls-Kilegi-502_foam-1 | Kilegi | FOAM | lifilo | l i f i l o
+tls-Kilegi-52_corpse-1 | Kilegi | CORPSE | omutumbi | o m u t u ⁿb i
+tls-Kilegi-679_child-1 | Kilegi | CHILD | omwana | o m w a n a
+tls-Kilegi-975_beleftoverremainover-1 | Kilegi | REMAIN | okusikala | o k u s i k a l a
+tls-Mkwaya-206_increasemakegreater-1 | Mkwaya | INCREASE | okwongesya | o kʷ o ŋ e s j a
+tls-Mkwaya-425_die-1 | Mkwaya | DIE | okufwa | o k u f w a
+tls-Mkwaya-502_foam-1 | Mkwaya | FOAM | rifiro | r i f i r o
+tls-Mkwaya-542_inside-1 | Mkwaya | INSIDE | munsi | m u n s i
+tls-Mkwaya-588_shoulder-1 | Mkwaya | SHOULDER | ribega | r i b e g a
+tls-Mkwaya-589_sew-1 | Mkwaya | SEW | okusona | o k u s o n a
+tls-Mkwaya-713_magic-1 | Mkwaya | MAGIC | oburosi | o b u r o s i
+tls-Mkwaya-837_snail-1 | Mkwaya | SNAIL | nyabuterere | n j a b u t e r e r e
+tls-Mkwaya-943_sweep-1 | Mkwaya | SWEEP | okweerera | o kʷ eː r e r a
+tls-Mkwaya-996_ripen-1 | Mkwaya | RIPEN | okuya | o k u j a
+tls-Lumasaaba-128_washclothes-1 | Lumasaaba | WASH | khu-siinga | kʰ u + s iː ŋ a
+tls-Lumasaaba-139_bridge-1 | Lumasaaba | BRIDGE | bulalo | b u l a l o
+tls-Lumasaaba-425_die-1 | Lumasaaba | DIE | khu-fwa | kʰ u + f w a
+tls-Lumasaaba-52_corpse-1 | Lumasaaba | CORPSE | kumulambo | k u m u l a ⁿb o
+tls-Lumasaaba-679_child-1 | Lumasaaba | CHILD | umwana | u m w a n a
+tls-Lumasaaba-732_song-1 | Lumasaaba | SONG | kumwenya | k u m w e n j a
+tls-Lumasaaba-793_many-1 | Lumasaaba | MANY | -ngi | ŋ i
+tls-Lvhyia-37_becomebadrotten-1 | Lvhyia | ROTTEN | khu-kunda | kʰ u + k u ⁿd a
+tls-Lvhyia-425_die-1 | Lvhyia | DIE | khu-khutsa | kʰ u + kʰ u ts a
+tls-Lvhyia-502_foam-1 | Lvhyia | FOAM | lihulu | l i h u l u
+tls-Lvhyia-589_sew-1 | Lvhyia | SEW | khu-nava | kʰ u + n a v a
+tls-Lvhyia-594_suckthebreast-1 | Lvhyia | SUCK | khu-nuna | kʰ u + n u n a
+tls-Lvhyia-679_child-1 | Lvhyia | CHILD | mwana | m w a n a
+tls-Lvhyia-713_magic-1 | Lvhyia | MAGIC | vulochi | v u l o tʃ i
+tls-Lvhyia-793_many-1 | Lvhyia | MANY | vinyishi | v i n j i ʃ i
+tls-Lvhyia-867_shamedisgrace-1 | Lvhyia | SHAME | isoni | i s o n i
+tls-Lvhyia-879_resembleveryclosely-1 | Lvhyia | RESEMBLE | khu-sesana | kʰ u + s e s a n a
+tls-Lvhyia-968_shivershudder-1 | Lvhyia | SHIVER | khu-tejela | kʰ u + t e j e l a
+tls-Samialugwe-19_milk-1 | Samialugwe | MILK | amabere | a m a b e r e
+tls-Samialugwe-206_increasemakegreater-1 | Samialugwe | INCREASE | yongesa | j o ŋ e s a
+tls-Samialugwe-502_foam-1 | Samialugwe | FOAM | efiro | e f i r o
+tls-Samialugwe-52_corpse-1 | Samialugwe | CORPSE | omulambo | o m u l a ⁿb o
+tls-Samialugwe-589_sew-1 | Samialugwe | SEW | ohu-sona | o h u + s o n a
+tls-Samialugwe-679_child-1 | Samialugwe | CHILD | omwana | o m w a n a
+tls-Samialugwe-732_song-1 | Samialugwe | SONG | olwembo | o l w e ⁿb o
+tls-Samialugwe-837_snail-1 | Samialugwe | SNAIL | eheniemu_ | e h e n i e m u
+tls-Samialugwe-879_resembleveryclosely-1 | Samialugwe | RESEMBLE | ohu-fanana | o h u + f a n a n a
+tls-Samialugwe-968_shivershudder-1 | Samialugwe | SHIVER | ohu-tengereha | o h u + t e ŋ e r e h a
+tls-Ngoreme-139_bridge-1 | Ngoreme | BRIDGE | ridaraja | r i d a r a j a
+tls-Ngoreme-19_milk-1 | Ngoreme | MILK | amabhere | a m a bʱ e r e
+tls-Ngoreme-206_increasemakegreater-1 | Ngoreme | INCREASE | kwengeri | kʷ e ŋ e r i
+tls-Ngoreme-23_thigh-1 | Ngoreme | THIGH | ekenama | e k e n a m a
+tls-Ngoreme-425_die-1 | Ngoreme | DIE | oghoku | o gʱ o k u
+tls-Ngoreme-502_foam-1 | Ngoreme | FOAM | rihuro | r i h u r o
+tls-Ngoreme-578_carry-1 | Ngoreme | CARRY | okoghegha | o k o gʱ e gʱ a
+tls-Ngoreme-594_suckthebreast-1 | Ngoreme | SUCK | okoghonka | o k o gʱ o n k a
+tls-Ngoreme-679_child-1 | Ngoreme | CHILD | omona | o m o n a
+tls-Ikizu-502_foam-1 | Ikizu | FOAM | rihuru | r i h u r u
+tls-Ikizu-589_sew-1 | Ikizu | SEW | kutuma | k u t u m a
+tls-Ikizu-732_song-1 | Ikizu | SONG | iryembo | i r j e ⁿb o
+tls-Ikizu-879_resembleveryclosely-1 | Ikizu | RESEMBLE | kutubhana | k u t u bʱ a n a
+tls-Ikizu-968_shivershudder-1 | Ikizu | SHIVER | kusingisa | k u s i ŋ i s a
+tls-Ikizu-996_ripen-1 | Ikizu | RIPEN | konoga | k o n o g a
+tls-ShashiSiz-139_bridge-1 | Shashi_siz | BRIDGE | orodara | o r o d a r a
+tls-ShashiSiz-19_milk-1 | Shashi_siz | MILK | amabhere | a m a bʱ e r e
+tls-ShashiSiz-425_die-1 | Shashi_siz | DIE | kwa | kʷ a
+tls-ShashiSiz-542_inside-1 | Shashi_siz | INSIDE | musi | m u s i
+tls-ShashiSiz-578_carry-1 | Shashi_siz | CARRY | gega | g e g a
+tls-ShashiSiz-588_shoulder-1 | Shashi_siz | SHOULDER | eribhega | e r i bʱ e g a
+tls-ShashiSiz-644_roast-1 | Shashi_siz | ROAST (SOMETHING) | okya | o k j a
+tls-ShashiSiz-679_child-1 | Shashi_siz | CHILD | omwana | o m w a n a
+tls-ShashiSiz-793_many-1 | Shashi_siz | MANY | nzaru | n z a r u
+tls-ShashiSiz-850_stir-1 | Shashi_siz | STIR | segesa | s e g e s a
+tls-ShashiSiz-968_shivershudder-1 | Shashi_siz | SHIVER | rigita | r i g i t a
+tls-Suba-139_bridge-1 | Suba | BRIDGE | edaraja | e d a r a j a
+tls-Suba-19_milk-1 | Suba | MILK | amabhere | a m a bʱ e r e
+tls-Suba-23_thigh-1 | Suba | THIGH | ikimo | i k i m o
+tls-Suba-37_becomebadrotten-1 | Suba | ROTTEN | ghunda | gʱ u ⁿd a
+tls-Suba-425_die-1 | Suba | DIE | ukukwa | u k u kʷ a
+tls-Suba-502_foam-1 | Suba | FOAM | rihuro | r i h u r o
+tls-Suba-578_carry-1 | Suba | CARRY | -ghegha | gʱ e gʱ a
+tls-Suba-588_shoulder-1 | Suba | SHOULDER | rereko | r e r e k o
+tls-Suba-594_suckthebreast-1 | Suba | SUCK | -ghonka | gʱ o n k a
+tls-Suba-644_roast-1 | Suba | ROAST (SOMETHING) | -samba | s a ⁿb a
+tls-Suba-679_child-1 | Suba | CHILD | omona | o m o n a
+tls-Suba-713_magic-1 | Suba | MAGIC | ubhuturutumbi | u bʱ u t u r u t u ⁿb i
+tls-Suba-732_song-1 | Suba | SONG | omobharo | o m o bʱ a r o
+tls-Suba-793_many-1 | Suba | MANY | -aru | a r u
+tls-Suba-824_dawn-1 | Suba | DAWN | momakera | m o m a k e r a
+tls-Suba-850_stir-1 | Suba | STIR | -hetya | h e t j a
+tls-Suba-867_shamedisgrace-1 | Suba | SHAME | sensoni | s e n s o n i
+tls-Maragoli-19_milk-1 | Maragoli | MILK | maveere | m a v eː r e
+tls-Maragoli-425_die-1 | Maragoli | DIE | ku-kuza | k u + k u z a
+tls-Maragoli-542_inside-1 | Maragoli | INSIDE | musi | m u s i
+tls-Maragoli-547_leavegoaway-1 | Maragoli | LEAVE | ku-tura | k u + t u r a
+tls-Maragoli-588_shoulder-1 | Maragoli | SHOULDER | livega | l i v e g a
+tls-Maragoli-589_sew-1 | Maragoli | SEW | ku-nava | k u + n a v a
+tls-Maragoli-644_roast-1 | Maragoli | ROAST (SOMETHING) | ku-samba | k u + s a ⁿb a
+tls-Maragoli-679_child-1 | Maragoli | CHILD | umwana | u m w a n a
+tls-Maragoli-824_dawn-1 | Maragoli | DAWN | mumavwevwe | m u m a vʷ e vʷ e
+tls-Maragoli-850_stir-1 | Maragoli | STIR | ku-vuruganyia | k u + v u r u g a n j i a
+tls-Maragoli-879_resembleveryclosely-1 | Maragoli | RESEMBLE | ku-fanana | k u + f a n a n a
+tls-Maragoli-968_shivershudder-1 | Maragoli | SHIVER | ko-degera | k o + d e g e r a
+tls-Gusii-139_bridge-1 | Gusii | BRIDGE | oboraro | o b o r a r o
+tls-Gusii-19_milk-1 | Gusii | MILK | amabere | a m a b e r e
+tls-Gusii-425_die-1 | Gusii | DIE | gokwa | g o kʷ a
+tls-Gusii-52_corpse-1 | Gusii | CORPSE | egetondo | e g e t o ⁿd o
+tls-Gusii-542_inside-1 | Gusii | INSIDE | ime | i m e
+tls-Gusii-578_carry-1 | Gusii | CARRY | kobogoria | k o b o g o r i a
+tls-Gusii-588_shoulder-1 | Gusii | SHOULDER | rireko | r i r e k o
+tls-Gusii-589_sew-1 | Gusii | SEW | gosona | g o s o n a
+tls-Gusii-594_suckthebreast-1 | Gusii | SUCK | kogonka | k o g o n k a
+tls-Gusii-732_song-1 | Gusii | SONG | ogotera | o g o t e r a
+tls-Gusii-824_dawn-1 | Gusii | DAWN | ogokia | o g o k i a
+tls-Gusii-850_stir-1 | Gusii | STIR | koburuga | k o b u r u g a
+tls-Gusii-867_shamedisgrace-1 | Gusii | SHAME | obosohu | o b o s o h u
+tls-Gusii-879_resembleveryclosely-1 | Gusii | RESEMBLE | kogwekana | k o gʷ e k a n a
+tls-Gusii-943_sweep-1 | Gusii | SWEEP | koabusa | k o a b u s a
+tls-Gusii-996_ripen-1 | Gusii | RIPEN | kwama | kʷ a m a
+tls-KuriaMago-19_milk-1 | Kuria_mago | MILK | amabere | a m a b e r e
+tls-KuriaMago-206_increasemakegreater-1 | Kuria_mago | INCREASE | engelia | e ŋ e l i a
+tls-KuriaMago-23_thigh-1 | Kuria_mago | THIGH | ekenama | e k e n a m a
+tls-KuriaMago-425_die-1 | Kuria_mago | DIE | ugukwa | u g u kʷ a
+tls-KuriaMago-502_foam-1 | Kuria_mago | FOAM | irihuro | i r i h u r o
+tls-KuriaMago-594_suckthebreast-1 | Kuria_mago | SUCK | okogonka | o k o g o n k a
+tls-KuriaMago-644_roast-1 | Kuria_mago | ROAST (SOMETHING) | okosamba | o k o s a ⁿb a
+tls-KuriaMago-679_child-1 | Kuria_mago | CHILD | omona | o m o n a
+tls-KuriaMago-680_districtprovincecountry-1 | Kuria_mago | COUNTRY | ikiaro | i k i a r o
+tls-KuriaMago-732_song-1 | Kuria_mago | SONG | iribina | i r i b i n a
+tls-KuriaMago-867_shamedisgrace-1 | Kuria_mago | SHAME | ichinsoni | i tʃ i n s o n i
+tls-KuriaMago-975_beleftoverremainover-1 | Kuria_mago | REMAIN | ogotama | o g o t a m a
+tls-KuriaMago-996_ripen-1 | Kuria_mago | RIPEN | okotoba | o k o t o b a
+tls-KuriaTari-19_milk-1 | Kuria_tari | MILK | amabhere | a m a bʱ e r e
+tls-KuriaTari-23_thigh-1 | Kuria_tari | THIGH | ekenama | e k e n a m a
+tls-KuriaTari-425_die-1 | Kuria_tari | DIE | ugukwa | u g u kʷ a
+tls-KuriaTari-502_foam-1 | Kuria_tari | FOAM | irihuro | i r i h u r o
+tls-KuriaTari-542_inside-1 | Kuria_tari | INSIDE | monse | m o n s e
+tls-KuriaTari-588_shoulder-1 | Kuria_tari | SHOULDER | irireko | i r i r e k o
+tls-KuriaTari-589_sew-1 | Kuria_tari | SEW | ugutuma | u g u t u m a
+tls-KuriaTari-594_suckthebreast-1 | Kuria_tari | SUCK | okogonka | o k o g o n k a
+tls-KuriaTari-644_roast-1 | Kuria_tari | ROAST (SOMETHING) | ogosamba | o g o s a ⁿb a
+tls-KuriaTari-679_child-1 | Kuria_tari | CHILD | omona | o m o n a
+tls-KuriaTari-713_magic-1 | Kuria_tari | MAGIC | irirogo | i r i r o g o
+tls-KuriaTari-850_stir-1 | Kuria_tari | STIR | okohetya | o k o h e t j a
+tls-KuriaTari-867_shamedisgrace-1 | Kuria_tari | SHAME | ichinsoni | i tʃ i n s o n i
+tls-KuriaTari-879_resembleveryclosely-1 | Kuria_tari | RESEMBLE | ugutubhana | u g u t u bʱ a n a
+tls-KuriaTari-975_beleftoverremainover-1 | Kuria_tari | REMAIN | ogotama | o g o t a m a
+tls-Zanaki-19_milk-1 | Zanaki | MILK | amabere | a m a b e r e
+tls-Zanaki-206_increasemakegreater-1 | Zanaki | INCREASE | yongera | j o ŋ e r a
+tls-Zanaki-425_die-1 | Zanaki | DIE | okukwa | o k u kʷ a
+tls-Zanaki-502_foam-1 | Zanaki | FOAM | erihuro | e r i h u r o
+tls-Zanaki-578_carry-1 | Zanaki | CARRY | gega | g e g a
+tls-Zanaki-594_suckthebreast-1 | Zanaki | SUCK | koka | k o k a
+tls-Zanaki-644_roast-1 | Zanaki | ROAST (SOMETHING) | yokya | j o k j a
+tls-Zanaki-679_child-1 | Zanaki | CHILD | omwana | o m w a n a
+tls-Zanaki-713_magic-1 | Zanaki | MAGIC | oburogo | o b u r o g o
+tls-Zanaki-732_song-1 | Zanaki | SONG | orwembo | o r w e ⁿb o
+tls-Zanaki-793_many-1 | Zanaki | MANY | nzaru | n z a r u
+tls-Zanaki-837_snail-1 | Zanaki | SNAIL | erikoru | e r i k o r u
+tls-Zanaki-867_shamedisgrace-1 | Zanaki | SHAME | soni | s o n i
+tls-Zanaki-975_beleftoverremainover-1 | Zanaki | REMAIN | saga | s a g a
+tls-Nata-139_bridge-1 | Nata | BRIDGE | orutaracha | o r u t a r a tʃ a
+tls-Nata-19_milk-1 | Nata | MILK | amabhere | a m a bʱ e r e
+tls-Nata-425_die-1 | Nata | DIE | kukwa | k u kʷ a
+tls-Nata-588_shoulder-1 | Nata | SHOULDER | ribhega | r i bʱ e g a
+tls-Nata-679_child-1 | Nata | CHILD | omwana | o m w a n a
+tls-Nata-867_shamedisgrace-1 | Nata | SHAME | chasoni | tʃ a s o n i
+tls-Nata-975_beleftoverremainover-1 | Nata | REMAIN | kusagha | k u s a gʱ a
+tls-Pimbwe-19_milk-1 | Pimbwe | MILK | amadib'a | a m a d i b a
+tls-Pimbwe-425_die-1 | Pimbwe | DIE | ukufwa | u k u f w a
+tls-Pimbwe-502_foam-1 | Pimbwe | FOAM | ifulo | i f u l o
+tls-Pimbwe-542_inside-1 | Pimbwe | INSIDE | mkate | m k a t e
+tls-Pimbwe-589_sew-1 | Pimbwe | SEW | ukusuma | u k u s u m a
+tls-Pimbwe-644_roast-1 | Pimbwe | ROAST (SOMETHING) | ukoocha | u k oː tʃ a
+tls-Pimbwe-679_child-1 | Pimbwe | CHILD | umwaana | u m w aː n a
+tls-Pimbwe-713_magic-1 | Pimbwe | MAGIC | ub'ulodi | u b ʔ u l o d i
+tls-Pimbwe-732_song-1 | Pimbwe | SONG | ulwiimbo | u l w iː ⁿb o
+tls-Pimbwe-850_stir-1 | Pimbwe | STIR | ukukomya | u k u k o m j a
+tls-Pimbwe-867_shamedisgrace-1 | Pimbwe | SHAME | insoni | i n s o n i
+tls-Pimbwe-968_shivershudder-1 | Pimbwe | SHIVER | ukutetema | u k u t e t e m a
+tls-Pimbwe-996_ripen-1 | Pimbwe | RIPEN | ukucha | u k u tʃ a
+tls-Lungwa-19_milk-1 | Lungwa | MILK | amaziwa | a m a z i w a
+tls-Lungwa-206_increasemakegreater-1 | Lungwa | INCREASE | ukongezya | u k o ŋ e z j a
+tls-Lungwa-425_die-1 | Lungwa | DIE | ukufwa | u k u f w a
+tls-Lungwa-542_inside-1 | Lungwa | INSIDE | mkate | m k a t e
+tls-Lungwa-578_carry-1 | Lungwa | CARRY | ukusenda | u k u s e ⁿd a
+tls-Lungwa-589_sew-1 | Lungwa | SEW | ukusuma | u k u s u m a
+tls-Lungwa-713_magic-1 | Lungwa | MAGIC | uwulozi | u w u l o z i
+tls-Lungwa-793_many-1 | Lungwa | MANY | -ingi | i ŋ i
+tls-Lungwa-837_snail-1 | Lungwa | SNAIL | enkolofu | e n k o l o f u
+tls-Lungwa-867_shamedisgrace-1 | Lungwa | SHAME | insoni | i n s o n i
+tls-Lungwa-879_resembleveryclosely-1 | Lungwa | RESEMBLE | ukukolana | u k u k o l a n a
+tls-Lungwa-943_sweep-1 | Lungwa | SWEEP | ukupyiila | u k u p j iː l a
+tls-Lungwa-975_beleftoverremainover-1 | Lungwa | REMAIN | ukusyaala | u k u s j aː l a
+tls-Lungwa-996_ripen-1 | Lungwa | RIPEN | ukucha | u k u tʃ a
+tls-Rungwa-206_increasemakegreater-1 | Rungwa | INCREASE | ukongezya | u k o ŋ e z j a
+tls-Rungwa-542_inside-1 | Rungwa | INSIDE | mkate | m k a t e
+tls-Rungwa-578_carry-1 | Rungwa | CARRY | ukusenda | u k u s e ⁿd a
+tls-Rungwa-837_snail-1 | Rungwa | SNAIL | enkolofu | e n k o l o f u
+tls-Rungwa-867_shamedisgrace-1 | Rungwa | SHAME | insoni | i n s o n i
+tls-Rungwa-879_resembleveryclosely-1 | Rungwa | RESEMBLE | ukukolana | u k u k o l a n a
+tls-Rungwa-943_sweep-1 | Rungwa | SWEEP | ukupyiila | u k u p j iː l a
+tls-Rungwa-996_ripen-1 | Rungwa | RIPEN | ukucha | u k u tʃ a
+tls-Rungwa-1019_many-1 | Rungwa | MANY | -ingi | i ŋ i
+tls-Rungwa-1027_die-1 | Rungwa | DIE | ukufwa | u k u f w a
+tls-Rungwa-1030_milk-1 | Rungwa | MILK | amaziwa | a m a z i w a
+tls-Rungwa-1033_sew-1 | Rungwa | SEW | ukusuma | u k u s u m a
+tls-Rungwa-1035_remainstay-1 | Rungwa | REMAIN | ukusyaala | u k u s j aː l a
+tls-Fipa-425_die-1 | Fipa | DIE | uukufwa | uː k u f w a
+tls-Fipa-502_foam-1 | Fipa | FOAM | itotofulu | i t o t o f u l u
+tls-Fipa-52_corpse-1 | Fipa | CORPSE | ichaala | i tʃ aː l a
+tls-Fipa-588_shoulder-1 | Fipa | SHOULDER | uuluto | uː l u t o
+tls-Fipa-589_sew-1 | Fipa | SEW | ukusuma | u k u s u m a
+tls-Fipa-679_child-1 | Fipa | CHILD | umwaana | u m w aː n a
+tls-Fipa-824_dawn-1 | Fipa | DAWN | akatondo | a k a t o ⁿd o
+tls-Fipa-837_snail-1 | Fipa | SNAIL | inyoonga | i n j oː ŋ a
+tls-Fipa-850_stir-1 | Fipa | STIR | ukukomya | u k u k o m j a
+tls-Fipa-943_sweep-1 | Fipa | SWEEP | ukupyela | u k u p j e l a
+tls-Ndali-128_washclothes-1 | Ndali | WASH | kusuka | k u s u k a
+tls-Ndali-139_bridge-1 | Ndali | BRIDGE | lulalo | l u l a l o
+tls-Ndali-206_increasemakegreater-1 | Ndali | INCREASE | -ongela | o ŋ e l a
+tls-Ndali-425_die-1 | Ndali | DIE | kufwa | k u f w a
+tls-Ndali-52_corpse-1 | Ndali | CORPSE | mufimba | m u f i ⁿb a
+tls-Ndali-542_inside-1 | Ndali | INSIDE | mukati | m u k a t i
+tls-Ndali-578_carry-1 | Ndali | CARRY | kupimba | k u p i ⁿb a
+tls-Ndali-588_shoulder-1 | Ndali | SHOULDER | chibeja | tʃ i b e j a
+tls-Ndali-589_sew-1 | Ndali | SEW | kusona | k u s o n a
+tls-Ndali-644_roast-1 | Ndali | ROAST (SOMETHING) | -ocha | o tʃ a
+tls-Ndali-680_districtprovincecountry-1 | Ndali | COUNTRY | ichisu | i tʃ i s u
+tls-Ndali-713_magic-1 | Ndali | MAGIC | buloshi | b u l o ʃ i
+tls-Ndali-732_song-1 | Ndali | SONG | lwimbo | l w i ⁿb o
+tls-Ndali-793_many-1 | Ndali | MANY | -ingi | i ŋ i
+tls-Ndali-824_dawn-1 | Ndali | DAWN | kubuche | k u b u tʃ e
+tls-Ndali-837_snail-1 | Ndali | SNAIL | ukofu | u k o f u
+tls-Ndali-867_shamedisgrace-1 | Ndali | SHAME | isoni | i s o n i
+tls-Ndali-879_resembleveryclosely-1 | Ndali | RESEMBLE | kugelela | k u g e l e l a
+tls-Ndali-943_sweep-1 | Ndali | SWEEP | kupyagila | k u p j a g i l a
+tls-Ndali-968_shivershudder-1 | Ndali | SHIVER | kutetema | k u t e t e m a
+tls-Ndali-975_beleftoverremainover-1 | Ndali | REMAIN | kulema | k u l e m a
+tls-Ndali-996_ripen-1 | Ndali | RIPEN | kutona | k u t o n a
+tls-Ndari-128_washclothes-1 | Ndari | WASH | kusuka | k u s u k a
+tls-Ndari-139_bridge-1 | Ndari | BRIDGE | lulalo | l u l a l o
+tls-Ndari-206_increasemakegreater-1 | Ndari | INCREASE | -ongela | o ŋ e l a
+tls-Ndari-542_inside-1 | Ndari | INSIDE | mukati | m u k a t i
+tls-Ndari-578_carry-1 | Ndari | CARRY | kupimba | k u p i ⁿb a
+tls-Ndari-588_shoulder-1 | Ndari | SHOULDER | chibeja | tʃ i b e j a
+tls-Ndari-644_roast-1 | Ndari | ROAST (SOMETHING) | -ocha | o tʃ a
+tls-Ndari-680_districtprovincecountry-1 | Ndari | COUNTRY | ichisu | i tʃ i s u
+tls-Ndari-713_magic-1 | Ndari | MAGIC | buloshi | b u l o ʃ i
+tls-Ndari-732_song-1 | Ndari | SONG | lwimbo | l w i ⁿb o
+tls-Ndari-824_dawn-1 | Ndari | DAWN | kubuche | k u b u tʃ e
+tls-Ndari-837_snail-1 | Ndari | SNAIL | ukofu | u k o f u
+tls-Ndari-867_shamedisgrace-1 | Ndari | SHAME | isoni | i s o n i
+tls-Ndari-879_resembleveryclosely-1 | Ndari | RESEMBLE | kugelela | k u g e l e l a
+tls-Ndari-943_sweep-1 | Ndari | SWEEP | kupyagila | k u p j a g i l a
+tls-Ndari-996_ripen-1 | Ndari | RIPEN | kutona | k u t o n a
+tls-Ndari-1001_corpse-1 | Ndari | CORPSE | mufimba | m u f i ⁿb a
+tls-Ndari-1019_many-1 | Ndari | MANY | -ingi | i ŋ i
+tls-Ndari-1027_die-1 | Ndari | DIE | kufwa | k u f w a
+tls-Ndari-1033_sew-1 | Ndari | SEW | kusona | k u s o n a
+tls-Ndari-1035_remainstay-1 | Ndari | REMAIN | kulema | k u l e m a
+tls-Wanda-19_milk-1 | Wanda | MILK | ziwa | z i w a
+tls-Wanda-502_foam-1 | Wanda | FOAM | tatafulu | t a t a f u l u
+tls-Wanda-52_corpse-1 | Wanda | CORPSE | chala | tʃ a l a
+tls-Wanda-542_inside-1 | Wanda | INSIDE | mukasi | m u k a s i
+tls-Wanda-588_shoulder-1 | Wanda | SHOULDER | chiweya | tʃ i w e j a
+tls-Wanda-679_child-1 | Wanda | CHILD | mwana | m w a n a
+tls-Wanda-713_magic-1 | Wanda | MAGIC | wulozi | w u l o z i
+tls-Wanda-732_song-1 | Wanda | SONG | lwimbo | l w i ⁿb o
+tls-Wanda-793_many-1 | Wanda | MANY | -vule | v u l e
+tls-Wanda-837_snail-1 | Wanda | SNAIL | nkozo | n k o z o
+tls-Wanda-879_resembleveryclosely-1 | Wanda | RESEMBLE | kolana | k o l a n a
+tls-Namwanga-483_twist-1 | Namwanga | TWIST | uku-posa | u k u + p o s a
+tls-Namwanga-502_foam-1 | Namwanga | FOAM | i-totofulu | i + t o t o f u l u
+tls-Namwanga-52_corpse-1 | Namwanga | CORPSE | i-chala | i + tʃ a l a
+tls-Namwanga-589_sew-1 | Namwanga | SEW | uku-suma | u k u + s u m a
+tls-Namwanga-679_child-1 | Namwanga | CHILD | u-mwana | u + m w a n a
+tls-Namwanga-713_magic-1 | Namwanga | MAGIC | u-wulozi | u + w u l o z i
+tls-Namwanga-824_dawn-1 | Namwanga | DAWN | i-chisangalala | i + tʃ i s a ŋ a l a l a
+tls-Namwanga-968_shivershudder-1 | Namwanga | SHIVER | uku-zakaza | u k u + z a k a z a
+tls-Nyiha-139_bridge-1 | Nyiha | BRIDGE | inanto | i n a n t o
+tls-Nyiha-483_twist-1 | Nyiha | TWIST | kupota | k u p o t a
+tls-Nyiha-502_foam-1 | Nyiha | FOAM | umtatafula | u m t a t a f u l a
+tls-Nyiha-588_shoulder-1 | Nyiha | SHOULDER | ishipungo | i ʃ i p u ŋ o
+tls-Nyiha-589_sew-1 | Nyiha | SEW | kusona | k u s o n a
+tls-Nyiha-679_child-1 | Nyiha | CHILD | umwana | u m w a n a
+tls-Nyiha-713_magic-1 | Nyiha | MAGIC | uv*ulozi | u v u l o z i
+tls-Nyiha-732_song-1 | Nyiha | SONG | inyimbo | i n j i ⁿb o
+tls-Nyiha-793_many-1 | Nyiha | MANY | nyinji | n j i n j i
+tls-Nyiha-879_resembleveryclosely-1 | Nyiha | RESEMBLE | kuholana | k u h o l a n a
+tls-Nyiha-975_beleftoverremainover-1 | Nyiha | REMAIN | kusyala | k u s j a l a
+tls-Malila-19_milk-1 | Malila | MILK | iziva | i z i v a
+tls-Malila-23_thigh-1 | Malila | THIGH | ishisheto | i ʃ i ʃ e t o
+tls-Malila-425_die-1 | Malila | DIE | kufwa | k u f w a
+tls-Malila-483_twist-1 | Malila | TWIST | kupota | k u p o t a
+tls-Malila-502_foam-1 | Malila | FOAM | itatafula | i t a t a f u l a
+tls-Malila-52_corpse-1 | Malila | CORPSE | ivimba | i v i ⁿb a
+tls-Malila-542_inside-1 | Malila | INSIDE | muhati | m u h a t i
+tls-Malila-588_shoulder-1 | Malila | SHOULDER | ishipungo | i ʃ i p u ŋ o
+tls-Malila-589_sew-1 | Malila | SEW | kusona | k u s o n a
+tls-Malila-644_roast-1 | Malila | ROAST (SOMETHING) | kwosha | kʷ o ʃ a
+tls-Malila-679_child-1 | Malila | CHILD | umwana | u m w a n a
+tls-Malila-713_magic-1 | Malila | MAGIC | uvulozi | u v u l o z i
+tls-Malila-732_song-1 | Malila | SONG | ulwimbo | u l w i ⁿb o
+tls-Malila-824_dawn-1 | Malila | DAWN | kunzanshe | k u n z a n ʃ e
+tls-Malila-867_shamedisgrace-1 | Malila | SHAME | insoni | i n s o n i
+tls-Malila-879_resembleveryclosely-1 | Malila | RESEMBLE | kuholana | k u h o l a n a
+tls-Malila-943_sweep-1 | Malila | SWEEP | kwusa | kʷ u s a
+tls-Malila-975_beleftoverremainover-1 | Malila | REMAIN | kusyala | k u s j a l a
+tls-Malila-996_ripen-1 | Malila | RIPEN | kutona | k u t o n a
+tls-Safwa-128_washclothes-1 | Safwa | WASH | ahwozye | a hʷ o z j e
+tls-Safwa-139_bridge-1 | Safwa | BRIDGE | ulalo | u l a l o
+tls-Safwa-19_milk-1 | Safwa | MILK | iziba | i z i b a
+tls-Safwa-425_die-1 | Safwa | DIE | afwe | a f w e
+tls-Safwa-502_foam-1 | Safwa | FOAM | itatafula | i t a t a f u l a
+tls-Safwa-589_sew-1 | Safwa | SEW | amame | a m a m e
+tls-Safwa-594_suckthebreast-1 | Safwa | SUCK | ahwonshe | a hʷ o n ʃ e
+tls-Safwa-644_roast-1 | Safwa | ROAST (SOMETHING) | ahwoshe | a hʷ o ʃ e
+tls-Safwa-679_child-1 | Safwa | CHILD | umwana | u m w a n a
+tls-Safwa-713_magic-1 | Safwa | MAGIC | itunga | i t u ŋ a
+tls-Safwa-732_song-1 | Safwa | SONG | ulutelo | u l u t e l o
+tls-Safwa-793_many-1 | Safwa | MANY | nyinji | n j i n j i
+tls-Safwa-867_shamedisgrace-1 | Safwa | SHAME | insoni | i n s o n i
+tls-Safwa-879_resembleveryclosely-1 | Safwa | RESEMBLE | alingane | a l i ŋ a n e
+tls-Safwa-943_sweep-1 | Safwa | SWEEP | ahwuse | a hʷ u s e
+tls-Safwa-975_beleftoverremainover-1 | Safwa | REMAIN | asagale | a s a g a l e
+tls-Lambya-19_milk-1 | Lambya | MILK | ulukama | u l u k a m a
+tls-Lambya-23_thigh-1 | Lambya | THIGH | ishizima | i ʃ i z i m a
+tls-Lambya-52_corpse-1 | Lambya | CORPSE | umuvimba | u m u v i ⁿb a
+tls-Lambya-542_inside-1 | Lambya | INSIDE | mukasi | m u k a s i
+tls-Lambya-588_shoulder-1 | Lambya | SHOULDER | ishipungo | i ʃ i p u ŋ o
+tls-Lambya-732_song-1 | Lambya | SONG | ulwimbo | u l w i ⁿb o
+tls-Lambya-837_snail-1 | Lambya | SNAIL | inkozo | i n k o z o
+tls-Lambya-968_shivershudder-1 | Lambya | SHIVER | ukutetema | u k u t e t e m a
+tls-Lambya-996_ripen-1 | Lambya | RIPEN | ukutona | u k u t o n a
+tls-Manda-139_bridge-1 | Manda | BRIDGE | ntandu | n t a ⁿd u
+tls-Manda-19_milk-1 | Manda | MILK | lisiva | l i s i v a
+tls-Manda-206_increasemakegreater-1 | Manda | INCREASE | kuyongesa | k u j o ŋ e s a
+tls-Manda-425_die-1 | Manda | DIE | kufwa | k u f w a
+tls-Manda-52_corpse-1 | Manda | CORPSE | ntufi | n t u f i
+tls-Manda-644_roast-1 | Manda | ROAST (SOMETHING) | kunyanya | k u n j a n j a
+tls-Manda-679_child-1 | Manda | CHILD | mwana | m w a n a
+tls-Manda-713_magic-1 | Manda | MAGIC | uhavi | u h a v i
+tls-Manda-732_song-1 | Manda | SONG | lwe_mbu | l w e + ⁿb u
+tls-Manda-793_many-1 | Manda | MANY | -mahele | m a h e l e
+tls-Manda-850_stir-1 | Manda | STIR | kukonjugana | k u k o n j u g a n a
+tls-Manda-867_shamedisgrace-1 | Manda | SHAME | soni | s o n i
+tls-Manda-879_resembleveryclosely-1 | Manda | RESEMBLE | kuhwaningana | k u hʷ a n i ŋ a n a
+tls-Manda-975_beleftoverremainover-1 | Manda | REMAIN | kusigala | k u s i g a l a
+tls-Manda-996_ripen-1 | Manda | RIPEN | kufunda | k u f u ⁿd a
+tls-Matengo-128_washclothes-1 | Matengo | WASH | kusapa | k u s a p a
+tls-Matengo-139_bridge-1 | Matengo | BRIDGE | ntando | n t a ⁿd o
+tls-Matengo-19_milk-1 | Matengo | MILK | masiba | m a s i b a
+tls-Matengo-23_thigh-1 | Matengo | THIGH | nhungu | nʱ u ŋ u
+tls-Matengo-502_foam-1 | Matengo | FOAM | lihulahulo | l i h u l a h u l o
+tls-Matengo-542_inside-1 | Matengo | INSIDE | nkati | n k a t i
+tls-Matengo-588_shoulder-1 | Matengo | SHOULDER | libega | l i b e g a
+tls-Matengo-644_roast-1 | Matengo | ROAST (SOMETHING) | josa | dʒ o s a
+tls-Matengo-679_child-1 | Matengo | CHILD | mwana | m w a n a
+tls-Matengo-713_magic-1 | Matengo | MAGIC | uhabi | u h a b i
+tls-Matengo-968_shivershudder-1 | Matengo | SHIVER | bagaja | b a g a j a
+tls-Mpoto-139_bridge-1 | Mpoto | BRIDGE | ntandu | n t a ⁿd u
+tls-Mpoto-206_increasemakegreater-1 | Mpoto | INCREASE | kujonjukea | k u j o n j u k e a
+tls-Mpoto-425_die-1 | Mpoto | DIE | kuwa | k u w a
+tls-Mpoto-542_inside-1 | Mpoto | INSIDE | nkati | n k a t i
+tls-Mpoto-589_sew-1 | Mpoto | SEW | kutota | k u t o t a
+tls-Mpoto-644_roast-1 | Mpoto | ROAST (SOMETHING) | kujosa | k u j o s a
+tls-Mpoto-679_child-1 | Mpoto | CHILD | mwana | m w a n a
+tls-Mpoto-713_magic-1 | Mpoto | MAGIC | uhabi | u h a b i
+tls-Mpoto-837_snail-1 | Mpoto | SNAIL | likonokono | l i k o n o k o n o
+tls-Mpoto-867_shamedisgrace-1 | Mpoto | SHAME | ihyoni | i h j o n i
+tls-Mpoto-879_resembleveryclosely-1 | Mpoto | RESEMBLE | kulengana | k u l e ŋ a n a
+tls-Mpoto-968_shivershudder-1 | Mpoto | SHIVER | kubagaja | k u b a g a j a
+tls-Mpoto-996_ripen-1 | Mpoto | RIPEN | kubegwa | k u b e gʷ a
+tls-Ndengeleko-37_becomebadrotten-1 | Ndengeleko | ROTTEN | mbou | ⁿb o u
+tls-Ndengeleko-502_foam-1 | Ndengeleko | FOAM | kitutu | k i t u t u
+tls-Ndengeleko-589_sew-1 | Ndengeleko | SEW | sona | s o n a
+tls-Ndengeleko-679_child-1 | Ndengeleko | CHILD | mwana | m w a n a
+tls-Ndengeleko-793_many-1 | Ndengeleko | MANY | yanyansima | j a n j a n s i m a
+tls-Ndengeleko-867_shamedisgrace-1 | Ndengeleko | SHAME | oni | o n i
+tls-Rufiji-139_bridge-1 | Rufiji | BRIDGE | mtando | m t a ⁿd o
+tls-Rufiji-425_die-1 | Rufiji | DIE | kuwaa | k u w aː
+tls-Rufiji-483_twist-1 | Rufiji | TWIST | kuinga | k u i ŋ a
+tls-Rufiji-502_foam-1 | Rufiji | FOAM | lipofu | l i p o f u
+tls-Rufiji-52_corpse-1 | Rufiji | CORPSE | mtwii | m t w iː
+tls-Rufiji-547_leavegoaway-1 | Rufiji | LEAVE | kuboka | k u b o k a
+tls-Rufiji-588_shoulder-1 | Rufiji | SHOULDER | lipamba | l i p a ⁿb a
+tls-Rufiji-589_sew-1 | Rufiji | SEW | kusona | k u s o n a
+tls-Rufiji-713_magic-1 | Rufiji | MAGIC | bwabe | b w a b e
+tls-Rufiji-850_stir-1 | Rufiji | STIR | kukonjogana | k u k o n j o g a n a
+tls-Rufiji-867_shamedisgrace-1 | Rufiji | SHAME | oni | o n i
+tls-Rufiji-975_beleftoverremainover-1 | Rufiji | REMAIN | kuigala | k u i g a l a
+tls-Matumbi-425_die-1 | Matumbi | DIE | wa | w a
+tls-Matumbi-502_foam-1 | Matumbi | FOAM | litutume_ | l i t u t u m e
+tls-Matumbi-52_corpse-1 | Matumbi | CORPSE | ntwi | n t w i
+tls-Matumbi-589_sew-1 | Matumbi | SEW | sona | s o n a
+tls-Matumbi-594_suckthebreast-1 | Matumbi | SUCK | yonga | j o ŋ a
+tls-Matumbi-644_roast-1 | Matumbi | ROAST (SOMETHING) | yosa | j o s a
+tls-Matumbi-679_child-1 | Matumbi | CHILD | mwana | m w a n a
+tls-Matumbi-732_song-1 | Matumbi | SONG | mwambo | m w a ⁿb o
+tls-Matumbi-793_many-1 | Matumbi | MANY | -ansima | a n s i m a
+tls-Matumbi-850_stir-1 | Matumbi | STIR | kologa | k o l o g a
+tls-Matumbi-867_shamedisgrace-1 | Matumbi | SHAME | oni | o n i
+tls-Matumbi-975_beleftoverremainover-1 | Matumbi | REMAIN | igala | i g a l a
+tls-Matumbi-996_ripen-1 | Matumbi | RIPEN | kelya | k e l j a
+tls-Ngindo-19_milk-1 | Ngindo | MILK | mabele | m a b e l e
+tls-Ngindo-23_thigh-1 | Ngindo | THIGH | libondo | l i b o ⁿd o
+tls-Ngindo-542_inside-1 | Ngindo | INSIDE | n'nyumba | nˀ n j u ⁿb a
+tls-Ngindo-588_shoulder-1 | Ngindo | SHOULDER | lipamba_ | l i p a ⁿb a
+tls-Ngindo-644_roast-1 | Ngindo | ROAST (SOMETHING) | ku-jocha | k u + j o tʃ a
+tls-Ngindo-679_child-1 | Ngindo | CHILD | mwana | m w a n a
+tls-Ngindo-713_magic-1 | Ngindo | MAGIC | uhwabi | u hʷ a b i
+tls-Ngindo-732_song-1 | Ngindo | SONG | n'hwambo | nˀ hʷ a ⁿb o
+tls-Ngindo-793_many-1 | Ngindo | MANY | ndu | ⁿd u
+tls-Ngindo-850_stir-1 | Ngindo | STIR | ku-timbugana | k u + t i ⁿb u g a n a
+tls-Ngindo-867_shamedisgrace-1 | Ngindo | SHAME | honi | h o n i
+tls-Ngindo-996_ripen-1 | Ngindo | RIPEN | ku-pyee | k u + p j eː
+tls-Mbunga-19_milk-1 | Mbunga | MILK | maveli | m a v e l i
+tls-Mbunga-206_increasemakegreater-1 | Mbunga | INCREASE | kuyongesa | k u j o ŋ e s a
+tls-Mbunga-502_foam-1 | Mbunga | FOAM | lifulufulu | l i f u l u f u l u
+tls-Mbunga-542_inside-1 | Mbunga | INSIDE | mgati | m g a t i
+tls-Mbunga-547_leavegoaway-1 | Mbunga | LEAVE | kuvuka | k u v u k a
+tls-Mbunga-588_shoulder-1 | Mbunga | SHOULDER | likombi | l i k o ⁿb i
+tls-Mbunga-594_suckthebreast-1 | Mbunga | SUCK | kuyonga | k u j o ŋ a
+tls-Mbunga-644_roast-1 | Mbunga | ROAST (SOMETHING) | kunyanya | k u n j a n j a
+tls-Mbunga-679_child-1 | Mbunga | CHILD | mwana | m w a n a
+tls-Mbunga-713_magic-1 | Mbunga | MAGIC | uhavi | u h a v i
+tls-Mbunga-837_snail-1 | Mbunga | SNAIL | ngongu | ŋ o ŋ u
+tls-Mbunga-968_shivershudder-1 | Mbunga | SHIVER | kutetema | k u t e t e m a
+tls-Mbunga-975_beleftoverremainover-1 | Mbunga | REMAIN | kusighala | k u s i gʱ a l a
+tls-Kimbunga-128_washclothes-1 | Kimbunga | WASH | ku | k u
+tls-Kimbunga-129_washtakeabath-1 | Kimbunga | WASH | ku | k u
+tls-Kimbunga-155a_increase-1 | Kimbunga | INCREASE | ku | k u
+tls-Kimbunga-19_milk-1 | Kimbunga | MILK | maveli | m a v e l i
+tls-Kimbunga-206_increasemakegreater-1 | Kimbunga | INCREASE | ku | k u
+tls-Kimbunga-502_foam-1 | Kimbunga | FOAM | lifulufulu | l i f u l u f u l u
+tls-Kimbunga-542_inside-1 | Kimbunga | INSIDE | mgati | m g a t i
+tls-Kimbunga-547_leavegoaway-1 | Kimbunga | LEAVE | ku | k u
+tls-Kimbunga-644_roast-1 | Kimbunga | ROAST (SOMETHING) | ku | k u
+tls-Kimbunga-679_child-1 | Kimbunga | CHILD | mwana | m w a n a
+tls-Kimbunga-713_magic-1 | Kimbunga | MAGIC | uhavi | u h a v i
+tls-Kimbunga-837_snail-1 | Kimbunga | SNAIL | ngongu | ŋ o ŋ u
+tls-Kimbunga-968_shivershudder-1 | Kimbunga | SHIVER | ku | k u
+tls-Mwera-139_bridge-1 | Mwera | BRIDGE | mlalo | m l a l o
+tls-Mwera-19_milk-1 | Mwera | MILK | likama | l i k a m a
+tls-Mwera-23_thigh-1 | Mwera | THIGH | nc_h_afu | n ts + h + a f u
+tls-Mwera-483_twist-1 | Mwera | TWIST | kupota | k u p o t a
+tls-Mwera-502_foam-1 | Mwera | FOAM | t_ovu | t + o v u
+tls-Mwera-52_corpse-1 | Mwera | CORPSE | chitanda | tʃ i t a ⁿd a
+tls-Mwera-542_inside-1 | Mwera | INSIDE | nkati | n k a t i
+tls-Mwera-594_suckthebreast-1 | Mwera | SUCK | kuyamwa | k u j a m w a
+tls-Mwera-644_roast-1 | Mwera | ROAST (SOMETHING) | kuoc_h_a | k u o ts + h + a
+tls-Mwera-679_child-1 | Mwera | CHILD | mwana | m w a n a
+tls-Mwera-713_magic-1 | Mwera | MAGIC | ufiti | u f i t i
+tls-Mwera-732_song-1 | Mwera | SONG | nyimbo | n j i ⁿb o
+tls-Mwera-837_snail-1 | Mwera | SNAIL | nk_ononk_ono | n k + o n o n k + o n o
+tls-Mwera-867_shamedisgrace-1 | Mwera | SHAME | nc_h_oni | n ts + h + o n i
+tls-Mwera-879_resembleveryclosely-1 | Mwera | RESEMBLE | lingana | l i ŋ a n a
+tls-Mwera-943_sweep-1 | Mwera | SWEEP | lambula | l a ⁿb u l a
+tls-Mwera1-139_bridge-1 | Mwera1 | BRIDGE | ndalaja | ⁿd a l a j a
+tls-Mwera1-37_becomebadrotten-1 | Mwera1 | ROTTEN | ku-bola | k u + b o l a
+tls-Mwera1-425_die-1 | Mwera1 | DIE | ku-wa | k u + w a
+tls-Mwera1-502_foam-1 | Mwera1 | FOAM | liulo | l i u l o
+tls-Mwera1-52_corpse-1 | Mwera1 | CORPSE | ntui | n t u i
+tls-Mwera1-547_leavegoaway-1 | Mwera1 | LEAVE | ku-shoka | k u + ʃ o k a
+tls-Mwera1-589_sew-1 | Mwera1 | SEW | ku-tota | k u + t o t a
+tls-Mwera1-594_suckthebreast-1 | Mwera1 | SUCK | ku-yonda | k u + j o ⁿd a
+tls-Mwera1-713_magic-1 | Mwera1 | MAGIC | uavhi | u a vʱ i
+tls-Mwera1-732_song-1 | Mwera1 | SONG | lwimbo | l w i ⁿb o
+tls-Mabia-139_bridge-1 | Mabia | BRIDGE | ntado | n t a d o
+tls-Mabia-23_thigh-1 | Mabia | THIGH | sija | s i j a
+tls-Mabia-542_inside-1 | Mabia | INSIDE | nkati | n k a t i
+tls-Mabia-588_shoulder-1 | Mabia | SHOULDER | livala | l i v a l a
+tls-Mabia-589_sew-1 | Mabia | SEW | ku-tota | k u + t o t a
+tls-Mabia-732_song-1 | Mabia | SONG | lwimu | l w i m u
+tls-Mabia-837_snail-1 | Mabia | SNAIL | nyedi | n j e d i
+tls-Mabia-850_stir-1 | Mabia | STIR | ku-kalogwa | k u + k a l o gʷ a
+tls-Mabia-867_shamedisgrace-1 | Mabia | SHAME | dyoni | d j o n i
+tls-Mabia-975_beleftoverremainover-1 | Mabia | REMAIN | kw-ijalila | kʷ + i j a l i l a
+tls-Mabia-996_ripen-1 | Mabia | RIPEN | ku-ula | k u + u l a
+tls-Makonde-139_bridge-1 | Makonde | BRIDGE | lidalaja | l i d a l a j a
+tls-Makonde-425_die-1 | Makonde | DIE | ku-hwa | k u + hʷ a
+tls-Makonde-52_corpse-1 | Makonde | CORPSE | mtuhi | m t u h i
+tls-Makonde-542_inside-1 | Makonde | INSIDE | mkati | m k a t i
+tls-Makonde-594_suckthebreast-1 | Makonde | SUCK | ku-yong'a | k u + j o ŋˀ a
+tls-Makonde-793_many-1 | Makonde | MANY | -ohe | o h e
+tls-Makonde-837_snail-1 | Makonde | SNAIL | inyedi | i n j e d i
+tls-Makonde-850_stir-1 | Makonde | STIR | ku-kolowa | k u + k o l o w a
+tls-Makonde-943_sweep-1 | Makonde | SWEEP | ku-pyaia | k u + p j a i a
+polyglottaafricana-XII-E-19-35_friend-2 | Tíwi | FRIEND | károm | k a r o m
+polyglottaafricana-XII-E-19-121_gold-3 | Tíwi | GOLD | ábōdṣa | a b oː ɖʐ a
 halenepal-Nepali-1578_cautious-1 | Nepali | CAREFUL | hosiiāri | h o s iː aː r i
 halenepal-Nepali-1712_where-8 | Nepali | WHERE | māthi | m aː tʰ i
 halenepal-Nepali-1704_infrontof-1 | Nepali | IN FRONT OF | agāDi | a g aː ɖ i
@@ -2413,6 +3577,7 @@ chaconcolumbian-Waimaja-33_mat-2 | waimaja | MAT | dẽ́ẽ pũũ kéhéró | d
 chaconcolumbian-Waimaja-64_mountain-2 | waimaja | MOUNTAIN | ĩ̵́tã́ buuro | ɨ̃ t ã
 chaconcolumbian-Waimaja-102_seed-2 | waimaja | SEED | ka ápé | k a
 hubercolumbian-Bari-272_belly-1 | Barí | BELLY | ʔiʃirə | ʔ i ʃ i r ə
+chaconcolumbian-Bari-115_path-2 | barí | PATH | ski̵i̵ɾə | s k ɨː ɾ ə
 hubercolumbian-Bora-272_belly-1 | Bora | BELLY | íʔpáɯ | i ʔ p a ɯ
 hubercolumbian-Bora-272_belly-2 | Bora | BELLY | méʔpáɯɯ́ | m e ʔ p a ɯ ɯ
 hubercolumbian-Mirana-272_belly-1 | Miraña | BELLY | íʔpáɯ | i ʔ p a ɯ
@@ -2575,7 +3740,9 @@ huntergatherer-65-122_fishgeneric-1 | Yukuna  | FISH | kúpe__ | k u p e
 huntergatherer-65-109_dogcampdomestic-2 | Yukuna  | DOG | walú | w a l u
 huntergatherer-65-105_deer-2 | Yukuna  | DEER | kawayá | k a w a y a
 huntergatherer-65-44_coca-1 | Yukuna  | COCA | ipaˈtu | i p a t u
+chaconarawakan-Yukuna-97_we-2 | Yukuna | WE | weká | w e k a
 chaconcolumbian-Yucuna-87_skin-2 | yucuna | SKIN | wéema | w eː m a
+chaconnorthwestarawakan-Yukuna-88_we-2 | Yukuna | WE | w_e_k_á | w e k a
 hubercolumbian-Yukpa-272_belly-1 | Yukpa | BELLY | póse | p o s e
 hubercolumbian-Yuruti-272_belly-1 | Yurutí | BELLY | páaga | p a a g a
 huntergatherer-1-122_fishgeneric-1 | Cupeño | FISH | qeyul | q e y u l
@@ -2603,6 +3770,7 @@ huntergatherer-6-280_spider-2 | Western Mono | SPIDER | hapopo | h a p o p o
 utoaztecan-Chemehuevi-115_we-2 | Chemehuevi | WE | tɑmmi | t ɑ mː i
 huntergatherer-8-113_house-2 | Southern Paiute | HOUSE | qan:i-S | q a nː i + ʃ
 huntergatherer-9-113_house-2 | Southern Ute | HOUSE | kanI | k a n ɪ
+wheelerutoaztecan-SouthernUte-fish-2 | Southern Ute | FISH | pɑ̱kɯ̄ | p ɑ k ɯː
 huntergatherer-10-122_fishgeneric-1 | Comanche | FISH | pekwi | p e kʷ i
 huntergatherer-10-45_cookfood-1 | Comanche | COOK (SOMETHING) | kwasyty | kʷ a s y t y
 huntergatherer-10-113_house-2 | Comanche | HOUSE | kahni | k a h n i
@@ -2781,6 +3949,10 @@ huntergatherer-103-45_cookfood-1 | Waorani | COOK (SOMETHING) | ædo | æ d o
 huntergatherer-103-15_basketgeneral-2 | Waorani | BASKET | ooto_ | oː t o
 idssegmented-waorani-8-600-1 | Waorani | TREE | a-wæ̃ | a + w æ̃
 idssegmented-yaruro-8-600-1 | Yaruro | TREE | to | t o
+northperulex-Ticuna-110_other-2 | Ticuna | OTHER | nài | n a i
+northperulex-Ticuna-176_two-2 | Ticuna | TWO | tăʼré | t a ʔ ɾ e
+northperulex-Ticuna-184_what-3 | Ticuna | WHAT | tèʼè | t e ʔ e
+northperulex-Ticuna-186_where-2 | Ticuna | WHERE | g̃èʼtà | ŋ e ʔ t a
 keypano-Aguaruna-8-600-1 | Aguaruna | TREE | numi | n u m i
 keypano-Aguaruna-8-600-2 | Aguaruna | TREE | kampu'ha | k a m p u h a
 huntergatherer-123-122_fishgeneric-1 | Yuhup | FISH | hɔp | h ɔ p
@@ -2867,18 +4039,6 @@ huntergatherer-177-45_cookfood-1 | Nyikina | COOK (SOMETHING) | -marra- | m a r�
 huntergatherer-178-57_diggingstick-2 | Warrwa | DIGGING STICK | milgin | m i l g i n
 huntergatherer-179-167_spearthrower-2 | Jawi | SPEARTHROWER | yangal | y a ŋ a l
 huntergatherer-179-164_spear-2 | Jawi | SPEAR | errol | e rː o l
-huntergatherer-198-122_fishgeneric-1 | Walmajarri | FISH | kapi | k a p i
-huntergatherer-198-127_flower-1 | Walmajarri | FLOWER | partiri | p a r t i r i
-huntergatherer-198-11_antgeneric-2 | Walmajarri | ANT | pinga | p i ŋ a
-huntergatherer-198-49_blowflyhousefly-2 | Walmajarri | FLY (INSECT) | ngurriny | n g u rː i n y
-huntergatherer-198-109_dogcampdomestic-2 | Walmajarri | DOG | kunyarr | k u n y a rː
-huntergatherer-198-144_grass-2 | Walmajarri | GRASS | yuka | y u k a
-huntergatherer-198-280_spider-2 | Walmajarri | SPIDER | purlkartu | p u r l k a r t u
-huntergatherer-198-45_cookfood-1 | Walmajarri | COOK (SOMETHING) | kampa- | k a m p a
-huntergatherer-198-57_diggingstick-2 | Walmajarri | DIGGING STICK | kana | k a n a
-huntergatherer-198-26_boomerangthrowingstickgeneric-2 | Walmajarri | BOOMERANG | karli | k a r l i
-huntergatherer-198-167_spearthrower-2 | Walmajarri | SPEARTHROWER | ngapaliny | n g a p a l i n y
-huntergatherer-198-164_spear-2 | Walmajarri | SPEAR | kularta | k u l a r t a
 huntergatherer-214-122_fishgeneric-1 | Gajirrabeng | FISH | goondarring | g oː n d a rː i ŋ
 huntergatherer-214-127_flower-1 | Gajirrabeng | FLOWER | thawaleng | tʰ a w a l e ŋ
 huntergatherer-214-36_bird-2 | Gajirrabeng | BIRD | jigeng | j i g e ŋ
@@ -3141,6 +4301,8 @@ idssegmented-ignaciano-4-880-2 | Ignaciano | MEDICINE | -'ipuruhi | i p u r u h 
 idssegmented-ignaciano-8-600-1 | Ignaciano | TREE | yukuki | j u k u k i
 idssegmented-trinitario-8-600-1 | Trinitario | TREE | wkuɣi | w k u ɣ i
 idssegmented-trinitario-8-600-2 | Trinitario | TREE | ykuɣi | j k u ɣ i
+galuciotupi-Mu-6_what-2 | Mundurukú | WHAT | áʤo | a dʒ o
+galuciotupi-Mu-7_who-2 | Mundurukú | WHO | ábə | a b ə
 idssegmented-canela-8-600-1 | Canela | TREE | pĩĩ | p ĩː
 idssegmented-sanapanaangaitedialect-8-600-1 | Sanapaná (Angaité dialect) | TREE | yamit_aohak | j a m i t + a o h a k
 idssegmented-sanapanaenlhetdialect-5-140-3 | Sanapaná (Enlhet dialect) | HUNGER | maek | m a e k
@@ -3264,6 +4426,8 @@ idssegmented-bulang-8-600-1 | Bulang | TREE | khu.⁵¹ | kʰ u ⁵¹
 idssegmented-bulang2-16-630-2 | Bulang-2 | HOPE | ćhəm.⁵¹ | tʃʰ ə m ⁵¹
 idssegmented-bulang3-1-860-3 | Bulang-3 | LIGHT (IGNITE) | pai.³¹_ŋhau.³³ | p a i ³¹ + ŋʰ a u ³³
 idssegmented-xu-8-600-1 | Xu | TREE | ϑeʔ.⁵⁵ | θ e ʔ ⁵⁵
+peirosaustroasiatic-Hu-44_knee-2 | Hu | KNEE | khiŋ.31 kɔŋ.33 | kʰ i ŋ ³¹ + k ɔ ŋ ³³
+peirosaustroasiatic-Hu-74_sit-2 | Hu | SIT | ɔt.33 theʔ.55 | ɔ t ³³ + tʰ e ʔ ⁵⁵
 idssegmented-wa-8-600-1 | Wa | TREE | khauʔ.A | kʰ a u ʔ a
 idssegmented-wa-14-451-2 | Wa | AFTERNOON | plak.A_bo.B | p l a k a + b o b
 idssegmented-wa-15-840-2 | Wa | DRY | kroh.A | k r o h a
@@ -3916,6 +5080,9 @@ idssegmented-vietnamese-9-150-2 | Vietnamese | FOLD | gấp | g a p
 wold-Vietnamese-5-45-1 | Vietnamese | DINNER (SUPPER) | bữa_ăn_tối | ɓ ɨə ²¹⁴ + ʔ a ŋ ³³ + t oːi̯ ⁴⁵
 peirosaustroasiatic-Vietnamese-82_sun-2 | Vietnamese | SUN | mặt trò'i | m ă t + t r o i
 idssegmented-phong-10-481-2 | Phong | COME BACK | lup.⁴⁵_la:j.²¹ | l u p ⁴⁵ + l aː j ²¹
+idssegmented-chutrucvariety-2-511-2 | Chut (Ruc variety) | MATERNAL UNCLE (MOTHER'S BROTHER) | ta.¹ | t a ¹
+peirosaustroasiatic-Ruc-82_sun-2 | Ruc | SUN | məʌt.4 pləi.2 | m əʌ t ⁴ + p l əi ²
+peirosaustroasiatic-Ruc-96_what-2 | Ruc | WHAT | camə.1 | ts a m ə ¹
 idssegmented-khapoong-10-210-4 | Kha Poong | RISE (MOVE UPWARDS) | tɨ:ŋ.³³ʔ_zɨ:r.³³ | t ɨː ŋ ³³ ʔ + z ɨː r ³³
 idssegmented-khapoong-15-840-3 | Kha Poong | DRY | zaŋ.³³ʔ | z a ŋ ³³ ʔ
 idssegmented-nyakur-5-450-1 | Nyakur | DINNER (SUPPER) | câ:ʔ_pô:ŋ_tɔ:n_ʔɨmluʔ | c aː ʔ + p oː ŋ + t ɔː n + ʔ ɨ m l u ʔ
@@ -3929,6 +5096,7 @@ idssegmented-chong-5-450-1 | Chong | DINNER (SUPPER) | plɔŋ.A_pe:w.B | p l ɔ 
 idssegmented-chong-8-600-1 | Chong | TREE | ne:m.B_ʔu:t.A | n eː m b + ʔ uː t a
 idssegmented-chong-15-520-2 | Chong | LOOK | mɔ:ŋ.C_rəj.C | m ɔː ŋ c + r ə j c
 peirosaustroasiatic-Chong-98_who-2 | Chong | WHO | ʔi=mih.A | ʔ i + m i h ¹
+peirosaustroasiatic-ChongH-98_who-2 | Chong-H | WHO | ʔaj.A mih.A | ʔ a j ³⁴ + m i h ¹
 idssegmented-iduh-8-600-1 | Iduh | TREE | lâm_naʔô:ŋ | l a m + n a ʔ oː ŋ
 idssegmented-iduh-15-840-2 | Iduh | DRY | rɔ̂: | r ɔː
 idssegmented-mangch-1-341-2 | Mang Ch | LAGOON | gom.⁵¹_tə.³³_laŋ.³⁵ | g o m ⁵¹ + t ə ³³ + l a ŋ ³⁵
@@ -4143,7 +5311,9 @@ visserkalamang-kara1499-8-600-1 | Kalamang | TREE | ror | r o r
 wold-Qeqchi-5-45-1 | Q'eqchi' | DINNER (SUPPER) | wa | w a
 wold-Qeqchi-9-192-2 | Q'eqchi' | KNOT | t'ok' | tʼ o kʼ
 wold-Ket-5-45-1 | Ket | DINNER (SUPPER) | bissajdo | b i sː a j d o
-wold-Swahili-24-06-3 | Swahili | NOT | -si- | s i
+transnewguineaorg-rumu-2015_path-2 | Rumu | PATH | tȩi̧ | t e i
+transnewguineaorg-rumu-51_one-2 | Rumu | ONE | ṛiabai | r i a b a i
+transnewguineaorg-rumu-11_claw-2 | Rumu | CLAW | kohȩmu | k o h e m u
 transnewguineaorg-teiwa-sargang-94_water-3 | Teiwa (Sargang Dialect) | WATER | yir | j i r
 transnewguineaorg-waris-2_ashes-2 | Waris | ASH | smu | s m u
 transnewguineaorg-waris-6_bird-2 | Waris | BIRD | tuawa | t u a w a
@@ -4252,6 +5422,7 @@ transnewguineaorg-yimas-5_big-4 | Yimas | BIG | kɨpa | k ɨ p a
 transnewguineaorg-yimas-13_coldweather-4 | Yimas | COLD | tarɨk | t a r ɨ k
 northeuralex-lat-913_lead-1 | Latin | LEAD (GUIDE) | duːkɛrɛ | d uː k ɛ r ɛ
 keypano-MashcoPiro-8-600-1 | Mashco Piro | TREE | hah-mɨna | h a h + m ɨ n a
+keypano-Pacahuara-8-600-1 | Pacahuara | TREE | 'hiwi | h i w i
 kochtukanoan-Yupua-1_tongue-2 | Yupua | TONGUE | dṓlo | d ɔ ɔ ɺ ɔ
 kochtukanoan-Yupua-4_tooth-2 | Yupua | TOOTH | góxpe̠ga | g ɔ h p ɛ g a
 kochtukanoan-Yupua-8_ear-3 | Yupua | EAR | gámu | g a m u
@@ -4921,8 +6092,6 @@ polyglottaafricana-III-C-1-d-221a_young-1 | (Akū) Yórūba | YOUNG | tú·t
 polyglottaafricana-III-C-1-e-206_chamelion-2 | (Akū) Yā́gba | CHAMELEON | āgẹ́ma | aː g e˞ m a
 polyglottaafricana-V-C-1-55_shoulder-2 | Ókulōma | SHOULDER | abána | a b a n a
 polyglottaafricana-IX-A-9-103_sword-2 | N·góāla | SWORD | núi | n u i
-polyglottaafricana-XII-E-19-35_friend-2 | Tíwi | FRIEND | károm | k a r o m
-polyglottaafricana-XII-E-19-121_gold-3 | Tíwi | GOLD | ábōdṣa | a b oː ɖʐ a
 polyglottaafricana-XII-E-24-25_fathermyfatherthyfather-2 | Nṣọ́ | FATHER | táta | t a t a
 robbeetstriangulation-AmamiYoron-75_eatv-2 | Amami Yoron | EAT | koreɴ | k o r e ɴ
 robbeetstriangulation-Dolgan-110_mann-2 | Dolgan | MAN | er_kihi | e r + k i h i
@@ -5002,7 +6171,12 @@ savelyevturkic-NorthAltai-248_womann-4 | North Altay | WOMAN | tiʒi+kiʒi | t i
 savelyevturkic-NorthAltai-250_woodsforestn-2 | North Altay | FOREST | aɣaʃ+arazɯ | a ɣ a ʃ + a r a z ɯ
 sidwellbahnaric-bahnarkontum-92_old-3 | BahnarKontum | OLD | s.ɔː | s ɔː
 sidwellbahnaric-rengao-45_flower-2 | Rengao | FLOWER | r.aː.ŋ | r aː ŋ
+peirosaustroasiatic-Rengao-1_all-2 | Rengao | ALL | diʔ.T daŋ.L | d i ʔ ¹⁵ + d a ŋ ⁵⁵
+peirosaustroasiatic-Rengao-62_not-2 | Rengao | NOT | biʔ.L oh.L | b i ʔ ⁵⁵ + o h ⁵⁵
 sidwellbahnaric-alak-176_tosmellreceiveodor-2 | Alak | SMELL (PERCEIVE) | h.ɨː.t | h ɨː t
+peirosaustroasiatic-Arak-76_sleep-2 | Arak | SLEEP | pɦic ŋaɲ | pʱ i c + ŋ a ɲ
+peirosaustroasiatic-Arak-95_we-2 | Arak | WE | pɦɨən na | pʱ ɨə n + n a
+peirosaustroasiatic-KorCua-39_hear-2 | Kor=Cua | HEAR | təmɛŋ hlɔʔ | t ə m ɛ ŋ + h l ɔ ʔ
 spagnolmaltese-malt1254-8-600-1 | Maltese | TREE | ˈsɪʤrɐ | s ɪ dʒ r ɐ
 spagnolmaltese-malt1254-9-350-2 | Maltese | POUR | ˈfɛrrɐ | f ɛ rː ɐ
 spagnolmaltese-malt1254-16-510-2 | Maltese | DARE | ɐʣˈʣɐrdɐ | ɐ dz dz ɐ r d ɐ
@@ -5028,344 +6202,6 @@ yangyi-CQingsheng-670_borrowthing-1 | C-Qingsheng | BORROW | ɑ²¹ | ɑ ²¹
 yangyi-CChajiang-551_grab-1 | C-Chajiang | SEIZE | vv⁵⁵tɕɛ²¹ | v v ⁵⁵ + tɕ ɛ ²¹
 yangyi-NuosuHuangDai1992-670_borrowthing-1 | Nuosu (Huang and Dai) | BORROW | hɯ³³ | h ɯ ³³
 yangyi-NuosuHuangDai1992-895_alive-1 | Nuosu (Huang and Dai) | BE ALIVE | tɯ²¹ | t ɯ ²¹
-tls-Bena-483_twist-1 | Bena | TWIST | bota | b o t a
-tls-Bena-594_suckthebreast-1 | Bena | SUCK | kong'a | k o ŋˀ a
-tls-Bena-680_districtprovincecountry-1 | Bena | COUNTRY | inyi | i n j i
-tls-Bena-713_magic-1 | Bena | MAGIC | uvwuhavi | u vʷ u h a v i
-tls-Bena-968_shivershudder-1 | Bena | SHIVER | hilila | h i l i l a
-tls-Bena-1027_die-1 | Bena | DIE | fwa | f w a
-tls-Bende-542_inside-1 | Bende | INSIDE | mukati | m u k a t i
-tls-Bende-679_child-1 | Bende | CHILD | mwana | m w a n a
-tls-Bende-732_song-1 | Bende | SONG | lwimbo | l w i ⁿb o
-tls-Bende-996_ripen-1 | Bende | RIPEN | kuhya | k u h j a
-tls-Bende-1019_many-1 | Bende | MANY | -engi | e ŋ i
-tls-Bende-1027_die-1 | Bende | DIE | kufwa | k u f w a
-tls-Bende-1030_milk-1 | Bende | MILK | mabhele | m a bʱ e l e
-tls-Bende-1033_sew-1 | Bende | SEW | kusuma | k u s u m a
-tls-Bondei1-139_bridge-1 | Bondei1 | BRIDGE | daaja | d aː j a
-tls-Bondei1-19_milk-1 | Bondei1 | MILK | mee | m eː
-tls-Bondei1-425_die-1 | Bondei1 | DIE | ku-fa | k u + f a
-tls-Bondei1-502_foam-1 | Bondei1 | FOAM | fuo | f u o
-tls-Bondei1-589_sew-1 | Bondei1 | SEW | ku-shona | k u + ʃ o n a
-tls-Bondei1-644_roast-1 | Bondei1 | ROAST (SOMETHING) | ku-oka | k u + o k a
-tls-Bondei1-679_child-1 | Bondei1 | CHILD | mwana | m w a n a
-tls-Bondei1-713_magic-1 | Bondei1 | MAGIC | usawi | u s a w i
-tls-Bondei1-824_dawn-1 | Bondei1 | DAWN | kiokio | k i o k i o
-tls-Bondei1-850_stir-1 | Bondei1 | STIR | ku-kooga | k u + k oː g a
-tls-Bondei1-867_shamedisgrace-1 | Bondei1 | SHAME | soni | s o n i
-tls-Bondei1-879_resembleveryclosely-1 | Bondei1 | RESEMBLE | ku-fanana | k u + f a n a n a
-tls-Bondei1-975_beleftoverremainover-1 | Bondei1 | REMAIN | ku-sigaa | k u + s i g aː
-tls-Bondei1-996_ripen-1 | Bondei1 | RIPEN | ku-iva | k u + i v a
-tls-Bondei2-19_milk-1 | Bondei2 | MILK | mee | m eː
-tls-Bondei2-23_thigh-1 | Bondei2 | THIGH | nyonga | n j o ŋ a
-tls-Bondei2-502_foam-1 | Bondei2 | FOAM | fuo | f u o
-tls-Bondei2-588_shoulder-1 | Bondei2 | SHOULDER | wega | w e g a
-tls-Bondei2-589_sew-1 | Bondei2 | SEW | ku-shona | k u + ʃ o n a
-tls-Bondei2-644_roast-1 | Bondei2 | ROAST (SOMETHING) | ku-oka | k u + o k a
-tls-Bondei2-679_child-1 | Bondei2 | CHILD | mwana | m w a n a
-tls-Bondei2-713_magic-1 | Bondei2 | MAGIC | usawi | u s a w i
-tls-Bondei2-824_dawn-1 | Bondei2 | DAWN | ku-cha | k u + tʃ a
-tls-Bondei2-850_stir-1 | Bondei2 | STIR | kooga | k oː g a
-tls-Bondei2-867_shamedisgrace-1 | Bondei2 | SHAME | soni | s o n i
-tls-Bondei2-879_resembleveryclosely-1 | Bondei2 | RESEMBLE | ku-fanana | k u + f a n a n a
-tls-Bungu-578_carry-1 | Bungu | CARRY | kusenda | k u s e ⁿd a
-tls-Bungu-679_child-1 | Bungu | CHILD | umwana | u m w a n a
-tls-Bungu-713_magic-1 | Bungu | MAGIC | uulozi | uː l o z i
-tls-Bungu-732_song-1 | Bungu | SONG | inimbo | i n i ⁿb o
-tls-Bungu-837_snail-1 | Bungu | SNAIL | inyonga | i n j o ŋ a
-tls-Bungu-968_shivershudder-1 | Bungu | SHIVER | kugaya | k u g a j a
-tls-Bungu-1019_many-1 | Bungu | MANY | inji | i n j i
-tls-Bungu-1027_die-1 | Bungu | DIE | kukufwa | k u k u f w a
-tls-Bungu-1032_foam-1 | Bungu | FOAM | ifulo | i f u l o
-tls-Bungu-1033_sew-1 | Bungu | SEW | kusuma | k u s u m a
-tls-Bungu-1035_remainstay-1 | Bungu | REMAIN | kushala | k u ʃ a l a
-tls-Wungu-425_die-1 | Wungu | DIE | kukufwa_ | k u k u f w a
-tls-Wungu-502_foam-1 | Wungu | FOAM | ifulo_ | i f u l o
-tls-Wungu-578_carry-1 | Wungu | CARRY | kusenda_ | k u s e ⁿd a
-tls-Wungu-589_sew-1 | Wungu | SEW | kusuma_ | k u s u m a
-tls-Wungu-679_child-1 | Wungu | CHILD | umwana_ | u m w a n a
-tls-Wungu-713_magic-1 | Wungu | MAGIC | uulozi_ | uː l o z i
-tls-Wungu-732_song-1 | Wungu | SONG | inimbo_ | i n i ⁿb o
-tls-Wungu-793_many-1 | Wungu | MANY | inji_ | i n j i
-tls-Wungu-837_snail-1 | Wungu | SNAIL | inyonga_ | i n j o ŋ a
-tls-Wungu-867_shamedisgrace-1 | Wungu | SHAME | iyazi_ | i j a z i
-tls-Wungu-968_shivershudder-1 | Wungu | SHIVER | kugaya | k u g a j a
-tls-Wungu-975_beleftoverremainover-1 | Wungu | REMAIN | kushala_ | k u ʃ a l a
-tls-Chuka-23_thigh-1 | Chuka | THIGH | kIaU | k ɪ a ʊ
-tls-Chuka-129_washtakeabath-1 | Chuka | WASH | kUthamba | k ʊ tʰ a ⁿb a
-tls-Chuka-139_bridge-1 | Chuka | BRIDGE | ndaraca | ⁿd a r a ts a
-tls-Chuka-542_inside-1 | Chuka | INSIDE | ndaani | ⁿd aː n i
-tls-Chuka-578_carry-1 | Chuka | CARRY | gukua | g u k u a
-tls-Chuka-594_suckthebreast-1 | Chuka | SUCK | gwonka | g w o n k a
-tls-Chuka-713_magic-1 | Chuka | MAGIC | Urogi | ʊ r o g i
-tls-Chuka-837_snail-1 | Chuka | SNAIL | irumbo | i r u ⁿb o
-tls-Chuka-850_stir-1 | Chuka | STIR | kuruga | k u r u g a
-tls-Chuka-867_shamedisgrace-1 | Chuka | SHAME | nthoni | n tʰ o n i
-tls-Chuka-879_resembleveryclosely-1 | Chuka | RESEMBLE | kubuanana | k u b u a n a n a
-tls-Chuka-996_ripen-1 | Chuka | RIPEN | kugunda | k u g u ⁿd a
-tls-Dawida-128_washclothes-1 | Dawida | WASH | kuogosha | k u o g o ʃ a
-tls-Dawida-139_bridge-1 | Dawida | BRIDGE | jaraja | dʒ a r a j a
-tls-Dawida-19_milk-1 | Dawida | MILK | mariwa | m a r i w a
-tls-Dawida-23_thigh-1 | Dawida | THIGH | bara | b a r a
-tls-Dawida-425_die-1 | Dawida | DIE | kufwa | k u f w a
-tls-Dawida-502_foam-1 | Dawida | FOAM | ifua | i f u a
-tls-Dawida-52_corpse-1 | Dawida | CORPSE | garia | g a r i a
-tls-Dawida-578_carry-1 | Dawida | CARRY | kuduka | k u d u k a
-tls-Dawida-588_shoulder-1 | Dawida | SHOULDER | ionge_ | i o ŋ e
-tls-Dawida-589_sew-1 | Dawida | SEW | kudunga | k u d u ŋ a
-tls-Dawida-594_suckthebreast-1 | Dawida | SUCK | kuonga | k u o ŋ a
-tls-Dawida-644_roast-1 | Dawida | ROAST (SOMETHING) | kuocha | k u o tʃ a
-tls-Dawida-679_child-1 | Dawida | CHILD | mwana | m w a n a
-tls-Dawida-713_magic-1 | Dawida | MAGIC | wusawi | w u s a w i
-tls-Dawida-732_song-1 | Dawida | SONG | lumbo_ | l u ⁿb o
-tls-Dawida-793_many-1 | Dawida | MANY | nyingi | n j i ŋ i
-tls-Dawida-837_snail-1 | Dawida | SNAIL | kitambala_ | k i t a ⁿb a l a
-tls-Dawida-867_shamedisgrace-1 | Dawida | SHAME | waya | w a j a
-tls-Dawida-879_resembleveryclosely-1 | Dawida | RESEMBLE | kufwanana | k u f w a n a n a
-tls-Dawida-968_shivershudder-1 | Dawida | SHIVER | kusugusika | k u s u g u s i k a
-tls-Dawida-975_beleftoverremainover-1 | Dawida | REMAIN | kusigarika | k u s i g a r i k a
-tls-Dawida-996_ripen-1 | Dawida | RIPEN | kuwurwa | k u w u r w a
-tls-Doe-139_bridge-1 | Doe | BRIDGE | jaraja | dʒ a r a j a
-tls-Doe-19_milk-1 | Doe | MILK | maziwa | m a z i w a
-tls-Doe-425_die-1 | Doe | DIE | ku-fa | k u + f a
-tls-Doe-502_foam-1 | Doe | FOAM | povu | p o v u
-tls-Doe-588_shoulder-1 | Doe | SHOULDER | yega | j e g a
-tls-Doe-644_roast-1 | Doe | ROAST (SOMETHING) | k-oka | k + o k a
-tls-Doe-679_child-1 | Doe | CHILD | mwana | m w a n a
-tls-Doe-713_magic-1 | Doe | MAGIC | usawi | u s a w i
-tls-Doe-837_snail-1 | Doe | SNAIL | kovya | k o v j a
-tls-Doe-867_shamedisgrace-1 | Doe | SHAME | kinyala | k i n j a l a
-tls-Doe-975_beleftoverremainover-1 | Doe | REMAIN | ku-sigala | k u + s i g a l a
-tls-Embu-23_thigh-1 | Embu | THIGH | kIero | k ɪ e r o
-tls-Embu-206_increasemakegreater-1 | Embu | INCREASE | kwongerera | kʷ o ŋ e r e r a
-tls-Embu-542_inside-1 | Embu | INSIDE | ndarI | ⁿd a r ɪ
-tls-Embu-578_carry-1 | Embu | CARRY | gUkua | g ʊ k u a
-tls-Embu-588_shoulder-1 | Embu | SHOULDER | yega | j e g a
-tls-Embu-644_roast-1 | Embu | ROAST (SOMETHING) | gwokia | g w o k i a
-tls-Embu-732_song-1 | Embu | SONG | rwImbo | r w ɪ ⁿb o
-tls-Embu-837_snail-1 | Embu | SNAIL | Irumbwa | ɪ r u ⁿb w a
-tls-Embu-968_shivershudder-1 | Embu | SHIVER | gUtetema | g ʊ t e t e m a
-tls-Embu-996_ripen-1 | Embu | RIPEN | kwIrua | kʷ ɪ r u a
-tls-Embu-1001_corpse-1 | Embu | CORPSE | kimba | k i ⁿb a
-tls-Embu-1030_milk-1 | Embu | MILK | Iria | ɪ r i a
-tls-Embu-1032_foam-1 | Embu | FOAM | mUvuro | m ʊ v u r o
-tls-Embu-1033_sew-1 | Embu | SEW | gUtuma | g ʊ t u m a
-tls-Fipa-425_die-1 | Fipa | DIE | uukufwa | uː k u f w a
-tls-Fipa-502_foam-1 | Fipa | FOAM | itotofulu | i t o t o f u l u
-tls-Fipa-52_corpse-1 | Fipa | CORPSE | ichaala | i tʃ aː l a
-tls-Fipa-588_shoulder-1 | Fipa | SHOULDER | uuluto | uː l u t o
-tls-Fipa-589_sew-1 | Fipa | SEW | ukusuma | u k u s u m a
-tls-Fipa-679_child-1 | Fipa | CHILD | umwaana | u m w aː n a
-tls-Fipa-824_dawn-1 | Fipa | DAWN | akatondo | a k a t o ⁿd o
-tls-Fipa-837_snail-1 | Fipa | SNAIL | inyoonga | i n j oː ŋ a
-tls-Fipa-850_stir-1 | Fipa | STIR | ukukomya | u k u k o m j a
-tls-Fipa-943_sweep-1 | Fipa | SWEEP | ukupyela | u k u p j e l a
-tls-Gusii-139_bridge-1 | Gusii | BRIDGE | oboraro | o b o r a r o
-tls-Gusii-19_milk-1 | Gusii | MILK | amabere | a m a b e r e
-tls-Gusii-425_die-1 | Gusii | DIE | gokwa | g o kʷ a
-tls-Gusii-52_corpse-1 | Gusii | CORPSE | egetondo | e g e t o ⁿd o
-tls-Gusii-542_inside-1 | Gusii | INSIDE | ime | i m e
-tls-Gusii-578_carry-1 | Gusii | CARRY | kobogoria | k o b o g o r i a
-tls-Gusii-588_shoulder-1 | Gusii | SHOULDER | rireko | r i r e k o
-tls-Gusii-589_sew-1 | Gusii | SEW | gosona | g o s o n a
-tls-Gusii-594_suckthebreast-1 | Gusii | SUCK | kogonka | k o g o n k a
-tls-Gusii-732_song-1 | Gusii | SONG | ogotera | o g o t e r a
-tls-Gusii-824_dawn-1 | Gusii | DAWN | ogokia | o g o k i a
-tls-Gusii-850_stir-1 | Gusii | STIR | koburuga | k o b u r u g a
-tls-Gusii-867_shamedisgrace-1 | Gusii | SHAME | obosohu | o b o s o h u
-tls-Gusii-879_resembleveryclosely-1 | Gusii | RESEMBLE | kogwekana | k o gʷ e k a n a
-tls-Gusii-943_sweep-1 | Gusii | SWEEP | koabusa | k o a b u s a
-tls-Gusii-996_ripen-1 | Gusii | RIPEN | kwama | kʷ a m a
-tls-Gweno-139_bridge-1 | Gweno | BRIDGE | daraja | d a r a j a
-tls-Gweno-19_milk-1 | Gweno | MILK | mariva | m a r i v a
-tls-Gweno-206_increasemakegreater-1 | Gweno | INCREASE | iongera | i o ŋ e r a
-tls-Gweno-23_thigh-1 | Gweno | THIGH | kinama | k i n a m a
-tls-Gweno-542_inside-1 | Gweno | INSIDE | voshi | v o ʃ i
-tls-Gweno-588_shoulder-1 | Gweno | SHOULDER | ikotho | i k o tʰ o
-tls-Gweno-679_child-1 | Gweno | CHILD | mwana | m w a n a
-tls-Gweno-713_magic-1 | Gweno | MAGIC | vuthavi | v u tʰ a v i
-tls-Gweno-793_many-1 | Gweno | MANY | -fwa | f w a
-tls-Gweno-837_snail-1 | Gweno | SNAIL | iramba | i r a ⁿb a
-tls-Gweno-867_shamedisgrace-1 | Gweno | SHAME | irawa | i r a w a
-tls-Gweno-879_resembleveryclosely-1 | Gweno | RESEMBLE | fwanana | f w a n a n a
-tls-Gweno-996_ripen-1 | Gweno | RIPEN | isha | i ʃ a
-tls-Gwere-139_bridge-1 | Gwere | BRIDGE | lutindo | l u t i ⁿd o
-tls-Gwere-206_increasemakegreater-1 | Gwere | INCREASE | kw-ongera | kʷ + o ŋ e r a
-tls-Gwere-52_corpse-1 | Gwere | CORPSE | mulambo | m u l a ⁿb o
-tls-Gwere-542_inside-1 | Gwere | INSIDE | munda | m u ⁿd a
-tls-Gwere-589_sew-1 | Gwere | SEW | ku-tunga | k u + t u ŋ a
-tls-Gwere-594_suckthebreast-1 | Gwere | SUCK | kw-onka | kʷ + o n k a
-tls-Gwere-644_roast-1 | Gwere | ROAST (SOMETHING) | kw-okya | kʷ + o k j a
-tls-Gwere-679_child-1 | Gwere | CHILD | mwaana | m w aː n a
-tls-Gwere-732_song-1 | Gwere | SONG | lwembo | l w e ⁿb o
-tls-Gwere-837_snail-1 | Gwere | SNAIL | kikovu | k i k o v u
-tls-Gwere-850_stir-1 | Gwere | STIR | ku-tabula | k u + t a b u l a
-tls-Gwere-867_shamedisgrace-1 | Gwere | SHAME | ku-swala | k u + s w a l a
-tls-Gwere-968_shivershudder-1 | Gwere | SHIVER | ku-tukuta | k u + t u k u t a
-tls-Gwere-975_beleftoverremainover-1 | Gwere | REMAIN | ku-sigala | k u + s i g a l a
-tls-Gwere-996_ripen-1 | Gwere | RIPEN | kw-enga | kʷ + e ŋ a
-tls-Hangaza-19_milk-1 | Hangaza | MILK | amata | a m a t a
-tls-Hangaza-206_increasemakegreater-1 | Hangaza | INCREASE | ukongereza | u k o ŋ e r e z a
-tls-Hangaza-425_die-1 | Hangaza | DIE | kupfa | k u p f a
-tls-Hangaza-502_foam-1 | Hangaza | FOAM | ifuro | i f u r o
-tls-Hangaza-547_leavegoaway-1 | Hangaza | LEAVE | kuvaho | k u v a h o
-tls-Hangaza-588_shoulder-1 | Hangaza | SHOULDER | ikitugu | i k i t u g u
-tls-Hangaza-644_roast-1 | Hangaza | ROAST (SOMETHING) | kutara | k u t a r a
-tls-Hangaza-679_child-1 | Hangaza | CHILD | umwana | u m w a n a
-tls-Hangaza-837_snail-1 | Hangaza | SNAIL | ikifyela | i k i f j e l a
-tls-Hangaza-975_beleftoverremainover-1 | Hangaza | REMAIN | kusigara | k u s i g a r a
-tls-Hangaza-996_ripen-1 | Hangaza | RIPEN | kusha | k u ʃ a
-tls-Haya-139_bridge-1 | Haya | BRIDGE | olutindo | o l u t i ⁿd o
-tls-Haya-19_milk-1 | Haya | MILK | amata | a m a t a
-tls-Haya-425_die-1 | Haya | DIE | fa | f a
-tls-Haya-502_foam-1 | Haya | FOAM | ifulo | i f u l o
-tls-Haya-52_corpse-1 | Haya | CORPSE | omutumbi | o m u t u ⁿb i
-tls-Haya-542_inside-1 | Haya | INSIDE | omunda | o m u ⁿd a
-tls-Haya-793_many-1 | Haya | MANY | -ingi | i ŋ i
-tls-Haya-837_snail-1 | Haya | SNAIL | ekinyila | e k i n j i l a
-tls-Haya-867_shamedisgrace-1 | Haya | SHAME | enshoni | e n ʃ o n i
-tls-Haya-879_resembleveryclosely-1 | Haya | RESEMBLE | shanangana | ʃ a n a ŋ a n a
-tls-Haya-996_ripen-1 | Haya | RIPEN | kuhya | k u h j a
-tls-Hehe-139_bridge-1 | Hehe | BRIDGE | ililalo | i l i l a l o
-tls-Hehe-542_inside-1 | Hehe | INSIDE | kugati | k u g a t i
-tls-Hehe-547_leavegoaway-1 | Hehe | LEAVE | hega | h e g a
-tls-Hehe-588_shoulder-1 | Hehe | SHOULDER | ilivega | i l i v e g a
-tls-Hehe-644_roast-1 | Hehe | ROAST (SOMETHING) | nyaanya | n j aː n j a
-tls-Hehe-837_snail-1 | Hehe | SNAIL | ilikola | i l i k o l a
-tls-Hehe-850_stir-1 | Hehe | STIR | kologa | k o l o g a
-tls-Hehe-867_shamedisgrace-1 | Hehe | SHAME | inyoni | i n j o n i
-tls-Hehe-968_shivershudder-1 | Hehe | SHIVER | kuvila | k u v i l a
-tls-Hehe-996_ripen-1 | Hehe | RIPEN | pya | p j a
-tls-Hehe-1019_many-1 | Hehe | MANY | -olofu | o l o f u
-tls-Hehe-1027_die-1 | Hehe | DIE | fwa | f w a
-tls-Hehe-1030_milk-1 | Hehe | MILK | ilisiva | i l i s i v a
-tls-Hehe-1032_foam-1 | Hehe | FOAM | ilifulo | i l i f u l o
-tls-Hehe-1033_sew-1 | Hehe | SEW | hona | h o n a
-tls-Hehe-1035_remainstay-1 | Hehe | REMAIN | sigala | s i g a l a
-tls-Ikizu-502_foam-1 | Ikizu | FOAM | rihuru | r i h u r u
-tls-Ikizu-589_sew-1 | Ikizu | SEW | kutuma | k u t u m a
-tls-Ikizu-732_song-1 | Ikizu | SONG | iryembo | i r j e ⁿb o
-tls-Ikizu-879_resembleveryclosely-1 | Ikizu | RESEMBLE | kutubhana | k u t u bʱ a n a
-tls-Ikizu-968_shivershudder-1 | Ikizu | SHIVER | kusingisa | k u s i ŋ i s a
-tls-Ikizu-996_ripen-1 | Ikizu | RIPEN | konoga | k o n o g a
-tls-ShashiSiz-139_bridge-1 | Shashi_siz | BRIDGE | orodara | o r o d a r a
-tls-ShashiSiz-19_milk-1 | Shashi_siz | MILK | amabhere | a m a bʱ e r e
-tls-ShashiSiz-425_die-1 | Shashi_siz | DIE | kwa | kʷ a
-tls-ShashiSiz-542_inside-1 | Shashi_siz | INSIDE | musi | m u s i
-tls-ShashiSiz-578_carry-1 | Shashi_siz | CARRY | gega | g e g a
-tls-ShashiSiz-588_shoulder-1 | Shashi_siz | SHOULDER | eribhega | e r i bʱ e g a
-tls-ShashiSiz-644_roast-1 | Shashi_siz | ROAST (SOMETHING) | okya | o k j a
-tls-ShashiSiz-679_child-1 | Shashi_siz | CHILD | omwana | o m w a n a
-tls-ShashiSiz-793_many-1 | Shashi_siz | MANY | nzaru | n z a r u
-tls-ShashiSiz-850_stir-1 | Shashi_siz | STIR | segesa | s e g e s a
-tls-ShashiSiz-968_shivershudder-1 | Shashi_siz | SHIVER | rigita | r i g i t a
-tls-Jita-139_bridge-1 | Jita | BRIDGE | echambukilo | e tʃ a ⁿb u k i l o
-tls-Jita-19_milk-1 | Jita | MILK | amata | a m a t a
-tls-Jita-425_die-1 | Jita | DIE | -fwa | f w a
-tls-Jita-52_corpse-1 | Jita | CORPSE | omutumbi | o m u t u ⁿb i
-tls-Jita-547_leavegoaway-1 | Jita | LEAVE | sokao | s o k a o
-tls-Jita-588_shoulder-1 | Jita | SHOULDER | libega | l i b e g a
-tls-Jita-679_child-1 | Jita | CHILD | omwana | o m w a n a
-tls-Jita-713_magic-1 | Jita | MAGIC | obulosi | o b u l o s i
-tls-Jita-793_many-1 | Jita | MANY | -afu | a f u
-tls-Jita-837_snail-1 | Jita | SNAIL | nyabutelele | n j a b u t e l e l e
-tls-Jita-867_shamedisgrace-1 | Jita | SHAME | jiswalo | dʒ i s w a l o
-tls-Jita-996_ripen-1 | Jita | RIPEN | ya | j a
-tls-KambaKitu-23_thigh-1 | Kamba_kitu | THIGH | UtambI | ʊ t a ⁿb ɪ
-tls-KambaKitu-483_twist-1 | Kamba_kitu | TWIST | kwokotha | kʷ o k o tʰ a
-tls-KambaKitu-542_inside-1 | Kamba_kitu | INSIDE | nthInI | n tʰ ɪ n ɪ
-tls-KambaKitu-588_shoulder-1 | Kamba_kitu | SHOULDER | kItuo | k ɪ t u o
-tls-KambaKitu-594_suckthebreast-1 | Kamba_kitu | SUCK | kwonga | kʷ o ŋ a
-tls-KambaKitu-644_roast-1 | Kamba_kitu | ROAST (SOMETHING) | kUvIvya | k ʊ v ɪ v j a
-tls-KambaKitu-713_magic-1 | Kamba_kitu | MAGIC | Uoi | ʊ o i
-tls-KambaKitu-732_song-1 | Kamba_kitu | SONG | wathi | w a tʰ i
-tls-KambaKitu-824_dawn-1 | Kamba_kitu | DAWN | maIsya-ngya | m a ɪ s j a + ŋ j a
-tls-KambaKitu-867_shamedisgrace-1 | Kamba_kitu | SHAME | nthoni | n tʰ o n i
-tls-KambaKitu-879_resembleveryclosely-1 | Kamba_kitu | RESEMBLE | kUvw'anana | k ʊ vʷ a n a n a
-tls-KambaKitu-943_sweep-1 | Kamba_kitu | SWEEP | kUtuta | k ʊ t u t a
-tls-KambaKitu-996_ripen-1 | Kamba_kitu | RIPEN | kwIw'a | kʷ ɪ w a
-tls-KambaKitu-1001_corpse-1 | Kamba_kitu | CORPSE | kimba | k i ⁿb a
-tls-KambaKitu-1019_many-1 | Kamba_kitu | MANY | nyingI | n j i ŋ ɪ
-tls-KambaKitu-1027_die-1 | Kamba_kitu | DIE | kUkwa | k ʊ kʷ a
-tls-KambaKitu-1030_milk-1 | Kamba_kitu | MILK | Iia | ɪ i a
-tls-Kami-425_die-1 | Kami | DIE | ku-fa | k u + f a
-tls-Kami-502_foam-1 | Kami | FOAM | fulo | f u l o
-tls-Kami-588_shoulder-1 | Kami | SHOULDER | yega | j e g a
-tls-Kami-679_child-1 | Kami | CHILD | mwana | m w a n a
-tls-Kami-732_song-1 | Kami | SONG | wila | w i l a
-tls-Kami-793_many-1 | Kami | MANY | ingi | i ŋ i
-tls-Kami-850_stir-1 | Kami | STIR | ku-pigita | k u + p i g i t a
-tls-Kami-867_shamedisgrace-1 | Kami | SHAME | chinyala | tʃ i n j a l a
-tls-Kami-975_beleftoverremainover-1 | Kami | REMAIN | ku-sigala | k u + s i g a l a
-tls-Kami-996_ripen-1 | Kami | RIPEN | ku-iva | k u + i v a
-tls-Kerebe-19_milk-1 | Kerebe | MILK | amata | a m a t a
-tls-Kerebe-502_foam-1 | Kerebe | FOAM | ifilo | i f i l o
-tls-Kerebe-542_inside-1 | Kerebe | INSIDE | munda | m u ⁿd a
-tls-Kerebe-589_sew-1 | Kerebe | SEW | kubazila | k u b a z i l a
-tls-Kerebe-679_child-1 | Kerebe | CHILD | omwana | o m w a n a
-tls-Kerebe-713_magic-1 | Kerebe | MAGIC | obulogi | o b u l o g i
-tls-Kerebe-732_song-1 | Kerebe | SONG | olwembo | o l w e ⁿb o
-tls-Kerebe-837_snail-1 | Kerebe | SNAIL | watelela | w a t e l e l a
-tls-Kerebe-867_shamedisgrace-1 | Kerebe | SHAME | ensoni | e n s o n i
-tls-Kerebe-879_resembleveryclosely-1 | Kerebe | RESEMBLE | kususana | k u s u s a n a
-tls-Kerebe-943_sweep-1 | Kerebe | SWEEP | kukukumba | k u k u k u ⁿb a
-tls-Kerebe-975_beleftoverremainover-1 | Kerebe | REMAIN | kusigala | k u s i g a l a
-tls-Kerebe-996_ripen-1 | Kerebe | RIPEN | kuhya | k u h j a
-tls-Kiha-139_bridge-1 | Kiha | BRIDGE | ikilalo | i k i l a l o
-tls-Kiha-19_milk-1 | Kiha | MILK | amata | a m a t a
-tls-Kiha-502_foam-1 | Kiha | FOAM | ifuro | i f u r o
-tls-Kiha-52_corpse-1 | Kiha | CORPSE | umuvyimba | u m u v j i ⁿb a
-tls-Kiha-542_inside-1 | Kiha | INSIDE | hagati | h a g a t i
-tls-Kiha-588_shoulder-1 | Kiha | SHOULDER | igitugu | i g i t u g u
-tls-Kiha-713_magic-1 | Kiha | MAGIC | ubhulozi | u bʱ u l o z i
-tls-Kiha-732_song-1 | Kiha | SONG | urulilimbo | u r u l i l i ⁿb o
-tls-Kiha-879_resembleveryclosely-1 | Kiha | RESEMBLE | ugusa | u g u s a
-tls-Kiha-975_beleftoverremainover-1 | Kiha | REMAIN | ugusigala | u g u s i g a l a
-tls-Kiha-996_ripen-1 | Kiha | RIPEN | ugusha | u g u ʃ a
-tls-Kikuyu-23_thigh-1 | Kikuyu | THIGH | kIero | k ɪ e r o
-tls-Kikuyu-37_becomebadrotten-1 | Kikuyu | ROTTEN | ora | o r a
-tls-Kikuyu-129_washtakeabath-1 | Kikuyu | WASH | -thambia | tʰ a ⁿb i a
-tls-Kikuyu-206_increasemakegreater-1 | Kikuyu | INCREASE | ongerera | o ŋ e r e r a
-tls-Kikuyu-578_carry-1 | Kikuyu | CARRY | kuua | k uː a
-tls-Kikuyu-594_suckthebreast-1 | Kikuyu | SUCK | -onga | o ŋ a
-tls-Kikuyu-679_child-1 | Kikuyu | CHILD | mwana | m w a n a
-tls-Kikuyu-732_song-1 | Kikuyu | SONG | rwImbo | r w ɪ ⁿb o
-tls-Kikuyu-824_dawn-1 | Kikuyu | DAWN | gUkIa | g ʊ k ɪ a
-tls-Kikuyu-943_sweep-1 | Kikuyu | SWEEP | hata | h a t a
-tls-Kikuyu-1001_corpse-1 | Kikuyu | CORPSE | kIimba | k ɪ i ⁿb a
-tls-Kikuyu-1027_die-1 | Kikuyu | DIE | -kua | k u a
-tls-Kikuyu-1030_milk-1 | Kikuyu | MILK | iria | i r i a
-tls-Kikuyu-1033_sew-1 | Kikuyu | SEW | -tuma | t u m a
-tls-Kilegi-19_milk-1 | Kilegi | MILK | amata | a m a t a
-tls-Kilegi-37_becomebadrotten-1 | Kilegi | ROTTEN | bola | b o l a
-tls-Kilegi-425_die-1 | Kilegi | DIE | okufwa | o k u f w a
-tls-Kilegi-502_foam-1 | Kilegi | FOAM | lifilo | l i f i l o
-tls-Kilegi-52_corpse-1 | Kilegi | CORPSE | omutumbi | o m u t u ⁿb i
-tls-Kilegi-679_child-1 | Kilegi | CHILD | omwana | o m w a n a
-tls-Kilegi-975_beleftoverremainover-1 | Kilegi | REMAIN | okusikala | o k u s i k a l a
-tls-Kimbu-483_twist-1 | Kimbu | TWIST | pota | p o t a
-tls-Kimbu-542_inside-1 | Kimbu | INSIDE | muxati | m u x a t i
-tls-Kimbu-644_roast-1 | Kimbu | ROAST (SOMETHING) | tima | t i m a
-tls-Kimbu-713_magic-1 | Kimbu | MAGIC | uwulogi | u w u l o g i
-tls-Kimbu-867_shamedisgrace-1 | Kimbu | SHAME | insoni | i n s o n i
-tls-Kimbu-996_ripen-1 | Kimbu | RIPEN | vilaa | v i l aː
-tls-Kimbu-1019_many-1 | Kimbu | MANY | -ingi | i ŋ i
-tls-Kimbu-1030_milk-1 | Kimbu | MILK | imaveele | i m a v eː l e
-tls-Kimbu-1032_foam-1 | Kimbu | FOAM | ipulo | i p u l o
-tls-Kinga-128_washclothes-1 | Kinga | WASH | ukusuka | u k u s u k a
-tls-Kinga-206_increasemakegreater-1 | Kinga | INCREASE | ukwongeletsa | u kʷ o ŋ e l e ts a
-tls-Kinga-679_child-1 | Kinga | CHILD | umwana | u m w a n a
-tls-Kinga-713_magic-1 | Kinga | MAGIC | uvuhavi | u v u h a v i
-tls-Kinga-732_song-1 | Kinga | SONG | ulwimbo | u l w i ⁿb o
-tls-Kinga-867_shamedisgrace-1 | Kinga | SHAME | isoni | i s o n i
-tls-Kinga-879_resembleveryclosely-1 | Kinga | RESEMBLE | ukuwanana | u k u w a n a n a
-tls-Kinga-943_sweep-1 | Kinga | SWEEP | ukukuna | u k u k u n a
-tls-Kinga-996_ripen-1 | Kinga | RIPEN | ukuvisula | u k u v i s u l a
-tls-Kinga-1019_many-1 | Kinga | MANY | nyolosu | n j o l o s u
-tls-Kinga-1027_die-1 | Kinga | DIE | ukuswa | u k u s w a
-tls-Kinga-1030_milk-1 | Kinga | MILK | ulukama | u l u k a m a
-tls-Kinga-1033_sew-1 | Kinga | SEW | ukuhona | u k u h o n a
-tls-Kinga-1035_remainstay-1 | Kinga | REMAIN | ukusigala | u k u s i g a l a
 tls-Kisi-206_increasemakegreater-1 | Kisi | INCREASE | kuyongelekela | k u j o ŋ e l e k e l a
 tls-Kisi-483_twist-1 | Kisi | TWIST | kubota | k u b o t a
 tls-Kisi-578_carry-1 | Kisi | CARRY | kupenda | k u p e ⁿd a
@@ -5381,449 +6217,6 @@ tls-Kisi-1030_milk-1 | Kisi | MILK | lukama | l u k a m a
 tls-Kisi-1032_foam-1 | Kisi | FOAM | pofu | p o f u
 tls-Kisi-1033_sew-1 | Kisi | SEW | kuhona | k u h o n a
 tls-Kisi-1035_remainstay-1 | Kisi | REMAIN | kusighala | k u s i gʱ a l a
-tls-Kivinza-139_bridge-1 | Kivinza | BRIDGE | ikilalo | i k i l a l o
-tls-Kivinza-19_milk-1 | Kivinza | MILK | amata | a m a t a
-tls-Kivinza-23_thigh-1 | Kivinza | THIGH | ikibhelo | i k i bʱ e l o
-tls-Kivinza-425_die-1 | Kivinza | DIE | ukupfa | u k u p f a
-tls-Kivinza-502_foam-1 | Kivinza | FOAM | ifulo | i f u l o
-tls-Kivinza-588_shoulder-1 | Kivinza | SHOULDER | ibhitugo | i bʱ i t u g o
-tls-Kivinza-589_sew-1 | Kivinza | SEW | ukubhalila | u k u bʱ a l i l a
-tls-Kivinza-644_roast-1 | Kivinza | ROAST (SOMETHING) | ukwotsa | u kʷ o ts a
-tls-Kivinza-679_child-1 | Kivinza | CHILD | umwana | u m w a n a
-tls-Kivinza-713_magic-1 | Kivinza | MAGIC | ubhulozi | u bʱ u l o z i
-tls-Kivinza-867_shamedisgrace-1 | Kivinza | SHAME | insoni | i n s o n i
-tls-Kivinza-975_beleftoverremainover-1 | Kivinza | REMAIN | ukusigala | u k u s i g a l a
-tls-KuriaMago-19_milk-1 | Kuria_mago | MILK | amabere | a m a b e r e
-tls-KuriaMago-206_increasemakegreater-1 | Kuria_mago | INCREASE | engelia | e ŋ e l i a
-tls-KuriaMago-23_thigh-1 | Kuria_mago | THIGH | ekenama | e k e n a m a
-tls-KuriaMago-425_die-1 | Kuria_mago | DIE | ugukwa | u g u kʷ a
-tls-KuriaMago-502_foam-1 | Kuria_mago | FOAM | irihuro | i r i h u r o
-tls-KuriaMago-594_suckthebreast-1 | Kuria_mago | SUCK | okogonka | o k o g o n k a
-tls-KuriaMago-644_roast-1 | Kuria_mago | ROAST (SOMETHING) | okosamba | o k o s a ⁿb a
-tls-KuriaMago-679_child-1 | Kuria_mago | CHILD | omona | o m o n a
-tls-KuriaMago-680_districtprovincecountry-1 | Kuria_mago | COUNTRY | ikiaro | i k i a r o
-tls-KuriaMago-732_song-1 | Kuria_mago | SONG | iribina | i r i b i n a
-tls-KuriaMago-867_shamedisgrace-1 | Kuria_mago | SHAME | ichinsoni | i tʃ i n s o n i
-tls-KuriaMago-975_beleftoverremainover-1 | Kuria_mago | REMAIN | ogotama | o g o t a m a
-tls-KuriaMago-996_ripen-1 | Kuria_mago | RIPEN | okotoba | o k o t o b a
-tls-KuriaTari-19_milk-1 | Kuria_tari | MILK | amabhere | a m a bʱ e r e
-tls-KuriaTari-23_thigh-1 | Kuria_tari | THIGH | ekenama | e k e n a m a
-tls-KuriaTari-425_die-1 | Kuria_tari | DIE | ugukwa | u g u kʷ a
-tls-KuriaTari-502_foam-1 | Kuria_tari | FOAM | irihuro | i r i h u r o
-tls-KuriaTari-542_inside-1 | Kuria_tari | INSIDE | monse | m o n s e
-tls-KuriaTari-588_shoulder-1 | Kuria_tari | SHOULDER | irireko | i r i r e k o
-tls-KuriaTari-589_sew-1 | Kuria_tari | SEW | ugutuma | u g u t u m a
-tls-KuriaTari-594_suckthebreast-1 | Kuria_tari | SUCK | okogonka | o k o g o n k a
-tls-KuriaTari-644_roast-1 | Kuria_tari | ROAST (SOMETHING) | ogosamba | o g o s a ⁿb a
-tls-KuriaTari-679_child-1 | Kuria_tari | CHILD | omona | o m o n a
-tls-KuriaTari-713_magic-1 | Kuria_tari | MAGIC | irirogo | i r i r o g o
-tls-KuriaTari-850_stir-1 | Kuria_tari | STIR | okohetya | o k o h e t j a
-tls-KuriaTari-867_shamedisgrace-1 | Kuria_tari | SHAME | ichinsoni | i tʃ i n s o n i
-tls-KuriaTari-879_resembleveryclosely-1 | Kuria_tari | RESEMBLE | ugutubhana | u g u t u bʱ a n a
-tls-KuriaTari-975_beleftoverremainover-1 | Kuria_tari | REMAIN | ogotama | o g o t a m a
-tls-Kutu-19_milk-1 | Kutu | MILK | matombo | m a t o ⁿb o
-tls-Kutu-23_thigh-1 | Kutu | THIGH | haza | h a z a
-tls-Kutu-679_child-1 | Kutu | CHILD | mwana | m w a n a
-tls-Kutu-713_magic-1 | Kutu | MAGIC | uhawi | u h a w i
-tls-Kutu-732_song-1 | Kutu | SONG | wila | w i l a
-tls-Kutu-824_dawn-1 | Kutu | DAWN | -ucha | u tʃ a
-tls-Kutu-850_stir-1 | Kutu | STIR | -tibwiliza | t i b w i l i z a
-tls-Kwere-139_bridge-1 | Kwere | BRIDGE | tingetinge | t i ŋ e t i ŋ e
-tls-Kwere-19_milk-1 | Kwere | MILK | maziwa | m a z i w a
-tls-Kwere-206_increasemakegreater-1 | Kwere | INCREASE | k-ongeza | k + o ŋ e z a
-tls-Kwere-425_die-1 | Kwere | DIE | ku-fa | k u + f a
-tls-Kwere-502_foam-1 | Kwere | FOAM | hovu | h o v u
-tls-Kwere-542_inside-1 | Kwere | INSIDE | mgati | m g a t i
-tls-Kwere-547_leavegoaway-1 | Kwere | LEAVE | ku-segela | k u + s e g e l a
-tls-Kwere-588_shoulder-1 | Kwere | SHOULDER | gwaha | g w a h a
-tls-Kwere-589_sew-1 | Kwere | SEW | ku-sona | k u + s o n a
-tls-Kwere-644_roast-1 | Kwere | ROAST (SOMETHING) | k-oka | k + o k a
-tls-Kwere-679_child-1 | Kwere | CHILD | mwana | m w a n a
-tls-Kwere-713_magic-1 | Kwere | MAGIC | uhawi | u h a w i
-tls-Kwere-850_stir-1 | Kwere | STIR | ku-koroga | k u + k o r o g a
-tls-Lambya-19_milk-1 | Lambya | MILK | ulukama | u l u k a m a
-tls-Lambya-23_thigh-1 | Lambya | THIGH | ishizima | i ʃ i z i m a
-tls-Lambya-52_corpse-1 | Lambya | CORPSE | umuvimba | u m u v i ⁿb a
-tls-Lambya-542_inside-1 | Lambya | INSIDE | mukasi | m u k a s i
-tls-Lambya-588_shoulder-1 | Lambya | SHOULDER | ishipungo | i ʃ i p u ŋ o
-tls-Lambya-732_song-1 | Lambya | SONG | ulwimbo | u l w i ⁿb o
-tls-Lambya-837_snail-1 | Lambya | SNAIL | inkozo | i n k o z o
-tls-Lambya-968_shivershudder-1 | Lambya | SHIVER | ukutetema | u k u t e t e m a
-tls-Lambya-996_ripen-1 | Lambya | RIPEN | ukutona | u k u t o n a
-tls-Langi-19_milk-1 | Langi | MILK | masusu | m a s u s u
-tls-Langi-502_foam-1 | Langi | FOAM | ifulo | i f u l o
-tls-Langi-588_shoulder-1 | Langi | SHOULDER | iveya | i v e j a
-tls-Langi-589_sew-1 | Langi | SEW | ku-chuma | k u + tʃ u m a
-tls-Langi-679_child-1 | Langi | CHILD | msinga | m s i ŋ a
-tls-Langi-713_magic-1 | Langi | MAGIC | usavi | u s a v i
-tls-Langi-837_snail-1 | Langi | SNAIL | matambala | m a t a ⁿb a l a
-tls-Langi-867_shamedisgrace-1 | Langi | SHAME | soni | s o n i
-tls-Langi-879_resembleveryclosely-1 | Langi | RESEMBLE | kw-ifyana | kʷ + i f j a n a
-tls-Langi-996_ripen-1 | Langi | RIPEN | ku-virwa | k u + v i r w a
-tls-Luganda-19_milk-1 | Luganda | MILK | mata | m a t a
-tls-Luganda-425_die-1 | Luganda | DIE | ku-fa | k u + f a
-tls-Luganda-502_foam-1 | Luganda | FOAM | jjovu | dʒː o v u
-tls-Luganda-589_sew-1 | Luganda | SEW | ku-tunga | k u + t u ŋ a
-tls-Luganda-679_child-1 | Luganda | CHILD | mwana | m w a n a
-tls-Luganda-732_song-1 | Luganda | SONG | luyimba | l u j i ⁿb a
-tls-Luganda-867_shamedisgrace-1 | Luganda | SHAME | nsonyi | n s o n j i
-tls-Luguru-139_bridge-1 | Luguru | BRIDGE | chiroko | tʃ i r o k o
-tls-Luguru-206_increasemakegreater-1 | Luguru | INCREASE | kw-ongetsa | kʷ + o ŋ e ts a
-tls-Luguru-502_foam-1 | Luguru | FOAM | hovu | h o v u
-tls-Luguru-589_sew-1 | Luguru | SEW | -sona | s o n a
-tls-Luguru-594_suckthebreast-1 | Luguru | SUCK | k-ong'a | k + o ŋˀ a
-tls-Luguru-713_magic-1 | Luguru | MAGIC | uhawi | u h a w i
-tls-Luguru-837_snail-1 | Luguru | SNAIL | kova | k o v a
-tls-Luguru-850_stir-1 | Luguru | STIR | ku-tiga | k u + t i g a
-tls-Luguru-867_shamedisgrace-1 | Luguru | SHAME | chinyala | tʃ i n j a l a
-tls-Luguru-879_resembleveryclosely-1 | Luguru | RESEMBLE | ku-gala | k u + g a l a
-tls-Luguru-996_ripen-1 | Luguru | RIPEN | liva | l i v a
-tls-Lvhyia-37_becomebadrotten-1 | Lvhyia | ROTTEN | khu-kunda | kʰ u + k u ⁿd a
-tls-Lvhyia-425_die-1 | Lvhyia | DIE | khu-khutsa | kʰ u + kʰ u ts a
-tls-Lvhyia-502_foam-1 | Lvhyia | FOAM | lihulu | l i h u l u
-tls-Lvhyia-589_sew-1 | Lvhyia | SEW | khu-nava | kʰ u + n a v a
-tls-Lvhyia-594_suckthebreast-1 | Lvhyia | SUCK | khu-nuna | kʰ u + n u n a
-tls-Lvhyia-679_child-1 | Lvhyia | CHILD | mwana | m w a n a
-tls-Lvhyia-713_magic-1 | Lvhyia | MAGIC | vulochi | v u l o tʃ i
-tls-Lvhyia-793_many-1 | Lvhyia | MANY | vinyishi | v i n j i ʃ i
-tls-Lvhyia-867_shamedisgrace-1 | Lvhyia | SHAME | isoni | i s o n i
-tls-Lvhyia-879_resembleveryclosely-1 | Lvhyia | RESEMBLE | khu-sesana | kʰ u + s e s a n a
-tls-Lvhyia-968_shivershudder-1 | Lvhyia | SHIVER | khu-tejela | kʰ u + t e j e l a
-tls-Samialugwe-19_milk-1 | Samialugwe | MILK | amabere | a m a b e r e
-tls-Samialugwe-206_increasemakegreater-1 | Samialugwe | INCREASE | yongesa | j o ŋ e s a
-tls-Samialugwe-502_foam-1 | Samialugwe | FOAM | efiro | e f i r o
-tls-Samialugwe-52_corpse-1 | Samialugwe | CORPSE | omulambo | o m u l a ⁿb o
-tls-Samialugwe-589_sew-1 | Samialugwe | SEW | ohu-sona | o h u + s o n a
-tls-Samialugwe-679_child-1 | Samialugwe | CHILD | omwana | o m w a n a
-tls-Samialugwe-732_song-1 | Samialugwe | SONG | olwembo | o l w e ⁿb o
-tls-Samialugwe-837_snail-1 | Samialugwe | SNAIL | eheniemu_ | e h e n i e m u
-tls-Samialugwe-879_resembleveryclosely-1 | Samialugwe | RESEMBLE | ohu-fanana | o h u + f a n a n a
-tls-Samialugwe-968_shivershudder-1 | Samialugwe | SHIVER | ohu-tengereha | o h u + t e ŋ e r e h a
-tls-Lumasaaba-128_washclothes-1 | Lumasaaba | WASH | khu-siinga | kʰ u + s iː ŋ a
-tls-Lumasaaba-139_bridge-1 | Lumasaaba | BRIDGE | bulalo | b u l a l o
-tls-Lumasaaba-425_die-1 | Lumasaaba | DIE | khu-fwa | kʰ u + f w a
-tls-Lumasaaba-52_corpse-1 | Lumasaaba | CORPSE | kumulambo | k u m u l a ⁿb o
-tls-Lumasaaba-679_child-1 | Lumasaaba | CHILD | umwana | u m w a n a
-tls-Lumasaaba-732_song-1 | Lumasaaba | SONG | kumwenya | k u m w e n j a
-tls-Lumasaaba-793_many-1 | Lumasaaba | MANY | -ngi | ŋ i
-tls-Lungwa-19_milk-1 | Lungwa | MILK | amaziwa | a m a z i w a
-tls-Lungwa-206_increasemakegreater-1 | Lungwa | INCREASE | ukongezya | u k o ŋ e z j a
-tls-Lungwa-425_die-1 | Lungwa | DIE | ukufwa | u k u f w a
-tls-Lungwa-542_inside-1 | Lungwa | INSIDE | mkate | m k a t e
-tls-Lungwa-578_carry-1 | Lungwa | CARRY | ukusenda | u k u s e ⁿd a
-tls-Lungwa-589_sew-1 | Lungwa | SEW | ukusuma | u k u s u m a
-tls-Lungwa-713_magic-1 | Lungwa | MAGIC | uwulozi | u w u l o z i
-tls-Lungwa-793_many-1 | Lungwa | MANY | -ingi | i ŋ i
-tls-Lungwa-837_snail-1 | Lungwa | SNAIL | enkolofu | e n k o l o f u
-tls-Lungwa-867_shamedisgrace-1 | Lungwa | SHAME | insoni | i n s o n i
-tls-Lungwa-879_resembleveryclosely-1 | Lungwa | RESEMBLE | ukukolana | u k u k o l a n a
-tls-Lungwa-943_sweep-1 | Lungwa | SWEEP | ukupyiila | u k u p j iː l a
-tls-Lungwa-975_beleftoverremainover-1 | Lungwa | REMAIN | ukusyaala | u k u s j aː l a
-tls-Lungwa-996_ripen-1 | Lungwa | RIPEN | ukucha | u k u tʃ a
-tls-Rungwa-206_increasemakegreater-1 | Rungwa | INCREASE | ukongezya | u k o ŋ e z j a
-tls-Rungwa-542_inside-1 | Rungwa | INSIDE | mkate | m k a t e
-tls-Rungwa-578_carry-1 | Rungwa | CARRY | ukusenda | u k u s e ⁿd a
-tls-Rungwa-837_snail-1 | Rungwa | SNAIL | enkolofu | e n k o l o f u
-tls-Rungwa-867_shamedisgrace-1 | Rungwa | SHAME | insoni | i n s o n i
-tls-Rungwa-879_resembleveryclosely-1 | Rungwa | RESEMBLE | ukukolana | u k u k o l a n a
-tls-Rungwa-943_sweep-1 | Rungwa | SWEEP | ukupyiila | u k u p j iː l a
-tls-Rungwa-996_ripen-1 | Rungwa | RIPEN | ukucha | u k u tʃ a
-tls-Rungwa-1019_many-1 | Rungwa | MANY | -ingi | i ŋ i
-tls-Rungwa-1027_die-1 | Rungwa | DIE | ukufwa | u k u f w a
-tls-Rungwa-1030_milk-1 | Rungwa | MILK | amaziwa | a m a z i w a
-tls-Rungwa-1033_sew-1 | Rungwa | SEW | ukusuma | u k u s u m a
-tls-Rungwa-1035_remainstay-1 | Rungwa | REMAIN | ukusyaala | u k u s j aː l a
-tls-Lusoga-23_thigh-1 | Lusoga | THIGH | ekisambi_ | e k i s a ⁿb i
-tls-Lusoga-425_die-1 | Lusoga | DIE | oku-fa | o k u + f a
-tls-Lusoga-589_sew-1 | Lusoga | SEW | ku-tunga | k u + t u ŋ a
-tls-Lusoga-713_magic-1 | Lusoga | MAGIC | eirogo | e i r o g o
-tls-Lusoga-837_snail-1 | Lusoga | SNAIL | eikovu | e i k o v u
-tls-Lusoga-968_shivershudder-1 | Lusoga | SHIVER | ku-dhugumira | k u + dʱ u g u m i r a
-tls-Mabia-139_bridge-1 | Mabia | BRIDGE | ntado | n t a d o
-tls-Mabia-23_thigh-1 | Mabia | THIGH | sija | s i j a
-tls-Mabia-542_inside-1 | Mabia | INSIDE | nkati | n k a t i
-tls-Mabia-588_shoulder-1 | Mabia | SHOULDER | livala | l i v a l a
-tls-Mabia-589_sew-1 | Mabia | SEW | ku-tota | k u + t o t a
-tls-Mabia-732_song-1 | Mabia | SONG | lwimu | l w i m u
-tls-Mabia-837_snail-1 | Mabia | SNAIL | nyedi | n j e d i
-tls-Mabia-850_stir-1 | Mabia | STIR | ku-kalogwa | k u + k a l o gʷ a
-tls-Mabia-867_shamedisgrace-1 | Mabia | SHAME | dyoni | d j o n i
-tls-Mabia-975_beleftoverremainover-1 | Mabia | REMAIN | kw-ijalila | kʷ + i j a l i l a
-tls-Mabia-996_ripen-1 | Mabia | RIPEN | ku-ula | k u + u l a
-tls-Makonde-139_bridge-1 | Makonde | BRIDGE | lidalaja | l i d a l a j a
-tls-Makonde-425_die-1 | Makonde | DIE | ku-hwa | k u + hʷ a
-tls-Makonde-52_corpse-1 | Makonde | CORPSE | mtuhi | m t u h i
-tls-Makonde-542_inside-1 | Makonde | INSIDE | mkati | m k a t i
-tls-Makonde-594_suckthebreast-1 | Makonde | SUCK | ku-yong'a | k u + j o ŋˀ a
-tls-Makonde-793_many-1 | Makonde | MANY | -ohe | o h e
-tls-Makonde-837_snail-1 | Makonde | SNAIL | inyedi | i n j e d i
-tls-Makonde-850_stir-1 | Makonde | STIR | ku-kolowa | k u + k o l o w a
-tls-Makonde-943_sweep-1 | Makonde | SWEEP | ku-pyaia | k u + p j a i a
-tls-Machame-128_washclothes-1 | Machame | WASH | isangya | i s a ŋ j a
-tls-Machame-139_bridge-1 | Machame | BRIDGE | kitara | k i t a r a
-tls-Machame-19_milk-1 | Machame | MILK | malela | m a l e l a
-tls-Machame-589_sew-1 | Machame | SEW | ishona | i ʃ o n a
-tls-Machame-679_child-1 | Machame | CHILD | mona | m o n a
-tls-Machame-680_districtprovincecountry-1 | Machame | COUNTRY | ur*uka | u r u k a
-tls-Machame-824_dawn-1 | Machame | DAWN | ikyaa | i k j aː
-tls-Machame-975_beleftoverremainover-1 | Machame | REMAIN | isaa | i s aː
-tls-Malila-19_milk-1 | Malila | MILK | iziva | i z i v a
-tls-Malila-23_thigh-1 | Malila | THIGH | ishisheto | i ʃ i ʃ e t o
-tls-Malila-425_die-1 | Malila | DIE | kufwa | k u f w a
-tls-Malila-483_twist-1 | Malila | TWIST | kupota | k u p o t a
-tls-Malila-502_foam-1 | Malila | FOAM | itatafula | i t a t a f u l a
-tls-Malila-52_corpse-1 | Malila | CORPSE | ivimba | i v i ⁿb a
-tls-Malila-542_inside-1 | Malila | INSIDE | muhati | m u h a t i
-tls-Malila-588_shoulder-1 | Malila | SHOULDER | ishipungo | i ʃ i p u ŋ o
-tls-Malila-589_sew-1 | Malila | SEW | kusona | k u s o n a
-tls-Malila-644_roast-1 | Malila | ROAST (SOMETHING) | kwosha | kʷ o ʃ a
-tls-Malila-679_child-1 | Malila | CHILD | umwana | u m w a n a
-tls-Malila-713_magic-1 | Malila | MAGIC | uvulozi | u v u l o z i
-tls-Malila-732_song-1 | Malila | SONG | ulwimbo | u l w i ⁿb o
-tls-Malila-824_dawn-1 | Malila | DAWN | kunzanshe | k u n z a n ʃ e
-tls-Malila-867_shamedisgrace-1 | Malila | SHAME | insoni | i n s o n i
-tls-Malila-879_resembleveryclosely-1 | Malila | RESEMBLE | kuholana | k u h o l a n a
-tls-Malila-943_sweep-1 | Malila | SWEEP | kwusa | kʷ u s a
-tls-Malila-975_beleftoverremainover-1 | Malila | REMAIN | kusyala | k u s j a l a
-tls-Malila-996_ripen-1 | Malila | RIPEN | kutona | k u t o n a
-tls-Manda-139_bridge-1 | Manda | BRIDGE | ntandu | n t a ⁿd u
-tls-Manda-19_milk-1 | Manda | MILK | lisiva | l i s i v a
-tls-Manda-206_increasemakegreater-1 | Manda | INCREASE | kuyongesa | k u j o ŋ e s a
-tls-Manda-425_die-1 | Manda | DIE | kufwa | k u f w a
-tls-Manda-52_corpse-1 | Manda | CORPSE | ntufi | n t u f i
-tls-Manda-644_roast-1 | Manda | ROAST (SOMETHING) | kunyanya | k u n j a n j a
-tls-Manda-679_child-1 | Manda | CHILD | mwana | m w a n a
-tls-Manda-713_magic-1 | Manda | MAGIC | uhavi | u h a v i
-tls-Manda-732_song-1 | Manda | SONG | lwe_mbu | l w e + ⁿb u
-tls-Manda-793_many-1 | Manda | MANY | -mahele | m a h e l e
-tls-Manda-850_stir-1 | Manda | STIR | kukonjugana | k u k o n j u g a n a
-tls-Manda-867_shamedisgrace-1 | Manda | SHAME | soni | s o n i
-tls-Manda-879_resembleveryclosely-1 | Manda | RESEMBLE | kuhwaningana | k u hʷ a n i ŋ a n a
-tls-Manda-975_beleftoverremainover-1 | Manda | REMAIN | kusigala | k u s i g a l a
-tls-Manda-996_ripen-1 | Manda | RIPEN | kufunda | k u f u ⁿd a
-tls-Maragoli-19_milk-1 | Maragoli | MILK | maveere | m a v eː r e
-tls-Maragoli-425_die-1 | Maragoli | DIE | ku-kuza | k u + k u z a
-tls-Maragoli-542_inside-1 | Maragoli | INSIDE | musi | m u s i
-tls-Maragoli-547_leavegoaway-1 | Maragoli | LEAVE | ku-tura | k u + t u r a
-tls-Maragoli-588_shoulder-1 | Maragoli | SHOULDER | livega | l i v e g a
-tls-Maragoli-589_sew-1 | Maragoli | SEW | ku-nava | k u + n a v a
-tls-Maragoli-644_roast-1 | Maragoli | ROAST (SOMETHING) | ku-samba | k u + s a ⁿb a
-tls-Maragoli-679_child-1 | Maragoli | CHILD | umwana | u m w a n a
-tls-Maragoli-824_dawn-1 | Maragoli | DAWN | mumavwevwe | m u m a vʷ e vʷ e
-tls-Maragoli-850_stir-1 | Maragoli | STIR | ku-vuruganyia | k u + v u r u g a n j i a
-tls-Maragoli-879_resembleveryclosely-1 | Maragoli | RESEMBLE | ku-fanana | k u + f a n a n a
-tls-Maragoli-968_shivershudder-1 | Maragoli | SHIVER | ko-degera | k o + d e g e r a
-tls-Matengo-128_washclothes-1 | Matengo | WASH | kusapa | k u s a p a
-tls-Matengo-139_bridge-1 | Matengo | BRIDGE | ntando | n t a ⁿd o
-tls-Matengo-19_milk-1 | Matengo | MILK | masiba | m a s i b a
-tls-Matengo-23_thigh-1 | Matengo | THIGH | nhungu | nʱ u ŋ u
-tls-Matengo-502_foam-1 | Matengo | FOAM | lihulahulo | l i h u l a h u l o
-tls-Matengo-542_inside-1 | Matengo | INSIDE | nkati | n k a t i
-tls-Matengo-588_shoulder-1 | Matengo | SHOULDER | libega | l i b e g a
-tls-Matengo-644_roast-1 | Matengo | ROAST (SOMETHING) | josa | dʒ o s a
-tls-Matengo-679_child-1 | Matengo | CHILD | mwana | m w a n a
-tls-Matengo-713_magic-1 | Matengo | MAGIC | uhabi | u h a b i
-tls-Matengo-968_shivershudder-1 | Matengo | SHIVER | bagaja | b a g a j a
-tls-Matumbi-425_die-1 | Matumbi | DIE | wa | w a
-tls-Matumbi-502_foam-1 | Matumbi | FOAM | litutume_ | l i t u t u m e
-tls-Matumbi-52_corpse-1 | Matumbi | CORPSE | ntwi | n t w i
-tls-Matumbi-589_sew-1 | Matumbi | SEW | sona | s o n a
-tls-Matumbi-594_suckthebreast-1 | Matumbi | SUCK | yonga | j o ŋ a
-tls-Matumbi-644_roast-1 | Matumbi | ROAST (SOMETHING) | yosa | j o s a
-tls-Matumbi-679_child-1 | Matumbi | CHILD | mwana | m w a n a
-tls-Matumbi-732_song-1 | Matumbi | SONG | mwambo | m w a ⁿb o
-tls-Matumbi-793_many-1 | Matumbi | MANY | -ansima | a n s i m a
-tls-Matumbi-850_stir-1 | Matumbi | STIR | kologa | k o l o g a
-tls-Matumbi-867_shamedisgrace-1 | Matumbi | SHAME | oni | o n i
-tls-Matumbi-975_beleftoverremainover-1 | Matumbi | REMAIN | igala | i g a l a
-tls-Matumbi-996_ripen-1 | Matumbi | RIPEN | kelya | k e l j a
-tls-Mbunga-19_milk-1 | Mbunga | MILK | maveli | m a v e l i
-tls-Mbunga-206_increasemakegreater-1 | Mbunga | INCREASE | kuyongesa | k u j o ŋ e s a
-tls-Mbunga-502_foam-1 | Mbunga | FOAM | lifulufulu | l i f u l u f u l u
-tls-Mbunga-542_inside-1 | Mbunga | INSIDE | mgati | m g a t i
-tls-Mbunga-547_leavegoaway-1 | Mbunga | LEAVE | kuvuka | k u v u k a
-tls-Mbunga-588_shoulder-1 | Mbunga | SHOULDER | likombi | l i k o ⁿb i
-tls-Mbunga-594_suckthebreast-1 | Mbunga | SUCK | kuyonga | k u j o ŋ a
-tls-Mbunga-644_roast-1 | Mbunga | ROAST (SOMETHING) | kunyanya | k u n j a n j a
-tls-Mbunga-679_child-1 | Mbunga | CHILD | mwana | m w a n a
-tls-Mbunga-713_magic-1 | Mbunga | MAGIC | uhavi | u h a v i
-tls-Mbunga-837_snail-1 | Mbunga | SNAIL | ngongu | ŋ o ŋ u
-tls-Mbunga-968_shivershudder-1 | Mbunga | SHIVER | kutetema | k u t e t e m a
-tls-Mbunga-975_beleftoverremainover-1 | Mbunga | REMAIN | kusighala | k u s i gʱ a l a
-tls-Kimbunga-128_washclothes-1 | Kimbunga | WASH | ku | k u
-tls-Kimbunga-129_washtakeabath-1 | Kimbunga | WASH | ku | k u
-tls-Kimbunga-155a_increase-1 | Kimbunga | INCREASE | ku | k u
-tls-Kimbunga-19_milk-1 | Kimbunga | MILK | maveli | m a v e l i
-tls-Kimbunga-206_increasemakegreater-1 | Kimbunga | INCREASE | ku | k u
-tls-Kimbunga-502_foam-1 | Kimbunga | FOAM | lifulufulu | l i f u l u f u l u
-tls-Kimbunga-542_inside-1 | Kimbunga | INSIDE | mgati | m g a t i
-tls-Kimbunga-547_leavegoaway-1 | Kimbunga | LEAVE | ku | k u
-tls-Kimbunga-644_roast-1 | Kimbunga | ROAST (SOMETHING) | ku | k u
-tls-Kimbunga-679_child-1 | Kimbunga | CHILD | mwana | m w a n a
-tls-Kimbunga-713_magic-1 | Kimbunga | MAGIC | uhavi | u h a v i
-tls-Kimbunga-837_snail-1 | Kimbunga | SNAIL | ngongu | ŋ o ŋ u
-tls-Kimbunga-968_shivershudder-1 | Kimbunga | SHIVER | ku | k u
-tls-Meru-128_washclothes-1 | Meru | WASH | isanja | i s a n j a
-tls-Meru-19_milk-1 | Meru | MILK | maruva | m a r u v a
-tls-Meru-23_thigh-1 | Meru | THIGH | kinama | k i n a m a
-tls-Meru-502_foam-1 | Meru | FOAM | iviya | i v i j a
-tls-Meru-542_inside-1 | Meru | INSIDE | kari | k a r i
-tls-Meru-588_shoulder-1 | Meru | SHOULDER | yeeva | j eː v a
-tls-Meru-589_sew-1 | Meru | SEW | ifuma | i f u m a
-tls-Meru-644_roast-1 | Meru | ROAST (SOMETHING) | oja | o j a
-tls-Meru-679_child-1 | Meru | CHILD | mwana | m w a n a
-tls-Meru-732_song-1 | Meru | SONG | ufina | u f i n a
-tls-Meru-824_dawn-1 | Meru | DAWN | ija | i j a
-tls-Meru-837_snail-1 | Meru | SNAIL | ikoru | i k o r u
-tls-Meru-879_resembleveryclosely-1 | Meru | RESEMBLE | ivaka | i v a k a
-tls-Meru-968_shivershudder-1 | Meru | SHIVER | irerema | i r e r e m a
-tls-Meru-975_beleftoverremainover-1 | Meru | REMAIN | isaa | i s aː
-tls-Meru-996_ripen-1 | Meru | RIPEN | ivira | i v i r a
-tls-Mkwaya-206_increasemakegreater-1 | Mkwaya | INCREASE | okwongesya | o kʷ o ŋ e s j a
-tls-Mkwaya-425_die-1 | Mkwaya | DIE | okufwa | o k u f w a
-tls-Mkwaya-502_foam-1 | Mkwaya | FOAM | rifiro | r i f i r o
-tls-Mkwaya-542_inside-1 | Mkwaya | INSIDE | munsi | m u n s i
-tls-Mkwaya-588_shoulder-1 | Mkwaya | SHOULDER | ribega | r i b e g a
-tls-Mkwaya-589_sew-1 | Mkwaya | SEW | okusona | o k u s o n a
-tls-Mkwaya-713_magic-1 | Mkwaya | MAGIC | oburosi | o b u r o s i
-tls-Mkwaya-837_snail-1 | Mkwaya | SNAIL | nyabuterere | n j a b u t e r e r e
-tls-Mkwaya-943_sweep-1 | Mkwaya | SWEEP | okweerera | o kʷ eː r e r a
-tls-Mkwaya-996_ripen-1 | Mkwaya | RIPEN | okuya | o k u j a
-tls-Mpoto-139_bridge-1 | Mpoto | BRIDGE | ntandu | n t a ⁿd u
-tls-Mpoto-206_increasemakegreater-1 | Mpoto | INCREASE | kujonjukea | k u j o n j u k e a
-tls-Mpoto-425_die-1 | Mpoto | DIE | kuwa | k u w a
-tls-Mpoto-542_inside-1 | Mpoto | INSIDE | nkati | n k a t i
-tls-Mpoto-589_sew-1 | Mpoto | SEW | kutota | k u t o t a
-tls-Mpoto-644_roast-1 | Mpoto | ROAST (SOMETHING) | kujosa | k u j o s a
-tls-Mpoto-679_child-1 | Mpoto | CHILD | mwana | m w a n a
-tls-Mpoto-713_magic-1 | Mpoto | MAGIC | uhabi | u h a b i
-tls-Mpoto-837_snail-1 | Mpoto | SNAIL | likonokono | l i k o n o k o n o
-tls-Mpoto-867_shamedisgrace-1 | Mpoto | SHAME | ihyoni | i h j o n i
-tls-Mpoto-879_resembleveryclosely-1 | Mpoto | RESEMBLE | kulengana | k u l e ŋ a n a
-tls-Mpoto-968_shivershudder-1 | Mpoto | SHIVER | kubagaja | k u b a g a j a
-tls-Mpoto-996_ripen-1 | Mpoto | RIPEN | kubegwa | k u b e gʷ a
-tls-Mwera-139_bridge-1 | Mwera | BRIDGE | mlalo | m l a l o
-tls-Mwera-19_milk-1 | Mwera | MILK | likama | l i k a m a
-tls-Mwera-23_thigh-1 | Mwera | THIGH | nc_h_afu | n ts + h + a f u
-tls-Mwera-483_twist-1 | Mwera | TWIST | kupota | k u p o t a
-tls-Mwera-502_foam-1 | Mwera | FOAM | t_ovu | t + o v u
-tls-Mwera-52_corpse-1 | Mwera | CORPSE | chitanda | tʃ i t a ⁿd a
-tls-Mwera-542_inside-1 | Mwera | INSIDE | nkati | n k a t i
-tls-Mwera-594_suckthebreast-1 | Mwera | SUCK | kuyamwa | k u j a m w a
-tls-Mwera-644_roast-1 | Mwera | ROAST (SOMETHING) | kuoc_h_a | k u o ts + h + a
-tls-Mwera-679_child-1 | Mwera | CHILD | mwana | m w a n a
-tls-Mwera-713_magic-1 | Mwera | MAGIC | ufiti | u f i t i
-tls-Mwera-732_song-1 | Mwera | SONG | nyimbo | n j i ⁿb o
-tls-Mwera-837_snail-1 | Mwera | SNAIL | nk_ononk_ono | n k + o n o n k + o n o
-tls-Mwera-867_shamedisgrace-1 | Mwera | SHAME | nc_h_oni | n ts + h + o n i
-tls-Mwera-879_resembleveryclosely-1 | Mwera | RESEMBLE | lingana | l i ŋ a n a
-tls-Mwera-943_sweep-1 | Mwera | SWEEP | lambula | l a ⁿb u l a
-tls-Mwera1-139_bridge-1 | Mwera1 | BRIDGE | ndalaja | ⁿd a l a j a
-tls-Mwera1-37_becomebadrotten-1 | Mwera1 | ROTTEN | ku-bola | k u + b o l a
-tls-Mwera1-425_die-1 | Mwera1 | DIE | ku-wa | k u + w a
-tls-Mwera1-502_foam-1 | Mwera1 | FOAM | liulo | l i u l o
-tls-Mwera1-52_corpse-1 | Mwera1 | CORPSE | ntui | n t u i
-tls-Mwera1-547_leavegoaway-1 | Mwera1 | LEAVE | ku-shoka | k u + ʃ o k a
-tls-Mwera1-589_sew-1 | Mwera1 | SEW | ku-tota | k u + t o t a
-tls-Mwera1-594_suckthebreast-1 | Mwera1 | SUCK | ku-yonda | k u + j o ⁿd a
-tls-Mwera1-713_magic-1 | Mwera1 | MAGIC | uavhi | u a vʱ i
-tls-Mwera1-732_song-1 | Mwera1 | SONG | lwimbo | l w i ⁿb o
-tls-Namwanga-483_twist-1 | Namwanga | TWIST | uku-posa | u k u + p o s a
-tls-Namwanga-502_foam-1 | Namwanga | FOAM | i-totofulu | i + t o t o f u l u
-tls-Namwanga-52_corpse-1 | Namwanga | CORPSE | i-chala | i + tʃ a l a
-tls-Namwanga-589_sew-1 | Namwanga | SEW | uku-suma | u k u + s u m a
-tls-Namwanga-679_child-1 | Namwanga | CHILD | u-mwana | u + m w a n a
-tls-Namwanga-713_magic-1 | Namwanga | MAGIC | u-wulozi | u + w u l o z i
-tls-Namwanga-824_dawn-1 | Namwanga | DAWN | i-chisangalala | i + tʃ i s a ŋ a l a l a
-tls-Namwanga-968_shivershudder-1 | Namwanga | SHIVER | uku-zakaza | u k u + z a k a z a
-tls-Nata-139_bridge-1 | Nata | BRIDGE | orutaracha | o r u t a r a tʃ a
-tls-Nata-19_milk-1 | Nata | MILK | amabhere | a m a bʱ e r e
-tls-Nata-425_die-1 | Nata | DIE | kukwa | k u kʷ a
-tls-Nata-588_shoulder-1 | Nata | SHOULDER | ribhega | r i bʱ e g a
-tls-Nata-679_child-1 | Nata | CHILD | omwana | o m w a n a
-tls-Nata-867_shamedisgrace-1 | Nata | SHAME | chasoni | tʃ a s o n i
-tls-Nata-975_beleftoverremainover-1 | Nata | REMAIN | kusagha | k u s a gʱ a
-tls-Ndali-128_washclothes-1 | Ndali | WASH | kusuka | k u s u k a
-tls-Ndali-139_bridge-1 | Ndali | BRIDGE | lulalo | l u l a l o
-tls-Ndali-206_increasemakegreater-1 | Ndali | INCREASE | -ongela | o ŋ e l a
-tls-Ndali-425_die-1 | Ndali | DIE | kufwa | k u f w a
-tls-Ndali-52_corpse-1 | Ndali | CORPSE | mufimba | m u f i ⁿb a
-tls-Ndali-542_inside-1 | Ndali | INSIDE | mukati | m u k a t i
-tls-Ndali-578_carry-1 | Ndali | CARRY | kupimba | k u p i ⁿb a
-tls-Ndali-588_shoulder-1 | Ndali | SHOULDER | chibeja | tʃ i b e j a
-tls-Ndali-589_sew-1 | Ndali | SEW | kusona | k u s o n a
-tls-Ndali-644_roast-1 | Ndali | ROAST (SOMETHING) | -ocha | o tʃ a
-tls-Ndali-680_districtprovincecountry-1 | Ndali | COUNTRY | ichisu | i tʃ i s u
-tls-Ndali-713_magic-1 | Ndali | MAGIC | buloshi | b u l o ʃ i
-tls-Ndali-732_song-1 | Ndali | SONG | lwimbo | l w i ⁿb o
-tls-Ndali-793_many-1 | Ndali | MANY | -ingi | i ŋ i
-tls-Ndali-824_dawn-1 | Ndali | DAWN | kubuche | k u b u tʃ e
-tls-Ndali-837_snail-1 | Ndali | SNAIL | ukofu | u k o f u
-tls-Ndali-867_shamedisgrace-1 | Ndali | SHAME | isoni | i s o n i
-tls-Ndali-879_resembleveryclosely-1 | Ndali | RESEMBLE | kugelela | k u g e l e l a
-tls-Ndali-943_sweep-1 | Ndali | SWEEP | kupyagila | k u p j a g i l a
-tls-Ndali-968_shivershudder-1 | Ndali | SHIVER | kutetema | k u t e t e m a
-tls-Ndali-975_beleftoverremainover-1 | Ndali | REMAIN | kulema | k u l e m a
-tls-Ndali-996_ripen-1 | Ndali | RIPEN | kutona | k u t o n a
-tls-Ndari-128_washclothes-1 | Ndari | WASH | kusuka | k u s u k a
-tls-Ndari-139_bridge-1 | Ndari | BRIDGE | lulalo | l u l a l o
-tls-Ndari-206_increasemakegreater-1 | Ndari | INCREASE | -ongela | o ŋ e l a
-tls-Ndari-542_inside-1 | Ndari | INSIDE | mukati | m u k a t i
-tls-Ndari-578_carry-1 | Ndari | CARRY | kupimba | k u p i ⁿb a
-tls-Ndari-588_shoulder-1 | Ndari | SHOULDER | chibeja | tʃ i b e j a
-tls-Ndari-644_roast-1 | Ndari | ROAST (SOMETHING) | -ocha | o tʃ a
-tls-Ndari-680_districtprovincecountry-1 | Ndari | COUNTRY | ichisu | i tʃ i s u
-tls-Ndari-713_magic-1 | Ndari | MAGIC | buloshi | b u l o ʃ i
-tls-Ndari-732_song-1 | Ndari | SONG | lwimbo | l w i ⁿb o
-tls-Ndari-824_dawn-1 | Ndari | DAWN | kubuche | k u b u tʃ e
-tls-Ndari-837_snail-1 | Ndari | SNAIL | ukofu | u k o f u
-tls-Ndari-867_shamedisgrace-1 | Ndari | SHAME | isoni | i s o n i
-tls-Ndari-879_resembleveryclosely-1 | Ndari | RESEMBLE | kugelela | k u g e l e l a
-tls-Ndari-943_sweep-1 | Ndari | SWEEP | kupyagila | k u p j a g i l a
-tls-Ndari-996_ripen-1 | Ndari | RIPEN | kutona | k u t o n a
-tls-Ndari-1001_corpse-1 | Ndari | CORPSE | mufimba | m u f i ⁿb a
-tls-Ndari-1019_many-1 | Ndari | MANY | -ingi | i ŋ i
-tls-Ndari-1027_die-1 | Ndari | DIE | kufwa | k u f w a
-tls-Ndari-1033_sew-1 | Ndari | SEW | kusona | k u s o n a
-tls-Ndari-1035_remainstay-1 | Ndari | REMAIN | kulema | k u l e m a
-tls-Ndamba-425_die-1 | Ndamba | DIE | kusova | k u s o v a
-tls-Ndamba-578_carry-1 | Ndamba | CARRY | kuyegha | k u j e gʱ a
-tls-Ndamba-589_sew-1 | Ndamba | SEW | kusona | k u s o n a
-tls-Ndamba-644_roast-1 | Ndamba | ROAST (SOMETHING) | kunyanya | k u n j a n j a
-tls-Ndamba-679_child-1 | Ndamba | CHILD | mwana | m w a n a
-tls-Ndamba-713_magic-1 | Ndamba | MAGIC | uhavi | u h a v i
-tls-Ndamba-793_many-1 | Ndamba | MANY | -tangala | t a ŋ a l a
-tls-Ndamba-867_shamedisgrace-1 | Ndamba | SHAME | soni | s o n i
-tls-Ndengeleko-37_becomebadrotten-1 | Ndengeleko | ROTTEN | mbou | ⁿb o u
-tls-Ndengeleko-502_foam-1 | Ndengeleko | FOAM | kitutu | k i t u t u
-tls-Ndengeleko-589_sew-1 | Ndengeleko | SEW | sona | s o n a
-tls-Ndengeleko-679_child-1 | Ndengeleko | CHILD | mwana | m w a n a
-tls-Ndengeleko-793_many-1 | Ndengeleko | MANY | yanyansima | j a n j a n s i m a
-tls-Ndengeleko-867_shamedisgrace-1 | Ndengeleko | SHAME | oni | o n i
-tls-Rufiji-139_bridge-1 | Rufiji | BRIDGE | mtando | m t a ⁿd o
-tls-Rufiji-425_die-1 | Rufiji | DIE | kuwaa | k u w aː
-tls-Rufiji-483_twist-1 | Rufiji | TWIST | kuinga | k u i ŋ a
-tls-Rufiji-502_foam-1 | Rufiji | FOAM | lipofu | l i p o f u
-tls-Rufiji-52_corpse-1 | Rufiji | CORPSE | mtwii | m t w iː
-tls-Rufiji-547_leavegoaway-1 | Rufiji | LEAVE | kuboka | k u b o k a
-tls-Rufiji-588_shoulder-1 | Rufiji | SHOULDER | lipamba | l i p a ⁿb a
-tls-Rufiji-589_sew-1 | Rufiji | SEW | kusona | k u s o n a
-tls-Rufiji-713_magic-1 | Rufiji | MAGIC | bwabe | b w a b e
-tls-Rufiji-850_stir-1 | Rufiji | STIR | kukonjogana | k u k o n j o g a n a
-tls-Rufiji-867_shamedisgrace-1 | Rufiji | SHAME | oni | o n i
-tls-Rufiji-975_beleftoverremainover-1 | Rufiji | REMAIN | kuigala | k u i g a l a
-tls-Ngindo-19_milk-1 | Ngindo | MILK | mabele | m a b e l e
-tls-Ngindo-23_thigh-1 | Ngindo | THIGH | libondo | l i b o ⁿd o
-tls-Ngindo-542_inside-1 | Ngindo | INSIDE | n'nyumba | nˀ n j u ⁿb a
-tls-Ngindo-588_shoulder-1 | Ngindo | SHOULDER | lipamba_ | l i p a ⁿb a
-tls-Ngindo-644_roast-1 | Ngindo | ROAST (SOMETHING) | ku-jocha | k u + j o tʃ a
-tls-Ngindo-679_child-1 | Ngindo | CHILD | mwana | m w a n a
-tls-Ngindo-713_magic-1 | Ngindo | MAGIC | uhwabi | u hʷ a b i
-tls-Ngindo-732_song-1 | Ngindo | SONG | n'hwambo | nˀ hʷ a ⁿb o
-tls-Ngindo-793_many-1 | Ngindo | MANY | ndu | ⁿd u
-tls-Ngindo-850_stir-1 | Ngindo | STIR | ku-timbugana | k u + t i ⁿb u g a n a
-tls-Ngindo-867_shamedisgrace-1 | Ngindo | SHAME | honi | h o n i
-tls-Ngindo-996_ripen-1 | Ngindo | RIPEN | ku-pyee | k u + p j eː
 tls-Ngoni-19_milk-1 | Ngoni | MILK | lukama | l u k a m a
 tls-Ngoni-206_increasemakegreater-1 | Ngoni | INCREASE | yongesa | j o ŋ e s a
 tls-Ngoni-23_thigh-1 | Ngoni | THIGH | liwondo | l i w o ⁿd o
@@ -5842,365 +6235,6 @@ tls-Ngoni-837_snail-1 | Ngoni | SNAIL | likonokono | l i k o n o k o n o
 tls-Ngoni-850_stir-1 | Ngoni | STIR | konjugana | k o n j u g a n a
 tls-Ngoni-879_resembleveryclosely-1 | Ngoni | RESEMBLE | hwanangana | hʷ a n a ŋ a n a
 tls-Ngoni-996_ripen-1 | Ngoni | RIPEN | hunda | h u ⁿd a
-tls-Ngoreme-139_bridge-1 | Ngoreme | BRIDGE | ridaraja | r i d a r a j a
-tls-Ngoreme-19_milk-1 | Ngoreme | MILK | amabhere | a m a bʱ e r e
-tls-Ngoreme-206_increasemakegreater-1 | Ngoreme | INCREASE | kwengeri | kʷ e ŋ e r i
-tls-Ngoreme-23_thigh-1 | Ngoreme | THIGH | ekenama | e k e n a m a
-tls-Ngoreme-425_die-1 | Ngoreme | DIE | oghoku | o gʱ o k u
-tls-Ngoreme-502_foam-1 | Ngoreme | FOAM | rihuro | r i h u r o
-tls-Ngoreme-578_carry-1 | Ngoreme | CARRY | okoghegha | o k o gʱ e gʱ a
-tls-Ngoreme-594_suckthebreast-1 | Ngoreme | SUCK | okoghonka | o k o gʱ o n k a
-tls-Ngoreme-679_child-1 | Ngoreme | CHILD | omona | o m o n a
-tls-Nguungulu-139_bridge-1 | Nguungulu | BRIDGE | dalaja | d a l a j a
-tls-Nguungulu-19_milk-1 | Nguungulu | MILK | mele | m e l e
-tls-Nguungulu-23_thigh-1 | Nguungulu | THIGH | wambo | w a ⁿb o
-tls-Nguungulu-37_becomebadrotten-1 | Nguungulu | ROTTEN | ku-ola | k u + o l a
-tls-Nguungulu-425_die-1 | Nguungulu | DIE | ku-banika | k u + b a n i k a
-tls-Nguungulu-52_corpse-1 | Nguungulu | CORPSE | kimba | k i ⁿb a
-tls-Nguungulu-589_sew-1 | Nguungulu | SEW | ku-suma | k u + s u m a
-tls-Nguungulu-594_suckthebreast-1 | Nguungulu | SUCK | -yonkha | j o n kʰ a
-tls-Nguungulu-679_child-1 | Nguungulu | CHILD | mwana | m w a n a
-tls-Nguungulu-713_magic-1 | Nguungulu | MAGIC | usai | u s a i
-tls-Nguungulu-732_song-1 | Nguungulu | SONG | wila | w i l a
-tls-Nguungulu-837_snail-1 | Nguungulu | SNAIL | kove_ | k o v e
-tls-Nguungulu-867_shamedisgrace-1 | Nguungulu | SHAME | soni | s o n i
-tls-Nguungulu-975_beleftoverremainover-1 | Nguungulu | REMAIN | ku-sigala | k u + s i g a l a
-tls-Ntuzu-588_shoulder-1 | Ntuzu | SHOULDER | ibega | i b e g a
-tls-Ntuzu-644_roast-1 | Ntuzu | ROAST (SOMETHING) | gocha | g o tʃ a
-tls-Ntuzu-679_child-1 | Ntuzu | CHILD | ng'wana | ŋˀ w a n a
-tls-Ntuzu-680_districtprovincecountry-1 | Ntuzu | COUNTRY | sI | s ɪ
-tls-Ntuzu-867_shamedisgrace-1 | Ntuzu | SHAME | soni | s o n i
-tls-Ntuzu-996_ripen-1 | Ntuzu | RIPEN | gUpya | g ʊ p j a
-tls-Ntuzu-1032_foam-1 | Ntuzu | FOAM | isulo | i s u l o
-tls-Ntuzu-1035_remainstay-1 | Ntuzu | REMAIN | gUsaga | g ʊ s a g a
-tls-Sukuma-542_inside-1 | Sukuma | INSIDE | mugati | m u g a t i
-tls-Sukuma-588_shoulder-1 | Sukuma | SHOULDER | ibega_ | i b e g a
-tls-Sukuma-713_magic-1 | Sukuma | MAGIC | bulogi | b u l o g i
-tls-Sukuma-732_song-1 | Sukuma | SONG | lyimbo_ | l j i ⁿb o
-tls-Sukuma-837_snail-1 | Sukuma | SNAIL | ngoku_ | ŋ o k u
-tls-Sukuma-879_resembleveryclosely-1 | Sukuma | RESEMBLE | kwiyikola | kʷ i j i k o l a
-tls-Sukuma-1019_many-1 | Sukuma | MANY | -ingi | i ŋ i
-tls-Sukuma-1030_milk-1 | Sukuma | MILK | mabele | m a b e l e
-tls-Sukuma-1032_foam-1 | Sukuma | FOAM | ifulo | i f u l o
-tls-Sukuma-1035_remainstay-1 | Sukuma | REMAIN | gusaga | g u s a g a
-tls-Nyaturuwil-19_milk-1 | Nyaturuwil | MILK | maiva | m a i v a
-tls-Nyaturuwil-206_increasemakegreater-1 | Nyaturuwil | INCREASE | guongeya | g u o ŋ e j a
-tls-Nyaturuwil-502_foam-1 | Nyaturuwil | FOAM | ifomboru | i f o ⁿb o r u
-tls-Nyaturuwil-589_sew-1 | Nyaturuwil | SEW | utuma | u t u m a
-tls-Nyaturuwil-713_magic-1 | Nyaturuwil | MAGIC | uroghi | u r o gʱ i
-tls-Nyaturuwil-793_many-1 | Nyaturuwil | MANY | nyingi | n j i ŋ i
-tls-Nyaturuwil-850_stir-1 | Nyaturuwil | STIR | ukugha | u k u gʱ a
-tls-Nyaturuwil-867_shamedisgrace-1 | Nyaturuwil | SHAME | minyaa | m i n j aː
-tls-Nyiha-139_bridge-1 | Nyiha | BRIDGE | inanto | i n a n t o
-tls-Nyiha-483_twist-1 | Nyiha | TWIST | kupota | k u p o t a
-tls-Nyiha-502_foam-1 | Nyiha | FOAM | umtatafula | u m t a t a f u l a
-tls-Nyiha-588_shoulder-1 | Nyiha | SHOULDER | ishipungo | i ʃ i p u ŋ o
-tls-Nyiha-589_sew-1 | Nyiha | SEW | kusona | k u s o n a
-tls-Nyiha-679_child-1 | Nyiha | CHILD | umwana | u m w a n a
-tls-Nyiha-713_magic-1 | Nyiha | MAGIC | uv*ulozi | u v u l o z i
-tls-Nyiha-732_song-1 | Nyiha | SONG | inyimbo | i n j i ⁿb o
-tls-Nyiha-793_many-1 | Nyiha | MANY | nyinji | n j i n j i
-tls-Nyiha-879_resembleveryclosely-1 | Nyiha | RESEMBLE | kuholana | k u h o l a n a
-tls-Nyiha-975_beleftoverremainover-1 | Nyiha | REMAIN | kusyala | k u s j a l a
-tls-Nyiramba-23_thigh-1 | Nyiramba | THIGH | kEEga | k ɛː g a
-tls-Nyiramba-502_foam-1 | Nyiramba | FOAM | pyomboolu | p j o ⁿb oː l u
-tls-Nyiramba-52_corpse-1 | Nyiramba | CORPSE | mUiimba | m ʊ iː ⁿb a
-tls-Nyiramba-679_child-1 | Nyiramba | CHILD | mwaana | m w aː n a
-tls-Nyiramba-793_many-1 | Nyiramba | MANY | mingE | m i ŋ ɛ
-tls-Nyiramba-867_shamedisgrace-1 | Nyiramba | SHAME | nsoni | n s o n i
-tls-Nyiramba-968_shivershudder-1 | Nyiramba | SHIVER | kwi-kEkEma | kʷ i + k ɛ k ɛ m a
-tls-Nyiramba-975_beleftoverremainover-1 | Nyiramba | REMAIN | kwi-shaaga | kʷ i + ʃ aː g a
-tls-Pangwa-124_skin-1 | Pangwa | SKIN | sonda | s o ⁿd a
-tls-Pangwa-155a_increase-1 | Pangwa | INCREASE | khuyongelecha | kʰ u j o ŋ e l e tʃ a
-tls-Pangwa-578_carry-1 | Pangwa | CARRY | khupinda | kʰ u p i ⁿd a
-tls-Pangwa-588_shoulder-1 | Pangwa | SHOULDER | liveka | l i v e k a
-tls-Pangwa-644_roast-1 | Pangwa | ROAST (SOMETHING) | khunyanya | kʰ u n j a n j a
-tls-Pangwa-679_child-1 | Pangwa | CHILD | mwana | m w a n a
-tls-Pangwa-713_magic-1 | Pangwa | MAGIC | vuhavi | v u h a v i
-tls-Pangwa-824_dawn-1 | Pangwa | DAWN | khusha | kʰ u ʃ a
-tls-Pangwa-867_shamedisgrace-1 | Pangwa | SHAME | soni | s o n i
-tls-Pangwa-879_resembleveryclosely-1 | Pangwa | RESEMBLE | khuwanana | kʰ u w a n a n a
-tls-Pangwa-943_sweep-1 | Pangwa | SWEEP | khufyakila | kʰ u f j a k i l a
-tls-Pangwa-996_ripen-1 | Pangwa | RIPEN | khufunda | kʰ u f u ⁿd a
-tls-Pangwa-1033_sew-1 | Pangwa | SEW | khuhona | kʰ u h o n a
-tls-Pangwa-1035_remainstay-1 | Pangwa | REMAIN | khusikala | kʰ u s i k a l a
-tls-Pimbwe-19_milk-1 | Pimbwe | MILK | amadib'a | a m a d i b a
-tls-Pimbwe-425_die-1 | Pimbwe | DIE | ukufwa | u k u f w a
-tls-Pimbwe-502_foam-1 | Pimbwe | FOAM | ifulo | i f u l o
-tls-Pimbwe-542_inside-1 | Pimbwe | INSIDE | mkate | m k a t e
-tls-Pimbwe-589_sew-1 | Pimbwe | SEW | ukusuma | u k u s u m a
-tls-Pimbwe-644_roast-1 | Pimbwe | ROAST (SOMETHING) | ukoocha | u k oː tʃ a
-tls-Pimbwe-679_child-1 | Pimbwe | CHILD | umwaana | u m w aː n a
-tls-Pimbwe-713_magic-1 | Pimbwe | MAGIC | ub'ulodi | u b ʔ u l o d i
-tls-Pimbwe-732_song-1 | Pimbwe | SONG | ulwiimbo | u l w iː ⁿb o
-tls-Pimbwe-850_stir-1 | Pimbwe | STIR | ukukomya | u k u k o m j a
-tls-Pimbwe-867_shamedisgrace-1 | Pimbwe | SHAME | insoni | i n s o n i
-tls-Pimbwe-968_shivershudder-1 | Pimbwe | SHIVER | ukutetema | u k u t e t e m a
-tls-Pimbwe-996_ripen-1 | Pimbwe | RIPEN | ukucha | u k u tʃ a
-tls-Pogoro-124_skin-1 | Pogoro | SKIN | lkuli | l k u l i
-tls-Pogoro-19_milk-1 | Pogoro | MILK | maweri | m a w e r i
-tls-Pogoro-206_increasemakegreater-1 | Pogoro | INCREASE | kongera | k o ŋ e r a
-tls-Pogoro-23_thigh-1 | Pogoro | THIGH | liwondu | l i w o ⁿd u
-tls-Pogoro-37_becomebadrotten-1 | Pogoro | ROTTEN | wola | w o l a
-tls-Pogoro-547_leavegoaway-1 | Pogoro | LEAVE | uka | u k a
-tls-Pogoro-588_shoulder-1 | Pogoro | SHOULDER | liwega | l i w e g a
-tls-Pogoro-679_child-1 | Pogoro | CHILD | mwana | m w a n a
-tls-Pogoro-713_magic-1 | Pogoro | MAGIC | uganga | u g a ŋ a
-tls-Pogoro-793_many-1 | Pogoro | MANY | -vua | v u a
-tls-Pogoro-867_shamedisgrace-1 | Pogoro | SHAME | soni | s o n i
-tls-Pogoro-879_resembleveryclosely-1 | Pogoro | RESEMBLE | lifana | l i f a n a
-tls-Kipogoro-124_skin-1 | Kipogoro | SKIN | lkuli | l k u l i
-tls-Kipogoro-19_milk-1 | Kipogoro | MILK | maweri | m a w e r i
-tls-Kipogoro-206_increasemakegreater-1 | Kipogoro | INCREASE | kongera | k o ŋ e r a
-tls-Kipogoro-23_thigh-1 | Kipogoro | THIGH | liwondu | l i w o ⁿd u
-tls-Kipogoro-37_becomebadrotten-1 | Kipogoro | ROTTEN | wola | w o l a
-tls-Kipogoro-588_shoulder-1 | Kipogoro | SHOULDER | liwega | l i w e g a
-tls-Kipogoro-679_child-1 | Kipogoro | CHILD | mwana | m w a n a
-tls-Kipogoro-713_magic-1 | Kipogoro | MAGIC | uganga | u g a ŋ a
-tls-Kipogoro-793_many-1 | Kipogoro | MANY | -vua | v u a
-tls-Kipogoro-867_shamedisgrace-1 | Kipogoro | SHAME | soni | s o n i
-tls-Kipogoro-879_resembleveryclosely-1 | Kipogoro | RESEMBLE | lipana | l i p a n a
-tls-Rukiga-129_washtakeabath-1 | Rukiga | WASH | okunaaba | o k u n aː b a
-tls-Rukiga-19_milk-1 | Rukiga | MILK | amate | a m a t e
-tls-Rukiga-425_die-1 | Rukiga | DIE | okufa | o k u f a
-tls-Rukiga-502_foam-1 | Rukiga | FOAM | eifuro | e i f u r o
-tls-Rukiga-588_shoulder-1 | Rukiga | SHOULDER | eibega | e i b e g a
-tls-Rukiga-589_sew-1 | Rukiga | SEW | okubazira | o k u b a z i r a
-tls-Rukiga-594_suckthebreast-1 | Rukiga | SUCK | okwonka | o kʷ o n k a
-tls-Rukiga-679_child-1 | Rukiga | CHILD | omwana | o m w a n a
-tls-Rukiga-732_song-1 | Rukiga | SONG | ekyeshongoro | e k j e ʃ o ŋ o r o
-tls-Rukiga-793_many-1 | Rukiga | MANY | -kanyire | k a n j i r e
-tls-Rukiga-837_snail-1 | Rukiga | SNAIL | ekinyangondokyera | e k i n j a ŋ o ⁿd o k j e r a
-tls-Rukiga-943_sweep-1 | Rukiga | SWEEP | okukondora | o k u k o ⁿd o r a
-tls-Rukiga-968_shivershudder-1 | Rukiga | SHIVER | okutetema | o k u t e t e m a
-tls-Rukiga-996_ripen-1 | Rukiga | RIPEN | okusya | o k u s j a
-tls-Rundi-19_milk-1 | Rundi | MILK | amata | a m a t a
-tls-Rundi-425_die-1 | Rundi | DIE | gupfa | g u p f a
-tls-Rundi-483_twist-1 | Rundi | TWIST | guhotora | g u h o t o r a
-tls-Rundi-52_corpse-1 | Rundi | CORPSE | umuvyimba | u m u v j i ⁿb a
-tls-Rundi-588_shoulder-1 | Rundi | SHOULDER | igitugu | i g i t u g u
-tls-Rundi-589_sew-1 | Rundi | SEW | kubarira | k u b a r i r a
-tls-Rundi-679_child-1 | Rundi | CHILD | umwana | u m w a n a
-tls-Rundi-680_districtprovincecountry-1 | Rundi | COUNTRY | intara | i n t a r a
-tls-Rundi-713_magic-1 | Rundi | MAGIC | uburozi | u b u r o z i
-tls-Rundi-732_song-1 | Rundi | SONG | ururirimbo | u r u r i r i ⁿb o
-tls-Rundi-793_many-1 | Rundi | MANY | -nshi | n ʃ i
-tls-Rundi-837_snail-1 | Rundi | SNAIL | igifwera | i g i f w e r a
-tls-Rundi-975_beleftoverremainover-1 | Rundi | REMAIN | gusigara | g u s i g a r a
-tls-Runyambo-139_bridge-1 | Runyambo | BRIDGE | orutindo | o r u t i ⁿd o
-tls-Runyambo-19_milk-1 | Runyambo | MILK | amate | a m a t e
-tls-Runyambo-425_die-1 | Runyambo | DIE | fa | f a
-tls-Runyambo-502_foam-1 | Runyambo | FOAM | ifuro | i f u r o
-tls-Runyambo-578_carry-1 | Runyambo | CARRY | kutwala | k u t w a l a
-tls-Runyambo-588_shoulder-1 | Runyambo | SHOULDER | ibega | i b e g a
-tls-Runyambo-644_roast-1 | Runyambo | ROAST (SOMETHING) | kwocha | kʷ o tʃ a
-tls-Runyambo-679_child-1 | Runyambo | CHILD | omwana | o m w a n a
-tls-Runyambo-713_magic-1 | Runyambo | MAGIC | oburogi | o b u r o g i
-tls-Runyambo-732_song-1 | Runyambo | SONG | oruhoya | o r u h o j a
-tls-Runyambo-793_many-1 | Runyambo | MANY | bingi | b i ŋ i
-tls-Runyambo-837_snail-1 | Runyambo | SNAIL | echinyira | e tʃ i n j i r a
-tls-Runyambo-867_shamedisgrace-1 | Runyambo | SHAME | ensoni | e n s o n i
-tls-Runyambo-943_sweep-1 | Runyambo | SWEEP | kwelelera | kʷ e l e l e r a
-tls-Runyambo-968_shivershudder-1 | Runyambo | SHIVER | kutetema | k u t e t e m a
-tls-Runyankore-19_milk-1 | Runyankore | MILK | amate | a m a t e
-tls-Runyankore-425_die-1 | Runyankore | DIE | kufa | k u f a
-tls-Runyankore-502_foam-1 | Runyankore | FOAM | eifuro | e i f u r o
-tls-Runyankore-52_corpse-1 | Runyankore | CORPSE | omutumbi | o m u t u ⁿb i
-tls-Runyankore-542_inside-1 | Runyankore | INSIDE | omunda | o m u ⁿd a
-tls-Runyankore-588_shoulder-1 | Runyankore | SHOULDER | eibega | e i b e g a
-tls-Runyankore-589_sew-1 | Runyankore | SEW | kubaziira | k u b a z iː r a
-tls-Runyankore-644_roast-1 | Runyankore | ROAST (SOMETHING) | kwotsya | kʷ o ts j a
-tls-Runyankore-679_child-1 | Runyankore | CHILD | omuto | o m u t o
-tls-Runyankore-713_magic-1 | Runyankore | MAGIC | oburogo | o b u r o g o
-tls-Runyankore-732_song-1 | Runyankore | SONG | ekyeshongoro | e k j e ʃ o ŋ o r o
-tls-Runyankore-793_many-1 | Runyankore | MANY | -ingi | i ŋ i
-tls-Runyankore-824_dawn-1 | Runyankore | DAWN | omushekye | o m u ʃ e k j e
-tls-Runyankore-837_snail-1 | Runyankore | SNAIL | ekinyangondokyera | e k i n j a ŋ o ⁿd o k j e r a
-tls-Runyankore-850_stir-1 | Runyankore | STIR | kushigisha | k u ʃ i g i ʃ a
-tls-Runyankore-867_shamedisgrace-1 | Runyankore | SHAME | enshoni | e n ʃ o n i
-tls-Runyankore-879_resembleveryclosely-1 | Runyankore | RESEMBLE | kushushana_na | k u ʃ u ʃ a n a + n a
-tls-Runyankore-968_shivershudder-1 | Runyankore | SHIVER | kutetema | k u t e t e m a
-tls-Runyoro-19_milk-1 | Runyoro | MILK | amata | a m a t a
-tls-Runyoro-502_foam-1 | Runyoro | FOAM | eifuro | e i f u r o
-tls-Runyoro-542_inside-1 | Runyoro | INSIDE | omunda | o m u ⁿd a
-tls-Runyoro-588_shoulder-1 | Runyoro | SHOULDER | eibega | e i b e g a
-tls-Runyoro-679_child-1 | Runyoro | CHILD | omwaana | o m w aː n a
-tls-Runyoro-793_many-1 | Runyoro | MANY | bingi | b i ŋ i
-tls-Runyoro-824_dawn-1 | Runyoro | DAWN | nyenkyakara | n j e n k j a k a r a
-tls-Runyoro-837_snail-1 | Runyoro | SNAIL | ekitindinda | e k i t i ⁿd i ⁿd a
-tls-Runyoro-850_stir-1 | Runyoro | STIR | kukoroga | k u k o r o g a
-tls-Runyoro-867_shamedisgrace-1 | Runyoro | SHAME | kuswara | k u s w a r a
-tls-Rutooro-19_milk-1 | Rutooro | MILK | amaata | a m aː t a
-tls-Rutooro-206_increasemakegreater-1 | Rutooro | INCREASE | kwongeza | kʷ o ŋ e z a
-tls-Rutooro-425_die-1 | Rutooro | DIE | kufwa | k u f w a
-tls-Rutooro-52_corpse-1 | Rutooro | CORPSE | omurambo | o m u r a ⁿb o
-tls-Rutooro-542_inside-1 | Rutooro | INSIDE | omunda | o m u ⁿd a
-tls-Rutooro-578_carry-1 | Rutooro | CARRY | himba | h i ⁿb a
-tls-Rutooro-588_shoulder-1 | Rutooro | SHOULDER | ibega | i b e g a
-tls-Rutooro-594_suckthebreast-1 | Rutooro | SUCK | kwonka | kʷ o n k a
-tls-Rutooro-679_child-1 | Rutooro | CHILD | omwana | o m w a n a
-tls-Rutooro-713_magic-1 | Rutooro | MAGIC | oburogo | o b u r o g o
-tls-Rutooro-824_dawn-1 | Rutooro | DAWN | emamba | e m a ⁿb a
-tls-Rutooro-837_snail-1 | Rutooro | SNAIL | ekitindinda | e k i t i ⁿd i ⁿd a
-tls-Rutooro-850_stir-1 | Rutooro | STIR | koroga | k o r o g a
-tls-Rutooro-867_shamedisgrace-1 | Rutooro | SHAME | ensoni | e n s o n i
-tls-Safwa-128_washclothes-1 | Safwa | WASH | ahwozye | a hʷ o z j e
-tls-Safwa-139_bridge-1 | Safwa | BRIDGE | ulalo | u l a l o
-tls-Safwa-19_milk-1 | Safwa | MILK | iziba | i z i b a
-tls-Safwa-425_die-1 | Safwa | DIE | afwe | a f w e
-tls-Safwa-502_foam-1 | Safwa | FOAM | itatafula | i t a t a f u l a
-tls-Safwa-589_sew-1 | Safwa | SEW | amame | a m a m e
-tls-Safwa-594_suckthebreast-1 | Safwa | SUCK | ahwonshe | a hʷ o n ʃ e
-tls-Safwa-644_roast-1 | Safwa | ROAST (SOMETHING) | ahwoshe | a hʷ o ʃ e
-tls-Safwa-679_child-1 | Safwa | CHILD | umwana | u m w a n a
-tls-Safwa-713_magic-1 | Safwa | MAGIC | itunga | i t u ŋ a
-tls-Safwa-732_song-1 | Safwa | SONG | ulutelo | u l u t e l o
-tls-Safwa-793_many-1 | Safwa | MANY | nyinji | n j i n j i
-tls-Safwa-867_shamedisgrace-1 | Safwa | SHAME | insoni | i n s o n i
-tls-Safwa-879_resembleveryclosely-1 | Safwa | RESEMBLE | alingane | a l i ŋ a n e
-tls-Safwa-943_sweep-1 | Safwa | SWEEP | ahwuse | a hʷ u s e
-tls-Safwa-975_beleftoverremainover-1 | Safwa | REMAIN | asagale | a s a g a l e
-tls-Sambaa-124_skin-1 | Sambaa | SKIN | kanda | k a ⁿd a
-tls-Sambaa-155a_increase-1 | Sambaa | INCREASE | kuomboka | k u o ⁿb o k a
-tls-Sambaa-19_milk-1 | Sambaa | MILK | mee | m eː
-tls-Sambaa-425_die-1 | Sambaa | DIE | kufa | k u f a
-tls-Sambaa-502_foam-1 | Sambaa | FOAM | fulo | f u l o
-tls-Sambaa-52_corpse-1 | Sambaa | CORPSE | kimba | k i ⁿb a
-tls-Sambaa-542_inside-1 | Sambaa | INSIDE | ndai | ⁿd a i
-tls-Sambaa-588_shoulder-1 | Sambaa | SHOULDER | egha | e gʱ a
-tls-Sambaa-644_roast-1 | Sambaa | ROAST (SOMETHING) | kuoka_ | k u o k a
-tls-Sambaa-713_magic-1 | Sambaa | MAGIC | ushai | u ʃ a i
-tls-Sambaa-867_shamedisgrace-1 | Sambaa | SHAME | shoni | ʃ o n i
-tls-Sambaa-879_resembleveryclosely-1 | Sambaa | RESEMBLE | kufanana | k u f a n a n a
-tls-Sambaa-975_beleftoverremainover-1 | Sambaa | REMAIN | kushighaa | k u ʃ i gʱ aː
-tls-Sambaa-996_ripen-1 | Sambaa | RIPEN | kuizwa | k u i z w a
-tls-Sangu-23_thigh-1 | Sangu | THIGH | ishima | i ʃ i m a
-tls-Sangu-483_twist-1 | Sangu | TWIST | kitava | k i t a v a
-tls-Sangu-578_carry-1 | Sangu | CARRY | kisumula | k i s u m u l a
-tls-Sangu-713_magic-1 | Sangu | MAGIC | uwuhavi | u w u h a v i
-tls-Sangu-850_stir-1 | Sangu | STIR | kikhologa | k i kʰ o l o g a
-tls-Sangu-996_ripen-1 | Sangu | RIPEN | kiyela | k i j e l a
-tls-Sangu-1033_sew-1 | Sangu | SEW | kihona | k i h o n a
-tls-Shubi-139_bridge-1 | Shubi | BRIDGE | urutindo | u r u t i ⁿd o
-tls-Shubi-502_foam-1 | Shubi | FOAM | ifuro | i f u r o
-tls-Shubi-52_corpse-1 | Shubi | CORPSE | umutumbi | u m u t u ⁿb i
-tls-Shubi-547_leavegoaway-1 | Shubi | LEAVE | kuvaho | k u v a h o
-tls-Shubi-644_roast-1 | Shubi | ROAST (SOMETHING) | gutara | g u t a r a
-tls-Shubi-680_districtprovincecountry-1 | Shubi | COUNTRY | igihugu | i g i h u g u
-tls-Shubi-713_magic-1 | Shubi | MAGIC | ubulozi | u b u l o z i
-tls-Shubi-732_song-1 | Shubi | SONG | ururirimbo | u r u r i r i ⁿb o
-tls-Shubi-793_many-1 | Shubi | MANY | vyinshi | v j i n ʃ i
-tls-Shubi-850_stir-1 | Shubi | STIR | kuvuruguta | k u v u r u g u t a
-tls-Shubi-867_shamedisgrace-1 | Shubi | SHAME | isoni | i s o n i
-tls-Shubi-879_resembleveryclosely-1 | Shubi | RESEMBLE | gususa | g u s u s a
-tls-Shubi-943_sweep-1 | Shubi | SWEEP | gukubuura | g u k u b uː r a
-tls-Shubi-975_beleftoverremainover-1 | Shubi | REMAIN | gusigara | g u s i g a r a
-tls-Shubi-996_ripen-1 | Shubi | RIPEN | gusha | g u ʃ a
-tls-Suba-139_bridge-1 | Suba | BRIDGE | edaraja | e d a r a j a
-tls-Suba-19_milk-1 | Suba | MILK | amabhere | a m a bʱ e r e
-tls-Suba-23_thigh-1 | Suba | THIGH | ikimo | i k i m o
-tls-Suba-37_becomebadrotten-1 | Suba | ROTTEN | ghunda | gʱ u ⁿd a
-tls-Suba-425_die-1 | Suba | DIE | ukukwa | u k u kʷ a
-tls-Suba-502_foam-1 | Suba | FOAM | rihuro | r i h u r o
-tls-Suba-578_carry-1 | Suba | CARRY | -ghegha | gʱ e gʱ a
-tls-Suba-588_shoulder-1 | Suba | SHOULDER | rereko | r e r e k o
-tls-Suba-594_suckthebreast-1 | Suba | SUCK | -ghonka | gʱ o n k a
-tls-Suba-644_roast-1 | Suba | ROAST (SOMETHING) | -samba | s a ⁿb a
-tls-Suba-679_child-1 | Suba | CHILD | omona | o m o n a
-tls-Suba-713_magic-1 | Suba | MAGIC | ubhuturutumbi | u bʱ u t u r u t u ⁿb i
-tls-Suba-732_song-1 | Suba | SONG | omobharo | o m o bʱ a r o
-tls-Suba-793_many-1 | Suba | MANY | -aru | a r u
-tls-Suba-824_dawn-1 | Suba | DAWN | momakera | m o m a k e r a
-tls-Suba-850_stir-1 | Suba | STIR | -hetya | h e t j a
-tls-Suba-867_shamedisgrace-1 | Suba | SHAME | sensoni | s e n s o n i
-tls-Sumbwa-23_thigh-1 | Sumbwa | THIGH | sibelo | s i b e l o
-tls-Sumbwa-594_suckthebreast-1 | Sumbwa | SUCK | -onka | o n k a
-tls-Sumbwa-644_roast-1 | Sumbwa | ROAST (SOMETHING) | -banika | b a n i k a
-tls-Sumbwa-679_child-1 | Sumbwa | CHILD | mwana | m w a n a
-tls-Sumbwa-680_districtprovincecountry-1 | Sumbwa | COUNTRY | nsi | n s i
-tls-Sumbwa-713_magic-1 | Sumbwa | MAGIC | bulozi | b u l o z i
-tls-Sumbwa-732_song-1 | Sumbwa | SONG | lwimbo | l w i ⁿb o
-tls-Sumbwa-837_snail-1 | Sumbwa | SNAIL | lifwelo | l i f w e l o
-tls-Sumbwa-867_shamedisgrace-1 | Sumbwa | SHAME | nsoni | n s o n i
-tls-Sumbwa-943_sweep-1 | Sumbwa | SWEEP | -hyagila | h j a g i l a
-tls-Sumbwa-968_shivershudder-1 | Sumbwa | SHIVER | -zuguma | z u g u m a
-tls-Sumbwa-996_ripen-1 | Sumbwa | RIPEN | -hya | h j a
-tls-Sumbwa-1001_corpse-1 | Sumbwa | CORPSE | mutumbi | m u t u ⁿb i
-tls-Sumbwa-1019_many-1 | Sumbwa | MANY | ingi | i ŋ i
-tls-Sumbwa-1027_die-1 | Sumbwa | DIE | -fwa | f w a
-tls-Sumbwa-1030_milk-1 | Sumbwa | MILK | mabele | m a b e l e
-tls-Sumbwa-1033_sew-1 | Sumbwa | SEW | -sona | s o n a
-tls-Sumbwa-1035_remainstay-1 | Sumbwa | REMAIN | -ikala | i k a l a
-tls-Tharaka-206_increasemakegreater-1 | Tharaka | INCREASE | ongeera | o ŋ eː r a
-tls-Tharaka-578_carry-1 | Tharaka | CARRY | gukamata | g u k a m a t a
-tls-Tharaka-594_suckthebreast-1 | Tharaka | SUCK | gwonka | g w o n k a
-tls-Tharaka-644_roast-1 | Tharaka | ROAST (SOMETHING) | gwokia | g w o k i a
-tls-Tharaka-679_child-1 | Tharaka | CHILD | kaana | k aː n a
-tls-Tharaka-867_shamedisgrace-1 | Tharaka | SHAME | nthoni | n tʰ o n i
-tls-Tharaka-1019_many-1 | Tharaka | MANY | inyingi | i n j i ŋ i
-tls-Tharaka-1027_die-1 | Tharaka | DIE | gukua | g u k u a
-tls-Tharaka-1030_milk-1 | Tharaka | MILK | iria | i r i a
-tls-Tharaka-1033_sew-1 | Tharaka | SEW | gutuma | g u t u m a
-tls-Tharaka-1035_remainstay-1 | Tharaka | REMAIN | gutigara | g u t i g a r a
-tls-Vunjo-206_increasemakegreater-1 | Vunjo | INCREASE | ionger*a | i o ŋ e r a
-tls-Vunjo-425_die-1 | Vunjo | DIE | ipfa | i p f a
-tls-Vunjo-502_foam-1 | Vunjo | FOAM | wia | w i a
-tls-Vunjo-52_corpse-1 | Vunjo | CORPSE | mnying'a | m n j i ŋˀ a
-tls-Vunjo-578_carry-1 | Vunjo | CARRY | ir^uo | i r u o
-tls-Vunjo-588_shoulder-1 | Vunjo | SHOULDER | kombe | k o ⁿb e
-tls-Vunjo-589_sew-1 | Vunjo | SEW | ipfuma | i p f u m a
-tls-Vunjo-594_suckthebreast-1 | Vunjo | SUCK | ionga | i o ŋ a
-tls-Vunjo-679_child-1 | Vunjo | CHILD | mana | m a n a
-tls-Vunjo-713_magic-1 | Vunjo | MAGIC | usawi | u s a w i
-tls-Vunjo-793_many-1 | Vunjo | MANY | shifoi | ʃ i f o i
-tls-Vunjo-837_snail-1 | Vunjo | SNAIL | ikorwi | i k o r w i
-tls-Vunjo-867_shamedisgrace-1 | Vunjo | SHAME | sonu | s o n u
-tls-Vunjo-879_resembleveryclosely-1 | Vunjo | RESEMBLE | ihiana | i h i a n a
-tls-Vunjo-968_shivershudder-1 | Vunjo | SHIVER | ir^er^ema | i r e r e m a
-tls-Vunjo-996_ripen-1 | Vunjo | RIPEN | iwir*a | i w i r a
-tls-Wanda-19_milk-1 | Wanda | MILK | ziwa | z i w a
-tls-Wanda-502_foam-1 | Wanda | FOAM | tatafulu | t a t a f u l u
-tls-Wanda-52_corpse-1 | Wanda | CORPSE | chala | tʃ a l a
-tls-Wanda-542_inside-1 | Wanda | INSIDE | mukasi | m u k a s i
-tls-Wanda-588_shoulder-1 | Wanda | SHOULDER | chiweya | tʃ i w e j a
-tls-Wanda-679_child-1 | Wanda | CHILD | mwana | m w a n a
-tls-Wanda-713_magic-1 | Wanda | MAGIC | wulozi | w u l o z i
-tls-Wanda-732_song-1 | Wanda | SONG | lwimbo | l w i ⁿb o
-tls-Wanda-793_many-1 | Wanda | MANY | -vule | v u l e
-tls-Wanda-837_snail-1 | Wanda | SNAIL | nkozo | n k o z o
-tls-Wanda-879_resembleveryclosely-1 | Wanda | RESEMBLE | kolana | k o l a n a
-tls-Wanji-23_thigh-1 | Wanji | THIGH | kyima | k j i m a
-tls-Wanji-128_washclothes-1 | Wanji | WASH | suka | s u k a
-tls-Wanji-594_suckthebreast-1 | Wanji | SUCK | kwong'ha | kʷ o ŋˀ h a
-tls-Wanji-644_roast-1 | Wanji | ROAST (SOMETHING) | nyanya | n j a n j a
-tls-Wanji-679_child-1 | Wanji | CHILD | mwana | m w a n a
-tls-Wanji-1001_corpse-1 | Wanji | CORPSE | mfimba | m f i ⁿb a
-tls-Wanji-1019_many-1 | Wanji | MANY | -inga | i ŋ a
-tls-Wanji-1032_foam-1 | Wanji | FOAM | litotofula | l i t o t o f u l a
-tls-Wanji-1035_remainstay-1 | Wanji | REMAIN | kusighala | k u s i gʱ a l a
-tls-Zanaki-19_milk-1 | Zanaki | MILK | amabere | a m a b e r e
-tls-Zanaki-206_increasemakegreater-1 | Zanaki | INCREASE | yongera | j o ŋ e r a
-tls-Zanaki-425_die-1 | Zanaki | DIE | okukwa | o k u kʷ a
-tls-Zanaki-502_foam-1 | Zanaki | FOAM | erihuro | e r i h u r o
-tls-Zanaki-578_carry-1 | Zanaki | CARRY | gega | g e g a
-tls-Zanaki-594_suckthebreast-1 | Zanaki | SUCK | koka | k o k a
-tls-Zanaki-644_roast-1 | Zanaki | ROAST (SOMETHING) | yokya | j o k j a
-tls-Zanaki-679_child-1 | Zanaki | CHILD | omwana | o m w a n a
-tls-Zanaki-713_magic-1 | Zanaki | MAGIC | oburogo | o b u r o g o
-tls-Zanaki-732_song-1 | Zanaki | SONG | orwembo | o r w e ⁿb o
-tls-Zanaki-793_many-1 | Zanaki | MANY | nzaru | n z a r u
-tls-Zanaki-837_snail-1 | Zanaki | SNAIL | erikoru | e r i k o r u
-tls-Zanaki-867_shamedisgrace-1 | Zanaki | SHAME | soni | s o n i
-tls-Zanaki-975_beleftoverremainover-1 | Zanaki | REMAIN | saga | s a g a
-tls-Zaramo-19_milk-1 | Zaramo | MILK | matombo | m a t o ⁿb o
-tls-Zaramo-23_thigh-1 | Zaramo | THIGH | kihili | k i h i l i
-tls-Zaramo-425_die-1 | Zaramo | DIE | ku-fa | k u + f a
-tls-Zaramo-502_foam-1 | Zaramo | FOAM | hovu | h o v u
-tls-Zaramo-589_sew-1 | Zaramo | SEW | ku-shona | k u + ʃ o n a
-tls-Zaramo-679_child-1 | Zaramo | CHILD | mwana | m w a n a
-tls-Zaramo-732_song-1 | Zaramo | SONG | wimbo | w i ⁿb o
-tls-Zaramo-824_dawn-1 | Zaramo | DAWN | ku-cha | k u + tʃ a
-tls-Zaramo-867_shamedisgrace-1 | Zaramo | SHAME | kinyala | k i n j a l a
 tls-Zigua-19_milk-1 | Zigua | MILK | mele | m e l e
 tls-Zigua-425_die-1 | Zigua | DIE | ku-banika | k u + b a n i k a
 tls-Zigua-502_foam-1 | Zigua | FOAM | povu | p o v u
@@ -6216,13 +6250,6 @@ tls-Zigua-867_shamedisgrace-1 | Zigua | SHAME | soni | s o n i
 tls-Zigua-879_resembleveryclosely-1 | Zigua | RESEMBLE | ku-fanana | k u + f a n a n a
 tls-Zigua-943_sweep-1 | Zigua | SWEEP | ku-hagila | k u + h a g i l a
 tls-Zigua-975_beleftoverremainover-1 | Zigua | REMAIN | ku-baki | k u + b a k i
-tls-Zinza-19_milk-1 | Zinza | MILK | amate | a m a t e
-tls-Zinza-578_carry-1 | Zinza | CARRY | kusutura | k u s u t u r a
-tls-Zinza-679_child-1 | Zinza | CHILD | omwana | o m w a n a
-tls-Zinza-867_shamedisgrace-1 | Zinza | SHAME | ensoni | e n s o n i
-tls-Zinza-879_resembleveryclosely-1 | Zinza | RESEMBLE | kususana | k u s u s a n a
-tls-Zinza-975_beleftoverremainover-1 | Zinza | REMAIN | kusigara | k u s i g a r a
-tls-Zinza-996_ripen-1 | Zinza | RIPEN | kusha | k u ʃ a
 transnewguineaorg-aeka-2_ashes-3 | Aeka | ASH | aβiga | a β i g a
 transnewguineaorg-aeka-4_belly-2 | Aeka | BELLY | oti | o t i
 transnewguineaorg-aeka-6_bird-2 | Aeka | BIRD | di | d i
@@ -7003,6 +7030,8 @@ transnewguineaorg-berinomo-89_tongue-2 | Berinomo | TONGUE | tor | t o r
 transnewguineaorg-berinomo-38_louse-2 | Berinomo | LOUSE | tu_nɛm | t u + n ɛ m
 transnewguineaorg-berinomo-51_one-2 | Berinomo | ONE | tɛpa | t ɛ p a
 transnewguineaorg-berinomo-903_afternoon-2 | Berinomo | AFTERNOON | hɛtiyo | h ɛ t i j o
+transnewguineaorg-bimin-akalu-25_full-2 | Bimin (Akalu Dialect) | FULL | wene | w e n e
+transnewguineaorg-bimin-akalu-54_roadpath-2 | Bimin (Akalu Dialect) | PATH OR ROAD | deiw | d e i w
 transnewguineaorg-biritai-47_new-2 | Biritai | NEW | hidoaɣɛ | h i d o a ɣ ɛ
 transnewguineaorg-biwat-267_knife-2 | Biwat | KNIFE | pein | p e i n
 transnewguineaorg-biwat-17_earthsoil-2 | Biwat | EARTH (SOIL) | manjike | m a n j i k e
@@ -7370,6 +7399,31 @@ transnewguineaorg-duna-58_seed-2 | Duna | SEED | eke | e k e
 transnewguineaorg-duna-9_bone-3 | Duna | BONE | kuni | k u n i
 transnewguineaorg-duvle-47_new-2 | Duvle | NEW | æɾi | æ ɾ i
 transnewguineaorg-edopi-47_new-2 | Edopi | NEW | to-be | t o + b e
+transnewguineaorg-elseng-6_bird-2 | Elseng | BIRD | bisjas | b i s j a s
+transnewguineaorg-elseng-8_blood-2 | Elseng | BLOOD | wətwən | w ə t w ə n
+transnewguineaorg-elseng-9_bone-2 | Elseng | BONE | ok | o k
+transnewguineaorg-elseng-71_tocome-2 | Elseng | COME | laf | l a f
+transnewguineaorg-elseng-14_dog-2 | Elseng | DOG | wəs | w ə s
+transnewguineaorg-elseng-74_toeat-2 | Elseng | EAT | to | t o
+transnewguineaorg-elseng-18_egg-2 | Elseng | EGG | suŋun | s u ŋ u n
+transnewguineaorg-elseng-19_eye-2 | Elseng | EYE | naf | n a f
+transnewguineaorg-elseng-76_togive-2 | Elseng | GIVE | bənaŋ- | b ə n a ŋ
+transnewguineaorg-elseng-26_good-2 | Elseng | GOOD | amsan | a m s a n
+transnewguineaorg-elseng-1233_hairbody-2 | Elseng | HAIR (BODY) | nimbias | n i m b i a s
+transnewguineaorg-elseng-30_head-2 | Elseng | HEAD | walambiap | w a l a m b i a p
+transnewguineaorg-elseng-33_ipronound1s-2 | Elseng | I | ka | k a
+transnewguineaorg-elseng-38_louse-2 | Elseng | LOUSE | ku | k u
+transnewguineaorg-elseng-253_fingernail-2 | Elseng | FINGERNAIL | fan | f a n
+transnewguineaorg-elseng-48_night-2 | Elseng | NIGHT | jaŋga | j a ŋ g a
+transnewguineaorg-elseng-83_tosee-2 | Elseng | SEE | naf_õni | n a f + õ n i
+transnewguineaorg-elseng-84_tosit-2 | Elseng | SIT | sã | s ã
+transnewguineaorg-elseng-85_tosleep-2 | Elseng | SLEEP | sis | s i s
+transnewguineaorg-elseng-63_stone-2 | Elseng | STONE | səpat | s ə p a t
+transnewguineaorg-elseng-64_sun-2 | Elseng | SUN | ninaf | n i n a f
+transnewguineaorg-elseng-90_toothfrontratherthanmolar-2 | Elseng | TOOTH | an | a n
+transnewguineaorg-elseng-91_tree-2 | Elseng | TREE | sək | s ə k
+transnewguineaorg-elseng-1907_wepronound1p-2 | Elseng | WE | kam | k a m
+transnewguineaorg-elseng-275_pig-2 | Elseng | PIG | wo | w o
 transnewguineaorg-enga-1233_hairbody-3 | Enga | HAIR (BODY) | ítí | i t i
 transnewguineaorg-enga-232_boy-1 | Enga | BOY | wané | w a n e
 transnewguineaorg-enga-2502_thatdistant-3 | Enga | THAT | dòko | d o k o
@@ -7502,6 +7556,31 @@ transnewguineaorg-fembe-16_ear-2 | Fembe | EAR | du | d u
 transnewguineaorg-fembe-10_breast-2 | Fembe | BREAST | bu | b u
 transnewguineaorg-fore-326_yesterday-2 | Fore | YESTERDAY | a'i | a i
 transnewguineaorg-fuyug-51_one-2 | Fuyug | ONE | fida | f i d a
+transnewguineaorg-fuyug-kambisa-2011_arm-2 | Fuyug (Kambisa Dialect) | ARM | ia | i a
+transnewguineaorg-fuyug-kambisa-4_belly-2 | Fuyug (Kambisa Dialect) | BELLY | hombo | h o m b o
+transnewguineaorg-fuyug-kambisa-6_bird-2 | Fuyug (Kambisa Dialect) | BIRD | neba | n e b a
+transnewguineaorg-fuyug-kambisa-2499_childm-2 | Fuyug (Kambisa Dialect) | BOY | isa | i s a
+transnewguineaorg-fuyug-kambisa-1597_club-2 | Fuyug (Kambisa Dialect) | CLUB | hadufa | h a d u f a
+transnewguineaorg-fuyug-kambisa-16_ear-2 | Fuyug (Kambisa Dialect) | EAR | gadoro | g a d o r o
+transnewguineaorg-fuyug-kambisa-19_eye-2 | Fuyug (Kambisa Dialect) | EYE | i | i
+transnewguineaorg-fuyug-kambisa-22_fire-2 | Fuyug (Kambisa Dialect) | FIRE | uki | u k i
+transnewguineaorg-fuyug-kambisa-2016_foot-2 | Fuyug (Kambisa Dialect) | FOOT | suga | s u g a
+transnewguineaorg-fuyug-kambisa-1233_hairbody-2 | Fuyug (Kambisa Dialect) | HAIR (BODY) | ha | h a
+transnewguineaorg-fuyug-kambisa-264_house-2 | Fuyug (Kambisa Dialect) | HOUSE | e | e
+transnewguineaorg-fuyug-kambisa-267_knife-2 | Fuyug (Kambisa Dialect) | KNIFE | indi | i ⁿd i
+transnewguineaorg-fuyug-kambisa-35_leaf-2 | Fuyug (Kambisa Dialect) | LEAF | idu | i d u
+transnewguineaorg-fuyug-kambisa-791_thigh-2 | Fuyug (Kambisa Dialect) | THIGH | muda | m u d a
+transnewguineaorg-fuyug-kambisa-913_lips-2 | Fuyug (Kambisa Dialect) | LIP | uba | u b a
+transnewguineaorg-fuyug-kambisa-42_moon-2 | Fuyug (Kambisa Dialect) | MOON | hama | h a m a
+transnewguineaorg-fuyug-kambisa-806_navel-2 | Fuyug (Kambisa Dialect) | NAVEL | kumburu | k u m b u r u
+transnewguineaorg-fuyug-kambisa-49_nose-2 | Fuyug (Kambisa Dialect) | NOSE | unga | u n g a
+transnewguineaorg-fuyug-kambisa-63_stone-2 | Fuyug (Kambisa Dialect) | STONE | io | i o
+transnewguineaorg-fuyug-kambisa-1760_sugarcane-2 | Fuyug (Kambisa Dialect) | SUGAR CANE | teba | t e b a
+transnewguineaorg-fuyug-kambisa-824_taro-2 | Fuyug (Kambisa Dialect) | TARO | munda | m u ⁿd a
+transnewguineaorg-fuyug-kambisa-89_tongue-2 | Fuyug (Kambisa Dialect) | TONGUE | asisino | a s i s i n o
+transnewguineaorg-fuyug-kambisa-90_toothfrontratherthanmolar-2 | Fuyug (Kambisa Dialect) | TOOTH | usi | u s i
+transnewguineaorg-fuyug-kambisa-325_village-2 | Fuyug (Kambisa Dialect) | VILLAGE | haru | h a r u
+transnewguineaorg-fuyug-kambisa-94_water-2 | Fuyug (Kambisa Dialect) | WATER | iu | i u
 transnewguineaorg-fuyug-mafulu-4_belly-2 | Fuyug (Mafulu Dialect) | BELLY | ombo | o m b o
 transnewguineaorg-fuyug-mafulu-6_bird-2 | Fuyug (Mafulu Dialect) | BIRD | nembe | n e m b e
 transnewguineaorg-fuyug-mafulu-1597_club-2 | Fuyug (Mafulu Dialect) | CLUB | gilise | g i l i s e
@@ -7683,6 +7762,17 @@ transnewguineaorg-gobasi-bibo-74_toeat-2 | Gobasi (Bibo Dialect) | EAT | na | n 
 transnewguineaorg-gobasi-bibo-45_name-2 | Gobasi (Bibo Dialect) | NAME | hũ | h ũ
 transnewguineaorg-gobasi-bibo-22_fire-4 | Gobasi (Bibo Dialect) | FIRE | dau | d a u
 transnewguineaorg-gobasi-bibo-2011_arm-2 | Gobasi (Bibo Dialect) | ARM | dob | d o b
+transnewguineaorg-gogodala-44_mouth-2 | Gogodala | MOUTH | magata | m a g a t a
+transnewguineaorg-gogodala-35_leaf-2 | Gogodala | LEAF | ibagi | i b a g i
+transnewguineaorg-gogodala-59_skin-2 | Gogodala | SKIN | kaka | k a k a
+transnewguineaorg-gogodala-22_fire-2 | Gogodala | FIRE | ila | i l a
+transnewguineaorg-gogodala-74_toeat-2 | Gogodala | EAT | na | n a
+transnewguineaorg-gogodala-1907_wepronound1p-2 | Gogodala | WE | sɛ | s ɛ
+transnewguineaorg-gogodala-2083_youplpronouno2p-2 | Gogodala | YOU (OBLIQUE CASE OF YOU) | dɛ | d ɛ
+transnewguineaorg-gogodala-33_ipronound1s-2 | Gogodala | I | nɛ | n ɛ
+transnewguineaorg-gogodala-22_fire-3 | Gogodala | FIRE | ila | i l a
+transnewguineaorg-gogodala-2082_youpronouno2s-2 | Gogodala | THEE (OBLIQUE CASE OF YOU) | ɛ | ɛ
+transnewguineaorg-gogodala-54_roadpath-2 | Gogodala | PATH OR ROAD | nabidi | n a b i d i
 transnewguineaorg-gumalu-65_tail-2 | Gumalu | TAIL | pitiu | p i t i u
 transnewguineaorg-gumalu-108_toblowwind-2 | Gumalu | BLOW (OF WIND) | fute | f u t e
 zgraggenmadang-gumalu-106_tailofdog-2 | gumalu | TAIL | pitiu | p i t i u
@@ -7809,6 +7899,37 @@ transnewguineaorg-kaure-38_louse-3 | Kaure | LOUSE | mi | m i
 transnewguineaorg-kaure-275_pig-2 | Kaure | PIG | pi | p i
 transnewguineaorg-kaure-37_long-2 | Kaure | LONG | hewa | h e w a
 transnewguineaorg-kaure-47_new-3 | Kaure | NEW | haɾia | h a ɾ i a
+transnewguineaorg-kayagar-2_ashes-2 | Kayagar | ASH | ererep | e r e r e p
+transnewguineaorg-kayagar-6_bird-2 | Kayagar | BIRD | səpam | s ə p a m
+transnewguineaorg-kayagar-8_blood-2 | Kayagar | BLOOD | jes | j e s
+transnewguineaorg-kayagar-74_toeat-2 | Kayagar | EAT | xapri | x a p r i
+transnewguineaorg-kayagar-18_egg-2 | Kayagar | EGG | mapiaxam | m a p i a x a m
+transnewguineaorg-kayagar-19_eye-2 | Kayagar | EYE | saxam | s a x a m
+transnewguineaorg-kayagar-22_fire-2 | Kayagar | FIRE | aru | a r u
+transnewguineaorg-kayagar-76_togive-2 | Kayagar | GIVE | xarəpe- | x a r ə p e
+transnewguineaorg-kayagar-26_good-2 | Kayagar | GOOD | naimap | n a i m a p
+transnewguineaorg-kayagar-1233_hairbody-2 | Kayagar | HAIR (BODY) | owpm | o w p m
+transnewguineaorg-kayagar-30_head-2 | Kayagar | HEAD | toxom | t o x o m
+transnewguineaorg-kayagar-33_ipronound1s-2 | Kayagar | I | nax | n a x
+transnewguineaorg-kayagar-38_louse-2 | Kayagar | LOUSE | so:m | s oː m
+transnewguineaorg-kayagar-39_man-2 | Kayagar | MAN | jo | j o
+transnewguineaorg-kayagar-253_fingernail-2 | Kayagar | FINGERNAIL | jep-wop | j e p + w o p
+transnewguineaorg-kayagar-48_night-2 | Kayagar | NIGHT | esi | e s i
+transnewguineaorg-kayagar-51_one-2 | Kayagar | ONE | paxamu | p a x a m u
+transnewguineaorg-kayagar-83_tosee-2 | Kayagar | SEE | saxape | s a x a p e
+transnewguineaorg-kayagar-84_tosit-2 | Kayagar | SIT | tei- | t e i
+transnewguineaorg-kayagar-59_skin-2 | Kayagar | SKIN | pip | p i p
+transnewguineaorg-kayagar-63_stone-2 | Kayagar | STONE | kakup | k a k u p
+transnewguineaorg-kayagar-64_sun-2 | Kayagar | SUN | taam | t aː m
+transnewguineaorg-kayagar-65_tail-2 | Kayagar | TAIL | kafie | k a f i e
+transnewguineaorg-kayagar-68_thou-2 | Kayagar | THOU | ax | a x
+transnewguineaorg-kayagar-90_toothfrontratherthanmolar-2 | Kayagar | TOOTH | oxom | o x o m
+transnewguineaorg-kayagar-91_tree-2 | Kayagar | TREE | wom | w o m
+transnewguineaorg-kayagar-92_two-2 | Kayagar | TWO | tosigi | t o s i g i
+transnewguineaorg-kayagar-94_water-2 | Kayagar | WATER | oxom | o x o m
+transnewguineaorg-kayagar-1907_wepronound1p-2 | Kayagar | WE | nep | n e p
+transnewguineaorg-kayagar-2083_youplpronouno2p-2 | Kayagar | YOU (OBLIQUE CASE OF YOU) | axan | a x a n
+transnewguineaorg-kayagar-275_pig-2 | Kayagar | PIG | wakum | w a k u m
 transnewguineaorg-kein-65_tail-2 | Kein | TAIL | bitotow | b i t o t o w
 transnewguineaorg-kein-86_tostand-2 | Kein | STAND | asɛ- | a s ɛ
 transnewguineaorg-kein-108_toblowwind-2 | Kein | BLOW (OF WIND) | pu | p u
@@ -7979,6 +8100,7 @@ transnewguineaorg-korafe-199_wife-3 | Yegha (Korafe Dialect) | WIFE | 'aro | a r
 transnewguineaorg-korafe-199_wife-4 | Yegha (Korafe Dialect) | WIFE | 'aro | a r o
 transnewguineaorg-korafe-200_wind-2 | Yegha (Korafe Dialect) | WIND | bu'bura | b u b u r a
 transnewguineaorg-korafe-99_woman-3 | Yegha (Korafe Dialect) | WOMAN | e'βetu | e β e t u
+transnewguineaorg-rabade-39_man-2 | Korafe (Rabade Dialect) | MAN | embo | e m b o
 transnewguineaorg-yega-1602_cousin-2 | Yegha (Yega Dialect) | COUSIN | simbo | s i m b o
 transnewguineaorg-yega-256_girl-2 | Yegha (Yega Dialect) | GIRL | gagara_ | g a g a r a
 transnewguineaorg-korak-949_yourpronounp2s-3 | Korak | YOUR (SINGULAR) | ni- | n i
@@ -8163,6 +8285,38 @@ zgraggenmadang-malas-296_be-3 | malas | BE | iŋg- | i ŋ g
 zgraggenmadang-malas-3_oldofhumans-2 | malas | OLD (AGED) | kuken | k u k e n
 transnewguineaorg-male-65_tail-2 | Male | TAIL | magi | m a g i
 zgraggenmadang-male-106_tailofdog-2 | male | TAIL | magi | m a g i
+transnewguineaorg-manem-2_ashes-2 | Manem | ASH | wusmuf | w u s m u f
+transnewguineaorg-manem-8_blood-2 | Manem | BLOOD | psoŋko | p s o ŋ k o
+transnewguineaorg-manem-71_tocome-2 | Manem | COME | jepuŋ | j e p u ŋ
+transnewguineaorg-manem-74_toeat-2 | Manem | EAT | na | n a
+transnewguineaorg-manem-19_eye-2 | Manem | EYE | nof | n o f
+transnewguineaorg-manem-22_fire-2 | Manem | FIRE | saw | s a w
+transnewguineaorg-manem-76_togive-2 | Manem | GIVE | ja | j a
+transnewguineaorg-manem-26_good-2 | Manem | GOOD | entow_ente | e n t o w + e n t e
+transnewguineaorg-manem-1233_hairbody-2 | Manem | HAIR (BODY) | ta | t a
+transnewguineaorg-manem-30_head-2 | Manem | HEAD | bagar | b a g a r
+transnewguineaorg-manem-33_ipronound1s-2 | Manem | I | ga | g a
+transnewguineaorg-manem-48_night-2 | Manem | NIGHT | süomp | s u o m p
+transnewguineaorg-manem-84_tosit-2 | Manem | SIT | ogokon | o g o k o n
+transnewguineaorg-manem-85_tosleep-2 | Manem | SLEEP | nof_skea | n o f + s k e a
+transnewguineaorg-manem-63_stone-2 | Manem | STONE | suk | s u k
+transnewguineaorg-manem-64_sun-2 | Manem | SUN | usam | u s a m
+transnewguineaorg-manem-68_thou-2 | Manem | THOU | sa | s a
+transnewguineaorg-manem-90_toothfrontratherthanmolar-2 | Manem | TOOTH | so | s o
+transnewguineaorg-manem-91_tree-2 | Manem | TREE | ti | t i
+transnewguineaorg-manem-92_two-2 | Manem | TWO | sampaŋ | s a m p a ŋ
+transnewguineaorg-manem-51_one-2 | Manem | ONE | gueno | g u e n o
+transnewguineaorg-manem-94_water-2 | Manem | WATER | pu | p u
+transnewguineaorg-manem-1907_wepronound1p-2 | Manem | WE | kiŋ_ta | k i ŋ + t a
+transnewguineaorg-manem-2083_youplpronouno2p-2 | Manem | YOU (OBLIQUE CASE OF YOU) | kirsa | k i r s a
+transnewguineaorg-manem-39_man-3 | Manem | MAN | knigir | k n i g i r
+transnewguineaorg-manem-18_egg-3 | Manem | EGG | suir | s u i r
+transnewguineaorg-manem-9_bone-3 | Manem | BONE | kaŋ | k a ŋ
+transnewguineaorg-manem-9_bone-4 | Manem | BONE | kar | k a r
+transnewguineaorg-manem-275_pig-3 | Manem | PIG | aŋ | a ŋ
+transnewguineaorg-manem-275_pig-4 | Manem | PIG | ar | a r
+transnewguineaorg-manem-59_skin-3 | Manem | SKIN | tofro | t o f r o
+transnewguineaorg-manem-83_tosee-2 | Manem | SEE | naŋk | n a ŋ k
 transnewguineaorg-maria-maiagolo-2503_theredistant-1 | Maria (Maiagolo Dialect) | THERE | -ro | r o
 transnewguineaorg-maria-maranomu-2503_theredistant-1 | Maria (Maranomu Dialect) | THERE | -du | d u
 transnewguineaorg-maria-maranomu-2503_theredistant-2 | Maria (Maranomu Dialect) | THERE | -ro | r o
@@ -8190,6 +8344,22 @@ transnewguineaorg-mesem-94_water-2 | Mesem | WATER | tu | t u
 transnewguineaorg-mesem-2083_youplpronouno2p-2 | Mesem | YOU (OBLIQUE CASE OF YOU) | li | l i
 transnewguineaorg-mesem-1994_rain-2 | Mesem | RAINING OR RAIN | ma | m a
 transnewguineaorg-mesem-70_toburnintrans-2 | Mesem | BURN | dzi | d z i
+transnewguineaorg-mian-263_hole-2 | Mian | HOLE | tem | t e m
+transnewguineaorg-mian-1994_rain-2 | Mian | RAINING OR RAIN | sók | s o k
+transnewguineaorg-mian-19_eye-2 | Mian | EYE | kin | k i n
+transnewguineaorg-mian-1282_urine-2 | Mian | URINE | imǎn | i m a n
+transnewguineaorg-mian-93_warmhot-2 | Mian | HOT OR WARM | mimin | m i m i n
+transnewguineaorg-mian-1207_cockroach-2 | Mian | COCKROACH | tanam | t a n a m
+transnewguineaorg-mian-241_cucumber-2 | Mian | CUCUMBER | kimit | k i m i t
+transnewguineaorg-mian-187_thin-2 | Mian | THIN (SLIM) | liŋlaŋ | l i ŋ l a ŋ
+transnewguineaorg-mian-1282_urine-3 | Mian | URINE | imǎn | i m a n
+transnewguineaorg-mian-962_vein-2 | Mian | VEIN | mamel | m a m e l
+transnewguineaorg-mian-93_warmhot-3 | Mian | HOT OR WARM | mimin | m i m i n
+transnewguineaorg-mian-1286_wasp-2 | Mian | WASP | ǐm | i m
+transnewguineaorg-mian-2499_childm-2 | Mian | BOY | mǐn | m i n
+transnewguineaorg-mian-280_sister-2 | Mian | SISTER | bǎab | b a a b
+transnewguineaorg-mian-996_uncle-2 | Mian | UNCLE | maameín | m aː m e i n
+transnewguineaorg-mian-1985_youngerbrother-2 | Mian | YOUNGER BROTHER | niŋ | n i ŋ
 transnewguineaorg-migabac-49_nose-2 | Migabac | NOSE | sogo | s o g o
 transnewguineaorg-migabac-46_neck-2 | Migabac | NECK | ube | u b e
 transnewguineaorg-migabac-6_bird-2 | Migabac | BIRD | naŋo | n a ŋ o
@@ -8206,6 +8376,37 @@ zgraggenmadang-migum-299_stand-2 | migum | STAND | padʌŋ | p a d ʌ ŋ
 zgraggenmadang-migum-321_talktotr-2 | migum | SPEAK | ko- | k o
 transnewguineaorg-moere-249_tofill-2 | Moere | FILL | un- | u n
 zgraggenmadang-moere-347_fillupwater-2 | moere | FILL | un- | u n
+transnewguineaorg-molof-2_ashes-2 | Molof | ASH | toŋkomo | t o ŋ k o m o
+transnewguineaorg-molof-6_bird-2 | Molof | BIRD | au | a u
+transnewguineaorg-molof-8_blood-2 | Molof | BLOOD | mat | m a t
+transnewguineaorg-molof-9_bone-2 | Molof | BONE | antai | a n t a i
+transnewguineaorg-molof-71_tocome-2 | Molof | COME | nembislai | n e m b i s l a i
+transnewguineaorg-molof-74_toeat-2 | Molof | EAT | ne | n e
+transnewguineaorg-molof-18_egg-2 | Molof | EGG | le | l e
+transnewguineaorg-molof-19_eye-2 | Molof | EYE | lom | l o m
+transnewguineaorg-molof-22_fire-2 | Molof | FIRE | tombe | t o m b e
+transnewguineaorg-molof-76_togive-2 | Molof | GIVE | tua | t u a
+transnewguineaorg-molof-26_good-2 | Molof | GOOD | talie | t a l i e
+transnewguineaorg-molof-1233_hairbody-2 | Molof | HAIR (BODY) | ela | e l a
+transnewguineaorg-molof-30_head-2 | Molof | HEAD | emi | e m i
+transnewguineaorg-molof-38_louse-2 | Molof | LOUSE | lem | l e m
+transnewguineaorg-molof-39_man-2 | Molof | MAN | lomo | l o m o
+transnewguineaorg-molof-45_name-2 | Molof | NAME | ti | t i
+transnewguineaorg-molof-48_night-2 | Molof | NIGHT | wosoli | w o s o l i
+transnewguineaorg-molof-83_tosee-2 | Molof | SEE | lukia | l u k i a
+transnewguineaorg-molof-84_tosit-2 | Molof | SIT | aiterkai | a i t e r k a i
+transnewguineaorg-molof-59_skin-2 | Molof | SKIN | kant | k a n t
+transnewguineaorg-molof-85_tosleep-2 | Molof | SLEEP | ur | u r
+transnewguineaorg-molof-63_stone-2 | Molof | STONE | le | l e
+transnewguineaorg-molof-64_sun-2 | Molof | SUN | nei | n e i
+transnewguineaorg-molof-65_tail-2 | Molof | TAIL | sok | s o k
+transnewguineaorg-molof-68_thou-2 | Molof | THOU | ni | n i
+transnewguineaorg-molof-90_toothfrontratherthanmolar-2 | Molof | TOOTH | te | t e
+transnewguineaorg-molof-91_tree-2 | Molof | TREE | woar | w o a r
+transnewguineaorg-molof-92_two-2 | Molof | TWO | ateti | a t e t i
+transnewguineaorg-molof-51_one-2 | Molof | ONE | kwasekak | k w a s e k a k
+transnewguineaorg-molof-94_water-2 | Molof | WATER | jat | j a t
+transnewguineaorg-molof-1907_wepronound1p-2 | Molof | WE | inte-kule | i n t e + k u l e
 transnewguineaorg-moresada-935_mypronounp1s-2 | Moresada | MY | ya- | j a
 transnewguineaorg-moresada-949_yourpronounp2s-2 | Moresada | YOUR (SINGULAR) | na- | n a
 zgraggenmadang-moresada-418_my-2 | moresada | MY | ya- | j a
@@ -8671,6 +8872,40 @@ zgraggenmadang-saruga-332_blowonfire-2 | saruga | BLOW (WITH MOUTH) | fuma- | f 
 zgraggenmadang-saruga-106_tailofdog-2 | saruga | TAIL | si:ru | s iː r u
 transnewguineaorg-sausi-65_tail-2 | Sausi | TAIL | tru:no | t r uː n o
 zgraggenmadang-sausi-106_tailofdog-2 | sausi | TAIL | tru:no | t r uː n o
+transnewguineaorg-sawi-2_ashes-2 | Sawi | ASH | idirip | i d i r i p
+transnewguineaorg-sawi-6_bird-2 | Sawi | BIRD | e:r | eː r
+transnewguineaorg-sawi-8_blood-2 | Sawi | BLOOD | esa:x | e s aː x
+transnewguineaorg-sawi-9_bone-2 | Sawi | BONE | kwoteba:r | k w o t e b aː r
+transnewguineaorg-sawi-71_tocome-2 | Sawi | COME | sar- | s a r
+transnewguineaorg-sawi-14_dog-2 | Sawi | DOG | si:r | s iː r
+transnewguineaorg-sawi-74_toeat-2 | Sawi | EAT | fan- | f a n
+transnewguineaorg-sawi-18_egg-2 | Sawi | EGG | mugo | m u g o
+transnewguineaorg-sawi-19_eye-2 | Sawi | EYE | ko:d | k oː d
+transnewguineaorg-sawi-22_fire-2 | Sawi | FIRE | jood | j oː d
+transnewguineaorg-sawi-76_togive-2 | Sawi | GIVE | aidi | a i d i
+transnewguineaorg-sawi-26_good-2 | Sawi | GOOD | de:r | d eː r
+transnewguineaorg-sawi-1233_hairbody-2 | Sawi | HAIR (BODY) | a:t | aː t
+transnewguineaorg-sawi-33_ipronound1s-2 | Sawi | I | nogo | n o g o
+transnewguineaorg-sawi-38_louse-2 | Sawi | LOUSE | amur | a m u r
+transnewguineaorg-sawi-39_man-2 | Sawi | MAN | riga:p | r i g aː p
+transnewguineaorg-sawi-253_fingernail-2 | Sawi | FINGERNAIL | kosəra:x | k o s ə r aː x
+transnewguineaorg-sawi-45_name-2 | Sawi | NAME | fui | f u i
+transnewguineaorg-sawi-48_night-2 | Sawi | NIGHT | besogui | b e s o g u i
+transnewguineaorg-sawi-51_one-2 | Sawi | ONE | paidəra:p | p a i d ə r aː p
+transnewguineaorg-sawi-83_tosee-2 | Sawi | SEE | naxad- | n a x a d
+transnewguineaorg-sawi-84_tosit-2 | Sawi | SIT | popad- | p o p a d
+transnewguineaorg-sawi-59_skin-2 | Sawi | SKIN | aba:g | a b aː g
+transnewguineaorg-sawi-85_tosleep-2 | Sawi | SLEEP | kene:p | k e n eː p
+transnewguineaorg-sawi-63_stone-2 | Sawi | STONE | jakae | j a k a e
+transnewguineaorg-sawi-64_sun-2 | Sawi | SUN | ata:p | a t aː p
+transnewguineaorg-sawi-90_toothfrontratherthanmolar-2 | Sawi | TOOTH | toro:k | t o r oː k
+transnewguineaorg-sawi-91_tree-2 | Sawi | TREE | toxo:d | t o x oː d
+transnewguineaorg-sawi-92_two-2 | Sawi | TWO | nauri | n a u r i
+transnewguineaorg-sawi-94_water-2 | Sawi | WATER | a:x | aː x
+transnewguineaorg-sawi-1907_wepronound1p-2 | Sawi | WE | nigi:p | n i g iː p
+transnewguineaorg-sawi-2083_youplpronouno2p-2 | Sawi | YOU (OBLIQUE CASE OF YOU) | gi:p | g iː p
+transnewguineaorg-sawi-275_pig-2 | Sawi | PIG | tui | t u i
+transnewguineaorg-sawi-68_thou-3 | Sawi | THOU | go:p | g oː p
 transnewguineaorg-selepet-30_head-2 | Selepet | HEAD | kun | k u n
 transnewguineaorg-selepet-57_sand-2 | Selepet | SAND | sak | s a k
 transnewguineaorg-selepet-35_leaf-2 | Selepet | LEAF | esen | e s e n
@@ -8746,6 +8981,29 @@ transnewguineaorg-siroi-86_tostand-2 | Siroi | STAND | tiŋga- | t i ŋ g a
 zgraggenmadang-siroi-299_stand-2 | siroi | STAND | tiŋga- | t i ŋ g a
 zgraggenmadang-siroi-106_tailofdog-2 | siroi | TAIL | dadu | d a d u
 zgraggenmadang-siroi-182_fog-2 | siroi | FOG | bidu | b i d u
+transnewguineaorg-skou-2_ashes-2 | Skou | ASH | tö | t ö
+transnewguineaorg-skou-8_blood-2 | Skou | BLOOD | hi | h i
+transnewguineaorg-skou-9_bone-2 | Skou | BONE | ee | eː
+transnewguineaorg-skou-18_egg-2 | Skou | EGG | tã_kò | t ã + k o
+transnewguineaorg-skou-22_fire-2 | Skou | FIRE | ra | r a
+transnewguineaorg-skou-1233_hairbody-2 | Skou | HAIR (BODY) | ta | t a
+transnewguineaorg-skou-33_ipronound1s-2 | Skou | I | ni | n i
+transnewguineaorg-skou-38_louse-2 | Skou | LOUSE | fi | f i
+transnewguineaorg-skou-253_fingernail-2 | Skou | FINGERNAIL | noobe | n oː b e
+transnewguineaorg-skou-85_tosleep-2 | Skou | SLEEP | lu-wele | l u + w e l e
+transnewguineaorg-skou-64_sun-2 | Skou | SUN | rãã́ | r ã ã
+transnewguineaorg-skou-68_thou-2 | Skou | THOU | me | m e
+transnewguineaorg-skou-91_tree-2 | Skou | TREE | ri | r i
+transnewguineaorg-skou-92_two-2 | Skou | TWO | hĩ́to | h ĩ t o
+transnewguineaorg-skou-51_one-2 | Skou | ONE | alì | a l i
+transnewguineaorg-skou-94_water-2 | Skou | WATER | pa | p a
+transnewguineaorg-skou-1907_wepronound1p-2 | Skou | WE | ne | n e
+transnewguineaorg-skou-2083_youplpronouno2p-2 | Skou | YOU (OBLIQUE CASE OF YOU) | e | e
+transnewguineaorg-skou-6_bird-3 | Skou | BIRD | tãŋã | t ã ŋ ã
+transnewguineaorg-skou-74_toeat-4 | Skou | EAT | kã | k ã
+transnewguineaorg-skou-74_toeat-5 | Skou | EAT | tã | t ã
+transnewguineaorg-skou-74_toeat-6 | Skou | EAT | pã | p ã
+transnewguineaorg-skou-83_tosee-2 | Skou | SEE | fo | f o
 transnewguineaorg-som-200_wind-2 | Som | WIND | sórup | s o r u p
 transnewguineaorg-som-54_roadpath-2 | Som | PATH OR ROAD | kewʌ | k e w ʌ
 transnewguineaorg-som-64_sun-2 | Som | SUN | murum | m u r u m
@@ -8760,6 +9018,36 @@ transnewguineaorg-som-33_ipronound1s-2 | Som | I | na | n a
 transnewguineaorg-som-2082_youpronouno2s-2 | Som | THEE (OBLIQUE CASE OF YOU) | ga | g a
 transnewguineaorg-sop-65_tail-3 | Sop | TAIL | gom | g o m
 zgraggenmadang-sop-106_tailofdog-4 | sop | TAIL | gom | g o m
+transnewguineaorg-sowanda-2_ashes-2 | Sowanda | ASH | imok | i m o k
+transnewguineaorg-sowanda-6_bird-2 | Sowanda | BIRD | teafu | t e a f u
+transnewguineaorg-sowanda-9_bone-2 | Sowanda | BONE | kek | k e k
+transnewguineaorg-sowanda-71_tocome-2 | Sowanda | COME | joaŋbogo | j o a ŋ b o g o
+transnewguineaorg-sowanda-14_dog-2 | Sowanda | DOG | urê | u r e
+transnewguineaorg-sowanda-18_egg-2 | Sowanda | EGG | suk | s u k
+transnewguineaorg-sowanda-19_eye-2 | Sowanda | EYE | rugok | r u g o k
+transnewguineaorg-sowanda-22_fire-2 | Sowanda | FIRE | sue | s u e
+transnewguineaorg-sowanda-76_togive-2 | Sowanda | GIVE | pai | p a i
+transnewguineaorg-sowanda-26_good-2 | Sowanda | GOOD | mapenem | m a p e n e m
+transnewguineaorg-sowanda-30_head-2 | Sowanda | HEAD | mosok | m o s o k
+transnewguineaorg-sowanda-33_ipronound1s-2 | Sowanda | I | koa | k o a
+transnewguineaorg-sowanda-38_louse-2 | Sowanda | LOUSE | kue | k u e
+transnewguineaorg-sowanda-39_man-2 | Sowanda | MAN | owak | o w a k
+transnewguineaorg-sowanda-253_fingernail-2 | Sowanda | FINGERNAIL | neŋgak_kek | n e ŋ g a k + k e k
+transnewguineaorg-sowanda-45_name-2 | Sowanda | NAME | unha | u n h a
+transnewguineaorg-sowanda-48_night-2 | Sowanda | NIGHT | inaikim | i n a i k i m
+transnewguineaorg-sowanda-83_tosee-2 | Sowanda | SEE | nuk_wokem | n u k + w o k e m
+transnewguineaorg-sowanda-84_tosit-2 | Sowanda | SIT | abogo | a b o g o
+transnewguineaorg-sowanda-59_skin-2 | Sowanda | SKIN | lopok | l o p o k
+transnewguineaorg-sowanda-85_tosleep-2 | Sowanda | SLEEP | nun | n u n
+transnewguineaorg-sowanda-63_stone-2 | Sowanda | STONE | xun | x u n
+transnewguineaorg-sowanda-64_sun-2 | Sowanda | SUN | okomba | o k o m b a
+transnewguineaorg-sowanda-65_tail-2 | Sowanda | TAIL | tetable | t e t a b l e
+transnewguineaorg-sowanda-68_thou-2 | Sowanda | THOU | ne | n e
+transnewguineaorg-sowanda-92_two-2 | Sowanda | TWO | sambaga | s a m b a g a
+transnewguineaorg-sowanda-51_one-2 | Sowanda | ONE | moŋgoir | m o ŋ g o i r
+transnewguineaorg-sowanda-94_water-2 | Sowanda | WATER | poa | p o a
+transnewguineaorg-sowanda-1907_wepronound1p-2 | Sowanda | WE | koa-negelk | k o a + n e g e l k
+transnewguineaorg-sowanda-275_pig-2 | Sowanda | PIG | ogtse | o g ts e
 transnewguineaorg-suena-903_afternoon-2 | Suena | AFTERNOON | tua | t u a
 transnewguineaorg-suena-2_ashes-2 | Suena | ASH | aβetu | a β e t u
 transnewguineaorg-suena-2495_axetomahawk-2 | Suena | AXE | ota | o t a
@@ -8837,6 +9125,28 @@ transnewguineaorg-suena-6_bird-3 | Suena | BIRD | ni | n i
 transnewguineaorg-suena-94_water-3 | Suena | WATER | ou | o u
 transnewguineaorg-suena-10_breast-4 | Suena | BREAST | ami | a m i
 transnewguineaorg-suena-1994_rain-2 | Suena | RAINING OR RAIN | wa | w a
+transnewguineaorg-suena-yema-yarawe-250_finger-2 | Suena (Yema-Yarawe Dialect) | FINGER | _soru | s o r u
+transnewguineaorg-tabo-99_woman-2 | Tabo | WOMAN | kamena | k a m e n a
+transnewguineaorg-tabo-30_head-2 | Tabo | HEAD | wato | w a t o
+transnewguineaorg-tabo-16_ear-2 | Tabo | EAR | galo | g a l o
+transnewguineaorg-tabo-44_mouth-2 | Tabo | MOUTH | tabo | t a b o
+transnewguineaorg-tabo-10_breast-2 | Tabo | BREAST | nono | n o n o
+transnewguineaorg-tabo-2010_leg-2 | Tabo | LEG | nato | n a t o
+transnewguineaorg-tabo-34_knee-2 | Tabo | KNEE | pupu | p u p u
+transnewguineaorg-tabo-59_skin-2 | Tabo | SKIN | tama | t a m a
+transnewguineaorg-tabo-2012_fat-2 | Tabo | FAT (ORGANIC SUBSTANCE) | gadi | g a d i
+transnewguineaorg-tabo-12_cloud-2 | Tabo | CLOUD | bubu | b u b u
+transnewguineaorg-tabo-1994_rain-2 | Tabo | RAINING OR RAIN | wegola | w e g o l a
+transnewguineaorg-tabo-94_water-2 | Tabo | WATER | bea | b e a
+transnewguineaorg-tabo-61_smokeoffire-2 | Tabo | SMOKE (EXHAUST) | ahuta | a h u t a
+transnewguineaorg-tabo-14_dog-2 | Tabo | DOG | gaha | g a h a
+transnewguineaorg-tabo-18_egg-2 | Tabo | EGG | kikipo | k i k i p o
+transnewguineaorg-tabo-2404_tofish-2 | Tabo | FISHING | daha | d a h a
+transnewguineaorg-tabo-73_todrink-2 | Tabo | DRINK | nɛnɛ | n ɛ n ɛ
+transnewguineaorg-tabo-76_togive-2 | Tabo | GIVE | nikanamɛ | n i k a n a m ɛ
+transnewguineaorg-tabo-35_leaf-2 | Tabo | LEAF | paha | p a h a
+transnewguineaorg-tabo-216_ground-3 | Tabo | GROUND | hopu | h o p u
+transnewguineaorg-tabo-33_ipronound1s-3 | Tabo | I | na | n a
 transnewguineaorg-tabriak-51_one-2 | Tabriak | ONE | mba | m b a
 transnewguineaorg-tabriak-92_two-2 | Tabriak | TWO | ripay | r i p a j
 transnewguineaorg-tabriak-189_three-2 | Tabriak | THREE | -rianmaw | r i a n m a w
@@ -8932,6 +9242,38 @@ transnewguineaorg-tabriak-48_night-3 | Tabriak | NIGHT | wi | w i
 transnewguineaorg-tabriak-329_lime-4 | Tabriak | LIME (FRUIT) | as | a s
 transnewguineaorg-tabriak-331_mosquito-4 | Tabriak | MOSQUITO | yaŋgun | j a ŋ g u n
 transnewguineaorg-tabriak-200_wind-3 | Tabriak | WIND | waľi | w a ʎ i
+transnewguineaorg-tamagario-2_ashes-2 | Tamagario | ASH | ererep | e r e r e p
+transnewguineaorg-tamagario-6_bird-2 | Tamagario | BIRD | towpam | t o w p a m
+transnewguineaorg-tamagario-8_blood-2 | Tamagario | BLOOD | jet | j e t
+transnewguineaorg-tamagario-9_bone-2 | Tamagario | BONE | nomop | n o m o p
+transnewguineaorg-tamagario-71_tocome-2 | Tamagario | COME | kae | k a e
+transnewguineaorg-tamagario-14_dog-2 | Tamagario | DOG | epe | e p e
+transnewguineaorg-tamagario-74_toeat-2 | Tamagario | EAT | kapri | k a p r i
+transnewguineaorg-tamagario-18_egg-2 | Tamagario | EGG | mapiakam | m a p i a k a m
+transnewguineaorg-tamagario-19_eye-2 | Tamagario | EYE | sakam | s a k a m
+transnewguineaorg-tamagario-22_fire-2 | Tamagario | FIRE | aru | a r u
+transnewguineaorg-tamagario-76_togive-2 | Tamagario | GIVE | kai- | k a i
+transnewguineaorg-tamagario-1233_hairbody-2 | Tamagario | HAIR (BODY) | upm | u p m
+transnewguineaorg-tamagario-30_head-2 | Tamagario | HEAD | tokom | t o k o m
+transnewguineaorg-tamagario-33_ipronound1s-2 | Tamagario | I | nak | n a k
+transnewguineaorg-tamagario-39_man-2 | Tamagario | MAN | jo | j o
+transnewguineaorg-tamagario-253_fingernail-2 | Tamagario | FINGERNAIL | je-wop | j e + w o p
+transnewguineaorg-tamagario-51_one-2 | Tamagario | ONE | pakamok | p a k a m o k
+transnewguineaorg-tamagario-83_tosee-2 | Tamagario | SEE | takape | t a k a p e
+transnewguineaorg-tamagario-84_tosit-2 | Tamagario | SIT | tei- | t e i
+transnewguineaorg-tamagario-59_skin-2 | Tamagario | SKIN | pip | p i p
+transnewguineaorg-tamagario-85_tosleep-2 | Tamagario | SLEEP | apun | a p u n
+transnewguineaorg-tamagario-63_stone-2 | Tamagario | STONE | maitu | m a i t u
+transnewguineaorg-tamagario-64_sun-2 | Tamagario | SUN | taam | t aː m
+transnewguineaorg-tamagario-65_tail-2 | Tamagario | TAIL | kapm | k a p m
+transnewguineaorg-tamagario-68_thou-2 | Tamagario | THOU | ak | a k
+transnewguineaorg-tamagario-90_toothfrontratherthanmolar-2 | Tamagario | TOOTH | ukom | u k o m
+transnewguineaorg-tamagario-91_tree-2 | Tamagario | TREE | wom | w o m
+transnewguineaorg-tamagario-92_two-2 | Tamagario | TWO | totigi | t o t i g i
+transnewguineaorg-tamagario-94_water-2 | Tamagario | WATER | okom | o k o m
+transnewguineaorg-tamagario-1907_wepronound1p-2 | Tamagario | WE | nep | n e p
+transnewguineaorg-tamagario-2083_youplpronouno2p-2 | Tamagario | YOU (OBLIQUE CASE OF YOU) | akan | a k a n
+transnewguineaorg-tamagario-275_pig-2 | Tamagario | PIG | wakum | w a k u m
 transnewguineaorg-tangko-60_small-2 | Tangko | SMALL | ɸɑsiˈkɑmbun | ɸ ɑ s i k ɑ m b u n
 transnewguineaorg-tauade-224_banana-2 | Tauade | BANANA | pelai | p e l a i
 transnewguineaorg-tauade-2499_childm-1 | Tauade | BOY | lu | l u
@@ -8949,6 +9291,34 @@ zgraggenmadang-tauya-418_my-2 | tauya | MY | ya- | j a
 zgraggenmadang-tauya-106_tailofdog-2 | tauya | TAIL | muʔamo | m u ʔ a m o
 zgraggenmadang-tauya-393_yoursg-2 | tauya | YOUR (SINGULAR) | na- | n a
 zgraggenmadang-tauya-348_eat-2 | tauya | EAT | ni | n i
+transnewguineaorg-tebi-2_ashes-2 | Tebi | ASH | wafu | w a f u
+transnewguineaorg-tebi-6_bird-3 | Tebi | BIRD | olmu | o l m u
+transnewguineaorg-tebi-71_tocome-2 | Tebi | COME | kəlawai | k ə l a w a i
+transnewguineaorg-tebi-74_toeat-2 | Tebi | EAT | ne | n e
+transnewguineaorg-tebi-18_egg-3 | Tebi | EGG | alani | a l a n i
+transnewguineaorg-tebi-22_fire-2 | Tebi | FIRE | we | w e
+transnewguineaorg-tebi-76_togive-3 | Tebi | GIVE | taʔa | t a ʔ a
+transnewguineaorg-tebi-26_good-3 | Tebi | GOOD | pani | p a n i
+transnewguineaorg-tebi-1233_hairbody-2 | Tebi | HAIR (BODY) | məndini-_teke | m ə ⁿd i n i + t e k e
+transnewguineaorg-tebi-30_head-2 | Tebi | HEAD | məndini | m ə ⁿd i n i
+transnewguineaorg-tebi-33_ipronound1s-2 | Tebi | I | no | n o
+transnewguineaorg-tebi-38_louse-2 | Tebi | LOUSE | mi | m i
+transnewguineaorg-tebi-39_man-2 | Tebi | MAN | toŋkwar | t o ŋ k w a r
+transnewguineaorg-tebi-253_fingernail-2 | Tebi | FINGERNAIL | toko | t o k o
+transnewguineaorg-tebi-45_name-2 | Tebi | NAME | kini | k i n i
+transnewguineaorg-tebi-83_tosee-2 | Tebi | SEE | aleikie | a l e i k i e
+transnewguineaorg-tebi-84_tosit-3 | Tebi | SIT | fraikru | f r a i k r u
+transnewguineaorg-tebi-59_skin-2 | Tebi | SKIN | ser | s e r
+transnewguineaorg-tebi-85_tosleep-2 | Tebi | SLEEP | wamo | w a m o
+transnewguineaorg-tebi-63_stone-2 | Tebi | STONE | kwola | k w o l a
+transnewguineaorg-tebi-64_sun-2 | Tebi | SUN | maʔa | m a ʔ a
+transnewguineaorg-tebi-65_tail-2 | Tebi | TAIL | tumu | t u m u
+transnewguineaorg-tebi-90_toothfrontratherthanmolar-2 | Tebi | TOOTH | kle | k l e
+transnewguineaorg-tebi-91_tree-2 | Tebi | TREE | wejalgi | w e j a l g i
+transnewguineaorg-tebi-92_two-2 | Tebi | TWO | kre | k r e
+transnewguineaorg-tebi-51_one-2 | Tebi | ONE | kərowali | k ə r o w a l i
+transnewguineaorg-tebi-94_water-2 | Tebi | WATER | ai | a i
+transnewguineaorg-tebi-1907_wepronound1p-2 | Tebi | WE | numu | n u m u
 transnewguineaorg-telefol-217_tospeak-2 | Telefol | SPEAK | baka | b a k a
 transnewguineaorg-telefol-1562_birdofparadise-2 | Telefol | BIRD OF PARADISE | kolom | k o l o m
 transnewguineaorg-telefol-19_eye-2 | Telefol | EYE | tiin | t iː n
@@ -8996,6 +9366,37 @@ transnewguineaorg-tobo-38_louse-2 | Tobo | LOUSE | imin | i m i n
 transnewguineaorg-tobo-1994_rain-2 | Tobo | RAINING OR RAIN | kia | k i a
 transnewguineaorg-tobo-33_ipronound1s-2 | Tobo | I | ni | n i
 transnewguineaorg-tobo-14_dog-2 | Tobo | DOG | kiam | k i a m
+transnewguineaorg-tofanma-2_ashes-2 | Tofanma | ASH | wenbo | w e n b o
+transnewguineaorg-tofanma-6_bird-2 | Tofanma | BIRD | jetai | j e t a i
+transnewguineaorg-tofanma-8_blood-2 | Tofanma | BLOOD | leki | l e k i
+transnewguineaorg-tofanma-9_bone-2 | Tofanma | BONE | nta | n t a
+transnewguineaorg-tofanma-71_tocome-2 | Tofanma | COME | maje | m a j e
+transnewguineaorg-tofanma-74_toeat-2 | Tofanma | EAT | sembe | s e m b e
+transnewguineaorg-tofanma-18_egg-2 | Tofanma | EGG | taili | t a i l i
+transnewguineaorg-tofanma-19_eye-2 | Tofanma | EYE | jei | j e i
+transnewguineaorg-tofanma-22_fire-2 | Tofanma | FIRE | we | w e
+transnewguineaorg-tofanma-76_togive-2 | Tofanma | GIVE | ne | n e
+transnewguineaorg-tofanma-26_good-2 | Tofanma | GOOD | mesi | m e s i
+transnewguineaorg-tofanma-1233_hairbody-2 | Tofanma | HAIR (BODY) | kemble_-na | k e m b l e + n a
+transnewguineaorg-tofanma-30_head-2 | Tofanma | HEAD | kemble | k e m b l e
+transnewguineaorg-tofanma-33_ipronound1s-2 | Tofanma | I | niawi | n i a w i
+transnewguineaorg-tofanma-38_louse-2 | Tofanma | LOUSE | bli | b l i
+transnewguineaorg-tofanma-39_man-2 | Tofanma | MAN | lame | l a m e
+transnewguineaorg-tofanma-253_fingernail-2 | Tofanma | FINGERNAIL | lonke | l o n k e
+transnewguineaorg-tofanma-45_name-2 | Tofanma | NAME | emi | e m i
+transnewguineaorg-tofanma-48_night-2 | Tofanma | NIGHT | tifuma | t i f u m a
+transnewguineaorg-tofanma-83_tosee-2 | Tofanma | SEE | mesmi | m e s m i
+transnewguineaorg-tofanma-59_skin-2 | Tofanma | SKIN | jefake | j e f a k e
+transnewguineaorg-tofanma-85_tosleep-2 | Tofanma | SLEEP | jutuŋge | j u t u ŋ g e
+transnewguineaorg-tofanma-63_stone-2 | Tofanma | STONE | klo | k l o
+transnewguineaorg-tofanma-64_sun-2 | Tofanma | SUN | jaku | j a k u
+transnewguineaorg-tofanma-65_tail-2 | Tofanma | TAIL | muntuo | m u n t u o
+transnewguineaorg-tofanma-90_toothfrontratherthanmolar-2 | Tofanma | TOOTH | geme | g e m e
+transnewguineaorg-tofanma-91_tree-2 | Tofanma | TREE | kili | k i l i
+transnewguineaorg-tofanma-92_two-2 | Tofanma | TWO | neni | n e n i
+transnewguineaorg-tofanma-51_one-2 | Tofanma | ONE | kenano | k e n a n o
+transnewguineaorg-tofanma-94_water-2 | Tofanma | WATER | basu | b a s u
+transnewguineaorg-tofanma-1907_wepronound1p-2 | Tofanma | WE | wone | w o n e
 transnewguineaorg-tureture-30_head-2 | Southern Kiwai (Tureture Dialect) | HEAD | epuru | e p u r u
 transnewguineaorg-tureture-57_sand-2 | Southern Kiwai (Tureture Dialect) | SAND | wio | w i o
 transnewguineaorg-tureture-49_nose-2 | Southern Kiwai (Tureture Dialect) | NOSE | wodi | w o d i
@@ -9099,6 +9500,34 @@ transnewguineaorg-usan-86_tostand-2 | Usan | STAND | nʌg- | n ʌ g
 transnewguineaorg-usan-249_tofill-2 | Usan | FILL | un- | u n
 zgraggenmadang-usan-299_stand-2 | usan | STAND | nʌg- | n ʌ g
 zgraggenmadang-usan-347_fillupwater-2 | usan | FILL | un- | u n
+transnewguineaorg-usku-2_ashes-2 | Usku | ASH | fu | f u
+transnewguineaorg-usku-6_bird-2 | Usku | BIRD | lokwe | l o k w e
+transnewguineaorg-usku-71_tocome-2 | Usku | COME | duarse | d u a r s e
+transnewguineaorg-usku-74_toeat-2 | Usku | EAT | kepo | k e p o
+transnewguineaorg-usku-18_egg-2 | Usku | EGG | kle | k l e
+transnewguineaorg-usku-19_eye-2 | Usku | EYE | nifi | n i f i
+transnewguineaorg-usku-22_fire-2 | Usku | FIRE | jo | j o
+transnewguineaorg-usku-76_togive-2 | Usku | GIVE | aseloti | a s e l o t i
+transnewguineaorg-usku-1233_hairbody-2 | Usku | HAIR (BODY) | flekle-kunda | f l e k l e + k u ⁿd a
+transnewguineaorg-usku-30_head-2 | Usku | HEAD | flekle | f l e k l e
+transnewguineaorg-usku-33_ipronound1s-2 | Usku | I | ose | o s e
+transnewguineaorg-usku-34_knee-2 | Usku | KNEE | oŋkula | o ŋ k u l a
+transnewguineaorg-usku-38_louse-2 | Usku | LOUSE | nimi | n i m i
+transnewguineaorg-usku-39_man-2 | Usku | MAN | mekenja | m e k e n j a
+transnewguineaorg-usku-253_fingernail-2 | Usku | FINGERNAIL | nekrefi | n e k r e f i
+transnewguineaorg-usku-83_tosee-2 | Usku | SEE | flase | f l a s e
+transnewguineaorg-usku-84_tosit-2 | Usku | SIT | tamela-rose | t a m e l a + r o s e
+transnewguineaorg-usku-59_skin-2 | Usku | SKIN | ninje | n i n j e
+transnewguineaorg-usku-85_tosleep-2 | Usku | SLEEP | tianise | t i a n i s e
+transnewguineaorg-usku-63_stone-2 | Usku | STONE | pane | p a n e
+transnewguineaorg-usku-64_sun-2 | Usku | SUN | nei | n e i
+transnewguineaorg-usku-65_tail-2 | Usku | TAIL | mesekəle | m e s e k ə l e
+transnewguineaorg-usku-90_toothfrontratherthanmolar-2 | Usku | TOOTH | neŋkle | n e ŋ k l e
+transnewguineaorg-usku-91_tree-2 | Usku | TREE | weli | w e l i
+transnewguineaorg-usku-92_two-2 | Usku | TWO | narna | n a r n a
+transnewguineaorg-usku-51_one-2 | Usku | ONE | kisifaini | k i s i f a i n i
+transnewguineaorg-usku-94_water-2 | Usku | WATER | ei | e i
+transnewguineaorg-usku-1907_wepronound1p-2 | Usku | WE | pu | p u
 transnewguineaorg-utarmbung-935_mypronounp1s-2 | Utarmbung | MY | yi- | j i
 transnewguineaorg-utarmbung-931_hishersitspronounp3s-2 | Utarmbung | HIS OR HER | nʉ- | n ʉ
 transnewguineaorg-utarmbung-112_tocut-2 | Utarmbung | CUT | rʌbugu- | r ʌ b u g u
@@ -9113,6 +9542,36 @@ transnewguineaorg-uya-86_tostand-2 | Uya | STAND | hoto- | h o t o
 zgraggenmadang-uya-395_theirs-1 | uya | THEIR | nɛn- | n ɛ n
 zgraggenmadang-uya-299_stand-2 | uya | STAND | hoto- | h o t o
 zgraggenmadang-uya-403_our-2 | uya | OUR | hin- | h i n
+transnewguineaorg-viid-2_ashes-2 | Viid | ASH | tokos | t o k o s
+transnewguineaorg-viid-8_blood-2 | Viid | BLOOD | nine | n i n e
+transnewguineaorg-viid-9_bone-2 | Viid | BONE | ke | k e
+transnewguineaorg-viid-14_dog-2 | Viid | DOG | wandr | w a ⁿd r
+transnewguineaorg-viid-74_toeat-2 | Viid | EAT | na | n a
+transnewguineaorg-viid-18_egg-2 | Viid | EGG | tu | t u
+transnewguineaorg-viid-19_eye-2 | Viid | EYE | now | n o w
+transnewguineaorg-viid-22_fire-2 | Viid | FIRE | tow | t o w
+transnewguineaorg-viid-26_good-2 | Viid | GOOD | jenik | j e n i k
+transnewguineaorg-viid-30_head-2 | Viid | HEAD | repek | r e p e k
+transnewguineaorg-viid-33_ipronound1s-2 | Viid | I | ka | k a
+transnewguineaorg-viid-38_louse-2 | Viid | LOUSE | ku | k u
+transnewguineaorg-viid-39_man-2 | Viid | MAN | du | d u
+transnewguineaorg-viid-253_fingernail-2 | Viid | FINGERNAIL | note | n o t e
+transnewguineaorg-viid-48_night-2 | Viid | NIGHT | se | s e
+transnewguineaorg-viid-59_skin-2 | Viid | SKIN | kep | k e p
+transnewguineaorg-viid-83_tosee-2 | Viid | SEE | nefo | n e f o
+transnewguineaorg-viid-85_tosleep-2 | Viid | SLEEP | ru | r u
+transnewguineaorg-viid-63_stone-2 | Viid | STONE | kwondr | k w o ⁿd r
+transnewguineaorg-viid-64_sun-2 | Viid | SUN | pola | p o l a
+transnewguineaorg-viid-65_tail-2 | Viid | TAIL | sok | s o k
+transnewguineaorg-viid-1994_rain-2 | Viid | RAINING OR RAIN | fowek | f o w e k
+transnewguineaorg-viid-90_toothfrontratherthanmolar-2 | Viid | TOOTH | nunalk | n u n a l k
+transnewguineaorg-viid-91_tree-2 | Viid | TREE | ti | t i
+transnewguineaorg-viid-92_two-2 | Viid | TWO | tambla | t a m b l a
+transnewguineaorg-viid-51_one-2 | Viid | ONE | moŋgau | m o ŋ g a u
+transnewguineaorg-viid-94_water-2 | Viid | WATER | po | p o
+transnewguineaorg-viid-1907_wepronound1p-2 | Viid | WE | duka | d u k a
+transnewguineaorg-viid-2083_youplpronouno2p-2 | Viid | YOU (OBLIQUE CASE OF YOU) | dura | d u r a
+transnewguineaorg-viid-275_pig-2 | Viid | PIG | sar_mejan | s a r + m e j a n
 transnewguineaorg-waboda-30_head-2 | Waboda | HEAD | kepuru | k e p u r u
 transnewguineaorg-waboda-57_sand-3 | Waboda | SAND | wio | w i o
 transnewguineaorg-waboda-44_mouth-2 | Waboda | MOUTH | mubasoro | m u b a s o r o
@@ -9220,6 +9679,33 @@ transnewguineaorg-waritai-8_blood-2 | Waritai | BLOOD | sai^ | s a i
 transnewguineaorg-waritai-6_bird-2 | Waritai | BIRD | tu | t u
 transnewguineaorg-waritai-47_new-2 | Waritai | NEW | sgaɾi^ | s g a ɾ i
 transnewguineaorg-waritai-45_name-2 | Waritai | NAME | ou | o u
+transnewguineaorg-warkay-bipim-275_pig-2 | Warkay-Bipim | PIG | basi | b a s i
+transnewguineaorg-warkay-bipim-84_tosit-2 | Warkay-Bipim | SIT | sebehä | s e b e h a
+transnewguineaorg-warkay-bipim-59_skin-2 | Warkay-Bipim | SKIN | tahap | t a h a p
+transnewguineaorg-warkay-bipim-85_tosleep-2 | Warkay-Bipim | SLEEP | terän | t e r a n
+transnewguineaorg-warkay-bipim-63_stone-2 | Warkay-Bipim | STONE | jaka | j a k a
+transnewguineaorg-warkay-bipim-64_sun-2 | Warkay-Bipim | SUN | jawi | j a w i
+transnewguineaorg-warkay-bipim-90_toothfrontratherthanmolar-2 | Warkay-Bipim | TOOTH | tadehe | t a d e h e
+transnewguineaorg-warkay-bipim-91_tree-2 | Warkay-Bipim | TREE | ose | o s e
+transnewguineaorg-warkay-bipim-94_water-2 | Warkay-Bipim | WATER | adia | a d i a
+transnewguineaorg-warkay-bipim-38_louse-2 | Warkay-Bipim | LOUSE | nabun | n a b u n
+transnewguineaorg-warkay-bipim-39_man-2 | Warkay-Bipim | MAN | kae | k a e
+transnewguineaorg-warkay-bipim-253_fingernail-2 | Warkay-Bipim | FINGERNAIL | tereir | t e r e i r
+transnewguineaorg-warkay-bipim-45_name-2 | Warkay-Bipim | NAME | erakai | e r a k a i
+transnewguineaorg-warkay-bipim-48_night-2 | Warkay-Bipim | NIGHT | usam | u s a m
+transnewguineaorg-warkay-bipim-51_one-2 | Warkay-Bipim | ONE | adihir | a d i h i r
+transnewguineaorg-warkay-bipim-19_eye-2 | Warkay-Bipim | EYE | ki:t | k iː t
+transnewguineaorg-warkay-bipim-22_fire-2 | Warkay-Bipim | FIRE | usa | u s a
+transnewguineaorg-warkay-bipim-26_good-2 | Warkay-Bipim | GOOD | dawe | d a w e
+transnewguineaorg-warkay-bipim-1233_hairbody-2 | Warkay-Bipim | HAIR (BODY) | saker | s a k e r
+transnewguineaorg-warkay-bipim-30_head-2 | Warkay-Bipim | HEAD | muu | m uː
+transnewguineaorg-warkay-bipim-33_ipronound1s-2 | Warkay-Bipim | I | no | n o
+transnewguineaorg-warkay-bipim-2_ashes-2 | Warkay-Bipim | ASH | pepkade | p e p k a d e
+transnewguineaorg-warkay-bipim-6_bird-2 | Warkay-Bipim | BIRD | ebep | e b e p
+transnewguineaorg-warkay-bipim-8_blood-2 | Warkay-Bipim | BLOOD | kap | k a p
+transnewguineaorg-warkay-bipim-71_tocome-2 | Warkay-Bipim | COME | au | a u
+transnewguineaorg-warkay-bipim-74_toeat-2 | Warkay-Bipim | EAT | noáe | n o a e
+transnewguineaorg-warkay-bipim-18_egg-2 | Warkay-Bipim | EGG | meju | m e j u
 transnewguineaorg-waskia-65_tail-2 | Waskia | TAIL | moːm | m oː m
 zgraggenmadang-waskia-106_tailofdog-2 | waskia | TAIL | moːm | m oː m
 transnewguineaorg-watiwa-290_totalk-2 | Watiwa | TALK | wa- | w a
@@ -9457,6 +9943,7 @@ transnewguineaorg-yekora-94_water-3 | Yekora | WATER | ou | o u
 transnewguineaorg-yekora-10_breast-3 | Yekora | BREAST | ami | a m i
 transnewguineaorg-yekora-64_sun-4 | Yekora | SUN | i | i
 transnewguineaorg-yekora-1994_rain-2 | Yekora | RAINING OR RAIN | wa | w a
+transnewguineaorg-yetfa-39_man-2 | Yetfa | MAN | nam | n a m
 transnewguineaorg-yoidik-65_tail-2 | Yoidik | TAIL | udik | u d i k
 transnewguineaorg-yoidik-65_tail-3 | Yoidik | TAIL | udik | u d i k
 transnewguineaorg-yoidik-108_toblowwind-2 | Yoidik | BLOW (OF WIND) | fuw | f u w
@@ -9541,6 +10028,7 @@ transnewguineaorg-zorop-1907_wepronound1p-2 | Zorop | WE | nin | n i n
 transnewguineaorg-zorop-275_pig-2 | Zorop | PIG | sər | s ə r
 tryonsolomon-mono-173_theydl-1 | Mono | THEY | relana!i | r e l a n a ʔ i
 tryonsolomon-mono-168_youpl-1 | Mono | YOU | māŋ | m aː ŋ
+galuciotupi-Ju-46_foot-2 | Jurúna | FOOT | bɨdahá | b ɨ d a h a
 tuled-Akuntsu-83-2 | Akuntsu | COME | tʃe | tʃ e
 vanuatuvoices-Nakanamangasesake-77_mother-2 | Nakanamanga: Sesake | MOTHER | tete | t e t e
 vanuatuvoices-Nakanamangasesake-78_father-2 | Nakanamanga: Sesake | FATHER | popo | p o p o
@@ -9669,27 +10157,49 @@ yangyi-Yangliu-551_grab-1 | Yangliu | SEIZE | vv³³ | v v ³³
 yangyi-LawuXinpingShuitangJiuha-713_goup-1 | Lawu | GO UP (ASCEND) | tai⁵⁵ | t ai ⁵⁵
 yangyi-LawuXinpingShuitangJiuha-714_godown-1 | Lawu | GO DOWN (DESCEND) | ja³³ | j a ³³
 gaotb-Tuja-971_we-2 | Tujia | WE (EXCLUSIVE) | a³⁵_ȵi⁵⁵ | a ³⁵ + ȵ i ⁵⁵
+zhoubizic-CajiAdi-226_tocoverup-2 | Caji-adi | BURY | a⁵⁵ da¹³?1 | a ⁵⁵ + d a ¹³
 crossandean-Inkawasi-123_goto-2 | Lambayeque | GO | ři | r i
 crossandean-Maragua-57_manswperson-2 | Chuquisaca | PERSON | řuna | r u n a
 crossandean-Pacaraos-78_stone-2 | Pacaraos | STONE | rrumi | r u m i
 utoaztecan-ClassicalAztec-75_lie-2 | Classical Nahuatl | LIE (REST) | teeka | t eː k a
+utoaztecan-Pipil-2_many-2 | Pipil | MANY | muuči | m uː tʃ i
+peirosaustroasiatic-JahHut-82_sun-2 | Jah-Hut | SUN | mat kətɔʔ | m a t + k ə t ɔ ʔ
+peirosaustroasiatic-Semai-82_sun-2 | Semai | SUN | mat ʒis | m a t + dʑ i s
 peirosaustroasiatic-Khmer-90_tree-2 | Khmer | TREE | ṭaəm ʒhaə | ʈ aə m + dʑʰ aə
+peirosaustroasiatic-Didra-1_all-2 | Didra | ALL | diʔ.L dəgŋ.L | d i ʔ ⁵⁵ + d ə g ŋ ⁵⁵
 peirosaustroasiatic-MDip-1_all-2 | M.Dip | ALL | dɨŋ ndə | d ɨ ŋ + ⁿd ə
 peirosaustroasiatic-MDip-39_hear-2 | M.Dip | HEAR | ʔiɛt taŋ | ʔ iɛ t + t a ŋ
 peirosaustroasiatic-MDip-73_seed-2 | M.Dip | SEED | grap ndil | g r a p + ⁿd i l
 peirosaustroasiatic-MDip-98_who-2 | M.Dip | WHO | bu ʔən | b u + ʔ ə n
+peirosaustroasiatic-Oy-76_sleep-2 | Oy | SLEEP | kuj hŋan | k u j + h ŋ a n
+peirosaustroasiatic-KSurin-90_tree-2 | K.Surin | TREE | dʌm chə | d ʌ m + tsʰ ə
+peirosaustroasiatic-Ksinmul-13_clawnail-2 | Ksinmul | CLAW OR NAIL | moŋ suəŋ | m o ŋ + s uə ŋ
+peirosaustroasiatic-Juang-3_bark-2 | Juang | BARK | kalob | k a l o b
+peirosaustroasiatic-Juang-29_fish-2 | Juang | FISH | karoŋ | k a r o ŋ
+peirosaustroasiatic-Juang-51_man-2 | Juang | MAN | ka=mulog | k a + m u l o g
+peirosaustroasiatic-Juang-67_road-2 | Juang | ROAD | goṭoŋ | g o ʈ o ŋ
+peirosaustroasiatic-Juang-74_sit-2 | Juang | SIT | ḍoko | ɖ o k o
+peirosaustroasiatic-Juang-90_tree-2 | Juang | TREE | sumu=siŋ | s u m u + s i ŋ
+peirosaustroasiatic-Kharia-3_bark-2 | Kharia | BARK | kalob | k a l o b
+peirosaustroasiatic-Kharia-29_fish-2 | Kharia | FISH | kaḍoŋ | k a ɖ o ŋ
+peirosaustroasiatic-Kharia-39_hear-2 | Kharia | HEAR | ɔn=d̤ɔr | ɔ n + dʱ ɔ r
+peirosaustroasiatic-Kharia-74_sit-2 | Kharia | SIT | ḍoko | ɖ o k o
+peirosaustroasiatic-Korku-39_hear-2 | Korku | HEAR | aɲʒum | a ɲ + dʒ u m
 peirosaustroasiatic-Mundari-3_bark-2 | Mundari | BARK | harta | h a r t a
 peirosaustroasiatic-Mundari-39_hear-2 | Mundari | HEAR | ajum | a j u m
 peirosaustroasiatic-Mundari-93_warm-2 | Mundari | WARM | urgum | u r g u m
-peirosaustroasiatic-Ruc-82_sun-2 | Ruc | SUN | məʌt.4 pləi.2 | m əʌ t ⁴ + p l əi ²
-peirosaustroasiatic-Ruc-96_what-2 | Ruc | WHAT | camə.1 | ts a m ə ¹
+peirosaustroasiatic-Santali-3_bark-2 | Santali | BARK | harta | h a r t a
+peirosaustroasiatic-Santali-39_hear-2 | Santali | HEAR | ʒom | dʑ o m
+peirosaustroasiatic-Sora-67_road-2 | Sora | ROAD | taŋór | t a ŋ o r
+peirosaustroasiatic-Malieng-82_sun-2 | Malieng | SUN | mʌt.24 kon.33 | m ʌ t ²⁴ + k o n ³³
 starostinkaren-Geba_Karen-95_we-2 | Geba Karen | WE | wà | w a
+starostinkaren-Lahta_Kayan-30_flyv-2 | Lahta Kayan | FLY (MOVE THROUGH AIR) | yǝ̀ | j ə
 syrjaenenuralic-ingrian-9_because-2 | Ingrian | BECAUSE | s.e.n.t.æː | s e n t æː
 utoaztecan-Hopi-102_green-2 | Hopi | GREEN | sakwa | s a kʷ a
 utoaztecan-Papago-120_all-2 | O'odham | ALL | wɯs | w ɯ s
 utoaztecan-PimaDeOnavas-100_mountain-2 | Pima Bajo | MOUNTAIN | doʔaag | d o ʔ aː g
 wheelerutoaztecan-PimaBajo-stand-3 | Pima Bajo | STAND | kɯ̄k | k ɯː k
+wheelerutoaztecan-NTepehuan-red-2 | N Tepehuan | RED | βɯ̄́gi | β ɯ g i
 utoaztecan-Guarijio-78_throw-2 | Guarijío | THROW | cewa- | ts e w a
 utoaztecan-Guarijio-79_give-2 | Guarijío | GIVE | kiʔá- | k i ʔ a
-utoaztecan-Pipil-2_many-2 | Pipil | MANY | muuči | m uː tʃ i
 walkerarawakan-Palikur-4_this-3 | Palikúr | THIS | ner | n e r
