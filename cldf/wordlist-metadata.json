@@ -19,7 +19,7 @@
         {
             "rdf:about": "https://github.com/lexibank/lexibank-analysed",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-93-g6ec8cc1",
+            "dc:created": "v2.0-1-gb726e3e",
             "dc:title": "Repository"
         },
         {
@@ -48,7 +48,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.13.1"
+            "dc:description": "3.13.2"
         },
         {
             "dc:title": "python-packages",
@@ -60,7 +60,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 1663640,
+            "dc:extent": 1733902,
             "tableSchema": {
                 "columns": [
                     {
@@ -192,7 +192,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 3204,
+            "dc:extent": 3205,
             "tableSchema": {
                 "columns": [
                     {
