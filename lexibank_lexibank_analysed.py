@@ -353,7 +353,7 @@ class Dataset(BaseDataset):
             if not langs:
                 try:
                     family = languoids[language.glottocode].family
-                    macroareas = languoids[language.glottocode].macroareas
+                    macroareas = [m.name for m in languoids[language.glottocode].macroareas]
                     if not macroareas:
                         macroareas = [l.macroareas[0].name for l in
                                       languoids[language.glottocode].iter_descendants()
