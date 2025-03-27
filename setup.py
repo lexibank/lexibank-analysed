@@ -3,8 +3,8 @@ from setuptools import setup
 
 setup(
     name='lexibank_analysed',
-    version='1.0.dev0',
-    description='',
+    version='2.1',
+    description='Lexibank Analysed',
     author='',
     author_email='',
     long_description=open('README.md', encoding='utf8').read(),

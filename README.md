@@ -1,6 +1,6 @@
 # Lexibank Analysed
 
-[![CLDF validation](https://github.com/lexibank/lexibank-analysed/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/lexibank-analysed/actions?query=workflow%3ACLDF-validation)
+[![CLDF validation](https://github.com/lexibank/lexibank-study//workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/lexibank-study//actions?query=workflow%3ACLDF-validation)
 
 ## How to cite
 
@@ -29,22 +29,22 @@ The core-sets are defined by using the following criteria:
 ## Statistics
 
 
-[![CLDF validation](https://github.com/lexibank/lexibank-analysed/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/lexibank-analysed/actions?query=workflow%3ACLDF-validation)
+[![CLDF validation](https://github.com/lexibank/lexibank-study//workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/lexibank-study//actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 5,468 (linked to 3,105 different Glottocodes)
+- **Varieties:** 5,477 (linked to 3,107 different Glottocodes)
 - **Concepts:** 3,205 (linked to 3,205 different Concepticon concept sets)
-- **Lexemes:** 1,733,902
+- **Lexemes:** 1,734,794
 - **Sources:** 134
-- **Synonymy:** 1.09
+- **Synonymy:** 1.08
 - **Invalid lexemes:** 0
-- **Tokens:** 9,623,912
-- **Segments:** 2,464 (0 BIPA errors, 0 CLTS sound class errors, 2455 CLTS modified)
-- **Inventory size (avg):** 38.73
+- **Tokens:** 9,627,473
+- **Segments:** 2,466 (0 BIPA errors, 0 CLTS sound class errors, 2457 CLTS modified)
+- **Inventory size (avg):** 38.75
 
 ## Possible Improvements:
 

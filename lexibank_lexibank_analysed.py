@@ -353,12 +353,18 @@ class Dataset(BaseDataset):
             if not langs:
                 try:
                     family = languoids[language.glottocode].family
+                    macroareas = [m.name for m in languoids[language.glottocode].macroareas]
+                    if not macroareas:
+                        macroareas = [l.macroareas[0].name for l in
+                                      languoids[language.glottocode].iter_descendants()
+                                      if l.macroareas]
+
                     langs = {
                         "ID": language.id,
                         "Name": language.name,
                         "Glottocode": language.glottocode,
                         "Dataset": language.dataset,
-                        "Macroarea": language.macroarea,
+                        "Macroarea": macroareas[0],
                         "Latitude": language.latitude,
                         "Longitude": language.longitude,
                         "Subgroup": language.subgroup,

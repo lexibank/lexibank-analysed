@@ -19,6 +19,7 @@ commonnexus==1.9.2
 csvw==3.5.1
 cycler==0.12.1
 gitdb==4.0.12
+greenlet==3.1.1
 idna==3.10
 iniconfig==2.1.0
 isodate==0.7.2
@@ -48,7 +49,7 @@ pycountry==24.6.1
 pyglottolog==3.14.0
 pylatexenc==2.10
 pylexibank==3.5.0
-pyparsing==3.2.2
+pyparsing==3.2.3
 pyproj==3.7.1
 pytest==8.3.5
 python-dateutil==2.9.0.post0
@@ -71,7 +72,7 @@ termcolor==2.5.0
 toyplot==2.0.0
 toytree==2.0.5
 tqdm==4.67.1
-typing_extensions==4.12.2
+typing_extensions==4.13.0
 uritemplate==4.1.1
 urllib3==2.3.0
 xlrd==2.0.1

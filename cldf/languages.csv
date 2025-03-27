@@ -1062,7 +1062,7 @@ chacolanguages-Quichua,Quichua Santiagueño,South America,-27.82,-63.25,sant1432
 chacolanguages-Tapiete,Tapiete,South America,-21.42,-62.68,tapi1253,,chacolanguages,271,271,193,LexiCore,1,1,0,0,0,,Tupian,Tupian
 chacolanguages-Toba,Toba,South America,-23.77,-61.96,toba1269,,chacolanguages,470,470,215,LexiCore,1,1,0,0,0,,Guaicuruan,Guaicuruan
 chacolanguages-TobaPilaga,Toba-pilagá,South America,-23.4989,-61.6489,toba1270,,chacolanguages,367,367,191,LexiCore Selexion,1,1,0,0,1,,Guaicuruan,Guaicuruan
-chacolanguages-Wichi,Wichí,,-23.16,-62.18,wich1261,,chacolanguages,387,387,208,LexiCore Selexion,1,1,0,0,1,,Mataguayan,Matacoan
+chacolanguages-Wichi,Wichí,South America,-23.16,-62.18,wich1261,,chacolanguages,387,387,208,LexiCore Selexion,1,1,0,0,1,,Mataguayan,Matacoan
 chaconbaniwa-Aha,Aha,South America,0.69618,-67.5028,curr1243,,chaconbaniwa,197,197,193,LexiCore,1,1,1,0,0,,Arawakan,Arawakan
 chaconbaniwa-Dzawinai,Dzawinai,South America,2.17859,-67.7704,bani1255,,chaconbaniwa,124,124,123,LexiCore,1,0,1,0,0,,Arawakan,Arawakan
 chaconbaniwa-Ehe,Ehe,South America,2.17859,-67.7704,bani1255,,chaconbaniwa,194,194,190,LexiCore,1,1,1,0,0,,Arawakan,Arawakan
@@ -1077,7 +1077,7 @@ chaconbaniwa-Tariana,Tariana,South America,0.440205,-68.9042,tari1256,,chaconban
 chaconbaniwa-Waliperi,Waliperi,South America,2.17859,-67.7704,bani1255,,chaconbaniwa,151,151,147,LexiCore,1,0,1,0,0,,Arawakan,Arawakan
 chenhmongmien-EasternLuobuohe,"Luobuohe, Eastern",Eurasia,26.63966,107.913354,luop1235,,chenhmongmien,893,893,796,LexiCore Selexion,1,1,0,0,1,Hmongic,Hmong-Mien,Hmong-Mien
 chenhmongmien-WesternLuobuohe,"Luobuohe, Western",Eurasia,26.854607,107.226676,luop1235,,chenhmongmien,856,856,767,LexiCore,1,1,0,0,0,Hmongic,Hmong-Mien,Hmong-Mien
-chenhmongmien-Chuanqiandian,Chuanqiandian,,27.51846,105.421028,chua1248,,chenhmongmien,907,907,797,LexiCore Selexion,1,1,0,0,1,Hmongic,Hmong-Mien,Hmong-Mien
+chenhmongmien-Chuanqiandian,Chuanqiandian,Eurasia,27.51846,105.421028,chua1248,,chenhmongmien,907,907,797,LexiCore Selexion,1,1,0,0,1,Hmongic,Hmong-Mien,Hmong-Mien
 chenhmongmien-CentralGuizhouChuanqiandian,"Chuanqiandian, Central Guizhou",Eurasia,26.231562,106.861969,nort2749,,chenhmongmien,820,820,721,LexiCore Selexion,1,1,0,0,1,Hmongic,Hmong-Mien,Hmong-Mien
 chenhmongmien-SouthernGuizhouChuanqiandian,"Chuanqiandian, Southern Guizhou",Eurasia,25.586343,106.323467,cent1394,,chenhmongmien,912,912,792,LexiCore Selexion,1,1,0,0,1,Hmongic,Hmong-Mien,Hmong-Mien
 chenhmongmien-NortheastYunnanChuanqiandian,"Chuanqiandian, Northeast Yunnan",Eurasia,27.096059,103.698607,larg1235,,chenhmongmien,902,902,796,LexiCore Selexion,1,1,0,0,1,Hmongic,Hmong-Mien,Hmong-Mien
@@ -1099,35 +1099,35 @@ chenhmongmien-Mien,Mien,Eurasia,24.172823,110.054488,iumi1238,,chenhmongmien,903
 chenhmongmien-KimMun,Kim Mun,Eurasia,18.955781,109.86012,kimm1245,,chenhmongmien,866,866,779,LexiCore Selexion,1,1,0,0,1,Mienic,Hmong-Mien,Hmong-Mien
 chenhmongmien-BiaoMin,Biao Min,Eurasia,25.82286,111.29622,biao1254,,chenhmongmien,867,867,773,LexiCore Selexion,1,1,0,0,1,Mienic,Hmong-Mien,Hmong-Mien
 chenhmongmien-ZaoMin,Zao Min,Eurasia,24.612303,112.266749,dzao1238,,chenhmongmien,793,793,693,LexiCore Selexion,1,1,0,0,1,Mienic,Hmong-Mien,Hmong-Mien
-chindialectsurvey-TaungthaWethet-T-1,Taungtha (Wethet),,21.691667,94.097222,rung1263,,chindialectsurvey,444,444,428,LexiCore Selexion,1,1,0,0,1,Taungtha,Bookkeeping,Sino-Tibetan
-chindialectsurvey-ThaiphumRengkheng-T-7,Thaiphum (Rengkheng),,21.6,93.4432,thai1262,,chindialectsurvey,462,462,442,LexiCore Selexion,1,1,0,0,1,Taungtha,Bookkeeping,Sino-Tibetan
-chindialectsurvey-AshoKokanTan-A-1,Asho (Kokan Tan),,19.85,94,asho1236,,chindialectsurvey,468,468,448,LexiCore Selexion,1,1,0,0,1,Asho,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-UppuKyinDwe-U-5,Uppu (Kyin Dwe),,20.97296,93.83817,chin1478,,chindialectsurvey,477,477,449,LexiCore Selexion,1,1,0,0,1,Uppu,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-LonpawKhoimalaung-U-9,Lonpaw (Khoimalaung),,20.45,94.25,chin1478,,chindialectsurvey,469,469,448,LexiCore,1,1,0,0,0,Uppu,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-MinkyaChi-U-10,Minkya (Chi),,20.45,94.25,chin1478,,chindialectsurvey,447,447,423,LexiCore,1,1,0,0,0,Uppu,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-DoituHetsawlay-U-11,Doitu (Hetsawlay),,20.366667,93.266667,song1313,,chindialectsurvey,466,466,447,LexiCore,1,1,0,0,0,Uppu,Bookkeeping,Sino-Tibetan
-chindialectsurvey-LaituKhuasung-U-12,Laitu (Khuasung),,20.57061005,93.31453705,lait1239,,chindialectsurvey,470,470,447,LexiCore,1,1,0,0,0,Uppu,Bookkeeping,Sino-Tibetan
-chindialectsurvey-EkaiDaletYwaHaung-D-1,Ekai Dalet Ywa Haung,,19.99295,93.80038,sumt1234,,chindialectsurvey,458,458,447,LexiCore,1,1,0,0,0,Dalet,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-KhulaiAyeChaungKwanwa-D-5,Khulai Aye Chaung Kwanwa,,19.4709,94.01271,sumt1234,,chindialectsurvey,460,460,448,LexiCore,1,1,0,0,0,Dalet,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-DaituNyaungChaungYwa-D-4,Daitu Nyaung Chaung Ywa,,19.67484093,94.01331329,sumt1234,,chindialectsurvey,464,464,447,LexiCore Selexion,1,1,0,0,1,Dalet,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-KhamawLakeKone-D-2,Khamaw Lake Kone,,19.96184731,93.86746216,asho1236,,chindialectsurvey,458,458,446,LexiCore,1,1,0,0,0,Dalet,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-SaingbongAyoTaung-D-3,Saingbong Ayo Taung,,19.95651054,93.85251617,asho1236,,chindialectsurvey,457,457,446,LexiCore,1,1,0,0,0,Dalet,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-LaisawThuHtayKung-A,Laisaw Thu Htay Kung,,20.38415909,93.25898743,lait1239,,chindialectsurvey,482,482,450,LexiCore,1,1,0,0,0,Mro-Khimi,Bookkeeping,Sino-Tibetan
-chindialectsurvey-HyowLaituGhungurumukParainBandarban-A,Hyow-Laitu Ghungurumukʰ Para (in Bandarban),,22.1454,92.08462,asho1236,,chindialectsurvey,306,306,301,LexiCore,1,1,0,0,0,Bangladesh,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-SonglaiHettui8KarchaungHettui-A,Songlai-Hettui 8Karchaung (Hettui),,21.3,92.85,song1313,,chindialectsurvey,473,473,448,LexiCore,1,1,0,0,0,Paletwa Daai,Bookkeeping,Sino-Tibetan
-chindialectsurvey-SonglaiMaungUmSong1MaungUmSong-A,Songlai-Maung Um (Song) 1Maung Um (Song),,21.3,92.85,song1313,,chindialectsurvey,478,478,447,LexiCore Selexion,1,1,0,0,1,Paletwa Daai,Bookkeeping,Sino-Tibetan
-chindialectsurvey-LaituAhongdong-A,Laitu Ahongdong,,20.22525024,93.41887665,lait1239,,chindialectsurvey,512,512,433,LexiCore Selexion,1,1,0,0,1,Laitu-Sumtu,Bookkeeping,Sino-Tibetan
-chindialectsurvey-NggaKantthayung-A,Ng'ga Kant-thayung,,21.2,94.016667,munc1235,,chindialectsurvey,485,485,450,LexiCore Selexion,1,1,0,0,1,Matupi Daai,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-KaangKruk-A,Kaang Kruk,,21.6,93.4432,kaan1248,,chindialectsurvey,654,654,448,LexiCore Selexion,1,1,0,0,1,Matupi Daai,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-DaaiKalim-A,Daai Kal-im,,21.6,93.4432,daai1236,,chindialectsurvey,473,473,450,LexiCore,1,1,0,0,0,Matupi Daai,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-DaaiAwisi-A,Daai Awisi,,21.6,93.4432,daai1236,,chindialectsurvey,460,460,447,LexiCore,1,1,0,0,0,Matupi Daai,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-DaaiNgxang5HungNghang-A,Daai-Ngxang 5Hung (Ng'hang),,21.3,92.85,daai1236,,chindialectsurvey,462,462,444,LexiCore,1,1,0,0,0,Paletwa Daai,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-DaaiYet3BuchaungwaYet-A,Daai-Yet 3Buchaungwa (Yet),,21.3,92.85,daai1236,,chindialectsurvey,482,482,449,LexiCore Selexion,1,1,0,0,1,Paletwa Daai,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-MuunNituShingBawk-A,Muun (Nitu) Shing Bawk,,21.366667,93.983333,munc1235,,chindialectsurvey,139,139,118,LexiCore,1,0,0,0,0,Southern Chin,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-RawngtuWeilong-A,Rawngtu Weilong,,21.366667,93.983333,ngal1291,,chindialectsurvey,492,492,448,LexiCore Selexion,1,1,0,0,1,,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-RawngtuRamtim-A,Rawngtu Ramtim,,21.6,93.4432,ngal1291,,chindialectsurvey,477,477,446,LexiCore,1,1,0,0,0,,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-MroKhimiAreong10KyaGaungvillageMrokhami-A,Mro-Khimi Areong 10Kya Gaung village (Mro-khami),,21.3,92.85,mroc1235,,chindialectsurvey,476,476,449,LexiCore Selexion,1,1,0,0,1,Paletwa Daai,Sino-Tibetan,Sino-Tibetan
-chindialectsurvey-WakungAwaPyin-A,Wakung Awa Pyin,,19.49583054,93.95348358,mroc1235,,chindialectsurvey,454,454,443,LexiCore,1,1,0,0,0,Mro-Khimi,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-TaungthaWethet-T-1,Taungtha (Wethet),Eurasia,21.691667,94.097222,rung1263,,chindialectsurvey,444,444,428,LexiCore Selexion,1,1,0,0,1,Taungtha,Bookkeeping,Sino-Tibetan
+chindialectsurvey-ThaiphumRengkheng-T-7,Thaiphum (Rengkheng),Eurasia,21.6,93.4432,thai1262,,chindialectsurvey,462,462,442,LexiCore Selexion,1,1,0,0,1,Taungtha,Bookkeeping,Sino-Tibetan
+chindialectsurvey-AshoKokanTan-A-1,Asho (Kokan Tan),Eurasia,19.85,94,asho1236,,chindialectsurvey,468,468,448,LexiCore Selexion,1,1,0,0,1,Asho,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-UppuKyinDwe-U-5,Uppu (Kyin Dwe),Eurasia,20.97296,93.83817,chin1478,,chindialectsurvey,477,477,449,LexiCore Selexion,1,1,0,0,1,Uppu,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-LonpawKhoimalaung-U-9,Lonpaw (Khoimalaung),Eurasia,20.45,94.25,chin1478,,chindialectsurvey,469,469,448,LexiCore,1,1,0,0,0,Uppu,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-MinkyaChi-U-10,Minkya (Chi),Eurasia,20.45,94.25,chin1478,,chindialectsurvey,447,447,423,LexiCore,1,1,0,0,0,Uppu,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-DoituHetsawlay-U-11,Doitu (Hetsawlay),Eurasia,20.366667,93.266667,song1313,,chindialectsurvey,466,466,447,LexiCore,1,1,0,0,0,Uppu,Bookkeeping,Sino-Tibetan
+chindialectsurvey-LaituKhuasung-U-12,Laitu (Khuasung),Eurasia,20.57061005,93.31453705,lait1239,,chindialectsurvey,470,470,447,LexiCore,1,1,0,0,0,Uppu,Bookkeeping,Sino-Tibetan
+chindialectsurvey-EkaiDaletYwaHaung-D-1,Ekai Dalet Ywa Haung,Eurasia,19.99295,93.80038,sumt1234,,chindialectsurvey,458,458,447,LexiCore,1,1,0,0,0,Dalet,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-KhulaiAyeChaungKwanwa-D-5,Khulai Aye Chaung Kwanwa,Eurasia,19.4709,94.01271,sumt1234,,chindialectsurvey,460,460,448,LexiCore,1,1,0,0,0,Dalet,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-DaituNyaungChaungYwa-D-4,Daitu Nyaung Chaung Ywa,Eurasia,19.67484093,94.01331329,sumt1234,,chindialectsurvey,464,464,447,LexiCore Selexion,1,1,0,0,1,Dalet,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-KhamawLakeKone-D-2,Khamaw Lake Kone,Eurasia,19.96184731,93.86746216,asho1236,,chindialectsurvey,458,458,446,LexiCore,1,1,0,0,0,Dalet,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-SaingbongAyoTaung-D-3,Saingbong Ayo Taung,Eurasia,19.95651054,93.85251617,asho1236,,chindialectsurvey,457,457,446,LexiCore,1,1,0,0,0,Dalet,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-LaisawThuHtayKung-A,Laisaw Thu Htay Kung,Eurasia,20.38415909,93.25898743,lait1239,,chindialectsurvey,482,482,450,LexiCore,1,1,0,0,0,Mro-Khimi,Bookkeeping,Sino-Tibetan
+chindialectsurvey-HyowLaituGhungurumukParainBandarban-A,Hyow-Laitu Ghungurumukʰ Para (in Bandarban),Eurasia,22.1454,92.08462,asho1236,,chindialectsurvey,306,306,301,LexiCore,1,1,0,0,0,Bangladesh,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-SonglaiHettui8KarchaungHettui-A,Songlai-Hettui 8Karchaung (Hettui),Eurasia,21.3,92.85,song1313,,chindialectsurvey,473,473,448,LexiCore,1,1,0,0,0,Paletwa Daai,Bookkeeping,Sino-Tibetan
+chindialectsurvey-SonglaiMaungUmSong1MaungUmSong-A,Songlai-Maung Um (Song) 1Maung Um (Song),Eurasia,21.3,92.85,song1313,,chindialectsurvey,478,478,447,LexiCore Selexion,1,1,0,0,1,Paletwa Daai,Bookkeeping,Sino-Tibetan
+chindialectsurvey-LaituAhongdong-A,Laitu Ahongdong,Eurasia,20.22525024,93.41887665,lait1239,,chindialectsurvey,512,512,433,LexiCore Selexion,1,1,0,0,1,Laitu-Sumtu,Bookkeeping,Sino-Tibetan
+chindialectsurvey-NggaKantthayung-A,Ng'ga Kant-thayung,Eurasia,21.2,94.016667,munc1235,,chindialectsurvey,485,485,450,LexiCore Selexion,1,1,0,0,1,Matupi Daai,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-KaangKruk-A,Kaang Kruk,Eurasia,21.6,93.4432,kaan1248,,chindialectsurvey,654,654,448,LexiCore Selexion,1,1,0,0,1,Matupi Daai,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-DaaiKalim-A,Daai Kal-im,Eurasia,21.6,93.4432,daai1236,,chindialectsurvey,473,473,450,LexiCore,1,1,0,0,0,Matupi Daai,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-DaaiAwisi-A,Daai Awisi,Eurasia,21.6,93.4432,daai1236,,chindialectsurvey,460,460,447,LexiCore,1,1,0,0,0,Matupi Daai,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-DaaiNgxang5HungNghang-A,Daai-Ngxang 5Hung (Ng'hang),Eurasia,21.3,92.85,daai1236,,chindialectsurvey,462,462,444,LexiCore,1,1,0,0,0,Paletwa Daai,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-DaaiYet3BuchaungwaYet-A,Daai-Yet 3Buchaungwa (Yet),Eurasia,21.3,92.85,daai1236,,chindialectsurvey,482,482,449,LexiCore Selexion,1,1,0,0,1,Paletwa Daai,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-MuunNituShingBawk-A,Muun (Nitu) Shing Bawk,Eurasia,21.366667,93.983333,munc1235,,chindialectsurvey,139,139,118,LexiCore,1,0,0,0,0,Southern Chin,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-RawngtuWeilong-A,Rawngtu Weilong,Eurasia,21.366667,93.983333,ngal1291,,chindialectsurvey,492,492,448,LexiCore Selexion,1,1,0,0,1,,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-RawngtuRamtim-A,Rawngtu Ramtim,Eurasia,21.6,93.4432,ngal1291,,chindialectsurvey,477,477,446,LexiCore,1,1,0,0,0,,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-MroKhimiAreong10KyaGaungvillageMrokhami-A,Mro-Khimi Areong 10Kya Gaung village (Mro-khami),Eurasia,21.3,92.85,mroc1235,,chindialectsurvey,476,476,449,LexiCore Selexion,1,1,0,0,1,Paletwa Daai,Sino-Tibetan,Sino-Tibetan
+chindialectsurvey-WakungAwaPyin-A,Wakung Awa Pyin,Eurasia,19.49583054,93.95348358,mroc1235,,chindialectsurvey,454,454,443,LexiCore,1,1,0,0,0,Mro-Khimi,Sino-Tibetan,Sino-Tibetan
 clarkkimmun-KimMunLaos,"Luang Nam Tha, Laos",Eurasia,20.95,101.4,kimm1245,,clarkkimmun,504,504,448,LexiCore,1,1,0,0,0,,Hmong-Mien,Hmong-Mien
 clarkkimmun-KimMunLaocai,"Lao Cai, Vietnam",Eurasia,22.33,104,kimm1245,,clarkkimmun,418,418,385,LexiCore,1,1,0,0,0,,Hmong-Mien,Hmong-Mien
 dhakalsouthwesttibetic-Gyalsumdo,Gyalsumdo,Eurasia,28.53256,84.33953,gyal1236,,dhakalsouthwesttibetic,267,267,240,LexiCore Selexion,1,1,1,0,1,Tibetic,Sino-Tibetan,Sino-Tibetan
@@ -2454,7 +2454,7 @@ kraftchadic-Westmargi,West Margi,Africa,10.83854,12.99521,puta1243,,kraftchadic,
 kraftchadic-Yingilum,Yingilum,Africa,9.9249,13.6567,nort2770,,kraftchadic,440,440,427,LexiCore Selexion,1,1,0,0,1,,Atlantic-Congo,Atlantic-Congo
 kraftchadic-Zvana,Zə̀ɣvana,Africa,11.05751,13.77847,dghw1239,,kraftchadic,445,445,427,LexiCore Selexion,1,1,0,0,1,,Afro-Asiatic,Afro-Asiatic
 lairgyalrong-Bantawa,Bantawa,Eurasia,27.117894,87.049995,bant1281,,lairgyalrong,267,267,251,LexiCore Selexion,1,1,1,0,1,Kiranti,Sino-Tibetan,Sino-Tibetan
-lairgyalrong-Stau,Stau,,30.975281,101.123742,horp1240,,lairgyalrong,252,252,237,LexiCore,1,1,1,0,0,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
+lairgyalrong-Stau,Stau,Eurasia,30.975281,101.123742,horp1240,,lairgyalrong,252,252,237,LexiCore,1,1,1,0,0,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-Japhug,Japhug,Eurasia,32.207076,101.957636,japh1234,,lairgyalrong,340,340,290,LexiCore Selexion,1,1,1,0,1,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-Tangut,Tangut,Eurasia,38.477453,106.285383,tang1334,,lairgyalrong,316,316,270,LexiCore Selexion,1,1,1,0,1,Tangut,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-WobziKhroskyabs,Wobzi Khroskyabs,Eurasia,31.62758,101.427999,eree1240,,lairgyalrong,307,307,287,LexiCore,1,1,1,0,0,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
@@ -2467,7 +2467,7 @@ lairgyalrong-XinlongQueyu,Xinlong Queyu,Eurasia,30.978459,100.260535,quey1238,,l
 lairgyalrong-PubarongQueyu,Pubarong Queyu,Eurasia,30.222522,100.778441,quey1238,,lairgyalrong,279,279,273,LexiCore Selexion,1,1,1,0,1,Qiangic,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-SiyuewuKhroskyabs,Siyuewu Khroskyabs,Eurasia,31.752277,101.423119,siya1242,,lairgyalrong,328,328,286,LexiCore Selexion,1,1,1,0,1,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-BragbarSitu,Bragbar Situ,Eurasia,31.815434,101.909098,situ1238,,lairgyalrong,312,312,287,LexiCore,1,1,1,0,0,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
-lairgyalrong-Geshiza,Geshiza,,31.028655,101.648464,horp1240,,lairgyalrong,292,292,264,LexiCore Selexion,1,1,1,0,1,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
+lairgyalrong-Geshiza,Geshiza,Eurasia,31.028655,101.648464,horp1240,,lairgyalrong,292,292,264,LexiCore Selexion,1,1,1,0,1,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-GuanyinqiaoKhroskyabs,Guanyinqiao Khroskyabs,Eurasia,31.79783,101.655159,guan1252,,lairgyalrong,336,336,287,LexiCore Selexion,1,1,1,0,1,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-NjorogsKhroskyabs,Njorogs Khroskyabs,Eurasia,31.816015,101.861052,yelo1242,,lairgyalrong,328,328,286,LexiCore Selexion,1,1,1,0,1,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
 lairgyalrong-Tshobdun,Tshobdun,Eurasia,32.208994,101.832761,tsho1240,,lairgyalrong,256,256,214,LexiCore,1,1,1,0,0,Rgyalrongic,Sino-Tibetan,Sino-Tibetan
@@ -3110,12 +3110,12 @@ robbeetstriangulation-AmamiAsama,Amami Asama,Eurasia,27.49,128.55,toku1246,,robb
 robbeetstriangulation-AmamiYamatohama,Amami Yamatohama,Eurasia,28.19,129.21,sout2954,,robbeetstriangulation,253,253,251,LexiCore Selexion,1,1,1,0,1,,Japonic,Japonic
 robbeetstriangulation-AmamiYoron,Amami Yoron,Eurasia,27.22,128.34,yoro1243,,robbeetstriangulation,253,253,249,LexiCore Selexion,1,1,1,0,1,,Japonic,Japonic
 robbeetstriangulation-Azeri,Azeri,Eurasia,40.98,46.47,nort2697,,robbeetstriangulation,279,279,251,LexiCore,1,1,1,0,0,,Turkic,Turkic
-robbeetstriangulation-Baoan,Baoan,,35.7,103,baoa1237,,robbeetstriangulation,299,299,249,LexiCore Selexion,1,1,1,0,1,,Mongolic-Khitan,Mongolic
+robbeetstriangulation-Baoan,Baoan,Eurasia,35.7,103,baoa1237,,robbeetstriangulation,299,299,249,LexiCore Selexion,1,1,1,0,1,,Mongolic-Khitan,Mongolic
 robbeetstriangulation-BarabaTatar,BarabaTatar,Eurasia,57.49,72.56,bara1273,,robbeetstriangulation,231,231,209,LexiCore Selexion,1,1,1,0,1,,Turkic,Turkic
 robbeetstriangulation-Bashkir,Bashkir,Eurasia,53.6,56.56,bash1264,,robbeetstriangulation,286,286,253,LexiCore,1,1,1,0,0,,Turkic,Turkic
 robbeetstriangulation-Buriat,Buriat,Eurasia,48.77,109,buri1258,,robbeetstriangulation,306,306,253,LexiCore,1,1,1,0,0,,Mongolic-Khitan,Mongolic
 robbeetstriangulation-Chuvash,Chuvash,Eurasia,55.49,47.16,chuv1255,,robbeetstriangulation,262,262,247,LexiCore,1,1,1,0,0,,Turkic,Turkic
-robbeetstriangulation-CrimeanTatar,CrimeanTatar,,45,34.08,crim1256,,robbeetstriangulation,278,278,247,LexiCore Selexion,1,1,1,0,1,,Turkic,Turkic
+robbeetstriangulation-CrimeanTatar,CrimeanTatar,Eurasia,45,34.08,crim1256,,robbeetstriangulation,278,278,247,LexiCore Selexion,1,1,1,0,1,,Turkic,Turkic
 robbeetstriangulation-Dagur,Dagur,Eurasia,48,124,daur1238,,robbeetstriangulation,294,294,250,LexiCore Selexion,1,1,1,0,1,,Mongolic-Khitan,Mongolic
 robbeetstriangulation-Dolgan,Dolgan,Eurasia,71.11,94.29,dolg1241,,robbeetstriangulation,248,248,234,LexiCore Selexion,1,1,1,0,1,,Turkic,Turkic
 robbeetstriangulation-Dongxian,Dongxian,Eurasia,35.58,103.56,dong1285,,robbeetstriangulation,278,278,245,LexiCore Selexion,1,1,1,0,1,,Mongolic-Khitan,Mongolic
@@ -3186,7 +3186,7 @@ robbeetstriangulation-Turkish,Turkish,Eurasia,39.87,32.87,nucl1301,,robbeetstria
 robbeetstriangulation-Turkmen,Turkmen,Eurasia,37.09,59.18,turk1304,,robbeetstriangulation,280,280,250,LexiCore Selexion,1,1,1,0,1,,Turkic,Turkic
 robbeetstriangulation-Tuvan,Tuvan,Eurasia,51.7,94.37,tuvi1240,,robbeetstriangulation,271,271,246,LexiCore Selexion,1,1,1,0,1,,Turkic,Turkic
 robbeetstriangulation-Udihe,Udihe,Eurasia,46.63,135.68,udih1248,,robbeetstriangulation,271,271,252,LexiCore,1,1,1,0,0,,Tungusic,Tungusic
-robbeetstriangulation-Ulcha,Ulcha,,51.85,140.29,ulch1242,,robbeetstriangulation,294,294,253,LexiCore Selexion,1,1,1,0,1,,Tungusic,Tungusic
+robbeetstriangulation-Ulcha,Ulcha,Eurasia,51.85,140.29,ulch1242,,robbeetstriangulation,294,294,253,LexiCore Selexion,1,1,1,0,1,,Tungusic,Tungusic
 robbeetstriangulation-Uyghur,Uyghur,Eurasia,43.88,87.38,uigh1240,,robbeetstriangulation,311,311,250,LexiCore Selexion,1,1,1,0,1,,Turkic,Turkic
 robbeetstriangulation-Uzbek,Uzbek,Eurasia,40.89,69.21,uzbe1247,,robbeetstriangulation,276,276,247,LexiCore Selexion,1,1,1,0,1,,Turkic,Turkic
 robbeetstriangulation-WestYugur,WestYugur,Eurasia,39.05,99.31,west2402,,robbeetstriangulation,260,260,237,LexiCore Selexion,1,1,1,0,1,,Turkic,Turkic
@@ -4217,8 +4217,8 @@ vanuatuvoices-Avavatisvel,Avava: Tisvel,Papunesia,-16.27153,167.39939,katb1237,,
 vanuatuvoices-Avokhokai,Avok: Hokai,Papunesia,-16.53778,167.74,avok1244,,vanuatuvoices,174,174,173,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Avokhokai2,Avok: Hokai 2,Papunesia,-16.54125,167.73977,avok1244,,vanuatuvoices,176,176,176,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Avoksmallisland,Avok: Small Island,Papunesia,-16.5218,167.77738,avok1244,,vanuatuvoices,178,178,178,LexiCore Selexion,1,0,0,0,1,,Austronesian,Austronesian
-vanuatuvoices-Axambsmallisland,Axamb: Small Island,,-16.51664,167.65287,axam1237,,vanuatuvoices,175,175,175,LexiCore,1,0,0,0,0,,Austronesian,
-vanuatuvoices-Axambsmallislandmaliambor,Axamb: Small Island-Maliambor,,-16.51721,167.65111,axam1237,,vanuatuvoices,178,178,178,LexiCore Selexion,1,0,0,0,1,,Austronesian,
+vanuatuvoices-Axambsmallisland,Axamb: Small Island,Papunesia,-16.51664,167.65287,axam1237,,vanuatuvoices,175,175,175,LexiCore,1,0,0,0,0,,Austronesian,
+vanuatuvoices-Axambsmallislandmaliambor,Axamb: Small Island-Maliambor,Papunesia,-16.51721,167.65111,axam1237,,vanuatuvoices,178,178,178,LexiCore Selexion,1,0,0,0,1,,Austronesian,
 vanuatuvoices-Bangaasaktaremb,Bangaasak: Taremb,Papunesia,-16.21925,167.571,katb1237,,vanuatuvoices,181,181,181,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Bislama1,Bislama (1),Papunesia,-16.10694,167.4208,bisl1239,,vanuatuvoices,191,191,191,LexiCore Selexion,1,1,0,0,1,,Indo-European,Indo-European
 vanuatuvoices-Bislama2,Bislama (2),Papunesia,-16.10302,167.4168,bisl1239,,vanuatuvoices,190,190,190,LexiCore,1,1,0,0,0,,Indo-European,Indo-European
@@ -4250,7 +4250,7 @@ vanuatuvoices-Letemboiaingelemolesa,Letemboi: Aingelemolesa,Papunesia,-16.41806,
 vanuatuvoices-Letemboinatingatlang,Letemboi: Natingatlang,Papunesia,-16.40056,167.6178,lete1241,,vanuatuvoices,180,180,180,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Letemboinevatanyene,Letemboi: Nevatanyene,Papunesia,-16.434,167.567,lete1241,,vanuatuvoices,153,153,152,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Letemboinewotenyene,Letemboi: Newotenyene,Papunesia,-16.2667,167.536,lete1241,,vanuatuvoices,166,166,166,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
-vanuatuvoices-Maluabaycoast,Malua Bay: Coast,,-15.98334,167.18798,malu1245,,vanuatuvoices,293,293,228,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
+vanuatuvoices-Maluabaycoast,Malua Bay: Coast,Papunesia,-15.98334,167.18798,malu1245,,vanuatuvoices,293,293,228,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
 vanuatuvoices-Maluabaymarasup,Malua Bay: Marasup,Papunesia,-15.99098,167.2198,malu1245,,vanuatuvoices,181,181,181,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Maluabaypetarmul,Malua Bay: Petarmul,Papunesia,-16.00022,167.22137,malu1245,,vanuatuvoices,177,177,177,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Maluabaytiptir,Malua Bay: Tiptir,Papunesia,-15.9905,167.21991,malu1245,,vanuatuvoices,175,175,175,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
@@ -4269,8 +4269,8 @@ vanuatuvoices-Nahavaqbanour,Nahavaq: Banour,Papunesia,-16.49503,167.4187,sout285
 vanuatuvoices-Nahavaqcarolinebay,Nahavaq: Caroline Bay,Papunesia,-16.56268,167.46,sout2857,,vanuatuvoices,187,187,183,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Nahavaqlembinwin,Nahavaq: Lembinwin,Papunesia,-16.499,167.4328,sout2857,,vanuatuvoices,171,171,165,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Nahavaqloorndavo,Nahavaq: Loorndavo,Papunesia,-16.52763,167.44872,sout2857,,vanuatuvoices,176,176,176,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
-vanuatuvoices-Nakanamangasesake,Nakanamanga: Sesake,papunesia,-17.04250452667725,168.39188512310602,sesa1243,,vanuatuvoices,235,235,223,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
-vanuatuvoices-Namakirsangava,Namakir: Sangava,papunesia,-17.070778072932043,168.38403852307852,nama1268,,vanuatuvoices,264,264,232,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
+vanuatuvoices-Nakanamangasesake,Nakanamanga: Sesake,Papunesia,-17.04250452667725,168.39188512310602,sesa1243,,vanuatuvoices,235,235,223,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
+vanuatuvoices-Namakirsangava,Namakir: Sangava,Papunesia,-17.070778072932043,168.38403852307852,nama1268,,vanuatuvoices,264,264,232,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
 vanuatuvoices-Namanlitzlitz,Naman (Litzlitz),Papunesia,-16.10139,167.3847,litz1237,,vanuatuvoices,169,169,167,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Nasarianngava,Nasarian: Ngava,Papunesia,-16.25313,167.51643,nasa1240,,vanuatuvoices,162,162,162,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Nasarianwileven,Nasarian: Wileven,Papunesia,-16.38333,167.4681,nasa1240,,vanuatuvoices,182,182,176,LexiCore Selexion,1,0,0,0,1,,Austronesian,Austronesian
@@ -4298,8 +4298,8 @@ vanuatuvoices-Nisvaiblacksands,Nisvai: Blacksands,Papunesia,-16.38847,167.78301,
 vanuatuvoices-Nisvaironevie,Nisvai: Ronevie,Papunesia,-16.41306,167.78556,nisv1234,,vanuatuvoices,181,181,180,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Nititakhatbol,Nitita: Khatbol,Papunesia,-16.18053,167.5316,niti1249,,vanuatuvoices,179,179,176,LexiCore Selexion,1,0,0,0,1,,Austronesian,Austronesian
 vanuatuvoices-Nivenuhe,Nivenuhe,Papunesia,-16.620650,168.223583,lewo1242,,vanuatuvoices,208,208,208,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
-vanuatuvoices-Nleonda,N: Leonda,,-15.314,167.852877,amba1270,,vanuatuvoices,207,207,191,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
-vanuatuvoices-Nleovandue,N: Leõ: Vandue,,-15.31851,167.820332,amba1270,,vanuatuvoices,198,198,190,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
+vanuatuvoices-Nleonda,N: Leonda,Papunesia,-15.314,167.852877,amba1270,,vanuatuvoices,207,207,191,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
+vanuatuvoices-Nleovandue,N: Leõ: Vandue,Papunesia,-15.31851,167.820332,amba1270,,vanuatuvoices,198,198,190,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Nmwerlap,N: Mwerlap,Papunesia,-14.96984,168.058964,mari1426,,vanuatuvoices,195,195,188,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Nombotkoteblacksands,Nombotkote: Blacksands,Papunesia,-16.32063,167.44212,lete1241,,vanuatuvoices,173,173,173,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Nombotkotemelkin,Nombotkote: Melkin,Papunesia,-16.32806,167.59949,lete1241,,vanuatuvoices,182,182,182,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
@@ -4325,18 +4325,18 @@ vanuatuvoices-Redstone,Red Stone,Papunesia,-16.799317,168.3885,tasi1237,,vanuatu
 vanuatuvoices-Sabunlap,Sa: Bunlap,Papunesia,-15.9575,168.26889,saaa1241,,vanuatuvoices,206,206,177,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Safrangusuksu,Sa F.: Rangusuksu,Papunesia,-15.900750,168.185000,saaa1241,,vanuatuvoices,123,123,102,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Salangdixonreef,Salang: DixonReef,Papunesia,-16.26833,167.4339,katb1237,,vanuatuvoices,176,176,176,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
-vanuatuvoices-Sapaangi,Sa: Paangi,,-15.94611,168.19444,saaa1241,,vanuatuvoices,224,224,184,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
+vanuatuvoices-Sapaangi,Sa: Paangi,Papunesia,-15.94611,168.19444,saaa1241,,vanuatuvoices,224,224,184,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
 vanuatuvoices-Saranwas,Sa: Ranwas,Papunesia,-15.968650,168.265183,saaa1241,,vanuatuvoices,208,208,177,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
-vanuatuvoices-Sbiribiri,S: Biribiri,,-15.46989,167.82893,amba1270,,vanuatuvoices,186,186,180,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
+vanuatuvoices-Sbiribiri,S: Biribiri,Papunesia,-15.46989,167.82893,amba1270,,vanuatuvoices,186,186,180,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Sivitinjavjericho,Siviti (Njav): Jericho,Papunesia,-15.97,167.28,nort3230,,vanuatuvoices,331,331,246,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Sivitinjavtanmililib2,Siviti (Njav): Tanmililib 2,Papunesia,-15.97,167.24,nort3230,,vanuatuvoices,351,351,262,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
-vanuatuvoices-Slolovele,S: Lolovele,,-15.44771,167.869802,amba1270,,vanuatuvoices,197,197,190,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
-vanuatuvoices-Sragaavavanvae,S: Raga: Avavanvae,,-15.34347,168.127388,maew1234,,vanuatuvoices,208,208,191,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
-vanuatuvoices-Ssakao,S: Sakao,,-15.42439,167.894062,amba1270,,vanuatuvoices,199,199,191,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
-vanuatuvoices-Ssungagageasanvari,S: Sungagage: Asanvari,,-15.37944,168.128889,maew1234,,vanuatuvoices,201,201,190,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
-vanuatuvoices-Ssungagageavanbatai,S: Sungagage: Avanbatai,,-15.38639,168.146667,maew1234,,vanuatuvoices,199,199,191,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
-vanuatuvoices-Ssungagageavavanvae,S: Sungagage: Avavanvae,,-15.34347,168.127388,maew1234,,vanuatuvoices,198,198,191,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
-vanuatuvoices-Sxalangibaetora,S: Xalangi: Baetora,,-15.25972,168.116944,maew1234,,vanuatuvoices,198,198,191,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
+vanuatuvoices-Slolovele,S: Lolovele,Papunesia,-15.44771,167.869802,amba1270,,vanuatuvoices,197,197,190,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
+vanuatuvoices-Sragaavavanvae,S: Raga: Avavanvae,Papunesia,-15.34347,168.127388,maew1234,,vanuatuvoices,208,208,191,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
+vanuatuvoices-Ssakao,S: Sakao,Papunesia,-15.42439,167.894062,amba1270,,vanuatuvoices,199,199,191,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
+vanuatuvoices-Ssungagageasanvari,S: Sungagage: Asanvari,Papunesia,-15.37944,168.128889,maew1234,,vanuatuvoices,201,201,190,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
+vanuatuvoices-Ssungagageavanbatai,S: Sungagage: Avanbatai,Papunesia,-15.38639,168.146667,maew1234,,vanuatuvoices,199,199,191,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
+vanuatuvoices-Ssungagageavavanvae,S: Sungagage: Avavanvae,Papunesia,-15.34347,168.127388,maew1234,,vanuatuvoices,198,198,191,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
+vanuatuvoices-Sxalangibaetora,S: Xalangi: Baetora,Papunesia,-15.25972,168.116944,maew1234,,vanuatuvoices,198,198,191,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Taolia,Taolia,Papunesia,-16.812167,168.406783,tasi1237,,vanuatuvoices,212,212,211,LexiCore,1,1,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Tapemaraxusmae,Tape (Maraxus): Mae,Papunesia,-16.10139,167.26806,mara1399,,vanuatuvoices,156,156,156,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Tapetautu1,Tape: Tautu 1,Papunesia,-16.08389,167.2833,mara1399,,vanuatuvoices,149,149,149,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
@@ -4358,7 +4358,7 @@ vanuatuvoices-Unuanoferai,Unua: Noferai,Papunesia,-16.23333,167.60139,unua1237,,
 vanuatuvoices-Uripivdurpif,Uripiv: Durpif,Papunesia,-16.07265,167.447,urip1240,,vanuatuvoices,171,171,169,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Uripivpotnambe,Uripiv: Potnambe,Papunesia,-16.07391,167.45203,urip1240,,vanuatuvoices,167,167,165,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Uripivtautu,Uripiv: Tautu,Papunesia,-16.07,167.40,urip1240,,vanuatuvoices,326,326,246,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
-vanuatuvoices-Uripivtautuvillage,Uripiv: Tautu Village,,-16.06661,167.3975,urip1240,,vanuatuvoices,169,169,169,LexiCore,1,0,0,0,0,,Austronesian,
+vanuatuvoices-Uripivtautuvillage,Uripiv: Tautu Village,Papunesia,-16.06661,167.3975,urip1240,,vanuatuvoices,169,169,169,LexiCore,1,0,0,0,0,,Austronesian,
 vanuatuvoices-Vaobeetehul,Vao: Beetehul,Papunesia,-15.89728,167.30443,vaoo1237,,vanuatuvoices,109,109,108,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
 vanuatuvoices-Vaocanada,Vao: Canada,Papunesia,-15.89978,167.30731,vaoo1237,,vanuatuvoices,173,173,173,LexiCore Selexion,1,0,0,0,1,,Austronesian,Austronesian
 vanuatuvoices-Vaopeteri,Vao: Peteri,Papunesia,-15.89887,167.3051,vaoo1237,,vanuatuvoices,161,161,160,LexiCore,1,0,0,0,0,,Austronesian,Austronesian
@@ -4805,12 +4805,21 @@ davletshinaztecan-NorthPueblaNahuatl,North Puebla Nahuatl,North America,20.1356,
 davletshinaztecan-PajapanNahuat,Pajapán Nahuat,North America,18.2513,-94.6647,isth1241,,davletshinaztecan,99,99,99,LexiCore Selexion,1,0,1,1,1,,Uto-Aztecan,Uto-Aztecan
 davletshinaztecan-Pipil,Pipil,North America,13.8931,-89.443,pipi1250,,davletshinaztecan,98,98,98,LexiCore,1,0,1,1,0,,Uto-Aztecan,Uto-Aztecan
 davletshinaztecan-TetelcingoNahuatl,Tetelcingo Nahuatl,North America,18.8854,-98.893,tete1251,,davletshinaztecan,98,98,98,LexiCore,1,0,1,1,0,,Uto-Aztecan,Uto-Aztecan
+deepadungpalaung-ChuDongGua,Chu Dong Gua,Eurasia,24.330889,98.393125,shwe1236,,deepadungpalaung,100,100,100,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
 deepadungpalaung-MengDan,Meng Dan,Eurasia,24.296522,98.379886,khan1274,,deepadungpalaung,99,99,99,LexiCore Selexion,1,0,1,0,1,Palaung,Austroasiatic,Austroasiatic
 deepadungpalaung-NanSang,Nan Sang,Eurasia,24.019728,97.819736,ruma1248,,deepadungpalaung,99,99,99,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
 deepadungpalaung-GuangKa,Guang Ka,Eurasia,24.065714,97.796281,ruma1248,,deepadungpalaung,98,98,98,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
 deepadungpalaung-MangBang,Mang Bang,Eurasia,24.416392,98.399078,ruma1248,,deepadungpalaung,100,100,100,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
-deepadungpalaung-XiangZhaiTang,Xiang Zhai Tang,Eurasia,24.323819,98.556639,ruma1248,,deepadungpalaung,97,97,96,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
+deepadungpalaung-XiangZhaiTang,Xiang Zhai Tang,Eurasia,24.323819,98.556639,raoj1238,,deepadungpalaung,97,97,96,LexiCore Selexion,1,0,1,0,1,Palaung,Austroasiatic,Austroasiatic
 deepadungpalaung-NamHsan,Namhsan,Eurasia,22.965064,97.163239,shwe1236,,deepadungpalaung,99,99,99,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
+deepadungpalaung-KhunHawt,Khun Hawt,Eurasia,22.965064,97.163239,shwe1236,,deepadungpalaung,98,98,98,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
+deepadungpalaung-HtanHsan,Htan Hsan,Eurasia,22.675133,97.289942,shwe1236,,deepadungpalaung,99,99,99,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
+deepadungpalaung-PangKham,Pangkham,Eurasia,22.672097,97.161167,ruch1235,,deepadungpalaung,98,98,98,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
+deepadungpalaung-ManLoi,Man Loi,Eurasia,22.636019,97.139264,ruch1235,,deepadungpalaung,99,99,99,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
+deepadungpalaung-NyaungGone,Nyaung Gone,Eurasia,20.635025,96.545772,ruch1235,,deepadungpalaung,99,99,99,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
+deepadungpalaung-BanPaw,Ban Paw,Eurasia,21.311225,99.557550,ruch1235,,deepadungpalaung,100,100,100,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
+deepadungpalaung-NoeLae,Noe Lae,Eurasia,19.941803,99.044742,ruch1235,,deepadungpalaung,100,100,100,LexiCore Selexion,1,0,1,0,1,Palaung,Austroasiatic,Austroasiatic
+deepadungpalaung-PongNuea,Pong Nuea,Eurasia,20.321525,99.866817,ruch1235,,deepadungpalaung,99,99,99,LexiCore,1,0,1,0,0,Palaung,Austroasiatic,Austroasiatic
 dravlex-Badga,Badga,Eurasia,11.3094,76.5974,bada1257,,dravlex,101,101,95,LexiCore Selexion,1,0,1,0,1,,Dravidian,Dravidian
 dravlex-Betta_Kurumba,Betta_Kurumba,Eurasia,11.6385,76.6064,bett1235,,dravlex,121,121,100,LexiCore Selexion,1,0,1,0,1,,Dravidian,Dravidian
 dravlex-Brahui,Brahui,Eurasia,29.04,66.56,brah1256,,dravlex,107,107,100,LexiCore Selexion,1,0,1,0,1,,Dravidian,Dravidian
@@ -4916,8 +4925,8 @@ gaotb-YiDafang,Yi (Dafang),Eurasia,25.77,102.37,wusa1235,,gaotb,100,100,100,Lexi
 gaotb-YiNanjian,Yi (Nanjian),Eurasia,24.87,100.71,xish1235,,gaotb,100,100,100,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
 gaotb-YiNanhua,Yi (Nanhua),Eurasia,25.5,101.3,lolo1259,,gaotb,99,99,99,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
 gaotb-Liso,Lisu,Eurasia,26.91,98.94,lisu1250,,gaotb,100,100,100,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
-gaotb-LijangNaxi,Naxi (Lijiang),,27.46,100.18,nais1236,,gaotb,100,100,100,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
-gaotb-YongningNaxi,Naxi (Yongning),,27.46,100.18,nais1236,,gaotb,100,100,100,LexiCore Selexion,1,0,1,0,1,,Sino-Tibetan,Sino-Tibetan
+gaotb-LijangNaxi,Naxi (Lijiang),Eurasia,27.46,100.18,nais1236,,gaotb,100,100,100,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
+gaotb-YongningNaxi,Naxi (Yongning),Eurasia,27.46,100.18,nais1236,,gaotb,100,100,100,LexiCore Selexion,1,0,1,0,1,,Sino-Tibetan,Sino-Tibetan
 gaotb-Lahu,Lahu,Eurasia,21.27,100.21,lahu1253,,gaotb,100,100,100,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
 gaotb-Jinou,Jinuo,Eurasia,22.05,101.06,youl1235,,gaotb,99,99,99,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
 gaotb-DaliBai,Bai (Dali),Eurasia,25.52,100.29,sout2730,,gaotb,100,100,100,LexiCore Selexion,1,0,1,0,1,,Sino-Tibetan,Sino-Tibetan
@@ -4932,17 +4941,17 @@ gaotb-LhaoVo,Langsu [Maru],Eurasia,24.94,99.83,maru1249,,gaotb,98,98,98,LexiCore
 gaotb-Nung,Nu (Fugong) [Anong],Eurasia,27.29,98.73,nung1282,,gaotb,99,99,99,LexiCore Selexion,1,0,1,0,1,,Sino-Tibetan,Sino-Tibetan
 gaotb-Nusu,Nu (Bijiang) [Nusu],Eurasia,26.73,98.88,nusu1239,,gaotb,100,100,100,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
 gaotb-Derung,Trung,Eurasia,28.01,98.49,drun1238,,gaotb,100,100,100,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
-gaotb-Jingpho,Jingpho,,25.46,97.33,jing1260,,gaotb,100,100,100,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
+gaotb-Jingpho,Jingpho,Eurasia,25.46,97.33,jing1260,,gaotb,100,100,100,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
 gaotb-Miju,Deng (Kaman) [Miju],Eurasia,28.47,97.04,miju1243,,gaotb,100,100,100,LexiCore Selexion,1,0,1,0,1,,Sino-Tibetan,Sino-Tibetan
 gaotb-DigaroMishmi,Deng(Darang) [Taraon],Eurasia,28.5,96.88,diga1241,,gaotb,100,100,100,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
 gaotb-IduMishmi,Lhoba (yidu) [Idu],Eurasia,29.45,95.65,idum1241,,gaotb,100,100,100,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
 gaotb-Bokar,Lhoba (Bokar) [Bokar],Eurasia,28.37,94.04,boka1249,,gaotb,100,100,100,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
-gaotb-Puroik,Luoba (Sulung) [Puroik],,27.32,92.38,puro1234,,gaotb,100,100,100,LexiCore Selexion,1,0,1,0,1,,Sino-Tibetan,Sino-Tibetan
+gaotb-Puroik,Luoba (Sulung) [Puroik],Eurasia,27.32,92.38,puro1234,,gaotb,100,100,100,LexiCore Selexion,1,0,1,0,1,,Sino-Tibetan,Sino-Tibetan
 houchinese-Beijing,Beijing,Eurasia,39.9385466,116.1172766,beij1234,,houchinese,180,180,137,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
 houchinese-Changsha,Changsha,Eurasia,28.85032,112.943344,chan1326,,houchinese,195,195,137,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
 houchinese-Chengdu,Chengdu,Eurasia,30.605768,103.970947,chen1267,,houchinese,238,238,136,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
 houchinese-Guangzhou,Guangzhou,Eurasia,23.1253503,112.9476548,guan1279,,houchinese,175,175,129,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
-houchinese-Guixian,Guiyang,,26.71691,106.638336,guiy1235,,houchinese,203,203,138,LexiCore Selexion,1,0,1,0,1,,Hmong-Mien,Hmong-Mien
+houchinese-Guixian,Guiyang,Eurasia,26.71691,106.638336,guiy1235,,houchinese,203,203,138,LexiCore Selexion,1,0,1,0,1,,Hmong-Mien,Hmong-Mien
 houchinese-Hangzhou,Hangzhou,Eurasia,30.261316,120.0318057,hang1257,,houchinese,162,162,135,LexiCore Selexion,1,0,1,0,1,,Sino-Tibetan,Sino-Tibetan
 houchinese-Hefei,Hefei,Eurasia,31.873593,117.223663,hefe1234,,houchinese,150,150,136,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
 houchinese-Jinan,Jinan,Eurasia,36.690777,116.997299,jina1245,,houchinese,230,230,137,LexiCore,1,0,1,0,0,,Sino-Tibetan,Sino-Tibetan
@@ -5017,7 +5026,7 @@ iecor-172,Middle Breton,Eurasia,48.6900000000,-3.9800000000,midd1359,,iecor,174,
 iecor-174,Khotanese,Eurasia,37.0600000000,80.0100000000,khot1251,,iecor,155,154,155,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-175,Kashubian,Eurasia,54.3500000000,17.8900000000,kash1274,,iecor,174,174,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-176,Polabian,Eurasia,52.9400000000,11.1300000000,pola1255,,iecor,166,166,162,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
-iecor-177,Greek: New Testament,,31.7700000000,35.2100000000,koin1234,,iecor,160,160,158,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
+iecor-177,Greek: New Testament,Eurasia,31.7700000000,35.2100000000,koin1234,,iecor,160,160,158,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-178,Middle Persian,Eurasia,29.9300000000,52.8900000000,pahl1241,,iecor,165,165,164,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-179,Parthian,Eurasia,37.9500000000,58.2000000000,part1239,,iecor,135,135,135,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-189,Neapolitan,Eurasia,40.8500000000,14.2500000000,neap1235,,iecor,170,170,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
@@ -5027,7 +5036,7 @@ iecor-201,Greek: Italiot,Eurasia,37.9400000000,15.8300000000,apul1236,,iecor,177
 iecor-210,Greek: Cappadocian,Eurasia,38.7300000000,35.4500000000,capp1239,,iecor,176,176,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-211,Greek: Pontic,Eurasia,40.8500000000,40.2600000000,pont1253,,iecor,177,177,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-219,Palula,Eurasia,35.4340000000,71.7510000000,ashr1238,,iecor,170,170,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
-iecor-220,Franco-Provençal,,45.9200000000,7.0500000000,fran1269,,iecor,170,170,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
+iecor-220,Franco-Provençal,Eurasia,45.9200000000,7.0500000000,fran1269,,iecor,170,170,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-222,Bhojpuri,Eurasia,26.7600000000,83.3700000000,bhoj1244,,iecor,170,170,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-229,Breton: Treger,Eurasia,48.7900000000,-3.2300000000,treg1244,,iecor,177,177,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-234,Breton: Gwened,Eurasia,47.6600000000,-2.7600000000,vann1244,,iecor,176,176,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
@@ -5047,7 +5056,7 @@ iecor-284,Khowar,Eurasia,36.2800000000,72.5150000000,khow1242,,iecor,170,170,170
 iecor-288,Gawarbati,Eurasia,35.3110000000,71.5500000000,gawa1247,,iecor,170,170,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-289,Old Catalan,Eurasia,41.3800000000,1.0800000000,oldc1251,,iecor,170,170,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-290,Gawri,Eurasia,35.4780000000,72.5890000000,kala1373,,iecor,170,170,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
-iecor-291,Raji: Barzoki,,33.7900000000,51.2200000000,cent2264,,iecor,173,173,169,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
+iecor-291,Raji: Barzoki,Eurasia,33.7900000000,51.2200000000,cent2264,,iecor,173,173,169,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-292,Pashto,Eurasia,34.1200000000,72.4600000000,yusu1238,,iecor,170,170,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-293,Pashai: North-West,Eurasia,34.9600000000,70.0550000000,nort2665,,iecor,170,170,170,LexiCore Selexion,1,0,1,0,1,,Indo-European,Indo-European
 iecor-295,Old High German,Eurasia,50.5540000000,9.6720000000,oldh1241,,iecor,170,170,170,LexiCore,1,0,1,0,0,,Indo-European,Indo-European
@@ -5427,7 +5436,7 @@ wheelerutoaztecan-Cahuilla,Cahuilla,North America,33.5324,-116.691,cahu1264,,whe
 wheelerutoaztecan-TohonoOodham,Tohono O'odham,North America,31.7973,-111.995,toho1245,,wheelerutoaztecan,141,141,101,LexiCore Selexion,1,0,0,0,1,,Uto-Aztecan,Uto-Aztecan
 wheelerutoaztecan-PimaBajo,Pima Bajo,North America,28.654,-108.326,pima1248,,wheelerutoaztecan,134,134,101,LexiCore,1,0,0,0,0,,Uto-Aztecan,Uto-Aztecan
 wheelerutoaztecan-NTepehuan,N Tepehuan,North America,26.4348,-107.379,nort2959,,wheelerutoaztecan,116,116,92,LexiCore,1,0,0,0,0,,Uto-Aztecan,Uto-Aztecan
-wheelerutoaztecan-STepehuan,S Tepehuan,,25.41208,-100.94302,sout2975,,wheelerutoaztecan,102,102,87,LexiCore Selexion,1,0,0,0,1,,Uto-Aztecan,Uto-Aztecan
+wheelerutoaztecan-STepehuan,S Tepehuan,North America,25.41208,-100.94302,sout2975,,wheelerutoaztecan,102,102,87,LexiCore Selexion,1,0,0,0,1,,Uto-Aztecan,Uto-Aztecan
 wheelerutoaztecan-Guarijio,Guarijío,North America,27.8685,-108.437,huar1255,,wheelerutoaztecan,109,109,86,LexiCore,1,0,0,0,0,,Uto-Aztecan,Uto-Aztecan
 wheelerutoaztecan-Raramuri,Rarámuri,North America,27.5648,-107.154,cent2131,,wheelerutoaztecan,123,123,101,LexiCore,1,0,0,0,0,,Uto-Aztecan,Uto-Aztecan
 wheelerutoaztecan-Eudeve,Eudeve,North America,28.5,-110.0,eude1234,,wheelerutoaztecan,94,94,80,LexiCore,1,0,0,0,0,,Uto-Aztecan,Uto-Aztecan
