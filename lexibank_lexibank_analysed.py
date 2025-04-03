@@ -410,6 +410,8 @@ class Dataset(BaseDataset):
                     Language_ID=language.id,
                     Parameter_ID=attribute,
                     Value=len(getattr(language, attribute)),
+                    Comment="Automatically computed feature.",
+                    Source=[self.dataset_meta[language.dataset]["ID"]]
                 ))
             for feature in features:
                 v = feature(language)
@@ -421,6 +423,8 @@ class Dataset(BaseDataset):
                     Parameter_ID=feature.id,
                     Value=v,
                     Code_ID=f'{feature.id}-{v}' if feature.categories else None,
+                    Comment="Automatically computed feature.",
+                    Source=[self.dataset_meta[language.dataset]["ID"]]
                 ))
             return True
 
@@ -615,7 +619,8 @@ class Dataset(BaseDataset):
                 writer.objects['ParameterTable'].append(dict(
                     ID=clts_id,
                     Name=' / '.join(glyphs),
-                    CLTS_ID=clts_id,
+                    Description=" ".join(clts_id.split("_")),
+                    cltsReference=clts_id,
                 ))
                 for lid, freq in sorted(occurrences.items()):
                     writer.objects['ValueTable'].append(dict(
@@ -623,4 +628,5 @@ class Dataset(BaseDataset):
                         Language_ID=lid,
                         Parameter_ID=clts_id,
                         Value=freq,
+                        Source=[self.dataset_meta[languages[lid]["Dataset"]]["ID"]]
                     ))
