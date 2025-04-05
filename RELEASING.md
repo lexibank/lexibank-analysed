@@ -11,7 +11,7 @@ $ cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="Lexi
 
 $ cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="Forms,Concepts" --language-properties-colormaps="plasma,viridis"  --markersize 30 --pacific-centered --width 30 --height 15 --format png --output plots/coverage.png
 
-$ cldfbench cldfviz.map cldf/phonology-metadata.json --parameters CVQualityRatio --language-filters '{"Name":"^(?!Adyghe|Yorno So|Togo Kan|Karata$).*$", "Glottocode": "^(?!kajt1238)"}' --colormaps plasma --markersize 30 --pacific-centered --format png --width 30 --height 15 --output plots/CVQualityRagio
+$ cldfbench cldfviz.map cldf/phonology-metadata.json --parameters CVQualityRatio --language-filters '{"Name":"^(?!Adyghe|Yorno So|Togo Kan|Karata$).*$", "Glottocode": "^(?!kajt1238)"}' --colormaps plasma --markersize 30 --pacific-centered --format png --width 30 --height 15 --output plots/CVQualityRatio.png
 
 $ cldfbench cldfviz.map cldf/phonology-metadata.json --parameters VelarNasal --colormaps tol --pacific-centered --markersize 30 --format png --width 30 --height 15 --output plots/VelarNasal.png
 
