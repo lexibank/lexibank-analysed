@@ -14,28 +14,28 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "Lexibank Analysed",
-    "dcat:accessURL": "https://github.com/lexibank/lexibank-study/",
+    "dcat:accessURL": "https://github.com/lexibank/lexibank-analysed",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "https://github.com/lexibank/lexibank-study/",
+            "rdf:about": "https://github.com/lexibank/lexibank-analysed",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.0-6-gb10b9ef",
+            "dc:created": "v2.0-12-g19bc4b5",
             "dc:title": "Repository"
         },
         {
-            "rdf:about": "git@github.com:glottolog/glottolog",
+            "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
             "dc:created": "v5.1",
             "dc:title": "Glottolog"
         },
         {
-            "rdf:about": "git@github.com:concepticon/concepticon-data",
+            "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
             "dc:created": "v3.3.0",
             "dc:title": "Concepticon"
         },
         {
-            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
             "dc:created": "v2.3.0",
             "dc:title": "CLTS"
@@ -343,6 +343,10 @@
                     {
                         "datatype": "string",
                         "name": "Dataset"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Incollections"
                     },
                     {
                         "datatype": "string",

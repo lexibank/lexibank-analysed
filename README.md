@@ -1,6 +1,6 @@
 # Lexibank Analysed
 
-[![CLDF validation](https://github.com/lexibank/lexibank-study//workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/lexibank-study//actions?query=workflow%3ACLDF-validation)
+[![CLDF validation](https://github.com/lexibank/lexibank-analysed/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/lexibank-analysed/actions?query=workflow%3ACLDF-validation)
 
 ## How to cite
 
@@ -29,7 +29,7 @@ The core-sets are defined by using the following criteria:
 ## Statistics
 
 
-[![CLDF validation](https://github.com/lexibank/lexibank-study//workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/lexibank-study//actions?query=workflow%3ACLDF-validation)
+[![CLDF validation](https://github.com/lexibank/lexibank-analysed/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/lexibank-analysed/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")

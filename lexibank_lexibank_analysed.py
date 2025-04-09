@@ -246,7 +246,8 @@ class Dataset(BaseDataset):
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#contributionReference',
             },
             {'name': 'Forms', 'datatype': 'integer', 'dc:description': 'Number of forms'},
-            {'name': "FormsWithSounds", "datatype": "integer", "dc:description": "Number of forms with sounds"},
+            {'name': "FormsWithSounds", "datatype": "integer",
+             "dc:description": "Number of forms with sounds"},
             {'name': 'Concepts', 'datatype': 'integer', 'dc:description': 'Number of concepts'},
             {'name': 'Incollections', 'datatype': "string", "separator": " ",
              "dc:description": "Subselections of Lexibank"},
@@ -313,8 +314,7 @@ class Dataset(BaseDataset):
                 writer.objects['collections.csv'].append(d)
 
     def cmd_makecldf(self, args):
-        cid2gls = {c.id: c.gloss for c in
-                   self.concepticon.conceptsets.values()}
+        cid2gls = {c.id: c.gloss for c in self.concepticon.conceptsets.values()}
         languoids = self.glottolog.cached_languoids
         visited = set()
         collstats = collections.OrderedDict()
@@ -346,8 +346,7 @@ class Dataset(BaseDataset):
                             Name=v,
                         ))
 
-        def _add_language(writer, language, features, attr_features, collection='',
-                          visited=None):
+        def _add_language(writer, language, features, attr_features, collection='', visited=None):
             if visited is None:
                 visited = set()
             langs = languages.get(language.id)
@@ -356,9 +355,9 @@ class Dataset(BaseDataset):
                     family = languoids[language.glottocode].family
                     macroareas = [m.name for m in languoids[language.glottocode].macroareas]
                     if not macroareas:
-                        macroareas = [l.macroareas[0].name for l in
+                        macroareas = [lang.macroareas[0].name for lang in
                                       languoids[language.glottocode].iter_descendants()
-                                      if l.macroareas]
+                                      if lang.macroareas]
 
                     langs = {
                         "ID": language.id,
@@ -396,6 +395,7 @@ class Dataset(BaseDataset):
                                 concept.id for concept in language.concepts)
                     except KeyError:
                         print(f"problems with {language.dataset}")
+
                 if CONDITIONS["Lexibank"](language):
                     collstats["Lexibank"]["Glottocodes"].add(language.glottocode)
                     collstats["Lexibank"]["Varieties"] += 1

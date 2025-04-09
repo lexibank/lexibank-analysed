@@ -79,21 +79,23 @@ In addition to feature data, the CLDF data also contains
 This data is contained in the tables [contributions.csv](cldf/contributions.csv) and [collections.csv](cldf/collections.csv). We can look at the numbers of unique Glottocodes or Concepts and the number of individual forms in each collection:
 
 ```shell
-$ pip install csvkit
-$ csvcut -c ID,Glottocodes,Concepts,Forms cldf/collections.csv | csvformat -T
-ID	Glottocodes	Concepts	Forms
-LexiCore	3107	3209	1847439
-ClicsCore	2064	3177	1540641
-CogCore	1786	1980	464690
-ProtoCore	41	1137	13150
-Lexibank	3107	3209	1847439
-Selexion	3107	3193	1241274
+pip install csvkit
+csvcut -c ID,Glottocodes,Concepts,Forms cldf/collections.csv | csvformat -T -l | tabulate -s "\t" -1 -f "pipe"
 ```
+
+|   line_number | ID        |   Glottocodes |   Concepts |   Forms |
+|--------------:|:----------|--------------:|-----------:|--------:|
+|             1 | LexiCore  |          3107 |       3209 | 1847439 |
+|             2 | ClicsCore |          2064 |       3177 | 1540641 |
+|             3 | CogCore   |          1786 |       1980 |  464690 |
+|             4 | ProtoCore |            41 |       1137 |   13150 |
+|             5 | Lexibank  |          3107 |       3209 | 1847439 |
+|             6 | Selexion  |          3107 |       3193 | 1241274 |
 
 or list how many source datasets are aggregated in each of these collections:
 
 ```shell
-$ csvgrep -c Collection_IDs -m Lexi cldf/contributions.csv | csvstat --count
+csvgrep -c Collection_IDs -m Lexi cldf/contributions.csv | csvstat --count
 134
 ```
 
@@ -111,7 +113,7 @@ To check for available features, you can inspect the CLDF ParameterTable of the 
 CLDF datasets:
 
 ```shell
-$ csvcut -c ID,Name cldf/phonology-features.csv | column -s"," -t
+csvcut -c ID,Name cldf/phonology-features.csv | column -s"," -t
 ID                         Name
 concepts                   Number of concepts
 forms                      Number of forms
@@ -150,7 +152,7 @@ SyllableOffset             complexity of the syllable offset
 ```
 
 ```shell
-$ csvcut -c ID,Name cldf/lexicon-features.csv | column -s"," -t
+csvcut -c ID,Name cldf/lexicon-features.csv | column -s"," -t
 ID                                Name
 concepts                          Number of concepts
 forms                             Number of forms
@@ -190,42 +192,45 @@ HearAndSmell                      hear and smell colexified or not
 You can also easily inspect the data for outliers:
 
 ```shell
-$ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvstat -c Value
-  4. "Value"
-
-	Type of data:          Number
-	Contains null values:  False
-	Non-null values:       5477
-	Unique values:         64
-	Smallest value:        7,
-	Largest value:         107,
-	Sum:                   130.995,
-	Mean:                  23,917
-	Median:                23,
-	StDev:                 8,2
-	Most decimal places:   0
-	Most common values:    22, (367x)
-	                       23, (366x)
-	                       20, (347x)
-	                       21, (314x)
-	                       19, (306x)
-
-Row count: 5477
+csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvstat -c Value -l | tabulate -s "\t" -1 -f "pipe"
 ```
+
+|                 |   4. "Value"                     |
+|:----------------|:---------------------------------|
+|                 | Type of data:          Number    |
+|                 | Contains null values:  False     |
+|                 | Non-null values:       5477      |
+|                 | Unique values:         64        |
+|                 | Smallest value:        7         |
+|                 | Largest value:         107       |
+|                 | Sum:                   130,995   |
+|                 | Mean:                  23.917    |
+|                 | Median:                23        |
+|                 | StDev:                 8.2       |
+|                 | Most decimal places:   0         |
+|                 | Most common values:    22 (367x) |
+|                 | 23 (366x)                        |
+|                 | 20 (347x)                        |
+|                 | 21 (314x)                        |
+|                 | 19 (306x)                        |
+| Row count: 5477 |                                  |
 
 ```shell
-$ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvgrep -c Value -r"^(7|98)$" | csvcut -c Language_ID,Value
-Language_ID,Value
-chenhmongmien-NortheastYunnanChuanqiandian,98
-johanssonsoundsymbolic-Rotokas,7
-transnewguineaorg-keoru-ahia,7
+csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvgrep -c Value -r"^(7|98)$" | csvcut -c Language_ID,Value | tabulate -s "," -1 -f "pipe"
 ```
+
+| Language_ID                                |   Value |
+|:-------------------------------------------|--------:|
+| chenhmongmien-NortheastYunnanChuanqiandian |      98 |
+| johanssonsoundsymbolic-Rotokas             |       7 |
+| transnewguineaorg-keoru-ahia               |       7 |
 
 And we can correlate our computed features with the corresponding data from other datasets, such as WALS and PHOIBLE (as implemented in [correlations.py](lexibank_analysed_commands/correlations.py)):
 
 ```shell
 cldfbench lexibank-analysed.correlations
 ```
+
 | Feature | WALS/LexiCore | WALS/PHOIBLE | LexiCore/PHOIBLE | N |
 |:----------|:----------------|:---------------|:-------------------|----:|
 | 1A | 0.67 / 0.0 | 0.92 / 0.0 | 0.71 / 0.0 | 281 |
@@ -233,7 +238,6 @@ cldfbench lexibank-analysed.correlations
 | 3A | 0.56 / 0.0 | 0.76 / 0.0 | 0.68 / 0.0 | 283 |
 | 4A | 0.53 / 0.0 | 0.67 / 0.0 | 0.55 / 0.0 | 283 |
 | 5A | 0.36 / 0.0 | 0.55 / 0.0 | 0.59 / 0.0 | 283 |
-
 
 ## 4 Data visualization
 
@@ -278,12 +282,14 @@ Map plots for categorical variables like `VelarNasal` are supported as well. Thi
 We can inspect the values:
 
 ```shell
-$ csvgrep -c Parameter_ID -m "VelarNasal" cldf/phonology-codes.csv | csvcut -c ID,Name | column -s, -t
-ID            Name
-VelarNasal-1  velar nasal occurs in syllable-initial position
-VelarNasal-2  velar nasal occurs but not in syllable-initial position
-VelarNasal-3  velar nasal is missing
+csvgrep -c Parameter_ID -m "VelarNasal" cldf/phonology-codes.csv | csvcut -c ID,Name | tabulate -s "," -1 -f "pipe"
 ```
+
+| ID           | Name                                                    |
+|:-------------|:--------------------------------------------------------|
+| VelarNasal-1 | velar nasal occurs in syllable-initial position         |
+| VelarNasal-2 | velar nasal occurs but not in syllable-initial position |
+| VelarNasal-3 | velar nasal is missing                                  |
 
 and plot it on a map:
 
