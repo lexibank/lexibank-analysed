@@ -10,7 +10,7 @@ from pycldf import Dataset, iter_datasets
 from pyclts import CLTS
 from cltoolkit.models import Language, Inventory
 from cltoolkit.features import FEATURES
-from cldfzenodo import Record
+from cldfzenodo import API
 from clldutils.clilib import Table, add_format
 
 from lexibank_lexibank_analysed import Dataset as LB, CLTS_2_3
@@ -23,7 +23,7 @@ def register(parser):
 def get_cldf_dataset(doi, directory):
     if directory.exists():
         return next(iter_datasets(directory))
-    return Dataset.from_metadata(Record.from_doi(doi).download_dataset(directory))
+    return API.get_record(doi).download_dataset(directory)
 
 
 def run(args):
