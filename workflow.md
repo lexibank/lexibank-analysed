@@ -79,21 +79,23 @@ In addition to feature data, the CLDF data also contains
 This data is contained in the tables [contributions.csv](cldf/contributions.csv) and [collections.csv](cldf/collections.csv). We can look at the numbers of unique Glottocodes or Concepts and the number of individual forms in each collection:
 
 ```shell
-$ pip install csvkit
-$ csvcut -c ID,Glottocodes,Concepts,Forms cldf/collections.csv | csvformat -T
-ID      Glottocodes     Concepts        Forms
-LexiCore        2791    3208    1775323
-ClicsCore       2064    3177    1540641
-CogCore 1442    1973    414550
-ProtoCore       32      1135    11949
-Lexibank        2791    3208    1775323
-Selexion        2791    3192    1210178
+pip install csvkit
+csvcut -c ID,Glottocodes,Concepts,Forms cldf/collections.csv | csvformat -T -l | tabulate -s "\t" -1 -f "pipe"
 ```
+
+|   line_number | ID        |   Glottocodes |   Concepts |   Forms |
+|--------------:|:----------|--------------:|-----------:|--------:|
+|             1 | LexiCore  |          3107 |       3209 | 1847439 |
+|             2 | ClicsCore |          2064 |       3177 | 1540641 |
+|             3 | CogCore   |          1786 |       1980 |  464690 |
+|             4 | ProtoCore |            41 |       1137 |   13150 |
+|             5 | Lexibank  |          3107 |       3209 | 1847439 |
+|             6 | Selexion  |          3107 |       3193 | 1241274 |
 
 or list how many source datasets are aggregated in each of these collections:
 
 ```shell
-$ csvgrep -c Collection_IDs -m Lexi cldf/contributions.csv | csvstat --count
+csvgrep -c Collection_IDs -m Lexi cldf/contributions.csv | csvstat --count
 134
 ```
 
@@ -102,7 +104,7 @@ $ csvgrep -c Collection_IDs -m Lexi cldf/contributions.csv | csvstat --count
 ```shell
 csvsql --query "select id, name, cast(glottocodes as float) / cast(doculects as float) as ratio from contributions order by ratio limit 1" cldf/contributions.csv 
 ID,Name,ratio
-cals,"CLDF dataset derived from Mennecier et al.'s ""Central Asian Language Survey"" from 2016",0.0681
+cals,"CLDF dataset derived from Mennecier et al.'s ""Central Asian Language Survey"" from 2016",0.06818181818181818
 ```
 
 ### Feature data
@@ -111,7 +113,7 @@ To check for available features, you can inspect the CLDF ParameterTable of the 
 CLDF datasets:
 
 ```shell
-$ csvcut -c ID,Name cldf/phonology-features.csv | column -s"," -t
+csvcut -c ID,Name cldf/phonology-features.csv | column -s"," -t
 ID                         Name
 concepts                   Number of concepts
 forms                      Number of forms
@@ -150,7 +152,7 @@ SyllableOffset             complexity of the syllable offset
 ```
 
 ```shell
-$ csvcut -c ID,Name cldf/lexicon-features.csv | column -s"," -t
+csvcut -c ID,Name cldf/lexicon-features.csv | column -s"," -t
 ID                                Name
 concepts                          Number of concepts
 forms                             Number of forms
@@ -190,35 +192,38 @@ HearAndSmell                      hear and smell colexified or not
 You can also easily inspect the data for outliers:
 
 ```shell
-$ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvstat -c Value
-  4. "Value"
-
-        Type of data:          Number
-        Contains null values:  False
-        Non-null values:       4745
-        Unique values:         64
-        Smallest value:        7
-        Largest value:         107
-        Sum:                   115,029
-        Mean:                  24.242
-        Median:                23
-        StDev:                 8.479
-        Most decimal places:   0
-        Most common values:    22 (325x)
-                               23 (311x)
-                               20 (297x)
-                               21 (269x)
-                               19 (264x)
-
-Row count: 4745
+csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvstat -c Value -l | tabulate -s "\t" -1 -f "pipe"
 ```
+
+|                 |   4. "Value"                     |
+|:----------------|:---------------------------------|
+|                 | Type of data:          Number    |
+|                 | Contains null values:  False     |
+|                 | Non-null values:       5477      |
+|                 | Unique values:         64        |
+|                 | Smallest value:        7         |
+|                 | Largest value:         107       |
+|                 | Sum:                   130,995   |
+|                 | Mean:                  23.917    |
+|                 | Median:                23        |
+|                 | StDev:                 8.2       |
+|                 | Most decimal places:   0         |
+|                 | Most common values:    22 (367x) |
+|                 | 23 (366x)                        |
+|                 | 20 (347x)                        |
+|                 | 21 (314x)                        |
+|                 | 19 (306x)                        |
+| Row count: 5477 |                                  |
 
 ```shell
-$ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvgrep -c Value -r"^(7|98)$" | csvcut -c Language_ID,Value
-Language_ID,Value
-chenhmongmien-NortheastYunnanChuanqiandian,98
-johanssonsoundsymbolic-Rotokas,7
+csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvgrep -c Value -r"^(7|98)$" | csvcut -c Language_ID,Value | tabulate -s "," -1 -f "pipe"
 ```
+
+| Language_ID                                |   Value |
+|:-------------------------------------------|--------:|
+| chenhmongmien-NortheastYunnanChuanqiandian |      98 |
+| johanssonsoundsymbolic-Rotokas             |       7 |
+| transnewguineaorg-keoru-ahia               |       7 |
 
 And we can correlate our computed features with the corresponding data from other datasets, such as WALS and PHOIBLE (as implemented in [correlations.py](lexibank_analysed_commands/correlations.py)):
 
@@ -228,23 +233,31 @@ cldfbench lexibank-analysed.correlations
 
 | Feature | WALS/LexiCore | WALS/PHOIBLE | LexiCore/PHOIBLE | N |
 |:----------|:----------------|:---------------|:-------------------|----:|
-| 1A | 0.67 / 0.0 | 0.92 / 0.0 | 0.70 / 0.0 | 265 |
-| 2A | 0.54 / 0.0 | 0.68 / 0.0 | 0.71 / 0.0 | 267 |
-| 3A | 0.55 / 0.0 | 0.76 / 0.0 | 0.67 / 0.0 | 267 |
-| 4A | 0.50 / 0.0 | 0.67 / 0.0 | 0.53 / 0.0 | 267 |
-| 5A | 0.36 / 0.0 | 0.55 / 0.0 | 0.58 / 0.0 | 267 |
+| 1A | 0.67 / 0.0 | 0.92 / 0.0 | 0.71 / 0.0 | 281 |
+| 2A | 0.54 / 0.0 | 0.68 / 0.0 | 0.7 / 0.0 | 283 |
+| 3A | 0.56 / 0.0 | 0.76 / 0.0 | 0.68 / 0.0 | 283 |
+| 4A | 0.53 / 0.0 | 0.67 / 0.0 | 0.55 / 0.0 | 283 |
+| 5A | 0.36 / 0.0 | 0.55 / 0.0 | 0.59 / 0.0 | 283 |
 
 ## 4 Data visualization
 
 Visual exploration of the data can be done with `cldfviz`, a `cldfbench` plugin to visualize CLDF datasets.
 
-Let's first look at the distribution of languages in LexiCore and ClicsCore on a map:
+First, we can look at all languages in Lexibank with their geographic distribution (to obtain the corresponding PNG file that we show here, add the parameters `-format=png`, `--width 30` and `--height 15` to your command. You must also make sure to install `cldfviz` with `cartopy` support. If you follow the commands as shown here, they will all result in interactive [leaflet maps](https://leafletjs.com/).
+
+```shell
+cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="LexiCore" --language-properties-colormaps='{"1":"#050505"}'  --markersize 10 --pacific-centered --no-legend
+```
+
+![basemap](plots/basemap.png)
+
+We can now look at the distribution of languages in LexiCore and ClicsCore on a map:
 
 ```shell
 cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="LexiCore,ClicsCore,CogCore" --language-properties-colormaps='{"1":"#fde725"},{"1":"#21918c", "0":"#f8f8ff"},{"1":"#440154", "0":"#f8f8ff"}'  --markersize 15 --pacific-centered
 ```
 
-![doculects](analysis/plots/doculects.png)
+![doculects](plots/doculects.png)
 
 We can also plot the number of forms and concepts in the different languages:
 
@@ -252,7 +265,7 @@ We can also plot the number of forms and concepts in the different languages:
 cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="Forms,Concepts" --language-properties-colormaps="plasma,viridis"  --markersize 15 --pacific-centered
 ```
 
-![coverage](analysis/plots/coverage.png)
+![coverage](plots/coverage.png)
 
 We can plot continuous variables on a map, e.g. `CVQualityRatio`:
 
@@ -260,21 +273,23 @@ We can plot continuous variables on a map, e.g. `CVQualityRatio`:
 cldfbench cldfviz.map cldf/phonology-metadata.json --parameters CVQualityRatio --language-filters '{"Name":"^(?!Adyghe|Yorno So|Togo Kan|Karata$).*$", "Glottocode": "^(?!kajt1238)"}' --colormaps plasma --pacific-centered
 ```
 
-A screenshot of the resulting [leaflet map](https://leafletjs.com/) is shown below. (To plot printable maps, install `cldfviz` with `cartopy` support and choose a different output format using the `--format` option.)
+A screenshot of the resulting [leaflet map](https://leafletjs.com/) is shown below.
 
-![consonant quality size](analysis/plots/CVQualityRatio.png)
+![consonant quality size](plots/CVQualityRatio.png)
 
 Map plots for categorical variables like `VelarNasal` are supported as well. This feature is equivalent to [feature 9A from WALS](https://wals.info/feature/9A).
 
 We can inspect the values:
 
 ```shell
-$ csvgrep -c Parameter_ID -m "VelarNasal" cldf/phonology-codes.csv | csvcut -c ID,Name | column -s, -t
-ID            Name
-VelarNasal-1  velar nasal occurs in syllable-initial position
-VelarNasal-2  velar nasal occurs but not in syllable-initial position
-VelarNasal-3  velar nasal is missing
+csvgrep -c Parameter_ID -m "VelarNasal" cldf/phonology-codes.csv | csvcut -c ID,Name | tabulate -s "," -1 -f "pipe"
 ```
+
+| ID           | Name                                                    |
+|:-------------|:--------------------------------------------------------|
+| VelarNasal-1 | velar nasal occurs in syllable-initial position         |
+| VelarNasal-2 | velar nasal occurs but not in syllable-initial position |
+| VelarNasal-3 | velar nasal is missing                                  |
 
 and plot it on a map:
 
@@ -282,7 +297,7 @@ and plot it on a map:
 cldfbench cldfviz.map cldf/phonology-metadata.json --parameters VelarNasal --colormaps tol --pacific-centered
 ```
 
-![Velar Nasal](analysis/plots/VelarNasal.png)
+![Velar Nasal](plots/VelarNasal.png)
 
 As a final type of feature, consider `SkinInBark`. This feature is a so-called partial colexification, which means that the word expressing "skin" recurs in part in the word expressing "bark" in the language variety in question, while not being identical with it. This feature has two major values, `true` and `false`, and -- as a third case -- `None`, when data are missing (there is no word for "skin" or for "bark" in our data). We can plot the feature in the same way in which we plotted the data before
 
@@ -290,7 +305,7 @@ As a final type of feature, consider `SkinInBark`. This feature is a so-called p
 cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters SkinInBark --pacific-centered
 ```
 
-![Skin in Bark](analysis/plots/SkinInBark.png)
+![Skin in Bark](plots/SkinInBark.png)
 
 You can also plot two features at the same time onto a map. In order to do so, just select those features which you think are useful to be inspected synchronously, and type:
 
@@ -300,4 +315,4 @@ cldfbench cldfviz.map cldf/lexicon-metadata.json --parameters ArmAndHand,LegAndF
 
 The resulting plot offers a new account on the data by combining feature information for two features.
 
-![ArmAndHand-LegAndFoot](analysis/plots/ArmAndHand-LegAndFoot.png)
+![ArmAndHand-LegAndFoot](plots/ArmAndHand-LegAndFoot.png)

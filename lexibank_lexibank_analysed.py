@@ -88,6 +88,7 @@ class CustomLanguage(Language):
     FormsWithSounds = attr.ib(default=None)
     Concepts = attr.ib(default=None)
     Dataset = attr.ib(default=None)
+    Incollections = attr.ib(default=None)
     LexiCore = attr.ib(default=None)
     ClicsCore = attr.ib(default=None)
     CogCore = attr.ib(default=None)
@@ -245,7 +246,8 @@ class Dataset(BaseDataset):
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#contributionReference',
             },
             {'name': 'Forms', 'datatype': 'integer', 'dc:description': 'Number of forms'},
-            {'name': "FormsWithSounds", "datatype": "integer", "dc:description": "Number of forms with sounds"},
+            {'name': "FormsWithSounds", "datatype": "integer",
+             "dc:description": "Number of forms with sounds"},
             {'name': 'Concepts', 'datatype': 'integer', 'dc:description': 'Number of concepts'},
             {'name': 'Incollections', 'datatype': "string", "separator": " ",
              "dc:description": "Subselections of Lexibank"},
@@ -312,8 +314,7 @@ class Dataset(BaseDataset):
                 writer.objects['collections.csv'].append(d)
 
     def cmd_makecldf(self, args):
-        cid2gls = {c.id: c.gloss for c in
-                   self.concepticon.conceptsets.values()}
+        cid2gls = {c.id: c.gloss for c in self.concepticon.conceptsets.values()}
         languoids = self.glottolog.cached_languoids
         visited = set()
         collstats = collections.OrderedDict()
@@ -345,8 +346,7 @@ class Dataset(BaseDataset):
                             Name=v,
                         ))
 
-        def _add_language(writer, language, features, attr_features, collection='',
-                          visited=None):
+        def _add_language(writer, language, features, attr_features, collection='', visited=None):
             if visited is None:
                 visited = set()
             langs = languages.get(language.id)
@@ -355,9 +355,9 @@ class Dataset(BaseDataset):
                     family = languoids[language.glottocode].family
                     macroareas = [m.name for m in languoids[language.glottocode].macroareas]
                     if not macroareas:
-                        macroareas = [l.macroareas[0].name for l in
+                        macroareas = [lang.macroareas[0].name for lang in
                                       languoids[language.glottocode].iter_descendants()
-                                      if l.macroareas]
+                                      if lang.macroareas]
 
                     langs = {
                         "ID": language.id,
@@ -395,6 +395,7 @@ class Dataset(BaseDataset):
                                 concept.id for concept in language.concepts)
                     except KeyError:
                         print(f"problems with {language.dataset}")
+
                 if CONDITIONS["Lexibank"](language):
                     collstats["Lexibank"]["Glottocodes"].add(language.glottocode)
                     collstats["Lexibank"]["Varieties"] += 1
@@ -410,6 +411,8 @@ class Dataset(BaseDataset):
                     Language_ID=language.id,
                     Parameter_ID=attribute,
                     Value=len(getattr(language, attribute)),
+                    Comment="Automatically computed feature.",
+                    Source=[self.dataset_meta[language.dataset]["ID"]]
                 ))
             for feature in features:
                 v = feature(language)
@@ -421,6 +424,8 @@ class Dataset(BaseDataset):
                     Parameter_ID=feature.id,
                     Value=v,
                     Code_ID=f'{feature.id}-{v}' if feature.categories else None,
+                    Comment="Automatically computed feature.",
+                    Source=[self.dataset_meta[language.dataset]["ID"]]
                 ))
             return True
 
@@ -615,7 +620,8 @@ class Dataset(BaseDataset):
                 writer.objects['ParameterTable'].append(dict(
                     ID=clts_id,
                     Name=' / '.join(glyphs),
-                    CLTS_ID=clts_id,
+                    Description=" ".join(clts_id.split("_")),
+                    cltsReference=clts_id,
                 ))
                 for lid, freq in sorted(occurrences.items()):
                     writer.objects['ValueTable'].append(dict(
@@ -623,4 +629,5 @@ class Dataset(BaseDataset):
                         Language_ID=lid,
                         Parameter_ID=clts_id,
                         Value=freq,
+                        Source=[self.dataset_meta[languages[lid]["Dataset"]]["ID"]]
                     ))
