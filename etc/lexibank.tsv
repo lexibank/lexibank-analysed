@@ -36,7 +36,7 @@ hantganbangime	300	300	hantganbangime	lexibank	Hantgan2022b	10.5281/zenodo.13319
 hattorijaponic	200	200	hattorijaponic	sequencecomparison	Hattori1973	10.5281/zenodo.13169462	x	x	x		v1.1
 heathdogon	944	880	heathdogon	languageorphans	Moran2016	10.5281/zenodo.13304440	x	x			v0.3
 hubercolumbian	366	347	hubercolumbian	lexibank	Huber1992	10.5281/zenodo.13254493	x	x			v4.0.2
-huntergatherer	744	408	huntergatherer	lexibank	HunterGatherer	10.5281/zenodo.13832119	x	x			v2.1
+huntergatherer	744	408	huntergatherer	lexibank	Bowernetal2021	10.5281/zenodo.13832119	x	x			v2.1
 idssegmented	1310	1308	idssegmented	intercontinental-dictionary-series	IDS	10.5281/zenodo.13832130	x	x			v1.2
 ivanisuansu	250	250	ivanisuansu	lexibank	Ivani2019	10.5281/zenodo.13254433	x	x			v2.0
 johanssonsoundsymbolic	344	284	johanssonsoundsymbolic	lexibank	Johansson2020	10.5281/zenodo.14001750	x	x			v1.3
@@ -85,12 +85,12 @@ tls	1052	650	tls	lexibank	Nurse1975	10.5281/zenodo.13163463	x	x			v4.2
 tolmiebritishcolumbia	210	200	tolmiebritishcolumbia	lexibank	Tolmie1884	10.5281/zenodo.13143482	x	x			v1.1
 transnewguineaorg	1176	888	transnewguineaorg	lexibank	Greenhill2015	10.5281/zenodo.14162587	x	x			v3.2
 tryonsolomon	323	313	tryonsolomon	lexibank	Tryon1983	10.5281/zenodo.13150089	x	x			v3.1
-tuled	447	439	tuled	lexibank	TULED	10.5281/zenodo.14777803	x	x	x		v1.0
-vanuatuvoices	426	426	vanuatuvoices	lexibank	VanuatuVoices	10.5281/zenodo.14614178	x	x			v1.3
+tuled	447	439	tuled	lexibank	Gerardi2022a	10.5281/zenodo.14777803	x	x	x		v1.0
+vanuatuvoices	426	426	vanuatuvoices	lexibank	Takau2024	10.5281/zenodo.14614178	x	x			v1.3
 visserkalamang	855	854	visserkalamang	intercontinental-dictionary-series	Visser2021	10.5281/zenodo.13220870	x	x			v2.2
 walworthpolynesian	210	210	walworthpolynesian	lexibank	Walworth2018	10.5281/zenodo.13218906	x	x	x		v1.1
 wangbai	458	404	wangbai	lexibank	Wang2004b	10.5281/zenodo.13163051	x	x			v1.1
-wold	1814	1458	wold	lexibank	WOLD	10.5281/zenodo.13861321	x	x			v4.1
+wold	1814	1458	wold	lexibank	Haspelmath2009	10.5281/zenodo.13861321	x	x			v4.1
 yanglalo	1000	877	yanglalo	lexibank	Yang2011	10.5281/zenodo.13306849	x	x	x	x	v4.0
 yangyi	1001	877	yangyi	lexibank	Yang2022	10.5281/zenodo.13220883	x	x			v1.3
 yuchinese	1307	1305	yuchinese	intercontinental-dictionary-series	Yu2021	10.5281/zenodo.13284157	x	x			v2.1
