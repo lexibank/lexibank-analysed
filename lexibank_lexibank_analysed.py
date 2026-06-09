@@ -192,6 +192,7 @@ class Dataset(BaseDataset):
                 publisher="Zenodo",
                 year=record.year,
                 address="Geneva",
+                version=record.version_tag,
                 doi=record.doi)
             if editors:
                 bib["editor"] = " and ".join(editors)
