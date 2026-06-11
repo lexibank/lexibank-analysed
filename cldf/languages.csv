@@ -2296,7 +2296,7 @@ johanssonsoundsymbolic-Soo,Soo,Africa,2.58367,34.7595,sooo1256,,johanssonsoundsy
 johanssonsoundsymbolic-Southeastijo,Southeast Ijo,Africa,4.44235,6.32192,sout2774,,johanssonsoundsymbolic,325,325,265,LexiCore Selexion,1,1,0,0,1,,Ijoid,Ijoid
 johanssonsoundsymbolic-SouthernNambikuara,Southern Nambikuára,South America,-14.3707,-59.5187,sout2994,,johanssonsoundsymbolic,274,274,216,LexiCore Selexion,1,1,0,0,1,,Nambiquaran,Nambiquaran
 johanssonsoundsymbolic-SouthernPomo,Southern Pomo,North America,38.7643,-122.545,sout2984,,johanssonsoundsymbolic,223,223,183,LexiCore Selexion,1,1,0,0,1,,Pomoan,Pomoan
-johanssonsoundsymbolic-Suabo,Suabo,Papunesia,-2.07971,132.157,suab1238,,johanssonsoundsymbolic,233,233,206,LexiCore Selexion,1,1,0,0,1,,Inanwatan,Inanwatan
+johanssonsoundsymbolic-Suabo,Suabo,Papunesia,-2.07971,132.157,suab1238,,johanssonsoundsymbolic,233,233,206,LexiCore Selexion,1,1,0,0,1,,South Bird's Head,Inanwatan
 johanssonsoundsymbolic-Sulka,Sulka,Papunesia,-5.03471,151.891,sulk1246,,johanssonsoundsymbolic,165,165,154,LexiCore Selexion,1,0,0,0,1,,,Sulka
 johanssonsoundsymbolic-Sumerian,Sumerian,Eurasia,31.3,45.6667,sume1241,,johanssonsoundsymbolic,245,245,231,LexiCore Selexion,1,1,0,0,1,,,Sumerian
 johanssonsoundsymbolic-Suri,Suri,Africa,6.03205,35.0823,suri1267,,johanssonsoundsymbolic,280,280,241,LexiCore Selexion,1,1,0,0,1,,Surmic,Surmic
@@ -2897,7 +2897,7 @@ papuanvoices-Abun,Abun,Papunesia,-0.57,132.42,abun1252,,papuanvoices,214,214,214
 papuanvoices-Ambel,Ambel,Papunesia,-0.18,130.92,waig1244,,papuanvoices,214,214,214,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
 papuanvoices-Ansus,Ansus,Papunesia,-1.73,135.81,ansu1237,,papuanvoices,213,213,213,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
 papuanvoices-Biak,Biak,Papunesia,-0.95,135.88,biak1248,,papuanvoices,211,211,211,LexiCore Selexion,1,1,0,0,1,,Austronesian,Austronesian
-papuanvoices-Irires,Irires,Papunesia,-0.6051,132.4896,irir1234,,papuanvoices,213,213,213,LexiCore Selexion,1,1,0,0,1,,Maybratic,Maybratic
+papuanvoices-Irires,Irires,Papunesia,-0.6051,132.4896,irir1234,,papuanvoices,213,213,213,LexiCore Selexion,1,1,0,0,1,,East Bird's Head,Maybratic
 papuanvoices-Mee,Mee,Papunesia,-3.89,136.02,ekar1243,,papuanvoices,214,214,214,LexiCore Selexion,1,1,0,0,1,,Nuclear Trans New Guinea,Nuclear Trans New Guinea
 papuanvoices-Mekwnalca,Mek W.: Nalca,Papunesia,-4.26,139.88,nalc1240,,papuanvoices,214,214,214,LexiCore Selexion,1,1,0,0,1,,Nuclear Trans New Guinea,Nuclear Trans New Guinea
 papuanvoices-Miyah,Miyah,Papunesia,-0.76268,132.57953,maiy1240,,papuanvoices,215,215,215,LexiCore Selexion,1,1,0,0,1,,Maybratic,Maybratic
@@ -3575,10 +3575,10 @@ transnewguineaorg-ankave,Ankave,Papunesia,-7.19444,145.754,anka1246,,transnewgui
 transnewguineaorg-ap-ma,Ap Ma,Papunesia,-4.35147,144.085,apma1241,,transnewguineaorg,181,181,165,LexiCore Selexion,1,0,0,0,1,,Keram,Keram
 transnewguineaorg-apali,Apali,Papunesia,-5.1727,145.023,apal1256,,transnewguineaorg,423,423,290,LexiCore Selexion,1,1,0,0,1,,Nuclear Trans New Guinea,Nuclear Trans New Guinea
 transnewguineaorg-aramo,Pinai-Hagahai (Aramo Dialect),Papunesia,-5.12624,144.137,pina1252,,transnewguineaorg,114,114,107,LexiCore,1,0,0,0,0,,Piawi,Piawi
-transnewguineaorg-arandai-barau,Arandai (Barau Dialect),Papunesia,-2.08016,132.983,aran1237,,transnewguineaorg,151,151,133,LexiCore,1,0,0,0,0,,South Bird's Head Family,South Bird's Head Family
-transnewguineaorg-arandai-kasuwer,Arandai (Kasuwer Dialect),Papunesia,-2.08016,132.983,aran1237,,transnewguineaorg,95,95,80,LexiCore,1,0,0,0,0,,South Bird's Head Family,South Bird's Head Family
-transnewguineaorg-arandai-sebyar,Arandai (Sebyar Dialect),Papunesia,-2.08016,132.983,aran1237,,transnewguineaorg,203,203,180,LexiCore,1,1,0,0,0,,South Bird's Head Family,South Bird's Head Family
-transnewguineaorg-arandai-weriagar,Arandai (Weriagar Dialect),Papunesia,-2.08016,132.983,aran1237,,transnewguineaorg,301,301,267,LexiCore Selexion,1,1,0,0,1,,South Bird's Head Family,South Bird's Head Family
+transnewguineaorg-arandai-barau,Arandai (Barau Dialect),Papunesia,-2.08016,132.983,aran1237,,transnewguineaorg,151,151,133,LexiCore,1,0,0,0,0,,South Bird's Head,South Bird's Head Family
+transnewguineaorg-arandai-kasuwer,Arandai (Kasuwer Dialect),Papunesia,-2.08016,132.983,aran1237,,transnewguineaorg,95,95,80,LexiCore,1,0,0,0,0,,South Bird's Head,South Bird's Head Family
+transnewguineaorg-arandai-sebyar,Arandai (Sebyar Dialect),Papunesia,-2.08016,132.983,aran1237,,transnewguineaorg,203,203,180,LexiCore,1,1,0,0,0,,South Bird's Head,South Bird's Head Family
+transnewguineaorg-arandai-weriagar,Arandai (Weriagar Dialect),Papunesia,-2.08016,132.983,aran1237,,transnewguineaorg,301,301,267,LexiCore Selexion,1,1,0,0,1,,South Bird's Head,South Bird's Head Family
 transnewguineaorg-arawum,Arawum,Papunesia,-5.52787,145.903,araw1272,,transnewguineaorg,334,334,276,LexiCore,1,1,0,0,0,,Nuclear Trans New Guinea,Nuclear Trans New Guinea
 transnewguineaorg-ari,Ari,Papunesia,-7.95526,142.4,arii1243,,transnewguineaorg,104,104,90,LexiCore Selexion,1,0,0,0,1,,Suki-Gogodala,Suki-Gogodala
 transnewguineaorg-asas,Asas,Papunesia,-5.69345,145.549,asas1240,,transnewguineaorg,334,334,275,LexiCore,1,1,0,0,0,,Nuclear Trans New Guinea,Nuclear Trans New Guinea

@@ -55,7 +55,7 @@ The workflow consists of a sequence of calls to `cldfbench` subcommands, which i
    These datasets are created running
 
    ```shell
-   cldfbench lexibank.makecldf lexibank_lexibank_analysed.py --glottolog path_to_glottolog --concepticon path_to_concepticon --clts path_to_clts
+   cldfbench lexibank.makecldf lexibank_lexibank_analysed.py --glottolog path_to_glottolog --glottolog-version v5.3 --concepticon path_to_concepticon --concepticon-version v3.4.0 --clts path_to_clts --clts-version v2.3.0
    ```
 
    with the paths to Glottolog (`path_to_glottolog`), Concepticon (`path_to_concepticon`) and CLTS (`path_to_clts`) pointing to the corresponding repositories from Step 1.
