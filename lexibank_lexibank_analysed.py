@@ -211,6 +211,8 @@ class Dataset(BaseDataset):
             else:
                 raise ValueError(row['ID'])
 
+            github_repos = github_repos.replace('git@github.com:', 'https://github.com/')
+
             # create bibtex and write to new file
             bib = dict(
                 author=" and ".join(record.creators),
