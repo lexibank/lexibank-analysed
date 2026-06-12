@@ -19,7 +19,7 @@
         {
             "rdf:about": "https://github.com/lexibank/lexibank-analysed",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.1-4-gf1f4834",
+            "dc:created": "v2.1-5-g3970c70",
             "dc:title": "Repository"
         },
         {
@@ -56,7 +56,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 106854,
+            "dc:extent": 107349,
             "tableSchema": {
                 "columns": [
                     {
@@ -254,7 +254,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 3238,
+            "dc:extent": 3253,
             "tableSchema": {
                 "columns": [
                     {

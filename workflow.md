@@ -85,12 +85,12 @@ csvcut -c ID,Glottocodes,Concepts,Forms cldf/collections.csv | csvformat -T -l |
 
 |   line_number | ID        |   Glottocodes |   Concepts |   Forms |
 |--------------:|:----------|--------------:|-----------:|--------:|
-|             1 | LexiCore  |          3107 |       3209 | 1847439 |
-|             2 | ClicsCore |          2064 |       3177 | 1540641 |
-|             3 | CogCore   |          1786 |       1980 |  464690 |
+|             1 | LexiCore  |          3120 |       3209 | 1853003 |
+|             2 | ClicsCore |          2076 |       3177 | 1544835 |
+|             3 | CogCore   |          1797 |       1980 |  466317 |
 |             4 | ProtoCore |            41 |       1137 |   13150 |
-|             5 | Lexibank  |          3107 |       3209 | 1847439 |
-|             6 | Selexion  |          3107 |       3193 | 1241274 |
+|             5 | Lexibank  |          3120 |       3209 | 1853003 |
+|             6 | Selexion  |          3120 |       3193 | 1244908 |
 
 or list how many source datasets are aggregated in each of these collections:
 
@@ -199,21 +199,21 @@ csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvs
 |:----------------|:---------------------------------|
 |                 | Type of data:          Number    |
 |                 | Contains null values:  False     |
-|                 | Non-null values:       5477      |
+|                 | Non-null values:       5501      |
 |                 | Unique values:         64        |
 |                 | Smallest value:        7         |
 |                 | Largest value:         107       |
-|                 | Sum:                   130,995   |
-|                 | Mean:                  23.917    |
+|                 | Sum:                   131,578   |
+|                 | Mean:                  23.919    |
 |                 | Median:                23        |
-|                 | StDev:                 8.2       |
+|                 | StDev:                 8.183     |
 |                 | Most decimal places:   0         |
-|                 | Most common values:    22 (367x) |
+|                 | Most common values:    22 (371x) |
 |                 | 23 (366x)                        |
-|                 | 20 (347x)                        |
-|                 | 21 (314x)                        |
-|                 | 19 (306x)                        |
-| Row count: 5477 |                                  |
+|                 | 20 (355x)                        |
+|                 | 21 (316x)                        |
+|                 | 19 (308x)                        |
+| Row count: 5501 |                                  |
 
 ```shell
 csvgrep -c Parameter_ID -m ConsonantQualitySize cldf/phonology-values.csv | csvgrep -c Value -r"^(7|98)$" | csvcut -c Language_ID,Value | tabulate -s "," -1 -f "pipe"
@@ -233,17 +233,17 @@ cldfbench lexibank-analysed.correlations
 
 | Feature | WALS/LexiCore | WALS/PHOIBLE | LexiCore/PHOIBLE | N |
 |:----------|:----------------|:---------------|:-------------------|----:|
-| 1A | 0.67 / 0.0 | 0.92 / 0.0 | 0.71 / 0.0 | 281 |
-| 2A | 0.54 / 0.0 | 0.68 / 0.0 | 0.7 / 0.0 | 283 |
-| 3A | 0.56 / 0.0 | 0.76 / 0.0 | 0.68 / 0.0 | 283 |
-| 4A | 0.53 / 0.0 | 0.67 / 0.0 | 0.55 / 0.0 | 283 |
-| 5A | 0.36 / 0.0 | 0.55 / 0.0 | 0.59 / 0.0 | 283 |
+| 1A | 0.66 / 0.0 | 0.92 / 0.0 | 0.7 / 0.0 | 285 |
+| 2A | 0.55 / 0.0 | 0.68 / 0.0 | 0.7 / 0.0 | 287 |
+| 3A | 0.57 / 0.0 | 0.76 / 0.0 | 0.68 / 0.0 | 287 |
+| 4A | 0.52 / 0.0 | 0.67 / 0.0 | 0.54 / 0.0 | 287 |
+| 5A | 0.37 / 0.0 | 0.55 / 0.0 | 0.59 / 0.0 | 287 |
 
 ## 4 Data visualization
 
 Visual exploration of the data can be done with `cldfviz`, a `cldfbench` plugin to visualize CLDF datasets.
 
-First, we can look at all languages in Lexibank with their geographic distribution (to obtain the corresponding PNG file that we show here, add the parameters `-format=png`, `--width 30` and `--height 15` to your command. You must also make sure to install `cldfviz` with `cartopy` support. If you follow the commands as shown here, they will all result in interactive [leaflet maps](https://leafletjs.com/).
+First, we can look at all languages in Lexibank with their geographic distribution (to obtain the corresponding PNG file that we show here, add the parameters `--format=png --width 30 --height 15` to your command. You must also make sure to install `cldfviz` with `cartopy` support. If you follow the commands as shown here, they will all result in interactive [leaflet maps](https://leafletjs.com/).
 
 ```shell
 cldfbench cldfviz.map cldf/phonology-metadata.json --language-properties="LexiCore" --language-properties-colormaps='{"1":"#050505"}'  --markersize 10 --pacific-centered --no-legend

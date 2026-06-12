@@ -710,6 +710,66 @@ abvdoceanic-AlavasWowoWowo1_1314-170_when-2 | Alavas-Wowo (Wowo 1) | WHEN | taha
 abvdoceanic-AlavasWowoWowo1_1314-170_when-3 | Alavas-Wowo (Wowo 1) | WHEN | tahaðe | t a h a ð e
 abvdoceanic-AlavasWowoWowo1_1314-180_far-2 | Alavas-Wowo (Wowo 1) | FAR | luhuɣa | l u h u ɣ a
 abvdoceanic-AlavasWowoWowo1_1314-180_far-3 | Alavas-Wowo (Wowo 1) | FAR | luhuɣa | l u h u ɣ a
+vanuatuvoices-Tutuba-9_nine-2 | Tutuba | NINE | esua | e s u a
+vanuatuvoices-Tutuba-7_seven-2 | Tutuba | SEVEN | eᵐbitu | e ⁿb i t u
+vanuatuvoices-Tutuba-3_three-2 | Tutuba | THREE | etolu | e t o l u
+vanuatuvoices-Tutuba-2_two-2 | Tutuba | TWO | erua | e r u a
+vanuatuvoices-Tutuba-8_eight-2 | Tutuba | EIGHT | oalu | o a l u
+vanuatuvoices-Tutuba-1_one-2 | Tutuba | ONE | etea | e t e a
+vanuatuvoices-Tutuba-12_fifty-2 | Tutuba | FIFTY | ŋaβlelima | ŋ a β l e l i m a
+vanuatuvoices-Tutuba-10_ten-2 | Tutuba | TEN | saŋaβul | s a ŋ a β u l
+vanuatuvoices-Tutuba-6_six-2 | Tutuba | SIX | eono | e o n o
+vanuatuvoices-Piamatsina-7_seven-2 | Piamatsina | SEVEN | pitu | p i t u
+vanuatuvoices-Piamatsina-82_night-2 | Piamatsina | NIGHT | ⁿᵈroⁿᵈro | n d r o n d r o
+vanuatuvoices-Piamatsina-14_onethousand-2 | Piamatsina | THOUSAND | tar_βaha_senaβul | t a r + β a h a + s e n a β u l
+vanuatuvoices-Piamatsina-11_twenty-2 | Piamatsina | TWENTY | ŋaβlarua | ŋ a β l a r u a
+vanuatuvoices-Piamatsina-2_two-2 | Piamatsina | TWO | rua | r u a
+vanuatuvoices-Piamatsina-12_fifty-2 | Piamatsina | FIFTY | ŋaβlalima | ŋ a β l a l i m a
+vanuatuvoices-Piamatsina-13_onehundred-2 | Piamatsina | HUNDRED | tar_βaha_tewa | t a r + β a h a + t e w a
+vanuatuvoices-Piamatsina-5_five-2 | Piamatsina | FIVE | lima | l i m a
+vanuatuvoices-Narango-1_one-2 | Narango | ONE | maːte | m aː t e
+vanuatuvoices-Kerepua-9_nine-2 | Kerepua | NINE | rapat | r a p a t
+vanuatuvoices-Kerepua-7_seven-2 | Kerepua | SEVEN | raβerua | r a β e r u a
+vanuatuvoices-Kerepua-3_three-2 | Kerepua | THREE | tolu | t o l u
+vanuatuvoices-Kerepua-11_twenty-2 | Kerepua | TWENTY | naβul_rua | n a β u l + r u a
+vanuatuvoices-Kerepua-1_one-2 | Kerepua | ONE | ehe | e h e
+vanuatuvoices-Kerepua-12_fifty-2 | Kerepua | FIFTY | naβul_lima | n a β u l + l i m a
+vanuatuvoices-Kerepua-13_onehundred-2 | Kerepua | HUNDRED | naβil_βaʔ_ehe | n a β i l + β a ʔ + e h e
+vanuatuvoices-Kerepua-6_six-2 | Kerepua | SIX | limaraβe | l i m a r a β e
+vanuatuvoices-Wusi-7_seven-2 | Wusi | SEVEN | raβerua | r a β e r u a
+vanuatuvoices-Wusi-3_three-2 | Wusi | THREE | tolu | t o l u
+vanuatuvoices-Wusi-11_twenty-2 | Wusi | TWENTY | naβul_rua | n a β u l + r u a
+vanuatuvoices-Wusi-2_two-2 | Wusi | TWO | rua | r u a
+vanuatuvoices-Wusi-4_four-2 | Wusi | FOUR | βaːti | β aː t i
+vanuatuvoices-Wusi-1_one-2 | Wusi | ONE | ehe | e h e
+vanuatuvoices-Tasmate-9_nine-2 | Tasmate | NINE | t͡ʃiwa | tʃ i w a
+vanuatuvoices-Tasmate-7_seven-2 | Tasmate | SEVEN | pitu | p i t u
+vanuatuvoices-Tasmate-3_three-2 | Tasmate | THREE | tolu | t o l u
+vanuatuvoices-Tasmate-2_two-2 | Tasmate | TWO | rua | r u a
+vanuatuvoices-Tasmate-8_eight-2 | Tasmate | EIGHT | alu | a l u
+vanuatuvoices-Tasmate-1_one-2 | Tasmate | ONE | tewa | t e w a
+vanuatuvoices-Tasmate-10_ten-2 | Tasmate | TEN | sanaβul | s a n a β u l
+vanuatuvoices-Tasmate-6_six-2 | Tasmate | SIX | ono | o n o
+vanuatuvoices-Tasmate-5_five-2 | Tasmate | FIVE | lima | l i m a
+vanuatuvoices-Linduri-2_two-2 | Linduri | TWO | morua | m o r u a
+vanuatuvoices-Winsao-1_one-2 | Winsao | ONE | moese | m o e s e
+vanuatuvoices-TialeSauriki-3_three-2 | Tiale: Sauriki | THREE | motol | m o t o l
+vanuatuvoices-TialeSauriki-2_two-2 | Tiale: Sauriki | TWO | morua | m o r u a
+vanuatuvoices-TialeSauriki-1_one-2 | Tiale: Sauriki | ONE | moes | m o e s
+vanuatuvoices-TolomakoPortOlry-9_nine-2 | Tolomako: Port Olry | NINE | laratat | l a r a t a t
+vanuatuvoices-TolomakoPortOlry-7_seven-2 | Tolomako: Port Olry | SEVEN | larave_rua | l a r a v e + r u a
+vanuatuvoices-TolomakoPortOlry-3_three-2 | Tolomako: Port Olry | THREE | tolu | t o l u
+vanuatuvoices-TolomakoPortOlry-2_two-2 | Tolomako: Port Olry | TWO | rua | r u a
+vanuatuvoices-TolomakoPortOlry-4_four-2 | Tolomako: Port Olry | FOUR | vati | v a t i
+vanuatuvoices-TolomakoPortOlry-1_one-2 | Tolomako: Port Olry | ONE | tea | t e a
+vanuatuvoices-TolomakoPortOlry-6_six-2 | Tolomako: Port Olry | SIX | larave | l a r a v e
+vanuatuvoices-TolomakoPortOlry-5_five-2 | Tolomako: Port Olry | FIVE | lina | l i n a
+vanuatuvoices-Nokuku-3_three-2 | Nokuku | THREE | tolu | t o l u
+vanuatuvoices-Nokuku-14_onethousand-2 | Nokuku | THOUSAND | roβun_teβ | r o β u n + t e β
+vanuatuvoices-Nokuku-2_two-2 | Nokuku | TWO | rua | r u a
+vanuatuvoices-Nokuku-1_one-2 | Nokuku | ONE | tewa | t e w a
+vanuatuvoices-Nokuku-10_ten-2 | Nokuku | TEN | sonoβul | s o n o β u l
+vanuatuvoices-Nokuku-5_five-2 | Nokuku | FIVE | lima | l i m a
 vanuatuvoices-Venentautealpalak-72_feather-2 | V’ënen Taute: Alpalak | FEATHER | nilⁿdʳln | n i l ⁿdʳ l n
 abvdoceanic-Ulithian_1180-1_hand-2 | Ulithian | HAND | pa | p a
 abvdoceanic-NindeLawa_1217-142_heavy-2 | Ninde (Lawa) | HEAVY | luᵐʙ | l u ⁿʙ
@@ -3582,6 +3642,7 @@ hubercolumbian-Bora-272_belly-1 | Bora | BELLY | íʔpáɯ | i ʔ p a ɯ
 hubercolumbian-Bora-272_belly-2 | Bora | BELLY | méʔpáɯɯ́ | m e ʔ p a ɯ ɯ
 hubercolumbian-Mirana-272_belly-1 | Miraña | BELLY | íʔpáɯ | i ʔ p a ɯ
 northperulex-Bora-16_blood-2 | Bora | BLOOD | tʰɯ́-hpʰakʰʲo | tʰ ɯ + h pʰ a kʲʰ o
+northperulex-Bora-10_belly-2 | Bora | BELLY | íʔpáɯ | i ʔ p a + ɯ
 seifartecheverriboran-Bora-205_blood-2 | Bora | BLOOD | tʰɯ́-hpʰakʰʲo | tʰ ɯ + h pʰ a kʲʰ o
 seifartecheverriboran-Bora-68_steelaxestoneaxe-2 | Bora | AXE | ɯ́kʷaá-hɨ | ɯ kʷ a a + h ɨ
 seifartecheverriboran-Bora-296_macawblue-1 | Bora | MACAW | íɲaʔa | i ɲ a ʔ a
@@ -3655,7 +3716,6 @@ hubercolumbian-Muinane-272_belly-1 | Muinane | BELLY | íiba | i i b a
 northperulex-Muinane-86_leaf-2 | Muinane | LEAF | áame | a a m e
 northperulex-Muinane-16_blood-2 | Muinane | BLOOD | tɨ́ɨ́-hóʔo | t ɨ ɨ + h o ʔ o
 northperulex-Muinane-10_belly-2 | Muinane | BELLY | íiba | i i b a
-northperulex-Muinane-119_river-3 | Muinane | RIVER | múúai | m u u a i
 seifartecheverriboran-Muinane-120_leaftreeleaf-2 | Muinane | LEAF | áame | a a m e
 seifartecheverriboran-Muinane-205_blood-2 | Muinane | BLOOD | tɨ́ɨ́-hóʔo | t ɨ ɨ + h o ʔ o
 seifartecheverriboran-Muinane-211_belly-1 | Muinane | BELLY | íiba | i i b a
@@ -3731,7 +3791,7 @@ chaconcolumbian-Wayuu-109_roof-2 | wayuu | ROOF | sáahuna miiʧi | s aa h u n a
 hubercolumbian-WitotoMinica-272_belly-1 | Witoto Mi̵ni̵ca | BELLY | hébe | h e b e
 hubercolumbian-WitotoMinica-272_belly-2 | Witoto Mi̵ni̵ca | BELLY | hébekɯ | h e b e k ɯ
 northperulex-WitotoMinica-10_belly-4 | Minica Huitoto | BELLY | hébe | h e b e
-northperulex-WitotoMinica-10_belly-5 | Minica Huitoto | BELLY | hébekɯ | h e b e k ɯ
+northperulex-WitotoMinica-10_belly-5 | Minica Huitoto | BELLY | hébekɯ | h e b e + k ɯ
 hubercolumbian-WitotoMurui-272_belly-1 | Witoto Murui | BELLY | hebe | h e b e
 northperulex-WitotoMurui-10_belly-3 | Murui Huitoto | BELLY | hebe | h e b e
 hubercolumbian-WitotoNipode-272_belly-1 | Witoto Ni̵pode | BELLY | hébe | h e b e
@@ -5957,7 +6017,6 @@ naganorgyalrongic-MaerkangSomanrGyalrong-1244_similar-1 | rGyalrong (Maerkang So
 naganorgyalrongic-MaerkangJaphugrGyalrong-610_leashdragv-1 | rGyalrong (Maerkang Japhug Shaerzong (B)) | LEASH | βraʁ | β r a ʁ
 naganorgyalrongic-MaerkangJaphugrGyalrong-755_water-1 | rGyalrong (Maerkang Japhug Shaerzong (B)) | WATER | tɯci | t ɯ c i
 naganorgyalrongic-MaerkangJaphugrGyalrong-865_skinfur-1 | rGyalrong (Maerkang Japhug Shaerzong (B)) | FUR | tɯndʐi | t ɯ n ɖʐ i
-northperulex-Shuar-1_allofanumber-2 | Shuar | ALL | mashi | m a ʃ i
 northeuralex-liv-913_lead-1 | Livonian | LEAD (GUIDE) | juːˀodə | j uː ʔ o d ə
 northeuralex-sms-913_lead-1 | Skolt Sami | LEAD (GUIDE) | ʝɔːðʲtʲɛd | ʝ ɔː ðʲ tʲ ɛ d
 northeuralex-sjd-913_lead-1 | Kildin Sami | LEAD (GUIDE) | vɨɡke | v ɨ g k e
@@ -10032,6 +10091,18 @@ galuciotupi-Ju-46_foot-2 | Jurúna | FOOT | bɨdahá | b ɨ d a h a
 tuled-Akuntsu-83-2 | Akuntsu | COME | tʃe | tʃ e
 vanuatuvoices-Nakanamangasesake-77_mother-2 | Nakanamanga: Sesake | MOTHER | tete | t e t e
 vanuatuvoices-Nakanamangasesake-78_father-2 | Nakanamanga: Sesake | FATHER | popo | p o p o
+vanuatuvoices-Nkep-9_nine-2 | Nkep | NINE | repeð | r e p e ð
+vanuatuvoices-Nkep-7_seven-2 | Nkep | SEVEN | kɒru | k ɒ r u
+vanuatuvoices-Nkep-8_eight-2 | Nkep | EIGHT | ratœl | r a t œ l
+vanuatuvoices-Nkep-1_one-2 | Nkep | ONE | teː | t eː
+vanuatuvoices-Sakao-3_three-2 | Sakao | THREE | tøl | t ø l
+vanuatuvoices-Sakao-2_two-2 | Sakao | TWO | tu | t u
+vanuatuvoices-Sakao-4_four-2 | Sakao | FOUR | jet | j e t
+vanuatuvoices-Sakao-8_eight-2 | Sakao | EIGHT | retøl | r e t ø l
+vanuatuvoices-Sakao-1_one-2 | Sakao | ONE | te | t e
+vanuatuvoices-Sakao-10_ten-2 | Sakao | TEN | saɣyl | s a ɣ y l
+vanuatuvoices-Sakao-6_six-2 | Sakao | SIX | kora | k o r a
+vanuatuvoices-Sakao-5_five-2 | Sakao | FIVE | køløn | k ø l ø n
 vanuatuvoices-Sivitinjavjericho-78_father-2 | Siviti (Njav): Jericho | FATHER | tate | t a t e
 vanuatuvoices-Sivitinjavjericho-299_grandmother_maternal-2 | Siviti (Njav): Jericho | MATERNAL GRANDMOTHER | putat | p u t a t
 wangbai-Ega-461_thread-2 | Ega | THREAD | xɯ22 | x ɯ ²²
@@ -10161,6 +10232,8 @@ zhoubizic-CajiAdi-226_tocoverup-2 | Caji-adi | BURY | a⁵⁵ da¹³?1 | a ⁵�
 crossandean-Inkawasi-123_goto-2 | Lambayeque | GO | ři | r i
 crossandean-Maragua-57_manswperson-2 | Chuquisaca | PERSON | řuna | r u n a
 crossandean-Pacaraos-78_stone-2 | Pacaraos | STONE | rrumi | r u m i
+crossandean-Pocona-117_warmhotsw-2 | Cochabamba | HOT OR WARM | řupha | r u pʰ a
+crossandean-Lincha-Tana-20_with-2 | Lincha-Tana | WITH | -man | w a n
 utoaztecan-ClassicalAztec-75_lie-2 | Classical Nahuatl | LIE (REST) | teeka | t eː k a
 utoaztecan-Pipil-2_many-2 | Pipil | MANY | muuči | m uː tʃ i
 peirosaustroasiatic-JahHut-82_sun-2 | Jah-Hut | SUN | mat kətɔʔ | m a t + k ə t ɔ ʔ
