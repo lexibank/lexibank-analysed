@@ -1,13 +1,12 @@
 import pathlib
 import zipfile
+import functools
 import itertools
 import collections
-import shutil
-import json
-import codecs
 import nameparser
-import attr
+from typing import Optional
 
+import attr
 import pycldf
 from tqdm import tqdm
 import pylexibank.dataset
@@ -16,11 +15,33 @@ from pylexibank import Lexeme, Concept, Language
 from pylexibank.cldf import LexibankWriter
 from pylexibank import Dataset as BaseDataset
 from cldfbench import CLDFSpec
-from cldfzenodo import API as cldfzenodoapi
+from cldfzenodo import Api
 from cltoolkit import Wordlist
 from cltoolkit.features import FEATURES
 from clldutils.misc import slug
+from clldutils.jsonlib import load, update
 from lingpy.sequence.sound_classes import prosodic_string
+
+ZENODO_API_CACHE = pathlib.Path('.zenodo.api.json')
+
+
+class CachingZenodoApi(Api):
+    def __call__(
+            self,
+            what: str,
+            id_: Optional[str] = None,
+            params: Optional[dict[str, str]] = None,
+            headers: Optional[dict[str, str]] = None,
+            _verbose: bool = False,
+    ) -> str:
+        cache_key = f"{what}-{id_}-{params}-{headers}"
+        with update(ZENODO_API_CACHE, default={}, indent=2) as cache:
+            if cache_key not in cache:
+                cache[cache_key] = super().__call__(what, id_, params, headers, _verbose)
+            return cache[cache_key]
+
+cldfzenodoapi = CachingZenodoApi()
+
 
 COLLECTIONS = {
     'LexiCore': (
@@ -142,7 +163,7 @@ class Dataset(BaseDataset):
                 dir=self.cldf_dir, module="StructureDataset"),
         }
 
-    @property
+    @functools.cached_property
     def dataset_meta(self):
         res = collections.OrderedDict()
         for row in self.etc_dir.read_csv(LB_VERSION, delimiter='\t', dicts=True):
@@ -157,23 +178,25 @@ class Dataset(BaseDataset):
         sources = pycldf.Sources.from_file(self.raw_dir / "base-sources.bib")
         for dataset, row in self.dataset_meta.items():
             dest = self.raw_dir / dataset
-            if dest.exists():
-                args.log.info(f'Removing old download in {dest}')
-                shutil.rmtree(dest)
 
             args.log.info(f"Downloading {dataset}")
             record = cldfzenodoapi.get_record(row["Zenodo"])
+            dest = dest / record.doi.split('/')[-1]
+            if not dest.exists() or (not dest.joinpath('README.md').exists()):
+                dest.mkdir(exist_ok=True)
+                record.download(dest)
+
             # check if record is most recent one
-            rec_new = record.from_concept_doi(record.concept_doi)
+            rec_new = cldfzenodoapi.get_record(conceptdoi=record.concept_doi)
             if rec_new.doi != record.doi:
-                record = rec_new
-                args.log.warn(f'DOI for datasets {row["ID"]} is not the latest version!')
-            record.download(dest)
+                args.log.warn(
+                    'DOI for dataset %s is not the latest version: %s vs. %s',
+                    row['ID'], record.version, rec_new.version)
 
             # load zenodo info to make a new bibtex and doi
-            with open(self.raw_dir / dataset / ".zenodo.json", encoding='utf8') as f:
-                meta = json.load(f)
-            editors = [c["name"] for c in meta["contributors"] if c["type"] == "Editor"]
+            editors = [
+                c["name"] for c in load(dest / ".zenodo.json")["contributors"]
+                if c["type"] == "Editor"]
             for i, editor in enumerate(editors):
                 name = nameparser.HumanName(editor)
                 first = name.first
@@ -181,10 +204,15 @@ class Dataset(BaseDataset):
                     first = " " + name.middle
                 editors[i] = f"{name.last}, {first}"
 
-            # load normal metadata to get the original citation
-            with open(self.raw_dir / dataset / "metadata.json", encoding='utf8') as f:
-                meta = json.load(f)
-            description = meta["citation"]
+            for obj in load(dest / 'cldf' / 'cldf-metadata.json')['prov:wasDerivedFrom']:
+                if obj.get('dc:title') == 'Repository':
+                    github_repos = obj['rdf:about']
+                    break
+            else:
+                raise ValueError(row['ID'])
+
+            github_repos = github_repos.replace('git@github.com:', 'https://github.com/')
+
             # create bibtex and write to new file
             bib = dict(
                 author=" and ".join(record.creators),
@@ -193,21 +221,24 @@ class Dataset(BaseDataset):
                 year=record.year,
                 address="Geneva",
                 doi=record.doi)
+            if github_repos:
+                bib['github'] = f'{github_repos}/tree/{record.version}'
             if editors:
                 bib["editor"] = " and ".join(editors)
-            if description:
-                bib["citation"] = description
+            # load normal metadata to get the original citation
+            meta = load(dest / "metadata.json")
+            if meta["citation"]:
+                bib["citation"] = meta["citation"]
 
             sources.add(pycldf.Source("book", row["ID"], **bib))
 
             # check if source is in sources
             for src_key in row["Source"].split(" "):
                 if src_key not in sources:
-                    args.log.warn(f"source with key '{src_key}' missing in data")
+                    args.log.warn("source with key '%s' missing in data", src_key)
 
-        with codecs.open(self.raw_dir / "sources.bib", "w", "utf-8") as f:
-            for source in sources:
-                f.write(source.bibtex() + "\n\n")
+        self.raw_dir.joinpath("sources.bib").write_text(
+            '\n\n'.join(src.bibtex() for src in sources))
 
         with self.raw_dir.temp_download(CLTS_2_3[0], 'ds.zip', log=args.log) as zipp:
             zipfile.ZipFile(str(zipp)).extractall(self.raw_dir)
@@ -226,17 +257,16 @@ class Dataset(BaseDataset):
                 if set_ in md['collections']]
 
         for dataset_id in dataset_ids:
-            try:
-                if dataset_id not in _loaded:
-                    _loaded[dataset_id] = (
-                        pycldf.Dataset.from_metadata(
-                            self.raw_dir / dataset_id / "cldf" / "cldf-metadata.json"), dataset_meta[dataset_id])
-                if with_metadata:
-                    yield _loaded[dataset_id]
-                else:
-                    yield _loaded[dataset_id][0]
-            except FileNotFoundError:
-                print(f"Missing Dataset: {dataset_id}")
+            if dataset_id not in _loaded:
+                zenodo_dir = self.raw_dir / dataset_id / dataset_meta[dataset_id]['Zenodo'].split('/')[-1]
+                if not zenodo_dir.exists():
+                    print(f"Missing Dataset: {dataset_id}")
+                    continue
+
+                _loaded[dataset_id] = (
+                    pycldf.Dataset.from_metadata(
+                        zenodo_dir / "cldf" / "cldf-metadata.json"), dataset_meta[dataset_id])
+            yield _loaded[dataset_id] if with_metadata else _loaded[dataset_id][0]
 
     def _schema(self, writer, with_stats=False, collstats=None):
         writer.cldf.add_component(
