@@ -26,7 +26,7 @@
             "name": "Johann-Mattis List"
         }
     ],
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank\u00b2: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.2]. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>\n</blockquote>",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank 2: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.2]. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>\n</blockquote>",
     "access_right": "open",
     "keywords": [
         "cldf:Wordlist",
@@ -35,7 +35,5 @@
     "license": {
         "id": "CC-BY-4.0"
     },
-    "upload_type": "dataset",
-    "communities": [],
-    "contributors": []
+    "upload_type": "dataset"
 }
