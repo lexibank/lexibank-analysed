@@ -36,15 +36,15 @@ The core-sets are defined by using the following criteria:
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 5,501 (linked to 3,120 different Glottocodes)
-- **Concepts:** 3,205 (linked to 3,205 different Concepticon concept sets)
-- **Lexemes:** 1,740,092
-- **Sources:** 134
+- **Varieties:** 5,592 (linked to 3,144 different Glottocodes)
+- **Concepts:** 3,213 (linked to 3,213 different Concepticon concept sets)
+- **Lexemes:** 1,753,527
+- **Sources:** 141
 - **Synonymy:** 1.08
 - **Invalid lexemes:** 0
-- **Tokens:** 9,657,998
-- **Segments:** 2,471 (0 BIPA errors, 0 CLTS sound class errors, 2462 CLTS modified)
-- **Inventory size (avg):** 38.75
+- **Tokens:** 9,725,873
+- **Segments:** 2,490 (0 BIPA errors, 0 CLTS sound class errors, 2481 CLTS modified)
+- **Inventory size (avg):** 38.72
 
 ## Possible Improvements:
 
@@ -69,10 +69,10 @@ Frederic Blum       | @FredericBlum    | maintainer   | Author
 Carlos Barrientos   | @MuffinLinwist   | maintainer   | Author
 Johannes Englisch   | @johenglisch     | maintainer   | Author
 Robert Forkel       | @xrotwang        | maintainer   | Author
-Russell D. Gray     |                  | maintainer   | Author
 Simon J. Greenhill  | @simongreenhill  | maintainer   | Author
 Christoph Rzymski   | @chrzyki         | maintainer   | Author
 Johann-Mattis List  | @LinguList       | maintainer   | Author
+Russell D. Gray     |                  | funding      | Other
 
 
 

@@ -720,7 +720,7 @@ vanuatuvoices-Tutuba-12_fifty-2 | Tutuba | FIFTY | ŋaβlelima | ŋ a β l e l i
 vanuatuvoices-Tutuba-10_ten-2 | Tutuba | TEN | saŋaβul | s a ŋ a β u l
 vanuatuvoices-Tutuba-6_six-2 | Tutuba | SIX | eono | e o n o
 vanuatuvoices-Piamatsina-7_seven-2 | Piamatsina | SEVEN | pitu | p i t u
-vanuatuvoices-Piamatsina-82_night-2 | Piamatsina | NIGHT | ⁿᵈroⁿᵈro | n d r o n d r o
+vanuatuvoices-Piamatsina-82_night-2 | Piamatsina | NIGHT | ⁿᵈroⁿᵈro | ⁿdʳ o ⁿdʳ o
 vanuatuvoices-Piamatsina-14_onethousand-2 | Piamatsina | THOUSAND | tar_βaha_senaβul | t a r + β a h a + s e n a β u l
 vanuatuvoices-Piamatsina-11_twenty-2 | Piamatsina | TWENTY | ŋaβlarua | ŋ a β l a r u a
 vanuatuvoices-Piamatsina-2_two-2 | Piamatsina | TWO | rua | r u a
@@ -1520,6 +1520,7 @@ blumpanotacana-Moseten-385_sleep-2 | Mosetén | SLEEP | ku'ši | k o ʃ i
 keypano-Moseten-8-600-1 | Mosetén | TREE | de'reʔ | d e r e ʔ
 keypano-Moseten-22-310-2 | Mosetén | HEAVEN | maye'dʸeʔ | m a j e dʲ e ʔ
 keypano-Movima-8-600-1 | Movima | TREE | koʔo | k o ʔ o
+amazonianvoices-sharanahua-108_healer-1 | Sharanawa | SHAMAN (FOLK HEALER) | dʒuɸʷɨ | dʒ u ɸʷ ɨ
 blumpanotacana-ShipiboConibo-20_extinguish-2 | Shipibo-Konibo | EXTINGUISH | noka-ti | n o k a + t i
 keypano-ShipiboConibo-8-600-1 | Shipibo-Conibo | TREE | hiwi | h i w i
 keypano-Tacana-8-600-1 | Tacana | TREE | aki | a k i
@@ -5204,6 +5205,21 @@ transnewguineaorg-berik-47_new-2 | Berik | NEW | tansi | t a n s i
 keypano-Cayuvava-8-600-2 | Cayuvava | TREE | naræ | n a ɾ æ
 keypano-Cayuvava-8-600-3 | Cayuvava | TREE | nãræ̃ | n ã ɾ æ̃
 keypano-Cayuvava-15-690-2 | Cayuvava | YELLOW | da'rutæ | d a ɾ u t æ
+nikulinkawapanan-Shawi-Nikulin-2022-273-66-2 | Shawi | BURN | aʔpɘ- | a ʔ p ɘ
+nikulinkawapanan-Shawi-Nikulin-2022-273-70-2 | Shawi | TOUCAN | joʔwiɴ | j o ʔ w i ɴ
+nikulinkawapanan-Shawi-Nikulin-2022-273-147-2 | Shawi | CLIMB | naɴpɘ- | n a ɴ p ɘ
+nikulinkawapanan-Shawi-Nikulin-2022-273-117-2 | Shawi | EVENING STAR | iʔwajo | i ʔ w a j o
+nikulinkawapanan-Shawi-Nikulin-2022-273-148-2 | Shawi | JUMP | nii- | n i i
+nikulinkawapanan-Shawi-Nikulin-2022-273-145-2 | Shawi | BITE | kɘtɘ- | k ɘ t ɘ
+nikulinkawapanan-Shawi-Nikulin-2022-273-151-2 | Shawi | CARRY | pɘʔpɘ- | p ɘ ʔ p ɘ
+nikulinkawapanan-Shawi-Nikulin-2022-273-152-2 | Shawi | SWEEP | wiʰtɘ- | w i h t ɘ
+nikulinkawapanan-Shawi-Nikulin-2022-273-218-1 | Shawi | BURN (SOMETHING) | iʔʃi- | i ʔ ʃ i
+nikulinkawapanan-Shawi-Nikulin-2022-273-155-2 | Shawi | OTTER | ini | i n i
+nikulinkawapanan-Shawi-Nikulin-2022-273-81-2 | Shawi | HUSBAND | soʔja | s o ʔ j a
+nikulinkawapanan-Shawi-Nikulin-2022-273-103-2 | Shawi | BONE | naɴsɘʔ | n a ɴ s ɘ ʔ
+nikulinkawapanan-Shawi-Nikulin-2022-273-249-1 | Shawi | GENIPA | isa | i s a
+nikulinkawapanan-Shawi-Nikulin-2022-273-228-2 | Shawi | SISTER (OF WOMAN) | kai | k a i
+nikulinkawapanan-Shawi-Nikulin-2022-273-256-2 | Shawi | GNAW | wɘno- | w ɘ n o
 transnewguineaorg-doromu-aramaika-2510_tofallfromstanding-2 | Doromu-Koki (Aramaika Dialect) | FALL | yare- | j a r e
 transnewguineaorg-proto-doromu-1233_hairbody-2 | Proto-Doromu | HAIR (BODY) | *ue-ta | u e + t a
 transnewguineaorg-fasu-9_bone-2 | Fasu | BONE | kiki | k i k i
@@ -6017,6 +6033,23 @@ naganorgyalrongic-MaerkangSomanrGyalrong-1244_similar-1 | rGyalrong (Maerkang So
 naganorgyalrongic-MaerkangJaphugrGyalrong-610_leashdragv-1 | rGyalrong (Maerkang Japhug Shaerzong (B)) | LEASH | βraʁ | β r a ʁ
 naganorgyalrongic-MaerkangJaphugrGyalrong-755_water-1 | rGyalrong (Maerkang Japhug Shaerzong (B)) | WATER | tɯci | t ɯ c i
 naganorgyalrongic-MaerkangJaphugrGyalrong-865_skinfur-1 | rGyalrong (Maerkang Japhug Shaerzong (B)) | FUR | tɯndʐi | t ɯ n ɖʐ i
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-66-2 | Shiwilu | BURN | apɘk- | a p ɘ k
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-70-2 | Shiwilu | TOUCAN | ð̞uwiɴ | ɹ̪ u w i ɴ
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-147-2 | Shiwilu | CLIMB | naɴpɘk- | n a ɴ p ɘ k
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-144-2 | Shiwilu | UNTIE | ɘkkɘɾ- | ɘ k k ɘ ɾ
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-117-2 | Shiwilu | EVENING STAR | ɘˀɾwað̞u | ɘˀ ɾ w a ɹ̪ u
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-148-2 | Shiwilu | JUMP | iɴð̞ɘk- | i ɴ ɹ̪ ɘ k
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-145-2 | Shiwilu | BITE | kitɘk- | k i t ɘ k
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-151-2 | Shiwilu | CARRY | piʔpɘk- | p i ʔ p ɘ k
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-152-2 | Shiwilu | SWEEP | witɘk- | w i t ɘ k
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-218-1 | Shiwilu | BURN (SOMETHING) | ð̞iʔsɘˀɾ- | ɹ̪ i ʔ s ɘˀ ɾ
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-155-2 | Shiwilu | OTTER | ð̞ɘɴɲi | ɹ̪ ɘ ɴ ɲ i
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-81-2 | Shiwilu | HUSBAND | suð̞a | s u ɹ̪ a
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-103-2 | Shiwilu | BONE | laɴsiʔ | l a ɴ s i ʔ
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-249-1 | Shiwilu | GENIPA | ɘksa | ɘ k s a
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-228-2 | Shiwilu | SISTER (OF WOMAN) | kað̞ɘk | k a ɹ̪ ɘ k
+nikulinkawapanan-Shiwilu-Nikulin-2022-273-256-2 | Shiwilu | GNAW | uklu | u k l u
+amazonianvoices-shiwilu-108_healer-1 | Shiwilu | SHAMAN (FOLK HEALER) | lulɘndutɘk̚ | l u l ɘ n d u t ɘ k̚
 northeuralex-liv-913_lead-1 | Livonian | LEAD (GUIDE) | juːˀodə | j uː ʔ o d ə
 northeuralex-sms-913_lead-1 | Skolt Sami | LEAD (GUIDE) | ʝɔːðʲtʲɛd | ʝ ɔː ðʲ tʲ ɛ d
 northeuralex-sjd-913_lead-1 | Kildin Sami | LEAD (GUIDE) | vɨɡke | v ɨ g k e
@@ -10276,3 +10309,6 @@ wheelerutoaztecan-NTepehuan-red-2 | N Tepehuan | RED | βɯ̄́gi | β ɯ g i
 utoaztecan-Guarijio-78_throw-2 | Guarijío | THROW | cewa- | ts e w a
 utoaztecan-Guarijio-79_give-2 | Guarijío | GIVE | kiʔá- | k i ʔ a
 walkerarawakan-Palikur-4_this-3 | Palikúr | THIS | ner | n e r
+kimkokborok-UsoiKatchaptali-198-towork-2 | UsoiKatchaptali | WORK (ACTIVITY) | ʂamuŋtauŋ | ʂ a m u ŋ t au ŋ
+mattercariban-bak-8-2 | Bakairi | NOT | pa | p a
+mattercariban-yab-25-2 | Yawarana | LEAF | ettareri | e t t a r e r i

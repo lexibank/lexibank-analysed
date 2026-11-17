@@ -181,7 +181,8 @@ class Dataset(BaseDataset):
 
             args.log.info(f"Downloading {dataset}")
             record = cldfzenodoapi.get_record(row["Zenodo"])
-            dest = dest / record.doi.split('/')[-1]
+            # TODO: Check why 'dest' no longer works as intended
+            #dest = dest / record.doi.split('/')[-1]
             if not dest.exists() or (not dest.joinpath('README.md').exists()):
                 dest.mkdir(exist_ok=True)
                 record.download(dest)
@@ -198,11 +199,12 @@ class Dataset(BaseDataset):
                 c["name"] for c in load(dest / ".zenodo.json")["contributors"]
                 if c["type"] == "Editor"]
             for i, editor in enumerate(editors):
-                name = nameparser.HumanName(editor)
-                first = name.first
-                if name.middle:
-                    first = " " + name.middle
-                editors[i] = f"{name.last}, {first}"
+                # TODO: nameparser was changed, test new syntax
+                name = nameparser.parse(editor)
+                # first = name.first
+                # if name.middle:
+                #     first = " " + name.middle
+                editors[i] = str(name)
 
             for obj in load(dest / 'cldf' / 'cldf-metadata.json')['prov:wasDerivedFrom']:
                 if obj.get('dc:title') == 'Repository':
@@ -227,8 +229,11 @@ class Dataset(BaseDataset):
                 bib["editor"] = " and ".join(editors)
             # load normal metadata to get the original citation
             meta = load(dest / "metadata.json")
-            if meta["citation"]:
+            # TODO: Fix citation for VanuatuVoices and potentially others
+            try:# meta["citation"]:
                 bib["citation"] = meta["citation"]
+            except:
+                bib["citation"] = 'none'
 
             sources.add(pycldf.Source("book", row["ID"], **bib))
 
@@ -258,9 +263,11 @@ class Dataset(BaseDataset):
 
         for dataset_id in dataset_ids:
             if dataset_id not in _loaded:
-                zenodo_dir = self.raw_dir / dataset_id / dataset_meta[dataset_id]['Zenodo'].split('/')[-1]
+                # TODO: Related to the issue above
+                zenodo_dir = self.raw_dir / dataset_id #/ dataset_meta[dataset_id]['Zenodo'].split('/')[-1]
                 if not zenodo_dir.exists():
                     print(f"Missing Dataset: {dataset_id}")
+                    # print(zenodo_dir)
                     continue
 
                 _loaded[dataset_id] = (
@@ -320,6 +327,7 @@ class Dataset(BaseDataset):
         if not with_stats:
             return
         for ds, md in tqdm(self._iter_datasets(with_metadata=True), desc='Computing summary stats'):
+            print(ds)
             langs = list(ds.iter_rows('LanguageTable', 'glottocode'))
             gcs = {lg['glottocode'] for lg in langs if lg['glottocode']}
             senses = list(ds.iter_rows('ParameterTable', 'concepticonReference'))
@@ -327,7 +335,8 @@ class Dataset(BaseDataset):
             contrib = dict(
                 ID=md['ID'],
                 Name=ds.properties['dc:title'],
-                Citation=ds.properties['dc:bibliographicCitation'],
+                # TODO: Fix VanuatoVoices
+                Citation='',#ds.properties['dc:bibliographicCitation'],
                 Collection_IDs=[key for key in COLLECTIONS if md.get(key, '').strip() == 'x'],
                 Glottocodes=len(gcs),
                 Doculects=len(langs),
@@ -444,6 +453,7 @@ class Dataset(BaseDataset):
                     Comment="Automatically computed feature.",
                     Source=[self.dataset_meta[language.dataset]["ID"]]
                 ))
+            # TODO: Fix with cltoolkit v0.3.0
             for feature in features:
                 v = feature(language)
                 if feature.categories:
@@ -464,6 +474,7 @@ class Dataset(BaseDataset):
             if visited is None:
                 visited = set()
             for language in tqdm(languages, desc='computing features'):
+                # print(language.id)
                 if not language.name or not language.name.strip() or language.name == 'None':
                     args.log.warning(f'{language.dataset}: {language.id}: {language.name}')
                     continue
@@ -489,12 +500,11 @@ class Dataset(BaseDataset):
                     # add form count for sorting
                     best_vars[lng.glottocode][lng.id] = (fws, lng)
             args.log.info(f"found {len(best_vars)} different glottocodes with {var_count} varieties")
-
             visited_concepts = set()
             best_languages = {}
             excluded = []
             for glc in tqdm(best_vars, desc="add_forms"):
-                _, best_language = max(best_vars[glc].values())
+                _, best_language = max(best_vars[glc].values(), key=lambda x: x[0])
                 for _, language in best_vars[glc].values():
                     if language.id == best_language.id:
                         best_languages[language.id] = language

@@ -19,13 +19,13 @@
         {
             "rdf:about": "https://github.com/lexibank/lexibank-analysed",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.1-6-g0ebc8f4",
+            "dc:created": "v2.2.6",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.3",
+            "dc:created": "v5.4",
             "dc:title": "Glottolog"
         },
         {
@@ -48,7 +48,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.12.3"
+            "dc:description": "3.11.18"
         },
         {
             "dc:title": "python-packages",
@@ -60,7 +60,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 1740092,
+            "dc:extent": 1753527,
             "tableSchema": {
                 "columns": [
                     {
@@ -192,7 +192,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 3205,
+            "dc:extent": 3213,
             "tableSchema": {
                 "columns": [
                     {

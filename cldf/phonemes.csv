@@ -2,6 +2,7 @@ ID,Name,Description,ColumnSpec,cltsReference
 advanced_nasalized_unrounded_close_front_vowel,ĩ̟,advanced nasalized unrounded close front vowel,,advanced_nasalized_unrounded_close_front_vowel
 advanced_unrounded_close-mid_back_vowel,ɤ̟,advanced unrounded close-mid back vowel,,advanced_unrounded_close-mid_back_vowel
 advanced_unrounded_close-mid_central_vowel,ɘ̟,advanced unrounded close-mid central vowel,,advanced_unrounded_close-mid_central_vowel
+advanced_unrounded_close_central_vowel,ɨ̟,advanced unrounded close central vowel,,advanced_unrounded_close_central_vowel
 advanced_unrounded_close_front_vowel,i̟,advanced unrounded close front vowel,,advanced_unrounded_close_front_vowel
 advanced_unrounded_open_back_vowel,ɑ̟,advanced unrounded open back vowel,,advanced_unrounded_open_back_vowel
 advanced_unrounded_open_front_vowel,a̟,advanced unrounded open front vowel,,advanced_unrounded_open_front_vowel
@@ -517,6 +518,7 @@ from_rounded_open-mid_back_to_long_nasalized_unrounded_open_back_diphthong,ɔɑ�
 from_rounded_open-mid_back_to_long_unrounded_open-mid_front_diphthong,ɔɛː,from rounded open-mid back to long unrounded open-mid front diphthong,,from_rounded_open-mid_back_to_long_unrounded_open-mid_front_diphthong
 from_rounded_open-mid_back_to_long_unrounded_open_back_diphthong,ɔɑː,from rounded open-mid back to long unrounded open back diphthong,,from_rounded_open-mid_back_to_long_unrounded_open_back_diphthong
 from_rounded_open-mid_back_to_nasalized_unrounded_open_front_diphthong,ɔã,from rounded open-mid back to nasalized unrounded open front diphthong,,from_rounded_open-mid_back_to_nasalized_unrounded_open_front_diphthong
+from_rounded_open-mid_back_to_non-syllabic_rounded_close_back_diphthong,ɔu̯,from rounded open-mid back to non-syllabic rounded close back diphthong,,from_rounded_open-mid_back_to_non-syllabic_rounded_close_back_diphthong
 from_rounded_open-mid_back_to_non-syllabic_rounded_near-close_near-front_diphthong,ɔʏ̯,from rounded open-mid back to non-syllabic rounded near-close near-front diphthong,,from_rounded_open-mid_back_to_non-syllabic_rounded_near-close_near-front_diphthong
 from_rounded_open-mid_back_to_non-syllabic_unrounded_close_front_diphthong,ɔi̯,from rounded open-mid back to non-syllabic unrounded close front diphthong,,from_rounded_open-mid_back_to_non-syllabic_unrounded_close_front_diphthong
 from_rounded_open-mid_back_to_rounded_close-mid_back_diphthong,ɔo,from rounded open-mid back to rounded close-mid back diphthong,,from_rounded_open-mid_back_to_rounded_close-mid_back_diphthong
@@ -1121,6 +1123,7 @@ long_nasalized_unrounded_close-mid_front_vowel,ẽː,long nasalized unrounded cl
 long_nasalized_unrounded_close_back_vowel,ɯ̃ː,long nasalized unrounded close back vowel,,long_nasalized_unrounded_close_back_vowel
 long_nasalized_unrounded_close_central_vowel,ɨ̃ː,long nasalized unrounded close central vowel,,long_nasalized_unrounded_close_central_vowel
 long_nasalized_unrounded_close_front_vowel,ĩː,long nasalized unrounded close front vowel,,long_nasalized_unrounded_close_front_vowel
+long_nasalized_unrounded_close_front_with-high_tone_vowel,ĩ́ː,long nasalized unrounded close front with-high tone vowel,,long_nasalized_unrounded_close_front_with-high_tone_vowel
 long_nasalized_unrounded_close_with-friction_back_vowel,ɿ̃ː,long nasalized unrounded close with-friction back vowel,,long_nasalized_unrounded_close_with-friction_back_vowel
 long_nasalized_unrounded_mid_central_vowel,ə̃ː,long nasalized unrounded mid central vowel,,long_nasalized_unrounded_mid_central_vowel
 long_nasalized_unrounded_mid_front_vowel,ẽ̞ː,long nasalized unrounded mid front vowel,,long_nasalized_unrounded_mid_front_vowel
@@ -1364,9 +1367,11 @@ mid-long_voiceless_alveolar_sibilant_fricative_consonant,sˑ,mid-long voiceless 
 more-rounded_unrounded_mid_central_vowel,ə̹,more-rounded unrounded mid central vowel,,more-rounded_unrounded_mid_central_vowel
 more-rounded_unrounded_open_front_vowel,a̹,more-rounded unrounded open front vowel,,more-rounded_unrounded_open_front_vowel
 nasalized_aspirated_voiced_palatal_approximant_consonant,j̃ʰ,nasalized aspirated voiced palatal approximant consonant,,nasalized_aspirated_voiced_palatal_approximant_consonant
+nasalized_breathy_rounded_close-mid_back_vowel,õ̤,nasalized breathy rounded close-mid back vowel,,nasalized_breathy_rounded_close-mid_back_vowel
 nasalized_breathy_unrounded_close-mid_back_vowel,ɤ̤̃,nasalized breathy unrounded close-mid back vowel,,nasalized_breathy_unrounded_close-mid_back_vowel
 nasalized_breathy_unrounded_close_back_vowel,ɯ̤̃,nasalized breathy unrounded close back vowel,,nasalized_breathy_unrounded_close_back_vowel
 nasalized_breathy_unrounded_close_front_vowel,ĩ̤,nasalized breathy unrounded close front vowel,,nasalized_breathy_unrounded_close_front_vowel
+nasalized_breathy_unrounded_mid_central_vowel,ə̤̃,nasalized breathy unrounded mid central vowel,,nasalized_breathy_unrounded_mid_central_vowel
 nasalized_breathy_unrounded_near-open_front_vowel,æ̤̃,nasalized breathy unrounded near-open front vowel,,nasalized_breathy_unrounded_near-open_front_vowel
 nasalized_breathy_unrounded_open_front_vowel,ã̤,nasalized breathy unrounded open front vowel,,nasalized_breathy_unrounded_open_front_vowel
 nasalized_creaky_rounded_close-mid_back_vowel,õ̰,nasalized creaky rounded close-mid back vowel,,nasalized_creaky_rounded_close-mid_back_vowel
@@ -1387,9 +1392,11 @@ nasalized_long_voiced_alveolar_trill_consonant,r̃ː,nasalized long voiced alveo
 nasalized_palatalized_voiced_labio-dental_fricative_consonant,ṽʲ,nasalized palatalized voiced labio-dental fricative consonant,,nasalized_palatalized_voiced_labio-dental_fricative_consonant
 nasalized_rounded_close-mid_back_vowel,õ,nasalized rounded close-mid back vowel,,nasalized_rounded_close-mid_back_vowel
 nasalized_rounded_close-mid_back_with-high_tone_vowel,ṍ,nasalized rounded close-mid back with-high tone vowel,,nasalized_rounded_close-mid_back_with-high_tone_vowel
+nasalized_rounded_close-mid_back_with-low_tone_vowel,õ̀,nasalized rounded close-mid back with-low tone vowel,,nasalized_rounded_close-mid_back_with-low_tone_vowel
 nasalized_rounded_close-mid_front_vowel,ø̃,nasalized rounded close-mid front vowel,,nasalized_rounded_close-mid_front_vowel
 nasalized_rounded_close_back_vowel,ũ,nasalized rounded close back vowel,,nasalized_rounded_close_back_vowel
 nasalized_rounded_close_back_with-high_tone_vowel,ṹ,nasalized rounded close back with-high tone vowel,,nasalized_rounded_close_back_with-high_tone_vowel
+nasalized_rounded_close_back_with-low_tone_vowel,ũ̀,nasalized rounded close back with-low tone vowel,,nasalized_rounded_close_back_with-low_tone_vowel
 nasalized_rounded_close_central_vowel,ʉ̃,nasalized rounded close central vowel,,nasalized_rounded_close_central_vowel
 nasalized_rounded_close_front_vowel,ỹ,nasalized rounded close front vowel,,nasalized_rounded_close_front_vowel
 nasalized_rounded_mid_back_vowel,õ̞,nasalized rounded mid back vowel,,nasalized_rounded_mid_back_vowel
@@ -1453,6 +1460,7 @@ nasalized_voiced_velar_nasal_consonant,ŋ̃,nasalized voiced velar nasal consona
 nasalized_voiceless_bilabial_stop_consonant,p̃,nasalized voiceless bilabial stop consonant,,nasalized_voiceless_bilabial_stop_consonant
 nasalized_voiceless_dental_click_consonant,ǀ̃,nasalized voiceless dental click consonant,,nasalized_voiceless_dental_click_consonant
 nasalized_voiceless_glottal_fricative_consonant,h̃,nasalized voiceless glottal fricative consonant,,nasalized_voiceless_glottal_fricative_consonant
+non-syllabic_breathy_unrounded_close-mid_front_vowel,e̤̯,non-syllabic breathy unrounded close-mid front vowel,,non-syllabic_breathy_unrounded_close-mid_front_vowel
 non-syllabic_nasalized_unrounded_close_front_vowel,ĩ̯,non-syllabic nasalized unrounded close front vowel,,non-syllabic_nasalized_unrounded_close_front_vowel
 non-syllabic_retracted_unrounded_close_front_vowel,i̯̠,non-syllabic retracted unrounded close front vowel,,non-syllabic_retracted_unrounded_close_front_vowel
 non-syllabic_rounded_close-mid_back_vowel,o̯,non-syllabic rounded close-mid back vowel,,non-syllabic_rounded_close-mid_back_vowel
@@ -1460,7 +1468,9 @@ non-syllabic_rounded_close-mid_front_vowel,ø̯,non-syllabic rounded close-mid f
 non-syllabic_rounded_close_back_vowel,u̯,non-syllabic rounded close back vowel,,non-syllabic_rounded_close_back_vowel
 non-syllabic_rounded_close_front_vowel,y̯,non-syllabic rounded close front vowel,,non-syllabic_rounded_close_front_vowel
 non-syllabic_rounded_near-close_near-back_vowel,ʊ̯,non-syllabic rounded near-close near-back vowel,,non-syllabic_rounded_near-close_near-back_vowel
+non-syllabic_unrounded_close-mid_central_vowel,ɘ̯,non-syllabic unrounded close-mid central vowel,,non-syllabic_unrounded_close-mid_central_vowel
 non-syllabic_unrounded_close-mid_front_vowel,e̯,non-syllabic unrounded close-mid front vowel,,non-syllabic_unrounded_close-mid_front_vowel
+non-syllabic_unrounded_close_back_vowel,ɯ̯,non-syllabic unrounded close back vowel,,non-syllabic_unrounded_close_back_vowel
 non-syllabic_unrounded_close_central_vowel,ɨ̯,non-syllabic unrounded close central vowel,,non-syllabic_unrounded_close_central_vowel
 non-syllabic_unrounded_close_front_vowel,i̯,non-syllabic unrounded close front vowel,,non-syllabic_unrounded_close_front_vowel
 non-syllabic_unrounded_close_front_with-high_tone_vowel,í̯,non-syllabic unrounded close front with-high tone vowel,,non-syllabic_unrounded_close_front_with-high_tone_vowel
@@ -1469,6 +1479,7 @@ non-syllabic_unrounded_mid_central_vowel,ə̯,non-syllabic unrounded mid central
 non-syllabic_unrounded_near-close_near-front_vowel,ɪ̯,non-syllabic unrounded near-close near-front vowel,,non-syllabic_unrounded_near-close_near-front_vowel
 non-syllabic_unrounded_near-open_central_vowel,ɐ̯,non-syllabic unrounded near-open central vowel,,non-syllabic_unrounded_near-open_central_vowel
 non-syllabic_unrounded_near-open_front_vowel,æ̯,non-syllabic unrounded near-open front vowel,,non-syllabic_unrounded_near-open_front_vowel
+non-syllabic_unrounded_open-mid_front_vowel,ɛ̯,non-syllabic unrounded open-mid front vowel,,non-syllabic_unrounded_open-mid_front_vowel
 non-syllabic_unrounded_open_back_vowel,ɑ̯,non-syllabic unrounded open back vowel,,non-syllabic_unrounded_open_back_vowel
 non-syllabic_unrounded_open_front_vowel,a̯,non-syllabic unrounded open front vowel,,non-syllabic_unrounded_open_front_vowel
 palatalized_aspirated_voiced_alveolar_lateral_approximant_consonant,lʲʰ,palatalized aspirated voiced alveolar lateral approximant consonant,,palatalized_aspirated_voiced_alveolar_lateral_approximant_consonant
@@ -1621,6 +1632,7 @@ pharyngealized_unrounded_near-open_central_vowel,ɐˤ,pharyngealized unrounded n
 pharyngealized_unrounded_open-mid_back_vowel,ʌˤ,pharyngealized unrounded open-mid back vowel,,pharyngealized_unrounded_open-mid_back_vowel
 pharyngealized_unrounded_open_front_vowel,aˤ,pharyngealized unrounded open front vowel,,pharyngealized_unrounded_open_front_vowel
 pharyngealized_voiced_alveolar_lateral_approximant_consonant,lˤ,pharyngealized voiced alveolar lateral approximant consonant,,pharyngealized_voiced_alveolar_lateral_approximant_consonant
+pharyngealized_voiced_alveolar_lateral_fricative_consonant,ɮˤ,pharyngealized voiced alveolar lateral fricative consonant,,pharyngealized_voiced_alveolar_lateral_fricative_consonant
 pharyngealized_voiced_alveolar_nasal_consonant,nˤ,pharyngealized voiced alveolar nasal consonant,,pharyngealized_voiced_alveolar_nasal_consonant
 pharyngealized_voiced_alveolar_sibilant_affricate_consonant,dzˤ,pharyngealized voiced alveolar sibilant affricate consonant,,pharyngealized_voiced_alveolar_sibilant_affricate_consonant
 pharyngealized_voiced_alveolar_sibilant_fricative_consonant,zˤ,pharyngealized voiced alveolar sibilant fricative consonant,,pharyngealized_voiced_alveolar_sibilant_fricative_consonant
@@ -1891,6 +1903,7 @@ raised_unrounded_near-open_front_vowel,æ̝,raised unrounded near-open front vow
 raised_unrounded_open-mid_front_vowel,ɛ̝,raised unrounded open-mid front vowel,,raised_unrounded_open-mid_front_vowel
 raised_voiced_alveolar_approximant_consonant,ɹ̝,raised voiced alveolar approximant consonant,,raised_voiced_alveolar_approximant_consonant
 raised_voiced_alveolar_trill_consonant,r̝,raised voiced alveolar trill consonant,,raised_voiced_alveolar_trill_consonant
+raised_voiced_dental_fricative_consonant,ð̝,raised voiced dental fricative consonant,,raised_voiced_dental_fricative_consonant
 raised_voiceless_alveolar_stop_consonant,t̝,raised voiceless alveolar stop consonant,,raised_voiceless_alveolar_stop_consonant
 raised_voiceless_glottal_fricative_consonant,h̝,raised voiceless glottal fricative consonant,,raised_voiceless_glottal_fricative_consonant
 retracted-tongue-root_rounded_close_back_vowel,u̙,retracted-tongue-root rounded close back vowel,,retracted-tongue-root_rounded_close_back_vowel
@@ -1933,6 +1946,8 @@ retracted_voiced_labio-dental_fricative_consonant,v̠,retracted voiced labio-den
 retracted_voiced_velar_fricative_consonant,ɣ̠,retracted voiced velar fricative consonant,,retracted_voiced_velar_fricative_consonant
 retracted_voiceless_alveolar_sibilant_affricate_consonant,ts̠,retracted voiceless alveolar sibilant affricate consonant,,retracted_voiceless_alveolar_sibilant_affricate_consonant
 retracted_voiceless_velar_stop_consonant,k̠,retracted voiceless velar stop consonant,,retracted_voiceless_velar_stop_consonant
+revoiced_voiceless_alveolar_stop_consonant,t̬,revoiced voiceless alveolar stop consonant,,revoiced_voiceless_alveolar_stop_consonant
+revoiced_voiceless_bilabial_stop_consonant,p̬,revoiced voiceless bilabial stop consonant,,revoiced_voiceless_bilabial_stop_consonant
 rhotacized_glottalized_unrounded_close-mid_front_vowel,e˞ˀ,rhotacized glottalized unrounded close-mid front vowel,,rhotacized_glottalized_unrounded_close-mid_front_vowel
 rhotacized_glottalized_unrounded_mid_central_vowel,ə˞ˀ,rhotacized glottalized unrounded mid central vowel,,rhotacized_glottalized_unrounded_mid_central_vowel
 rhotacized_glottalized_unrounded_near-open_central_vowel,ɐ˞ˀ,rhotacized glottalized unrounded near-open central vowel,,rhotacized_glottalized_unrounded_near-open_central_vowel
@@ -2079,6 +2094,7 @@ ultra-short_unrounded_open_front_vowel,ă,ultra-short unrounded open front vowe
 unreleased_voiced_alveolar_stop_consonant,d̚,unreleased voiced alveolar stop consonant,,unreleased_voiced_alveolar_stop_consonant
 unreleased_voiced_alveolar_tap_consonant,ɾ̚,unreleased voiced alveolar tap consonant,,unreleased_voiced_alveolar_tap_consonant
 unreleased_voiced_bilabial_stop_consonant,b̚,unreleased voiced bilabial stop consonant,,unreleased_voiced_bilabial_stop_consonant
+unreleased_voiced_retroflex_stop_consonant,ɖ̚,unreleased voiced retroflex stop consonant,,unreleased_voiced_retroflex_stop_consonant
 unreleased_voiced_velar_stop_consonant,g̚,unreleased voiced velar stop consonant,,unreleased_voiced_velar_stop_consonant
 unreleased_voiceless_alveolar_stop_consonant,t̚,unreleased voiceless alveolar stop consonant,,unreleased_voiceless_alveolar_stop_consonant
 unreleased_voiceless_bilabial_fricative_consonant,ɸ̚,unreleased voiceless bilabial fricative consonant,,unreleased_voiceless_bilabial_fricative_consonant
@@ -2371,6 +2387,7 @@ voiceless_retroflex_sibilant_affricate_consonant,ʈʂ,voiceless retroflex sibila
 voiceless_retroflex_sibilant_fricative_consonant,ʂ,voiceless retroflex sibilant fricative consonant,,voiceless_retroflex_sibilant_fricative_consonant
 voiceless_retroflex_stop_consonant,ʈ,voiceless retroflex stop consonant,,voiceless_retroflex_stop_consonant
 voiceless_uvular_affricate_consonant,qχ,voiceless uvular affricate consonant,,voiceless_uvular_affricate_consonant
+voiceless_uvular_ejective_fricative_consonant,χʼ,voiceless uvular ejective fricative consonant,,voiceless_uvular_ejective_fricative_consonant
 voiceless_uvular_ejective_stop_consonant,qʼ,voiceless uvular ejective stop consonant,,voiceless_uvular_ejective_stop_consonant
 voiceless_uvular_fricative_consonant,χ,voiceless uvular fricative consonant,,voiceless_uvular_fricative_consonant
 voiceless_uvular_stop_consonant,q,voiceless uvular stop consonant,,voiceless_uvular_stop_consonant
@@ -2386,7 +2403,11 @@ with-lateral-release_voiceless_alveolar_stop_consonant,tˡ,with-lateral-release 
 with-lateral-release_voiceless_bilabial_stop_consonant,pˡ,with-lateral-release voiceless bilabial stop consonant,,with-lateral-release_voiceless_bilabial_stop_consonant
 with-lateral-release_voiceless_glottal_fricative_consonant,hˡ,with-lateral-release voiceless glottal fricative consonant,,with-lateral-release_voiceless_glottal_fricative_consonant
 with-lateral-release_voiceless_velar_stop_consonant,kˡ,with-lateral-release voiceless velar stop consonant,,with-lateral-release_voiceless_velar_stop_consonant
+with-mid-central-vowel-release_voiced_alveolar_tap_consonant,ɾᵊ,with-mid-central-vowel-release voiced alveolar tap consonant,,with-mid-central-vowel-release_voiced_alveolar_tap_consonant
 with-mid-central-vowel-release_voiced_bilabial_nasal_consonant,mᵊ,with-mid-central-vowel-release voiced bilabial nasal consonant,,with-mid-central-vowel-release_voiced_bilabial_nasal_consonant
+with-mid-central-vowel-release_voiceless_alveolar_stop_consonant,tᵊ,with-mid-central-vowel-release voiceless alveolar stop consonant,,with-mid-central-vowel-release_voiceless_alveolar_stop_consonant
+with-mid-central-vowel-release_voiceless_bilabial_stop_consonant,pᵊ,with-mid-central-vowel-release voiceless bilabial stop consonant,,with-mid-central-vowel-release_voiceless_bilabial_stop_consonant
+with-mid-central-vowel-release_voiceless_glottal_fricative_consonant,hᵊ,with-mid-central-vowel-release voiceless glottal fricative consonant,,with-mid-central-vowel-release_voiceless_glottal_fricative_consonant
 with-nasal-release_breathy_voiced_alveolar_trill_consonant,rⁿʱ,with-nasal-release breathy voiced alveolar trill consonant,,with-nasal-release_breathy_voiced_alveolar_trill_consonant
 with-nasal-release_devoiced_voiceless_alveolar_stop_consonant,t̥ⁿ,with-nasal-release devoiced voiceless alveolar stop consonant,,with-nasal-release_devoiced_voiceless_alveolar_stop_consonant
 with-nasal-release_voiced_alveolar_trill_consonant,rⁿ,with-nasal-release voiced alveolar trill consonant,,with-nasal-release_voiced_alveolar_trill_consonant

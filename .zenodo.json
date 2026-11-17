@@ -1,0 +1,47 @@
+{
+    "title": "Lexibank Analysed",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Frederic Blum"
+        },
+        {
+            "name": "Carlos Barrientos"
+        },
+        {
+            "name": "Johannes Englisch"
+        },
+        {
+            "name": "Robert Forkel"
+        },
+        {
+            "name": "Simon J. Greenhill"
+        },
+        {
+            "name": "Christoph Rzymski"
+        },
+        {
+            "name": "Johann-Mattis List"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Russell D. Gray",
+            "type": "Other"
+        }
+    ],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Gray, Russell D.; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank\u00b2: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}
